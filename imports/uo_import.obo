@@ -1,0 +1,39 @@
+format-version: 1.2
+data-version: pmo/releases/2019-02-27/imports/uo_import.owl
+ontology: pmo/imports/uo_import
+
+[Term]
+id: UO:0000000
+name: unit
+namespace: unit.ontology
+def: "A unit of measurement is a standardized quantity of a physical quality." [Wikipedia:Wikipedia]
+created_by: george gkoutos
+
+[Term]
+id: UO:0000051
+name: concentration unit
+namespace: unit.ontology
+def: "A unit which represents a standard measurement of how much of a given substance there is mixed with another substance." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+relationship: is_unit_of PATO:0000033
+created_by: george gkoutos
+
+[Term]
+id: UO:0000067
+name: unit of molality
+namespace: unit.ontology
+def: "A concentration unit which is a standard measure of the number of moles of a given substance per kilogram of solvent." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0010003
+name: micromole per litre
+namespace: unit.ontology
+def: "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter." [NIST:NIST]
+subset: unit_slim
+is_a: UO:0000067 ! unit of molality
+created_by: Luke Slater
+

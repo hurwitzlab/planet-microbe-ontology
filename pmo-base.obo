@@ -1,0 +1,9 @@
+format-version: 1.2
+data-version: pmo/releases/2019-02-27/pmo-base.owl
+remark: Planet Microbe Ontology
+ontology: pmo/pmo-base
+
+[Term]
+id: PMO:00000000
+name: root node
+

@@ -1,0 +1,626 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	OBI:0001213	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001224	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001287	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001312	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001320	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001321	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001338	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001340	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001347	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001355	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001372	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001375	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001424	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001428	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001431	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001434	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001443	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0001458	IAO:0000115	A supplier of flow cytometry analyzers	
+ERROR	duplicate_definition	OBI:0000299	IAO:0000115	A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.@en	
+ERROR	duplicate_definition	OBI:0000312	IAO:0000115	A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.@en	
+ERROR	duplicate_definition	OBI:0000293	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en	
+ERROR	duplicate_definition	OBI:0000295	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en	
+ERROR	duplicate_definition	OBI:0002303	IAO:0000115	A pathologic distant metastases stage for lung according to AJCC 7th edition indicating that there is a distant metastases that is histologically confirmed.	
+ERROR	duplicate_definition	OBI:0002305	IAO:0000115	A pathologic distant metastases stage for lung according to AJCC 7th edition indicating that there is a distant metastases that is histologically confirmed.	
+ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
+ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	13042551c7a2011ce1a371276f6681a3	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	2ef722d089c6ab89b3878a84a8ee9ca8	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	0c1fd450945628d67b9f1c24460c180e	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	67f4d545e61d9a3a2c7492b88cf2c46f	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	356b2430d5b45ee7bc5bb63db4d04dd7	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	9dc2eaa3ee904a7213502dc029ca8b0e	
+ERROR	missing_label	oboInOwl:Subset	rdfs:label		
+ERROR	deprecated_class_reference	IAO:0000230	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0000146	
+ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0000186	
+ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001546	
+ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001547	
+ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001548	
+ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001985	
+ERROR	deprecated_class_reference	PATO:0001237	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	RO:0002218	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	missing_ontology_description	pmo.owl	dc11:description		
+ERROR	duplicate_label	CHEBI:15377	rdfs:label	water	
+ERROR	duplicate_label	ENVO:00002006	rdfs:label	water	
+ERROR	duplicate_label	ENVO:00000176	rdfs:label	elevation	
+ERROR	duplicate_label	PATO:0001687	rdfs:label	elevation	
+ERROR	duplicate_label	ENVO:2100007	rdfs:label	determined by part of	
+ERROR	duplicate_label	RO:0002509	rdfs:label	determined by part of	
+ERROR	duplicate_label	ENVO:2100001	rdfs:label	determined by	
+ERROR	duplicate_label	RO:0002507	rdfs:label	determined by	
+ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en	
+ERROR	multiple_definitions	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
+ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en	
+ERROR	multiple_definitions	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en	
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en	
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
+ERROR	multiple_definitions	BFO:0000031	IAO:0000115	A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.@en	
+ERROR	multiple_definitions	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
+ERROR	multiple_definitions	ENVO:00000002	IAO:0000115	An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.	
+ERROR	multiple_definitions	ENVO:00000002	IAO:0000115	An anthropogenic geographic feature is a geographic feature'resulting from the influence of human beings on nature.	
+ERROR	multiple_definitions	ENVO:00010483	IAO:0000115	A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system.	
+ERROR	multiple_definitions	ENVO:00010483	IAO:0000115	A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.	
+ERROR	multiple_definitions	ENVO:01000817	IAO:0000115	A biosphere is a part of an astronomical body which includes, as parts, all the living entities within the gravitational sphere of influence of that body, as well as the non-living and dead entities with which they interact.	
+ERROR	multiple_definitions	ENVO:01000817	IAO:0000115	A biosphere is an environmental system which includes, as parts, all the living entities within the gravitational sphere of influence of an astronomical body, and the non-living and dead entities which they interact with.	
+ERROR	multiple_definitions	PCO:0000000	IAO:0000115	A material entity that consists of two or more organisms, viruses, or viroids.	
+ERROR	multiple_definitions	PCO:0000000	IAO:0000115	A material entity that consists of two or more organisms, viruses, or viroids.@en	
+ERROR	multiple_definitions	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+ERROR	multiple_definitions	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+ERROR	multiple_definitions	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.	
+ERROR	multiple_definitions	RO:0002263	IAO:0000115	c involved in regulation of p if c enables  'p' and p' causally upstream of p	
+ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p	
+ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
+ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some 'p' and p' regulates some p	
+ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' regulates some p	
+ERROR	multiple_definitions	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
+ERROR	multiple_definitions	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
+ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in which the two partners are molecular entities and are executing molecular processes that are directly causally connected.	
+ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other.	
+ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.	
+ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities a and b when the execution of a activates or inhibits the activity of b	
+ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in process'	
+ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in'	
+ERROR	missing_ontology_license	pmo.owl	dc:license		
+ERROR	missing_ontology_title	pmo.owl	dc11:title		
+ERROR	multiple_labels	BFO:0000024	rdfs:label	fiat object@en	
+ERROR	multiple_labels	BFO:0000024	rdfs:label	fiat object part@en	
+ERROR	multiple_labels	PCO:0000000	rdfs:label	collection of organisms	
+ERROR	multiple_labels	PCO:0000000	rdfs:label	collection of organisms@en	
+ERROR	multiple_labels	RO:0002211	rdfs:label	regulates@en	
+ERROR	multiple_labels	RO:0002211	rdfs:label	regulates (processual)	
+ERROR	multiple_labels	RO:0002219	rdfs:label	surrounded by	
+ERROR	multiple_labels	RO:0002219	rdfs:label	surrounded by@en	
+ERROR	multiple_labels	RO:0002432	rdfs:label	enables activity in	
+ERROR	multiple_labels	RO:0002432	rdfs:label	is active in	
+ERROR	multiple_labels	RO:0002448	rdfs:label	activity directly regulates activity of	
+ERROR	multiple_labels	RO:0002448	rdfs:label	molecularly controls	
+ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in	
+ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in process	
+ERROR	multiple_labels	RO:0002608	rdfs:label	has causal agent	
+ERROR	multiple_labels	RO:0002608	rdfs:label	process has causal agent	
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] 	
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] 	
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] 	
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 	
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 	
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 	
+WARN	annotation_whitespace	BFO:0000015	IAO:0000602	(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] 	
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] 	
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 	
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 	
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 	
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] 	
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 	
+WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 	
+WARN	annotation_whitespace	BFO:0000031	IAO:0000602	(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] 	
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 	
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 	
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 	
+WARN	annotation_whitespace	ENVO:01000303	IAO:0000115	An endolithic environment is an environment that exists within solid rock. 	
+WARN	annotation_whitespace	IAO:0000579	IAO:0000112	PubMed is a CRID registry. It has a dataset of PubMed identifiers associated with journal articles. @en	
+WARN	annotation_whitespace	OBI:0000963	IAO:0000112	The labels 'positive' vs. 'negative', or 'left handed', 'right handed', 'ambidexterous', or 'strongly binding', 'weakly binding' , 'not binding', or '+++', '++', '+', '-' etc. form scales of categorical labels. 	
+WARN	annotation_whitespace	OBI:0001000	IAO:0000116	JT: It plays a role in collecting data that could be fleshed out more; but I'm thinking it is, in itself, an edited document.     JZ: based on textual definition of edited document, it can be defined as N&S. I prefer to leave questionnaire as a document now. We can add more restrictions in the future and use that to determine it is an edited document or not. @en	
+WARN	annotation_whitespace	OBI:0001004	IAO:0000115	The Edinburgh Handedness Inventory is a set of questions used to assess the dominance of a person's right or left hand in everyday activities. @en	
+WARN	annotation_whitespace	OBI:0002205	IAO:0000112	 G4: Undifferentiated	
+WARN	annotation_whitespace	OBI:0002205	IAO:0000112	G1:Well differentiated 	
+WARN	annotation_whitespace	OBI:0002216	IAO:0000115	A histologic grade for ovarian tumor that is from a two-tier histological classification of tumors. 	
+WARN	annotation_whitespace	OBI:0002316	IAO:0000115	A clinical tumor stage group according to AJCC 7th edition indicating a carcinoma in situ (or melanoma in situ for melanoma of the skin or germ cell neoplasia in situ for testicular germ cell tumors) and generally is considered to have no metastatic potential. 	
+WARN	annotation_whitespace	OBI:0002333	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion. 	
+WARN	annotation_whitespace	OBI:0002334	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion and clinically visible lesion <4.0 cm in greatest dimension. 	
+WARN	annotation_whitespace	OBI:0002335	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion and clinically visible lesion >4.0 cm in greatest dimension. 	
+WARN	annotation_whitespace	OBI:0002336	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina with obvious parametrial invasion. 	
+WARN	annotation_whitespace	RO:0002163	IAO:0000116	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en	
+WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 	
+WARN	annotation_whitespace	RO:0002326	IAO:0000232	In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. 	
+WARN	duplicate_exact_synonym	OBI:0002325	IAO:0000118	Stage IVB	
+WARN	duplicate_exact_synonym	OBI:0002340	IAO:0000118	Stage IVB	
+WARN	duplicate_exact_synonym	OBI:0002324	IAO:0000118	Stage IVA	
+WARN	duplicate_exact_synonym	OBI:0002339	IAO:0000118	Stage IVA	
+WARN	duplicate_exact_synonym	OBI:0002322	IAO:0000118	Stage IIIB	
+WARN	duplicate_exact_synonym	OBI:0002338	IAO:0000118	Stage IIIB	
+WARN	duplicate_exact_synonym	OBI:0002321	IAO:0000118	Stage IIIA	
+WARN	duplicate_exact_synonym	OBI:0002337	IAO:0000118	Stage IIIA	
+WARN	duplicate_exact_synonym	OBI:0002319	IAO:0000118	Stage IIB	
+WARN	duplicate_exact_synonym	OBI:0002336	IAO:0000118	Stage IIB	
+WARN	duplicate_exact_synonym	OBI:0002318	IAO:0000118	Stage IIA	
+WARN	duplicate_exact_synonym	OBI:0002333	IAO:0000118	Stage IIA	
+WARN	duplicate_exact_synonym	OBI:0002270	IAO:0000118	pN: Pathologic spread colon lymph nodes (AJCC 7th Edition)	
+WARN	duplicate_exact_synonym	OBI:0002279	IAO:0000118	pN: Pathologic spread colon lymph nodes (AJCC 7th Edition)	
+WARN	duplicate_exact_synonym	UO:0000164	IAO:0000118	percent vol per vol	
+WARN	duplicate_exact_synonym	UO:0000165	IAO:0000118	percent vol per vol	
+WARN	duplicate_exact_synonym	OBI:0002209	IAO:0000118	G4	
+WARN	duplicate_exact_synonym	OBI:0002223	IAO:0000118	G4	
+WARN	duplicate_exact_synonym	OBI:0002208	IAO:0000118	G3	
+WARN	duplicate_exact_synonym	OBI:0002222	IAO:0000118	G3	
+WARN	duplicate_exact_synonym	OBI:0002207	IAO:0000118	G2	
+WARN	duplicate_exact_synonym	OBI:0002221	IAO:0000118	G2	
+WARN	duplicate_exact_synonym	OBI:0002206	IAO:0000118	G1	
+WARN	duplicate_exact_synonym	OBI:0002220	IAO:0000118	G1	
+WARN	multiple_asserted_superclasses	CHEBI:15377	rdfs:subClassOf	CHEBI:23367	
+WARN	multiple_asserted_superclasses	CHEBI:15377	rdfs:subClassOf	CHEBI:33693	
+WARN	multiple_asserted_superclasses	CHEBI:15377	rdfs:subClassOf	CHEBI:37176	
+WARN	multiple_asserted_superclasses	CHEBI:15377	rdfs:subClassOf	CHEBI:52625	
+WARN	multiple_asserted_superclasses	CHEBI:15379	rdfs:subClassOf	CHEBI:138675	
+WARN	multiple_asserted_superclasses	CHEBI:15379	rdfs:subClassOf	CHEBI:25362	
+WARN	multiple_asserted_superclasses	CHEBI:15379	rdfs:subClassOf	CHEBI:33263	
+WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	CHEBI:138675	
+WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	CHEBI:23014	
+WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	CHEBI:64708	
+WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	FOODON:03412972	
+WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:138675	
+WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:25362	
+WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:33266	
+WARN	multiple_asserted_superclasses	CHEBI:23014	rdfs:subClassOf	CHEBI:25701	
+WARN	multiple_asserted_superclasses	CHEBI:23014	rdfs:subClassOf	CHEBI:36963	
+WARN	multiple_asserted_superclasses	CHEBI:23114	rdfs:subClassOf	CHEBI:23117	
+WARN	multiple_asserted_superclasses	CHEBI:23114	rdfs:subClassOf	CHEBI:33958	
+WARN	multiple_asserted_superclasses	CHEBI:23367	rdfs:subClassOf	BFO:0000040	
+WARN	multiple_asserted_superclasses	CHEBI:23367	rdfs:subClassOf	CHEBI:24431	
+WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:25806	
+WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:33608	
+WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:37577	
+WARN	multiple_asserted_superclasses	CHEBI:24839	rdfs:subClassOf	CHEBI:24835	
+WARN	multiple_asserted_superclasses	CHEBI:24839	rdfs:subClassOf	CHEBI:24866	
+WARN	multiple_asserted_superclasses	CHEBI:25362	rdfs:subClassOf	CHEBI:25367	
+WARN	multiple_asserted_superclasses	CHEBI:25362	rdfs:subClassOf	CHEBI:33259	
+WARN	multiple_asserted_superclasses	CHEBI:25701	rdfs:subClassOf	CHEBI:25741	
+WARN	multiple_asserted_superclasses	CHEBI:25701	rdfs:subClassOf	CHEBI:72695	
+WARN	multiple_asserted_superclasses	CHEBI:25741	rdfs:subClassOf	CHEBI:25806	
+WARN	multiple_asserted_superclasses	CHEBI:25741	rdfs:subClassOf	CHEBI:37577	
+WARN	multiple_asserted_superclasses	CHEBI:26710	rdfs:subClassOf	CHEBI:23367	
+WARN	multiple_asserted_superclasses	CHEBI:26710	rdfs:subClassOf	CHEBI:36093	
+WARN	multiple_asserted_superclasses	CHEBI:26710	rdfs:subClassOf	CHEBI:38702	
+WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:26712	
+WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:35479	
+WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:24835	
+WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:33692	
+WARN	multiple_asserted_superclasses	CHEBI:33250	rdfs:subClassOf	BFO:0000040	
+WARN	multiple_asserted_superclasses	CHEBI:33250	rdfs:subClassOf	CHEBI:24431	
+WARN	multiple_asserted_superclasses	CHEBI:33262	rdfs:subClassOf	CHEBI:24835	
+WARN	multiple_asserted_superclasses	CHEBI:33262	rdfs:subClassOf	CHEBI:25806	
+WARN	multiple_asserted_superclasses	CHEBI:33262	rdfs:subClassOf	CHEBI:33259	
+WARN	multiple_asserted_superclasses	CHEBI:33262	rdfs:subClassOf	FOODON:03412972	
+WARN	multiple_asserted_superclasses	CHEBI:33267	rdfs:subClassOf	CHEBI:33465	
+WARN	multiple_asserted_superclasses	CHEBI:33267	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:24835	
+WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33259	
+WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33302	
+WARN	multiple_asserted_superclasses	CHEBI:33679	rdfs:subClassOf	CHEBI:33583	
+WARN	multiple_asserted_superclasses	CHEBI:33679	rdfs:subClassOf	CHEBI:33674	
+WARN	multiple_asserted_superclasses	CHEBI:33692	rdfs:subClassOf	CHEBI:33608	
+WARN	multiple_asserted_superclasses	CHEBI:33692	rdfs:subClassOf	CHEBI:37577	
+WARN	multiple_asserted_superclasses	CHEBI:33694	rdfs:subClassOf	CHEBI:33839	
+WARN	multiple_asserted_superclasses	CHEBI:33694	rdfs:subClassOf	CHEBI:50860	
+WARN	multiple_asserted_superclasses	CHEBI:33839	rdfs:subClassOf	CHEBI:23367	
+WARN	multiple_asserted_superclasses	CHEBI:33839	rdfs:subClassOf	CHEBI:36357	
+WARN	multiple_asserted_superclasses	CHEBI:33958	rdfs:subClassOf	CHEBI:24866	
+WARN	multiple_asserted_superclasses	CHEBI:33958	rdfs:subClassOf	CHEBI:37578	
+WARN	multiple_asserted_superclasses	CHEBI:35479	rdfs:subClassOf	CHEBI:24866	
+WARN	multiple_asserted_superclasses	CHEBI:35479	rdfs:subClassOf	CHEBI:33296	
+WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:23114	
+WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:24839	
+WARN	multiple_asserted_superclasses	CHEBI:36902	rdfs:subClassOf	CHEBI:33242	
+WARN	multiple_asserted_superclasses	CHEBI:36902	rdfs:subClassOf	CHEBI:33304	
+WARN	multiple_asserted_superclasses	CHEBI:36908	rdfs:subClassOf	CHEBI:33583	
+WARN	multiple_asserted_superclasses	CHEBI:36908	rdfs:subClassOf	FOODON:03412972	
+WARN	multiple_asserted_superclasses	CHEBI:36962	rdfs:subClassOf	CHEBI:33285	
+WARN	multiple_asserted_superclasses	CHEBI:36962	rdfs:subClassOf	CHEBI:33304	
+WARN	multiple_asserted_superclasses	CHEBI:36963	rdfs:subClassOf	CHEBI:25806	
+WARN	multiple_asserted_superclasses	CHEBI:36963	rdfs:subClassOf	CHEBI:36962	
+WARN	multiple_asserted_superclasses	CHEBI:37578	rdfs:subClassOf	CHEBI:24471	
+WARN	multiple_asserted_superclasses	CHEBI:37578	rdfs:subClassOf	CHEBI:37577	
+WARN	multiple_asserted_superclasses	CHEBI:38702	rdfs:subClassOf	CHEBI:24839	
+WARN	multiple_asserted_superclasses	CHEBI:38702	rdfs:subClassOf	CHEBI:26714	
+WARN	multiple_asserted_superclasses	CHEBI:51143	rdfs:subClassOf	CHEBI:33302	
+WARN	multiple_asserted_superclasses	CHEBI:51143	rdfs:subClassOf	FOODON:03412972	
+WARN	multiple_asserted_superclasses	CHEBI:52625	rdfs:subClassOf	CHEBI:24651	
+WARN	multiple_asserted_superclasses	CHEBI:52625	rdfs:subClassOf	CHEBI:24835	
+WARN	multiple_asserted_superclasses	CHEBI:72695	rdfs:subClassOf	CHEBI:25367	
+WARN	multiple_asserted_superclasses	CHEBI:72695	rdfs:subClassOf	CHEBI:50860	
+WARN	multiple_asserted_superclasses	ENVO:00000015	rdfs:subClassOf	ENVO:00001999	
+WARN	multiple_asserted_superclasses	ENVO:00000015	rdfs:subClassOf	ENVO:01000044	
+WARN	multiple_asserted_superclasses	ENVO:00000015	rdfs:subClassOf	ENVO:01001319	
+WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:00001999	
+WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:01000044	
+WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:01001319	
+WARN	multiple_asserted_superclasses	ENVO:00000134	rdfs:subClassOf	ENVO:00001998	
+WARN	multiple_asserted_superclasses	ENVO:00000134	rdfs:subClassOf	ENVO:01001125	
+WARN	multiple_asserted_superclasses	ENVO:00000428	rdfs:subClassOf	ENVO:01000254	
+WARN	multiple_asserted_superclasses	ENVO:00000428	rdfs:subClassOf	ENVO:01001110	
+WARN	multiple_asserted_superclasses	ENVO:00010483	rdfs:subClassOf	BFO:0000024	
+WARN	multiple_asserted_superclasses	ENVO:00010483	rdfs:subClassOf	BFO:0000040	
+WARN	multiple_asserted_superclasses	ENVO:01000295	rdfs:subClassOf	ENVO:01000044	
+WARN	multiple_asserted_superclasses	ENVO:01000295	rdfs:subClassOf	ENVO:01000325	
+WARN	multiple_asserted_superclasses	ENVO:01000295	rdfs:subClassOf	ENVO:01001308	
+WARN	multiple_asserted_superclasses	ENVO:01000307	rdfs:subClassOf	ENVO:01000317	
+WARN	multiple_asserted_superclasses	ENVO:01000307	rdfs:subClassOf	ENVO:01001040	
+WARN	multiple_asserted_superclasses	ENVO:01000317	rdfs:subClassOf	ENVO:01000997	
+WARN	multiple_asserted_superclasses	ENVO:01000317	rdfs:subClassOf	ENVO:01000998	
+WARN	multiple_asserted_superclasses	ENVO:01000624	rdfs:subClassOf	ENVO:01000724	
+WARN	multiple_asserted_superclasses	ENVO:01000624	rdfs:subClassOf	ENVO:02500031	
+WARN	multiple_asserted_superclasses	ENVO:01000637	rdfs:subClassOf	ENVO:00002297	
+WARN	multiple_asserted_superclasses	ENVO:01000637	rdfs:subClassOf	ENVO:00010483	
+WARN	multiple_asserted_superclasses	ENVO:01000804	rdfs:subClassOf	BFO:0000030	
+WARN	multiple_asserted_superclasses	ENVO:01000804	rdfs:subClassOf	ENVO:00002297	
+WARN	multiple_asserted_superclasses	ENVO:01000813	rdfs:subClassOf	BFO:0000024	
+WARN	multiple_asserted_superclasses	ENVO:01000813	rdfs:subClassOf	ENVO:00002297	
+WARN	multiple_asserted_superclasses	ENVO:01000817	rdfs:subClassOf	ENVO:01000813	
+WARN	multiple_asserted_superclasses	ENVO:01000817	rdfs:subClassOf	ENVO:01001110	
+WARN	multiple_asserted_superclasses	ENVO:01000818	rdfs:subClassOf	ENVO:00000131	
+WARN	multiple_asserted_superclasses	ENVO:01000818	rdfs:subClassOf	ENVO:03000110	
+WARN	multiple_asserted_superclasses	ENVO:01000982	rdfs:subClassOf	ENVO:01000981	
+WARN	multiple_asserted_superclasses	ENVO:01000982	rdfs:subClassOf	ENVO:02500031	
+WARN	multiple_asserted_superclasses	ENVO:01001040	rdfs:subClassOf	ENVO:01000314	
+WARN	multiple_asserted_superclasses	ENVO:01001040	rdfs:subClassOf	ENVO:01000998	
+WARN	multiple_asserted_superclasses	ENVO:01001044	rdfs:subClassOf	ENVO:01000997	
+WARN	multiple_asserted_superclasses	ENVO:01001044	rdfs:subClassOf	ENVO:01000998	
+WARN	multiple_asserted_superclasses	ENVO:01001055	rdfs:subClassOf	ENVO:01000254	
+WARN	multiple_asserted_superclasses	ENVO:01001055	rdfs:subClassOf	ENVO:01001110	
+WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01000254	
+WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01001110	
+WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:00000131	
+WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:01001275	
+WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:03000110	
+WARN	multiple_asserted_superclasses	ENVO:09200004	rdfs:subClassOf	ENVO:09200009	
+WARN	multiple_asserted_superclasses	ENVO:09200004	rdfs:subClassOf	PATO:0000973	
+WARN	multiple_asserted_superclasses	ENVO:09200008	rdfs:subClassOf	ENVO:09200009	
+WARN	multiple_asserted_superclasses	ENVO:09200008	rdfs:subClassOf	PATO:0000025	
+WARN	multiple_asserted_superclasses	NCBITaxon:10239	rdfs:subClassOf	NCBITaxon:1	
+WARN	multiple_asserted_superclasses	NCBITaxon:10239	rdfs:subClassOf	OBI:0100026	
+WARN	multiple_asserted_superclasses	NCBITaxon:117571	rdfs:subClassOf	NCBITaxon:117570	
+WARN	multiple_asserted_superclasses	NCBITaxon:117571	rdfs:subClassOf	NCBITaxon:7742	
+WARN	multiple_asserted_superclasses	NCBITaxon:117571	rdfs:subClassOf	NCBITaxon:7776	
+WARN	multiple_asserted_superclasses	NCBITaxon:1338369	rdfs:subClassOf	NCBITaxon:117571	
+WARN	multiple_asserted_superclasses	NCBITaxon:1338369	rdfs:subClassOf	NCBITaxon:8287	
+WARN	multiple_asserted_superclasses	NCBITaxon:2	rdfs:subClassOf	NCBITaxon:131567	
+WARN	multiple_asserted_superclasses	NCBITaxon:2	rdfs:subClassOf	OBI:0100026	
+WARN	multiple_asserted_superclasses	NCBITaxon:2157	rdfs:subClassOf	NCBITaxon:131567	
+WARN	multiple_asserted_superclasses	NCBITaxon:2157	rdfs:subClassOf	OBI:0100026	
+WARN	multiple_asserted_superclasses	NCBITaxon:2759	rdfs:subClassOf	NCBITaxon:131567	
+WARN	multiple_asserted_superclasses	NCBITaxon:2759	rdfs:subClassOf	OBI:0100026	
+WARN	multiple_asserted_superclasses	NCBITaxon:314146	rdfs:subClassOf	NCBITaxon:1437010	
+WARN	multiple_asserted_superclasses	NCBITaxon:314146	rdfs:subClassOf	NCBITaxon:40674	
+WARN	multiple_asserted_superclasses	NCBITaxon:314293	rdfs:subClassOf	NCBITaxon:314146	
+WARN	multiple_asserted_superclasses	NCBITaxon:314293	rdfs:subClassOf	NCBITaxon:376913	
+WARN	multiple_asserted_superclasses	NCBITaxon:32523	rdfs:subClassOf	NCBITaxon:117571	
+WARN	multiple_asserted_superclasses	NCBITaxon:32523	rdfs:subClassOf	NCBITaxon:1338369	
+WARN	multiple_asserted_superclasses	NCBITaxon:33213	rdfs:subClassOf	NCBITaxon:33154	
+WARN	multiple_asserted_superclasses	NCBITaxon:33213	rdfs:subClassOf	NCBITaxon:6072	
+WARN	multiple_asserted_superclasses	NCBITaxon:7742	rdfs:subClassOf	NCBITaxon:33213	
+WARN	multiple_asserted_superclasses	NCBITaxon:7742	rdfs:subClassOf	NCBITaxon:7711	
+WARN	multiple_asserted_superclasses	NCBITaxon:7742	rdfs:subClassOf	NCBITaxon:89593	
+WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:314146	
+WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:9526	
+WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:9605	
+WARN	multiple_asserted_superclasses	OBI:0000727	rdfs:subClassOf	OBI:0200171	
+WARN	multiple_asserted_superclasses	OBI:0000727	rdfs:subClassOf	OBI:0200175	
+WARN	multiple_asserted_superclasses	OBI:0000953	rdfs:subClassOf	OBI:0000047	
+WARN	multiple_asserted_superclasses	OBI:0000953	rdfs:subClassOf	OBI:0100051	
+WARN	multiple_asserted_superclasses	OBI:0200041	rdfs:subClassOf	OBI:0200171	
+WARN	multiple_asserted_superclasses	OBI:0200041	rdfs:subClassOf	OBI:0200175	
+WARN	multiple_asserted_superclasses	PATO:0000051	rdfs:subClassOf	BFO:0000019	
+WARN	multiple_asserted_superclasses	PATO:0000051	rdfs:subClassOf	PATO:0001241	
+WARN	multiple_asserted_superclasses	PATO:0000146	rdfs:subClassOf	PATO:0001018	
+WARN	multiple_asserted_superclasses	PATO:0000146	rdfs:subClassOf	PATO:0001237	
+WARN	multiple_asserted_superclasses	PATO:0000386	rdfs:subClassOf	PATO:0000048	
+WARN	multiple_asserted_superclasses	PATO:0000386	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0000587	rdfs:subClassOf	PATO:0000117	
+WARN	multiple_asserted_superclasses	PATO:0000587	rdfs:subClassOf	PATO:0002303	
+WARN	multiple_asserted_superclasses	PATO:0001475	rdfs:subClassOf	PATO:0000140	
+WARN	multiple_asserted_superclasses	PATO:0001475	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0001476	rdfs:subClassOf	PATO:0000140	
+WARN	multiple_asserted_superclasses	PATO:0001476	rdfs:subClassOf	PATO:0002303	
+WARN	multiple_asserted_superclasses	PATO:0001546	rdfs:subClassOf	PATO:0001237	
+WARN	multiple_asserted_superclasses	PATO:0001546	rdfs:subClassOf	PATO:0002198	
+WARN	multiple_asserted_superclasses	PATO:0001547	rdfs:subClassOf	PATO:0001237	
+WARN	multiple_asserted_superclasses	PATO:0001547	rdfs:subClassOf	PATO:0002198	
+WARN	multiple_asserted_superclasses	PATO:0001548	rdfs:subClassOf	PATO:0001237	
+WARN	multiple_asserted_superclasses	PATO:0001548	rdfs:subClassOf	PATO:0002198	
+WARN	multiple_asserted_superclasses	PATO:0001657	rdfs:subClassOf	PATO:0001655	
+WARN	multiple_asserted_superclasses	PATO:0001657	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0001688	rdfs:subClassOf	PATO:0001475	
+WARN	multiple_asserted_superclasses	PATO:0001688	rdfs:subClassOf	PATO:0001687	
+WARN	multiple_asserted_superclasses	PATO:0001689	rdfs:subClassOf	PATO:0001476	
+WARN	multiple_asserted_superclasses	PATO:0001689	rdfs:subClassOf	PATO:0001687	
+WARN	multiple_asserted_superclasses	PATO:0001985	rdfs:subClassOf	PATO:0000146	
+WARN	multiple_asserted_superclasses	PATO:0001985	rdfs:subClassOf	PATO:0001237	
+WARN	multiple_asserted_superclasses	PATO:0002303	rdfs:subClassOf	PATO:0001241	
+WARN	multiple_asserted_superclasses	PATO:0002303	rdfs:subClassOf	PATO:0002301	
+WARN	multiple_asserted_superclasses	PATO:0002305	rdfs:subClassOf	PATO:0001241	
+WARN	multiple_asserted_superclasses	PATO:0002305	rdfs:subClassOf	PATO:0002300	
+WARN	multiple_asserted_superclasses	PCO:0000000	rdfs:subClassOf	BFO:0000027	
+WARN	multiple_asserted_superclasses	PCO:0000000	rdfs:subClassOf	PCO:0000031	
+WARN	multiple_asserted_superclasses	PCO:0000002	rdfs:subClassOf	PCO:0000028	
+WARN	multiple_asserted_superclasses	PCO:0000002	rdfs:subClassOf	PCO:0000029	
+WARN	multiple_asserted_superclasses	PO:0009011	rdfs:subClassOf	BFO:0000040	
+WARN	multiple_asserted_superclasses	PO:0009011	rdfs:subClassOf	PO:0025131	
+WARN	multiple_asserted_superclasses	UO:0000051	rdfs:subClassOf	IAO:0000003	
+WARN	multiple_asserted_superclasses	UO:0000051	rdfs:subClassOf	UO:0000000	
+WARN	missing_definition	BFO:0000001	IAO:0000115		
+WARN	missing_definition	BFO:0000019	IAO:0000115		
+WARN	missing_definition	BFO:0000024	IAO:0000115		
+WARN	missing_definition	BFO:0000027	IAO:0000115		
+WARN	missing_definition	BFO:0000030	IAO:0000115		
+WARN	missing_definition	BFO:0000054	IAO:0000115		
+WARN	missing_definition	BFO:0000055	IAO:0000115		
+WARN	missing_definition	CARO:0000000	IAO:0000115		
+WARN	missing_definition	CARO:0000003	IAO:0000115		
+WARN	missing_definition	CARO:0000006	IAO:0000115		
+WARN	missing_definition	CARO:0030000	IAO:0000115		
+WARN	missing_definition	CHEBI:138675	IAO:0000115		
+WARN	missing_definition	CHEBI:15022	IAO:0000115		
+WARN	missing_definition	CHEBI:15379	IAO:0000115		
+WARN	missing_definition	CHEBI:17891	IAO:0000115		
+WARN	missing_definition	CHEBI:17997	IAO:0000115		
+WARN	missing_definition	CHEBI:23014	IAO:0000115		
+WARN	missing_definition	CHEBI:23114	IAO:0000115		
+WARN	missing_definition	CHEBI:24471	IAO:0000115		
+WARN	missing_definition	CHEBI:24839	IAO:0000115		
+WARN	missing_definition	CHEBI:25362	IAO:0000115		
+WARN	missing_definition	CHEBI:25806	IAO:0000115		
+WARN	missing_definition	CHEBI:26712	IAO:0000115		
+WARN	missing_definition	CHEBI:33242	IAO:0000115		
+WARN	missing_definition	CHEBI:33262	IAO:0000115		
+WARN	missing_definition	CHEBI:33263	IAO:0000115		
+WARN	missing_definition	CHEBI:33266	IAO:0000115		
+WARN	missing_definition	CHEBI:33267	IAO:0000115		
+WARN	missing_definition	CHEBI:33465	IAO:0000115		
+WARN	missing_definition	CHEBI:33521	IAO:0000115		
+WARN	missing_definition	CHEBI:33582	IAO:0000115		
+WARN	missing_definition	CHEBI:33608	IAO:0000115		
+WARN	missing_definition	CHEBI:33679	IAO:0000115		
+WARN	missing_definition	CHEBI:33693	IAO:0000115		
+WARN	missing_definition	CHEBI:33958	IAO:0000115		
+WARN	missing_definition	CHEBI:35479	IAO:0000115		
+WARN	missing_definition	CHEBI:36093	IAO:0000115		
+WARN	missing_definition	CHEBI:36342	IAO:0000115		
+WARN	missing_definition	CHEBI:36902	IAO:0000115		
+WARN	missing_definition	CHEBI:36908	IAO:0000115		
+WARN	missing_definition	CHEBI:37176	IAO:0000115		
+WARN	missing_definition	CHEBI:38702	IAO:0000115		
+WARN	missing_definition	CHEBI:51143	IAO:0000115		
+WARN	missing_definition	CHEBI:52211	IAO:0000115		
+WARN	missing_definition	CHEBI:52625	IAO:0000115		
+WARN	missing_definition	CHEBI:76413	IAO:0000115		
+WARN	missing_definition	ENVO:00000000	IAO:0000115		
+WARN	missing_definition	ENVO:00002030	IAO:0000115		
+WARN	missing_definition	ENVO:2100001	IAO:0000115		
+WARN	missing_definition	ENVO:2100007	IAO:0000115		
+WARN	missing_definition	FOODON:00001714	IAO:0000115		
+WARN	missing_definition	FOODON:03411041	IAO:0000115		
+WARN	missing_definition	FOODON:03412972	IAO:0000115		
+WARN	missing_definition	GO:0003674	IAO:0000115		
+WARN	missing_definition	GO:0003824	IAO:0000115		
+WARN	missing_definition	GO:0016301	IAO:0000115		
+WARN	missing_definition	GO:0016740	IAO:0000115		
+WARN	missing_definition	GO:0016772	IAO:0000115		
+WARN	missing_definition	NCBITaxon:1	IAO:0000115		
+WARN	missing_definition	NCBITaxon:10239	IAO:0000115		
+WARN	missing_definition	NCBITaxon:117570	IAO:0000115		
+WARN	missing_definition	NCBITaxon:117571	IAO:0000115		
+WARN	missing_definition	NCBITaxon:131567	IAO:0000115		
+WARN	missing_definition	NCBITaxon:1338369	IAO:0000115		
+WARN	missing_definition	NCBITaxon:1437010	IAO:0000115		
+WARN	missing_definition	NCBITaxon:2	IAO:0000115		
+WARN	missing_definition	NCBITaxon:207598	IAO:0000115		
+WARN	missing_definition	NCBITaxon:2157	IAO:0000115		
+WARN	missing_definition	NCBITaxon:2759	IAO:0000115		
+WARN	missing_definition	NCBITaxon:314146	IAO:0000115		
+WARN	missing_definition	NCBITaxon:314293	IAO:0000115		
+WARN	missing_definition	NCBITaxon:314295	IAO:0000115		
+WARN	missing_definition	NCBITaxon:32523	IAO:0000115		
+WARN	missing_definition	NCBITaxon:32524	IAO:0000115		
+WARN	missing_definition	NCBITaxon:32525	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33154	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33208	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33213	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33511	IAO:0000115		
+WARN	missing_definition	NCBITaxon:376913	IAO:0000115		
+WARN	missing_definition	NCBITaxon:40674	IAO:0000115		
+WARN	missing_definition	NCBITaxon:6072	IAO:0000115		
+WARN	missing_definition	NCBITaxon:7711	IAO:0000115		
+WARN	missing_definition	NCBITaxon:7742	IAO:0000115		
+WARN	missing_definition	NCBITaxon:7776	IAO:0000115		
+WARN	missing_definition	NCBITaxon:8287	IAO:0000115		
+WARN	missing_definition	NCBITaxon:89593	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9347	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9443	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9526	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9604	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9605	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9606	IAO:0000115		
+WARN	missing_definition	PATO:0000068	IAO:0000115		
+WARN	missing_definition	PATO:0002143	IAO:0000115		
+WARN	missing_definition	PMO:00000000	IAO:0000115		
+WARN	missing_definition	RO:0002017	IAO:0000115		
+WARN	missing_definition	RO:0002022	IAO:0000115		
+WARN	missing_definition	RO:0002086	IAO:0000115		
+WARN	missing_definition	RO:0002087	IAO:0000115		
+WARN	missing_definition	RO:0002090	IAO:0000115		
+WARN	missing_definition	RO:0002222	IAO:0000115		
+WARN	missing_definition	RO:0002297	IAO:0000115		
+WARN	missing_definition	RO:0002303	IAO:0000115		
+WARN	missing_definition	RO:0002304	IAO:0000115		
+WARN	missing_definition	RO:0002305	IAO:0000115		
+WARN	missing_definition	RO:0002326	IAO:0000115		
+WARN	missing_definition	RO:0002327	IAO:0000115		
+WARN	missing_definition	RO:0002354	IAO:0000115		
+WARN	missing_definition	RO:0002405	IAO:0000115		
+WARN	missing_definition	RO:0002447	IAO:0000115		
+WARN	missing_definition	RO:0002464	IAO:0000115		
+WARN	missing_definition	RO:0002481	IAO:0000115		
+WARN	missing_definition	RO:0002502	IAO:0000115		
+WARN	missing_definition	RO:0002506	IAO:0000115		
+WARN	missing_definition	RO:0002559	IAO:0000115		
+WARN	missing_definition	RO:0002563	IAO:0000115		
+WARN	missing_definition	RO:0002564	IAO:0000115		
+WARN	missing_definition	RO:0004032	IAO:0000115		
+WARN	missing_definition	RO:0004033	IAO:0000115		
+WARN	missing_definition	RO:0004046	IAO:0000115		
+WARN	missing_definition	RO:0004047	IAO:0000115		
+WARN	missing_definition	oboInOwl:Subset	IAO:0000115		
+WARN	duplicate_scoped_synonym	NCBITaxon:117571	IAO:0000118	bony vertebrates	
+WARN	duplicate_scoped_synonym	NCBITaxon:117571	oboInOwl:hasExactSynonym	bony vertebrates	
+WARN	duplicate_scoped_synonym	NCBITaxon:2	IAO:0000118	eubacteria	
+WARN	duplicate_scoped_synonym	NCBITaxon:2	oboInOwl:hasExactSynonym	eubacteria	
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	IAO:0000118	eucaryotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	IAO:0000118	eukaryotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eucaryotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:32523	IAO:0000118	tetrapods	
+WARN	duplicate_scoped_synonym	NCBITaxon:32523	oboInOwl:hasExactSynonym	tetrapods	
+WARN	duplicate_scoped_synonym	NCBITaxon:32524	IAO:0000118	amniotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:32524	oboInOwl:hasExactSynonym	amniotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	IAO:0000118	mammals	
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals	
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals	
+WARN	duplicate_scoped_synonym	NCBITaxon:7711	oboInOwl:hasExactSynonym	chordates	
+WARN	duplicate_scoped_synonym	NCBITaxon:7711	oboInOwl:hasRelatedSynonym	chordates	
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	IAO:0000118	Vertebrata	
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	IAO:0000118	vertebrates	
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	Vertebrata	
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates	
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates	
+WARN	duplicate_scoped_synonym	NCBITaxon:9347	oboInOwl:hasExactSynonym	placentals	
+WARN	duplicate_scoped_synonym	NCBITaxon:9347	oboInOwl:hasRelatedSynonym	placentals	
+WARN	duplicate_scoped_synonym	NCBITaxon:9606	IAO:0000118	human	
+WARN	duplicate_scoped_synonym	NCBITaxon:9606	IAO:0000118	man	
+WARN	duplicate_scoped_synonym	NCBITaxon:9606	oboInOwl:hasExactSynonym	human	
+WARN	duplicate_scoped_synonym	NCBITaxon:9606	oboInOwl:hasExactSynonym	man	
+WARN	missing_obsolete_label	IAO:0000230	rdfs:label	other@en	
+WARN	missing_obsolete_label	PATO:0001237	rdfs:label	quality of a single physical entity@en	
+WARN	missing_obsolete_label	RO:0002218	rdfs:label	has active participant@en	
+INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
+INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
+INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en	
+INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
+INFO	lowercase_definition	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
+INFO	lowercase_definition	BFO:0000050	IAO:0000115	a core relation that holds between a part and its whole@en	
+INFO	lowercase_definition	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
+INFO	lowercase_definition	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
+INFO	lowercase_definition	BFO:0000063	IAO:0000115	x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
+INFO	lowercase_definition	BFO:0000066	IAO:0000115	b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en	
+INFO	lowercase_definition	BFO:0000067	IAO:0000115	[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en	
+INFO	lowercase_definition	ENVO:01001307	IAO:0000115	x partially_surrounded_by y if and only if (1) x is adjacent to y and for the region r that is adjacent to x, r partially overlaps y (2) the shared boundary between x and y occupies  a non-trivial proportion of the outermost boundary of x	
+INFO	lowercase_definition	IAO:0000005	IAO:0000115	a directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.@en	
+INFO	lowercase_definition	IAO:0000007	IAO:0000115	a directive information entity that describes an action the bearer will take@en	
+INFO	lowercase_definition	IAO:0000027	IAO:0000115	a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en	
+INFO	lowercase_definition	IAO:0000102	IAO:0000115	data about an ontology part is a data item about a part of an ontology, for example a term@en	
+INFO	lowercase_definition	IAO:0000121	IAO:0000115	term created to ease viewing/sort terms for development purpose, and will not be included in a release@en	
+INFO	lowercase_definition	IAO:0000136	IAO:0000115	is_about is a (currently) primitive relation that relates an information artifact to an entity.@en	
+INFO	lowercase_definition	IAO:0000219	IAO:0000115	denotes is a primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically@en	
+INFO	lowercase_definition	OBI:0000014	IAO:0000115	a regulatory role involved with making and/or enforcing relevant legislation and governmental orders@en	
+INFO	lowercase_definition	OBI:0000017	IAO:0000115	a role which inheres in material entities and is realized in the processes of making, enforcing or being defined by legislation or orders issued by a governmental body.@en	
+INFO	lowercase_definition	OBI:0000018	IAO:0000115	a role realized through the process of supplying materials such as animal subjects, reagents or other materials used in an investigation.@en	
+INFO	lowercase_definition	OBI:0000112	IAO:0000115	a role borne by a material entity that is gained during a specimen collection process and that can be realized by use of the specimen in an investigation@en	
+INFO	lowercase_definition	OBI:0000325	IAO:0000115	zip is a format standard of a digital entity that is conformant with the PKWARE .ZIP file format specification  (http://www.pkware.com/index.php?option=com_content&task=view&id=59&Itemid=103/)@en	
+INFO	lowercase_definition	OBI:0000326	IAO:0000115	tar is a format standard of a digital entity that is conformant with the tape archive file format as standardized by POSIX.1-1998, POSIX.1-2001, or any other tar format compliant with the GNU tar specification. (http://www.gnu.org/software/tar/manual/)@en	
+INFO	lowercase_definition	OBI:0000456	IAO:0000115	an objective specifiction that creates an specific output object from input materials.@en	
+INFO	lowercase_definition	OBI:0000458	IAO:0000115	is the objective to manufacture a material of a certain function (device)@en	
+INFO	lowercase_definition	OBI:0000713	IAO:0000115	a software that provides access to more than 100 tools for gene expression analysis, proteomics, SNP analysis and common data processing tasks.	
+INFO	lowercase_definition	OBI:0000947	IAO:0000115	is a role which inheres in a person or organization and is realized in in a planned process which provides access to training, materials or execution of protocols for an organization or person	
+INFO	lowercase_definition	OBI:0200033	IAO:0000115	is a data transformation :  leave-one-out cross-validation (LOOCV) involves using a single observation from the original sample as the validation data, and the remaining observations as the training data. This is repeated such that each observation in the sample is used once as the validation data	
+INFO	lowercase_definition	RO:0000052	IAO:0000115	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000053	IAO:0000115	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000056	IAO:0000115	a relation between a continuant and a process, in which the continuant is somehow involved in the process@en	
+INFO	lowercase_definition	RO:0000057	IAO:0000115	a relation between a process and a continuant, in which the continuant is somehow involved in the process@en	
+INFO	lowercase_definition	RO:0000080	IAO:0000115	a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000081	IAO:0000115	a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000086	IAO:0000115	a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000087	IAO:0000115	a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0001000	IAO:0000115	a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en	
+INFO	lowercase_definition	RO:0001001	IAO:0000115	a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en	
+INFO	lowercase_definition	RO:0002018	IAO:0000115	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
+INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
+INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
+INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y	
+INFO	lowercase_definition	RO:0002203	IAO:0000115	inverse of develops from	
+INFO	lowercase_definition	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
+INFO	lowercase_definition	RO:0002216	IAO:0000115	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.	
+INFO	lowercase_definition	RO:0002217	IAO:0000115	x actively participates in y if and only if x participates in y and x realizes some active role	
+INFO	lowercase_definition	RO:0002218	IAO:0000115	x has participant y if and only if x realizes some active role that inheres in y	
+INFO	lowercase_definition	RO:0002219	IAO:0000115	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x	
+INFO	lowercase_definition	RO:0002220	IAO:0000115	x adjacent to y if and only if x and y share a boundary.	
+INFO	lowercase_definition	RO:0002221	IAO:0000115	inverse of surrounded by	
+INFO	lowercase_definition	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+INFO	lowercase_definition	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
+INFO	lowercase_definition	RO:0002234	IAO:0000115	p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.	
+INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en	
+INFO	lowercase_definition	RO:0002255	IAO:0000115	inverse of has developmental contribution from	
+INFO	lowercase_definition	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.	
+INFO	lowercase_definition	RO:0002263	IAO:0000115	c involved in regulation of p if c enables  'p' and p' causally upstream of p	
+INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p	
+INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
+INFO	lowercase_definition	RO:0002295	IAO:0000115	p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss).	
+INFO	lowercase_definition	RO:0002314	IAO:0000115	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.	
+INFO	lowercase_definition	RO:0002329	IAO:0000115	this relation holds between c and p when c is part of some c', and c' is capable of p.	
+INFO	lowercase_definition	RO:0002331	IAO:0000115	c involved_in p if and only if c enables some process p', and p' is part of p	
+INFO	lowercase_definition	RO:0002333	IAO:0000115	inverse of enables	
+INFO	lowercase_definition	RO:0002334	IAO:0000115	inverse of regulates	
+INFO	lowercase_definition	RO:0002335	IAO:0000115	inverse of negatively regulates	
+INFO	lowercase_definition	RO:0002336	IAO:0000115	inverse of positively regulates	
+INFO	lowercase_definition	RO:0002350	IAO:0000115	is member of is a mereological relation between a item and a collection.	
+INFO	lowercase_definition	RO:0002351	IAO:0000115	has member is a mereological relation between a collection and an item.	
+INFO	lowercase_definition	RO:0002352	IAO:0000115	inverse of has input	
+INFO	lowercase_definition	RO:0002353	IAO:0000115	inverse of has output	
+INFO	lowercase_definition	RO:0002384	IAO:0000115	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en	
+INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
+INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
+INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
+INFO	lowercase_definition	RO:0002404	IAO:0000115	inverse of upstream of	
+INFO	lowercase_definition	RO:0002411	IAO:0000115	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain	
+INFO	lowercase_definition	RO:0002412	IAO:0000115	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.	
+INFO	lowercase_definition	RO:0002418	IAO:0000115	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.	
+INFO	lowercase_definition	RO:0002427	IAO:0000115	inverse of causally upstream of or within	
+INFO	lowercase_definition	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some 'p' and p' regulates some p	
+INFO	lowercase_definition	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' regulates some p	
+INFO	lowercase_definition	RO:0002429	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' positively regulates some p	
+INFO	lowercase_definition	RO:0002430	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p	
+INFO	lowercase_definition	RO:0002431	IAO:0000115	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p	
+INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
+INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
+INFO	lowercase_definition	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
+INFO	lowercase_definition	RO:0002479	IAO:0000115	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.	
+INFO	lowercase_definition	RO:0002501	IAO:0000115	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.	
+INFO	lowercase_definition	RO:0002507	IAO:0000115	s determined by f if and only if s is a type of system, and f is a material entity that is part of s, such that f exerts a strong causal influence on the functioning of s, and the removal of f would cause the collapse of s.	
+INFO	lowercase_definition	RO:0002508	IAO:0000115	inverse of determined by	
+INFO	lowercase_definition	RO:0002509	IAO:0000115	s 'determined by part of' w if and only if there exists some f such that (1) s 'determined by' f and (2) f part_of w, or f=w.	
+INFO	lowercase_definition	RO:0002584	IAO:0000115	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p	
+INFO	lowercase_definition	RO:0003000	IAO:0000115	a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.	
+INFO	lowercase_definition	RO:0003001	IAO:0000115	a produced_by b iff some process that occurs_in b has_output a.	
+INFO	lowercase_definition	RO:0004034	IAO:0000115	c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive	
+INFO	lowercase_definition	RO:0004035	IAO:0000115	c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative	
+INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2	IAO:0000115	third planet from the Sun in the Solar System	
+INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2306597	IAO:0000115	\"Suni, or Jalca, is one of the eight Natural Regions of Peru. It is located in the Andes at an altitude between 3,500 and 4,000 metres above sea level. Suni has a dry and cold weather and there are many glacial valleys. The flora includes gramineous plants and shrubs such as the taya-taya (Caesalpinia spinosa), the quishuar (Buddleja coriacea), and the cantuta (Cantua buxifolia) which was considered sacred by the Incas. Even though it is hard for plants to grow because of the weather, people are able to cultivate such crops as quinoa, qañiwa, broad beans and ulluku (Ullucus tuberosus). The main fauna is the guinea pig and, among numerous other highland birds, the Chiguanco thrush.\"	
+INFO	missing_superclass	BFO:0000001	rdfs:subClassOf		
+INFO	missing_superclass	GO:0004872	rdfs:subClassOf		
+INFO	missing_superclass	GO:0048018	rdfs:subClassOf		
+INFO	missing_superclass	PMO:00000000	rdfs:subClassOf		
+INFO	missing_superclass	UO:0000000	rdfs:subClassOf		

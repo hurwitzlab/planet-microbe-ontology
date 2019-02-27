@@ -1,0 +1,24 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/pmo/pmo-base.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "Planet Microbe Ontology"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-02-27/pmo-base.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

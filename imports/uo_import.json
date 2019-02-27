@@ -1,0 +1,104 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010003",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Luke Slater"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "micromole per litre"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000051",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which represents a standard measurement of how much of a given substance there is mixed with another substance.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit of measurement is a standardized quantity of a physical quality.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000067",
+      "meta" : {
+        "definition" : {
+          "val" : "A concentration unit which is a standard measure of the number of moles of a given substance per kilogram of solvent.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unit of molality"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000051",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000051",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/pmo/imports/uo_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-02-27/imports/uo_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
