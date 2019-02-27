@@ -1,0 +1,62 @@
+contact: null
+contributors: null
+creators: null
+dosdp_tools_options: --obo-prefixes=true
+edit_format: owl
+github_org: hurwitzlab
+id: pmo
+import_group:
+  directory: imports/
+  disabled: false
+  ids: null
+  products:
+  - description: null
+    id: ro
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: bfo
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: pato
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: envo
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: iao
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: obi
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: uo
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  rebuild_if_source_changes: true
+obo_format_options: ''
+pattern_group: null
+pattern_pipelines_group: null
+reasoner: ELK
+repo: planet-microbe-ontology
+report_fail_on: null
+robot_settings: null
+robot_version: null
+robotemplate_group: null
+subset_group: null
+title: Planet Microbe Ontology
+travis_emails: null
+uribase: http://purl.obolibrary.org/obo
+use_dosdps: false
