@@ -572,6 +572,42 @@
       "type" : "CLASS",
       "lbl" : "volume percentage"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000121",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "angle unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000122",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the angle formed by two straight lines in the same plane.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "plane angle unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000001",
       "meta" : {
         "definition" : {
@@ -1131,6 +1167,24 @@
       "type" : "PROPERTY",
       "lbl" : "has_obo_namespace"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010004",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific concentration unit which is equal to 1 micromole of a given substance per kilogram of solvent.",
+          "xrefs" : [ "UOB:LKSR" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Luke Slater"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "micromole per kilogram"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000061",
       "meta" : {
         "definition" : {
@@ -1244,6 +1298,24 @@
       },
       "type" : "CLASS",
       "lbl" : "micromolar"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000185",
+      "meta" : {
+        "definition" : {
+          "val" : "A plane angle unit which is equal to 1/360 of a full rotation or 1.7453310^[-2] rad.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "degree"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000065",
       "meta" : {
@@ -1890,6 +1962,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000187"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000121"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000036",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
@@ -1910,6 +1986,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000182"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000121",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000133"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000010",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000045"
@@ -1925,6 +2005,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000208",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000121",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000164",
       "pred" : "is_a",
@@ -1994,17 +2078,21 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000146"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000185",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000122"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000031",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000301",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000051",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000301",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000102",
       "pred" : "is_a",
@@ -2046,6 +2134,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000205"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000067"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000042",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
@@ -2070,13 +2162,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000105",
-      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000044"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000190",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000105",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000044"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000182",
       "pred" : "is_a",

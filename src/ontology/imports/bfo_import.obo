@@ -79,6 +79,33 @@ property_value: IAO:0000602 "(iff (IndependentContinuant a) (and (Continuant a) 
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Term]
+id: BFO:0000006
+name: spatial region
+is_a: BFO:0000141 ! immaterial entity
+disjoint_from: BFO:0000029 ! site
+property_value: BFO:0000179 "s-region" xsd:string
+property_value: BFO:0000180 "SpatialRegion" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: Spatial regions do not participate in processes." xsd:string
+property_value: IAO:0000116 "Spatial region doesn't have a closure axiom because the subclasses don't exhaust all possibilites. An example would be the union of a spatial point and a spatial line that doesn't overlap the point, or two spatial lines that intersect at a single point. In both cases the resultant spatial region is neither 0-dimensional, 1-dimensional, 2-dimensional, or 3-dimensional." xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000002", comment="per discussion with Barry Smith"}
+property_value: IAO:0000600 "A spatial region is a continuant entity that is a continuant_part_of spaceR as defined relative to some frame R. (axiom label in BFO2 Reference: [035-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/035-001"}
+property_value: IAO:0000601 "All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/036-001"}
+property_value: IAO:0000602 "(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/036-001"}
+property_value: IAO:0000602 "(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/035-001"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000009
+name: two-dimensional spatial region
+is_a: BFO:0000006 ! spatial region
+property_value: BFO:0000179 "2d-s-region" xsd:string
+property_value: BFO:0000180 "TwoDimensionalSpatialRegion" xsd:string
+property_value: IAO:0000112 "an infinitely thin plane in space." xsd:string
+property_value: IAO:0000112 "the surface of a sphere-shaped part of space" xsd:string
+property_value: IAO:0000600 "A two-dimensional spatial region is a spatial region that is of two dimensions. (axiom label in BFO2 Reference: [039-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/039-001"}
+property_value: IAO:0000602 "(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/039-001"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
 id: BFO:0000015
 name: process
 def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/083-003"}
@@ -219,6 +246,31 @@ property_value: IAO:0000602 "(forall (x) (if (ObjectAggregate x) (and (MaterialE
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Term]
+id: BFO:0000029
+name: site
+is_a: BFO:0000141 ! immaterial entity
+property_value: BFO:0000179 "site" xsd:string
+property_value: BFO:0000180 "Site" xsd:string
+property_value: IAO:0000112 "a hole in the interior of a portion of cheese" xsd:string
+property_value: IAO:0000112 "a rabbit hole" xsd:string
+property_value: IAO:0000112 "an air traffic control region defined in the airspace above an airport" xsd:string
+property_value: IAO:0000112 "Manhattan Canyon)" xsd:string
+property_value: IAO:0000112 "the cockpit of an aircraft" xsd:string
+property_value: IAO:0000112 "the Grand Canyon" xsd:string
+property_value: IAO:0000112 "the hold of a ship" xsd:string
+property_value: IAO:0000112 "the interior of a kangaroo pouch" xsd:string
+property_value: IAO:0000112 "the interior of the trunk of your car" xsd:string
+property_value: IAO:0000112 "the interior of your bedroom" xsd:string
+property_value: IAO:0000112 "the interior of your office" xsd:string
+property_value: IAO:0000112 "the interior of your refrigerator" xsd:string
+property_value: IAO:0000112 "the lumen of your gut" xsd:string
+property_value: IAO:0000112 "the Piazza San Marco" xsd:string
+property_value: IAO:0000112 "your left nostril (a fiat part – the opening – of your left nasal cavity)" xsd:string
+property_value: IAO:0000600 "b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/034-002"}
+property_value: IAO:0000602 "(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/034-002"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
 id: BFO:0000030
 name: object
 is_a: BFO:0000040 ! material entity
@@ -260,6 +312,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 id: BFO:0000040
 name: material entity
 is_a: BFO:0000004 ! independent continuant
+disjoint_from: BFO:0000141 ! immaterial entity
 property_value: BFO:0000179 "material" xsd:string
 property_value: BFO:0000180 "MaterialEntity" xsd:string
 property_value: IAO:0000112 "a flame" xsd:string
@@ -283,5 +336,14 @@ property_value: IAO:0000601 "Every entity which has a material entity as continu
 property_value: IAO:0000602 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/021-002"}
 property_value: IAO:0000602 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/020-002"}
 property_value: IAO:0000602 "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/019-002"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000141
+name: immaterial entity
+is_a: BFO:0000004 ! independent continuant
+property_value: BFO:0000179 "immaterial" xsd:string
+property_value: BFO:0000180 "ImmaterialEntity" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: Immaterial entities are divided into two subgroups:boundaries and sites, which bound, or are demarcated in relation, to material entities, and which can thus change location, shape and size and as their material hosts move or change shape or size (for example: your nasal passage; the hold of a ship; the boundary of Wales (which moves with the rotation of the Earth) [38, 7, 10" xsd:string
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 

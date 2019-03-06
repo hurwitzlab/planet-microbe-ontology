@@ -299,6 +299,35 @@
       "type" : "CLASS",
       "lbl" : "reverse transcriptase"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001628",
+      "meta" : {
+        "definition" : {
+          "val" : "A CRID symbol used to identify an investigation.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person: Chris Stoeckert, Jie Zhneg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
+          "val" : "project ID"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "NIAID GSCID-BRC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "investigation identifier"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NIAID GSCID-BRC metadata working group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "investigation identifier"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0000465",
       "meta" : {
         "definition" : {
@@ -315,6 +344,23 @@
       },
       "type" : "CLASS",
       "lbl" : "material anatomical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0001248",
+      "meta" : {
+        "definition" : {
+          "val" : "A region of the genome of known length that is composed by ordering and aligning two or more different regions.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "assembly"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/so.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "assembly"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000792",
       "meta" : {
@@ -686,6 +732,50 @@
       "type" : "CLASS",
       "lbl" : "temperature"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000202",
+      "meta" : {
+        "definition" : {
+          "val" : "A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001847",
+          "val" : "study person role"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Implementing a study means carrying out or performing the study and providing reagents or other materials used in the study and other tasks without which the study would not happen."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "investigator"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Philly2013: Historically, this role would have been borne only by humans or organizations. However, we now also want to enable investigations run by robot scientists such as ADAM (King et al, Science, 2009)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Philly2013: Historically, this role would have been borne only by humans or organizations. However, we now also want to enable representing investigations run by robot scientists such as ADAM (King et al, Science, 2009)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "investigation agent role"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "GROUP:  Role Branch"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The person perform microarray experiments and submit microarray results (including raw data, processed data) with experiment description to ArrayExpress."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "investigation agent role"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0002203",
       "meta" : {
         "definition" : {
@@ -745,6 +835,35 @@
       },
       "type" : "INDIVIDUAL",
       "lbl" : "XML"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001898",
+      "meta" : {
+        "definition" : {
+          "val" : "A textual entity that is about any of the aspects of an investigation worth noting",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NIAID GSCID-BRC metadata working group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "comment on investigation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
+          "val" : "Comments"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "NIAID GSCID-BRC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Chris Stoeckert, Jie Zheng"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "comment on investigation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000325",
       "meta" : {
@@ -1377,6 +1496,35 @@
       "type" : "PROPERTY",
       "lbl" : "has role"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000338",
+      "meta" : {
+        "definition" : {
+          "val" : "A planned process in which data gathered in an investigation is evaluated in the context of existing knowledge with the objective to generate more general conclusions or to conclude that the data does not allow one to draw general conclusion",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Concluding that a gene is upregulated in a tissue sample based on the band intensity in a western blot.  Concluding that a patient has a infection based on measurement of an elevated body temperature and reported headache. Concluding that there were problems in an investigation because data from PCR and microarray are conflicting. Concluding that 'defects in gene XYZ cause cancer due to improper DNA repair' based on data from experiments in that study that gene XYZ is involved in DNA repair, and the conclusion of a previous study that cancer patients have an increased number of mutations in this gene. "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Jennifer Fostel"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Bjoern Peters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bjoern Peters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "interpreting data"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "drawing a conclusion based on data"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0000086",
       "meta" : {
         "definition" : {
@@ -1622,6 +1770,38 @@
       "type" : "INDIVIDUAL",
       "lbl" : "named class expression"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000300",
+      "meta" : {
+        "definition" : {
+          "val" : "A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "text"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "MC, 2009-09-14 (following IAO call 2009-09-01): textual entities live at the FRBR (http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records) manifestation level. Everything is significant: line break, pdf and html versions of same document are different textual entities."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "AR, (IAO call 2009-09-01): a document as a whole is not typically a textual entity, because it has pictures in it - rather there are parts of it that are textual entities. Examples: The title, paragraph 2 sentence 7, etc."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "textual entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Lawrence Hunter"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000123"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Words, sentences, paragraphs, and the written (non-figure) parts of publications are all textual entities"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "textual entity"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000740",
       "meta" : {
         "definition" : {
@@ -1661,6 +1841,35 @@
       },
       "type" : "CLASS",
       "lbl" : "material sampling process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001948",
+      "meta" : {
+        "definition" : {
+          "val" : "A textual entity that is used to denote a sequence assembly. ",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NIAID GSCID-BRC metadata working group"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "NIAID GSCID-BRC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "sequence assembly name"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Jie Zheng, Chris Stoeckert"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
+          "val" : "assembly name"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sequence assembly name"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000979",
       "meta" : {
@@ -2981,6 +3190,38 @@
       "type" : "INDIVIDUAL",
       "lbl" : "GenePattern module HierarchicalClustering"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001621",
+      "meta" : {
+        "definition" : {
+          "val" : "A measurement datum that is the measure of the longitude coordinate of a site.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NIAID GSCID-BRC metadata working group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "longitude coordinate measurement datum"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "longitude"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
+          "val" : "Specimen Collection Location - Longitude"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person: Chris Stoeckert, Jie Zheng"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "NIAID GSCID-BRC"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "longitude coordinate measurement datum"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002222",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2999,6 +3240,38 @@
       },
       "type" : "PROPERTY",
       "lbl" : "temporal relation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001620",
+      "meta" : {
+        "definition" : {
+          "val" : "A measurement datum that is the measure of the latitude coordinate of a site.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "NIAID GSCID-BRC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "latitude"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
+          "val" : "Specimen Collection Location - Latitude"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "latitude coordinate measurement datum"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NIAID GSCID-BRC metadata working group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person: Chris Stoeckert, Jie Zheng"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "latitude coordinate measurement datum"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000773",
       "meta" : {
@@ -3202,6 +3475,38 @@
       },
       "type" : "CLASS",
       "lbl" : "clustered data set"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001615",
+      "meta" : {
+        "definition" : {
+          "val" : "A textual entity that describes an investigation.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NIAID GSCID-BRC metadata working group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
+          "val" : "project description"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person: Chris Stoeckert, Jie Zheng"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "NIAID GSCID-BRC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001847",
+          "val" : "study description"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "investigation description"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "investigation description"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000768",
       "meta" : {
@@ -4370,11 +4675,11 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Chris Stoeckert, Helena Ellis"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "https://en.wikipedia.org/wiki/Cervical_cancer_staging"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Chris Stoeckert, Helena Ellis"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "Stage IB2 (FIGO)"
@@ -4391,6 +4696,35 @@
       },
       "type" : "INDIVIDUAL",
       "lbl" : "Stage IB2 (FIGO)"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000272",
+      "meta" : {
+        "definition" : {
+          "val" : "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "protocol"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI branch derived + wikipedia (http://en.wikipedia.org/wiki/Protocol_%28natural_sciences%29)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PlanAndPlannedProcess Branch"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001847",
+          "val" : "study protocol"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "PCR protocol, has objective specification, amplify DNA fragment of interest, and has action specification describes the amounts of experimental reagents used (e..g. buffers, dNTPS, enzyme), and the temperature and cycle time settings for running the PCR."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "protocol"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000118",
       "meta" : {
@@ -6677,6 +7011,41 @@
       "type" : "CLASS",
       "lbl" : "performance status value specification"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0500000",
+      "meta" : {
+        "definition" : {
+          "val" : "A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "rediscussed at length (MC/JF/BP). 12/9/08). The definition was clarified to differentiate it from protocol."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a matched pairs study design describes criteria by which subjects are identified as pairs which then undergo the same protocols, and the data generated is analyzed by comparing the differences between the paired subjects, which constitute the results of the executed study design."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "experimental design"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Editor note: there is at least an implicit restriction on the kind of data transformations that can be done based on the measured data available."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "study design"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Chris Stoeckert"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "study design"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000100",
       "meta" : {
         "definition" : {
@@ -7339,6 +7708,38 @@
       "type" : "PROPERTY",
       "lbl" : "provides_service_consumer_with"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000339",
+      "meta" : {
+        "definition" : {
+          "val" : "a process of creating or modifying a plan specification",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "planning"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Bjoern Peters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Plans and Planned Processes Branch"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The process of a scientist thinking about and deciding what reagents to use as part of a protocol for an experiment. Note that the scientist could be human or a \"robot scientist\" executing software."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "7/18/2011 BP: planning used to itself be a planned process. Barry Smith pointed out that this would lead to an infinite regression, as there would have to be a plan to conduct a planning process, which in itself would be the result of planning etc. Therefore, the restrictions on 'planning' were loosened to allow for informal processes that result in an 'ad hoc plan '. This required changing from 'has_specified_output some plan specifiction' to 'has_participant some plan specification'. "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Bjoern Peters"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "planning"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0001428",
       "meta" : {
         "definition" : {
@@ -7416,6 +7817,38 @@
       },
       "type" : "CLASS",
       "lbl" : "document"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000471",
+      "meta" : {
+        "definition" : {
+          "val" : "a planned process that carries out a study design",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "removed axiom has_part some (assay or 'data transformation') per discussion on protocol application mailing list to improve reasoner performance. The axiom is still desired."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "injecting a mouse with PBS solution, weighing it, and recording the weight according to a study design."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "6/11/9: edited at workshop. Used to be: study design execution is a process with the objective to generate data according to a concretized study design. The execution of a study design is part of an investigation, and minimally consists of an assay or data transformation."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "branch derived"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "study design execution"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "study design execution"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0001320",
       "meta" : {
@@ -7729,6 +8162,35 @@
       },
       "type" : "CLASS",
       "lbl" : "organization"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000124",
+      "meta" : {
+        "definition" : {
+          "val" : "The relation between a data item and a conclusion where the conclusion is the output of a data interpreting process and the data item is used as an input to that process",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "is_supported_by_data"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The relation between the conclusion \"Gene tpbA is involved in EPS production\" and the data items produced using two sets of organisms, one being a tpbA knockout, the other being tpbA wildtype tested in polysacharide production assays and analyzed using an ANOVA. "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Philly 2011 workshop"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "OBI"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "is_supported_by_data"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0002306",
       "meta" : {
@@ -8045,6 +8507,32 @@
       },
       "type" : "CLASS",
       "lbl" : "peptide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000572",
+      "meta" : {
+        "definition" : {
+          "val" : "a planned process in which a document is created or added to by including the specified input in it.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "6/11/9: Edited at OBI workshop. We need to be able identify a child form of information artifact which corresponds to something enduring (not brain like). This used to be restricted to physical document or digital entity as the output, but that excludes e.g. an audio cassette tape"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "wikipedia http://en.wikipedia.org/wiki/Documenting"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Recording the current temperature in a laboratory notebook. Writing a journal article. Updating a patient record in a database."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Bjoern Peters"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "documenting"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000219",
       "meta" : {
@@ -10046,6 +10534,44 @@
       },
       "type" : "INDIVIDUAL",
       "lbl" : "1: symptomatic but fully ambulatory"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000066",
+      "meta" : {
+        "definition" : {
+          "val" : "a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Could add specific objective specification"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Following OBI call November 2012,26th: it was decided there was no need for adding \"achieves objective of drawing conclusion\" as existing relations were providing equivalent ability. this note closes the issue and validates the class definition to be part of the OBI core\neditor = PRS"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "investigation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Lung cancer investigation using expression profiling, a stem cell transplant investigation, biobanking is not an investigation, though it may be part of an investigation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI branch derived"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001847",
+          "val" : "study"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Bjoern Peters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "investigation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000270",
       "meta" : {
@@ -12581,6 +13107,35 @@
       "type" : "PROPERTY",
       "lbl" : "realizes"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001909",
+      "meta" : {
+        "definition" : {
+          "val" : "An information content entity that is inferred from data.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Group:2013 Philly Workshop group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "conclusion based on data"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "In the Philly 2013 workshop, we recognized the limitations of \"conclusion textual entity\", and we introduced this as more general. The need for the 'textual entity' term going forward is up for future debate. "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Group:2013 Philly Workshop group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The conclusion that a gene is upregulated in a tissue sample based on the band intensity in a western blot. The conclusion that a patient has a infection based on measurement of an elevated body temperature and reported headache. The conclusion that there were problems in an investigation because data from PCR and microarray are conflicting.\nThe following are NOT conclusions based on data: data themselves; results from pure mathematics, e.g. \"13 is prime\"."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "conclusion based on data"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000179",
       "meta" : {
         "definition" : {
@@ -12927,11 +13482,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an aggregate of human beings."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an aggregate of human beings."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "the undetached arm of a human being"
@@ -13767,6 +14322,23 @@
       "type" : "CLASS",
       "lbl" : "maintaining cell culture"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SO_0000353",
+      "meta" : {
+        "definition" : {
+          "val" : "A sequence of nucleotides that has been algorithmically derived from an alignment of two or more different sequences.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/so.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "sequence_assembly"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sequence_assembly"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000004",
       "meta" : {
         "definition" : {
@@ -13823,10 +14395,10 @@
           "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         } ]
       },
       "type" : "CLASS",
@@ -14715,6 +15287,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002341"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001620",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000109"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000003"
@@ -14783,6 +15359,10 @@
       "pred" : "type",
       "obj" : "http://www.geneontology.org/formats/oboInOwl#Subset"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000202",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002337",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002326"
@@ -14827,6 +15407,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000572",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000953",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0100051"
@@ -14862,6 +15446,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000760",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0200051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000572"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000792",
       "pred" : "is_a",
@@ -15111,6 +15699,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002219"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001615",
+      "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000066"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000671",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000747"
@@ -15307,6 +15899,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002205"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000272",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000104"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000299",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000312"
@@ -15335,13 +15931,17 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002254",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002266",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0002254",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000338"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0001938",
       "pred" : "subPropertyOf",
@@ -15426,6 +16026,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0000052",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0001248",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000752",
       "pred" : "type",
@@ -15527,6 +16131,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000066",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000471"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002340",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002326"
@@ -15558,6 +16166,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002226",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002224"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001948",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000163",
       "pred" : "type",
@@ -15643,9 +16255,17 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002290"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000338",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0001909"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002324",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002314"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0500000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000104"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0001010",
       "pred" : "is_a",
@@ -15795,6 +16415,10 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000136"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001909",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000338"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000963",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000009"
@@ -15803,9 +16427,17 @@
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000763"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000338",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000759",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001909",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000427",
       "pred" : "is_a",
@@ -16151,9 +16783,17 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002232"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000338",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0200050",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0200175"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001909",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000124",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "pred" : "subPropertyOf",
@@ -16194,6 +16834,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000300",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002208",
       "pred" : "type",
@@ -16271,6 +16915,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000339",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0003964",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0003824"
@@ -16290,6 +16938,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_0000236",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000542"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0500000",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000272"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000704",
       "pred" : "is_a",
@@ -16402,6 +17054,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000947",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000572",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000310"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000740",
       "pred" : "is_a",
@@ -16675,13 +17331,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0002262",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002250",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002262",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002331",
       "pred" : "type",
@@ -16755,6 +17411,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000572",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000301",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
@@ -16794,6 +17454,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000295",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001628",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000577"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0001472",
       "pred" : "is_a",
@@ -16859,6 +17523,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002201"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SO_0000353",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SO_0001248"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000208",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
@@ -16891,6 +17559,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000010"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000471",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000542",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000842"
@@ -16914,6 +17590,10 @@
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000229",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001621",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000727",
       "pred" : "is_a",
@@ -16950,6 +17630,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002258",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001898",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000039",
       "pred" : "type",
@@ -17063,6 +17747,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000713"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001615",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002300",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002298"
@@ -17157,6 +17845,10 @@
         "fillerId" : "http://purl.obolibrary.org/obo/OBI_0000094"
       } ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/OBI_0000471",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/OBI_0000011" ],
+      "restrictions" : [ null ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/OBI_0001901",
       "genusIds" : [ "http://purl.obolibrary.org/obo/OBI_0001616" ],
       "restrictions" : [ null ]
@@ -17212,6 +17904,10 @@
       "genusIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
       "restrictions" : [ null ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/OBI_0000202",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BFO_0000023" ],
+      "restrictions" : [ null ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/OBI_0001528",
       "genusIds" : [ "http://purl.obolibrary.org/obo/OBI_0001173" ],
       "restrictions" : [ null ]
@@ -17255,6 +17951,10 @@
         "fillerId" : "http://purl.obolibrary.org/obo/OBI_0000112"
       }, null ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/OBI_0001898",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/IAO_0000300" ],
+      "restrictions" : [ null ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/IAO_0000015",
       "genusIds" : [ "http://purl.obolibrary.org/obo/BFO_0000019" ],
       "restrictions" : [ {
@@ -17280,6 +17980,10 @@
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0001000",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000124",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/OBI_0001909" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/IAO_0000027" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000056",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ],
@@ -17313,13 +18017,17 @@
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000017" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
       "allValuesFromEdges" : [ {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0000571",
+        "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0000457"
+      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000067",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0000571",
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0000202",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
-        "obj" : "http://purl.obolibrary.org/obo/OBI_0000457"
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0000066"
       }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000947",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
@@ -17329,6 +18037,10 @@
       "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/OBI_0000011" ],
       "allValuesFromEdges" : [ {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0200190",
+        "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0000648"
+      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000094",
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
@@ -17336,10 +18048,6 @@
         "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
         "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
-      }, {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0200190",
-        "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
-        "obj" : "http://purl.obolibrary.org/obo/OBI_0000648"
       }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0200111",
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -17351,6 +18059,10 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/IAO_0000219",
       "allValuesFromEdges" : [ {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0001628",
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0000066"
+      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0001616",
         "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0100051"
@@ -17359,13 +18071,13 @@
       "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000299",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/OBI_0000011" ],
       "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
-        "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
-        "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
-      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000094",
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+      }, {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
+        "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
+        "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000085",

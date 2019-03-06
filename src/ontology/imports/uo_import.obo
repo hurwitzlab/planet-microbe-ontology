@@ -508,6 +508,25 @@ is_a: UO:0000105 ! frequency unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000121
+name: angle unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the figure or space formed by the junction of two lines or planes." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+relationship: is_unit_of PATO:0000133
+created_by: george gkoutos
+
+[Term]
+id: UO:0000122
+name: plane angle unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the angle formed by two straight lines in the same plane." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000121 ! angle unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000163
 name: mass percentage
 namespace: unit.ontology
@@ -572,6 +591,15 @@ def: "A unit which is a standard measure of the influence exerted by some mass."
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
 relationship: is_unit_of PATO:0001019
+created_by: george gkoutos
+
+[Term]
+id: UO:0000185
+name: degree
+namespace: unit.ontology
+def: "A plane angle unit which is equal to 1/360 of a full rotation or 1.7453310^[-2] rad." [Wikipedia:Wikipedia]
+subset: unit_slim
+is_a: UO:0000122 ! plane angle unit
 created_by: george gkoutos
 
 [Term]
@@ -750,6 +778,15 @@ id: UO:0010003
 name: micromole per litre
 namespace: unit.ontology
 def: "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter." [NIST:NIST]
+subset: unit_slim
+is_a: UO:0000067 ! unit of molality
+created_by: Luke Slater
+
+[Term]
+id: UO:0010004
+name: micromole per kilogram
+namespace: unit.ontology
+def: "A specific concentration unit which is equal to 1 micromole of a given substance per kilogram of solvent." [UOB:LKSR]
 subset: unit_slim
 is_a: UO:0000067 ! unit of molality
 created_by: Luke Slater
