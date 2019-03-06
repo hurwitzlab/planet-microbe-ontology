@@ -1,2 +1,3 @@
-OBI:0000011
-
+OBI:0000011 #planned process
+OBI:0001900 #specimen identifier assigned by specimen repository
+OBI:0001901 #specimen identifier assigned by sequencing facility
