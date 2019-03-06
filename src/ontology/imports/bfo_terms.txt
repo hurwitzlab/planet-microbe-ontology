@@ -1,2 +1,3 @@
-BFO:0000040
-
+BFO:0000040 #material entity
+BFO:0000009	#two-dimensional spatial region
+BFO:0000029	#site

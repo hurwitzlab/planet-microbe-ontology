@@ -1,2 +1,5 @@
-UO:0010003
-
+UO:0010003 #micromole per litre
+UO:0000008 #meter
+UO:0000027 #degree Celsius
+UO:0000185 #degree
+UO:0010004 #micromole per kilogram

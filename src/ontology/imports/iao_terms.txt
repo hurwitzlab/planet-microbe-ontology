@@ -1,1 +1,1 @@
-IAO:0000577
+IAO:0000577 #centrally registered identifier symbol

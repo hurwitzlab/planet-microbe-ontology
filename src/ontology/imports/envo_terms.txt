@@ -1,2 +1,15 @@
-ENVO:00001998
-
+ENVO:00001998 #soil
+ENVO:00000428	#biome
+ENVO:00002297	#environmental feature
+ENVO:00010483	#environmental material
+ENVO:09200014	#temperature of water
+ENVO:09200014	#temperature of water
+ENVO:09200021	#concentration of oxygen in water
+ENVO:3100022	#concentration of nitrate in water
+ENVO:3100026	#concentration of phosphate in water
+ENVO:3100027	#concentration of silicate(4-) in water
+ENVO:3100031	#depth of water
+ENVO:3100032	#fluorescence of water
+ENVO:3100033	#pressure of water
+ENVO:00002149 #seawater
+ENVO:00000015 #ocean
