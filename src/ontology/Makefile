@@ -20,7 +20,7 @@ PATTERNDIR=                 ../patterns
 REPORTDIR=                 reports
 SPARQLDIR =                 ../sparql
 REPORT_FAIL_ON =            None
-OBO_FORMAT_OPTIONS =        
+OBO_FORMAT_OPTIONS =
 SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 
@@ -47,7 +47,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  ro bfo pato envo iao obi uo
+IMPORTS =  ro bfo pato envo iao obi uo ncbitaxon
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl $(n).obo $(n).json)
@@ -64,7 +64,7 @@ all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
 ## Note we also include TSV as a format
 
 
-SUBSETS = 
+SUBSETS =
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(n).tsv $(n).owl $(n).obo $(n).json)
@@ -75,7 +75,7 @@ all_subsets: $(SUBSET_FILES)
 ##
 
 
-PATTERNS = 
+PATTERNS =
 
 PATTERN_ROOTS = $(patsubst %, $(PATTERNDIR)/%, $(PATTERNS))
 PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
@@ -150,8 +150,8 @@ $(ONT).owl: $(SRC) $(OTHER_SRC)
 	         merge  $(patsubst %, -i %, $(IMPORT_OWL_FILES))  \
            annotate --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@
 
-# requires robot 1.2. For some reason, the pipe between remove | merge does not work. 
-$(ONT)-base.owl: $(SRC) 
+# requires robot 1.2. For some reason, the pipe between remove | merge does not work.
+$(ONT)-base.owl: $(SRC)
 	$(ROBOT) remove --trim false --input $< --select imports --output $@.tmp.owl && mv $@.tmp.owl $@ &&\
 $(ROBOT) annotate -i $@ --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@ &&\
 	echo "$(ONT)-base.owl successfully created."
@@ -322,8 +322,3 @@ build-docker:
 
 
 include pmo.Makefile
-
-
-
-
-
