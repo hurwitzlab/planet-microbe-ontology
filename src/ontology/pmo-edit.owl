@@ -1,4 +1,3 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/pmo.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -8,36 +7,281 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pmo.owl>
-
-Import(<http://purl.obolibrary.org/obo/pmo/imports/ro_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pmo/imports/bfo_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/pmo/imports/pato_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pmo/imports/envo_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pmo/imports/iao_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pmo/imports/obi_import.owl>)
-
+Import(<http://purl.obolibrary.org/obo/pmo/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/pmo/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pmo/imports/uo_import.owl>)
-
-
-
 Annotation(rdfs:comment "Planet Microbe Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000038>))
+
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000000>
+# Class: <http://purl.obolibrary.org/obo/PMO_00000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000000> "root node"@en)
 
+# Class: <http://purl.obolibrary.org/obo/PMO_00000001> (sequencing facility centrally registered identifier symbol)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000001> "sequencing facility centrally registered identifier symbol")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000001> <http://purl.obolibrary.org/obo/IAO_0000577>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000003> (unclassified sequences)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000003> "http://purl.obolibrary.org/obo/NCBITaxon_12908")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000003> "unclassified sequences")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000003> <http://purl.obolibrary.org/obo/NCBITaxon_1>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000004> (metagenomes)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000004> "http://purl.obolibrary.org/obo/NCBITaxon_408169")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000004> "metagenomes")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000004> <http://purl.obolibrary.org/obo/PMO_00000003>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000005> (site label)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000005> "site label")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000005> <http://purl.obolibrary.org/obo/IAO_0000009>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000006> (bottle label)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000006> "bottle label")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000006> <http://purl.obolibrary.org/obo/IAO_0000009>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000007> (project investigation identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000007> "project investigation identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000007> <http://purl.obolibrary.org/obo/OBI_0001628>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000008> (specimen collection time measurement datum start)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000008> "specimen collection time measurement datum start")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000008> <http://purl.obolibrary.org/obo/OBI_0001619>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000009> (specimen collection time measurement datum stop)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000009> "specimen collection time measurement datum stop")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000009> <http://purl.obolibrary.org/obo/OBI_0001619>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000010> (conductivity temperature pressure instrument)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000010> "conductivity temperature pressure instrument")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000010> <http://purl.obolibrary.org/obo/OBI_0000832>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000011> (rosette sampling device)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000011> "rosette sampling device")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000011> <http://purl.obolibrary.org/obo/OBI_0000832>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000012> (rosette sampling device niskin position)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000012> "A part of a rosette sampling device in which a niskin bottle is positioned for deployment.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000012> "rosette sampling device niskin position")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000012> <http://purl.obolibrary.org/obo/BFO_0000024>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000013> (salinity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000013> "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per liter of solution.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000013> "salinity")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000013> <http://purl.obolibrary.org/obo/PATO_0001655>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000014> (water salinity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000014> "water salinity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PMO_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>)))
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000014> <http://purl.obolibrary.org/obo/PMO_00000013>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000015> (visible spectrum stellar electromagnetic radiation opacity of water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000015> "visible spectrum stellar electromagnetic radiation opacity of water")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000957> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>)))
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000015> <http://purl.obolibrary.org/obo/PATO_0000957>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000016> (number of observations averaged to produce device measurment datum)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000016> "number of observations averaged to produce device measurment datum")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000016> <http://purl.obolibrary.org/obo/IAO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000017> (number of observations averaged at pressure level to produce CTD measurment datum)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000017> "number of observations averaged at pressure level to produce CTD measurment datum")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000017> <http://purl.obolibrary.org/obo/PMO_00000016>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000018> (concentration of nitrate and nitrite in water)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000018> "concentration of nitrate and nitrite in water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000018> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000019> (replicate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000019> "A role played by a biological sample in the context of an experiment where the  intent is that biological or technical variation is measured.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000019> "http://www.ebi.ac.uk/efo/EFO_0000683")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000019> "replicate")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000019> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000020> (potential temperature)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://paoc.mit.edu/synoptic/courses/12.310/assign3/A3_potential%20temperature.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000020> "A temperature which would inhere in a bearer if such bearer were adiabatically compressed from it's existing temperature and pressure to a standard presure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PMO_00000020> "theta")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PMO_00000020> "Standard pressure is typically one atmosphere.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000020> "potential temperature")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000020> <http://purl.obolibrary.org/obo/PATO_0000146>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000021> (potential density)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Potential_density") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000021> "A density which would inhere in a bearer if such bearer were adiabatically 
+brought to a standard reference pressure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PMO_00000021> "sigma")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000021> "potential density")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000021> <http://purl.obolibrary.org/obo/PATO_0001019>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000022> (lower size threshold filter paper)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000022> "lower size threshold filter paper")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000022> <http://purl.obolibrary.org/obo/OBI_0000747>)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000151>))
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000023> (upper size threshold filter paper)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000023> "upper size threshold filter paper")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000023> <http://purl.obolibrary.org/obo/OBI_0000747>)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000151>))
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000024> (specimen volume)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000024> "specimen volume")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000024> <http://purl.obolibrary.org/obo/PATO_0000918>)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000025> (water sample volume)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000025> "water sample volume")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000025> <http://purl.obolibrary.org/obo/PMO_00000024>)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>))
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000026> (concentration of chlorophyll in water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000026> "http://purl.obolibrary.org/obo/ENVO_3100036")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000026> "concentration of chlorophyll in water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000026> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000027> (concentration of nitrate in water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000027> "http://purl.obolibrary.org/obo/ENVO_3100022")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000027> "concentration of nitrate in water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000027> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000028> (pressure of water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000028> "http://purl.obolibrary.org/obo/ENVO_3100033")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000028> "pressure of water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000028> <http://purl.obolibrary.org/obo/PATO_0001025>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000029> (depth of water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000029> "http://purl.obolibrary.org/obo/ENVO_3100031")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000029> "depth of water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000029> <http://purl.obolibrary.org/obo/PATO_0001595>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000030> (fluorescence of water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000030> "http://purl.obolibrary.org/obo/ENVO_3100032")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000030> "fluorescence of water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000030> <http://purl.obolibrary.org/obo/PATO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000031> (concentration of phosphate in water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000031> "http://purl.obolibrary.org/obo/ENVO_3100026")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000031> "concentration of phosphate in water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000031> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000032> (concentration of silicate(4-) in water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000032> "http://purl.obolibrary.org/obo/ENVO_3100027")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000032> "concentration of silicate(4-) in water")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000032> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000033> (bar)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Bar_(unit)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000033> "A pressure unit which is equal to 100,000 pascal.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000033> "bar")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000033> <http://purl.obolibrary.org/obo/UO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000034> (decibar)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000034> "A pressure unit which is equal to one tenth of a bar.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000034> "decibar")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000034> <http://purl.obolibrary.org/obo/UO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000035> (atmosphere unit)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Atmosphere_(unit)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000035> "A pressure unit which is equal to 101325 pascal.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000035> "atmosphere unit")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000035> <http://purl.obolibrary.org/obo/UO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000036> (salinity unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000036> "A unit which is a standard measure of salinity.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000036> "salinity unit")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000036> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000037> (practical salinity unit)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000037> "PSS-78")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000037> "PSU")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000037> "practical salinity unit")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000037> <http://purl.obolibrary.org/obo/PMO_00000036>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000038> (international temperature scale of 1990 unit)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000038> "https://www.omega.com/temperature/Z/pdf/z186-193.pdf")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000038> "ITS-90")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000038> "international temperature scale of 1990 unit")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000038> <http://purl.obolibrary.org/obo/UO_0000005>)
+
 
 )
-
