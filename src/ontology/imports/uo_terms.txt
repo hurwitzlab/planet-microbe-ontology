@@ -3,3 +3,10 @@ UO:0000008 #meter
 UO:0000027 #degree Celsius
 UO:0000185 #degree
 UO:0010004 #micromole per kilogram
+UO:0000017 #micrometer
+UO:0000099 #liter
+UO:0000109 #pressure unit
+UO:0000187 #percent
+UO:0000247 #millivolt
+UO:0000083 #kilogram per cubic meter
+UO:0000005 #temperature unit

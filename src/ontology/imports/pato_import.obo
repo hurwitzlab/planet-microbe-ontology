@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-06/imports/pato_import.owl
+data-version: pmo/releases/2019-03-07/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]
@@ -9,6 +9,14 @@ namespace: quality
 alt_id: PATO:0000072
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
 synonym: "trait" EXACT []
+
+[Term]
+id: PATO:0000018
+name: fluorescence
+namespace: quality
+def: "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001296 ! luminous flux
 
 [Term]
 id: PATO:0000025
@@ -35,6 +43,15 @@ subset: relational_slim
 subset: scalar_slim
 synonym: "concentration" EXACT []
 is_a: PATO:0002182 ! molecular quality
+
+[Term]
+id: PATO:0000044
+name: frequency
+namespace: quality
+def: "A physical quality which inheres in a bearer by virtue of the number of the bearer's repetitive actions in a particular time." [Wikipedia:http\://en.wikipedia.org/wiki/frequency]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000161 ! rate
 
 [Term]
 id: PATO:0000048
@@ -91,6 +108,40 @@ subset: scalar_slim
 is_a: PATO:0000051 ! morphology
 
 [Term]
+id: PATO:0000125
+name: mass
+namespace: quality
+def: "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000128
+name: weight
+namespace: quality
+def: "A physical quality inhering in a bearer that has mass near a gravitational body." [Wikipedia:http\://en.wikipedia.org/wiki/Weight]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001035 ! force
+
+[Term]
+id: PATO:0000133
+name: orientation
+namespace: quality
+alt_id: PATO:0000137
+def: "A spatial quality inhering in a bearer by virtue of the bearer's placement which is defined by the angle between the bearer and an axis, or the angle between the bearer and another object." [PATOC:JE]
+subset: attribute_slim
+subset: relational_slim
+synonym: "amount of rotation" RELATED []
+synonym: "angle" RELATED []
+synonym: "angular magnitude" RELATED []
+synonym: "angular placement" EXACT []
+synonym: "plane angle" RELATED []
+is_a: PATO:0000140 ! position
+
+[Term]
 id: PATO:0000140
 name: position
 namespace: quality
@@ -124,6 +175,24 @@ subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
+id: PATO:0000161
+name: rate
+namespace: quality
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's occurrence per unit time." [PATOC:melissa]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0000165
+name: time
+namespace: quality
+def: "A quality in which events occur in sequence." [PATOC:GVG]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0000186
 name: behavioral quality
 namespace: quality
@@ -131,6 +200,36 @@ alt_id: PATO:0001722
 def: "An organismal quality inhering in a bearer by virtue of the bearer's behavior aggregate of the responses or reactions or movements in a given situation." [PATOC:GVG]
 synonym: "behavioural quality" EXACT []
 is_a: PATO:0001995 ! organismal quality
+
+[Term]
+id: PATO:0000380
+name: increased frequency
+namespace: quality
+def: "A frequency which is relatively high." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "frequent" RELATED []
+synonym: "high frequency" EXACT []
+is_a: PATO:0000044 ! frequency
+is_a: PATO:0000912 ! increased rate
+intersection_of: PATO:0000044 ! frequency
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000381 ! decreased frequency
+
+[Term]
+id: PATO:0000381
+name: decreased frequency
+namespace: quality
+def: "A frequency which is relatively low." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "infrequent" RELATED []
+synonym: "low frequency" EXACT []
+is_a: PATO:0000044 ! frequency
+is_a: PATO:0000911 ! decreased rate
+intersection_of: PATO:0000044 ! frequency
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000380 ! increased frequency
 
 [Term]
 id: PATO:0000386
@@ -147,7 +246,7 @@ is_a: PATO:0000048 ! hardness
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0000048 ! hardness
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0000387
+relationship: is_opposite_of PATO:0000387 ! soft
 
 [Term]
 id: PATO:0000387
@@ -161,7 +260,22 @@ is_a: PATO:0000048 ! hardness
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000048 ! hardness
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0000386
+relationship: is_opposite_of PATO:0000386 ! hard
+
+[Term]
+id: PATO:0000460
+name: abnormal
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's deviation from normal or average." [PATOC:GVG]
+subset: abnormal_slim
+subset: mpath_slim
+subset: value_slim
+synonym: "aberrant" RELATED []
+synonym: "atypia" RELATED []
+synonym: "atypical" RELATED []
+synonym: "defective" RELATED []
+is_a: PATO:0000069 ! deviation(from_normal)
+relationship: is_opposite_of PATO:0000461 ! normal
 
 [Term]
 id: PATO:0000461
@@ -173,7 +287,72 @@ subset: mpath_slim
 subset: value_slim
 synonym: "average" RELATED []
 is_a: PATO:0000069 ! deviation(from_normal)
-property_value: RO:0002604 PATO:0000460
+relationship: is_opposite_of PATO:0000460 ! abnormal
+
+[Term]
+id: PATO:0000498
+name: increased duration
+namespace: quality
+alt_id: PATO:0000715
+def: "A duration quality of a process which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "chronic" RELATED []
+synonym: "high time" EXACT []
+synonym: "increased period" EXACT []
+synonym: "increased time" EXACT []
+synonym: "prolonged period" RELATED []
+synonym: "slow time" RELATED []
+is_a: PATO:0001309 ! duration
+is_a: PATO:0002304 ! increased process quality
+intersection_of: PATO:0001309 ! duration
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000499 ! decreased duration
+
+[Term]
+id: PATO:0000499
+name: decreased duration
+namespace: quality
+alt_id: PATO:0000716
+def: "A duration quality of a process which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "decreased period" EXACT []
+synonym: "decreased time" EXACT []
+synonym: "fast time" RELATED []
+synonym: "low period" EXACT []
+synonym: "shortened period" EXACT []
+is_a: PATO:0001309 ! duration
+is_a: PATO:0002302 ! decreased process quality
+intersection_of: PATO:0001309 ! duration
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000498 ! increased duration
+
+[Term]
+id: PATO:0000582
+name: increased weight
+namespace: quality
+def: "A weight which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "heavy" EXACT []
+synonym: "high weight" EXACT []
+is_a: PATO:0000128 ! weight
+is_a: PATO:0002245 ! increased force
+intersection_of: PATO:0000128 ! weight
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000583 ! decreased weight
+
+[Term]
+id: PATO:0000583
+name: decreased weight
+namespace: quality
+def: "A weight which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "light weight" EXACT []
+synonym: "low weight" EXACT []
+is_a: PATO:0000128 ! weight
+is_a: PATO:0002246 ! decreased force
+intersection_of: PATO:0000128 ! weight
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000582 ! increased weight
 
 [Term]
 id: PATO:0000586
@@ -191,7 +370,7 @@ is_a: PATO:0000117 ! size
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0000117 ! size
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0000587
+relationship: is_opposite_of PATO:0000587 ! decreased size
 
 [Term]
 id: PATO:0000587
@@ -208,7 +387,76 @@ is_a: PATO:0000117 ! size
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000117 ! size
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0000586
+relationship: is_opposite_of PATO:0000586 ! increased size
+
+[Term]
+id: PATO:0000595
+name: increased volume
+namespace: quality
+def: "A volume which is relatively high." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "high volume" EXACT []
+synonym: "large volume" RELATED []
+is_a: PATO:0000586 ! increased size
+is_a: PATO:0000918 ! volume
+intersection_of: PATO:0000918 ! volume
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000596 ! decreased volume
+
+[Term]
+id: PATO:0000596
+name: decreased volume
+namespace: quality
+def: "A volume which is relatively low." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "low volume" EXACT []
+synonym: "small volume" RELATED []
+is_a: PATO:0000587 ! decreased size
+is_a: PATO:0000918 ! volume
+intersection_of: PATO:0000918 ! volume
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000595 ! increased volume
+
+[Term]
+id: PATO:0000911
+name: decreased rate
+namespace: quality
+def: "A rate which is relatively low." [PATO:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "slow rate" EXACT []
+is_a: PATO:0000161 ! rate
+is_a: PATO:0002302 ! decreased process quality
+intersection_of: PATO:0000161 ! rate
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000912 ! increased rate
+
+[Term]
+id: PATO:0000912
+name: increased rate
+namespace: quality
+def: "A rate which is relatively high." [PATO:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "fast rate" EXACT []
+synonym: "high rate" EXACT []
+is_a: PATO:0000161 ! rate
+is_a: PATO:0002304 ! increased process quality
+intersection_of: PATO:0000161 ! rate
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000911 ! decreased rate
+
+[Term]
+id: PATO:0000918
+name: volume
+namespace: quality
+def: "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies." [PATOC:GVG]
+subset: attribute_slim
+subset: mpath_slim
+subset: scalar_slim
+is_a: PATO:0001710 ! 3-D extent
 
 [Term]
 id: PATO:0000957
@@ -229,7 +477,18 @@ synonym: "clouding" RELATED []
 synonym: "cloudy" RELATED []
 synonym: "non-transparent" EXACT []
 is_a: PATO:0000957 ! opacity
-property_value: RO:0002604 PATO:0000964
+relationship: is_opposite_of PATO:0000964 ! transparent
+
+[Term]
+id: PATO:0000964
+name: transparent
+namespace: quality
+def: "A optical quality inhering in a bearer by virtue of the bearer's lacking opacity." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "clear" EXACT []
+is_a: PATO:0000957 ! opacity
+relationship: is_opposite_of PATO:0000963 ! opaque
 
 [Term]
 id: PATO:0000970
@@ -259,7 +518,18 @@ def: "A porosity quality inhering in a bearer by virtue of the bearer's being ca
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0000973 ! porosity
-property_value: RO:0002604 PATO:0000985
+disjoint_from: PATO:0000985 ! non-porous
+relationship: is_opposite_of PATO:0000985 ! non-porous
+
+[Term]
+id: PATO:0000985
+name: non-porous
+namespace: quality
+def: "A porosity quality inhering in a bearer by virtue of the bearer's being incapable of admitting the passage of gas or liquid through pores or interstices." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0000973 ! porosity
+relationship: is_opposite_of PATO:0000984 ! porous
 
 [Term]
 id: PATO:0001018
@@ -273,13 +543,55 @@ xref: Wikipedia:Physical_property
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
+id: PATO:0001019
+name: mass density
+namespace: quality
+def: "A physical quality which inheres in a bearer by virtue of some influence is exerted by the bearer's mass per unit size." [WordNet:WordNet]
+subset: attribute_slim
+subset: scalar_slim
+synonym: "density" RELATED []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001025
+name: pressure
+namespace: quality
+def: "A physical quality that inheres in a bearer by virtue of the bearer's amount of force per unit area it exerts." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001035
+name: force
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's rate of change of momentum." [thesaurus.maths:thesaurus.maths]
+subset: attribute_slim
+subset: scalar_slim
+synonym: "force amplitude" EXACT []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0001154
 name: elongated
 namespace: quality
 def: "A quality inhering in a bearer by virtue of the bearer's length being notably higher than its width." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000052 ! shape
-property_value: RO:0002604 PATO:0002364
+relationship: is_opposite_of PATO:0002364 ! shortened
+
+[Term]
+id: PATO:0001236
+name: process quality
+namespace: quality
+alt_id: PATO:0001239
+alt_id: PATO:0001240
+def: "A quality which inheres in an process." [PATOC:GVG]
+comment: See comments of relational quality of a physical entity.
+synonym: "quality of a process" EXACT []
+synonym: "quality of occurrent" EXACT []
+synonym: "quality of process" EXACT []
+synonym: "relational quality of occurrent" EXACT []
+is_a: PATO:0000001 ! quality
 
 [Term]
 id: PATO:0001241
@@ -309,6 +621,14 @@ subset: attribute_slim
 is_a: PATO:0001739 ! radiation quality
 
 [Term]
+id: PATO:0001296
+name: luminous flux
+namespace: quality
+def: "A scalar optical quality which obtains by the magnitude of the light emitted by the bearer." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001300 ! optical quality
+
+[Term]
 id: PATO:0001300
 name: optical quality
 namespace: quality
@@ -329,7 +649,7 @@ is_a: PATO:0000146 ! temperature
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0000146 ! temperature
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001306
+relationship: is_opposite_of PATO:0001306 ! decreased temperature
 
 [Term]
 id: PATO:0001306
@@ -344,7 +664,52 @@ is_a: PATO:0000146 ! temperature
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000146 ! temperature
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001305
+relationship: is_opposite_of PATO:0001305 ! increased temperature
+
+[Term]
+id: PATO:0001309
+name: duration
+namespace: quality
+alt_id: PATO:0000081
+def: "A process quality inhering in a bearer by virtue of the bearer's magnitude of the temporal extent between the starting and ending point." [PATOC:mellybelly]
+subset: attribute_slim
+subset: hpo_slim
+synonym: "period" EXACT []
+synonym: "time" RELATED []
+is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0001353
+name: volumetric density
+namespace: quality
+def: "A density quality which inheres in a bearer by virtue of some influence exerted by the bearer's mass on a given volume." [Wikipedia:http\://en.wikipedia.org/wiki/Mass_density]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001019 ! mass density
+
+[Term]
+id: PATO:0001428
+name: medium acidity
+namespace: quality
+def: "A concentration quality inhering in a medium by virtue of the bearer's tendency to hydronate a specific reference base." [chemicool:chemicool]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001842 ! acidity
+
+[Term]
+id: PATO:0001472
+name: decreased depth
+namespace: quality
+alt_id: PATO:0001692
+def: "A depth which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "low depth" EXACT []
+synonym: "shallow" EXACT []
+is_a: PATO:0000587 ! decreased size
+is_a: PATO:0001595 ! depth
+intersection_of: PATO:0001595 ! depth
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001596 ! increased depth
 
 [Term]
 id: PATO:0001475
@@ -357,7 +722,7 @@ is_a: PATO:0000140 ! position
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0000140 ! position
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001476
+relationship: is_opposite_of PATO:0001476 ! decreased position
 
 [Term]
 id: PATO:0001476
@@ -370,7 +735,7 @@ is_a: PATO:0000140 ! position
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000140 ! position
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001475
+relationship: is_opposite_of PATO:0001475 ! increased position
 
 [Term]
 id: PATO:0001481
@@ -408,6 +773,94 @@ synonym: "liquidity" EXACT []
 is_a: PATO:0002198 ! quality of a substance
 
 [Term]
+id: PATO:0001562
+name: decreased mass
+namespace: quality
+alt_id: PATO:0000579
+def: "A mass which is lower than normal or average." [PATO:GVG]
+subset: value_slim
+synonym: "low mass" EXACT []
+synonym: "small mass" EXACT []
+is_a: PATO:0000125 ! mass
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000125 ! mass
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001563 ! increased mass
+
+[Term]
+id: PATO:0001563
+name: increased mass
+namespace: quality
+alt_id: PATO:0000578
+def: "A mass which is higher than normal or average." [PATO:GVG]
+subset: value_slim
+synonym: "high mass" EXACT []
+synonym: "large mass" EXACT []
+is_a: PATO:0000125 ! mass
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000125 ! mass
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001562 ! decreased mass
+
+[Term]
+id: PATO:0001574
+name: flow rate
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's motion characteristic." [WordNet:WordNet]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001906 ! movement quality
+
+[Term]
+id: PATO:0001575
+name: decreased pressure
+namespace: quality
+def: "A pressure which is relatively low." [PATO:GVG]
+subset: value_slim
+synonym: "low pressure" EXACT []
+is_a: PATO:0001025 ! pressure
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001025 ! pressure
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001576 ! increased pressure
+
+[Term]
+id: PATO:0001576
+name: increased pressure
+namespace: quality
+def: "A pressure which is relatively high." [PATO:GVG]
+subset: value_slim
+synonym: "high pressure" EXACT []
+is_a: PATO:0001025 ! pressure
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0001025 ! pressure
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001575 ! decreased pressure
+
+[Term]
+id: PATO:0001595
+name: depth
+namespace: quality
+def: "A 1-D extent quality inhering in a bearer by virtue of the bearer's downward or backward or inward dimenision." [WordNet:WordNet]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001708 ! 1-D extent
+
+[Term]
+id: PATO:0001596
+name: increased depth
+namespace: quality
+alt_id: PATO:0001666
+def: "A depth quality which is relatively high." [PATO:GVG]
+subset: value_slim
+synonym: "deep" EXACT []
+is_a: PATO:0000586 ! increased size
+is_a: PATO:0001595 ! depth
+intersection_of: PATO:0001595 ! depth
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001472 ! decreased depth
+
+[Term]
 id: PATO:0001655
 name: osmolarity
 namespace: quality
@@ -429,7 +882,7 @@ is_a: PATO:0001655 ! osmolarity
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0001655 ! osmolarity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001657
+relationship: is_opposite_of PATO:0001657 ! increased osmolarity
 
 [Term]
 id: PATO:0001657
@@ -443,7 +896,7 @@ is_a: PATO:0001655 ! osmolarity
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0001655 ! osmolarity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001656
+relationship: is_opposite_of PATO:0001656 ! decreased osmolarity
 
 [Term]
 id: PATO:0001687
@@ -465,7 +918,7 @@ is_a: PATO:0001475 ! increased position
 is_a: PATO:0001687 ! elevation
 intersection_of: PATO:0001687 ! elevation
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001689
+relationship: is_opposite_of PATO:0001689 ! decreased elevation
 
 [Term]
 id: PATO:0001689
@@ -478,7 +931,25 @@ is_a: PATO:0001476 ! decreased position
 is_a: PATO:0001687 ! elevation
 intersection_of: PATO:0001687 ! elevation
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0001688
+relationship: is_opposite_of PATO:0001688 ! increased elevation
+
+[Term]
+id: PATO:0001708
+name: 1-D extent
+namespace: quality
+def: "A size quality inhering in an bearer by virtue of the bearer's extension in one dimension." [PATOC:GVG]
+subset: attribute_slim
+synonym: "1-D size" EXACT []
+is_a: PATO:0000117 ! size
+
+[Term]
+id: PATO:0001710
+name: 3-D extent
+namespace: quality
+def: "A size quality inhering in an bearer by virtue of the bearer's extension in three dimensions." [PATOC:GVG]
+subset: attribute_slim
+synonym: "3D size" EXACT []
+is_a: PATO:0000117 ! size
 
 [Term]
 id: PATO:0001739
@@ -498,6 +969,50 @@ subset: value_slim
 is_a: PATO:0000025 ! composition
 
 [Term]
+id: PATO:0001842
+name: acidity
+namespace: quality
+def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." [biology-online:biology-online]
+subset: attribute_slim
+subset: scalar_slim
+synonym: "pH" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: PATO:0001843
+name: decreased acidity
+namespace: quality
+def: "An acidity which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "low acidity" EXACT []
+is_a: PATO:0001842 ! acidity
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001842 ! acidity
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001844 ! increased acidity
+
+[Term]
+id: PATO:0001844
+name: increased acidity
+namespace: quality
+def: "An acidity which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "high acidity" EXACT []
+is_a: PATO:0001842 ! acidity
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0001842 ! acidity
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001843 ! decreased acidity
+
+[Term]
+id: PATO:0001906
+name: movement quality
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's participation in movement." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0001985
 name: frozen
 namespace: quality
@@ -511,6 +1026,15 @@ name: organismal quality
 namespace: quality
 def: "A quality that inheres in an entire organism or part of an organism." [PATOC:CJM]
 is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0002062
+name: physical quality of a process
+namespace: quality
+subset: attribute_slim
+is_a: PATO:0001236 ! process quality
+created_by: george
+creation_date: 2009-06-05T09:16:46Z
 
 [Term]
 id: PATO:0002124
@@ -609,6 +1133,36 @@ created_by: haendel
 creation_date: 2010-03-22T05:49:30Z
 
 [Term]
+id: PATO:0002245
+name: increased force
+namespace: quality
+def: "A force which relative high." [PATOC:GVG]
+subset: value_slim
+synonym: "increased force amplitude" EXACT []
+is_a: PATO:0001035 ! force
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0001035 ! force
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002246 ! decreased force
+created_by: george
+creation_date: 2010-08-04T11:12:20Z
+
+[Term]
+id: PATO:0002246
+name: decreased force
+namespace: quality
+def: "A force which is relative low." [PATOC:GVG]
+subset: value_slim
+synonym: "decreased force amplitude" EXACT []
+is_a: PATO:0001035 ! force
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001035 ! force
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002245 ! increased force
+created_by: george
+creation_date: 2010-08-04T11:13:13Z
+
+[Term]
 id: PATO:0002300
 name: increased quality
 namespace: quality
@@ -617,7 +1171,7 @@ is_a: PATO:0000069 ! deviation(from_normal)
 intersection_of: PATO:0000001 ! quality
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0002301
+relationship: is_opposite_of PATO:0002301 ! decreased quality
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:39:43Z
 
@@ -630,9 +1184,22 @@ is_a: PATO:0000069 ! deviation(from_normal)
 intersection_of: PATO:0000001 ! quality
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0002300
+relationship: is_opposite_of PATO:0002300 ! increased quality
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:40:15Z
+
+[Term]
+id: PATO:0002302
+name: decreased process quality
+namespace: quality
+def: "A quality of a process that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! process quality
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002304 ! increased process quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:50:59Z
 
 [Term]
 id: PATO:0002303
@@ -643,9 +1210,22 @@ is_a: PATO:0001241 ! physical object quality
 is_a: PATO:0002301 ! decreased quality
 intersection_of: PATO:0001241 ! physical object quality
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0002305
+relationship: is_opposite_of PATO:0002305 ! increased object quality
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:51:54Z
+
+[Term]
+id: PATO:0002304
+name: increased process quality
+namespace: quality
+def: "A quality of a process that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! process quality
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002302 ! decreased process quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:53:08Z
 
 [Term]
 id: PATO:0002305
@@ -656,9 +1236,20 @@ is_a: PATO:0001241 ! physical object quality
 is_a: PATO:0002300 ! increased quality
 intersection_of: PATO:0001241 ! physical object quality
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0002303
+relationship: is_opposite_of PATO:0002303 ! decreased object quality
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:54:01Z
+
+[Term]
+id: PATO:0002364
+name: shortened
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's length being notably lower than its width." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+relationship: is_opposite_of PATO:0001154 ! elongated
+created_by: gkoutos
+creation_date: 2012-04-18T06:31:29Z
 
 [Term]
 id: PATO:0015024
@@ -681,7 +1272,7 @@ is_a: PATO:0000973 ! porosity
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000973 ! porosity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
-property_value: RO:0002604 PATO:0015024
+relationship: is_opposite_of PATO:0015024 ! increased porosity
 
 [Typedef]
 id: decreased_in_magnitude_relative_to
@@ -720,6 +1311,14 @@ domain: PATO:0000001 ! quality
 range: PATO:0000001 ! quality
 is_transitive: true
 is_a: different_in_magnitude_relative_to ! different_in_magnitude_relative_to
+
+[Typedef]
+id: is_opposite_of
+name: is opposite of
+namespace: quality
+xref: RO:0002604
+is_metadata_tag: true
+is_class_level: true
 
 [Typedef]
 id: part_of

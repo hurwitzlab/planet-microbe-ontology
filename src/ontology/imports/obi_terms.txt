@@ -5,3 +5,5 @@ OBI:0001621	#longitude coordinate measurement datum
 OBI:0001628	#investigation identifier
 OBI:0001900	#specimen identifier assigned by specimen repository
 OBI:0001901	#specimen identifier assigned by sequencing facility
+OBI:0001619 #specimen collection time measurement datum
+OBI:0000151 #filter paper

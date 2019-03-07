@@ -27,11 +27,11 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -80,11 +80,11 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
         }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "In this scale, the freezing point of water is 32 degrees Fahrenheit and the boiling point is 212 degrees, placing the boiling and freezing points of water 180 degrees apart. -40 degrees Fahrenheit is equal to -40 degrees Celsius."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "In this scale, the freezing point of water is 32 degrees Fahrenheit and the boiling point is 212 degrees, placing the boiling and freezing points of water 180 degrees apart. -40 degrees Fahrenheit is equal to -40 degrees Celsius."
         } ]
       },
       "type" : "CLASS",
@@ -103,11 +103,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -162,11 +162,11 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -198,11 +198,11 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -239,11 +239,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -294,6 +294,24 @@
       "type" : "CLASS",
       "lbl" : "hertz"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000109",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the force applied to a given area.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pressure unit"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
       "type" : "PROPERTY",
       "lbl" : "in_subset"
@@ -338,6 +356,33 @@
       "type" : "CLASS",
       "lbl" : "rate unit"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000083",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit density which is equal to mass of an object in kilograms divided by the volume in cubic meters.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "kilogram per cubic metre",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "kg/m^[3]",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kilogram per cubic meter"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000281",
       "meta" : {
         "definition" : {
@@ -351,11 +396,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -397,11 +442,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -490,11 +535,11 @@
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "(w/v)",
+          "val" : "weight-volume percentage",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "weight-volume percentage",
+          "val" : "(w/v)",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -531,23 +576,6 @@
       },
       "type" : "CLASS",
       "lbl" : "count per molar"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000000",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit of measurement is a standardized quantity of a physical quality.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "unit"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000165",
       "meta" : {
@@ -589,6 +617,23 @@
       },
       "type" : "CLASS",
       "lbl" : "angle unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit of measurement is a standardized quantity of a physical quality.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unit"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000122",
       "meta" : {
@@ -634,11 +679,11 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -675,14 +720,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "UO:0000149"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -701,11 +746,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -776,11 +821,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -795,15 +840,15 @@
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "cubic centimetre",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "cm^3",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "cc",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "cubic centimetre",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -844,29 +889,6 @@
       "type" : "CLASS",
       "lbl" : "gram per liter"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000010",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is equal to the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom.",
-          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "s",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "second"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000098",
       "meta" : {
         "definition" : {
@@ -894,6 +916,29 @@
       "type" : "CLASS",
       "lbl" : "milliliter"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000010",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is equal to the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom.",
+          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "s",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "second"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000099",
       "meta" : {
         "definition" : {
@@ -903,11 +948,11 @@
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "litre",
+          "val" : "l",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "l",
+          "val" : "litre",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -915,11 +960,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -987,11 +1032,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -1010,18 +1055,41 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "UO:0000126"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
       "lbl" : "temperature unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000247",
+      "meta" : {
+        "definition" : {
+          "val" : "An electric potential difference unit which is equal to one thousandth of a volt or 10^[-3] V.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mV",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "millivolt"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000006",
       "meta" : {
@@ -1076,6 +1144,29 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "meter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000009",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at Svres, France.",
+          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "kg",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
         }, {
@@ -1084,7 +1175,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "meter"
+      "lbl" : "kilogram"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000207",
       "meta" : {
@@ -1112,29 +1203,6 @@
       },
       "type" : "CLASS",
       "lbl" : "milliliter per liter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000009",
-      "meta" : {
-        "definition" : {
-          "val" : "A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at Svres, France.",
-          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "kg",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "kilogram"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000208",
       "meta" : {
@@ -1175,11 +1243,11 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "Luke Slater"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -1234,11 +1302,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -1330,11 +1398,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -1353,11 +1421,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -1450,29 +1518,6 @@
       "type" : "CLASS",
       "lbl" : "milligram"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000023",
-      "meta" : {
-        "definition" : {
-          "val" : "A mass unit which is equal to one millionth of a gram or 10^[-6] g.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "ug",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "microgram"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000067",
       "meta" : {
         "definition" : {
@@ -1481,11 +1526,11 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -1518,6 +1563,29 @@
       "type" : "CLASS",
       "lbl" : "cubic decimeter"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000023",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit which is equal to one millionth of a gram or 10^[-6] g.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ug",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microgram"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000101",
       "meta" : {
         "definition" : {
@@ -1535,11 +1603,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -1581,11 +1649,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -1600,11 +1668,11 @@
         "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "nanolitre",
+          "val" : "nl",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "nl",
+          "val" : "nanolitre",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -1720,11 +1788,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
         } ]
       },
       "type" : "CLASS",
@@ -1747,11 +1815,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
         } ]
       },
       "type" : "CLASS",
@@ -1780,6 +1848,24 @@
       "type" : "CLASS",
       "lbl" : "angstrom"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000217",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "electric potential difference unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/uo#unit_slim",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1806,6 +1892,170 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000205",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000281",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001309"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000109",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000103",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000099",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000285",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000175",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000121"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000097",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000045"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000063",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000121",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001708"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000301",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000271",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001574"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000217",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000270",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000101",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000045"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000165",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000205"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0010004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000212",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000105",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000044"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000035",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
@@ -1830,35 +2080,15 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000128"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000205",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000034",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000022",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000281",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000196",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000186"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000021",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000033",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000010",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
     }, {
@@ -1866,23 +2096,7 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
-      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001309"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000103",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000186",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
@@ -1890,61 +2104,29 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000066",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000002",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000099",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000164",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000176",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000065",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000039",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000027",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000005"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000285",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000025",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000098",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000175",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000163",
       "pred" : "is_a",
@@ -1962,14 +2144,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000187"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000122",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000121"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000036",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000024",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
@@ -1977,10 +2151,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000095",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001710"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000097",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000052",
       "pred" : "is_a",
@@ -1990,37 +2160,21 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000133"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000010",
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000247",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000045"
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000217"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000002",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000125"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000063",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000208",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000121",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000164",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000187"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000105",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000019",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000195",
       "pred" : "is_a",
@@ -2030,10 +2184,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000207",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000205"
@@ -2041,10 +2191,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000182",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001019"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000017",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000005",
       "pred" : "is_a",
@@ -2070,25 +2216,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
-      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001708"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000005",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000109",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000185",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000122"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000031",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000301",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000051",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
@@ -2106,37 +2252,13 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001353"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000271",
-      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001574"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0010003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000067"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000270",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000101",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000008",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000045"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000051",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000165",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000205"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0010004",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000067"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000042",
       "pred" : "is_a",
@@ -2146,25 +2268,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000212",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000009",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000041",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000008",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000105",
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000217",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000044"
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001464"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000190",
       "pred" : "is_a",
@@ -2187,7 +2297,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-06/imports/uo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-07/imports/uo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

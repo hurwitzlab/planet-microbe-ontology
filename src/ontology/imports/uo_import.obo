@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-06/imports/uo_import.owl
+data-version: pmo/releases/2019-03-07/imports/uo_import.owl
 ontology: pmo/imports/uo_import
 
 [Term]
@@ -398,6 +398,17 @@ is_a: UO:0000051 ! concentration unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000083
+name: kilogram per cubic meter
+namespace: unit.ontology
+def: "A mass unit density which is equal to mass of an object in kilograms divided by the volume in cubic meters." [UOC:GVG]
+subset: unit_slim
+synonym: "kg/m^[3]" EXACT []
+synonym: "kilogram per cubic metre" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000095
 name: volume unit
 namespace: unit.ontology
@@ -505,6 +516,16 @@ subset: unit_slim
 synonym: "Hz" EXACT []
 synonym: "s^1" EXACT []
 is_a: UO:0000105 ! frequency unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000109
+name: pressure unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the force applied to a given area." [NIST:NIST]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+relationship: is_unit_of PATO:0001025
 created_by: george gkoutos
 
 [Term]
@@ -690,6 +711,26 @@ namespace: unit.ontology
 def: "A concentration unit which a measure of viable bacterial numbers in a given volume." [Wikipedia:Wikipedia]
 subset: unit_group_slim
 is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000217
+name: electric potential difference unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+relationship: is_unit_of PATO:0001464
+created_by: george gkoutos
+
+[Term]
+id: UO:0000247
+name: millivolt
+namespace: unit.ontology
+def: "An electric potential difference unit which is equal to one thousandth of a volt or 10^[-3] V." [UOC:GVG]
+subset: unit_slim
+synonym: "mV" EXACT []
+is_a: UO:0000217 ! electric potential difference unit
 created_by: george gkoutos
 
 [Term]
