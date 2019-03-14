@@ -138,6 +138,41 @@
       "type" : "INDIVIDUAL",
       "lbl" : "other"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000590",
+      "meta" : {
+        "definition" : {
+          "val" : "A textual entity that denotes a particular in reality.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "written name"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "https://github.com/information-artifact-ontology/IAO/issues/114"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "\"The Eiffel Tower\""
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "\"United States of America\""
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Bill Hogan"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "The qualifier \"written\" is to set it apart from spoken names.  Also, note the restrictions to particulars.  We are not naming universals.   We could however, be naming, attributive collections which are particulars, so \"All people located in the boundaries of the city of Little Rock, AR on June 18, 2011 at 9:50a CDT\" would be a name."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "\"Bill Clinton\""
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "written name"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "meta" : {
         "definition" : {
@@ -178,6 +213,23 @@
       },
       "type" : "PROPERTY",
       "lbl" : "part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000122",
+      "meta" : {
+        "definition" : {
+          "val" : "A 1-D extent quality which is equal to the distance between two points.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/pato.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "length"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "length"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000055",
       "meta" : {
@@ -1906,6 +1958,29 @@
       "type" : "CLASS",
       "lbl" : "figure"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000305",
+      "meta" : {
+        "definition" : {
+          "val" : "A textual entity that names a document",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Textual characteristics of traditional and Open Access scientific journals are similar"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "document title"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Lawrence Hunter"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "document title"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000017",
       "meta" : {
         "definition" : {
@@ -2344,10 +2419,10 @@
           "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] "
@@ -4025,13 +4100,17 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000579"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000309",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000308"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000064",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000309",
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000305",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000308"
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000027",
       "pred" : "is_a",
@@ -4041,13 +4120,13 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000030",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000031"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0001000",
       "pred" : "inverseOf",
@@ -4329,11 +4408,19 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000590",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000019",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000020"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000122",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
     }, {
@@ -4474,7 +4561,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-07/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-14/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

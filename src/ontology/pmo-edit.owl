@@ -17,7 +17,6 @@ Import(<http://purl.obolibrary.org/obo/pmo/imports/uo_import.owl>)
 Annotation(rdfs:comment "Planet Microbe Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000000>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000005>))
@@ -54,6 +53,34 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000073>))
 
 
 
@@ -64,11 +91,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000038>))
 # Class: <http://purl.obolibrary.org/obo/PMO_00000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000000> "root node"@en)
-
-# Class: <http://purl.obolibrary.org/obo/PMO_00000001> (sequencing facility centrally registered identifier symbol)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000001> "sequencing facility centrally registered identifier symbol")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000001> <http://purl.obolibrary.org/obo/IAO_0000577>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000003> (unclassified sequences)
 
@@ -282,6 +304,153 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000038> "ITS-90")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000038> "international temperature scale of 1990 unit")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000038> <http://purl.obolibrary.org/obo/UO_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000044> (Data)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000044> "http://edamontology.org/data_0006")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000044> "Data")
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000045> (Identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000045> "http://edamontology.org/data_0842")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000045> "Identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000045> <http://purl.obolibrary.org/obo/PMO_00000044>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000046> (URI)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000046> "http://edamontology.org/data_1047")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000046> "URI")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000046> <http://purl.obolibrary.org/obo/PMO_00000045>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000047> (URL)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000047> "http://edamontology.org/data_1052")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000047> "URL")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000047> <http://purl.obolibrary.org/obo/PMO_00000046>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000048> (data submission date)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000048> "A data item that is the date in which a data item was submitted to a central registry.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000048> "data submission date")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000048> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000049> (data submission update date)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000049> "A data item that is the date in which a data item previously submitted to a central registry was updated.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000049> "data submission update date")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000049> <http://purl.obolibrary.org/obo/PMO_00000048>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000050> (number of specimen collection devices employed)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000050> "number of specimen collection devices employed")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000050> <http://purl.obolibrary.org/obo/IAO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000051> (number of niskin bottles deployed during speciment collection process event)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000051> "number of niskin bottles deployed during speciment collection process event")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000051> <http://purl.obolibrary.org/obo/PMO_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000052> (maximum depth of water collected during specimen collection process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000052> "maximum depth of water collected during specimen collection process")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000052> <http://purl.obolibrary.org/obo/PMO_00000029>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000053> (maximum pressure of water collected during specimen collection process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000053> "maximum pressure of water collected during specimen collection process")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000053> <http://purl.obolibrary.org/obo/PMO_00000028>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000054> (number designating study site)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000054> "number designating study site")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000054> <http://purl.obolibrary.org/obo/IAO_0000109>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000056> (centrally registered sampling event identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000056> "centrally registered sampling event identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000056> <http://purl.obolibrary.org/obo/IAO_0000578>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000057> (ctd cast number)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000057> "ctd cast number")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000057> <http://purl.obolibrary.org/obo/PMO_00000056>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000058> (sampling expedition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000058> "sampling expedition")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000058> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000059> (sampling expedition leg)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000059> "sampling expedition leg")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000059> <http://purl.obolibrary.org/obo/PMO_00000058>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000060> (sampling expedition identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000060> "sampling expedition identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000060> <http://purl.obolibrary.org/obo/OBI_0001628>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000061> (Name)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000061> "http://edamontology.org/data_2099")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000061> "Name")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000061> <http://purl.obolibrary.org/obo/PMO_00000045>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000062> (File Name)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000062> "http://edamontology.org/data_1050")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000062> "File Name")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000062> <http://purl.obolibrary.org/obo/PMO_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000063> (Summary File Name)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000063> "Summary File Name")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000063> <http://purl.obolibrary.org/obo/PMO_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000065> (sampling expedition project investigation and leg identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000065> "sampling expedition project investigation and leg identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000065> <http://purl.obolibrary.org/obo/PMO_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000066> (repeated expedition location identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000066> "repeated expedition location identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000066> <http://purl.obolibrary.org/obo/PMO_00000060>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000067> (navigation device)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000067> "navigation device")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000067> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000068> (global positioning system device)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000068> "global positioning system device")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000068> <http://purl.obolibrary.org/obo/PMO_00000067>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000069> (genomic library preparation device)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000069> "genomic library preparation device")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000069> <http://purl.obolibrary.org/obo/OBI_0000968>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000070> (data publication date)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000070> "data publication date")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000070> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000071> (length of DNA sequence data)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000071> "length of DNA sequence data")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000071> <http://purl.obolibrary.org/obo/PATO_0000122>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000072> (file size)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000072> "file size")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000072> <http://purl.obolibrary.org/obo/PATO_0000117>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000073> (number of locations sequenced within a DNA sequence)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000073> "number of locations sequenced within a DNA sequence")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000073> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 
 )

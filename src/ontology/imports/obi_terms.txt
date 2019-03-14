@@ -7,3 +7,7 @@ OBI:0001900	#specimen identifier assigned by specimen repository
 OBI:0001901	#specimen identifier assigned by sequencing facility
 OBI:0001619 #specimen collection time measurement datum
 OBI:0000151 #filter paper
+OBI:0001902 #sample preparation for sequencing assay
+OBI:0000711 #library preparation
+OBI:0001928 #selection
+OBI:0000626 #DNA sequencing assay

@@ -337,6 +337,21 @@
       "type" : "CLASS",
       "lbl" : "quality"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000122",
+      "meta" : {
+        "definition" : {
+          "val" : "A 1-D extent quality which is equal to the distance between two points.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "length"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "type" : "PROPERTY",
       "lbl" : "definition"
@@ -511,6 +526,21 @@
       },
       "type" : "CLASS",
       "lbl" : "fluorescence"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001464",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality that is equal to the potential energy per unit charge associated with a static (time-invariant) electric field, also called the electrostatic potential.",
+          "xrefs" : [ "Wikipedia:http://en.wikipedia.org/wiki/Electric_potential" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#scalar_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "electric potential"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000133",
       "meta" : {
@@ -1858,6 +1888,37 @@
       "type" : "CLASS",
       "lbl" : "optical quality"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000574",
+      "meta" : {
+        "definition" : {
+          "val" : "A length quality which is relatively small.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "shortened",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "stubby",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "short",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000573"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased length"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000970",
       "meta" : {
         "definition" : {
@@ -1872,6 +1933,29 @@
       },
       "type" : "CLASS",
       "lbl" : "permeability"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000573",
+      "meta" : {
+        "definition" : {
+          "val" : "A length quality which is relatively large.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "long",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000574"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased length"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
       "type" : "PROPERTY",
@@ -2743,13 +2827,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000048"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0002204",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0002201"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000044",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000161"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002204",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002201"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000069",
       "pred" : "is_a",
@@ -2807,6 +2891,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000573",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000122"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000461",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000069"
@@ -2834,6 +2922,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002300",
       "pred" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000461"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000573",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000586"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001687",
       "pred" : "is_a",
@@ -3040,6 +3132,10 @@
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000069"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001472",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000587"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000574",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000587"
     }, {
@@ -3251,6 +3347,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000141"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001464",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001575",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
@@ -3299,6 +3399,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001708"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001475",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
@@ -3327,6 +3431,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001236"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000574",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000122"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001291",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001739"
@@ -3348,7 +3456,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-07/imports/pato_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-14/imports/pato_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -3422,6 +3530,13 @@
         "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
       } ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0000574",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000122" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
+      } ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0001576",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0001025" ],
       "restrictions" : [ {
@@ -3433,6 +3548,13 @@
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000128" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0000573",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000122" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
         "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
       } ]
     }, {

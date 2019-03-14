@@ -10,3 +10,5 @@ UO:0000187 #percent
 UO:0000247 #millivolt
 UO:0000083 #kilogram per cubic meter
 UO:0000005 #temperature unit
+UO:0000331 #gigabyte
+UO:0000330 #gigabasepair

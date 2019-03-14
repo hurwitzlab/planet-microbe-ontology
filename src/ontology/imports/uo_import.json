@@ -154,6 +154,24 @@
       "type" : "CLASS",
       "lbl" : "hour"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000231",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the amount of information.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "information unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000033",
       "meta" : {
         "definition" : {
@@ -707,6 +725,29 @@
       "type" : "CLASS",
       "lbl" : "mass unit"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000244",
+      "meta" : {
+        "definition" : {
+          "val" : "A count unit which contains one nucleotide.",
+          "xrefs" : [ "UO:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "bp",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "base pair"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000003",
       "meta" : {
         "definition" : {
@@ -970,6 +1011,32 @@
       "type" : "CLASS",
       "lbl" : "liter"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000330",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit equal to one billion base pairs.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Gb",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2013-12-11T09:44:52Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gigabasepair"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000176",
       "meta" : {
         "definition" : {
@@ -996,6 +1063,31 @@
       },
       "type" : "CLASS",
       "lbl" : "milligram per milliliter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000331",
+      "meta" : {
+        "definition" : {
+          "val" : "An information unit which is equal to 1000000000 bytes.",
+          "xrefs" : [ "UO:GVG" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "GB",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2014-04-09T01:33:44Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gigabyte"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000212",
       "meta" : {
@@ -1613,6 +1705,29 @@
       "type" : "CLASS",
       "lbl" : "microliter"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000189",
+      "meta" : {
+        "definition" : {
+          "val" : "A dimensionless unit which denotes a simple count of things.",
+          "xrefs" : [ "MGED:MGED" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "count",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "count unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000024",
       "meta" : {
         "definition" : {
@@ -1916,13 +2031,13 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001309"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000109",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000103",
       "pred" : "is_a",
@@ -1952,6 +2067,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000331",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000231"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000025",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
@@ -1963,6 +2082,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000175",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000330",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000244"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000122",
       "pred" : "is_a",
@@ -2104,6 +2227,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000189",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000186"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000066",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
@@ -2131,6 +2258,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000163",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000231",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000064",
       "pred" : "is_a",
@@ -2207,6 +2338,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000165"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000244",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000189"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000196",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
@@ -2297,7 +2432,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-07/imports/uo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-14/imports/uo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

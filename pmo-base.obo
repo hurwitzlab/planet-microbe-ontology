@@ -1,9 +1,370 @@
 format-version: 1.2
-data-version: pmo/releases/2019-02-27/pmo-base.owl
+data-version: pmo/releases/2019-03-14/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
 [Term]
 id: PMO:00000000
 name: root node
+
+[Term]
+id: PMO:00000003
+name: unclassified sequences
+is_a: NCBITaxon:1
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/NCBITaxon_12908 xsd:string
+
+[Term]
+id: PMO:00000004
+name: metagenomes
+is_a: PMO:00000003 ! unclassified sequences
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/NCBITaxon_408169 xsd:string
+
+[Term]
+id: PMO:00000005
+name: site label
+is_a: IAO:0000009
+
+[Term]
+id: PMO:00000006
+name: bottle label
+is_a: IAO:0000009
+
+[Term]
+id: PMO:00000007
+name: project investigation identifier
+is_a: OBI:0001628
+
+[Term]
+id: PMO:00000008
+name: specimen collection time measurement datum start
+is_a: OBI:0001619
+
+[Term]
+id: PMO:00000009
+name: specimen collection time measurement datum stop
+is_a: OBI:0001619
+
+[Term]
+id: PMO:00000010
+name: conductivity temperature pressure instrument
+is_a: OBI:0000832
+
+[Term]
+id: PMO:00000011
+name: rosette sampling device
+is_a: OBI:0000832
+
+[Term]
+id: PMO:00000012
+name: rosette sampling device niskin position
+def: "A part of a rosette sampling device in which a niskin bottle is positioned for deployment." []
+is_a: BFO:0000024
+
+[Term]
+id: PMO:00000013
+name: salinity
+def: "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per liter of solution." []
+is_a: PATO:0001655
+
+[Term]
+id: PMO:00000014
+name: water salinity
+is_a: PMO:00000013 ! salinity
+intersection_of: PMO:00000013 ! salinity
+intersection_of: RO:0000052 ENVO:00002006
+
+[Term]
+id: PMO:00000015
+name: visible spectrum stellar electromagnetic radiation opacity of water
+is_a: PATO:0000957
+intersection_of: PATO:0000957
+intersection_of: RO:0000052 ENVO:00002006
+
+[Term]
+id: PMO:00000016
+name: number of observations averaged to produce device measurment datum
+is_a: IAO:0000109
+
+[Term]
+id: PMO:00000017
+name: number of observations averaged at pressure level to produce CTD measurment datum
+is_a: PMO:00000016 ! number of observations averaged to produce device measurment datum
+
+[Term]
+id: PMO:00000018
+name: concentration of nitrate and nitrite in water
+is_a: PATO:0000033
+
+[Term]
+id: PMO:00000019
+name: replicate
+def: "A role played by a biological sample in the context of an experiment where the  intent is that biological or technical variation is measured." []
+is_a: BFO:0000023
+property_value: IAO:0000118 http://www.ebi.ac.uk/efo/EFO_0000683 xsd:string
+
+[Term]
+id: PMO:00000020
+name: potential temperature
+def: "A temperature which would inhere in a bearer if such bearer were adiabatically compressed from it's existing temperature and pressure to a standard presure." [http://paoc.mit.edu/synoptic/courses/12.310/assign3/A3_potential%20temperature.pdf]
+comment: Standard pressure is typically one atmosphere.
+synonym: "theta" RELATED []
+is_a: PATO:0000146
+
+[Term]
+id: PMO:00000021
+name: potential density
+def: "A density which would inhere in a bearer if such bearer were adiabatically \nbrought to a standard reference pressure." [https://en.wikipedia.org/wiki/Potential_density]
+synonym: "sigma" RELATED []
+is_a: PATO:0001019
+
+[Term]
+id: PMO:00000022
+name: lower size threshold filter paper
+is_a: OBI:0000747
+relationship: BFO:0000051 OBI:0000151
+
+[Term]
+id: PMO:00000023
+name: upper size threshold filter paper
+is_a: OBI:0000747
+relationship: BFO:0000051 OBI:0000151
+
+[Term]
+id: PMO:00000024
+name: specimen volume
+is_a: PATO:0000918
+relationship: RO:0000052 OBI:0100051
+
+[Term]
+id: PMO:00000025
+name: water sample volume
+is_a: PMO:00000024 ! specimen volume
+relationship: RO:0000052 ENVO:00002006
+
+[Term]
+id: PMO:00000026
+name: concentration of chlorophyll in water
+is_a: PATO:0000033
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100036 xsd:string
+
+[Term]
+id: PMO:00000027
+name: concentration of nitrate in water
+is_a: PATO:0000033
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100022 xsd:string
+
+[Term]
+id: PMO:00000028
+name: pressure of water
+is_a: PATO:0001025
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100033 xsd:string
+
+[Term]
+id: PMO:00000029
+name: depth of water
+is_a: PATO:0001595
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100031 xsd:string
+
+[Term]
+id: PMO:00000030
+name: fluorescence of water
+is_a: PATO:0000018
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100032 xsd:string
+
+[Term]
+id: PMO:00000031
+name: concentration of phosphate in water
+is_a: PATO:0000033
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100026 xsd:string
+
+[Term]
+id: PMO:00000032
+name: concentration of silicate(4-) in water
+is_a: PATO:0000033
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100027 xsd:string
+
+[Term]
+id: PMO:00000033
+name: bar
+def: "A pressure unit which is equal to 100,000 pascal." [https://en.wikipedia.org/wiki/Bar_(unit)]
+is_a: UO:0000109
+
+[Term]
+id: PMO:00000034
+name: decibar
+def: "A pressure unit which is equal to one tenth of a bar." []
+is_a: UO:0000109
+
+[Term]
+id: PMO:00000035
+name: atmosphere unit
+def: "A pressure unit which is equal to 101325 pascal." [https://en.wikipedia.org/wiki/Atmosphere_(unit)]
+is_a: UO:0000109
+
+[Term]
+id: PMO:00000036
+name: salinity unit
+def: "A unit which is a standard measure of salinity." []
+is_a: UO:0000000
+
+[Term]
+id: PMO:00000037
+name: practical salinity unit
+synonym: "PSS-78" EXACT []
+synonym: "PSU" EXACT []
+is_a: PMO:00000036 ! salinity unit
+
+[Term]
+id: PMO:00000038
+name: international temperature scale of 1990 unit
+synonym: "ITS-90" EXACT []
+xref: https://www.omega.com/temperature/Z/pdf/z186-193.pdf
+is_a: UO:0000005
+
+[Term]
+id: PMO:00000044
+name: Data
+property_value: IAO:0000118 http://edamontology.org/data_0006 xsd:string
+
+[Term]
+id: PMO:00000045
+name: Identifier
+is_a: PMO:00000044 ! Data
+property_value: IAO:0000118 http://edamontology.org/data_0842 xsd:string
+
+[Term]
+id: PMO:00000046
+name: URI
+is_a: PMO:00000045 ! Identifier
+property_value: IAO:0000118 http://edamontology.org/data_1047 xsd:string
+
+[Term]
+id: PMO:00000047
+name: URL
+is_a: PMO:00000046 ! URI
+property_value: IAO:0000118 http://edamontology.org/data_1052 xsd:string
+
+[Term]
+id: PMO:00000048
+name: data submission date
+def: "A data item that is the date in which a data item was submitted to a central registry." []
+is_a: IAO:0000027
+
+[Term]
+id: PMO:00000049
+name: data submission update date
+def: "A data item that is the date in which a data item previously submitted to a central registry was updated." []
+is_a: PMO:00000048 ! data submission date
+
+[Term]
+id: PMO:00000050
+name: number of specimen collection devices employed
+is_a: IAO:0000109
+
+[Term]
+id: PMO:00000051
+name: number of niskin bottles deployed during speciment collection process event
+is_a: PMO:00000050 ! number of specimen collection devices employed
+
+[Term]
+id: PMO:00000052
+name: maximum depth of water collected during specimen collection process
+is_a: PMO:00000029 ! depth of water
+
+[Term]
+id: PMO:00000053
+name: maximum pressure of water collected during specimen collection process
+is_a: PMO:00000028 ! pressure of water
+
+[Term]
+id: PMO:00000054
+name: number designating study site
+is_a: IAO:0000109
+
+[Term]
+id: PMO:00000056
+name: centrally registered sampling event identifier
+is_a: IAO:0000578
+
+[Term]
+id: PMO:00000057
+name: ctd cast number
+is_a: PMO:00000056 ! centrally registered sampling event identifier
+
+[Term]
+id: PMO:00000058
+name: sampling expedition
+is_a: OBI:0000011
+
+[Term]
+id: PMO:00000059
+name: sampling expedition leg
+is_a: PMO:00000058 ! sampling expedition
+
+[Term]
+id: PMO:00000060
+name: sampling expedition identifier
+is_a: OBI:0001628
+
+[Term]
+id: PMO:00000061
+name: Name
+is_a: PMO:00000045 ! Identifier
+property_value: IAO:0000118 http://edamontology.org/data_2099 xsd:string
+
+[Term]
+id: PMO:00000062
+name: File Name
+is_a: PMO:00000061 ! Name
+property_value: IAO:0000118 http://edamontology.org/data_1050 xsd:string
+
+[Term]
+id: PMO:00000063
+name: Summary File Name
+is_a: PMO:00000062 ! File Name
+
+[Term]
+id: PMO:00000065
+name: sampling expedition project investigation and leg identifier
+is_a: PMO:00000060 ! sampling expedition identifier
+
+[Term]
+id: PMO:00000066
+name: repeated expedition location identifier
+is_a: PMO:00000060 ! sampling expedition identifier
+
+[Term]
+id: PMO:00000067
+name: navigation device
+is_a: OBI:0000968
+
+[Term]
+id: PMO:00000068
+name: global positioning system device
+is_a: PMO:00000067 ! navigation device
+
+[Term]
+id: PMO:00000069
+name: genomic library preparation device
+is_a: OBI:0000968
+
+[Term]
+id: PMO:00000070
+name: data publication date
+is_a: IAO:0000027
+
+[Term]
+id: PMO:00000071
+name: length of DNA sequence data
+is_a: PATO:0000122
+
+[Term]
+id: PMO:00000072
+name: file size
+is_a: PATO:0000117
+
+[Term]
+id: PMO:00000073
+name: number of locations sequenced within a DNA sequence
+is_a: IAO:0000109
 

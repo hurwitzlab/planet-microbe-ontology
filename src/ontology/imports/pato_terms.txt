@@ -3,3 +3,4 @@ PATO:0000918 #volume
 PATO:0000018 #fluorescence
 PATO:0001595 #depth
 PATO:0001025 #pressure
+PATO:0000122 #length

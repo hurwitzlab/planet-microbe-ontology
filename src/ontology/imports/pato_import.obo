@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-07/imports/pato_import.owl
+data-version: pmo/releases/2019-03-14/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]
@@ -106,6 +106,16 @@ def: "A morphology quality inhering in a bearer by virtue of the bearer's physic
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000122
+name: length
+namespace: quality
+def: "A 1-D extent quality which is equal to the distance between two points." [PATOC:GVG]
+subset: attribute_slim
+subset: mpath_slim
+subset: scalar_slim
+is_a: PATO:0001708 ! 1-D extent
 
 [Term]
 id: PATO:0000125
@@ -325,6 +335,34 @@ is_a: PATO:0002302 ! decreased process quality
 intersection_of: PATO:0001309 ! duration
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000498 ! increased duration
+
+[Term]
+id: PATO:0000573
+name: increased length
+namespace: quality
+def: "A length quality which is relatively large." [PATOC:GVG]
+subset: value_slim
+synonym: "long" EXACT []
+is_a: PATO:0000122 ! length
+is_a: PATO:0000586 ! increased size
+intersection_of: PATO:0000122 ! length
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000574 ! decreased length
+
+[Term]
+id: PATO:0000574
+name: decreased length
+namespace: quality
+def: "A length quality which is relatively small." [PATOC:GVG]
+subset: value_slim
+synonym: "short" EXACT []
+synonym: "shortened" RELATED []
+synonym: "stubby" RELATED []
+is_a: PATO:0000122 ! length
+is_a: PATO:0000587 ! decreased size
+intersection_of: PATO:0000122 ! length
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000573 ! increased length
 
 [Term]
 id: PATO:0000582
@@ -695,6 +733,15 @@ def: "A concentration quality inhering in a medium by virtue of the bearer's ten
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001842 ! acidity
+
+[Term]
+id: PATO:0001464
+name: electric potential
+namespace: quality
+def: "A quality that is equal to the potential energy per unit charge associated with a static (time-invariant) electric field, also called the electrostatic potential." [Wikipedia:http\://en.wikipedia.org/wiki/Electric_potential]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: PATO:0001472
