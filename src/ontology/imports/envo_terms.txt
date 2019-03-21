@@ -13,3 +13,9 @@ ENVO:3100032	#fluorescence of water
 ENVO:3100033	#pressure of water
 ENVO:00002149 #seawater
 ENVO:00000015 #ocean
+ENVO:3100023 #concentration of nitrite in water
+ENVO:3100004 #concentration of ammonium in water
+ENVO:3100034 #concentration of silicic acid in water
+ENVO:01000063 #planktonic material
+ENVO:09200018 #conductivity of water
+ENVO:3100032 #fluorescence of water

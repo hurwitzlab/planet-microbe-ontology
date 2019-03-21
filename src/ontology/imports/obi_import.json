@@ -981,6 +981,35 @@
       "type" : "INDIVIDUAL",
       "lbl" : "XML"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001898",
+      "meta" : {
+        "definition" : {
+          "val" : "A textual entity that is about any of the aspects of an investigation worth noting",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NIAID GSCID-BRC metadata working group"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "comment on investigation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
+          "val" : "Comments"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "NIAID GSCID-BRC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Chris Stoeckert, Jie Zheng"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "comment on investigation"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000325",
       "meta" : {
         "definition" : {
@@ -2543,6 +2572,41 @@
       "type" : "PROPERTY",
       "lbl" : "has participant"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001025",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between two independent continuants, the target and the location, in which the target is entirely within the location",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "val" : "http://www.obofoundry.org/ro/#OBO_REL:located_in"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "located in"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "located_in"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "my brain is located in my head"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this rat is located in this cage"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
+          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "located in"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000600",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3390,6 +3454,35 @@
       },
       "type" : "CLASS",
       "lbl" : "specimen"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001015",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between two independent continuants, the location and the target, in which the target is entirely within the location",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "location_of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this cage is the location of this rat"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
+          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "my head is the location of my brain"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "is location of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "location of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33250",
       "meta" : {
@@ -17150,13 +17243,13 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0002254",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002266",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002254",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000066",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
@@ -17186,13 +17279,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0000932",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000968"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000186",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001237"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000932",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000968"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000175",
       "pred" : "type",
@@ -17710,6 +17803,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000098"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0001015",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0001025"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
@@ -17962,13 +18059,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0002262",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002250",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002262",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0100026",
       "pred" : "is_a",
@@ -18082,13 +18179,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000659"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0001546",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001237"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0001173",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001546",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001237"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002274",
       "pred" : "type",
@@ -19554,6 +19651,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001898",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000039",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
@@ -19590,13 +19691,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002219"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002223",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002332",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002326"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002223",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002326",
       "pred" : "is_a",
@@ -19651,7 +19752,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-08/imports/obi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-20/imports/obi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -19828,6 +19929,10 @@
         "fillerId" : "http://purl.obolibrary.org/obo/OBI_0000112"
       }, null ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/OBI_0001898",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/IAO_0000300" ],
+      "restrictions" : [ null ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/IAO_0000015",
       "genusIds" : [ "http://purl.obolibrary.org/obo/BFO_0000019" ],
       "restrictions" : [ {
@@ -19887,21 +19992,21 @@
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000017" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
       "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0000202",
-        "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
-        "obj" : "http://purl.obolibrary.org/obo/OBI_0000066"
-      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000947",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0000571",
-        "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
-        "obj" : "http://purl.obolibrary.org/obo/OBI_0000457"
-      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000067",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+      }, {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0000202",
+        "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0000066"
+      }, {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0000571",
+        "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0000457"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -19926,13 +20031,13 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/IAO_0000219",
       "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0001616",
-        "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
-        "obj" : "http://purl.obolibrary.org/obo/OBI_0100051"
-      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0001628",
         "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0000066"
+      }, {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0001616",
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0100051"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000295",
