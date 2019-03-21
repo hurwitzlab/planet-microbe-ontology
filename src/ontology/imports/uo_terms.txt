@@ -13,3 +13,7 @@ UO:0000005 #temperature unit
 UO:0000331 #gigabyte
 UO:0000330 #gigabasepair
 UO:0000273 #milligram per liter
+UO:0000177 #unit per volume unit
+UO:0000218 #volt
+UO:0000264 #siemens
+UO:0000315 #turbidity unit

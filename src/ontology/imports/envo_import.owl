@@ -16,7 +16,7 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/imports/envo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-03-20/imports/envo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/envo_import.owl"/>
     </owl:Ontology>
     
 
@@ -4978,6 +4978,42 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000128">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000100"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001824"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001824"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A valley that no longer has a surface flow of water. Typically found in either Karst (limestone) or chalk terrain.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Dry_valley</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000128</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry valley</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000128"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A valley that no longer has a surface flow of water. Typically found in either Karst (limestone) or chalk terrain.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Dry_valley</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000131">
@@ -6077,6 +6113,33 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00003082</oboInOwl:id>
         <rdfs:comment>This could be demoted to an inferred class if issues with double inheritance arise.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enriched soil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00005748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005748">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001824"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001824"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Soil which has little to no water content and in which minerals and other soluble chemical entities have either bonded or become adsorbed to sold particles due to insufficient water availability.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry soil</rdfs:label>
     </owl:Class>
     
 
@@ -16003,6 +16066,18 @@ class labels for these objects. The resulting predictor can be used to attach cl
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000998"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A viscosity which relatively low.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low viscosity</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased viscosity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001708">
@@ -16091,8 +16166,42 @@ class labels for these objects. The resulting predictor can be used to attach cl
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001823">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001822"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/PATO_0001824"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A wetness quality inhering in a bearer by virtue of the bearer&apos;s being covered by a liquid.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001822"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A wetness quality inhering in a bearer by virtue of the bearer&apos;s not being covered by a liquid.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001825">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001823"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A wetness quality that is relatively high.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased wetness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001826">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001823"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A wetness quality that is relatively low.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low wetness</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased wetness</rdfs:label>
     </owl:Class>
     
 

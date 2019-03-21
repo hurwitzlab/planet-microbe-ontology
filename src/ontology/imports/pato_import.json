@@ -470,6 +470,15 @@
       "type" : "CLASS",
       "lbl" : "movement quality"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/pato#cell_quality",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "cell_quality"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000499",
       "meta" : {
         "definition" : {
@@ -602,6 +611,24 @@
       },
       "type" : "CLASS",
       "lbl" : "electric potential"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001585",
+      "meta" : {
+        "definition" : {
+          "val" : "A physical quality inhering in a bearer by virtue of the bearer's disposition to transmit of an entity through a medium.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#scalar_slim", "http://purl.obolibrary.org/obo/pato#disposition_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Examples could be heat or electricity or sound."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "conductivity"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000374",
       "meta" : {
@@ -874,6 +901,21 @@
       },
       "type" : "CLASS",
       "lbl" : "granular"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001757",
+      "meta" : {
+        "definition" : {
+          "val" : "A conductivity quality inhering in a bearer by virtue of the bearer's ability to convey electricity.",
+          "xrefs" : [ "Wikipedia:http://en.wikipedia.org/wiki/Electrical_conduction" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#disposition_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "electrical conductivity"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000381",
       "meta" : {
@@ -1840,6 +1882,24 @@
       },
       "type" : "CLASS",
       "lbl" : "medium acidity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001824",
+      "meta" : {
+        "definition" : {
+          "val" : "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0001823"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dry"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001825",
       "meta" : {
@@ -3157,13 +3217,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0002300",
-      "pred" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000461"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000573",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000586"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002300",
+      "pred" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000461"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001687",
       "pred" : "is_a",
@@ -3220,6 +3280,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001656",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001824",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001822"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001656",
       "pred" : "is_a",
@@ -3284,6 +3348,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000998",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000992"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001585",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000186",
       "pred" : "is_a",
@@ -3360,6 +3428,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000161",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001757",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001585"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001306",
       "pred" : "is_a",
@@ -3441,13 +3513,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0001296",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001300"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001306",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001296",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001300"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000984",
       "pred" : "is_a",
@@ -3481,13 +3553,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0000068",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000964",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000957"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000068",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000918",
       "pred" : "is_a",
@@ -3754,7 +3826,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-20/imports/pato_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/pato_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

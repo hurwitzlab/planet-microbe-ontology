@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-20/imports/pato_import.owl
+data-version: pmo/releases/2019-03-21/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]
@@ -952,6 +952,17 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0001575 ! decreased pressure
 
 [Term]
+id: PATO:0001585
+name: conductivity
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to transmit of an entity through a medium." [PATOC:GVG]
+comment: Examples could be heat or electricity or sound.
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0001595
 name: depth
 namespace: quality
@@ -1102,6 +1113,16 @@ subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
+id: PATO:0001757
+name: electrical conductivity
+namespace: quality
+def: "A conductivity quality inhering in a bearer by virtue of the bearer's ability to convey electricity." [Wikipedia:http\://en.wikipedia.org/wiki/Electrical_conduction]
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001585 ! conductivity
+
+[Term]
 id: PATO:0001759
 name: granular
 namespace: quality
@@ -1128,7 +1149,18 @@ def: "A wetness quality inhering in a bearer by virtue of the bearer's being cov
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0001822 ! wetness
-relationship: is_opposite_of PATO:0001824
+disjoint_from: PATO:0001824 ! dry
+relationship: is_opposite_of PATO:0001824 ! dry
+
+[Term]
+id: PATO:0001824
+name: dry
+namespace: quality
+def: "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001822 ! wetness
+relationship: is_opposite_of PATO:0001823 ! wet
 
 [Term]
 id: PATO:0001825

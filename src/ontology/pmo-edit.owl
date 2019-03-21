@@ -123,6 +123,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000122>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000123>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000128>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/PMO_00000082>))
 
 
@@ -724,6 +728,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000118> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PMO_00000120> (turbidity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Turbidity") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000120> "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000120> "https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000120> "turbidity")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000120> <http://purl.obolibrary.org/obo/PATO_0001018>)
 
@@ -751,6 +756,28 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000124> "INSDC bioarchive accession number")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000124> <http://purl.obolibrary.org/obo/OBI_0001901>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000125> (material flux unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000125> "similar to the example from http://reverseosmosischemicals.com/reverse-osmosis-guides/reverse-osmosis-glossary-terms/flux-water-flux-reverse-osmosis-systems")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000125> "material flux unit")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000125> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000126> (micromole per square meter per second)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000126> "micromole per square meter per second")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000126> <http://purl.obolibrary.org/obo/PMO_00000125>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000127> (mass density rate unit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000127> "A mass density unit which proccedes over time.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000127> "mass density rate unit")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000127> <http://purl.obolibrary.org/obo/UO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000128> (miligram per cubic meter per day)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000128> "miligram per cubic meter per day")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000128> <http://purl.obolibrary.org/obo/PMO_00000127>)
 
 
 )
