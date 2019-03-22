@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2019-03-14
+data-version: releases/2019-03-21
 remark: Planet Microbe Ontology
 ontology: pmo
 
@@ -532,6 +532,13 @@ is_a: CHEBI:25362 ! elemental molecule
 is_a: CHEBI:33263 ! diatomic oxygen
 
 [Term]
+id: CHEBI:16301
+name: nitrite
+is_a: CHEBI:33458 ! nitrogen oxoanion
+is_a: CHEBI:62764 ! reactive nitrogen species
+is_a: CHEBI:79389 ! monovalent inorganic anion
+
+[Term]
 id: CHEBI:16526
 name: carbon dioxide
 def: "A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food." []
@@ -559,6 +566,13 @@ property_value: IAO:0000111 "deoxyribonucleic acid" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:17632
+name: nitrate
+is_a: CHEBI:33458 ! nitrogen oxoanion
+is_a: CHEBI:62764 ! reactive nitrogen species
+is_a: CHEBI:79389 ! monovalent inorganic anion
+
+[Term]
 id: CHEBI:17891
 name: donor
 is_a: CHEBI:51086 ! chemical role
@@ -569,6 +583,12 @@ name: dinitrogen
 is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:25362 ! elemental molecule
 is_a: CHEBI:33266 ! diatomic nitrogen
+
+[Term]
+id: CHEBI:22563
+name: anion
+def: "A monoatomic or polyatomic species having one or more elementary charges of the electron." []
+is_a: CHEBI:24870 ! ion
 
 [Term]
 id: CHEBI:23014
@@ -624,6 +644,18 @@ is_a: CHEBI:33608 ! hydrogen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
+id: CHEBI:24833
+name: oxoacid
+def: "A compound which contains oxygen, at least one other element, and at least one hydrogen bound to oxygen, and which produces a conjugate base by loss of positive hydrogen ion(s) (hydrons)." []
+is_a: CHEBI:24651 ! hydroxides
+
+[Term]
+id: CHEBI:24834
+name: inorganic anion
+is_a: CHEBI:22563 ! anion
+is_a: CHEBI:36914 ! inorganic ion
+
+[Term]
 id: CHEBI:24835
 name: inorganic molecular entity
 def: "A molecular entity that contains no carbon." []
@@ -640,6 +672,12 @@ id: CHEBI:24866
 name: salt
 def: "A salt is an assembly of cations and anions." []
 is_a: CHEBI:37577 ! heteroatomic molecular entity
+
+[Term]
+id: CHEBI:24870
+name: ion
+def: "A molecular entity having a net electric charge." []
+is_a: CHEBI:23367 ! molecular entity
 
 [Term]
 id: CHEBI:25362
@@ -673,6 +711,32 @@ name: oxygen molecular entity
 is_a: CHEBI:33304 ! chalcogen molecular entity
 
 [Term]
+id: CHEBI:26020
+name: phosphate
+def: "Salts and esters of phosphoric and oligophosphoric acids and their chalcogen analogues. In inorganic chemistry, the term is also used to describe anionic coordination entities with phosphorus as central atom." []
+is_a: CHEBI:26079 ! phosphoric acid derivative
+
+[Term]
+id: CHEBI:26079
+name: phosphoric acid derivative
+is_a: CHEBI:36359 ! phosphorus oxoacid derivative
+
+[Term]
+id: CHEBI:26082
+name: phosphorus molecular entity
+is_a: CHEBI:33302 ! pnictogen molecular entity
+
+[Term]
+id: CHEBI:26675
+name: silicic acid
+is_a: CHEBI:33328 ! silicon oxoacid
+
+[Term]
+id: CHEBI:26677
+name: silicon molecular entity
+is_a: CHEBI:33582 ! carbon group molecular entity
+
+[Term]
 id: CHEBI:26710
 name: sodium chloride
 def: "An inorganic chloride salt having sodium(1+) as the counterion." []
@@ -695,10 +759,34 @@ is_a: CHEBI:26712 ! sodium molecular entity
 is_a: CHEBI:35479 ! alkali metal salt
 
 [Term]
+id: CHEBI:28938
+name: ammonium
+is_a: CHEBI:35106 ! nitrogen hydride
+is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:50313 ! onium cation
+is_a: CHEBI:60242 ! monovalent inorganic cation
+
+[Term]
+id: CHEBI:29241
+name: silicate(4-)
+is_a: CHEBI:48123 ! silicate ion
+
+[Term]
 id: CHEBI:32988
 name: amide
 def: "An amide is a derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group." []
 is_a: CHEBI:51143 ! nitrogen molecular entity
+
+[Term]
+id: CHEBI:33240
+name: coordination entity
+def: "An assembly consisting of a central atom (usually metallic) to which is attached a surrounding array of other groups of atoms (ligands)." []
+is_a: CHEBI:37577 ! heteroatomic molecular entity
+
+[Term]
+id: CHEBI:33241
+name: oxoacid derivative
+is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
 id: CHEBI:33242
@@ -752,6 +840,13 @@ is_a: CHEBI:33465 ! elemental pnictogen
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
+id: CHEBI:33273
+name: polyatomic anion
+def: "An anion consisting of more than one atom." []
+is_a: CHEBI:22563 ! anion
+is_a: CHEBI:36358 ! polyatomic ion
+
+[Term]
 id: CHEBI:33284
 name: nutrient
 def: "A nutrient is a food component that an organism uses to survive and grow." []
@@ -780,6 +875,24 @@ id: CHEBI:33304
 name: chalcogen molecular entity
 def: "Any p-block molecular entity containing a chalcogen." []
 is_a: CHEBI:33675 ! p-block molecular entity
+
+[Term]
+id: CHEBI:33328
+name: silicon oxoacid
+is_a: CHEBI:24833 ! oxoacid
+is_a: CHEBI:46890 ! silicon hydroxide
+
+[Term]
+id: CHEBI:33458
+name: nitrogen oxoanion
+is_a: CHEBI:33459 ! pnictogen oxoanion
+is_a: CHEBI:51143 ! nitrogen molecular entity
+
+[Term]
+id: CHEBI:33459
+name: pnictogen oxoanion
+is_a: CHEBI:33302 ! pnictogen molecular entity
+is_a: CHEBI:35406 ! oxoanion
 
 [Term]
 id: CHEBI:33465
@@ -869,6 +982,12 @@ property_value: IAO:0000111 "ribonucleic acid" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:33702
+name: polyatomic cation
+is_a: CHEBI:36358 ! polyatomic ion
+is_a: CHEBI:36916 ! cation
+
+[Term]
 id: CHEBI:33839
 name: macromolecule
 def: "A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." []
@@ -885,6 +1004,18 @@ is_a: CHEBI:24866 ! salt
 is_a: CHEBI:37578 ! halide
 
 [Term]
+id: CHEBI:35106
+name: nitrogen hydride
+is_a: CHEBI:35881 ! pnictogen hydride
+is_a: CHEBI:51143 ! nitrogen molecular entity
+
+[Term]
+id: CHEBI:35274
+name: ammonium ion
+is_a: CHEBI:33702 ! polyatomic cation
+is_a: CHEBI:51143 ! nitrogen molecular entity
+
+[Term]
 id: CHEBI:35352
 name: organonitrogen compound
 def: "Any heteroorganic entity containing at least one carbon-nitrogen bond." []
@@ -892,10 +1023,23 @@ is_a: CHEBI:33285 ! heteroorganic entity
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
+id: CHEBI:35406
+name: oxoanion
+def: "An oxoanion is an anion derived from an oxoacid by loss of hydron(s) bound to oxygen." []
+is_a: CHEBI:25741 ! oxide
+is_a: CHEBI:33273 ! polyatomic anion
+
+[Term]
 id: CHEBI:35479
 name: alkali metal salt
 is_a: CHEBI:24866 ! salt
 is_a: CHEBI:33296 ! alkali metal molecular entity
+
+[Term]
+id: CHEBI:35881
+name: pnictogen hydride
+is_a: CHEBI:33242 ! inorganic hydride
+is_a: CHEBI:33302 ! pnictogen molecular entity
 
 [Term]
 id: CHEBI:36093
@@ -915,6 +1059,31 @@ def: "Any molecular entity consisting of more than one atom." []
 is_a: CHEBI:23367 ! molecular entity
 
 [Term]
+id: CHEBI:36358
+name: polyatomic ion
+def: "An ion consisting of more than one atom." []
+is_a: CHEBI:24870 ! ion
+is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:36359
+name: phosphorus oxoacid derivative
+is_a: CHEBI:33241 ! oxoacid derivative
+is_a: CHEBI:36360 ! phosphorus oxoacids and derivatives
+
+[Term]
+id: CHEBI:36360
+name: phosphorus oxoacids and derivatives
+is_a: CHEBI:26082 ! phosphorus molecular entity
+
+[Term]
+id: CHEBI:36562
+name: main-group coordination entity
+def: "A coordination entity in which the central atom to which the ligands are attached comes from groups 1, 2, 13, 14, 15, 16, 17, or 18 of the periodic table." []
+is_a: CHEBI:33240 ! coordination entity
+is_a: CHEBI:33579 ! main group molecular entity
+
+[Term]
 id: CHEBI:36902
 name: chalcogen hydride
 is_a: CHEBI:33242 ! inorganic hydride
@@ -925,6 +1094,24 @@ id: CHEBI:36908
 name: argon molecular entity
 is_a: CHEBI:33583 ! noble gas molecular entity
 is_a: FOODON:03412972 ! food additive
+
+[Term]
+id: CHEBI:36914
+name: inorganic ion
+is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:24870 ! ion
+
+[Term]
+id: CHEBI:36915
+name: inorganic cation
+is_a: CHEBI:36914 ! inorganic ion
+is_a: CHEBI:36916 ! cation
+
+[Term]
+id: CHEBI:36916
+name: cation
+def: "A monoatomic or polyatomic species having one or more elementary charges of the proton." []
+is_a: CHEBI:24870 ! ion
 
 [Term]
 id: CHEBI:36962
@@ -944,6 +1131,19 @@ is_a: CHEBI:36962 ! organochalcogen compound
 id: CHEBI:37176
 name: mononuclear parent hydride
 is_a: CHEBI:33692 ! hydrides
+
+[Term]
+id: CHEBI:37190
+name: silicon coordination entity
+is_a: CHEBI:26677 ! silicon molecular entity
+is_a: CHEBI:36562 ! main-group coordination entity
+
+[Term]
+id: CHEBI:37191
+name: silicon oxoanion
+is_a: CHEBI:24834 ! inorganic anion
+is_a: CHEBI:35406 ! oxoanion
+is_a: CHEBI:37190 ! silicon coordination entity
 
 [Term]
 id: CHEBI:37577
@@ -979,6 +1179,11 @@ def: "In general, a mineral is a chemical substance that is normally crystalline
 is_a: CHEBI:59999 ! chemical substance
 
 [Term]
+id: CHEBI:46890
+name: silicon hydroxide
+is_a: CHEBI:26677 ! silicon molecular entity
+
+[Term]
 id: CHEBI:4705
 name: double-stranded DNA
 is_a: CHEBI:16991 ! deoxyribonucleic acid
@@ -986,11 +1191,26 @@ property_value: IAO:0000111 "double-stranded DNA" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:48123
+name: silicate ion
+is_a: CHEBI:37191 ! silicon oxoanion
+
+[Term]
 id: CHEBI:50047
 name: organic amino compound
 def: "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups." []
 is_a: CHEBI:35352 ! organonitrogen compound
 is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:50312
+name: onium compound
+is_a: CHEBI:37577 ! heteroatomic molecular entity
+
+[Term]
+id: CHEBI:50313
+name: onium cation
+is_a: CHEBI:50312 ! onium compound
 
 [Term]
 id: CHEBI:50860
@@ -1034,6 +1254,16 @@ def: "A chemical substance is a portion of matter of constant composition, compo
 is_a: CHEBI:24431 ! chemical entity
 
 [Term]
+id: CHEBI:60242
+name: monovalent inorganic cation
+is_a: CHEBI:36915 ! inorganic cation
+
+[Term]
+id: CHEBI:62764
+name: reactive nitrogen species
+is_a: CHEBI:51143 ! nitrogen molecular entity
+
+[Term]
 id: CHEBI:64708
 name: one-carbon compound
 def: "An organic molecular entity containing a single carbon atom (C1)." []
@@ -1057,6 +1287,11 @@ id: CHEBI:78295
 name: food component
 def: "Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants." []
 is_a: CHEBI:52211 ! physiological role
+
+[Term]
+id: CHEBI:79389
+name: monovalent inorganic anion
+is_a: CHEBI:24834 ! inorganic anion
 
 [Term]
 id: CL:0000000
@@ -1123,8 +1358,8 @@ is_a: ENVO:01000813 ! astronomical body part
 [Term]
 id: ENVO:00000002
 name: anthropogenic geographic feature
+def: "An anthropogenic geographic feature is a geographic feature\nresulting from the influence of human beings on nature." [ORCID:0000-0002-4366-3088]
 def: "An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature." [ORCID:0000-0002-4366-3088]
-def: "An anthropogenic geographic feature is a geographic feature'resulting from the influence of human beings on nature." [ORCID:0000-0002-4366-3088]
 synonym: "man-made feature" RELATED []
 synonym: "manmade feature" RELATED []
 xref: FTT:78
@@ -1137,7 +1372,6 @@ relationship: RO:0002354 ENVO:01000952 ! formed as result of anthropisation
 [Term]
 id: ENVO:00000012
 name: hydrographic feature
-namespace: ENVO
 def: "A geographical feature associated with water." [MA:ma]
 subset: envoPolar
 synonym: "fluvial feature" RELATED [ADL:FTT]
@@ -1157,6 +1391,7 @@ is_a: ENVO:00000000 ! geographic feature
 [Term]
 id: ENVO:00000015
 name: ocean
+alt_id: LTER:695 {xref="http://129.24.124.196/vocab/vocab/index.php?tema=127&/coral-reefs"}
 def: "A marine water body which is constitutes the majority of an astronomical body's hydrosphere." []
 subset: envoMarine
 subset: envoPolar
@@ -1168,11 +1403,9 @@ xref: FTT:1019
 xref: FTT:943
 xref: Geonames:H.OCN
 xref: https://en.wikipedia.org/wiki/Ocean
-xref: LTER:695
 xref: SWEETRealm:Ocean
 xref: TGN:21102
 is_a: ENVO:00001999 ! marine water body
-is_a: ENVO:01000044 ! marine pelagic feature
 is_a: ENVO:01001319 ! saline water body
 relationship: RO:0002473 ENVO:00002149 ! composed primarily of sea water
 
@@ -1199,7 +1432,6 @@ xref: Geonames:H.SEA
 xref: https://en.wikipedia.org/wiki/Sea
 xref: TGN:21103
 is_a: ENVO:00001999 ! marine water body
-is_a: ENVO:01000044 ! marine pelagic feature
 is_a: ENVO:01001319 ! saline water body
 relationship: RO:0002473 ENVO:00002149 ! composed primarily of sea water
 
@@ -1209,6 +1441,64 @@ name: saline hydrographic feature
 namespace: ENVO
 def: "A geographical feature associated with water with a halinity above 30 ppt (roughly 35 g/L)." [https://en.wikipedia.org/wiki/Salinity]
 is_a: ENVO:00000012 ! hydrographic feature
+
+[Term]
+id: ENVO:00000019
+name: saline lake
+def: "A lake whose water contains a considerable concentration of dissolved salts." [MA:ma]
+synonym: "salina" RELATED [USGS:SDTS]
+synonym: "salt lake" EXACT [USGS:SDTS]
+synonym: "soda lake" RELATED []
+xref: FTT:221
+xref: FTT:907
+xref: Geonames:H.LKN
+xref: Geonames:H.LKSN
+xref: https://en.wikipedia.org/wiki/Saline_lake
+xref: TGN:21116
+is_a: ENVO:00000020 ! lake
+is_a: ENVO:01001319 ! saline water body
+intersection_of: ENVO:00000020 ! lake
+intersection_of: RO:0002473 ENVO:00002010 ! composed primarily of saline water
+
+[Term]
+id: ENVO:00000020
+name: lake
+alt_id: LTER:278 {xref="http://129.24.124.196/vocab/vocab/index.php?tema=278&/lakes"}
+def: "A body of water or other liquid of considerable size contained in a depression on a landmass." [https://en.wikipedia.org/wiki/Lake]
+subset: envoPolar
+synonym: "broad" RELATED []
+synonym: "catch basin" NARROW [USGS:SDTS]
+synonym: "llyn" RELATED []
+synonym: "loch" RELATED []
+synonym: "lochan" RELATED [ADL:FTT]
+synonym: "lough" RELATED []
+synonym: "mere" RELATED []
+synonym: "mortlake" RELATED [USGS:SDTS]
+synonym: "open water" NARROW [USGS:SDTS]
+synonym: "pasteuer lake" RELATED [USGS:SDTS]
+synonym: "tarn" NARROW [ADL:FTT]
+xref: EcoLexicon:lake
+xref: FTT:221
+xref: FTT:704
+xref: FTT:909
+xref: Geonames:H.LK
+xref: Geonames:H.LKS
+xref: SPIRE:Lake_or_pond
+xref: SWEETRealm:Lake
+xref: TGN:21114
+xref: TGN:21115
+is_a: ENVO:01000617 ! lentic water body
+relationship: ENVO:01001307 ENVO:01000635 ! partially_surrounded_by land
+
+[Term]
+id: ENVO:00000043
+name: wetland area
+def: "An vegetated area which overlaps a wetland ecosystem." [https://en.wikipedia.org/wiki/Wetland]
+synonym: "WetlandRegion" RELATED [NASA:earthrealm]
+is_a: ENVO:01001305 ! vegetated area
+intersection_of: ENVO:01001305 ! vegetated area
+intersection_of: RO:0002131 ENVO:01001209 ! overlaps wetland ecosystem
+relationship: RO:0002131 ENVO:01001209 ! overlaps wetland ecosystem
 
 [Term]
 id: ENVO:00000063
@@ -1229,7 +1519,7 @@ xref: https://en.wikipedia.org/wiki/Water_body
 xref: SWEETRealm:BodyOfWater
 xref: TGN:21100
 xref: TGN:21101
-is_a: ENVO:00000000 ! geographic feature
+is_a: ENVO:01000685 ! water mass
 relationship: part_of ENVO:01000819 ! hydrosphere
 relationship: RO:0002473 CHEBI:15377 ! composed primarily of water
 
@@ -1287,6 +1577,17 @@ relationship: RO:0000086 PATO:0001154 ! has quality elongated
 relationship: RO:0002354 ENVO:02500028 ! formed as result of planetary erosion
 
 [Term]
+id: ENVO:00000128
+name: dry valley
+namespace: ENVO
+def: "A valley that no longer has a surface flow of water. Typically found in either Karst (limestone) or chalk terrain." [https://en.wikipedia.org/wiki/Dry_valley]
+xref: https://en.wikipedia.org/wiki/Dry_valley
+is_a: ENVO:00000100 ! valley
+intersection_of: ENVO:00000100 ! valley
+intersection_of: RO:0000086 PATO:0001824 ! has quality dry
+relationship: RO:0000086 PATO:0001824 ! has quality dry
+
+[Term]
 id: ENVO:00000131
 name: glacial feature
 def: "A hydrographic feature characterized by the dominance of snow or ice." [MA:ma]
@@ -1306,31 +1607,30 @@ is_a: ENVO:00002297 ! environmental feature
 [Term]
 id: ENVO:00000134
 name: permafrost
-namespace: ENVO
-def: "Soil at or below the freezing point of water (0C or 32F) for two or more years. Ice is not always present, as may be in the case of nonporous bedrock, but it frequently occurs and it may be in amounts exceeding the potential hydraulic saturation of the ground material." [https://en.wikipedia.org/wiki/Permafrost]
+def: "Soil or rock and included ice or organic material at or below the freezing point of water (0 degrees Celsius or 32 degrees Fahrenheit) for two or more years." [https://en.wikipedia.org/wiki/Permafrost]
+comment: Ice is not always present, as may be in the case of nonporous bedrock, but it frequently occurs and it may be in amounts exceeding the potential hydraulic saturation of the ground material.
 subset: envoPolar
 synonym: "Permafrost" EXACT [NASA:earthrealm]
 xref: EcoLexicon:permafrost
 xref: https://en.wikipedia.org/wiki/Permafrost
 xref: LTER:408
-is_a: ENVO:00001998 ! soil
-is_a: ENVO:01001125 ! ice
-relationship: RO:0000086 PATO:0001985 ! has quality frozen
+is_a: ENVO:00010483 ! environmental material
+relationship: RO:0000086 PATO:0001306 ! has quality decreased temperature
 
 [Term]
 id: ENVO:00000176
 name: elevation
-namespace: ENVO
 def: "A landform elevated above the surrounding area." [MA:ma]
 xref: https://en.wikipedia.org/wiki/Elevation
 xref: LTER:177
 xref: SWEETRealm:Elevation
-is_a: ENVO:00000191 ! solid landform
+is_a: ENVO:00000191 ! solid astronomical body part
+relationship: has_part ENVO:00002000 ! slope
 relationship: RO:0000086 PATO:0001688 ! has quality increased elevation
 
 [Term]
 id: ENVO:00000191
-name: solid landform
+name: solid astronomical body part
 def: "A part of an astronomical body which is primarily composed of a continuous volume of solid material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
 synonym: "geological feature" RELATED [ADL:FTT]
 synonym: "physiographic feature" RELATED []
@@ -1342,6 +1642,16 @@ xref: SWEETRealm:Landform
 xref: TGN:21400
 xref: TGN:21401
 is_a: ENVO:01000813 ! astronomical body part
+intersection_of: ENVO:01000813 ! astronomical body part
+intersection_of: RO:0002473 ENVO:01000814 ! composed primarily of solid environmental material
+relationship: RO:0002473 ENVO:01000814 ! composed primarily of solid environmental material
+
+[Term]
+id: ENVO:00000240
+name: saline wetland
+namespace: ENVO
+comment: It would be more correct to say that this has_quality salty or has_part ((soil and water) and has_increased_levels_of salt.
+is_a: ENVO:00000043 ! wetland area
 
 [Term]
 id: ENVO:00000248
@@ -1352,6 +1662,34 @@ subset: envoPolar
 synonym: "valley" RELATED [USGS:SDTS]
 xref: https://en.wikipedia.org/wiki/Glacial_valley
 is_a: ENVO:00000100 ! valley
+
+[Term]
+id: ENVO:00000304
+name: shore
+def: "That part of the land in immediate contact with a body of water including the area between high and low water lines." [USGS:SDTS]
+synonym: "beach face" RELATED [USGS:SDTS]
+synonym: "coastal zone" BROAD [ADL:FTT]
+synonym: "foreshore" RELATED [USGS:SDTS]
+synonym: "inshore" RELATED [USGS:SDTS]
+synonym: "rivage" RELATED [USGS:SDTS]
+synonym: "seashore" RELATED [USGS:SDTS]
+synonym: "SHORE" EXACT [USGS:SDTS]
+synonym: "shore" EXACT [Geonames:feature]
+synonym: "shoreface" NARROW [USGS:SDTS]
+synonym: "strand" RELATED [USGS:SDTS]
+xref: EcoLexicon:shore
+xref: FTT:240
+xref: FTT:503
+xref: FTT:504
+xref: Geonames:T.SHOR
+xref: https://en.wikipedia.org/wiki/Shore
+xref: SWEETRealm:Shore
+xref: TGN:21481
+is_a: ENVO:00000012 ! hydrographic feature
+is_a: ENVO:01000635 ! land
+intersection_of: ENVO:01000635 ! land
+intersection_of: RO:0002220 ENVO:00000063 ! adjacent to water body
+relationship: RO:0002220 ENVO:00000063 ! adjacent to water body
 
 [Term]
 id: ENVO:00000309
@@ -1376,7 +1714,7 @@ xref: SWEETRealm:Depression
 xref: TGN:21454
 xref: TGN:21497
 xref: TGN:21521
-is_a: ENVO:00000191 ! solid landform
+is_a: ENVO:00000191 ! solid astronomical body part
 relationship: has_part ENVO:00002000 ! slope
 relationship: RO:0000086 PATO:0001689 ! has quality decreased elevation
 relationship: RO:0000086 PATO:0002143 ! has quality sloped downward
@@ -1385,17 +1723,19 @@ property_value: IAO:0000116 "Clarify that this pertains to the planetary crust a
 [Term]
 id: ENVO:00000428
 name: biome
+alt_id: LTER:809 {xref="http://129.24.124.196/vocab/vocab/index.php?tema=809&/biomes"}
 def: "A biome is an ecosystem to which resident ecological communities have evolved adaptations." [DOI:10.1186/2041-1480-4-43, https://en.wikipedia.org/wiki/Biome]
 comment: There has been some concern raised (see Issue #143) about the usefulness of the assertion that organisms have evolved within a given biome. They may have evolved adaptations elsewhere and demonstrating one or the other is often not feasible. Consider relabelling to "environmental system determined by an ecological community" or similar.
 synonym: "EcosytemType" RELATED [NASA:earthrealm]
 synonym: "major habitat type" EXACT [WWF:Biome]
 xref: EcoLexicon:biome
-xref: LTER:173
 is_a: ENVO:01000254 ! environmental system
 is_a: ENVO:01001110 ! ecosystem
-relationship: ENVO:2100001 PCO:0000002 ! determined by ecological community
+disjoint_from: ENVO:01000276 ! ecoregion
+disjoint_from: ENVO:01000280 ! ecozone
 relationship: has_part ENVO:01000739 {minCardinality="2"} ! habitat
 relationship: part_of ENVO:01000817 ! biosphere
+relationship: RO:0002507 PCO:0000002 ! determined by ecological community
 
 [Term]
 id: ENVO:00000446
@@ -1410,12 +1750,12 @@ is_a: ENVO:00000428 ! biome
 [Term]
 id: ENVO:00000447
 name: marine biome
-namespace: ENVO
 def: "An aquatic biome that comprises systems of open-ocean and unprotected coastal habitats, characterized by exposure to wave action, tidal fluctuation, and ocean currents as well as systems that largely resemble these. Water in the marine biome is generally within the salinity range of seawater: 30 to 38 ppt." [https://en.wikipedia.org/wiki/Ocean, ISBN-10:0618455043, MA:ma, ORCID:0000-0002-4366-3088]
 subset: envoPolar
 synonym: "marine realm" RELATED []
 xref: SPIRE:Marine
 is_a: ENVO:00002030 ! aquatic biome
+is_a: ENVO:01000320 ! marine environment
 
 [Term]
 id: ENVO:00001995
@@ -1464,21 +1804,21 @@ def: "A significant accumulation of water which is part of a marine biome." []
 comment: Ideas like "significant" are fuzzy and need to be modelled more accurately. The definition is a candidate for review.
 synonym: "body of marine water" EXACT []
 synonym: "marine waterbody" EXACT []
+is_a: ENVO:01000044 ! marine pelagic feature
 is_a: ENVO:01000617 ! lentic water body
+is_a: ENVO:01001308 ! hydroform
 relationship: part_of ENVO:00000447 ! marine biome
-relationship: part_of ENVO:01000320 ! marine environment
 
 [Term]
 id: ENVO:00002000
 name: slope
-namespace: ENVO
-def: "The part of an elevation or depression between the relatively flat surrounding area and the peak of a mount or the bottom of a depression." [MA:ma]
+def: "A solid astronomical body part which is part of the planetary surface between the peak of an elevation or the bottom of a depression and  relatively flat surrounding land." [MA:ma]
 synonym: "flank" RELATED []
 synonym: "side" RELATED []
 xref: EcoLexicon:slope
 xref: https://en.wikipedia.org/wiki/Slope
 xref: SWEETRealm:Slope
-is_a: ENVO:00000191 ! solid landform
+is_a: ENVO:00000191 ! solid astronomical body part
 relationship: part_of ENVO:00000176 ! elevation
 relationship: part_of ENVO:00000309 ! depression
 relationship: RO:0000086 PATO:0001481 ! has quality sloped
@@ -1502,13 +1842,31 @@ relationship: RO:0002473 CHEBI:17997 ! composed primarily of dinitrogen
 
 [Term]
 id: ENVO:00002006
-name: water
+name: liquid water
 def: "An environmental material primarily composed of dihydrogen oxide in its liquid form." [MA:ma]
+synonym: "water" BROAD []
 xref: EcoLexicon:water
 xref: https://en.wikipedia.org/wiki/Water
 xref: LTER:617
 is_a: ENVO:01000815 ! liquid environmental material
 relationship: RO:0002473 CHEBI:15377 ! composed primarily of water
+
+[Term]
+id: ENVO:00002007
+name: sediment
+def: "Sediment is an environmental substance comprised of any particulate matter that can be transported by fluid flow and which eventually is deposited as a layer of solid particles on the bedor bottom of a body of water or other liquid." [https://en.wikipedia.org/wiki/Sediment]
+comment: It is recommended to use a combination of sediment terms to describe a more specific sediment type.
+subset: EnvO-Lite-GSC
+subset: envoPolar
+xref: EcoLexicon:sediment
+xref: EcoLexicon:sedimentation
+xref: https://en.wikipedia.org/wiki/Sediment
+xref: LTER:492
+xref: LTER:493
+xref: SWEETRealm:Sediment
+is_a: ENVO:00010483 ! environmental material
+relationship: RO:0000086 PATO:0000984 ! has quality porous
+relationship: RO:0000086 PATO:0001759 ! has quality granular
 
 [Term]
 id: ENVO:00002010
@@ -1520,16 +1878,17 @@ xref: EcoLexicon:saltwater
 xref: https://en.wikipedia.org/wiki/Saline_water
 xref: SWEETRealm:SalineWater
 xref: SWEETRealm:SaltWater
-is_a: ENVO:00002006 ! water
+is_a: ENVO:00002006 ! liquid water
 relationship: has_increased_levels_of CHEBI:26710 ! sodium chloride
 relationship: RO:0000086 PATO:0001657 ! has quality increased osmolarity
 
 [Term]
 id: ENVO:00002030
 name: aquatic biome
-namespace: ENVO
 xref: LTER:41
 is_a: ENVO:00000428 ! biome
+relationship: RO:0002507 ENVO:00000063 ! determined by water body
+property_value: IAO:0000118 "A biome which has its properties and composition determined by a water body and within which most members of resident ecological communities have adapted to life in or on water." xsd:string
 
 [Term]
 id: ENVO:00002149
@@ -1579,6 +1938,15 @@ intersection_of: has_increased_levels_of BFO:0000040 ! material entity
 relationship: has_increased_levels_of BFO:0000040 ! material entity
 
 [Term]
+id: ENVO:00005748
+name: dry soil
+def: "Soil which has little to no water content and in which minerals and other soluble chemical entities have either bonded or become adsorbed to sold particles due to insufficient water availability." []
+is_a: ENVO:00001998 ! soil
+intersection_of: ENVO:00001998 ! soil
+intersection_of: RO:0000086 PATO:0001824 ! has quality dry
+relationship: RO:0000086 PATO:0001824 ! has quality dry
+
+[Term]
 id: ENVO:00010483
 name: environmental material
 def: "A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system." [DOI:10.1186/2041-1480-4-43, MA:ma, ORCID:0000-0002-4366-3088, URL:http\://ontology.buffalo.edu/smith/articles/niches.html]
@@ -1589,6 +1957,28 @@ is_a: BFO:0000024 ! fiat object part
 is_a: BFO:0000040 ! material entity
 property_value: IAO:0000111 "environmental material" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
+
+[Term]
+id: ENVO:00010504
+name: surface layer
+def: "A layer of some material entity which is adjacent to one or more of its external boundaries and directly interacts with its immediate surroundings." [URL:http\://www.merriam-webster.com/dictionary/surface]
+comment: This class is distinct from a geometric surface, which is two-dimensional. The idea of "uppermost" may be problematic. Further, the definition of layer (the superclass of surface in rev 133) references surface. This may be another issue. Perhaps this can be made into an inferred class using 'bounding layer of' some material entity, note that 'bounding layer' implies containment, which may not be valid here.
+xref: EcoLexicon:surface
+xref: http://sweetontology.net/reprSpaceGeometry/Surface
+xref: https://en.wikipedia.org/wiki/Surface
+is_a: ENVO:01000281 ! layer
+
+[Term]
+id: ENVO:00010505
+name: aerosol
+def: "Airborne solid particles (also called dust or particulate matter (PM)) or liquid droplets." [https://en.wikipedia.org/wiki/Aerosol]
+comment: Should connect to PATO as "quality of an aerosol"
+subset: envoAtmo
+xref: EcoLexicon:aerosol
+xref: SWEETRealm:Aerosol
+is_a: ENVO:00010483 ! environmental material
+relationship: has_part ENVO:01000797 ! gaseous environmental material
+relationship: RO:0000086 PATO:0001332 ! has quality amorphous
 
 [Term]
 id: ENVO:01000016
@@ -1616,9 +2006,56 @@ is_a: ENVO:00010483 ! environmental material
 relationship: RO:0001000 ENVO:00001995 ! derives from rock
 
 [Term]
+id: ENVO:01000023
+name: marine pelagic biome
+namespace: ENVO
+def: "The marine pelagic biome (pelagic meaning open sea) is that of the marine water column, from the surface to the greatest depths." [ISBN:0750633840]
+subset: envoPolar
+is_a: ENVO:00000447 ! marine biome
+relationship: has_part ENVO:00001999 ! marine water body
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2010-03-15T11:17:06Z
+
+[Term]
+id: ENVO:01000032
+name: neritic pelagic zone biome
+namespace: ENVO
+def: "The neritic epipelagic zone biome comprises the marine water column above a continental shelf." [ISBN:044482619X, ISBN:0750633840, ORCID:0000-0002-4366-3088]
+is_a: ENVO:01000023 ! marine pelagic biome
+disjoint_from: ENVO:01000033 ! oceanic pelagic zone biome
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2010-03-15T11:19:19Z
+
+[Term]
+id: ENVO:01000033
+name: oceanic pelagic zone biome
+namespace: ENVO
+def: "The oceanic epipelagic zone biome comprises the marine water column offshore, beyond a continental shelf." [ISBN:044482619X, ISBN:0750633840, ORCID:0000-0002-4366-3088]
+is_a: ENVO:01000023 ! marine pelagic biome
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2010-03-15T11:19:19Z
+
+[Term]
+id: ENVO:01000034
+name: oceanic sea surface microlayer biome
+namespace: ENVO
+def: "The oceanic sea surface microlayer (SML) biome comprises the top 1000 micrometers of the marine surface waters occurring offshore, away from a continental shelf. It is the boundary layer where all exchange occurs between the atmosphere and the ocean. The chemical, physical, and biological properties of the SML differ greatly from the sub-surface water just a few centimeters beneath." [https://en.wikipedia.org/wiki/Sea_surface_microlayer, ORCID:0000-0002-4366-3088]
+is_a: ENVO:01000033 ! oceanic pelagic zone biome
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2010-03-15T11:21:03Z
+
+[Term]
+id: ENVO:01000041
+name: neritic sea surface microlayer biome
+namespace: ENVO
+def: "The neritic sea surface microlayer (SML) biome comprises the top 1000 micrometers of marine surface waters occurring above a continental shelf. It is the boundary layer where all exchange occurs between the atmosphere and the ocean. The chemical, physical, and biological properties of the SML differ greatly from the sub-surface water just a few centimeters beneath." [https://en.wikipedia.org/wiki/Sea_surface_microlayer, ORCID:0000-0002-4366-3088]
+is_a: ENVO:01000032 ! neritic pelagic zone biome
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2010-03-15T11:22:09Z
+
+[Term]
 id: ENVO:01000044
 name: marine pelagic feature
-namespace: ENVO
 def: "A prominent or distinctive aspect, quality, or characteristic of environments occurring within the marine water column." [ISBN-10:0618455043, ORCID:0000-0002-4366-3088]
 subset: envoPolar
 is_a: ENVO:00000012 ! hydrographic feature
@@ -1626,12 +2063,31 @@ created_by: ORCID:0000-0002-4366-3088
 creation_date: 2010-03-16T12:10:50Z
 
 [Term]
+id: ENVO:01000060
+name: particulate matter
+def: "Particulate material is an environmental material which is composed of microscopic portions of solid or liquid material suspended in another environmental material." []
+subset: envoAtmo
+subset: envoPolar
+is_a: ENVO:00010483 ! environmental material
+property_value: IAO:0000116 "Subclasses should be assigned by inference." xsd:string
+
+[Term]
+id: ENVO:01000063
+name: planktonic material
+def: "A portion of planktonic material is a portion of environmental material primarily composed of plankton." []
+subset: envoPolar
+is_a: ENVO:01000155 ! organic material
+property_value: IAO:0000116 "See Issue #251. Awaiting class creation in PCO to attempt logical definitions." xsd:string
+
+[Term]
 id: ENVO:01000155
 name: organic material
-def: "Environmental material derived from living organisms." [ISBN-10:0618455043, ORCID:0000-0002-4366-3088]
+def: "Environmental material derived from living organisms and composed primarily of one or more biomacromolecules." [ISBN-10:0618455043, ORCID:0000-0002-4366-3088]
 synonym: "biomass" EXACT []
 xref: EcoLexicon:organic_material
 is_a: ENVO:00010483 ! environmental material
+intersection_of: ENVO:00010483 ! environmental material
+intersection_of: RO:0002473 CHEBI:33694 ! composed primarily of biomacromolecule
 relationship: RO:0002473 CHEBI:33694 ! composed primarily of biomacromolecule
 created_by: ORCID:0000-0002-4366-3088
 creation_date: 2010-03-20T08:40:04Z
@@ -1707,10 +2163,10 @@ creation_date: 2013-10-10T07:58:18Z
 [Term]
 id: ENVO:01000267
 name: atmosphere
-namespace: ENVO
 def: "An atmosphere is a layer of gases surrounding a material body of sufficient mass that is held in place by the gravity of the body." [https://en.wikipedia.org/wiki/Atmosphere, https://en.wikipedia.org/wiki/Physical_geography]
 xref: LTER:48
 is_a: ENVO:01000281 ! layer
+is_a: ENVO:01001478 ! gaseous astronomical body part
 created_by: ORCID:0000-0002-4366-3088
 creation_date: 2013-10-10T08:14:50Z
 
@@ -1730,6 +2186,17 @@ created_by: ORCID:0000-0002-4366-3088
 creation_date: 2013-10-10T08:22:07Z
 
 [Term]
+id: ENVO:01000276
+name: ecoregion
+def: "A large unit of land or water containing a geographically distinct assemblage of species, natural communities, and environmental conditions." [DOI:10.1641/0006-3568(2001)051[0933\:TEOTWA\]2.0.CO;2, URL:http\://worldwildlife.org/biomes]
+comment: Unlike biomes, ecoregions are geographically defined entities. ENVO's sister project, GAZ, contains terms for instances of ecoregions (e.g. Beringia lowland tundra). Requests for new terms should be directed to GAZ. ENVO will only contain this top-level class. The class' definition is preliminary and will be aligned to BFO.
+subset: envoPolar
+is_a: ENVO:01000408 ! environmental zone
+relationship: part_of ENVO:01000280 ! ecozone
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2013-10-12T17:21:09Z
+
+[Term]
 id: ENVO:01000277
 name: water ice
 def: "Ice is water frozen into a solid state. It can appear transparent or opaque bluish-white color, depending on the presence of impurities or air inclusions. The addition of other materials such as soil may further alter its appearance." [https://en.wikipedia.org/wiki/Ice]
@@ -1737,9 +2204,20 @@ subset: envoPolar
 synonym: "ice" RELATED [http://www.eionet.europa.eu/gemet/concept/4131]
 xref: LTER:262
 is_a: ENVO:01000814 ! solid environmental material
-relationship: RO:0002473 ENVO:00002006 ! composed primarily of water
+relationship: RO:0002473 ENVO:00002006 ! composed primarily of liquid water
 created_by: ORCID:0000-0002-4366-3088
 creation_date: 2013-10-13T12:01:28Z
+
+[Term]
+id: ENVO:01000280
+name: ecozone
+def: "Ecozones delineate large areas of a planetary surface within which organisms have been evolving in relative isolation over long periods of time, separated from one another by geographic features, such as oceans, broad deserts, or high mountain ranges, that constitute barriers to migration." [https://en.wikipedia.org/wiki/ecozone]
+comment: ENVO contains this top-level class, but all instances will be in GAZ. The definition is preliminary and will be aligned to BFO.\nhttps://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of botany or zoogeographic regions of zoology. Ecozones are characterized by the evolutionary history of the organisms they contain. They are distinct from biomes, also known as major habitat types, which are divisions of the Earth's surface based on life form, or the adaptation of plants and animals to climatic, soil, and other conditions. Biomes are characterized by similar climax vegetation. Each ecozone may include a number of different biomes. A tropical moist broadleaf forest in Central America, for example, may be similar to one in New Guinea in its vegetation type and structure, climate, soils, etc., but these forests are inhabited by plants and animals with very different evolutionary histories.
+subset: envoPolar
+is_a: ENVO:01000408 ! environmental zone
+relationship: part_of ENVO:01000817 ! biosphere
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2013-10-13T18:32:46Z
 
 [Term]
 id: ENVO:01000281
@@ -1751,6 +2229,21 @@ is_a: ENVO:00000000 ! geographic feature
 relationship: RO:0000086 PATO:0002124 ! has quality laminar
 created_by: ORCID:0000-0002-4366-3088
 creation_date: 2013-10-15T16:42:02Z
+
+[Term]
+id: ENVO:01000283
+name: lake layer
+namespace: ENVO
+def: "A layer which is part of a lake." []
+comment: Note that this class does not contain metalimnion as a subclass. The metaliminon is classified as a thermocline.
+subset: envoPolar
+is_a: ENVO:01000325 ! aquatic layer
+is_a: ENVO:01001308 ! hydroform
+intersection_of: ENVO:01000325 ! aquatic layer
+intersection_of: part_of ENVO:00000020 ! lake
+relationship: part_of ENVO:00000020 ! lake
+created_by: ORCID:0000-0002-4366-3088
+creation_date: 2013-10-15T16:57:43Z
 
 [Term]
 id: ENVO:01000293
@@ -1854,8 +2347,14 @@ def: "An environment whose dynamics are strongly influenced by water." []
 is_a: ENVO:01000997 ! environmental system determined by a quality
 is_a: ENVO:01000998 ! environmental system determined by a material
 intersection_of: ENVO:01000254 ! environmental system
-intersection_of: RO:0002507 ENVO:00002006 ! determined by water
-relationship: RO:0002507 ENVO:00002006 ! determined by water
+intersection_of: RO:0002507 ENVO:00002006 ! determined by liquid water
+relationship: RO:0002507 ENVO:00002006 ! determined by liquid water
+
+[Term]
+id: ENVO:01000319
+name: rocky slope
+def: "A rocky slope is a slope which has a surface primarily composed of rock." []
+is_a: ENVO:00002000 ! slope
 
 [Term]
 id: ENVO:01000320
@@ -1864,8 +2363,8 @@ def: "A marine environment and enviroment which is determined by a marine water 
 subset: envoPolar
 is_a: ENVO:01000254 ! environmental system
 intersection_of: ENVO:01000254 ! environmental system
-intersection_of: ENVO:2100001 ENVO:00001999 ! determined by marine water body
-relationship: ENVO:2100001 ENVO:00001999 ! determined by marine water body
+intersection_of: RO:0002507 ENVO:00001999 ! determined by marine water body
+relationship: RO:0002507 ENVO:00001999 ! determined by marine water body
 
 [Term]
 id: ENVO:01000321
@@ -1879,6 +2378,14 @@ intersection_of: RO:0002507 ENVO:00002149 ! determined by sea water
 relationship: RO:0002507 ENVO:00002149 ! determined by sea water
 
 [Term]
+id: ENVO:01000324
+name: planetary surface
+def: "A planetary surface is a surface layer where the solid or liquid material of a planet comes into contact with an atmosphere or outer space." []
+comment: a useful class: this can be used to define sub-terrestrial and sub-marine entities
+is_a: ENVO:01001483 ! surface of an astronomical body
+relationship: part_of ENVO:01000800 ! planet
+
+[Term]
 id: ENVO:01000325
 name: aquatic layer
 def: "A layer in a water mass, itself composed primarily of water." []
@@ -1886,8 +2393,8 @@ comment: This class will eventually be populated by inference, and its asserted 
 subset: envoPolar
 is_a: ENVO:01001273 ! liquid layer
 intersection_of: ENVO:01001273 ! liquid layer
-intersection_of: RO:0002473 ENVO:00002006 ! composed primarily of water
-relationship: RO:0002473 ENVO:00002006 ! composed primarily of water
+intersection_of: RO:0002473 ENVO:00002006 ! composed primarily of liquid water
+relationship: RO:0002473 ENVO:00002006 ! composed primarily of liquid water
 
 [Term]
 id: ENVO:01000342
@@ -1911,13 +2418,22 @@ created_by: ORCID:0000-0002-4366-3088
 [Term]
 id: ENVO:01000406
 name: snow
-def: "Snow is an environmental material which is primarily composed of flakes of crystalline water ice." [https://en.wikipedia.org/wiki/Snow]
+def: "Snow is an environmental material which is primarily composed of flakes of crystalline water ice." [http://www.eionet.europa.eu/gemet/concept/7769, https://en.wikipedia.org/wiki/Snow]
 subset: envoPolar
-synonym: "snow" RELATED [http://www.eionet.europa.eu/gemet/concept/7769]
 is_a: ENVO:00010483 ! environmental material
 relationship: has_part ENVO:00002005 ! air
-relationship: RO:0002353 ENVO:01000703 ! output of hydrological precipitation process
+relationship: RO:0002353 ENVO:01000895 ! output of snowfall
 relationship: RO:0002473 ENVO:01000277 ! composed primarily of water ice
+
+[Term]
+id: ENVO:01000408
+name: environmental zone
+def: "A site which has its extent determined by the presence or influence of one or more components of an environmental system or the processes occurring therein." []
+comment: Formerly, this class was an experimental class and a subclass of "environmental feature". It is now aligned to BFO. The class was not obsoleted as the core semantics maintained their stability through its transition.
+subset: envoPolar
+synonym: "environmental area" RELATED []
+is_a: BFO:0000029 ! site
+relationship: part_of ENVO:01000254 ! environmental system
 
 [Term]
 id: ENVO:01000617
@@ -1935,7 +2451,16 @@ synonym: "condensation" BROAD []
 is_a: ENVO:01000724 ! condensation process
 is_a: ENVO:02500031 ! hydrological process
 relationship: RO:0002233 ENVO:01000268 ! has input atmospheric water vapour
-relationship: RO:0002234 ENVO:00002006 ! has output water
+relationship: RO:0002234 ENVO:00002006 ! has output liquid water
+
+[Term]
+id: ENVO:01000635
+name: land
+def: "Land is a planetary surface that is not covered by liquid." [Adpated from https://en.wikipedia.org/wiki/Planetary_surface]
+comment: Land may more properly be represented as part of a planetary surface rather than a sublcass.
+synonym: "ground" RELATED []
+is_a: ENVO:01000324 ! planetary surface
+is_a: ENVO:01001311 ! solid surface layer
 
 [Term]
 id: ENVO:01000637
@@ -1964,6 +2489,21 @@ relationship: part_of ENVO:01000800 ! planet
 property_value: IAO:0000116 "Label should be improved to match definition." xsd:string
 
 [Term]
+id: ENVO:01000685
+name: water mass
+def: "A mass of water." []
+is_a: ENVO:01001476 ! body of liquid
+relationship: RO:0002473 ENVO:00002006 ! composed primarily of liquid water
+
+[Term]
+id: ENVO:01000687
+name: coast
+def: "A coast is the area where land meets the sea, ocean, or lake." [https://en.wikipedia.org/wiki/Coast]
+comment: Used for both marine and lake coasts. The boundary of the coast is fuzzy and it overlaps both the water body and land in quesiton. Compared to 'shore'
+is_a: ENVO:01000408 ! environmental zone
+relationship: RO:0002131 ENVO:01000635 ! overlaps land
+
+[Term]
 id: ENVO:01000703
 name: hydrological precipitation process
 def: "Hydrological precipitation is a process during which any product of the condensation of atmospheric water vapour is pulled to the planetary surface by gravity." [https://en.wikipedia.org/wiki/Precipitation]
@@ -1975,7 +2515,7 @@ is_a: ENVO:01000875 ! precipitation process
 id: ENVO:01000724
 name: condensation process
 def: "Condensation is a process during which a gas undergoes a phase transition into a liquid." [https://en.wikipedia.org/wiki/Condensation]
-is_a: ENVO:03000043 ! material transformation process
+is_a: ENVO:01001510 ! material congelation process
 
 [Term]
 id: ENVO:01000739
@@ -1987,8 +2527,18 @@ xref: https://en.wikipedia.org/wiki/Habitat
 xref: LTER:238
 xref: SWEETRealm:Habitat
 is_a: ENVO:01001110 ! ecosystem
-relationship: ENVO:2100001 PCO:0000001 ! determined by population of organisms
 relationship: part_of ENVO:01000817 ! biosphere
+relationship: RO:0002507 PCO:0000001 ! determined by population of organisms
+
+[Term]
+id: ENVO:01000755
+name: aeroform
+def: "A part of an astronomical body which is primarily composed of a continuous volume of gaseous or aerosolised material held in shape by one or more environmental processes." []
+comment: Similar, in spirit, to landform. This class may need to be split into aerosols and 'pure' volumes of gas.
+subset: envoAtmo
+is_a: ENVO:01001478 ! gaseous astronomical body part
+relationship: RO:0001025 ENVO:01000267 ! located in atmosphere
+property_value: IAO:0000116 "This may not need to be in the atmosphere, also note that \"meteor\" will do much of the same work." xsd:string
 
 [Term]
 id: ENVO:01000797
@@ -2029,6 +2579,7 @@ synonym: "celestial object" RELATED []
 is_a: BFO:0000030 ! object
 is_a: ENVO:00002297 ! environmental feature
 relationship: has_part ENVO:01000799 {minCardinality="1"} ! astronomical body
+relationship: RO:0000086 ENVO:01001164 ! has quality geodiversity
 relationship: RO:0002219 ENVO:01000637 ! surrounded by outer space
 
 [Term]
@@ -2040,7 +2591,6 @@ subset: envoPolar
 is_a: BFO:0000024 ! fiat object part
 is_a: ENVO:00002297 ! environmental feature
 relationship: part_of ENVO:01000799 ! astronomical body
-relationship: RO:0000086 ENVO:01001164 ! has quality geodiversity
 
 [Term]
 id: ENVO:01000814
@@ -2094,14 +2644,24 @@ def: "An astronomical body part which is composed of the combined mass of water 
 comment: This is a very broad and, in practice, poorly defined term. Please consider using or requesting a more specific class.
 subset: envoAstro
 subset: envoPolar
-is_a: ENVO:01000813 ! astronomical body part
-relationship: RO:0002473 ENVO:00002006 ! composed primarily of water
+is_a: ENVO:01001477 ! liquid astronomical body part
+relationship: RO:0002473 ENVO:00002006 ! composed primarily of liquid water
 
 [Term]
 id: ENVO:01000875
 name: precipitation process
 def: "A precipitation process is a process in which a portion of some substance segregates from a material in which that substance or its precursors were dissolved or suspended in and settles due to a force such as gravity or centrifugal force." [https://en.wikipedia.org/wiki/Precipitation_%28chemistry%29] {comment="https://en.wikipedia.org/wiki/Precipitation"}
 is_a: ENVO:03000010 ! material transport process
+
+[Term]
+id: ENVO:01000895
+name: snowfall
+def: "A hydrological process in which irregular aggregates of snow fall to a planetary surface." []
+subset: environmental_hazards
+subset: envoPolar
+synonym: "snow fall" EXACT []
+is_a: ENVO:01000703 ! hydrological precipitation process
+relationship: RO:0000057 ENVO:01000406 ! has participant snow
 
 [Term]
 id: ENVO:01000951
@@ -2118,9 +2678,13 @@ name: anthropisation
 def: "A process during which a natural environmental system is altered by human action." [https://en.wikipedia.org/wiki/Anthropization]
 comment: An area may be classified as anthropized even though it looks natural, such as grasslands that have been deforested by humans. It can be difficult to determine how much a site has been anthropized in the case of urbanization because one must be able to estimate the state of the landscape before significant human action. {xref="https://en.wikipedia.org/wiki/Anthropization"}
 synonym: "anthropization" EXACT []
+is_a: ENVO:01001434 ! anthropogenic ecosystem conversion process
 is_a: ENVO:02500027 ! anthropogenic environmental process
+intersection_of: ENVO:01001434 ! anthropogenic ecosystem conversion process
 intersection_of: ENVO:02500027 ! anthropogenic environmental process
 intersection_of: RO:0002233 ENVO:01000951 ! has input natural environment
+intersection_of: RO:0002233 ENVO:01000951 ! has input natural environment
+intersection_of: RO:0002234 ENVO:01000313 ! has output anthropogenic environment
 intersection_of: RO:0002234 ENVO:01000313 ! has output anthropogenic environment
 relationship: RO:0002233 ENVO:01000951 ! has input natural environment
 relationship: RO:0002234 ENVO:01000313 ! has output anthropogenic environment
@@ -2151,7 +2715,7 @@ def: "A process during which a volume of water is transported due to a disequili
 subset: environmental_hazards
 is_a: ENVO:01000981 ! mass liquid flow
 is_a: ENVO:02500031 ! hydrological process
-relationship: RO:0000057 ENVO:00002006 ! has participant water
+relationship: RO:0000057 ENVO:00002006 ! has participant liquid water
 
 [Term]
 id: ENVO:01000997
@@ -2198,6 +2762,41 @@ relationship: RO:0002507 NCBITaxon:33208 ! determined by Metazoa
 property_value: IAO:0000118 "Animal" xsd:string {xref="http://press.igsb.anl.gov/earthmicrobiome/protocols-and-standards/emp-ontology-empo/"}
 
 [Term]
+id: ENVO:01001008
+name: meteor
+def: "A meteor is any matter- or energy-based entity which is located in the atmosphere of an astronomical body." [https://cloudatlas.wmo.int/other-meteors.html]
+subset: envoAtmo
+is_a: BFO:0000030 ! object
+intersection_of: BFO:0000030 ! object
+intersection_of: RO:0001025 ENVO:01000267 ! located in atmosphere
+relationship: RO:0001025 ENVO:01000267 ! located in atmosphere
+
+[Term]
+id: ENVO:01001010
+name: hydrometeor
+def: "A meteor which is primarily composed of water." [https://cloudatlas.wmo.int/other-meteors.html]
+subset: envoAtmo
+is_a: ENVO:01001008 ! meteor
+
+[Term]
+id: ENVO:01001012
+name: lithometeor
+def: "A meteor which is primarily composed of rock." []
+subset: envoAtmo
+is_a: ENVO:01001008 ! meteor
+intersection_of: ENVO:01001008 ! meteor
+intersection_of: RO:0002473 ENVO:00001995 ! composed primarily of rock
+relationship: RO:0001000 ENVO:01001068 ! derives from meteoroid
+relationship: RO:0002473 ENVO:00001995 ! composed primarily of rock
+
+[Term]
+id: ENVO:01001022
+name: natural lake
+def: "A lake which has formed as the result of processes that are not or are only minimally driven by human activity." []
+is_a: ENVO:00000020 ! lake
+property_value: IAO:0000116 "This class is to be filled by inference." xsd:string
+
+[Term]
 id: ENVO:01001023
 name: radiation
 def: "A process during which energy is emitted or transmitted in the form of waves or particles through space or a material medium." [https://en.wikipedia.org/wiki/Radiation]
@@ -2232,6 +2831,50 @@ relationship: RO:0002507 ENVO:00001998 ! determined by soil
 property_value: IAO:0000118 "Soil (non-saline)" xsd:string {xref="http://press.igsb.anl.gov/earthmicrobiome/protocols-and-standards/emp-ontology-empo/"}
 
 [Term]
+id: ENVO:01001048
+name: sediment environment
+def: "An environmental system which has its properties and dynamics determined by sediment." []
+subset: envoEmpo
+subset: envoOmics
+is_a: ENVO:01000997 ! environmental system determined by a quality
+is_a: ENVO:01000998 ! environmental system determined by a material
+intersection_of: ENVO:01000254 ! environmental system
+intersection_of: RO:0002507 ENVO:00002007 ! determined by sediment
+relationship: RO:0002507 ENVO:00002007 ! determined by sediment
+
+[Term]
+id: ENVO:01001052
+name: aerosol environment
+def: "An environmental system which has its properties and dynamics determined by an aerosol." []
+subset: envoEmpo
+subset: envoOmics
+is_a: ENVO:01000997 ! environmental system determined by a quality
+is_a: ENVO:01000998 ! environmental system determined by a material
+intersection_of: ENVO:01000254 ! environmental system
+intersection_of: RO:0002507 ENVO:00010505 ! determined by aerosol
+relationship: RO:0002507 ENVO:00010505 ! determined by aerosol
+property_value: IAO:0000118 "Aerosol (saline)" xsd:string {xref="http://press.igsb.anl.gov/earthmicrobiome/protocols-and-standards/emp-ontology-empo/"}
+
+[Term]
+id: ENVO:01001053
+name: saline aerosol environment
+def: "An environmental system which has its properties and dynamics determined by a saline aerosol." []
+subset: envoEmpo
+subset: envoOmics
+is_a: ENVO:01001040 ! saline environment
+is_a: ENVO:01001052 ! aerosol environment
+property_value: IAO:0000118 "Aerosol (saline)" xsd:string {xref="http://press.igsb.anl.gov/earthmicrobiome/protocols-and-standards/emp-ontology-empo/", comment="seaspray or other aerosolized saline material (>5 psu)"}
+
+[Term]
+id: ENVO:01001054
+name: non-saline aerosol environment
+def: "An environmental system which has its properties and dynamics determined by an aerosol with a low concentration of dissolved solutes." []
+subset: envoEmpo
+subset: envoOmics
+is_a: ENVO:01001052 ! aerosol environment
+property_value: IAO:0000118 "Aerosol (non-saline)" xsd:string {xref="http://press.igsb.anl.gov/earthmicrobiome/protocols-and-standards/emp-ontology-empo/", comment="aerosolized dust or liquid"}
+
+[Term]
 id: ENVO:01001055
 name: environment associated with an animal part or small animal
 def: "An environmental system determined by part of a living or dead animal, or a whole small animal." []
@@ -2259,6 +2902,14 @@ is_a: ENVO:01001110 ! ecosystem
 property_value: IAO:0000118 "Plant corpus" xsd:string {xref="http://press.igsb.anl.gov/earthmicrobiome/protocols-and-standards/emp-ontology-empo/"}
 
 [Term]
+id: ENVO:01001068
+name: meteoroid
+def: "An astronomical body which is composed of rocky or metallic materials and is considerably smaller than asteroids." [https://en.wikipedia.org/wiki/Meteoroid]
+subset: envoAstro
+is_a: ENVO:01000799 ! astronomical body
+relationship: RO:0000086 PATO:0000587 ! has quality decreased size
+
+[Term]
 id: ENVO:01001069
 name: metallic material
 def: "A material which is composed primarily of one or more pure metals and which shows their properties." [] {comment="https://en.wikipedia.org/wiki/Metal"}
@@ -2271,8 +2922,29 @@ relationship: RO:0002473 CHEBI:33521 ! composed primarily of metal atom
 property_value: IAO:0000116 "Far more axiomatisation can be done should the qualities of metals be added to PATO or a similar quality ontology. However, note that there are many exceptions to the typical qualities of the majority of metals." xsd:string
 
 [Term]
+id: ENVO:01001088
+name: aerosolised liquids
+def: "An aerosol which has non-gaseous parts that are primarily composed of liquid droplets." [https://en.wikipedia.org/wiki/Aerosol]
+subset: envoAtmo
+synonym: "liquid aerosol" EXACT []
+xref: SWEETRealm:Aerosol
+is_a: ENVO:00010505 ! aerosol
+relationship: RO:0002219 ENVO:00002005 ! surrounded by air
+
+[Term]
+id: ENVO:01001089
+name: aerosolised solids
+def: "An aerosol which has non-gaseous parts that are primarily composed of solid particles." [https://en.wikipedia.org/wiki/Aerosol]
+subset: envoAtmo
+synonym: "solid aerosol" EXACT []
+xref: SWEETRealm:Aerosol
+is_a: ENVO:00010505 ! aerosol
+relationship: RO:0002219 ENVO:00002005 ! surrounded by air
+
+[Term]
 id: ENVO:01001110
 name: ecosystem
+alt_id: LTER:173 {xref="http://129.24.124.196/vocab/vocab/index.php?tema=173&/ecosystems"}
 def: "An environmental system which includes both living and non-living components." [https://en.wikipedia.org/wiki/Ecosystem]
 comment: This class will be primarily filled by inference, any environmental system which necessarily includes living parts should be autoclassified here.
 is_a: ENVO:01000254 ! environmental system
@@ -2292,6 +2964,27 @@ name: ice
 def: "An ice is an environmental material which is either frozen or which is maintained in a solid state by gravitational forces or pressure." []
 comment: This class is defined logically - any material that is frozen is considered a subclass. Note that ice may be formed at very high temperatures, due to gravitational effects and/or pressure.
 is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01001136
+name: ocean planet
+def: "A planet which has a surface layer that nearly completely or completely covered by water, and which has a substantial portion of its mass composed of water." [https://en.wikipedia.org/wiki/Ocean_planet]
+comment: While this planetary form is still mostly theoretical, strong candidates exist such as the extrasolar planet GJ 1214 b and ocean planet candidate Kepler-22b.
+subset: envoAstro
+synonym: "aquaplanet" EXACT []
+synonym: "panthalassic planet" EXACT []
+synonym: "water world" EXACT []
+is_a: ENVO:01000800 ! planet
+property_value: IAO:0000116 "An axiom to express that the planet has a 'substantial' proportion of its mass in the form of water wound enhance this class." xsd:string
+
+[Term]
+id: ENVO:01001137
+name: ice planet
+def: "A planet which has a surface layer that nearly completely or completely covered by ice, and which has a substantial portion of its mass composed of ice." [https://en.wikipedia.org/wiki/Ice_planet]
+comment: While this planetary form is still mostly theoretical, strong candidates exist such as OGLE-2005-BLG-390Lb, OGLE-2013-BLG-0341L b and MOA-2007-BLG-192Lb. Pluto was considered an ice planet until its reclassification in 2006 CE.  Surface temperatures of ice planets would have to be below 260 K (−13°C) if composed primarily of water, below 180 K (−93°C) if primarily composed of CO2 and ammonia, and below 80 K (−193°C) if composed primarily of methane. {xref="https://en.wikipedia.org/wiki/Ice_planet"}
+subset: envoAstro
+synonym: "cryoplanet" EXACT []
+is_a: ENVO:01000800 ! planet
 
 [Term]
 id: ENVO:01001147
@@ -2338,6 +3031,135 @@ xref: http://purl.jp/bio/11/meo/MEO_0000871 {comment="Not currently live, may ne
 is_a: ENVO:01001002 ! animal-associated environment
 
 [Term]
+id: ENVO:01001191
+name: water surface
+def: "The surface layer of a volume of water." []
+synonym: "surface of a body of water" EXACT []
+synonym: "water body surface" EXACT []
+xref: EcoLexicon:surface_water
+xref: https://en.wikipedia.org/wiki/Surface_water
+xref: SWEETRealm:SurfaceWater
+is_a: ENVO:01000325 ! aquatic layer
+is_a: ENVO:01001310 ! liquid surface layer
+intersection_of: ENVO:01001310 ! liquid surface layer
+intersection_of: part_of ENVO:00002006 ! liquid water
+relationship: part_of ENVO:00002006 ! liquid water
+
+[Term]
+id: ENVO:01001192
+name: sediment surface
+def: "The surface layer of a mass of sediment." []
+synonym: "surface of a sedimentary mass" EXACT []
+synonym: "surface sediment" EXACT []
+is_a: ENVO:01001483 ! surface of an astronomical body
+intersection_of: ENVO:00010504 ! surface layer
+intersection_of: part_of ENVO:00002007 ! sediment
+relationship: part_of ENVO:00002007 ! sediment
+
+[Term]
+id: ENVO:01001199
+name: terrestrial environmental zone
+def: "An environmental zone which is bounded by material parts of a land mass or the atmosphere or space adjacent to it." []
+is_a: ENVO:01000408 ! environmental zone
+intersection_of: ENVO:01000408 ! environmental zone
+intersection_of: part_of ENVO:01000635 ! land
+relationship: part_of ENVO:00000446 ! terrestrial biome
+relationship: part_of ENVO:01000635 ! land
+
+[Term]
+id: ENVO:01001201
+name: marine environmental zone
+def: "An environmental zone which is bounded by material parts of a marine environment." []
+comment: This class will eventually be populated by inference alone, with its subclasses distributed in more process-linked hierarchies to improve semantic density.
+is_a: ENVO:01000408 ! environmental zone
+intersection_of: ENVO:01000408 ! environmental zone
+intersection_of: part_of ENVO:01000320 ! marine environment
+relationship: part_of ENVO:01000320 ! marine environment
+
+[Term]
+id: ENVO:01001209
+name: wetland ecosystem
+def: "A terrestrial ecosystem which is inundated or saturated by surface or ground water at a frequency and duration sufficient to support, and that under normal circumstances does support, a prevalence of vegetation typically adapted for life in saturated soil conditions." [https://en.wikipedia.org/wiki/Wetland]
+synonym: "back marsh" NARROW [USGS:SDTS]
+synonym: "backswamp" NARROW [USGS:SDTS]
+synonym: "backwater" NARROW [ADL:FTT]
+synonym: "barrier flat" NARROW [USGS:SDTS]
+synonym: "blanket bog" NARROW [USGS:SDTS]
+synonym: "bog" NARROW [ADL:FTT]
+synonym: "bog" NARROW [Getty:TGN]
+synonym: "cienaga" NARROW [ADL:FTT]
+synonym: "dismal" NARROW [USGS:SDTS]
+synonym: "EstuarineWetland" NARROW [NASA:earthrealm]
+synonym: "everglade" NARROW [USGS:SDTS]
+synonym: "floating marsh" NARROW [USGS:SDTS]
+synonym: "forested wetland" NARROW [ADL:FTT]
+synonym: "LacustrineWetland" NARROW [NASA:earthrealm]
+synonym: "MarineWetland" NARROW [NASA:earthrealm]
+synonym: "marsh" NARROW [ADL:FTT]
+synonym: "mire" NARROW [USGS:SDTS]
+synonym: "mire" NARROW [ADL:FTT]
+synonym: "moor" RELATED [USGS:SDTS]
+synonym: "morass" RELATED [USGS:SDTS]
+synonym: "mud flat" NARROW [ADL:FTT]
+synonym: "muskeg" RELATED [USGS:SDTS]
+synonym: "PalustrineWetland" NARROW [NASA:earthrealm]
+synonym: "peat cutting area" NARROW [ADL:FTT]
+synonym: "peatland" NARROW [ADL:FTT]
+synonym: "quagmire" NARROW [ADL:FTT]
+synonym: "quagmire" NARROW [USGS:SDTS]
+synonym: "quaking bog" NARROW [USGS:SDTS]
+synonym: "riparian area" NARROW [ADL:FTT]
+synonym: "RiparianWetland" NARROW [NASA:earthrealm]
+synonym: "slash" NARROW [USGS:SDTS]
+synonym: "slough" NARROW [ADL:FTT]
+synonym: "slough" NARROW [USGS:SDTS]
+synonym: "slough" NARROW [Getty:TGN]
+synonym: "slue" NARROW [ADL:FTT]
+synonym: "swamp forest" NARROW [USGS:SDTS]
+synonym: "TerrestialWetland" NARROW [NASA:earthrealm]
+synonym: "tulelands" NARROW [USGS:SDTS]
+synonym: "WETLAND" EXACT [USGS:SDTS]
+synonym: "Wetland" EXACT [NASA:earthrealm]
+xref: EcoLexicon:wetland
+xref: FTT:1001
+xref: FTT:1060
+xref: FTT:1061
+xref: FTT:1118
+xref: FTT:1180
+xref: FTT:1190
+xref: FTT:1206
+xref: FTT:1207
+xref: FTT:1226
+xref: FTT:184
+xref: FTT:185
+xref: FTT:228
+xref: FTT:281
+xref: FTT:480
+xref: FTT:716
+xref: FTT:883
+xref: FTT:934
+xref: FTT:945
+xref: FTT:983
+xref: Geonames:H.WTLD
+xref: https://en.wikipedia.org/wiki/Wetland
+xref: LTER:630
+xref: SPIRE:Bog
+xref: SWEETRealm:Wetland
+xref: TGN:21301
+xref: TGN:21304
+xref: TGN:21305
+is_a: ENVO:01001110 ! ecosystem
+
+[Term]
+id: ENVO:01001226
+name: terrestrial natural environment
+def: "A natural environment which is located on a land mass." []
+is_a: ENVO:01000951 ! natural environment
+intersection_of: ENVO:01000951 ! natural environment
+intersection_of: part_of ENVO:01000635 ! land
+relationship: part_of ENVO:01000635 ! land
+
+[Term]
 id: ENVO:01001227
 name: aquatic natural environment
 def: "A natural environment which is within a water body." []
@@ -2351,18 +3173,18 @@ id: ENVO:01001273
 name: liquid layer
 def: "A layer which is primarily composed of some liquid material." []
 is_a: ENVO:01000281 ! layer
+is_a: ENVO:01001477 ! liquid astronomical body part
 intersection_of: ENVO:01000281 ! layer
 intersection_of: RO:0002473 ENVO:01000815 ! composed primarily of liquid environmental material
-relationship: RO:0002473 ENVO:01000815 ! composed primarily of liquid environmental material
 
 [Term]
 id: ENVO:01001275
 name: solid layer
 def: "A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid." []
+is_a: ENVO:00000191 ! solid astronomical body part
 is_a: ENVO:01000281 ! layer
 intersection_of: ENVO:01000281 ! layer
 intersection_of: RO:0002473 ENVO:01000814 ! composed primarily of solid environmental material
-relationship: RO:0002473 ENVO:01000814 ! composed primarily of solid environmental material
 
 [Term]
 id: ENVO:01001276
@@ -2376,18 +3198,63 @@ intersection_of: RO:0002473 ENVO:01000277 ! composed primarily of water ice
 relationship: RO:0002473 ENVO:01000277 ! composed primarily of water ice
 
 [Term]
+id: ENVO:01001299
+name: atmospheric zone
+def: "An environmental zone which is part of an atmosphere." []
+synonym: "atmospheric area" EXACT []
+is_a: ENVO:01000408 ! environmental zone
+intersection_of: ENVO:01000408 ! environmental zone
+intersection_of: part_of ENVO:01000267 ! atmosphere
+relationship: part_of ENVO:01000267 ! atmosphere
+
+[Term]
+id: ENVO:01001305
+name: vegetated area
+def: "A vegetated area is a geographic feature which has ground cover dominated by plant communities." []
+subset: envoPolar
+is_a: ENVO:01001199 ! terrestrial environmental zone
+created_by: ORCID:0000-0002-4366-3088
+
+[Term]
 id: ENVO:01001308
 name: hydroform
 def: "A geographic feature which is primarily composed of a continuous volume of liquid water held in shape or sustained by an environmental process." []
 comment: Similar, in spirit, to landform.
-is_a: ENVO:01000813 ! astronomical body part
-intersection_of: ENVO:01000813 ! astronomical body part
+is_a: ENVO:01001477 ! liquid astronomical body part
+intersection_of: ENVO:01001477 ! liquid astronomical body part
 intersection_of: part_of ENVO:00000063 ! water body
-intersection_of: RO:0002473 ENVO:00002006 ! composed primarily of water
+intersection_of: RO:0002473 ENVO:00002006 ! composed primarily of liquid water
 relationship: BFO:0000067 ENVO:01000982 ! contains process water flow process
 relationship: part_of ENVO:00000063 ! water body
-relationship: RO:0002473 ENVO:00002006 ! composed primarily of water
+relationship: RO:0002473 ENVO:00002006 ! composed primarily of liquid water
 property_value: IAO:0000116 "Should create links to envrionmental process with new relation like \"sustained_by\"" xsd:string {created_by="ORCID:0000-0002-4366-3088"}
+
+[Term]
+id: ENVO:01001309
+name: liquid air-water interface layer
+def: "A liquid surface layer which is in contact with air." []
+is_a: ENVO:01001310 ! liquid surface layer
+intersection_of: ENVO:01001310 ! liquid surface layer
+intersection_of: RO:0002220 ENVO:00002005 ! adjacent to air
+relationship: RO:0002220 ENVO:00002005 ! adjacent to air
+
+[Term]
+id: ENVO:01001310
+name: liquid surface layer
+def: "A liquid surface layer which is in contact with air." []
+is_a: ENVO:01001273 ! liquid layer
+is_a: ENVO:01001483 ! surface of an astronomical body
+intersection_of: ENVO:00010504 ! surface layer
+intersection_of: RO:0002473 ENVO:01000815 ! composed primarily of liquid environmental material
+
+[Term]
+id: ENVO:01001311
+name: solid surface layer
+def: "A surface layer which is composed primarily of solid environmental material." []
+is_a: ENVO:01001275 ! solid layer
+is_a: ENVO:01001483 ! surface of an astronomical body
+intersection_of: ENVO:00010504 ! surface layer
+intersection_of: RO:0002473 ENVO:01000814 ! composed primarily of solid environmental material
 
 [Term]
 id: ENVO:01001319
@@ -2403,7 +3270,7 @@ relationship: RO:0002473 ENVO:00002010 ! composed primarily of saline water
 [Term]
 id: ENVO:01001334
 name: advective transport process
-def: "A material transport process during which a volume of material is displaced due to a disequilirium in physical forces and during which 1) the qualities that inhere in that volume and 2) the processes that are unfolding within it are largely unchanged." [https://en.wikipedia.org/wiki/Advection, https://en.wikipedia.org/wiki/Intensive_and_extensive_properties]
+def: "A material transport process during which a volume of material is displaced due to a disequilibrium in physical forces and during which 1) the qualities that inhere in that volume and 2) the processes that are unfolding within it are largely unchanged." [https://en.wikipedia.org/wiki/Advection, https://en.wikipedia.org/wiki/Intensive_and_extensive_properties]
 comment: Advective processes are disjoint from diffusive processes. Typically, fluids are advected.
 synonym: "advective transport" EXACT []
 is_a: ENVO:03000010 ! material transport process
@@ -2429,6 +3296,137 @@ synonym: "precipitation quantity" RELATED []
 is_a: PATO:0000918 ! volume
 
 [Term]
+id: ENVO:01001367
+name: primary aerosol formation process
+def: "A material transport process during which solid or liquid particles are directly introduced into a volume of gas." [https://en.wikipedia.org/wiki/Aerosol, https://en.wikipedia.org/wiki/Particulates]
+synonym: "primary aerosol formation" RELATED []
+is_a: ENVO:03000010 ! material transport process
+relationship: RO:0002234 ENVO:00010505 ! has output aerosol
+
+[Term]
+id: ENVO:01001434
+name: anthropogenic ecosystem conversion process
+def: "A process during which an ecosystem - natural or anthropised - is changed by the actions of humans." []
+is_a: ENVO:02500027 ! anthropogenic environmental process
+created_by: http://orcid.org/0000-0002-4366-3088
+
+[Term]
+id: ENVO:01001476
+name: body of liquid
+is_a: ENVO:01001477 ! liquid astronomical body part
+created_by: http://orcid.org/0000-0002-4366-3088
+
+[Term]
+id: ENVO:01001477
+name: liquid astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
+is_a: ENVO:01001479 ! fluid astronomical body part
+intersection_of: ENVO:01001479 ! fluid astronomical body part
+intersection_of: RO:0002473 ENVO:01000815 ! composed primarily of liquid environmental material
+relationship: RO:0002473 ENVO:01000815 ! composed primarily of liquid environmental material
+created_by: http://orcid.org/0000-0002-4366-3088
+
+[Term]
+id: ENVO:01001478
+name: gaseous astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
+is_a: ENVO:01001479 ! fluid astronomical body part
+intersection_of: ENVO:01001479 ! fluid astronomical body part
+intersection_of: RO:0002473 ENVO:01000797 ! composed primarily of gaseous environmental material
+relationship: RO:0002473 ENVO:01000797 ! composed primarily of gaseous environmental material
+created_by: http://orcid.org/0000-0002-4366-3088
+
+[Term]
+id: ENVO:01001479
+name: fluid astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous volume of liquid or gaseous material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
+is_a: ENVO:01000813 ! astronomical body part
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2018-10-04T13:59:22Z
+
+[Term]
+id: ENVO:01001483
+name: surface of an astronomical body
+def: "A surface layer where the solid or liquid material of an astronomical body comes into contact with an atmosphere or outer space." []
+comment: a useful class: this can be used to define sub-terrestrial and sub-marine entities
+is_a: ENVO:00010504 ! surface layer
+is_a: ENVO:01000281 ! layer
+intersection_of: ENVO:00010504 ! surface layer
+intersection_of: part_of ENVO:01000799 ! astronomical body
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2018-10-04T16:55:57Z
+
+[Term]
+id: ENVO:01001510
+name: material congelation process
+def: "A material transformation process during which a material's viscosity increase either through a reduction in temperature or through chemical reactions." [https://en.wikipedia.org/wiki/Congelation]
+comment: Sometimes the increase in viscosity is great enough to crystallize or solidify the substance in question. {xref="https://en.wikipedia.org/wiki/Congelation"}
+synonym: "congelation" EXACT []
+synonym: "congelation process" EXACT []
+is_a: ENVO:03000043 ! material transformation process
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2019-01-14T18:47:32Z
+
+[Term]
+id: ENVO:01001524
+name: frozen land
+def: "Land which is below the freezing point of water." [https://orcid.org/0000-0003-4808-4736]
+comment: Perennially and seasonally frozen ground can vary from being partially to extensively frozen depending on the extent of the phase change. It may be described as hard frozen ground, plastic frozen ground, or dry frozen ground, depending on the pore ice and unfrozen water contents and its compressibility under load. {xref="https://orcid.org/0000-0003-4808-4736"}
+synonym: "frozen ground" EXACT []
+xref: http://sweetontology.net/realmCryo/FrozenGround
+is_a: ENVO:01000635 ! land
+intersection_of: ENVO:01000635 ! land
+intersection_of: RO:0000086 PATO:0001985 ! has quality frozen
+relationship: RO:0000086 PATO:0001985 ! has quality frozen
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2019-01-14T21:18:19Z
+
+[Term]
+id: ENVO:01001526
+name: frozen soil
+def: "Soil which is below the freezing point of water." []
+is_a: ENVO:00001998 ! soil
+is_a: ENVO:01001125 ! ice
+intersection_of: ENVO:00001998 ! soil
+intersection_of: RO:0000086 PATO:0001985 ! has quality frozen
+relationship: part_of ENVO:01001524 ! frozen land
+relationship: RO:0000086 PATO:0001985 ! has quality frozen
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2019-01-14T21:26:59Z
+
+[Term]
+id: ENVO:01001554
+name: surface layer of a water body
+def: "A water surface that is part of a water body." []
+is_a: ENVO:01001191 ! water surface
+is_a: ENVO:01001308 ! hydroform
+intersection_of: ENVO:01001191 ! water surface
+intersection_of: part_of ENVO:00000063 ! water body
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2019-02-27T21:22:13Z
+
+[Term]
+id: ENVO:01001570
+name: terrestrial ecoregion
+def: "An ecoregion which is located on a landmass." []
+xref: https://www.worldwildlife.org/biome-categories/terrestrial-ecoregions
+is_a: ENVO:01000276 ! ecoregion
+relationship: RO:0002220 ENVO:01000635 ! adjacent to land
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2019-03-05T17:40:44Z
+
+[Term]
+id: ENVO:01001581
+name: sea surface layer
+def: "A surface layer of a water body which is part of an ocean or sea." []
+comment: At this level, the depth of this layer is ambiguous. Some methods (telemetry) measure only the first few centimeters of the sea or ocean surface. In situ methods often sample the first few meters. Subclasses can be created for such cases.
+subset: envoMarine
+is_a: ENVO:01000295 ! marine layer
+is_a: ENVO:01001554 ! surface layer of a water body
+created_by: http://orcid.org/0000-0002-4366-3088
+creation_date: 2019-03-06T01:22:01Z
+
+[Term]
 id: ENVO:02500000
 name: environmental system process
 def: "A process in which includes the components of an environmental system as participants." []
@@ -2444,18 +3442,18 @@ is_a: ENVO:02500000 ! environmental system process
 intersection_of: ENVO:02500000 ! environmental system process
 intersection_of: BFO:0000066 ENVO:01000267 ! occurs in atmosphere
 relationship: BFO:0000066 ENVO:01000267 ! occurs in atmosphere
-relationship: RO:0000057 ENVO:01000267 ! has participant atmosphere
 
 [Term]
 id: ENVO:02500026
 name: anthropogenic modulatory intervention process
 def: "A process during which humans apply technology to alter the magnitude, duration, rate, or impact of an environmental process." []
 comment: Relabel the obo foundry unique label to be generic process
-is_a: ENVO:02500027 ! anthropogenic environmental process
-intersection_of: ENVO:02500000 ! environmental system process
+is_a: OBI:0000011 ! planned process
+intersection_of: OBI:0000011 ! planned process
 intersection_of: RO:0002211 ENVO:02500000 ! regulates environmental system process
 intersection_of: RO:0002218 NCBITaxon:9606 ! has active participant Homo sapiens
 relationship: RO:0002211 ENVO:02500000 ! regulates environmental system process
+relationship: RO:0002218 NCBITaxon:9606 ! has active participant Homo sapiens
 
 [Term]
 id: ENVO:02500027
@@ -2481,6 +3479,16 @@ comment: This classes asserted subclasses will be moved away as it should be an 
 is_a: ENVO:02500000 ! environmental system process
 
 [Term]
+id: ENVO:03000009
+name: material accumulation process
+def: "A process during which the mass of one or more materials, present within a given site, increases." []
+comment: Experimental class for structural purposes not recommended for annotation. A material accumulation process ends a material transport process.
+subset: envoPolar
+is_a: ENVO:02500000 ! environmental system process
+property_value: IAO:0000117 http://orcid.org/0000-0002-3410-4655 xsd:string
+property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
+
+[Term]
 id: ENVO:03000010
 name: material transport process
 def: "A process during which material is displaced from its original location and transported either to a new location or back to the original location." []
@@ -2502,6 +3510,32 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-3410-4655 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
 [Term]
+id: ENVO:03000033
+name: marine sediment
+def: "Sediment which has been transported through the marine water column, settling on the seafloor." [https://en.wikipedia.org/wiki/Pelagic_sediment#_note-8]
+comment: Particles of marine sediment are primarily generated by 1) processes in terrestrial systems and transported to the marine realm by the action of rivers or aeolian processes (amongst other routes) , 2) marine organisms, 3) chemical processes in seawater, or 4) cosmogeneous input.
+subset: envoPolar
+synonym: "marine sediments" EXACT []
+is_a: ENVO:00002007 ! sediment
+relationship: RO:0002220 ENVO:00001999 ! adjacent to marine water body
+relationship: RO:0002353 ENVO:03000036 ! output of sedimentation in a water body
+property_value: IAO:0000117 http://orcid.org/0000-0002-3410-4655 xsd:string
+property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
+
+[Term]
+id: ENVO:03000036
+name: sedimentation in a water body
+def: "A material accumulation process during which solid particles are pulled through a water body by gravitation or centrifugal force and which ends when they settle on a solid surface." []
+subset: envoPolar
+is_a: ENVO:03000009 ! material accumulation process
+relationship: BFO:0000066 ENVO:00000063 ! occurs in water body
+relationship: has_part ENVO:01000875 ! precipitation process
+relationship: RO:0000057 ENVO:01000060 ! has participant particulate matter
+relationship: RO:0002229 ENVO:03000010 ! ends material transport process
+property_value: IAO:0000117 http://orcid.org/0000-0002-3410-4655 xsd:string
+property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
+
+[Term]
 id: ENVO:03000043
 name: material transformation process
 def: "A process during which a portion of some environmental material is converted into a different material or a collection of materials." []
@@ -2519,7 +3553,7 @@ id: ENVO:03000110
 name: cryoform
 def: "A geographic feature which is primarily composed of a continuous mass of snow and/or ice." []
 subset: envoPolar
-is_a: ENVO:01000813 ! astronomical body part
+is_a: ENVO:00000191 ! solid astronomical body part
 property_value: IAO:0000116 "Place holder class. Also the axiom should be changed to something along the lines of 'primairly composed of’ some ‘environmental material’ and ‘has quality’ frozen once PATO:frozen is imported." xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-3410-4655 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -2587,6 +3621,20 @@ intersection_of: RO:0000052 ENVO:00001998 ! inheres in soil
 relationship: RO:0000052 ENVO:00001998 ! inheres in soil
 
 [Term]
+id: ENVO:09200006
+name: concentration of ammonium in soil
+def: "The concentration of a ammonium when measured in soil." []
+synonym: "soil ammonium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:09200007
+name: concentration of nitrate in soil
+def: "The concentration of a nitrate when measured in soil." []
+synonym: "soil nitrate concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
 id: ENVO:09200008
 name: composition of soil
 def: "The composition of some soil." []
@@ -2637,19 +3685,59 @@ intersection_of: RO:0000052 ENVO:00001998 ! inheres in soil
 relationship: RO:0000052 ENVO:00001998 ! inheres in soil
 
 [Term]
+id: ENVO:09200013
+name: wetness of soil
+def: "The wetness of some soil." []
+synonym: "soil wetness" EXACT []
+is_a: PATO:0001822 ! wetness
+intersection_of: PATO:0001822 ! wetness
+intersection_of: RO:0000052 ENVO:00001998 ! inheres in soil
+relationship: RO:0000052 ENVO:00001998 ! inheres in soil
+
+[Term]
 id: ENVO:09200014
 name: temperature of water
 def: "The temperature of some water." []
 synonym: "water temperature" EXACT []
 is_a: ENVO:09200000 ! temperature of environmental material
 intersection_of: PATO:0000146 ! temperature
-intersection_of: RO:0000052 ENVO:00002006 ! inheres in water
-relationship: RO:0000052 ENVO:00002006 ! inheres in water
+intersection_of: RO:0000052 ENVO:00002006 ! inheres in liquid water
+relationship: RO:0000052 ENVO:00002006 ! inheres in liquid water
+
+[Term]
+id: ENVO:09200016
+name: conductivity of soil
+def: "The conductivity of some soil." []
+synonym: "soil conductivity" EXACT []
+is_a: PATO:0001757 ! electrical conductivity
+intersection_of: PATO:0001757 ! electrical conductivity
+intersection_of: RO:0000052 ENVO:00001998 ! inheres in soil
+relationship: RO:0000052 ENVO:00001998 ! inheres in soil
+
+[Term]
+id: ENVO:09200017
+name: composition of water
+def: "The composition of some water." []
+synonym: "water composition" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: RO:0000052 ENVO:00002006 ! inheres in liquid water
+relationship: RO:0000052 ENVO:00002006 ! inheres in liquid water
+
+[Term]
+id: ENVO:09200018
+name: conductivity of water
+def: "The conductivity of some water." []
+synonym: "water conductivity" EXACT []
+is_a: PATO:0001757 ! electrical conductivity
+intersection_of: PATO:0001757 ! electrical conductivity
+intersection_of: RO:0000052 ENVO:00002006 ! inheres in liquid water
+relationship: RO:0000052 ENVO:00002006 ! inheres in liquid water
 
 [Term]
 id: ENVO:09200021
 name: concentration of oxygen in water
-def: "The concentration of oxygen when measured in water." [http://orcid.org/0000-0002-7733-0193, https://github.com/EnvironmentOntology/envo/issues/553]
+def: "The concentration of a oxygen when measured in water." []
 synonym: "water oxygen concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
@@ -2659,9 +3747,98 @@ name: anatomical entity environment
 def: "An environment which is determined by an anatomical entity." []
 is_a: ENVO:01000254 ! environmental system
 intersection_of: ENVO:01000254 ! environmental system
-intersection_of: ENVO:2100007 UBERON:0001062 ! determined by part of anatomical entity
-relationship: ENVO:2100007 UBERON:0001062 ! determined by part of anatomical entity
+intersection_of: RO:0002509 UBERON:0001062 ! determined by part of anatomical entity
 relationship: part_of ENVO:01001000 ! environmental system determined by an organism
+relationship: RO:0002509 UBERON:0001062 ! determined by part of anatomical entity
+
+[Term]
+id: ENVO:3100004
+name: concentration of ammonium in water
+def: "The concentration of ammonium when measured in water." []
+synonym: "water ammonium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100011
+name: concentration of dioxygen in water
+def: "The concentration of dioxygen when measured in water." []
+synonym: "water dioxygen concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100022
+name: concentration of nitrate in water
+def: "The concentration of nitrate when measured in water." []
+synonym: "water nitrate concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100023
+name: concentration of nitrite in water
+def: "The concentration of nitrite when measured in water." []
+synonym: "water nitrite concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100026
+name: concentration of phosphate in water
+def: "The concentration of phosphate when measured in water." []
+synonym: "water phosphate concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100027
+name: concentration of silicate(4-) in water
+def: "The concentration of silicate(4-) when measured in water." []
+synonym: "water silicate(4-) concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100030
+name: acidity of water
+def: "The acidity of some water." []
+synonym: "water acidity" EXACT []
+is_a: PATO:0001842 ! acidity
+intersection_of: PATO:0001842 ! acidity
+intersection_of: RO:0000052 ENVO:00002006 ! inheres in liquid water
+relationship: RO:0000052 ENVO:00002006 ! inheres in liquid water
+
+[Term]
+id: ENVO:3100031
+name: depth of water
+def: "The depth of some water." []
+synonym: "water depth" EXACT []
+is_a: PATO:0001595 ! depth
+intersection_of: PATO:0001595 ! depth
+intersection_of: RO:0000052 ENVO:00002006 ! inheres in liquid water
+relationship: RO:0000052 ENVO:00002006 ! inheres in liquid water
+
+[Term]
+id: ENVO:3100032
+name: fluorescence of water
+def: "The fluorescence of some water." []
+synonym: "water fluorescence" EXACT []
+is_a: PATO:0000018 ! fluorescence
+intersection_of: PATO:0000018 ! fluorescence
+intersection_of: RO:0000052 ENVO:00002006 ! inheres in liquid water
+relationship: RO:0000052 ENVO:00002006 ! inheres in liquid water
+
+[Term]
+id: ENVO:3100033
+name: pressure of water
+def: "The pressure of some water." []
+synonym: "water pressure" EXACT []
+is_a: PATO:0001025 ! pressure
+intersection_of: PATO:0001025 ! pressure
+intersection_of: RO:0000052 ENVO:00002006 ! inheres in liquid water
+relationship: RO:0000052 ENVO:00002006 ! inheres in liquid water
+
+[Term]
+id: ENVO:3100034
+name: concentration of silicic acid in water
+def: "The concentration of silicic acid when measured in water." []
+synonym: "water silicic acid concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
 
 [Term]
 id: FOODON:00001002
@@ -3323,7 +4500,9 @@ property_value: IAO:0000232 "The qualifier \"written\" is to set it apart from s
 [Term]
 id: NCBITaxon:1
 name: root
+namespace: ncbi_taxonomy
 synonym: "all" RELATED synonym []
+xref: GC_ID:1
 is_a: BFO:0000040 ! material entity
 
 [Term]
@@ -3356,7 +4535,9 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 [Term]
 id: NCBITaxon:131567
 name: cellular organisms
+namespace: ncbi_taxonomy
 synonym: "biota" RELATED synonym []
+xref: GC_ID:1
 is_a: NCBITaxon:1 ! root
 
 [Term]
@@ -3416,6 +4597,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 [Term]
 id: NCBITaxon:2759
 name: Eukaryota
+namespace: ncbi_taxonomy
 synonym: "Eucarya" RELATED synonym []
 synonym: "Eucaryotae" RELATED synonym []
 synonym: "eucaryotes" EXACT genbank_common_name []
@@ -3423,8 +4605,11 @@ synonym: "Eukarya" RELATED synonym []
 synonym: "Eukaryotae" RELATED synonym []
 synonym: "eukaryotes" EXACT common_name []
 synonym: "eukaryotes" RELATED blast_name []
+xref: GC_ID:1
+xref: PMID:23020233
 is_a: NCBITaxon:131567 ! cellular organisms
 is_a: OBI:0100026 ! organism
+property_value: has_rank NCBITaxon:superkingdom
 property_value: IAO:0000111 "Eukaryota" xsd:string
 property_value: IAO:0000118 "eucaryotes" xsd:string
 property_value: IAO:0000118 "eukaryotes" xsd:string
@@ -3480,8 +4665,10 @@ is_a: NCBITaxon:40674 ! Mammalia
 [Term]
 id: NCBITaxon:33154
 name: Opisthokonta
+namespace: ncbi_taxonomy
 synonym: "Fungi/Metazoa group" RELATED synonym []
 synonym: "opisthokonts" RELATED synonym []
+xref: GC_ID:1
 is_a: NCBITaxon:2759 ! Eukaryota
 property_value: IAO:0000111 "Opisthokonta" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
@@ -5830,6 +7017,16 @@ synonym: "concentration" EXACT []
 is_a: PATO:0002182 ! molecular quality
 
 [Term]
+id: PATO:0000040
+name: distance
+namespace: quality
+def: "A quality that is the extent of space between two entities." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0000044
 name: frequency
 namespace: quality
@@ -6008,6 +7205,34 @@ is_a: PATO:0001237
 is_a: PATO:0001995 ! organismal quality
 property_value: IAO:0000111 "behavioral quality" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
+
+[Term]
+id: PATO:0000374
+name: increased distance
+namespace: quality
+def: "A distance which is greater relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "long distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000375 ! decreased distance
+
+[Term]
+id: PATO:0000375
+name: decreased distance
+namespace: quality
+def: "A distance which is lesser relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "short distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000374 ! increased distance
 
 [Term]
 id: PATO:0000380
@@ -6371,6 +7596,25 @@ is_a: PATO:0000973 ! porosity
 relationship: is_opposite_of PATO:0000984 ! porous
 
 [Term]
+id: PATO:0000992
+name: viscosity
+namespace: quality
+def: "A physical quality of a liquid inhering in a bearer by virtue of the bearer's disposition to internal resistance to flow." [PATOC:GVG]
+subset: attribute_slim
+subset: disposition_slim
+is_a: PATO:0001548 ! quality of a liquid
+
+[Term]
+id: PATO:0000998
+name: viscous
+namespace: quality
+def: "A viscosity quality inhering in a bearer by virtue of the bearer's having viscosity." [PATOC:GVG]
+subset: disposition_slim
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000992 ! viscosity
+
+[Term]
 id: PATO:0001018
 name: physical quality
 namespace: quality
@@ -6523,6 +7767,16 @@ subset: hpo_slim
 synonym: "period" EXACT []
 synonym: "time" RELATED []
 is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0001332
+name: amorphous
+namespace: quality
+def: "A morphology quality inhering in a bearer by virtue of the bearer's lack of distinct morphology." [PATOC:GVG]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000051 ! morphology
 
 [Term]
 id: PATO:0001353
@@ -6702,6 +7956,17 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0001575 ! decreased pressure
 
 [Term]
+id: PATO:0001585
+name: conductivity
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to transmit of an entity through a medium." [PATOC:GVG]
+comment: Examples could be heat or electricity or sound.
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0001595
 name: depth
 namespace: quality
@@ -6798,6 +8063,34 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0001688 ! increased elevation
 
 [Term]
+id: PATO:0001693
+name: increased viscosity
+namespace: quality
+def: "A viscosity which relatively high." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "high viscosity" EXACT []
+is_a: PATO:0000998 ! viscous
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000998 ! viscous
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001694 ! decreased viscosity
+
+[Term]
+id: PATO:0001694
+name: decreased viscosity
+namespace: quality
+def: "A viscosity which relatively low." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "low viscosity" EXACT []
+is_a: PATO:0000998 ! viscous
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000998 ! viscous
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001693 ! increased viscosity
+
+[Term]
 id: PATO:0001708
 name: 1-D extent
 namespace: quality
@@ -6824,6 +8117,16 @@ subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
+id: PATO:0001757
+name: electrical conductivity
+namespace: quality
+def: "A conductivity quality inhering in a bearer by virtue of the bearer's ability to convey electricity." [Wikipedia:http\://en.wikipedia.org/wiki/Electrical_conduction]
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001585 ! conductivity
+
+[Term]
 id: PATO:0001759
 name: granular
 namespace: quality
@@ -6831,6 +8134,62 @@ def: "A composition quality inhering in a bearer by virtue of the bearer's conta
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0000025 ! composition
+
+[Term]
+id: PATO:0001822
+name: wetness
+namespace: quality
+def: "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid." [wordreference.com:wordreference.com]
+subset: attribute_slim
+subset: mpath_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001823
+name: wet
+namespace: quality
+def: "A wetness quality inhering in a bearer by virtue of the bearer's being covered by a liquid." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001822 ! wetness
+disjoint_from: PATO:0001824 ! dry
+relationship: is_opposite_of PATO:0001824 ! dry
+
+[Term]
+id: PATO:0001824
+name: dry
+namespace: quality
+def: "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001822 ! wetness
+relationship: is_opposite_of PATO:0001823 ! wet
+
+[Term]
+id: PATO:0001825
+name: increased wetness
+namespace: quality
+def: "A wetness quality that is relatively high." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0001823 ! wet
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0001823 ! wet
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001826 ! decreased wetness
+
+[Term]
+id: PATO:0001826
+name: decreased wetness
+namespace: quality
+def: "A wetness quality that is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "low wetness" EXACT []
+is_a: PATO:0001823 ! wet
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001823 ! wet
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001825 ! increased wetness
 
 [Term]
 id: PATO:0001842
@@ -7250,7 +8609,7 @@ is_a: OBI:0000832 ! measurement device
 [Term]
 id: PMO:00000011
 name: rosette sampling device
-is_a: OBI:0000832 ! measurement device
+is_a: PMO:00000074 ! specimen collection device
 
 [Term]
 id: PMO:00000012
@@ -7557,6 +8916,294 @@ is_a: PATO:0000117 ! size
 id: PMO:00000073
 name: number of locations sequenced within a DNA sequence
 is_a: IAO:0000109 ! measurement datum
+
+[Term]
+id: PMO:00000074
+name: specimen collection device
+def: "A device which is used to collect a specimen during a specimen collection process." []
+is_a: OBI:0000968 ! device
+
+[Term]
+id: PMO:00000075
+name: comment on investigation
+is_a: IAO:0000300 ! textual entity
+property_value: IAO:0000116 "Reimport the OBI term after the axiom has been fixed, as it's currently failing when run with the ELK reasoner." xsd:string
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/OBI_0001898 xsd:string
+
+[Term]
+id: PMO:00000076
+name: latitude coordinate measurement datum start
+is_a: OBI:0001620 ! latitude coordinate measurement datum
+
+[Term]
+id: PMO:00000077
+name: longitude coordinate measurement datum start
+is_a: OBI:0001621 ! longitude coordinate measurement datum
+
+[Term]
+id: PMO:00000078
+name: longitude coordinate measurement datum stop
+is_a: OBI:0001621 ! longitude coordinate measurement datum
+
+[Term]
+id: PMO:00000079
+name: latitude coordinate measurement datum stop
+is_a: OBI:0001620 ! latitude coordinate measurement datum
+
+[Term]
+id: PMO:00000080
+name: time zone
+is_a: IAO:0000416 ! time measurement datum
+property_value: IAO:0000116 "e.g. UTC+00 from OSD" xsd:string
+
+[Term]
+id: PMO:00000081
+name: specimen collection time measurement datum in localized time zone
+is_a: OBI:0001619 ! specimen collection time measurement datum
+
+[Term]
+id: PMO:00000083
+name: distance between site and country border
+def: "A distance which seperates a site from the nearest boarder of a country." []
+is_a: PATO:0000040 ! distance
+
+[Term]
+id: PMO:00000084
+name: geographic region
+is_a: BFO:0000009 ! two-dimensional spatial region
+property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there?" xsd:string
+
+[Term]
+id: PMO:00000085
+name: biogeochemical province
+synonym: "Longhurst Province" EXACT []
+is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22538 xsd:string
+
+[Term]
+id: PMO:00000086
+name: biogeochemical province label
+is_a: IAO:0000009 ! datum label
+property_value: IAO:0000116 "link to biogeochemical province" xsd:string
+
+[Term]
+id: PMO:00000087
+name: distance between site and biogeochemical province
+is_a: PATO:0000040 ! distance
+
+[Term]
+id: PMO:00000088
+name: geographic location
+property_value: IAO:0000116 "perhaps this could be subclass to 'two-dimensional spatial region' http://purl.obolibrary.org/obo/BFO_0000009" xsd:string
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000448 xsd:string
+
+[Term]
+id: PMO:00000089
+name: Oceans and Seas
+is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000590 xsd:string
+
+[Term]
+id: PMO:00000090
+name: distance between a site and a geographic location
+is_a: PATO:0000040 ! distance
+property_value: IAO:0000116 "add link to http://purl.obolibrary.org/obo/GAZ_00000448" xsd:string
+
+[Term]
+id: PMO:00000091
+name: Large Marine Ecosystem
+is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "Perhaps in the future we could map or at least create GAZ classes for the top levels the Marineregions.org gazetteer." xsd:string
+property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22539 xsd:string
+
+[Term]
+id: PMO:00000092
+name: International Hydrographic Organization Sea Area
+is_a: PMO:00000088 ! geographic location
+
+[Term]
+id: PMO:00000093
+name: specimen collection process data doccument
+is_a: IAO:0000310 ! document
+property_value: IAO:0000116 "Original sampling handbook or checklist from a sampling experiment or specimen collection process." xsd:string
+
+[Term]
+id: PMO:00000100
+name: plankton aggregate
+is_a: PCO:0000029 ! multi-species collection of organisms
+
+[Term]
+id: PMO:00000101
+name: nanoplankton and microplankton aggregate
+is_a: PMO:00000100 ! plankton aggregate
+property_value: IAO:0000116 "add axioms to link to http://purl.obolibrary.org/obo/PMO_00000106 and http://purl.obolibrary.org/obo/PMO_00000105" xsd:string
+
+[Term]
+id: PMO:00000102
+name: dissolved organic carbon
+def: "An aggregate of carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+is_a: PMO:00000109 ! aggregation of carbon molecules
+
+[Term]
+id: PMO:00000103
+name: particulate organic carbon
+def: "An aggregate of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+synonym: "suspended organic carbon" EXACT []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+
+[Term]
+id: PMO:00000105
+name: microplankton material
+is_a: ENVO:01000063 ! planktonic material
+property_value: IAO:0000116 "20 to 200 micrometers" xsd:string
+
+[Term]
+id: PMO:00000106
+name: nanophytoplankton material
+is_a: ENVO:01000063 ! planktonic material
+property_value: IAO:0000116 "2 to 20 micrometers" xsd:string
+property_value: IAO:0000119 https://en.wikipedia.org/wiki/Plankton#Size_groups xsd:string
+
+[Term]
+id: PMO:00000107
+name: autotrophic biomass formation process
+def: "A process during which an organism produces biomass from abiotic components using an autotrophic growth process." []
+synonym: "primary productivity" BROAD []
+is_a: PMO:00000117 ! biomass formation process
+property_value: IAO:0000116 "link to" xsd:string
+
+[Term]
+id: PMO:00000108
+name: primary productivity carbon
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000107" xsd:string
+
+[Term]
+id: PMO:00000109
+name: aggregation of carbon molecules
+is_a: BFO:0000027 ! object aggregate
+
+[Term]
+id: PMO:00000110
+name: aggregation of nitrogen molecules
+is_a: BFO:0000027 ! object aggregate
+
+[Term]
+id: PMO:00000111
+name: dissolved organic nitrogen
+def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/dissolved-organic-nitrogen]
+is_a: PMO:00000110 ! aggregation of nitrogen molecules
+
+[Term]
+id: PMO:00000112
+name: particulate organic nitrogen
+def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen]
+is_a: PMO:00000110 ! aggregation of nitrogen molecules
+
+[Term]
+id: PMO:00000113
+name: mesoplankton material
+is_a: ENVO:01000063 ! planktonic material
+
+[Term]
+id: PMO:00000114
+name: mesoplankton and macroplankton aggregate
+is_a: PMO:00000100 ! plankton aggregate
+property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000115 and http://purl.obolibrary.org/obo/PMO_00000113" xsd:string
+
+[Term]
+id: PMO:00000115
+name: macroplankton material
+is_a: ENVO:01000063 ! planktonic material
+
+[Term]
+id: PMO:00000116
+name: prokaryote derived carbon
+def: "An aggregate of carbon-containing molecules which were derived from a prokaryotic biomass formation process." []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+
+[Term]
+id: PMO:00000117
+name: biomass formation process
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: PMO:00000118
+name: prokaryotic biomass formation process
+is_a: PMO:00000117 ! biomass formation process
+
+[Term]
+id: PMO:00000120
+name: turbidity
+def: "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer." [https://en.wikipedia.org/wiki/Turbidity]
+xref: https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PMO:00000121
+name: turbidity of water
+def: "A turbidity quality which inheres in a water bearer." []
+is_a: PMO:00000120 ! turbidity
+
+[Term]
+id: PMO:00000122
+name: Biosample identifier assigned by the National Center for Biotechnology Information
+is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
+property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646" xsd:string
+
+[Term]
+id: PMO:00000123
+name: secondary sample accession identifier assigned by the European Nucleotide Archive
+is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
+property_value: IAO:0000116 "example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668" xsd:string
+
+[Term]
+id: PMO:00000124
+name: INSDC bioarchive accession number
+is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
+property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission." xsd:string
+
+[Term]
+id: PMO:00000125
+name: material flux unit
+is_a: UO:0000000 ! unit
+property_value: IAO:0000116 "similar to the example from http://reverseosmosischemicals.com/reverse-osmosis-guides/reverse-osmosis-glossary-terms/flux-water-flux-reverse-osmosis-systems" xsd:string
+
+[Term]
+id: PMO:00000126
+name: micromole per square meter per second
+is_a: PMO:00000125 ! material flux unit
+
+[Term]
+id: PMO:00000127
+name: mass density rate unit
+def: "A mass density unit which proccedes over time." []
+is_a: UO:0000000 ! unit
+
+[Term]
+id: PMO:00000128
+name: miligram per cubic meter per day
+is_a: PMO:00000127 ! mass density rate unit
+
+[Term]
+id: PMO:00000129
+name: unit per cubic meter
+is_a: UO:0000177 ! unit per volume unit
+
+[Term]
+id: PMO:00000130
+name: milisiemens per centimeter
+is_a: UO:0000262 ! electrical conduction unit
+
+[Term]
+id: PMO:00000131
+name: formazin turbidity unit
+is_a: UO:0000315 ! turbidity unit
+
+[Term]
+id: PMO:00000132
+name: miligram per cubic meter
+is_a: UO:0000052 ! mass density unit
 
 [Term]
 id: PO:0000003
@@ -8431,6 +10078,15 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uo.owl
 created_by: george gkoutos
 
 [Term]
+id: UO:0000177
+name: unit per volume unit
+namespace: unit.ontology
+def: "A concentration unit which is a standard measure of the number of units, as an agreed arbitrary amount, of a given substance per a specific volume of solution." [Webmd:Webmd]
+subset: unit_group_slim
+is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000182
 name: density unit
 namespace: unit.ontology
@@ -8573,6 +10229,16 @@ relationship: is_unit_of PATO:0001464 ! electric potential
 created_by: george gkoutos
 
 [Term]
+id: UO:0000218
+name: volt
+namespace: unit.ontology
+def: "An electric potential difference unit which is equal to the work per unit charge. One volt is the potential difference required to move one coulomb of charge between two points in a circuit while using one joule of energy." [Wikipedia:Wikipedia]
+subset: unit_slim
+synonym: "V" EXACT []
+is_a: UO:0000217 ! electric potential difference unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000231
 name: information unit
 namespace: unit.ontology
@@ -8602,6 +10268,37 @@ is_a: UO:0000217 ! electric potential difference unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000261
+name: conduction unit
+namespace: unit.ontology
+def: "A unit which represents a standard measurement of the transmission of an entity through a medium." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000262
+name: electrical conduction unit
+namespace: unit.ontology
+def: "A unit which represents a standard measurement of the movement of electrically charged particles through a transmission medium (electrical conductor)." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000261 ! conduction unit
+relationship: is_unit_of PATO:0001757 ! electrical conductivity
+created_by: george gkoutos
+
+[Term]
+id: UO:0000264
+name: siemens
+namespace: unit.ontology
+def: "An electrical conduction unit which is equal to A/V." [NIST:NIST]
+subset: unit_slim
+synonym: "A V^-1" EXACT []
+synonym: "mho " RELATED []
+synonym: "S" RELATED []
+is_a: UO:0000262 ! electrical conduction unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000270
 name: volumetric flow rate unit
 namespace: unit.ontology
@@ -8626,6 +10323,18 @@ relationship: is_unit_of PATO:0001574 ! flow rate
 property_value: IAO:0000111 "microliters per minute" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/uo.owl
 created_by: george gkoutos
+
+[Term]
+id: UO:0000273
+name: milligram per liter
+namespace: unit.ontology
+def: "A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters." [UOC:GVG]
+subset: unit_slim
+synonym: "mg/L" EXACT []
+synonym: "milligram per litre" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: george
+creation_date: 2011-03-21T10:35:01Z
 
 [Term]
 id: UO:0000280
@@ -8701,6 +10410,15 @@ property_value: IAO:0000118 "ng/ml" xsd:string
 property_value: IAO:0000118 "ug/L" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/uo.owl
 created_by: george gkoutos
+
+[Term]
+id: UO:0000315
+name: turbidity unit
+namespace: unit.ontology
+def: "A unit used to indicate the clarity of water or other solutions or suspensions, as measured by the ability of the solution or suspension to scatter light of a defined wavelength range." [UO:PC]
+is_a: UO:0000000 ! unit
+created_by: gkoutos
+creation_date: 2013-03-12T12:20:13Z
 
 [Term]
 id: UO:0000330
@@ -8832,13 +10550,13 @@ property_value: IAO:0000112 "A duck swimming in a pond is partially surrounded b
 
 [Typedef]
 id: ENVO:2100001
-name: determined by
-is_a: ENVO:2100007 ! determined by part of
+name: obsolete determined by
+is_obsolete: true
 
 [Typedef]
 id: ENVO:2100007
-name: determined by part of
-holds_over_chain: ENVO:2100001 part_of
+name: obsolete determined by part of
+is_obsolete: true
 
 [Typedef]
 id: IAO:0000039
@@ -9176,6 +10894,57 @@ property_value: IAO:0000116 "This is a very general relation. More specific rela
 property_value: IAO:0000118 "derives_into" xsd:string
 
 [Typedef]
+id: RO:0001015
+name: location of
+def: "a relation between two independent continuants, the location and the target, in which the target is entirely within the location" []
+property_value: IAO:0000111 "is location of" xsd:string
+property_value: IAO:0000112 "my head is the location of my brain" xsd:string
+property_value: IAO:0000112 "this cage is the location of this rat" xsd:string
+property_value: IAO:0000116 "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000118 "location_of" xsd:string
+property_value: RO:0001900 RO:0001901
+is_transitive: true
+inverse_of: RO:0001025 ! located in
+
+[Typedef]
+id: RO:0001018
+name: contained in
+subset: ro-eco
+property_value: IAO:0000111 "contained in" xsd:string
+property_value: IAO:0000116 "Containment is location not involving parthood, and arises only where some immaterial continuant is involved." xsd:string
+property_value: IAO:0000116 "Containment obtains in each case between material and immaterial continuants, for instance: lung contained_in thoracic cavity; bladder contained_in pelvic cavity. Hence containment is not a transitive relation.    If c part_of c1 at t then we have also, by our definition and by the axioms of mereology applied to spatial regions, c located_in c1 at t. Thus, many examples of instance-level location relations for continuants are in fact cases of instance-level parthood. For material continuants location and parthood coincide. Containment is location not involving parthood, and arises only where some immaterial continuant is involved. To understand this relation, we first define overlap for continuants as follows:    c1 overlap c2 at t =def for some c, c part_of c1 at t and c part_of c2 at t. The containment relation on the instance level can then be defined (see definition):" xsd:string
+property_value: IAO:0000116 "Intended meaning:\ndomain: material entity\nrange: spatial region or site (immaterial continuant)\n        " xsd:string
+property_value: IAO:0000118 "contained_in" xsd:string
+property_value: RO:0001900 RO:0001901
+domain: BFO:0000040 ! material entity
+range: BFO:0000004 ! independent continuant
+holds_over_chain: RO:0001025 part_of
+inverse_of: RO:0001019 ! contains
+
+[Typedef]
+id: RO:0001019
+name: contains
+subset: ro-eco
+property_value: IAO:0000111 "contains" xsd:string
+property_value: RO:0001900 RO:0001901
+
+[Typedef]
+id: RO:0001025
+name: located in
+def: "a relation between two independent continuants, the target and the location, in which the target is entirely within the location" []
+property_value: http://purl.org/dc/elements/1.1/source http://www.obofoundry.org/ro/#OBO_REL:located_in xsd:string
+property_value: IAO:0000111 "located in" xsd:string
+property_value: IAO:0000112 "my brain is located in my head" xsd:string
+property_value: IAO:0000112 "this rat is located in this cage" xsd:string
+property_value: IAO:0000116 "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus" xsd:string
+property_value: IAO:0000116 "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000118 "located_in" xsd:string
+property_value: RO:0001900 RO:0001901
+domain: BFO:0000004 {http://purl.obolibrary.org/obo/IAO_0000116="This is redundant with the more specific 'independent and not spatial region' constraint. We leave in the redundant axiom for use with reasoners that do not use negation."} ! independent continuant
+range: BFO:0000004 {http://purl.obolibrary.org/obo/IAO_0000116="This is redundant with the more specific 'independent and not spatial region' constraint. We leave in the redundant axiom for use with reasoners that do not use negation."} ! independent continuant
+is_transitive: true
+
+[Typedef]
 id: RO:0002013
 name: has regulatory component activity
 def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
@@ -9270,11 +11039,21 @@ created_by: dos
 creation_date: 2017-09-22T14:14:36Z
 
 [Typedef]
+id: RO:0002084
+name: during which ends
+comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002122 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+is_a: RO:0002222 ! temporal relation
+inverse_of: RO:0002093 ! ends during
+
+[Typedef]
 id: RO:0002086
 name: ends after
 comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
 subset: ro-eco
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+holds_over_chain: RO:0002093 BFO:0000062
 is_transitive: true
 is_a: RO:0002222 ! temporal relation
 
@@ -9284,6 +11063,7 @@ name: immediately preceded by
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
+holds_over_chain: RO:0002224 RO:0002230
 is_a: BFO:0000062 ! preceded by
 inverse_of: RO:0002090 ! immediately precedes
 
@@ -9296,7 +11076,18 @@ property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
 property_value: RO:0002575 BFO:0000063
+holds_over_chain: RO:0002230 RO:0002224
 is_a: BFO:0000063 ! precedes
+
+[Typedef]
+id: RO:0002093
+name: ends during
+comment: X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). 
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "o" xsd:string
+property_value: IAO:0000118 "overlaps" xsd:string
+is_a: RO:0002222 ! temporal relation
 
 [Typedef]
 id: RO:0002131
@@ -9387,6 +11178,7 @@ property_value: IAO:0000589 "regulates (processual)" xsd:string
 property_value: IAO:0000600 "false" xsd:boolean
 domain: BFO:0000015 ! process
 range: BFO:0000015 ! process
+holds_over_chain: RO:0002230 RO:0002211
 holds_over_chain: RO:0002578 RO:0002578
 is_transitive: true
 is_a: RO:0002411 ! causally upstream of
@@ -9401,6 +11193,7 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "negatively regulates (process to process)" xsd:string
 property_value: RO:0004050 RO:0002211
+holds_over_chain: RO:0002230 RO:0002212
 is_transitive: true
 is_a: RO:0002211 ! regulates
 is_a: RO:0002305 ! causally upstream of, negative effect
@@ -9415,6 +11208,7 @@ property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relati
 property_value: IAO:0000589 "positively regulates (process to process)" xsd:string
 property_value: RO:0004049 RO:0002211
 holds_over_chain: RO:0002212 RO:0002212
+holds_over_chain: RO:0002230 RO:0002213
 is_transitive: true
 is_a: RO:0002211 ! regulates
 is_a: RO:0002304 ! causally upstream of, positive effect
@@ -9556,6 +11350,29 @@ is_a: has_part ! has part
 is_a: RO:0002222 ! temporal relation
 
 [Typedef]
+id: RO:0002229
+name: ends
+def: "inverse of ends with" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+is_a: part_of ! part_of
+is_a: RO:0002222 ! temporal relation
+inverse_of: RO:0002230 ! ends with
+
+[Typedef]
+id: RO:0002230
+name: ends with
+def: "x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "finished by" xsd:string
+is_transitive: true
+is_a: has_part ! has part
+is_a: RO:0002222 ! temporal relation
+
+[Typedef]
 id: RO:0002231
 name: has start location
 def: "x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y" []
@@ -9566,6 +11383,19 @@ property_value: IAO:0000118 "starts with process that occurs in" xsd:string
 domain: BFO:0000015 ! process
 range: BFO:0000004 ! independent continuant
 holds_over_chain: RO:0002224 BFO:0000066
+is_a: RO:0002479 ! has part that occurs in
+
+[Typedef]
+id: RO:0002232
+name: has end location
+def: "x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000118 "ends with process that occurs in" xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000004 ! independent continuant
+holds_over_chain: RO:0002230 BFO:0000066
 is_a: RO:0002479 ! has part that occurs in
 
 [Typedef]
@@ -9591,6 +11421,7 @@ subset: ro-eco
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000118 "produces" xsd:string
+holds_over_chain: RO:0002230 RO:0002234
 is_a: RO:0000057 ! has participant
 inverse_of: RO:0002353 ! output of
 
@@ -9872,6 +11703,15 @@ id: RO:0002354
 name: formed as result of
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002353 ! output of
+
+[Typedef]
+id: RO:0002379
+name: spatially coextensive with
+def: "x spatially_coextensive_with y if and inly if x and y have the same location" []
+property_value: IAO:0000112 "A lump of clay and a statue" xsd:string
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "This relation is added for formal completeness. It is unlikely to be used in many practical scenarios" xsd:string
+is_a: RO:0002131 ! overlaps
 
 [Typedef]
 id: RO:0002384

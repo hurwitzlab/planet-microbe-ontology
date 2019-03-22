@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/pmo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-03-14/pmo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/pmo-base.owl"/>
         <rdfs:comment>Planet Microbe Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -32,9 +32,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     
 
 
@@ -82,11 +100,38 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000082 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PMO_00000082">
+        <obo:IAO_0000116>From the Biological Collections Ontology, which references the tdwg purl. Figure out how to import the real term, either from BCO or tdwg.</obo:IAO_0000116>
+        <obo:IAO_0000118>http://rs.tdwg.org/dwc/terms/countryCode</obo:IAO_0000118>
+        <rdfs:label>Country Code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000009"/>
     
 
 
@@ -102,9 +147,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000063"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     
 
 
@@ -123,6 +186,24 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416"/>
     
 
 
@@ -174,9 +255,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001620"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001621"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001628 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001628"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001901"/>
     
 
 
@@ -195,6 +294,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000040"/>
     
 
 
@@ -228,6 +333,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001019"/>
@@ -249,6 +360,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001655"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000029"/>
     
 
 
@@ -337,7 +454,7 @@
     <!-- http://purl.obolibrary.org/obo/PMO_00000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000832"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000074"/>
         <rdfs:label>rosette sampling device</rdfs:label>
     </owl:Class>
     
@@ -941,6 +1058,525 @@ brought to a standard reference pressure.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PMO_00000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000115>A device which is used to collect a specimen during a specimen collection process.</obo:IAO_0000115>
+        <rdfs:label>specimen collection device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000116>Reimport the OBI term after the axiom has been fixed, as it&apos;s currently failing when run with the ELK reasoner.</obo:IAO_0000116>
+        <obo:IAO_0000118>http://purl.obolibrary.org/obo/OBI_0001898</obo:IAO_0000118>
+        <rdfs:label>comment on investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001620"/>
+        <rdfs:label>latitude coordinate measurement datum start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001621"/>
+        <rdfs:label>longitude coordinate measurement datum start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001621"/>
+        <rdfs:label>longitude coordinate measurement datum stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001620"/>
+        <rdfs:label>latitude coordinate measurement datum stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000116>e.g. UTC+00 from OSD</obo:IAO_0000116>
+        <rdfs:label>time zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <rdfs:label>specimen collection time measurement datum in localized time zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000040"/>
+        <obo:IAO_0000115>A distance which seperates a site from the nearest boarder of a country.</obo:IAO_0000115>
+        <rdfs:label>distance between site and country border</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000009"/>
+        <obo:IAO_0000116>Perhaps in the future the &apos;geographic location&apos; hierarchy from GAZ should be rooted there?</obo:IAO_0000116>
+        <rdfs:label>geographic region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000088"/>
+        <obo:IAO_0000118>http://marineregions.org/gazetteer.php?p=details&amp;id=22538</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>Longhurst Province</oboInOwl:hasExactSynonym>
+        <rdfs:label>biogeochemical province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
+        <obo:IAO_0000116>link to biogeochemical province</obo:IAO_0000116>
+        <rdfs:label>biogeochemical province label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000040"/>
+        <rdfs:label>distance between site and biogeochemical province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000088">
+        <obo:IAO_0000116>perhaps this could be subclass to &apos;two-dimensional spatial region&apos; http://purl.obolibrary.org/obo/BFO_0000009</obo:IAO_0000116>
+        <obo:IAO_0000118>http://purl.obolibrary.org/obo/GAZ_00000448</obo:IAO_0000118>
+        <rdfs:label>geographic location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000088"/>
+        <obo:IAO_0000118>http://purl.obolibrary.org/obo/GAZ_00000590</obo:IAO_0000118>
+        <rdfs:label>Oceans and Seas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000040"/>
+        <obo:IAO_0000116>add link to http://purl.obolibrary.org/obo/GAZ_00000448</obo:IAO_0000116>
+        <rdfs:label>distance between a site and a geographic location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000088"/>
+        <obo:IAO_0000116>Perhaps in the future we could map or at least create GAZ classes for the top levels the Marineregions.org gazetteer.</obo:IAO_0000116>
+        <obo:IAO_0000118>http://marineregions.org/gazetteer.php?p=details&amp;id=22539</obo:IAO_0000118>
+        <rdfs:label>Large Marine Ecosystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000088"/>
+        <rdfs:label>International Hydrographic Organization Sea Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000116>Original sampling handbook or checklist from a sampling experiment or specimen collection process.</obo:IAO_0000116>
+        <rdfs:label>specimen collection process data doccument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000029"/>
+        <rdfs:label>plankton aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000100"/>
+        <obo:IAO_0000116>add axioms to link to http://purl.obolibrary.org/obo/PMO_00000106 and http://purl.obolibrary.org/obo/PMO_00000105</obo:IAO_0000116>
+        <rdfs:label>nanoplankton and microplankton aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000109"/>
+        <obo:IAO_0000115>An aggregate of carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process.</obo:IAO_0000115>
+        <rdfs:label>dissolved organic carbon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_00000102"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An aggregate of carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Total_organic_carbon</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000109"/>
+        <obo:IAO_0000115>An aggregate of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>suspended organic carbon</oboInOwl:hasExactSynonym>
+        <rdfs:label>particulate organic carbon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_00000103"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An aggregate of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Total_organic_carbon</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000063"/>
+        <obo:IAO_0000116>20 to 200 micrometers</obo:IAO_0000116>
+        <rdfs:label>microplankton material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000063"/>
+        <obo:IAO_0000116>2 to 20 micrometers</obo:IAO_0000116>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Plankton#Size_groups</obo:IAO_0000119>
+        <rdfs:label>nanophytoplankton material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000117"/>
+        <obo:IAO_0000115>A process during which an organism produces biomass from abiotic components using an autotrophic growth process.</obo:IAO_0000115>
+        <obo:IAO_0000116>link to</obo:IAO_0000116>
+        <oboInOwl:hasBroadSynonym>primary productivity</oboInOwl:hasBroadSynonym>
+        <rdfs:label>autotrophic biomass formation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000109"/>
+        <obo:IAO_0000116>link to http://purl.obolibrary.org/obo/PMO_00000107</obo:IAO_0000116>
+        <rdfs:label>primary productivity carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:label>aggregation of carbon molecules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:label>aggregation of nitrogen molecules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000110"/>
+        <obo:IAO_0000115>An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process.</obo:IAO_0000115>
+        <rdfs:label>dissolved organic nitrogen</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_00000111"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.sciencedirect.com/topics/earth-and-planetary-sciences/dissolved-organic-nitrogen</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000110"/>
+        <obo:IAO_0000115>An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.</obo:IAO_0000115>
+        <rdfs:label>particulate organic nitrogen</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_00000112"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000063"/>
+        <rdfs:label>mesoplankton material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000100"/>
+        <obo:IAO_0000116>link to http://purl.obolibrary.org/obo/PMO_00000115 and http://purl.obolibrary.org/obo/PMO_00000113</obo:IAO_0000116>
+        <rdfs:label>mesoplankton and macroplankton aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000063"/>
+        <rdfs:label>macroplankton material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000109"/>
+        <obo:IAO_0000115>An aggregate of carbon-containing molecules which were derived from a prokaryotic biomass formation process.</obo:IAO_0000115>
+        <rdfs:label>prokaryote derived carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:label>biomass formation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000117"/>
+        <rdfs:label>prokaryotic biomass formation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf</oboInOwl:hasDbXref>
+        <rdfs:label>turbidity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_00000120"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Turbidity</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000120"/>
+        <obo:IAO_0000115>A turbidity quality which inheres in a water bearer.</obo:IAO_0000115>
+        <rdfs:label>turbidity of water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001901"/>
+        <obo:IAO_0000116>example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646</obo:IAO_0000116>
+        <rdfs:label>Biosample identifier assigned by the National Center for Biotechnology Information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001901"/>
+        <obo:IAO_0000116>example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668</obo:IAO_0000116>
+        <rdfs:label>secondary sample accession identifier assigned by the European Nucleotide Archive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001901"/>
+        <obo:IAO_0000116>Perhaps OSD accession numbers (which this represents) are for DDBJ
+see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission.</obo:IAO_0000116>
+        <rdfs:label>INSDC bioarchive accession number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <obo:IAO_0000116>similar to the example from http://reverseosmosischemicals.com/reverse-osmosis-guides/reverse-osmosis-glossary-terms/flux-water-flux-reverse-osmosis-systems</obo:IAO_0000116>
+        <rdfs:label>material flux unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000125"/>
+        <rdfs:label>micromole per square meter per second</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <obo:IAO_0000115>A mass density unit which proccedes over time.</obo:IAO_0000115>
+        <rdfs:label>mass density rate unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000127"/>
+        <rdfs:label>miligram per cubic meter per day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000177"/>
+        <rdfs:label>unit per cubic meter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
+        <rdfs:label>milisiemens per centimeter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000315"/>
+        <rdfs:label>formazin turbidity unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <rdfs:label>miligram per cubic meter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000000"/>
@@ -953,9 +1589,33 @@ brought to a standard reference pressure.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000052"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000177"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000262"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000315"/>
 </rdf:RDF>
 
 

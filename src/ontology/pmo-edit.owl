@@ -127,6 +127,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000126>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000127>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000130>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000131>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000132>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/PMO_00000082>))
 
 
@@ -778,6 +782,26 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000127> <http://purl.obolibrary
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000128> "miligram per cubic meter per day")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000128> <http://purl.obolibrary.org/obo/PMO_00000127>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000129> (unit per cubic meter)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000129> "unit per cubic meter")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000129> <http://purl.obolibrary.org/obo/UO_0000177>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000130> (milisiemens per centimeter)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000130> "milisiemens per centimeter")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000130> <http://purl.obolibrary.org/obo/UO_0000262>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000131> (formazin turbidity unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000131> "formazin turbidity unit")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000131> <http://purl.obolibrary.org/obo/UO_0000315>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000132> (miligram per cubic meter)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000132> "miligram per cubic meter")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000132> <http://purl.obolibrary.org/obo/UO_0000052>)
 
 
 )

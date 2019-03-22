@@ -19,51 +19,6 @@
       "type" : "CLASS",
       "lbl" : "ratio"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000270",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which is a standard measure of the volume of fluid which passes through a given surface per unit time .",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "volumetric flow rate unit"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000271",
-      "meta" : {
-        "definition" : {
-          "val" : "A volumetric flow rate unit which is equal to one microliter volume through a given surface in one minute.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "microlitres per minute",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "uL/min",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "microliters per minute"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000195",
       "meta" : {
         "definition" : {
@@ -90,29 +45,6 @@
       "type" : "CLASS",
       "lbl" : "degree Fahrenheit"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000031",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is equal to 60 seconds.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "min",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "minute"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000196",
       "meta" : {
         "definition" : {
@@ -131,29 +63,6 @@
       "type" : "CLASS",
       "lbl" : "pH"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000032",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is equal to 3600 seconds or 60 minutes.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "h",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "hour"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000231",
       "meta" : {
         "definition" : {
@@ -171,101 +80,6 @@
       },
       "type" : "CLASS",
       "lbl" : "information unit"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000033",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is equal to 24 hours.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "day"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000034",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is equal to 7 days.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "week"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000035",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is approximately equal to the length of time of one of cycle of the moon's phases which in science is taken to be equal to 30 days.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "month"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000036",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "year"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000027",
-      "meta" : {
-        "definition" : {
-          "val" : "A temperature unit which is equal to one kelvin degree. However, they have their zeros at different points. The centigrade scale has its zero at 273.15 K.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "C",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "degree Celsius"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000105",
       "meta" : {
@@ -330,49 +144,9 @@
       "type" : "CLASS",
       "lbl" : "pressure unit"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
-      "type" : "PROPERTY",
-      "lbl" : "in_subset"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "type" : "PROPERTY",
       "lbl" : "definition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0010003",
-      "meta" : {
-        "definition" : {
-          "val" : "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "Luke Slater"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "micromole per litre"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000280",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which represents a standard measurement occurrence of a process per unit time.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "rate unit"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000083",
       "meta" : {
@@ -400,223 +174,6 @@
       },
       "type" : "CLASS",
       "lbl" : "kilogram per cubic meter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000281",
-      "meta" : {
-        "definition" : {
-          "val" : "A rate unit which is equal to one over one nanomolar second.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "nM^-1 s^-1",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "count per nanomolar second"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000282",
-      "meta" : {
-        "definition" : {
-          "val" : "A rate unit which is equal to one over one molar second.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "M^-1 s^-1",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "count per molar second"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000041",
-      "meta" : {
-        "definition" : {
-          "val" : "A substance unit equal to one thousandth of one millionth of a mole or 10^[-9] mol.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "nmol",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "nanomole"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000163",
-      "meta" : {
-        "definition" : {
-          "val" : "A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "weight-weight percentage",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "w/w",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "mass percentage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000042",
-      "meta" : {
-        "definition" : {
-          "val" : "A substance unit equal to 10^[-12] mol.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "pmol",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "picomole"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000284",
-      "meta" : {
-        "definition" : {
-          "val" : "A rate unit which is equal to one over one nanomolar.",
-          "xrefs" : [ "UO:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "1/nM",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "nM^-1",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "count per nanomolar"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000164",
-      "meta" : {
-        "definition" : {
-          "val" : "A dimensionless concentration unit which denotes the mass of the substance in a mixture as a percentage of the volume of the entire mixture.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "weight-volume percentage",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "(w/v)",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "mass volume percentage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000285",
-      "meta" : {
-        "definition" : {
-          "val" : "A rate unit which is equal to one over one molar.",
-          "xrefs" : [ "UO:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "M^-1",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "1/M",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "count per molar"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000165",
-      "meta" : {
-        "definition" : {
-          "val" : "A dimensionless concentration unit which denotes the volume of the solute in mL per 100 mL of the resulting solution.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "% (v/v)",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "volume percentage"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000121",
       "meta" : {
@@ -689,24 +246,6 @@
       "type" : "CLASS",
       "lbl" : "length unit"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000045",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which is one of a particular measure to which all measures of that type can be related.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "base unit"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000002",
       "meta" : {
         "definition" : {
@@ -774,29 +313,6 @@
       "type" : "CLASS",
       "lbl" : "time unit"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000039",
-      "meta" : {
-        "definition" : {
-          "val" : "A substance unit equal to a millionth of a mol or 10^[-6] mol.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "umol",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "micromole"
-    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "type" : "PROPERTY",
       "lbl" : "has_related_synonym"
@@ -804,28 +320,6 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
       "type" : "PROPERTY",
       "lbl" : "has_narrow_synonym"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
-      "type" : "PROPERTY",
-      "lbl" : "has_exact_synonym"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000095",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "volume unit"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000051",
       "meta" : {
@@ -844,10 +338,6 @@
       },
       "type" : "CLASS",
       "lbl" : "concentration unit"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-      "type" : "PROPERTY",
-      "lbl" : "database_cross_reference"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000052",
       "meta" : {
@@ -871,37 +361,6 @@
       },
       "type" : "CLASS",
       "lbl" : "mass density unit"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000097",
-      "meta" : {
-        "definition" : {
-          "val" : "A volume unit which is equal to one millionth of a cubic meter or 10^[-9] m^[3], or to 1 ml.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "cubic centimetre",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "cm^3",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "cc",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "cubic centimeter"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000175",
       "meta" : {
@@ -929,87 +388,6 @@
       },
       "type" : "CLASS",
       "lbl" : "gram per liter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000098",
-      "meta" : {
-        "definition" : {
-          "val" : "A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "ml",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "millilitre",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "milliliter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000010",
-      "meta" : {
-        "definition" : {
-          "val" : "A time unit which is equal to the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom.",
-          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "s",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "second"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000099",
-      "meta" : {
-        "definition" : {
-          "val" : "A volume unit which is equal to one thousandth of a cubic meter or 10^[-3] m^[3], or to 1 decimeter.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "l",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "litre",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "L",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "liter"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000330",
       "meta" : {
@@ -1089,6 +467,24 @@
       "type" : "CLASS",
       "lbl" : "gigabyte"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000177",
+      "meta" : {
+        "definition" : {
+          "val" : "A concentration unit which is a standard measure of the number of units, as an agreed arbitrary amount, of a given substance per a specific volume of solution.",
+          "xrefs" : [ "Webmd:Webmd" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unit per volume unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000212",
       "meta" : {
         "definition" : {
@@ -1107,100 +503,6 @@
       "type" : "CLASS",
       "lbl" : "colony forming unit per volume"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000015",
-      "meta" : {
-        "definition" : {
-          "val" : "A length unit which is equal to one hundredth of a meter or 10^[-2] m.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "cm",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "centimetre",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "centimeter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000005",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "temperature derived unit",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "UO:0000126"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "temperature unit"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000247",
-      "meta" : {
-        "definition" : {
-          "val" : "An electric potential difference unit which is equal to one thousandth of a volt or 10^[-3] V.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "mV",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "millivolt"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000006",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which is a standardised quantity of an element or compound with uniform composition.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "substance unit"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000205",
       "meta" : {
         "definition" : {
@@ -1218,56 +520,6 @@
       },
       "type" : "CLASS",
       "lbl" : "volume per unit volume"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000008",
-      "meta" : {
-        "definition" : {
-          "val" : "A length unit which is equal to the length of the path traveled by light in vacuum during a time interval of 1/299 792 458 of a second.",
-          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "metre",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "m",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "meter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000009",
-      "meta" : {
-        "definition" : {
-          "val" : "A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at Svres, France.",
-          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "kg",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "kilogram"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000207",
       "meta" : {
@@ -1500,29 +752,6 @@
       "type" : "CLASS",
       "lbl" : "nanomolar"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000021",
-      "meta" : {
-        "definition" : {
-          "val" : "A mass unit which is equal to one thousandth of a kilogram or 10^[-3] kg.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "g",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "gram"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000186",
       "meta" : {
         "definition" : {
@@ -1587,29 +816,6 @@
       "type" : "CLASS",
       "lbl" : "picomolar"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000022",
-      "meta" : {
-        "definition" : {
-          "val" : "A mass unit which is equal to one thousandth of a gram or 10^[-3] g.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "mg",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "milligram"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000067",
       "meta" : {
         "definition" : {
@@ -1654,29 +860,6 @@
       },
       "type" : "CLASS",
       "lbl" : "cubic decimeter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000023",
-      "meta" : {
-        "definition" : {
-          "val" : "A mass unit which is equal to one millionth of a gram or 10^[-6] g.",
-          "xrefs" : [ "UOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "ug",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "microgram"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000101",
       "meta" : {
@@ -1728,6 +911,1066 @@
       "type" : "CLASS",
       "lbl" : "count unit"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000102",
+      "meta" : {
+        "definition" : {
+          "val" : "A volume unit which is equal to one thousandth of one millionth of a liter or 10^[-9] L.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nl",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nanolitre",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nanoliter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000103",
+      "meta" : {
+        "definition" : {
+          "val" : "A volume unit which is equal to 10^[-12] L.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "pl",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "picolitre",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "picoliter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000217",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "electric potential difference unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/uo#unit_slim",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "unit slim"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000218",
+      "meta" : {
+        "definition" : {
+          "val" : "An electric potential difference unit which is equal to the work per unit charge. One volt is the potential difference required to move one coulomb of charge between two points in a circuit while using one joule of energy.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "V",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "volt"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000270",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the volume of fluid which passes through a given surface per unit time .",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "volumetric flow rate unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000271",
+      "meta" : {
+        "definition" : {
+          "val" : "A volumetric flow rate unit which is equal to one microliter volume through a given surface in one minute.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "microlitres per minute",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "uL/min",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microliters per minute"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000273",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mg/L",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "milligram per litre",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-03-21T10:35:01Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "milligram per liter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000031",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is equal to 60 seconds.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "min",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "minute"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000032",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is equal to 3600 seconds or 60 minutes.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "h",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hour"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000033",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is equal to 24 hours.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "day"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000034",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is equal to 7 days.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "week"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000035",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is approximately equal to the length of time of one of cycle of the moon's phases which in science is taken to be equal to 30 days.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "month"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000036",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "year"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000027",
+      "meta" : {
+        "definition" : {
+          "val" : "A temperature unit which is equal to one kelvin degree. However, they have their zeros at different points. The centigrade scale has its zero at 273.15 K.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "C",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "degree Celsius"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0010003",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific concentration unit which is equal to 1 micromole in a given volume of one thousandth of a cubic meter.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Luke Slater"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "micromole per litre"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000280",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which represents a standard measurement occurrence of a process per unit time.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "rate unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000281",
+      "meta" : {
+        "definition" : {
+          "val" : "A rate unit which is equal to one over one nanomolar second.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nM^-1 s^-1",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "count per nanomolar second"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000282",
+      "meta" : {
+        "definition" : {
+          "val" : "A rate unit which is equal to one over one molar second.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "M^-1 s^-1",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "count per molar second"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000041",
+      "meta" : {
+        "definition" : {
+          "val" : "A substance unit equal to one thousandth of one millionth of a mole or 10^[-9] mol.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nmol",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nanomole"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000163",
+      "meta" : {
+        "definition" : {
+          "val" : "A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "weight-weight percentage",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "w/w",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mass percentage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000042",
+      "meta" : {
+        "definition" : {
+          "val" : "A substance unit equal to 10^[-12] mol.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "pmol",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "picomole"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000284",
+      "meta" : {
+        "definition" : {
+          "val" : "A rate unit which is equal to one over one nanomolar.",
+          "xrefs" : [ "UO:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "1/nM",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nM^-1",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "count per nanomolar"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000164",
+      "meta" : {
+        "definition" : {
+          "val" : "A dimensionless concentration unit which denotes the mass of the substance in a mixture as a percentage of the volume of the entire mixture.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "weight-volume percentage",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "(w/v)",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mass volume percentage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000285",
+      "meta" : {
+        "definition" : {
+          "val" : "A rate unit which is equal to one over one molar.",
+          "xrefs" : [ "UO:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "M^-1",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "1/M",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "count per molar"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000165",
+      "meta" : {
+        "definition" : {
+          "val" : "A dimensionless concentration unit which denotes the volume of the solute in mL per 100 mL of the resulting solution.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "% (v/v)",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "volume percentage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000045",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is one of a particular measure to which all measures of that type can be related.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "base unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000039",
+      "meta" : {
+        "definition" : {
+          "val" : "A substance unit equal to a millionth of a mol or 10^[-6] mol.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "umol",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "micromole"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000315",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit used to indicate the clarity of water or other solutions or suspensions, as measured by the ability of the solution or suspension to scatter light of a defined wavelength range.",
+          "xrefs" : [ "UO:PC" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2013-03-12T12:20:13Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "turbidity unit"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000095",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "volume unit"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000097",
+      "meta" : {
+        "definition" : {
+          "val" : "A volume unit which is equal to one millionth of a cubic meter or 10^[-9] m^[3], or to 1 ml.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cubic centimetre",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cm^3",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cc",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cubic centimeter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000098",
+      "meta" : {
+        "definition" : {
+          "val" : "A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ml",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "millilitre",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "milliliter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000010",
+      "meta" : {
+        "definition" : {
+          "val" : "A time unit which is equal to the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom.",
+          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "s",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "second"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000099",
+      "meta" : {
+        "definition" : {
+          "val" : "A volume unit which is equal to one thousandth of a cubic meter or 10^[-3] m^[3], or to 1 decimeter.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "l",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "litre",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "L",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "liter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000015",
+      "meta" : {
+        "definition" : {
+          "val" : "A length unit which is equal to one hundredth of a meter or 10^[-2] m.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cm",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "centimetre",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "centimeter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000005",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the average kinetic energy of the particles in a sample of matter.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "temperature derived unit",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "UO:0000126"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "temperature unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000247",
+      "meta" : {
+        "definition" : {
+          "val" : "An electric potential difference unit which is equal to one thousandth of a volt or 10^[-3] V.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mV",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "millivolt"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000006",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standardised quantity of an element or compound with uniform composition.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "substance unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000008",
+      "meta" : {
+        "definition" : {
+          "val" : "A length unit which is equal to the length of the path traveled by light in vacuum during a time interval of 1/299 792 458 of a second.",
+          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "metre",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "m",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "meter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000009",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at Svres, France.",
+          "xrefs" : [ "BIPM:BIPM", "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "kg",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kilogram"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000261",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which represents a standard measurement of the transmission of an entity through a medium.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "conduction unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000262",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which represents a standard measurement of the movement of electrically charged particles through a transmission medium (electrical conductor).",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "electrical conduction unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000021",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit which is equal to one thousandth of a kilogram or 10^[-3] kg.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "g",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gram"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000264",
+      "meta" : {
+        "definition" : {
+          "val" : "An electrical conduction unit which is equal to A/V.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "S",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "A V^-1",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mho ",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "siemens"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000022",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit which is equal to one thousandth of a gram or 10^[-3] g.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mg",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "milligram"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000023",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit which is equal to one millionth of a gram or 10^[-6] g.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ug",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microgram"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000024",
       "meta" : {
         "definition" : {
@@ -1774,33 +2017,6 @@
       "type" : "CLASS",
       "lbl" : "picogram"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000102",
-      "meta" : {
-        "definition" : {
-          "val" : "A volume unit which is equal to one thousandth of one millionth of a liter or 10^[-9] L.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "nl",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "nanolitre",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "nanoliter"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000301",
       "meta" : {
         "definition" : {
@@ -1827,33 +2043,6 @@
       },
       "type" : "CLASS",
       "lbl" : "microgram per liter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000103",
-      "meta" : {
-        "definition" : {
-          "val" : "A volume unit which is equal to 10^[-12] L.",
-          "xrefs" : [ "NIST:NIST" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "pl",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "picolitre",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "picoliter"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000016",
       "meta" : {
@@ -1962,37 +2151,6 @@
       },
       "type" : "CLASS",
       "lbl" : "angstrom"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UO_0000217",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which is a standard measure of the work done per unit charge as a charge is moved between two points in an electric field.",
-          "xrefs" : [ "Wikipedia:Wikipedia" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "unit.ontology"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "electric potential difference unit"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/uo#unit_slim",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "unit slim"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-      "type" : "PROPERTY",
-      "lbl" : "has_alternative_id"
     } ],
     "edges" : [ {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000271",
@@ -2043,9 +2201,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000095"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000261",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000177",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000099",
       "pred" : "is_a",
@@ -2078,6 +2244,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000273",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000175",
       "pred" : "is_a",
@@ -2119,6 +2289,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000262",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001757"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
@@ -2126,6 +2300,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000017",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000218",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000217"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
@@ -2138,6 +2316,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000271",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001574"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000315",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000217",
       "pred" : "is_a",
@@ -2267,6 +2449,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000264",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000262"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000284",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
@@ -2278,6 +2464,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000024",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000262",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000261"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000095",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
@@ -2432,7 +2622,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-14/imports/uo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/uo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

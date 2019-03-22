@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-14/pmo-base.owl
+data-version: pmo/releases/2019-03-21/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -52,7 +52,7 @@ is_a: OBI:0000832
 [Term]
 id: PMO:00000011
 name: rosette sampling device
-is_a: OBI:0000832
+is_a: PMO:00000074 ! specimen collection device
 
 [Term]
 id: PMO:00000012
@@ -367,4 +367,292 @@ is_a: PATO:0000117
 id: PMO:00000073
 name: number of locations sequenced within a DNA sequence
 is_a: IAO:0000109
+
+[Term]
+id: PMO:00000074
+name: specimen collection device
+def: "A device which is used to collect a specimen during a specimen collection process." []
+is_a: OBI:0000968
+
+[Term]
+id: PMO:00000075
+name: comment on investigation
+is_a: IAO:0000300
+property_value: IAO:0000116 "Reimport the OBI term after the axiom has been fixed, as it's currently failing when run with the ELK reasoner." xsd:string
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/OBI_0001898 xsd:string
+
+[Term]
+id: PMO:00000076
+name: latitude coordinate measurement datum start
+is_a: OBI:0001620
+
+[Term]
+id: PMO:00000077
+name: longitude coordinate measurement datum start
+is_a: OBI:0001621
+
+[Term]
+id: PMO:00000078
+name: longitude coordinate measurement datum stop
+is_a: OBI:0001621
+
+[Term]
+id: PMO:00000079
+name: latitude coordinate measurement datum stop
+is_a: OBI:0001620
+
+[Term]
+id: PMO:00000080
+name: time zone
+is_a: IAO:0000416
+property_value: IAO:0000116 "e.g. UTC+00 from OSD" xsd:string
+
+[Term]
+id: PMO:00000081
+name: specimen collection time measurement datum in localized time zone
+is_a: OBI:0001619
+
+[Term]
+id: PMO:00000083
+name: distance between site and country border
+def: "A distance which seperates a site from the nearest boarder of a country." []
+is_a: PATO:0000040
+
+[Term]
+id: PMO:00000084
+name: geographic region
+is_a: BFO:0000009
+property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there?" xsd:string
+
+[Term]
+id: PMO:00000085
+name: biogeochemical province
+synonym: "Longhurst Province" EXACT []
+is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22538 xsd:string
+
+[Term]
+id: PMO:00000086
+name: biogeochemical province label
+is_a: IAO:0000009
+property_value: IAO:0000116 "link to biogeochemical province" xsd:string
+
+[Term]
+id: PMO:00000087
+name: distance between site and biogeochemical province
+is_a: PATO:0000040
+
+[Term]
+id: PMO:00000088
+name: geographic location
+property_value: IAO:0000116 "perhaps this could be subclass to 'two-dimensional spatial region' http://purl.obolibrary.org/obo/BFO_0000009" xsd:string
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000448 xsd:string
+
+[Term]
+id: PMO:00000089
+name: Oceans and Seas
+is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000590 xsd:string
+
+[Term]
+id: PMO:00000090
+name: distance between a site and a geographic location
+is_a: PATO:0000040
+property_value: IAO:0000116 "add link to http://purl.obolibrary.org/obo/GAZ_00000448" xsd:string
+
+[Term]
+id: PMO:00000091
+name: Large Marine Ecosystem
+is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "Perhaps in the future we could map or at least create GAZ classes for the top levels the Marineregions.org gazetteer." xsd:string
+property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22539 xsd:string
+
+[Term]
+id: PMO:00000092
+name: International Hydrographic Organization Sea Area
+is_a: PMO:00000088 ! geographic location
+
+[Term]
+id: PMO:00000093
+name: specimen collection process data doccument
+is_a: IAO:0000310
+property_value: IAO:0000116 "Original sampling handbook or checklist from a sampling experiment or specimen collection process." xsd:string
+
+[Term]
+id: PMO:00000100
+name: plankton aggregate
+is_a: PCO:0000029
+
+[Term]
+id: PMO:00000101
+name: nanoplankton and microplankton aggregate
+is_a: PMO:00000100 ! plankton aggregate
+property_value: IAO:0000116 "add axioms to link to http://purl.obolibrary.org/obo/PMO_00000106 and http://purl.obolibrary.org/obo/PMO_00000105" xsd:string
+
+[Term]
+id: PMO:00000102
+name: dissolved organic carbon
+def: "An aggregate of carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+is_a: PMO:00000109 ! aggregation of carbon molecules
+
+[Term]
+id: PMO:00000103
+name: particulate organic carbon
+def: "An aggregate of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+synonym: "suspended organic carbon" EXACT []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+
+[Term]
+id: PMO:00000105
+name: microplankton material
+is_a: ENVO:01000063
+property_value: IAO:0000116 "20 to 200 micrometers" xsd:string
+
+[Term]
+id: PMO:00000106
+name: nanophytoplankton material
+is_a: ENVO:01000063
+property_value: IAO:0000116 "2 to 20 micrometers" xsd:string
+property_value: IAO:0000119 https://en.wikipedia.org/wiki/Plankton#Size_groups xsd:string
+
+[Term]
+id: PMO:00000107
+name: autotrophic biomass formation process
+def: "A process during which an organism produces biomass from abiotic components using an autotrophic growth process." []
+synonym: "primary productivity" BROAD []
+is_a: PMO:00000117 ! biomass formation process
+property_value: IAO:0000116 "link to" xsd:string
+
+[Term]
+id: PMO:00000108
+name: primary productivity carbon
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000107" xsd:string
+
+[Term]
+id: PMO:00000109
+name: aggregation of carbon molecules
+is_a: BFO:0000027
+
+[Term]
+id: PMO:00000110
+name: aggregation of nitrogen molecules
+is_a: BFO:0000027
+
+[Term]
+id: PMO:00000111
+name: dissolved organic nitrogen
+def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/dissolved-organic-nitrogen]
+is_a: PMO:00000110 ! aggregation of nitrogen molecules
+
+[Term]
+id: PMO:00000112
+name: particulate organic nitrogen
+def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen]
+is_a: PMO:00000110 ! aggregation of nitrogen molecules
+
+[Term]
+id: PMO:00000113
+name: mesoplankton material
+is_a: ENVO:01000063
+
+[Term]
+id: PMO:00000114
+name: mesoplankton and macroplankton aggregate
+is_a: PMO:00000100 ! plankton aggregate
+property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000115 and http://purl.obolibrary.org/obo/PMO_00000113" xsd:string
+
+[Term]
+id: PMO:00000115
+name: macroplankton material
+is_a: ENVO:01000063
+
+[Term]
+id: PMO:00000116
+name: prokaryote derived carbon
+def: "An aggregate of carbon-containing molecules which were derived from a prokaryotic biomass formation process." []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+
+[Term]
+id: PMO:00000117
+name: biomass formation process
+is_a: ENVO:02500000
+
+[Term]
+id: PMO:00000118
+name: prokaryotic biomass formation process
+is_a: PMO:00000117 ! biomass formation process
+
+[Term]
+id: PMO:00000120
+name: turbidity
+def: "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer." [https://en.wikipedia.org/wiki/Turbidity]
+xref: https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf
+is_a: PATO:0001018
+
+[Term]
+id: PMO:00000121
+name: turbidity of water
+def: "A turbidity quality which inheres in a water bearer." []
+is_a: PMO:00000120 ! turbidity
+
+[Term]
+id: PMO:00000122
+name: Biosample identifier assigned by the National Center for Biotechnology Information
+is_a: OBI:0001901
+property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646" xsd:string
+
+[Term]
+id: PMO:00000123
+name: secondary sample accession identifier assigned by the European Nucleotide Archive
+is_a: OBI:0001901
+property_value: IAO:0000116 "example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668" xsd:string
+
+[Term]
+id: PMO:00000124
+name: INSDC bioarchive accession number
+is_a: OBI:0001901
+property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission." xsd:string
+
+[Term]
+id: PMO:00000125
+name: material flux unit
+is_a: UO:0000000
+property_value: IAO:0000116 "similar to the example from http://reverseosmosischemicals.com/reverse-osmosis-guides/reverse-osmosis-glossary-terms/flux-water-flux-reverse-osmosis-systems" xsd:string
+
+[Term]
+id: PMO:00000126
+name: micromole per square meter per second
+is_a: PMO:00000125 ! material flux unit
+
+[Term]
+id: PMO:00000127
+name: mass density rate unit
+def: "A mass density unit which proccedes over time." []
+is_a: UO:0000000
+
+[Term]
+id: PMO:00000128
+name: miligram per cubic meter per day
+is_a: PMO:00000127 ! mass density rate unit
+
+[Term]
+id: PMO:00000129
+name: unit per cubic meter
+is_a: UO:0000177
+
+[Term]
+id: PMO:00000130
+name: milisiemens per centimeter
+is_a: UO:0000262
+
+[Term]
+id: PMO:00000131
+name: formazin turbidity unit
+is_a: UO:0000315
+
+[Term]
+id: PMO:00000132
+name: miligram per cubic meter
+is_a: UO:0000052
 

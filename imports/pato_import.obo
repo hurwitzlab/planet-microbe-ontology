@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-14/imports/pato_import.owl
+data-version: pmo/releases/2019-03-21/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]
@@ -43,6 +43,16 @@ subset: relational_slim
 subset: scalar_slim
 synonym: "concentration" EXACT []
 is_a: PATO:0002182 ! molecular quality
+
+[Term]
+id: PATO:0000040
+name: distance
+namespace: quality
+def: "A quality that is the extent of space between two entities." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: PATO:0000044
@@ -210,6 +220,34 @@ alt_id: PATO:0001722
 def: "An organismal quality inhering in a bearer by virtue of the bearer's behavior aggregate of the responses or reactions or movements in a given situation." [PATOC:GVG]
 synonym: "behavioural quality" EXACT []
 is_a: PATO:0001995 ! organismal quality
+
+[Term]
+id: PATO:0000374
+name: increased distance
+namespace: quality
+def: "A distance which is greater relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "long distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000375 ! decreased distance
+
+[Term]
+id: PATO:0000375
+name: decreased distance
+namespace: quality
+def: "A distance which is lesser relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "short distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000374 ! increased distance
 
 [Term]
 id: PATO:0000380
@@ -570,6 +608,25 @@ is_a: PATO:0000973 ! porosity
 relationship: is_opposite_of PATO:0000984 ! porous
 
 [Term]
+id: PATO:0000992
+name: viscosity
+namespace: quality
+def: "A physical quality of a liquid inhering in a bearer by virtue of the bearer's disposition to internal resistance to flow." [PATOC:GVG]
+subset: attribute_slim
+subset: disposition_slim
+is_a: PATO:0001548 ! quality of a liquid
+
+[Term]
+id: PATO:0000998
+name: viscous
+namespace: quality
+def: "A viscosity quality inhering in a bearer by virtue of the bearer's having viscosity." [PATOC:GVG]
+subset: disposition_slim
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000992 ! viscosity
+
+[Term]
 id: PATO:0001018
 name: physical quality
 namespace: quality
@@ -715,6 +772,16 @@ subset: hpo_slim
 synonym: "period" EXACT []
 synonym: "time" RELATED []
 is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0001332
+name: amorphous
+namespace: quality
+def: "A morphology quality inhering in a bearer by virtue of the bearer's lack of distinct morphology." [PATOC:GVG]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000051 ! morphology
 
 [Term]
 id: PATO:0001353
@@ -885,6 +952,17 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0001575 ! decreased pressure
 
 [Term]
+id: PATO:0001585
+name: conductivity
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to transmit of an entity through a medium." [PATOC:GVG]
+comment: Examples could be heat or electricity or sound.
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0001595
 name: depth
 namespace: quality
@@ -981,6 +1059,34 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0001688 ! increased elevation
 
 [Term]
+id: PATO:0001693
+name: increased viscosity
+namespace: quality
+def: "A viscosity which relatively high." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "high viscosity" EXACT []
+is_a: PATO:0000998 ! viscous
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000998 ! viscous
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001694 ! decreased viscosity
+
+[Term]
+id: PATO:0001694
+name: decreased viscosity
+namespace: quality
+def: "A viscosity which relatively low." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "low viscosity" EXACT []
+is_a: PATO:0000998 ! viscous
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000998 ! viscous
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001693 ! increased viscosity
+
+[Term]
 id: PATO:0001708
 name: 1-D extent
 namespace: quality
@@ -1007,6 +1113,16 @@ subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
+id: PATO:0001757
+name: electrical conductivity
+namespace: quality
+def: "A conductivity quality inhering in a bearer by virtue of the bearer's ability to convey electricity." [Wikipedia:http\://en.wikipedia.org/wiki/Electrical_conduction]
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001585 ! conductivity
+
+[Term]
 id: PATO:0001759
 name: granular
 namespace: quality
@@ -1014,6 +1130,62 @@ def: "A composition quality inhering in a bearer by virtue of the bearer's conta
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0000025 ! composition
+
+[Term]
+id: PATO:0001822
+name: wetness
+namespace: quality
+def: "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid." [wordreference.com:wordreference.com]
+subset: attribute_slim
+subset: mpath_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001823
+name: wet
+namespace: quality
+def: "A wetness quality inhering in a bearer by virtue of the bearer's being covered by a liquid." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001822 ! wetness
+disjoint_from: PATO:0001824 ! dry
+relationship: is_opposite_of PATO:0001824 ! dry
+
+[Term]
+id: PATO:0001824
+name: dry
+namespace: quality
+def: "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001822 ! wetness
+relationship: is_opposite_of PATO:0001823 ! wet
+
+[Term]
+id: PATO:0001825
+name: increased wetness
+namespace: quality
+def: "A wetness quality that is relatively high." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0001823 ! wet
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0001823 ! wet
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001826 ! decreased wetness
+
+[Term]
+id: PATO:0001826
+name: decreased wetness
+namespace: quality
+def: "A wetness quality that is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "low wetness" EXACT []
+is_a: PATO:0001823 ! wet
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001823 ! wet
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001825 ! increased wetness
 
 [Term]
 id: PATO:0001842

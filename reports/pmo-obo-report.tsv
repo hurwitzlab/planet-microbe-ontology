@@ -23,17 +23,24 @@ ERROR	duplicate_definition	OBI:0000293	IAO:0000115	A relation between a planned 
 ERROR	duplicate_definition	OBI:0000295	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en	
 ERROR	duplicate_definition	OBI:0002303	IAO:0000115	A pathologic distant metastases stage for lung according to AJCC 7th edition indicating that there is a distant metastases that is histologically confirmed.	
 ERROR	duplicate_definition	OBI:0002305	IAO:0000115	A pathologic distant metastases stage for lung according to AJCC 7th edition indicating that there is a distant metastases that is histologically confirmed.	
+ERROR	duplicate_definition	ENVO:01001477	IAO:0000115	A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes.	
+ERROR	duplicate_definition	ENVO:01001478	IAO:0000115	A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes.	
+ERROR	duplicate_definition	ENVO:01001309	IAO:0000115	A liquid surface layer which is in contact with air.	
+ERROR	duplicate_definition	ENVO:01001310	IAO:0000115	A liquid surface layer which is in contact with air.	
 ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
 ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	4cdc715144e4bb4830938c3576ddab25	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	ec4397c32731df759e6cbda66fc44147	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	45e92cbbb55eae249e15c9b6bdf96d29	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	4b90e43bbf91920738c3f530181d235c	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	9510981990ddf3e94036feb63d013af5	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	b4f87dabb33ca808c5e29368cffa255d	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	79abaa0a8cb1aa1f58cff9dac275abaa	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	cc5208af87816438186fdd523a8b8b53	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	2e17ba10be9f14cb4245cefb38b7fd21	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	dd0673e99d4ddfa49d293bdd6d646db9	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	6f09622a98ba7592b70bf7a1afa11689	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	c796509b2b8a4ba30af9846dc1aecd3f	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	54e87b49a4a6bed1f464a56c562ca220	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	c5c1595292db90ac7094a1785516522f	
 ERROR	missing_label	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#abnormal_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#attribute_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#cell_quality	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#disposition_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#hpo_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#mpath_slim	rdfs:label		
@@ -43,6 +50,8 @@ ERROR	missing_label	http://purl.obolibrary.org/obo/pato#value_slim	rdfs:label
 ERROR	missing_label	http://purl.obolibrary.org/obo/uo#unit_group_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/uo#unit_slim	rdfs:label		
 ERROR	missing_label	oboInOwl:Subset	rdfs:label		
+ERROR	deprecated_class_reference	ENVO:2100001	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	ENVO:2100007	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	IAO:0000230	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0000146	
 ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0000186	
@@ -56,14 +65,20 @@ ERROR	deprecated_class_reference	PATO:0001237	owl:deprecated	true^^http://www.w3
 ERROR	deprecated_class_reference	RO:0002218	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	RO:0002609	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	missing_ontology_description	pmo.owl	dc11:description		
-ERROR	duplicate_label	CHEBI:15377	rdfs:label	water	
-ERROR	duplicate_label	ENVO:00002006	rdfs:label	water	
+ERROR	duplicate_label	ENVO:3100033	rdfs:label	pressure of water	
+ERROR	duplicate_label	PMO:00000028	rdfs:label	pressure of water	
+ERROR	duplicate_label	ENVO:3100032	rdfs:label	fluorescence of water	
+ERROR	duplicate_label	PMO:00000030	rdfs:label	fluorescence of water	
 ERROR	duplicate_label	ENVO:00000176	rdfs:label	elevation	
 ERROR	duplicate_label	PATO:0001687	rdfs:label	elevation	
-ERROR	duplicate_label	ENVO:2100007	rdfs:label	determined by part of	
-ERROR	duplicate_label	RO:0002509	rdfs:label	determined by part of	
-ERROR	duplicate_label	ENVO:2100001	rdfs:label	determined by	
-ERROR	duplicate_label	RO:0002507	rdfs:label	determined by	
+ERROR	duplicate_label	ENVO:3100031	rdfs:label	depth of water	
+ERROR	duplicate_label	PMO:00000029	rdfs:label	depth of water	
+ERROR	duplicate_label	ENVO:3100027	rdfs:label	concentration of silicate(4-) in water	
+ERROR	duplicate_label	PMO:00000032	rdfs:label	concentration of silicate(4-) in water	
+ERROR	duplicate_label	ENVO:3100026	rdfs:label	concentration of phosphate in water	
+ERROR	duplicate_label	PMO:00000031	rdfs:label	concentration of phosphate in water	
+ERROR	duplicate_label	ENVO:3100022	rdfs:label	concentration of nitrate in water	
+ERROR	duplicate_label	PMO:00000027	rdfs:label	concentration of nitrate in water	
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en	
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
 ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en	
@@ -75,8 +90,8 @@ ERROR	multiple_definitions	BFO:0000031	IAO:0000115	A continuant that is dependen
 ERROR	multiple_definitions	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
+ERROR	multiple_definitions	ENVO:00000002	IAO:0000115	An anthropogenic geographic feature is a geographic feature    resulting from the influence of human beings on nature.	
 ERROR	multiple_definitions	ENVO:00000002	IAO:0000115	An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.	
-ERROR	multiple_definitions	ENVO:00000002	IAO:0000115	An anthropogenic geographic feature is a geographic feature'resulting from the influence of human beings on nature.	
 ERROR	multiple_definitions	ENVO:00010483	IAO:0000115	A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system.	
 ERROR	multiple_definitions	ENVO:00010483	IAO:0000115	A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.	
 ERROR	multiple_definitions	ENVO:01000817	IAO:0000115	A biosphere is a part of an astronomical body which includes, as parts, all the living entities within the gravitational sphere of influence of that body, as well as the non-living and dead entities with which they interact.	
@@ -250,9 +265,12 @@ WARN	annotation_whitespace	OBI:0002333	IAO:0000115	An International Federation o
 WARN	annotation_whitespace	OBI:0002334	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion and clinically visible lesion <4.0 cm in greatest dimension. 	
 WARN	annotation_whitespace	OBI:0002335	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion and clinically visible lesion >4.0 cm in greatest dimension. 	
 WARN	annotation_whitespace	OBI:0002336	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina with obvious parametrial invasion. 	
+WARN	annotation_whitespace	RO:0001018	IAO:0000116	Intended meaning:    domain: material entity    range: spatial region or site (immaterial continuant)            @en	
+WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). @en	
 WARN	annotation_whitespace	RO:0002163	IAO:0000116	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en	
 WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 	
 WARN	annotation_whitespace	RO:0002326	IAO:0000232	In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. 	
+WARN	annotation_whitespace	UO:0000264	oboInOwl:hasRelatedSynonym	mho 	
 WARN	duplicate_exact_synonym	OBI:0002325	IAO:0000118	Stage IVB	
 WARN	duplicate_exact_synonym	OBI:0002340	IAO:0000118	Stage IVB	
 WARN	duplicate_exact_synonym	OBI:0002324	IAO:0000118	Stage IVA	
@@ -279,6 +297,8 @@ WARN	duplicate_exact_synonym	OBI:0002207	IAO:0000118	G2
 WARN	duplicate_exact_synonym	OBI:0002221	IAO:0000118	G2	
 WARN	duplicate_exact_synonym	OBI:0002206	IAO:0000118	G1	
 WARN	duplicate_exact_synonym	OBI:0002220	IAO:0000118	G1	
+WARN	duplicate_exact_synonym	ENVO:01001052	IAO:0000118	Aerosol (saline)	
+WARN	duplicate_exact_synonym	ENVO:01001053	IAO:0000118	Aerosol (saline)	
 WARN	multiple_asserted_superclasses	CARO:0000006	rdfs:subClassOf	BFO:0000040	
 WARN	multiple_asserted_superclasses	CARO:0000006	rdfs:subClassOf	CARO:0000000	
 WARN	multiple_asserted_superclasses	CARO:0001010	rdfs:subClassOf	BFO:0000040	
@@ -290,6 +310,9 @@ WARN	multiple_asserted_superclasses	CHEBI:15377	rdfs:subClassOf	CHEBI:52625
 WARN	multiple_asserted_superclasses	CHEBI:15379	rdfs:subClassOf	CHEBI:138675	
 WARN	multiple_asserted_superclasses	CHEBI:15379	rdfs:subClassOf	CHEBI:25362	
 WARN	multiple_asserted_superclasses	CHEBI:15379	rdfs:subClassOf	CHEBI:33263	
+WARN	multiple_asserted_superclasses	CHEBI:16301	rdfs:subClassOf	CHEBI:33458	
+WARN	multiple_asserted_superclasses	CHEBI:16301	rdfs:subClassOf	CHEBI:62764	
+WARN	multiple_asserted_superclasses	CHEBI:16301	rdfs:subClassOf	CHEBI:79389	
 WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	CHEBI:138675	
 WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	CHEBI:23014	
 WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	CHEBI:64708	
@@ -297,6 +320,9 @@ WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	FOODON:03412972
 WARN	multiple_asserted_superclasses	CHEBI:16670	rdfs:subClassOf	CHEBI:33839	
 WARN	multiple_asserted_superclasses	CHEBI:16670	rdfs:subClassOf	CHEBI:37622	
 WARN	multiple_asserted_superclasses	CHEBI:16670	rdfs:subClassOf	CHEBI:50047	
+WARN	multiple_asserted_superclasses	CHEBI:17632	rdfs:subClassOf	CHEBI:33458	
+WARN	multiple_asserted_superclasses	CHEBI:17632	rdfs:subClassOf	CHEBI:62764	
+WARN	multiple_asserted_superclasses	CHEBI:17632	rdfs:subClassOf	CHEBI:79389	
 WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:138675	
 WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:25362	
 WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:33266	
@@ -309,6 +335,8 @@ WARN	multiple_asserted_superclasses	CHEBI:23367	rdfs:subClassOf	CHEBI:24431
 WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:25806	
 WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:33608	
 WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:37577	
+WARN	multiple_asserted_superclasses	CHEBI:24834	rdfs:subClassOf	CHEBI:22563	
+WARN	multiple_asserted_superclasses	CHEBI:24834	rdfs:subClassOf	CHEBI:36914	
 WARN	multiple_asserted_superclasses	CHEBI:24839	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:24839	rdfs:subClassOf	CHEBI:24866	
 WARN	multiple_asserted_superclasses	CHEBI:25362	rdfs:subClassOf	CHEBI:25367	
@@ -322,6 +350,10 @@ WARN	multiple_asserted_superclasses	CHEBI:26710	rdfs:subClassOf	CHEBI:36093
 WARN	multiple_asserted_superclasses	CHEBI:26710	rdfs:subClassOf	CHEBI:38702	
 WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:26712	
 WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:35479	
+WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:35106	
+WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:35274	
+WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:50313	
+WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:60242	
 WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:33692	
 WARN	multiple_asserted_superclasses	CHEBI:33250	rdfs:subClassOf	BFO:0000040	
@@ -332,6 +364,14 @@ WARN	multiple_asserted_superclasses	CHEBI:33262	rdfs:subClassOf	CHEBI:33259
 WARN	multiple_asserted_superclasses	CHEBI:33262	rdfs:subClassOf	FOODON:03412972	
 WARN	multiple_asserted_superclasses	CHEBI:33267	rdfs:subClassOf	CHEBI:33465	
 WARN	multiple_asserted_superclasses	CHEBI:33267	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:33273	rdfs:subClassOf	CHEBI:22563	
+WARN	multiple_asserted_superclasses	CHEBI:33273	rdfs:subClassOf	CHEBI:36358	
+WARN	multiple_asserted_superclasses	CHEBI:33328	rdfs:subClassOf	CHEBI:24833	
+WARN	multiple_asserted_superclasses	CHEBI:33328	rdfs:subClassOf	CHEBI:46890	
+WARN	multiple_asserted_superclasses	CHEBI:33458	rdfs:subClassOf	CHEBI:33459	
+WARN	multiple_asserted_superclasses	CHEBI:33458	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:33459	rdfs:subClassOf	CHEBI:33302	
+WARN	multiple_asserted_superclasses	CHEBI:33459	rdfs:subClassOf	CHEBI:35406	
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33259	
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33302	
@@ -341,24 +381,49 @@ WARN	multiple_asserted_superclasses	CHEBI:33692	rdfs:subClassOf	CHEBI:33608
 WARN	multiple_asserted_superclasses	CHEBI:33692	rdfs:subClassOf	CHEBI:37577	
 WARN	multiple_asserted_superclasses	CHEBI:33694	rdfs:subClassOf	CHEBI:33839	
 WARN	multiple_asserted_superclasses	CHEBI:33694	rdfs:subClassOf	CHEBI:50860	
+WARN	multiple_asserted_superclasses	CHEBI:33702	rdfs:subClassOf	CHEBI:36358	
+WARN	multiple_asserted_superclasses	CHEBI:33702	rdfs:subClassOf	CHEBI:36916	
 WARN	multiple_asserted_superclasses	CHEBI:33839	rdfs:subClassOf	CHEBI:23367	
 WARN	multiple_asserted_superclasses	CHEBI:33839	rdfs:subClassOf	CHEBI:36357	
 WARN	multiple_asserted_superclasses	CHEBI:33958	rdfs:subClassOf	CHEBI:24866	
 WARN	multiple_asserted_superclasses	CHEBI:33958	rdfs:subClassOf	CHEBI:37578	
+WARN	multiple_asserted_superclasses	CHEBI:35106	rdfs:subClassOf	CHEBI:35881	
+WARN	multiple_asserted_superclasses	CHEBI:35106	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:35274	rdfs:subClassOf	CHEBI:33702	
+WARN	multiple_asserted_superclasses	CHEBI:35274	rdfs:subClassOf	CHEBI:51143	
 WARN	multiple_asserted_superclasses	CHEBI:35352	rdfs:subClassOf	CHEBI:33285	
 WARN	multiple_asserted_superclasses	CHEBI:35352	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:35406	rdfs:subClassOf	CHEBI:25741	
+WARN	multiple_asserted_superclasses	CHEBI:35406	rdfs:subClassOf	CHEBI:33273	
 WARN	multiple_asserted_superclasses	CHEBI:35479	rdfs:subClassOf	CHEBI:24866	
 WARN	multiple_asserted_superclasses	CHEBI:35479	rdfs:subClassOf	CHEBI:33296	
+WARN	multiple_asserted_superclasses	CHEBI:35881	rdfs:subClassOf	CHEBI:33242	
+WARN	multiple_asserted_superclasses	CHEBI:35881	rdfs:subClassOf	CHEBI:33302	
 WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:23114	
 WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:24839	
+WARN	multiple_asserted_superclasses	CHEBI:36358	rdfs:subClassOf	CHEBI:24870	
+WARN	multiple_asserted_superclasses	CHEBI:36358	rdfs:subClassOf	CHEBI:36357	
+WARN	multiple_asserted_superclasses	CHEBI:36359	rdfs:subClassOf	CHEBI:33241	
+WARN	multiple_asserted_superclasses	CHEBI:36359	rdfs:subClassOf	CHEBI:36360	
+WARN	multiple_asserted_superclasses	CHEBI:36562	rdfs:subClassOf	CHEBI:33240	
+WARN	multiple_asserted_superclasses	CHEBI:36562	rdfs:subClassOf	CHEBI:33579	
 WARN	multiple_asserted_superclasses	CHEBI:36902	rdfs:subClassOf	CHEBI:33242	
 WARN	multiple_asserted_superclasses	CHEBI:36902	rdfs:subClassOf	CHEBI:33304	
 WARN	multiple_asserted_superclasses	CHEBI:36908	rdfs:subClassOf	CHEBI:33583	
 WARN	multiple_asserted_superclasses	CHEBI:36908	rdfs:subClassOf	FOODON:03412972	
+WARN	multiple_asserted_superclasses	CHEBI:36914	rdfs:subClassOf	CHEBI:24835	
+WARN	multiple_asserted_superclasses	CHEBI:36914	rdfs:subClassOf	CHEBI:24870	
+WARN	multiple_asserted_superclasses	CHEBI:36915	rdfs:subClassOf	CHEBI:36914	
+WARN	multiple_asserted_superclasses	CHEBI:36915	rdfs:subClassOf	CHEBI:36916	
 WARN	multiple_asserted_superclasses	CHEBI:36962	rdfs:subClassOf	CHEBI:33285	
 WARN	multiple_asserted_superclasses	CHEBI:36962	rdfs:subClassOf	CHEBI:33304	
 WARN	multiple_asserted_superclasses	CHEBI:36963	rdfs:subClassOf	CHEBI:25806	
 WARN	multiple_asserted_superclasses	CHEBI:36963	rdfs:subClassOf	CHEBI:36962	
+WARN	multiple_asserted_superclasses	CHEBI:37190	rdfs:subClassOf	CHEBI:26677	
+WARN	multiple_asserted_superclasses	CHEBI:37190	rdfs:subClassOf	CHEBI:36562	
+WARN	multiple_asserted_superclasses	CHEBI:37191	rdfs:subClassOf	CHEBI:24834	
+WARN	multiple_asserted_superclasses	CHEBI:37191	rdfs:subClassOf	CHEBI:35406	
+WARN	multiple_asserted_superclasses	CHEBI:37191	rdfs:subClassOf	CHEBI:37190	
 WARN	multiple_asserted_superclasses	CHEBI:37578	rdfs:subClassOf	CHEBI:24471	
 WARN	multiple_asserted_superclasses	CHEBI:37578	rdfs:subClassOf	CHEBI:37577	
 WARN	multiple_asserted_superclasses	CHEBI:37622	rdfs:subClassOf	CHEBI:33256	
@@ -379,17 +444,26 @@ WARN	multiple_asserted_superclasses	CL:0000000	rdfs:subClassOf	CARO:0000003
 WARN	multiple_asserted_superclasses	CL:0000578	rdfs:subClassOf	CL:0000000	
 WARN	multiple_asserted_superclasses	CL:0000578	rdfs:subClassOf	OBI:0000047	
 WARN	multiple_asserted_superclasses	ENVO:00000015	rdfs:subClassOf	ENVO:00001999	
-WARN	multiple_asserted_superclasses	ENVO:00000015	rdfs:subClassOf	ENVO:01000044	
 WARN	multiple_asserted_superclasses	ENVO:00000015	rdfs:subClassOf	ENVO:01001319	
 WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:00001999	
-WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:01000044	
 WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:01001319	
-WARN	multiple_asserted_superclasses	ENVO:00000134	rdfs:subClassOf	ENVO:00001998	
-WARN	multiple_asserted_superclasses	ENVO:00000134	rdfs:subClassOf	ENVO:01001125	
+WARN	multiple_asserted_superclasses	ENVO:00000019	rdfs:subClassOf	ENVO:00000020	
+WARN	multiple_asserted_superclasses	ENVO:00000019	rdfs:subClassOf	ENVO:01001319	
+WARN	multiple_asserted_superclasses	ENVO:00000304	rdfs:subClassOf	ENVO:00000012	
+WARN	multiple_asserted_superclasses	ENVO:00000304	rdfs:subClassOf	ENVO:01000635	
 WARN	multiple_asserted_superclasses	ENVO:00000428	rdfs:subClassOf	ENVO:01000254	
 WARN	multiple_asserted_superclasses	ENVO:00000428	rdfs:subClassOf	ENVO:01001110	
+WARN	multiple_asserted_superclasses	ENVO:00000447	rdfs:subClassOf	ENVO:00002030	
+WARN	multiple_asserted_superclasses	ENVO:00000447	rdfs:subClassOf	ENVO:01000320	
+WARN	multiple_asserted_superclasses	ENVO:00001999	rdfs:subClassOf	ENVO:01000044	
+WARN	multiple_asserted_superclasses	ENVO:00001999	rdfs:subClassOf	ENVO:01000617	
+WARN	multiple_asserted_superclasses	ENVO:00001999	rdfs:subClassOf	ENVO:01001308	
 WARN	multiple_asserted_superclasses	ENVO:00010483	rdfs:subClassOf	BFO:0000024	
 WARN	multiple_asserted_superclasses	ENVO:00010483	rdfs:subClassOf	BFO:0000040	
+WARN	multiple_asserted_superclasses	ENVO:01000267	rdfs:subClassOf	ENVO:01000281	
+WARN	multiple_asserted_superclasses	ENVO:01000267	rdfs:subClassOf	ENVO:01001478	
+WARN	multiple_asserted_superclasses	ENVO:01000283	rdfs:subClassOf	ENVO:01000325	
+WARN	multiple_asserted_superclasses	ENVO:01000283	rdfs:subClassOf	ENVO:01001308	
 WARN	multiple_asserted_superclasses	ENVO:01000295	rdfs:subClassOf	ENVO:01000044	
 WARN	multiple_asserted_superclasses	ENVO:01000295	rdfs:subClassOf	ENVO:01000325	
 WARN	multiple_asserted_superclasses	ENVO:01000295	rdfs:subClassOf	ENVO:01001308	
@@ -399,6 +473,8 @@ WARN	multiple_asserted_superclasses	ENVO:01000317	rdfs:subClassOf	ENVO:01000997
 WARN	multiple_asserted_superclasses	ENVO:01000317	rdfs:subClassOf	ENVO:01000998	
 WARN	multiple_asserted_superclasses	ENVO:01000624	rdfs:subClassOf	ENVO:01000724	
 WARN	multiple_asserted_superclasses	ENVO:01000624	rdfs:subClassOf	ENVO:02500031	
+WARN	multiple_asserted_superclasses	ENVO:01000635	rdfs:subClassOf	ENVO:01000324	
+WARN	multiple_asserted_superclasses	ENVO:01000635	rdfs:subClassOf	ENVO:01001311	
 WARN	multiple_asserted_superclasses	ENVO:01000637	rdfs:subClassOf	ENVO:00002297	
 WARN	multiple_asserted_superclasses	ENVO:01000637	rdfs:subClassOf	ENVO:00010483	
 WARN	multiple_asserted_superclasses	ENVO:01000804	rdfs:subClassOf	BFO:0000030	
@@ -409,19 +485,45 @@ WARN	multiple_asserted_superclasses	ENVO:01000817	rdfs:subClassOf	ENVO:01000813
 WARN	multiple_asserted_superclasses	ENVO:01000817	rdfs:subClassOf	ENVO:01001110	
 WARN	multiple_asserted_superclasses	ENVO:01000818	rdfs:subClassOf	ENVO:00000131	
 WARN	multiple_asserted_superclasses	ENVO:01000818	rdfs:subClassOf	ENVO:03000110	
+WARN	multiple_asserted_superclasses	ENVO:01000952	rdfs:subClassOf	ENVO:01001434	
+WARN	multiple_asserted_superclasses	ENVO:01000952	rdfs:subClassOf	ENVO:02500027	
 WARN	multiple_asserted_superclasses	ENVO:01000982	rdfs:subClassOf	ENVO:01000981	
 WARN	multiple_asserted_superclasses	ENVO:01000982	rdfs:subClassOf	ENVO:02500031	
 WARN	multiple_asserted_superclasses	ENVO:01001040	rdfs:subClassOf	ENVO:01000314	
 WARN	multiple_asserted_superclasses	ENVO:01001040	rdfs:subClassOf	ENVO:01000998	
 WARN	multiple_asserted_superclasses	ENVO:01001044	rdfs:subClassOf	ENVO:01000997	
 WARN	multiple_asserted_superclasses	ENVO:01001044	rdfs:subClassOf	ENVO:01000998	
+WARN	multiple_asserted_superclasses	ENVO:01001048	rdfs:subClassOf	ENVO:01000997	
+WARN	multiple_asserted_superclasses	ENVO:01001048	rdfs:subClassOf	ENVO:01000998	
+WARN	multiple_asserted_superclasses	ENVO:01001052	rdfs:subClassOf	ENVO:01000997	
+WARN	multiple_asserted_superclasses	ENVO:01001052	rdfs:subClassOf	ENVO:01000998	
+WARN	multiple_asserted_superclasses	ENVO:01001053	rdfs:subClassOf	ENVO:01001040	
+WARN	multiple_asserted_superclasses	ENVO:01001053	rdfs:subClassOf	ENVO:01001052	
 WARN	multiple_asserted_superclasses	ENVO:01001055	rdfs:subClassOf	ENVO:01000254	
 WARN	multiple_asserted_superclasses	ENVO:01001055	rdfs:subClassOf	ENVO:01001110	
 WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01000254	
 WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01001110	
+WARN	multiple_asserted_superclasses	ENVO:01001191	rdfs:subClassOf	ENVO:01000325	
+WARN	multiple_asserted_superclasses	ENVO:01001191	rdfs:subClassOf	ENVO:01001310	
+WARN	multiple_asserted_superclasses	ENVO:01001273	rdfs:subClassOf	ENVO:01000281	
+WARN	multiple_asserted_superclasses	ENVO:01001273	rdfs:subClassOf	ENVO:01001477	
+WARN	multiple_asserted_superclasses	ENVO:01001275	rdfs:subClassOf	ENVO:00000191	
+WARN	multiple_asserted_superclasses	ENVO:01001275	rdfs:subClassOf	ENVO:01000281	
 WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:00000131	
 WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:01001275	
 WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:03000110	
+WARN	multiple_asserted_superclasses	ENVO:01001310	rdfs:subClassOf	ENVO:01001273	
+WARN	multiple_asserted_superclasses	ENVO:01001310	rdfs:subClassOf	ENVO:01001483	
+WARN	multiple_asserted_superclasses	ENVO:01001311	rdfs:subClassOf	ENVO:01001275	
+WARN	multiple_asserted_superclasses	ENVO:01001311	rdfs:subClassOf	ENVO:01001483	
+WARN	multiple_asserted_superclasses	ENVO:01001483	rdfs:subClassOf	ENVO:00010504	
+WARN	multiple_asserted_superclasses	ENVO:01001483	rdfs:subClassOf	ENVO:01000281	
+WARN	multiple_asserted_superclasses	ENVO:01001526	rdfs:subClassOf	ENVO:00001998	
+WARN	multiple_asserted_superclasses	ENVO:01001526	rdfs:subClassOf	ENVO:01001125	
+WARN	multiple_asserted_superclasses	ENVO:01001554	rdfs:subClassOf	ENVO:01001191	
+WARN	multiple_asserted_superclasses	ENVO:01001554	rdfs:subClassOf	ENVO:01001308	
+WARN	multiple_asserted_superclasses	ENVO:01001581	rdfs:subClassOf	ENVO:01000295	
+WARN	multiple_asserted_superclasses	ENVO:01001581	rdfs:subClassOf	ENVO:01001554	
 WARN	multiple_asserted_superclasses	ENVO:09200004	rdfs:subClassOf	ENVO:09200009	
 WARN	multiple_asserted_superclasses	ENVO:09200004	rdfs:subClassOf	PATO:0000973	
 WARN	multiple_asserted_superclasses	ENVO:09200008	rdfs:subClassOf	ENVO:09200009	
@@ -479,6 +581,10 @@ WARN	multiple_asserted_superclasses	PATO:0000146	rdfs:subClassOf	PATO:0001018
 WARN	multiple_asserted_superclasses	PATO:0000146	rdfs:subClassOf	PATO:0001237	
 WARN	multiple_asserted_superclasses	PATO:0000186	rdfs:subClassOf	PATO:0001237	
 WARN	multiple_asserted_superclasses	PATO:0000186	rdfs:subClassOf	PATO:0001995	
+WARN	multiple_asserted_superclasses	PATO:0000374	rdfs:subClassOf	PATO:0000040	
+WARN	multiple_asserted_superclasses	PATO:0000374	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0000375	rdfs:subClassOf	PATO:0000040	
+WARN	multiple_asserted_superclasses	PATO:0000375	rdfs:subClassOf	PATO:0002303	
 WARN	multiple_asserted_superclasses	PATO:0000380	rdfs:subClassOf	PATO:0000044	
 WARN	multiple_asserted_superclasses	PATO:0000380	rdfs:subClassOf	PATO:0000912	
 WARN	multiple_asserted_superclasses	PATO:0000381	rdfs:subClassOf	PATO:0000044	
@@ -549,6 +655,14 @@ WARN	multiple_asserted_superclasses	PATO:0001688	rdfs:subClassOf	PATO:0001475
 WARN	multiple_asserted_superclasses	PATO:0001688	rdfs:subClassOf	PATO:0001687	
 WARN	multiple_asserted_superclasses	PATO:0001689	rdfs:subClassOf	PATO:0001476	
 WARN	multiple_asserted_superclasses	PATO:0001689	rdfs:subClassOf	PATO:0001687	
+WARN	multiple_asserted_superclasses	PATO:0001693	rdfs:subClassOf	PATO:0000998	
+WARN	multiple_asserted_superclasses	PATO:0001693	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0001694	rdfs:subClassOf	PATO:0000998	
+WARN	multiple_asserted_superclasses	PATO:0001694	rdfs:subClassOf	PATO:0002303	
+WARN	multiple_asserted_superclasses	PATO:0001825	rdfs:subClassOf	PATO:0001823	
+WARN	multiple_asserted_superclasses	PATO:0001825	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0001826	rdfs:subClassOf	PATO:0001823	
+WARN	multiple_asserted_superclasses	PATO:0001826	rdfs:subClassOf	PATO:0002303	
 WARN	multiple_asserted_superclasses	PATO:0001843	rdfs:subClassOf	PATO:0001842	
 WARN	multiple_asserted_superclasses	PATO:0001843	rdfs:subClassOf	PATO:0002303	
 WARN	multiple_asserted_superclasses	PATO:0001844	rdfs:subClassOf	PATO:0001842	
@@ -643,43 +757,73 @@ WARN	missing_definition	CARO:0030000	IAO:0000115
 WARN	missing_definition	CHEBI:138675	IAO:0000115		
 WARN	missing_definition	CHEBI:15022	IAO:0000115		
 WARN	missing_definition	CHEBI:15379	IAO:0000115		
+WARN	missing_definition	CHEBI:16301	IAO:0000115		
+WARN	missing_definition	CHEBI:17632	IAO:0000115		
 WARN	missing_definition	CHEBI:17891	IAO:0000115		
 WARN	missing_definition	CHEBI:17997	IAO:0000115		
 WARN	missing_definition	CHEBI:23014	IAO:0000115		
 WARN	missing_definition	CHEBI:23114	IAO:0000115		
 WARN	missing_definition	CHEBI:24471	IAO:0000115		
+WARN	missing_definition	CHEBI:24834	IAO:0000115		
 WARN	missing_definition	CHEBI:24839	IAO:0000115		
 WARN	missing_definition	CHEBI:25362	IAO:0000115		
 WARN	missing_definition	CHEBI:25806	IAO:0000115		
+WARN	missing_definition	CHEBI:26079	IAO:0000115		
+WARN	missing_definition	CHEBI:26082	IAO:0000115		
+WARN	missing_definition	CHEBI:26675	IAO:0000115		
+WARN	missing_definition	CHEBI:26677	IAO:0000115		
 WARN	missing_definition	CHEBI:26712	IAO:0000115		
+WARN	missing_definition	CHEBI:28938	IAO:0000115		
+WARN	missing_definition	CHEBI:29241	IAO:0000115		
+WARN	missing_definition	CHEBI:33241	IAO:0000115		
 WARN	missing_definition	CHEBI:33242	IAO:0000115		
 WARN	missing_definition	CHEBI:33262	IAO:0000115		
 WARN	missing_definition	CHEBI:33263	IAO:0000115		
 WARN	missing_definition	CHEBI:33266	IAO:0000115		
 WARN	missing_definition	CHEBI:33267	IAO:0000115		
+WARN	missing_definition	CHEBI:33328	IAO:0000115		
+WARN	missing_definition	CHEBI:33458	IAO:0000115		
+WARN	missing_definition	CHEBI:33459	IAO:0000115		
 WARN	missing_definition	CHEBI:33465	IAO:0000115		
 WARN	missing_definition	CHEBI:33521	IAO:0000115		
 WARN	missing_definition	CHEBI:33582	IAO:0000115		
 WARN	missing_definition	CHEBI:33608	IAO:0000115		
 WARN	missing_definition	CHEBI:33679	IAO:0000115		
 WARN	missing_definition	CHEBI:33693	IAO:0000115		
+WARN	missing_definition	CHEBI:33702	IAO:0000115		
 WARN	missing_definition	CHEBI:33958	IAO:0000115		
+WARN	missing_definition	CHEBI:35106	IAO:0000115		
+WARN	missing_definition	CHEBI:35274	IAO:0000115		
 WARN	missing_definition	CHEBI:35479	IAO:0000115		
+WARN	missing_definition	CHEBI:35881	IAO:0000115		
 WARN	missing_definition	CHEBI:36093	IAO:0000115		
 WARN	missing_definition	CHEBI:36342	IAO:0000115		
+WARN	missing_definition	CHEBI:36359	IAO:0000115		
+WARN	missing_definition	CHEBI:36360	IAO:0000115		
 WARN	missing_definition	CHEBI:36902	IAO:0000115		
 WARN	missing_definition	CHEBI:36908	IAO:0000115		
+WARN	missing_definition	CHEBI:36914	IAO:0000115		
+WARN	missing_definition	CHEBI:36915	IAO:0000115		
 WARN	missing_definition	CHEBI:37176	IAO:0000115		
+WARN	missing_definition	CHEBI:37190	IAO:0000115		
+WARN	missing_definition	CHEBI:37191	IAO:0000115		
 WARN	missing_definition	CHEBI:38702	IAO:0000115		
+WARN	missing_definition	CHEBI:46890	IAO:0000115		
 WARN	missing_definition	CHEBI:4705	IAO:0000115		
+WARN	missing_definition	CHEBI:48123	IAO:0000115		
+WARN	missing_definition	CHEBI:50312	IAO:0000115		
+WARN	missing_definition	CHEBI:50313	IAO:0000115		
 WARN	missing_definition	CHEBI:51143	IAO:0000115		
 WARN	missing_definition	CHEBI:52211	IAO:0000115		
 WARN	missing_definition	CHEBI:52625	IAO:0000115		
+WARN	missing_definition	CHEBI:60242	IAO:0000115		
+WARN	missing_definition	CHEBI:62764	IAO:0000115		
 WARN	missing_definition	CHEBI:76413	IAO:0000115		
+WARN	missing_definition	CHEBI:79389	IAO:0000115		
 WARN	missing_definition	ENVO:00000000	IAO:0000115		
+WARN	missing_definition	ENVO:00000240	IAO:0000115		
 WARN	missing_definition	ENVO:00002030	IAO:0000115		
-WARN	missing_definition	ENVO:2100001	IAO:0000115		
-WARN	missing_definition	ENVO:2100007	IAO:0000115		
+WARN	missing_definition	ENVO:01001476	IAO:0000115		
 WARN	missing_definition	FOODON:00001714	IAO:0000115		
 WARN	missing_definition	FOODON:03411041	IAO:0000115		
 WARN	missing_definition	FOODON:03412972	IAO:0000115		
@@ -793,11 +937,55 @@ WARN	missing_definition	PMO:00000070	IAO:0000115
 WARN	missing_definition	PMO:00000071	IAO:0000115		
 WARN	missing_definition	PMO:00000072	IAO:0000115		
 WARN	missing_definition	PMO:00000073	IAO:0000115		
+WARN	missing_definition	PMO:00000075	IAO:0000115		
+WARN	missing_definition	PMO:00000076	IAO:0000115		
+WARN	missing_definition	PMO:00000077	IAO:0000115		
+WARN	missing_definition	PMO:00000078	IAO:0000115		
+WARN	missing_definition	PMO:00000079	IAO:0000115		
+WARN	missing_definition	PMO:00000080	IAO:0000115		
+WARN	missing_definition	PMO:00000081	IAO:0000115		
+WARN	missing_definition	PMO:00000082	IAO:0000115		
+WARN	missing_definition	PMO:00000084	IAO:0000115		
+WARN	missing_definition	PMO:00000085	IAO:0000115		
+WARN	missing_definition	PMO:00000086	IAO:0000115		
+WARN	missing_definition	PMO:00000087	IAO:0000115		
+WARN	missing_definition	PMO:00000088	IAO:0000115		
+WARN	missing_definition	PMO:00000089	IAO:0000115		
+WARN	missing_definition	PMO:00000090	IAO:0000115		
+WARN	missing_definition	PMO:00000091	IAO:0000115		
+WARN	missing_definition	PMO:00000092	IAO:0000115		
+WARN	missing_definition	PMO:00000093	IAO:0000115		
+WARN	missing_definition	PMO:00000100	IAO:0000115		
+WARN	missing_definition	PMO:00000101	IAO:0000115		
+WARN	missing_definition	PMO:00000105	IAO:0000115		
+WARN	missing_definition	PMO:00000106	IAO:0000115		
+WARN	missing_definition	PMO:00000108	IAO:0000115		
+WARN	missing_definition	PMO:00000109	IAO:0000115		
+WARN	missing_definition	PMO:00000110	IAO:0000115		
+WARN	missing_definition	PMO:00000113	IAO:0000115		
+WARN	missing_definition	PMO:00000114	IAO:0000115		
+WARN	missing_definition	PMO:00000115	IAO:0000115		
+WARN	missing_definition	PMO:00000117	IAO:0000115		
+WARN	missing_definition	PMO:00000118	IAO:0000115		
+WARN	missing_definition	PMO:00000122	IAO:0000115		
+WARN	missing_definition	PMO:00000123	IAO:0000115		
+WARN	missing_definition	PMO:00000124	IAO:0000115		
+WARN	missing_definition	PMO:00000125	IAO:0000115		
+WARN	missing_definition	PMO:00000126	IAO:0000115		
+WARN	missing_definition	PMO:00000128	IAO:0000115		
+WARN	missing_definition	PMO:00000129	IAO:0000115		
+WARN	missing_definition	PMO:00000130	IAO:0000115		
+WARN	missing_definition	PMO:00000131	IAO:0000115		
+WARN	missing_definition	PMO:00000132	IAO:0000115		
+WARN	missing_definition	RO:0001018	IAO:0000115		
+WARN	missing_definition	RO:0001019	IAO:0000115		
 WARN	missing_definition	RO:0002017	IAO:0000115		
 WARN	missing_definition	RO:0002022	IAO:0000115		
+WARN	missing_definition	RO:0002084	IAO:0000115		
 WARN	missing_definition	RO:0002086	IAO:0000115		
 WARN	missing_definition	RO:0002087	IAO:0000115		
 WARN	missing_definition	RO:0002090	IAO:0000115		
+WARN	missing_definition	RO:0002093	IAO:0000115		
 WARN	missing_definition	RO:0002222	IAO:0000115		
 WARN	missing_definition	RO:0002259	IAO:0000115		
 WARN	missing_definition	RO:0002297	IAO:0000115		
@@ -825,6 +1013,7 @@ WARN	missing_definition	RO:0004050	IAO:0000115
 WARN	missing_definition	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#attribute_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#cell_quality	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#disposition_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#hpo_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#mpath_slim	IAO:0000115		
@@ -1029,6 +1218,8 @@ INFO	lowercase_definition	RO:0000086	IAO:0000115	a relation between an independe
 INFO	lowercase_definition	RO:0000087	IAO:0000115	a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence@en	
 INFO	lowercase_definition	RO:0001000	IAO:0000115	a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en	
 INFO	lowercase_definition	RO:0001001	IAO:0000115	a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en	
+INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en	
+INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en	
 INFO	lowercase_definition	RO:0001901	IAO:0000115	        ## Elucidation        This is used when the statement/axiom is assumed to hold true 'eternally'        ## How to interpret (informal)        First the \"atemporal\" FOL is derived from the OWL using the standard    interpretation. This axiom is temporalized by embedding the axiom    within a for-all-times quantified sentence. The t argument is added to    all instantiation predicates and predicates that use this relation.        ## Example            Class: nucleus        SubClassOf: part_of some cell            forall t :          forall n :            instance_of(n,Nucleus,t)             implies            exists c :              instance_of(c,Cell,t)              part_of(n,c,t)        ## Notes        This interpretation is *not* the same as an at-all-times relation        	
 INFO	lowercase_definition	RO:0002018	IAO:0000115	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
 INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
@@ -1045,7 +1236,10 @@ INFO	lowercase_definition	RO:0002220	IAO:0000115	x adjacent to y if and only if 
 INFO	lowercase_definition	RO:0002221	IAO:0000115	inverse of surrounded by	
 INFO	lowercase_definition	RO:0002223	IAO:0000115	inverse of starts with	
 INFO	lowercase_definition	RO:0002224	IAO:0000115	x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.	
+INFO	lowercase_definition	RO:0002229	IAO:0000115	inverse of ends with	
+INFO	lowercase_definition	RO:0002230	IAO:0000115	x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.	
 INFO	lowercase_definition	RO:0002231	IAO:0000115	x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y	
+INFO	lowercase_definition	RO:0002232	IAO:0000115	x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y	
 INFO	lowercase_definition	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
 INFO	lowercase_definition	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
 INFO	lowercase_definition	RO:0002234	IAO:0000115	p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.	
@@ -1068,6 +1262,7 @@ INFO	lowercase_definition	RO:0002350	IAO:0000115	is member of is a mereological 
 INFO	lowercase_definition	RO:0002351	IAO:0000115	has member is a mereological relation between a collection and an item.	
 INFO	lowercase_definition	RO:0002352	IAO:0000115	inverse of has input	
 INFO	lowercase_definition	RO:0002353	IAO:0000115	inverse of has output	
+INFO	lowercase_definition	RO:0002379	IAO:0000115	x spatially_coextensive_with y if and inly if x and y have the same location	
 INFO	lowercase_definition	RO:0002384	IAO:0000115	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en	
 INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
 INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
@@ -1107,4 +1302,5 @@ INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2306597	IAO:0000115	\"S
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000000	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000044	rdfs:subClassOf		
+INFO	missing_superclass	PMO:00000088	rdfs:subClassOf		
 INFO	missing_superclass	UO:0000000	rdfs:subClassOf		

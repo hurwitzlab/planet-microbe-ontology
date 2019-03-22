@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-14/imports/uo_import.owl
+data-version: pmo/releases/2019-03-21/imports/uo_import.owl
 ontology: pmo/imports/uo_import
 
 [Term]
@@ -605,6 +605,15 @@ is_a: UO:0000052 ! mass density unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000177
+name: unit per volume unit
+namespace: unit.ontology
+def: "A concentration unit which is a standard measure of the number of units, as an agreed arbitrary amount, of a given substance per a specific volume of solution." [Webmd:Webmd]
+subset: unit_group_slim
+is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000182
 name: density unit
 namespace: unit.ontology
@@ -734,6 +743,16 @@ relationship: is_unit_of PATO:0001464
 created_by: george gkoutos
 
 [Term]
+id: UO:0000218
+name: volt
+namespace: unit.ontology
+def: "An electric potential difference unit which is equal to the work per unit charge. One volt is the potential difference required to move one coulomb of charge between two points in a circuit while using one joule of energy." [Wikipedia:Wikipedia]
+subset: unit_slim
+synonym: "V" EXACT []
+is_a: UO:0000217 ! electric potential difference unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000231
 name: information unit
 namespace: unit.ontology
@@ -763,6 +782,37 @@ is_a: UO:0000217 ! electric potential difference unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000261
+name: conduction unit
+namespace: unit.ontology
+def: "A unit which represents a standard measurement of the transmission of an entity through a medium." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000262
+name: electrical conduction unit
+namespace: unit.ontology
+def: "A unit which represents a standard measurement of the movement of electrically charged particles through a transmission medium (electrical conductor)." [UOC:GVG]
+subset: unit_group_slim
+is_a: UO:0000261 ! conduction unit
+relationship: is_unit_of PATO:0001757
+created_by: george gkoutos
+
+[Term]
+id: UO:0000264
+name: siemens
+namespace: unit.ontology
+def: "An electrical conduction unit which is equal to A/V." [NIST:NIST]
+subset: unit_slim
+synonym: "A V^-1" EXACT []
+synonym: "mho " RELATED []
+synonym: "S" RELATED []
+is_a: UO:0000262 ! electrical conduction unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000270
 name: volumetric flow rate unit
 namespace: unit.ontology
@@ -782,6 +832,18 @@ synonym: "uL/min" EXACT []
 is_a: UO:0000270 ! volumetric flow rate unit
 relationship: is_unit_of PATO:0001574
 created_by: george gkoutos
+
+[Term]
+id: UO:0000273
+name: milligram per liter
+namespace: unit.ontology
+def: "A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters." [UOC:GVG]
+subset: unit_slim
+synonym: "mg/L" EXACT []
+synonym: "milligram per litre" EXACT []
+is_a: UO:0000052 ! mass density unit
+created_by: george
+creation_date: 2011-03-21T10:35:01Z
 
 [Term]
 id: UO:0000280
@@ -842,6 +904,15 @@ synonym: "microgram per litre" EXACT []
 synonym: "ug/L" EXACT []
 is_a: UO:0000052 ! mass density unit
 created_by: george gkoutos
+
+[Term]
+id: UO:0000315
+name: turbidity unit
+namespace: unit.ontology
+def: "A unit used to indicate the clarity of water or other solutions or suspensions, as measured by the ability of the solution or suspension to scatter light of a defined wavelength range." [UO:PC]
+is_a: UO:0000000 ! unit
+created_by: gkoutos
+creation_date: 2013-03-12T12:20:13Z
 
 [Term]
 id: UO:0000330
