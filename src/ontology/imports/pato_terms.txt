@@ -5,3 +5,4 @@ PATO:0001595 #depth
 PATO:0001025 #pressure
 PATO:0000122 #length
 PATO:0000040 #distance
+PATO:0001430 #alkaline

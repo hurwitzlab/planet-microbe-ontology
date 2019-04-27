@@ -17,3 +17,6 @@ UO:0000177 #unit per volume unit
 UO:0000218 #volt
 UO:0000264 #siemens
 UO:0000315 #turbidity unit
+UO:0000094 #meter per second
+UO:0000155 #watt per square meter
+UO:0000201 #cells per milliliter

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-21/imports/pato_import.owl
+data-version: pmo/releases/2019-03-29/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]
@@ -800,6 +800,14 @@ def: "A concentration quality inhering in a medium by virtue of the bearer's ten
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001842 ! acidity
+
+[Term]
+id: PATO:0001430
+name: alkaline
+namespace: quality
+def: "An medium acidity quality inhering in a solution by virtue of the bearer's a low concentration of H+ ions." [chemicool:chemicool]
+subset: value_slim
+is_a: PATO:0001428 ! medium acidity
 
 [Term]
 id: PATO:0001464

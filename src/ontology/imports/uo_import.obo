@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-21/imports/uo_import.owl
+data-version: pmo/releases/2019-03-29/imports/uo_import.owl
 ontology: pmo/imports/uo_import
 
 [Term]

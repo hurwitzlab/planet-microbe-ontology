@@ -2704,6 +2704,21 @@
       "type" : "CLASS",
       "lbl" : "elongated"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001430",
+      "meta" : {
+        "definition" : {
+          "val" : "An medium acidity quality inhering in a solution by virtue of the bearer's a low concentration of H+ ions.",
+          "xrefs" : [ "chemicool:chemicool" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "alkaline"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
       "meta" : {
         "definition" : {
@@ -3137,13 +3152,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002301"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0000595",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000918"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000587",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000117"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000595",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000918"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000963",
       "pred" : "is_a",
@@ -3513,13 +3528,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0001306",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001296",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001300"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001306",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000984",
       "pred" : "is_a",
@@ -3553,13 +3568,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0000964",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000957"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000068",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000964",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000957"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000918",
       "pred" : "is_a",
@@ -3809,6 +3824,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001430",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001428"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002302",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002301"
@@ -3826,7 +3845,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/pato_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-29/imports/pato_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

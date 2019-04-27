@@ -1,16 +1,16 @@
 ENVO:00001998 #soil
-ENVO:00000428	#biome
-ENVO:00002297	#environmental feature
-ENVO:00010483	#environmental material
-ENVO:09200014	#temperature of water
-ENVO:09200014	#temperature of water
-ENVO:09200021	#concentration of oxygen in water
-ENVO:3100022	#concentration of nitrate in water
-ENVO:3100026	#concentration of phosphate in water
-ENVO:3100027	#concentration of silicate(4-) in water
-ENVO:3100031	#depth of water
-ENVO:3100032	#fluorescence of water
-ENVO:3100033	#pressure of water
+ENVO:00000428 #biome
+ENVO:00002297 #environmental feature
+ENVO:00010483 #environmental material
+ENVO:09200014 #temperature of water
+ENVO:09200014 #temperature of water
+ENVO:09200021 #concentration of oxygen in water
+ENVO:3100022 #concentration of nitrate in water
+ENVO:3100026 #concentration of phosphate in water
+ENVO:3100027 #concentration of silicate(4-) in water
+ENVO:3100031 #depth of water
+ENVO:3100032 #fluorescence of water
+ENVO:3100033 #pressure of water
 ENVO:00002149 #seawater
 ENVO:00000015 #ocean
 ENVO:3100023 #concentration of nitrite in water
@@ -19,3 +19,10 @@ ENVO:3100034 #concentration of silicic acid in water
 ENVO:01000063 #planktonic material
 ENVO:09200018 #conductivity of water
 ENVO:3100032 #fluorescence of water
+ENVO:01001026 #electromagnetic radiation
+ENVO:3100008 #concentration of chlorophyll a in water
+ENVO:3100014 #concentration of fucoxanthin in water
+ENVO:3100029 #concentration of zeaxanthin in water
+ENVO:3100009 #concentration of chlorophyll b in water
+
+
