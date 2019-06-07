@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-29/imports/uo_import.owl
+data-version: pmo/releases/2019-06-07/imports/uo_import.owl
 ontology: pmo/imports/uo_import
 
 [Term]
@@ -330,6 +330,16 @@ relationship: is_unit_of PATO:0001353
 created_by: george gkoutos
 
 [Term]
+id: UO:0000060
+name: speed/velocity unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+relationship: is_unit_of PATO:0000008
+created_by: george gkoutos
+
+[Term]
 id: UO:0000061
 name: unit of molarity
 namespace: unit.ontology
@@ -406,6 +416,17 @@ subset: unit_slim
 synonym: "kg/m^[3]" EXACT []
 synonym: "kilogram per cubic metre" EXACT []
 is_a: UO:0000052 ! mass density unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000094
+name: meter per second
+namespace: unit.ontology
+def: "A speed/velocity unit which is equal to the speed of an object traveling 1 meter distance in one second." [NIST:NIST]
+subset: unit_slim
+synonym: "m/s" EXACT []
+synonym: "metre per second" EXACT []
+is_a: UO:0000060 ! speed/velocity unit
 created_by: george gkoutos
 
 [Term]
@@ -545,6 +566,35 @@ namespace: unit.ontology
 def: "A unit which is a standard measure of the angle formed by two straight lines in the same plane." [Wikipedia:Wikipedia]
 subset: unit_group_slim
 is_a: UO:0000121 ! angle unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000154
+name: irradiance unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the power of electromagnetic radiation at a surface, per unit area." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000157 ! light unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000155
+name: watt per square meter
+namespace: unit.ontology
+def: "An irradiance unit which is equal to 1 watt of radiant power incident per one square meter surface area." [NIST:NIST]
+subset: unit_slim
+synonym: "W/m^[2]" EXACT []
+synonym: "watt per square metre" EXACT []
+is_a: UO:0000154 ! irradiance unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000157
+name: light unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the intensity of light." [NIST:NIST]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
 created_by: george gkoutos
 
 [Term]
@@ -690,6 +740,26 @@ subset: unit_slim
 is_a: UO:0000051 ! concentration unit
 is_a: UO:0000186 ! dimensionless unit
 relationship: is_unit_of PATO:0001428
+created_by: george gkoutos
+
+[Term]
+id: UO:0000200
+name: cell concentration unit
+namespace: unit.ontology
+def: "A concentration unit which denotes the average cell number in a given volume." [Bioedonline:Bioedonline]
+subset: unit_group_slim
+is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000201
+name: cells per milliliter
+namespace: unit.ontology
+def: "A unit of cell concentration which is equal to one cell in a volume of 1 milliliter." [Bioedonline:Bioedonline]
+subset: unit_slim
+synonym: "cells per millilitre" EXACT []
+synonym: "cells per ml" EXACT []
+is_a: UO:0000200 ! cell concentration unit
 created_by: george gkoutos
 
 [Term]

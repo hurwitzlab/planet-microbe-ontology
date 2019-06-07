@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-29/imports/pato_import.owl
+data-version: pmo/releases/2019-06-07/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]

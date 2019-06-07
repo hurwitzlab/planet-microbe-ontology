@@ -15723,10 +15723,10 @@
           "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
@@ -17123,13 +17123,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000806"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0001995",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000749",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001995",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000051",
       "pred" : "is_a",
@@ -17347,13 +17347,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0001547"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000409",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000416",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000032"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000409",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000179",
       "pred" : "is_a",
@@ -17683,13 +17683,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0002252",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002264",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002252",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000094",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
@@ -18059,13 +18059,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0002250",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002262",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002250",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0100026",
       "pred" : "is_a",
@@ -18179,13 +18179,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000659"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0001173",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001546",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001237"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0001173",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002274",
       "pred" : "type",
@@ -19752,7 +19752,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-29/imports/obi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-06-07/imports/obi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
