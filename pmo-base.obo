@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-03-21/pmo-base.owl
+data-version: pmo/releases/2019-06-07/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -22,36 +22,44 @@ property_value: IAO:0000118 http://purl.obolibrary.org/obo/NCBITaxon_408169 xsd:
 [Term]
 id: PMO:00000005
 name: site label
+def: "A datum lable which serves to lable a site of investigation." []
 is_a: IAO:0000009
 
 [Term]
 id: PMO:00000006
 name: bottle label
 is_a: IAO:0000009
+property_value: IAO:0000116 "May depricate this term." xsd:string
 
 [Term]
 id: PMO:00000007
 name: project investigation identifier
+def: "An investigation identifier which represents a sampling project." []
 is_a: OBI:0001628
+property_value: IAO:0000116 "Ex: TARA, OSD, HOT" xsd:string
 
 [Term]
 id: PMO:00000008
 name: specimen collection time measurement datum start
+def: "A time measurement datum that is the measure of the start time when the specimens are collected." []
 is_a: OBI:0001619
 
 [Term]
 id: PMO:00000009
 name: specimen collection time measurement datum stop
+def: "A time measurement datum that is the measure of the time when the specimens are finished being collected." []
 is_a: OBI:0001619
 
 [Term]
 id: PMO:00000010
 name: conductivity temperature pressure instrument
+def: "A measurement device which measures temperature and pressure." []
 is_a: OBI:0000832
 
 [Term]
 id: PMO:00000011
 name: rosette sampling device
+def: "A specimen collection device which is comprised of an assemblage of bottles used to sample water from a water body." [https://en.wikipedia.org/wiki/Rosette_sampler]
 is_a: PMO:00000074 ! specimen collection device
 
 [Term]
@@ -59,47 +67,58 @@ id: PMO:00000012
 name: rosette sampling device niskin position
 def: "A part of a rosette sampling device in which a niskin bottle is positioned for deployment." []
 is_a: BFO:0000024
+property_value: IAO:0000116 "Perhaps depricate this term." xsd:string
 
 [Term]
 id: PMO:00000013
 name: salinity
-def: "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per liter of solution." []
+def: "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per volume of solution." []
 is_a: PATO:0001655
+property_value: IAO:0000116 "To add to PATO or ENVO." xsd:string
 
 [Term]
 id: PMO:00000014
-name: water salinity
+name: liquid water salinity
+def: "A salinity quality which inheres in liquid water." []
 is_a: PMO:00000013 ! salinity
 intersection_of: PMO:00000013 ! salinity
 intersection_of: RO:0000052 ENVO:00002006
+property_value: IAO:0000116 "To add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000015
-name: visible spectrum stellar electromagnetic radiation opacity of water
+name: visible spectrum stellar electromagnetic radiation opacity of liquid water
+def: "An opacity quality in which visible spectrum stellar electromagnetic radiation inheres in liquid water." []
 is_a: PATO:0000957
 intersection_of: PATO:0000957
 intersection_of: RO:0000052 ENVO:00002006
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000016
 name: number of observations averaged to produce device measurment datum
 is_a: IAO:0000109
+property_value: IAO:0000116 "Perhaps depricate." xsd:string
 
 [Term]
 id: PMO:00000017
 name: number of observations averaged at pressure level to produce CTD measurment datum
 is_a: PMO:00000016 ! number of observations averaged to produce device measurment datum
+property_value: IAO:0000116 "Perhaps depricate." xsd:string
 
 [Term]
 id: PMO:00000018
 name: concentration of nitrate and nitrite in water
+def: "The concentration of nitrate and nitrite when measured in water." []
 is_a: PATO:0000033
+property_value: IAO:0000116 "Add to envo, see ENVO issue #663 https://github.com/EnvironmentOntology/envo/issues/663" xsd:string
 
 [Term]
 id: PMO:00000019
 name: replicate
 def: "A role played by a biological sample in the context of an experiment where the  intent is that biological or technical variation is measured." []
 is_a: BFO:0000023
+property_value: IAO:0000116 "Find a way to import EFO or use an equivalent class from OBI. Or perhaps depricate." xsd:string
 property_value: IAO:0000118 http://www.ebi.ac.uk/efo/EFO_0000683 xsd:string
 
 [Term]
@@ -109,6 +128,7 @@ def: "A temperature which would inhere in a bearer if such bearer were adiabatic
 comment: Standard pressure is typically one atmosphere.
 synonym: "theta" RELATED []
 is_a: PATO:0000146
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 
 [Term]
 id: PMO:00000021
@@ -116,96 +136,121 @@ name: potential density
 def: "A density which would inhere in a bearer if such bearer were adiabatically \nbrought to a standard reference pressure." [https://en.wikipedia.org/wiki/Potential_density]
 synonym: "sigma" RELATED []
 is_a: PATO:0001019
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 
 [Term]
 id: PMO:00000022
-name: lower size threshold filter paper
-is_a: OBI:0000747
-relationship: BFO:0000051 OBI:0000151
+name: aquatic sample minimum filter fractionation size threshold
+is_a: PMO:00000168 ! aquatic environmental material sample filter fractionation size
+property_value: IAO:0000116 "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process." xsd:string
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000023
-name: upper size threshold filter paper
-is_a: OBI:0000747
-relationship: BFO:0000051 OBI:0000151
+name: aquatic sample maximum filter fractionation size threshold
+def: "A size quality which inheres in an aquatic environmental material sample by virtue of being the maximum particle size obtained when such bearer is subject to a size fractionating filtration process." []
+is_a: PMO:00000168 ! aquatic environmental material sample filter fractionation size
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000024
 name: specimen volume
+def: "A volume quality which inheres in a specimen." []
 is_a: PATO:0000918
 relationship: RO:0000052 OBI:0100051
+property_value: IAO:0000116 "Add to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000025
 name: water sample volume
+def: "A specimen volume quality which inheres in a specimen which consists of liquid water." []
 is_a: PMO:00000024 ! specimen volume
 relationship: RO:0000052 ENVO:00002006
+property_value: IAO:0000116 "Fix and add to BCO or OBI." xsd:string
 
 [Term]
 id: PMO:00000026
 name: concentration of chlorophyll in water
 is_a: PATO:0000033
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100036 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100036
 
 [Term]
 id: PMO:00000027
 name: concentration of nitrate in water
 is_a: PATO:0000033
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100022 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100022
 
 [Term]
 id: PMO:00000028
 name: pressure of water
 is_a: PATO:0001025
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100033 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100033
 
 [Term]
 id: PMO:00000029
 name: depth of water
 is_a: PATO:0001595
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100031 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100031
 
 [Term]
 id: PMO:00000030
 name: fluorescence of water
 is_a: PATO:0000018
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100032 xsd:string
+is_obsolete: true
+replaced_by: ENVO_3100032
 
 [Term]
 id: PMO:00000031
 name: concentration of phosphate in water
 is_a: PATO:0000033
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100026 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100026
 
 [Term]
 id: PMO:00000032
 name: concentration of silicate(4-) in water
 is_a: PATO:0000033
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100027 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100027
 
 [Term]
 id: PMO:00000033
 name: bar
 def: "A pressure unit which is equal to 100,000 pascal." [https://en.wikipedia.org/wiki/Bar_(unit)]
 is_a: UO:0000109
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000034
 name: decibar
 def: "A pressure unit which is equal to one tenth of a bar." []
 is_a: UO:0000109
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000035
 name: atmosphere unit
 def: "A pressure unit which is equal to 101325 pascal." [https://en.wikipedia.org/wiki/Atmosphere_(unit)]
 is_a: UO:0000109
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000036
 name: salinity unit
 def: "A unit which is a standard measure of salinity." []
 is_a: UO:0000000
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000037
@@ -213,6 +258,7 @@ name: practical salinity unit
 synonym: "PSS-78" EXACT []
 synonym: "PSU" EXACT []
 is_a: PMO:00000036 ! salinity unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000038
@@ -220,16 +266,19 @@ name: international temperature scale of 1990 unit
 synonym: "ITS-90" EXACT []
 xref: https://www.omega.com/temperature/Z/pdf/z186-193.pdf
 is_a: UO:0000005
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000044
 name: Data
+property_value: IAO:0000116 "Figure out how to import EDAM." xsd:string
 property_value: IAO:0000118 http://edamontology.org/data_0006 xsd:string
 
 [Term]
 id: PMO:00000045
 name: Identifier
 is_a: PMO:00000044 ! Data
+property_value: IAO:0000116 "Figure out how to import EDAM." xsd:string
 property_value: IAO:0000118 http://edamontology.org/data_0842 xsd:string
 
 [Term]
@@ -249,62 +298,74 @@ id: PMO:00000048
 name: data submission date
 def: "A data item that is the date in which a data item was submitted to a central registry." []
 is_a: IAO:0000027
+property_value: IAO:0000116 "Clean and add to IAO." xsd:string
 
 [Term]
 id: PMO:00000049
 name: data submission update date
 def: "A data item that is the date in which a data item previously submitted to a central registry was updated." []
 is_a: PMO:00000048 ! data submission date
+property_value: IAO:0000116 "Add to IAO." xsd:string
 
 [Term]
 id: PMO:00000050
 name: number of specimen collection devices employed
 is_a: IAO:0000109
+equivalent_to: PMO:00000051 ! number of niskin bottles deployed during speciment collection process event
+property_value: IAO:0000116 "consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000051
 name: number of niskin bottles deployed during speciment collection process event
-is_a: PMO:00000050 ! number of specimen collection devices employed
+property_value: IAO:0000116 "Consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000052
 name: maximum depth of water collected during specimen collection process
-is_a: PMO:00000029 ! depth of water
+is_a: ENVO:3100031
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: depth of water." xsd:string
 
 [Term]
 id: PMO:00000053
 name: maximum pressure of water collected during specimen collection process
-is_a: PMO:00000028 ! pressure of water
+is_a: ENVO:3100033
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: pressure of water." xsd:string
 
 [Term]
 id: PMO:00000054
 name: number designating study site
 is_a: IAO:0000109
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" xsd:string
 
 [Term]
 id: PMO:00000056
 name: centrally registered sampling event identifier
 is_a: IAO:0000578
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" xsd:string
 
 [Term]
 id: PMO:00000057
 name: ctd cast number
 is_a: PMO:00000056 ! centrally registered sampling event identifier
+property_value: IAO:0000116 "Perhaps useful perhaps consider for deprication?" xsd:string
 
 [Term]
 id: PMO:00000058
 name: sampling expedition
 is_a: OBI:0000011
+property_value: IAO:0000116 "sampling campaign, perhaps useful perhaps depricate." xsd:string
 
 [Term]
 id: PMO:00000059
 name: sampling expedition leg
 is_a: PMO:00000058 ! sampling expedition
+property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000060
 name: sampling expedition identifier
 is_a: OBI:0001628
+property_value: IAO:0000116 "sampling campaign Ex: TARA ocean, Tara arctic OSD 2014, HOT194 etc. Perhaps push to BCO?" xsd:string
 
 [Term]
 id: PMO:00000061
@@ -327,36 +388,46 @@ is_a: PMO:00000062 ! File Name
 id: PMO:00000065
 name: sampling expedition project investigation and leg identifier
 is_a: PMO:00000060 ! sampling expedition identifier
+property_value: IAO:0000116 "Consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000066
 name: repeated expedition location identifier
 is_a: PMO:00000060 ! sampling expedition identifier
+property_value: IAO:0000116 "Perhaps consider for deprication. Maybe same as superclass samplping expedition identifier." xsd:string
 
 [Term]
 id: PMO:00000067
 name: navigation device
 is_a: OBI:0000968
+property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000068
 name: global positioning system device
 is_a: PMO:00000067 ! navigation device
+property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000069
 name: genomic library preparation device
+def: "A device which is used to prepare a genomic library." []
 is_a: OBI:0000968
+property_value: IAO:0000116 "Could be useful semantic to push to OBI." xsd:string
 
 [Term]
 id: PMO:00000070
 name: data publication date
+def: "A data item which indicates the publication date of a dataset." []
 is_a: IAO:0000027
+property_value: IAO:0000116 "Perhaps could make more general just \"publication date\" and not have it be specific to a dataset." xsd:string
 
 [Term]
 id: PMO:00000071
 name: length of DNA sequence data
+def: "A length which inheres in a DNA sequence datum namely the number of basepairs in the sequence." []
 is_a: PATO:0000122
+property_value: IAO:0000116 "Perhaps useful semantic to push to OBI?" xsd:string
 
 [Term]
 id: PMO:00000072
@@ -366,13 +437,16 @@ is_a: PATO:0000117
 [Term]
 id: PMO:00000073
 name: number of locations sequenced within a DNA sequence
+def: "A measurment datum which describes the number of locations sequenced witin a DNA sequence." []
 is_a: IAO:0000109
+property_value: IAO:0000116 "Unsure if this is worth pushing to IAO or BCO." xsd:string
 
 [Term]
 id: PMO:00000074
 name: specimen collection device
 def: "A device which is used to collect a specimen during a specimen collection process." []
 is_a: OBI:0000968
+property_value: IAO:0000116 "Definately should push to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000075
@@ -384,63 +458,75 @@ property_value: IAO:0000118 http://purl.obolibrary.org/obo/OBI_0001898 xsd:strin
 [Term]
 id: PMO:00000076
 name: latitude coordinate measurement datum start
+def: "A measurement datum that is the measure of the starting latitude coordinate of a site during a specimen collection process." []
 is_a: OBI:0001620
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000077
 name: longitude coordinate measurement datum start
+def: "A measurement datum that is the measure of the starting longitude coordinate of a site during a specimen collection process." []
 is_a: OBI:0001621
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000078
 name: longitude coordinate measurement datum stop
+def: "A measurement datum that is the measure of the longitude coordinate of a site at the end of a specimen collection process." []
 is_a: OBI:0001621
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000079
 name: latitude coordinate measurement datum stop
+def: "A measurement datum that is the measure of the latitude coordinate of a site at the end of a specimen collection process." []
 is_a: OBI:0001620
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000080
 name: time zone
 is_a: IAO:0000416
-property_value: IAO:0000116 "e.g. UTC+00 from OSD" xsd:string
+property_value: IAO:0000116 "e.g. UTC+00 from OSD. Consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000081
 name: specimen collection time measurement datum in localized time zone
 is_a: OBI:0001619
+property_value: IAO:0000116 "Probably deprecate this term." xsd:string
 
 [Term]
 id: PMO:00000083
 name: distance between site and country border
 def: "A distance which seperates a site from the nearest boarder of a country." []
 is_a: PATO:0000040
+property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 
 [Term]
 id: PMO:00000084
 name: geographic region
 is_a: BFO:0000009
-property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there?" xsd:string
+property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there? Check where this term is being used and perhaps deprecate if un-needed." xsd:string
 
 [Term]
 id: PMO:00000085
 name: biogeochemical province
 synonym: "Longhurst Province" EXACT []
 is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "Perhaps add to ENVO or GAZ. Depending on status of integration of marineregions.org into GAZ. See https://github.com/EnvironmentOntology/gaz/issues/29" xsd:string
 property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22538 xsd:string
 
 [Term]
 id: PMO:00000086
 name: biogeochemical province label
 is_a: IAO:0000009
-property_value: IAO:0000116 "link to biogeochemical province" xsd:string
+property_value: IAO:0000116 "link to biogeochemical province. Consider for deprecation." xsd:string
 
 [Term]
 id: PMO:00000087
 name: distance between site and biogeochemical province
 is_a: PATO:0000040
+property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 
 [Term]
 id: PMO:00000088
@@ -452,6 +538,7 @@ property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000448 xsd:stri
 id: PMO:00000089
 name: Oceans and Seas
 is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "Figure out how to import from GAZ." xsd:string
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000590 xsd:string
 
 [Term]
@@ -459,6 +546,7 @@ id: PMO:00000090
 name: distance between a site and a geographic location
 is_a: PATO:0000040
 property_value: IAO:0000116 "add link to http://purl.obolibrary.org/obo/GAZ_00000448" xsd:string
+property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 
 [Term]
 id: PMO:00000091
@@ -471,48 +559,60 @@ property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=
 id: PMO:00000092
 name: International Hydrographic Organization Sea Area
 is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "From http://www.marineregions.org/sources.php. Figure out how to integrate with GAZ and or ENVO." xsd:string
 
 [Term]
 id: PMO:00000093
 name: specimen collection process data doccument
+def: "A doccument which comprises raw data collected during a specimen collection process." []
 is_a: IAO:0000310
+property_value: IAO:0000116 "Add to BCO." xsd:string
 property_value: IAO:0000116 "Original sampling handbook or checklist from a sampling experiment or specimen collection process." xsd:string
 
 [Term]
 id: PMO:00000100
 name: plankton aggregate
+def: "A multi-species collection of planktonic organisms which have been aggregrated as a result of a specimen collection process." []
 is_a: PCO:0000029
+property_value: IAO:0000116 "Clean and add to PCO or BCO." xsd:string
 
 [Term]
 id: PMO:00000101
 name: nanoplankton and microplankton aggregate
+def: "A plankton aggregate which comprises aggregated nanoplankton and microplankton." []
 is_a: PMO:00000100 ! plankton aggregate
 property_value: IAO:0000116 "add axioms to link to http://purl.obolibrary.org/obo/PMO_00000106 and http://purl.obolibrary.org/obo/PMO_00000105" xsd:string
 
 [Term]
 id: PMO:00000102
 name: dissolved organic carbon
-def: "An aggregate of carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+def: "An aggregate of organic carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
 is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Clean and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000103
 name: particulate organic carbon
-def: "An aggregate of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+def: "An aggregate of organic carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
 synonym: "suspended organic carbon" EXACT []
 is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Clean and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000105
 name: microplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 20 and 200 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Microplankton" NARROW []
 is_a: ENVO:01000063
-property_value: IAO:0000116 "20 to 200 micrometers" xsd:string
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000106
 name: nanophytoplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 2 and 20 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Nanoplankton" NARROW []
 is_a: ENVO:01000063
-property_value: IAO:0000116 "2 to 20 micrometers" xsd:string
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Plankton#Size_groups xsd:string
 
 [Term]
@@ -521,109 +621,137 @@ name: autotrophic biomass formation process
 def: "A process during which an organism produces biomass from abiotic components using an autotrophic growth process." []
 synonym: "primary productivity" BROAD []
 is_a: PMO:00000117 ! biomass formation process
-property_value: IAO:0000116 "link to" xsd:string
+property_value: IAO:0000116 "link to PMO_00000108, and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000108
 name: primary productivity carbon
+def: "An aggregation of carbon molecules which constitute biomass accumulated during an autotrophic biomass formation process." []
 is_a: PMO:00000109 ! aggregation of carbon molecules
-property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000107" xsd:string
+property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000107, clean and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000109
 name: aggregation of carbon molecules
+def: "An object aggregate which is composed primarily of carbon molecules." []
 is_a: BFO:0000027
+property_value: IAO:0000116 "Link to CHEBI carbon molecule" xsd:string
 
 [Term]
 id: PMO:00000110
 name: aggregation of nitrogen molecules
+def: "An object aggregate which is composed primarily of nitrogen molecules." []
 is_a: BFO:0000027
+property_value: IAO:0000116 "Clean and add to ENVO." xsd:string
+property_value: IAO:0000116 "Link to CHEBI nitrogen molecule." xsd:string
 
 [Term]
 id: PMO:00000111
 name: dissolved organic nitrogen
 def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/dissolved-organic-nitrogen]
 is_a: PMO:00000110 ! aggregation of nitrogen molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000112
 name: particulate organic nitrogen
-def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen]
+def: "An aggregate of organic nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen]
 is_a: PMO:00000110 ! aggregation of nitrogen molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000113
 name: mesoplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 0.2 and 20 milimeters." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Mesoplankton" NARROW []
 is_a: ENVO:01000063
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000114
 name: mesoplankton and macroplankton aggregate
+def: "A plankton aggregate which comprises aggregated mesoplankton and macroplankton." []
 is_a: PMO:00000100 ! plankton aggregate
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000115 and http://purl.obolibrary.org/obo/PMO_00000113" xsd:string
 
 [Term]
 id: PMO:00000115
 name: macroplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 2 and 20 centimeters." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Macroplankton" NARROW []
 is_a: ENVO:01000063
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000116
 name: prokaryote derived carbon
 def: "An aggregate of carbon-containing molecules which were derived from a prokaryotic biomass formation process." []
 is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000117
 name: biomass formation process
+def: "An environmental system process during which growing organsims produce new biomass." []
 is_a: ENVO:02500000
+property_value: IAO:0000116 "Clean definition, add axioms and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000118
 name: prokaryotic biomass formation process
+def: "A biomass formation process during which prokaryotic organisms create novel biomass." []
 is_a: PMO:00000117 ! biomass formation process
+property_value: IAO:0000116 "Clean definition, add axioms and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000120
 name: turbidity
-def: "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer." [https://en.wikipedia.org/wiki/Turbidity]
-xref: https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf
+def: "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer." [https://en.wikipedia.org/wiki/Turbidity, https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf]
 is_a: PATO:0001018
+property_value: IAO:0000116 "Add to PATO." xsd:string
 
 [Term]
 id: PMO:00000121
 name: turbidity of water
 def: "A turbidity quality which inheres in a water bearer." []
 is_a: PMO:00000120 ! turbidity
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 
 [Term]
 id: PMO:00000122
 name: Biosample identifier assigned by the National Center for Biotechnology Information
+def: "A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information." []
 is_a: OBI:0001901
-property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646" xsd:string
+property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it." xsd:string
 
 [Term]
 id: PMO:00000123
 name: secondary sample accession identifier assigned by the European Nucleotide Archive
 is_a: OBI:0001901
+property_value: IAO:0000116 "Consider for deprication?" xsd:string
 property_value: IAO:0000116 "example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668" xsd:string
 
 [Term]
 id: PMO:00000124
 name: INSDC bioarchive accession number
 is_a: OBI:0001901
-property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission." xsd:string
+property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission. Consider for deprecation?" xsd:string
 
 [Term]
 id: PMO:00000125
 name: material flux unit
+def: "A unit which is a measure of flux which is typically expressed as volume per area per unit of time." []
 is_a: UO:0000000
+property_value: IAO:0000116 "Add to UO." xsd:string
 property_value: IAO:0000116 "similar to the example from http://reverseosmosischemicals.com/reverse-osmosis-guides/reverse-osmosis-glossary-terms/flux-water-flux-reverse-osmosis-systems" xsd:string
 
 [Term]
 id: PMO:00000126
 name: micromole per square meter per second
+def: "A material flux unit which is equal to one micromole per square meter per second." []
 is_a: PMO:00000125 ! material flux unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000127
@@ -634,25 +762,311 @@ is_a: UO:0000000
 [Term]
 id: PMO:00000128
 name: miligram per cubic meter per day
+def: "A mass density rate unit which is equal to one miligram per cubic meter per day." []
 is_a: PMO:00000127 ! mass density rate unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000129
 name: unit per cubic meter
+def: "A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one cubic meter." []
 is_a: UO:0000177
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000130
 name: milisiemens per centimeter
+def: "An electrical conduction unit which is equal to one milisiemens per centimeter." []
 is_a: UO:0000262
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000131
 name: formazin turbidity unit
+def: "A turbidity unit in which a suspension of 1.25 mg/L hydrazine sulfate and 12.5 mg/L hexamethylenetetramine in liquid water has a turbidity of one." [https://en.wikipedia.org/wiki/Formazine]
 is_a: UO:0000315
+property_value: IAO:0000116 "Clean and add to UO." xsd:string
 
 [Term]
 id: PMO:00000132
 name: miligram per cubic meter
 is_a: UO:0000052
+property_value: http://purl.org/dc/elements/1.1/description "A mass unit density which is equal to mass of an object in miligrams divided by the volume in cubic meters." xsd:string
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000133
+name: project url
+is_a: PMO:00000047 ! URL
+property_value: IAO:0000116 "Consider for deprecation." xsd:string
+property_value: IAO:0000116 "links to the same idea of a project as 'project investigation identifier'" xsd:string
+
+[Term]
+id: PMO:00000134
+name: centrally registered identifier url
+is_a: PMO:00000047 ! URL
+property_value: IAO:0000116 "a link to a centrally registered identifier. Consider for deprecation." xsd:string
+
+[Term]
+id: PMO:00000136
+name: sampling expedition time measurement datum
+def: "A time measurement datum that is the measure of the time when a sampling expedition is conducted." []
+is_a: IAO:0000416
+property_value: IAO:0000116 "Perhaps add to BCO." xsd:string
+
+[Term]
+id: PMO:00000137
+name: sampling expedition time measurement datum start
+def: "A time measurement datum that is the measure of the starting time when a sampling expedition is conducted." []
+is_a: PMO:00000136 ! sampling expedition time measurement datum
+property_value: IAO:0000116 "Perhaps add to BCO." xsd:string
+
+[Term]
+id: PMO:00000138
+name: sampling expedition time measurement datum stop
+def: "A time measurement datum that is the measure of the time when a sampling expedition is concluded." []
+is_a: PMO:00000136 ! sampling expedition time measurement datum
+property_value: IAO:0000116 "Perhaps add to BCO." xsd:string
+
+[Term]
+id: PMO:00000139
+name: alkalinity of water
+def: "The alkalinity of some liquid water." []
+is_a: PATO:0001430
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
+
+[Term]
+id: PMO:00000140
+name: equivalent unit
+def: "A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction." [https://en.wikipedia.org/wiki/Equivalent_(chemistry)]
+is_a: UO:0000000
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000141
+name: microequivalent per kilogram
+def: "An equivalent unit which is equal to one microequivalent per kilogram." []
+is_a: PMO:00000140 ! equivalent unit
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000142
+name: dissolved inorganic carbon
+def: "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate." [https://en.wikipedia.org/wiki/Total_inorganic_carbon]
+synonym: "total inorganic carbon" EXACT []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+property_value: IAO:0000116 "CT = [CO2*] + [HCO3−] + [CO32−]" xsd:string
+
+[Term]
+id: PMO:00000143
+name: sampling expedition site
+def: "A site in which a sampling expidition process occurs." []
+is_a: BFO:0000029
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000144
+name: sampling expedition start location
+def: "A site in which a sampling expidition process begins." []
+is_a: PMO:00000143 ! sampling expedition site
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000145
+name: sampling expedition end location
+def: "A site in which a sampling expidition process terminates." []
+is_a: PMO:00000143 ! sampling expedition site
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000146
+name: conductivity temperature pressure sampling process
+def: "A material sampling process during which a conductivity temperature and pressure sampling device is employed." []
+is_a: OBI:0000744
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO." xsd:string
+property_value: IAO:0000116 "To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process." xsd:string
+
+[Term]
+id: PMO:00000147
+name: net tow sampling process
+def: "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in." []
+is_a: OBI:0000744
+property_value: IAO:0000116 "Clean and add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000148
+name: remote observation sampling process
+def: "A material sampling process during which observations and measurments are taken by a remote measrument device which is not in physical contact with the site under observation." []
+comment: For example a satellite measurement.
+is_a: OBI:0000744
+property_value: IAO:0000116 "Clean and add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000149
+name: specimen collection process site
+def: "A site where a specimen collection process occurs." []
+is_a: BFO:0000029
+property_value: IAO:0000116 "Clean and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000150
+name: particulate carbon
+def: "An aggregation of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#]
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000151
+name: particulate nitrogen
+def: "An aggregation of nitrogen-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#]
+is_a: PMO:00000110 ! aggregation of nitrogen molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000152
+name: aggregation of phosphorus molecules
+def: "An object aggregate which is composed primarily of phosphorus molecules." []
+is_a: BFO:0000027
+property_value: IAO:0000116 "Link to CHEBI clean and add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000153
+name: particulate phosphorus
+def: "An aggregate of phosphorus-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#]
+is_a: PMO:00000152 ! aggregation of phosphorus molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000154
+name: nanomole per kilogram
+def: "A specific concentration unit which is equal to 1 nanomole of a given substance per kilogram of solvent." []
+is_a: UO:0000067
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000155
+name: nanogram per liter
+def: "A mass unit density which is equal to mass of an object in nanograms divided by the volume in liters." []
+is_a: UO:0000052
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000156
+name: concentration of 19'-butanoyloxyfucoxanthin in liquid water
+def: "The concentration of 19'-butanoyloxyfucoxanthin when measured in liquid water." [https://epic.awi.de/id/eprint/28819/]
+is_a: PATO:0000033
+property_value: IAO:0000116 "Need to request 19'-butanoyloxyfucoxanthin in CHEBI, then can add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000157
+name: concentration of 19'-hexanoyloxyfucoxanthin in liquid water
+def: "The concentration of 19'-hexanoyloxyfucoxanthin when measured in liquid water." [https://pubchem.ncbi.nlm.nih.gov/compound/6443044]
+is_a: PATO:0000033
+property_value: IAO:0000116 "Need to request 19'-hexanoyloxyfucoxanthin in CHEBI, then can add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000158
+name: measure relating to enumeration of aggregation of organisms
+def: "A measure, which refers to an aggregation of organisms." []
+is_a: IAO:0000109
+equivalent_to: PMO:00000162 ! enumeration of heterotrophic prokaryote aggregation
+property_value: IAO:0000116 "Add axiom for organisms, and push to PATO or ECOCORE." xsd:string
+property_value: IAO:0000116 "Pattern similar to http://purl.obolibrary.org/obo/IDOMAL_0000428" xsd:string
+
+[Term]
+id: PMO:00000159
+name: enumeration of Prochlorococcus aggregation
+def: "A measure which describes the enumeration of aggregated Prochlorococcus." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+property_value: IAO:0000116 "Add axiom for Procholorococcus, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000160
+name: enumeration of Synechococcus aggregation
+def: "A measure which describes the enumeration of aggregated Synechococcus." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+property_value: IAO:0000116 "Add axiom for Synechococcus, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000161
+name: enumeration of picoeukaryote aggregation
+def: "A measure which describes the enumeration of aggregated picoeukaryotes." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+property_value: IAO:0000116 "Add axiom for picoeukaryotes, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000162
+name: enumeration of heterotrophic prokaryote aggregation
+def: "A measure which describes the enumeration of aggregated heterotrophic prokaryotes." []
+property_value: IAO:0000116 "Add axiom for heterotrophs, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000163
+name: autotrophic organism biomass carbon aggregation
+def: "An aggregate of carbon-containing molecules which were derived from an autotrophic biomass formation process." []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000164
+name: aggregation of silicon molecules
+def: "An object aggregate which is composed primarily of silicon molecules." []
+is_a: BFO:0000027
+property_value: IAO:0000116 "Link to CHEBI clean and add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000165
+name: particulate silica
+def: "An aggregate of silica-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." []
+is_a: PMO:00000164 ! aggregation of silicon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000166
+name: sample from environment
+def: "A material sample which is obtained from an environment in order to be a representative of such environment." []
+is_a: OBI:0000747
+intersection_of: OBI:0000312 OBI:0000659
+intersection_of: RO:0000087 OBI:0000740
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
+
+[Term]
+id: PMO:00000167
+name: sample from aquatic environment
+def: "A sample from environment which is obtained from an aquatic environment in order to be a representative of such aquatic environment." []
+is_a: PMO:00000166 ! sample from environment
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
+
+[Term]
+id: PMO:00000168
+name: aquatic environmental material sample filter fractionation size
+def: "A size quality which inheres in an aquatic environmental material sample by virtue of such bearer being size fractioned via a filtration process." []
+is_a: PATO:0000117
+relationship: RO:0000052 PMO:00000167 ! sample from aquatic environment
+property_value: IAO:0000116 "Perhaps find and or create filtration process for OBI, and try to add to OBI." xsd:string
+
+[Term]
+id: PMO:00000169
+name: megaplankton material
+def: "A portion of planktonic material which is comprised of plankton which are of sizes greater than 20 centimeters." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Megaplankton" NARROW []
+is_a: ENVO:01000063
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000170
+name: picoplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 0.2 and 2 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Picoplankton" NARROW []
+is_a: ENVO:01000063
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000171
+name: femtoplankton material
+def: "A portion of planktonic material which is comprised of plankton which are of sizes less than 0.22 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Femtoplankton" NARROW []
+is_a: ENVO:01000063
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 

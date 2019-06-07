@@ -597,6 +597,24 @@
       "type" : "CLASS",
       "lbl" : "micromole per kilogram"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000060",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "speed/velocity unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000061",
       "meta" : {
         "definition" : {
@@ -1158,6 +1176,51 @@
       "type" : "CLASS",
       "lbl" : "day"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000154",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the power of electromagnetic radiation at a surface, per unit area.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "irradiance unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000155",
+      "meta" : {
+        "definition" : {
+          "val" : "An irradiance unit which is equal to 1 watt of radiant power incident per one square meter surface area.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "watt per square metre",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "W/m^[2]",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "watt per square meter"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000034",
       "meta" : {
         "definition" : {
@@ -1211,6 +1274,24 @@
       },
       "type" : "CLASS",
       "lbl" : "year"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000157",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which is a standard measure of the intensity of light.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "light unit"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000027",
       "meta" : {
@@ -1510,6 +1591,51 @@
       "type" : "CLASS",
       "lbl" : "base unit"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000200",
+      "meta" : {
+        "definition" : {
+          "val" : "A concentration unit which denotes the average cell number in a given volume.",
+          "xrefs" : [ "Bioedonline:Bioedonline" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell concentration unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000201",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.",
+          "xrefs" : [ "Bioedonline:Bioedonline" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cells per millilitre",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cells per ml",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cells per milliliter"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000039",
       "meta" : {
         "definition" : {
@@ -1556,6 +1682,33 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
       "type" : "PROPERTY",
       "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000094",
+      "meta" : {
+        "definition" : {
+          "val" : "A speed/velocity unit which is equal to the speed of an object traveling 1 meter distance in one second.",
+          "xrefs" : [ "NIST:NIST" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "m/s",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "metre per second",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "meter per second"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000095",
       "meta" : {
@@ -2165,6 +2318,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000157"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000205",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
@@ -2185,17 +2342,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000060"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001309"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000109",
-      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001025"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000109",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001025"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000103",
       "pred" : "is_a",
@@ -2237,17 +2398,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000231"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000201",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000200"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000025",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000273",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000175",
       "pred" : "is_a",
@@ -2413,6 +2578,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000186"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000060",
+      "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000008"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000066",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
@@ -2422,6 +2591,10 @@
       "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000157",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
@@ -2457,17 +2630,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000280"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000155",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000154"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000165",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000187"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000024",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000262",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000261"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000095",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
@@ -2494,6 +2671,10 @@
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000060",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
@@ -2585,6 +2766,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000200",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000042",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
@@ -2622,7 +2807,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/uo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-06-07/imports/uo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

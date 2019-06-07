@@ -981,35 +981,6 @@
       "type" : "INDIVIDUAL",
       "lbl" : "XML"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/OBI_0001898",
-      "meta" : {
-        "definition" : {
-          "val" : "A textual entity that is about any of the aspects of an investigation worth noting",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "NIAID GSCID-BRC metadata working group"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "comment on investigation"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/OBI_0001886",
-          "val" : "Comments"
-        }, {
-          "pred" : "http://purl.org/dc/elements/1.1/source",
-          "val" : "NIAID GSCID-BRC"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Chris Stoeckert, Jie Zheng"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "comment on investigation"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000325",
       "meta" : {
         "definition" : {
@@ -17123,13 +17094,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000806"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0000749",
-      "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000704"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001995",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0000749",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000051",
       "pred" : "is_a",
@@ -17683,13 +17654,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0002264",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0002252",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0002264",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000094",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000299",
@@ -19651,10 +19622,6 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0002256"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OBI_0001898",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000039",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
@@ -19929,10 +19896,6 @@
         "fillerId" : "http://purl.obolibrary.org/obo/OBI_0000112"
       }, null ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/OBI_0001898",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/IAO_0000300" ],
-      "restrictions" : [ null ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/IAO_0000015",
       "genusIds" : [ "http://purl.obolibrary.org/obo/BFO_0000019" ],
       "restrictions" : [ {
@@ -19992,10 +19955,6 @@
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000017" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
       "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0000947",
-        "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
-        "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
-      }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000202",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0000066"
@@ -20007,6 +19966,10 @@
         "sub" : "http://purl.obolibrary.org/obo/OBI_0000067",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+      }, {
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0000947",
+        "pred" : "http://purl.obolibrary.org/obo/BFO_0000054",
+        "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -20016,17 +19979,17 @@
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
         "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0000094",
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
-        "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
       }, {
         "sub" : "http://purl.obolibrary.org/obo/OBI_0200190",
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
         "obj" : "http://purl.obolibrary.org/obo/OBI_0000648"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/OBI_0000094",
+        "sub" : "http://purl.obolibrary.org/obo/OBI_0200000",
         "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+        "obj" : "http://purl.obolibrary.org/obo/IAO_0000027"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/IAO_0000219",

@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/imports/uo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/uo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-06-07/imports/uo_import.owl"/>
     </owl:Ontology>
     
 
@@ -173,6 +173,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000008"/>
     
 
 
@@ -1018,6 +1024,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uo#is_unit_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000060</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uo#unit_group_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">speed/velocity unit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Wikipedia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000061">
@@ -1181,6 +1213,28 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in kilograms divided by the volume in cubic meters.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000060"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A speed/velocity unit which is equal to the speed of an object traveling 1 meter distance in one second.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m/s</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metre per second</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000094</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uo#unit_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter per second</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000094"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A speed/velocity unit which is equal to the speed of an object traveling 1 meter distance in one second.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIST:NIST</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1483,6 +1537,68 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the angle formed by two straight lines in the same plane.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Wikipedia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the power of electromagnetic radiation at a surface, per unit area.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000154</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uo#unit_group_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">irradiance unit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the power of electromagnetic radiation at a surface, per unit area.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Wikipedia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An irradiance unit which is equal to 1 watt of radiant power incident per one square meter surface area.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W/m^[2]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt per square metre</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000155</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uo#unit_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watt per square meter</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000155"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An irradiance unit which is equal to 1 watt of radiant power incident per one square meter surface area.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIST:NIST</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the intensity of light.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000157</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uo#unit_group_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light unit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000157"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the intensity of light.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIST:NIST</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1792,6 +1908,48 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Wikipedia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration unit which denotes the average cell number in a given volume.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000200</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uo#unit_group_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell concentration unit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration unit which denotes the average cell number in a given volume.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioedonline:Bioedonline</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cells per millilitre</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cells per ml</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000201</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uo#unit_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cells per milliliter</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UO_0000201"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bioedonline:Bioedonline</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

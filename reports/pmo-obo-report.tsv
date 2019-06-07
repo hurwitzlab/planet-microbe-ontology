@@ -29,14 +29,14 @@ ERROR	duplicate_definition	ENVO:01001309	IAO:0000115	A liquid surface layer whic
 ERROR	duplicate_definition	ENVO:01001310	IAO:0000115	A liquid surface layer which is in contact with air.	
 ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
 ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	79abaa0a8cb1aa1f58cff9dac275abaa	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	cc5208af87816438186fdd523a8b8b53	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	2e17ba10be9f14cb4245cefb38b7fd21	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	dd0673e99d4ddfa49d293bdd6d646db9	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	6f09622a98ba7592b70bf7a1afa11689	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	c796509b2b8a4ba30af9846dc1aecd3f	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	54e87b49a4a6bed1f464a56c562ca220	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	c5c1595292db90ac7094a1785516522f	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	35c3999f095b779624dfd3253700e1aa	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	a145255a20bd0a16f62a79e911a5565c	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	22129f22c8889b50e2112a8052fcea34	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	5eb9461891e2a53cc076cc6fb00b6e9c	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	531c12e00c2567ff0694cc30e46d7b0b	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	97d51836c5b53b2634da48617718954c	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	0c1c42a880fc6cb0b458083e10d2499f	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	4225f7b646cbb946fc84710f09684d9e	
 ERROR	missing_label	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#abnormal_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#attribute_slim	rdfs:label		
@@ -62,6 +62,13 @@ ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001547
 ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001548	
 ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001985	
 ERROR	deprecated_class_reference	PATO:0001237	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PMO:00000026	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PMO:00000027	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PMO:00000028	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PMO:00000029	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PMO:00000030	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PMO:00000031	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	deprecated_class_reference	PMO:00000032	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	RO:0002218	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	RO:0002609	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	missing_ontology_description	pmo.owl	dc11:description		
@@ -79,6 +86,8 @@ ERROR	duplicate_label	ENVO:3100026	rdfs:label	concentration of phosphate in wate
 ERROR	duplicate_label	PMO:00000031	rdfs:label	concentration of phosphate in water	
 ERROR	duplicate_label	ENVO:3100022	rdfs:label	concentration of nitrate in water	
 ERROR	duplicate_label	PMO:00000027	rdfs:label	concentration of nitrate in water	
+ERROR	duplicate_label	ENVO:3100036	rdfs:label	concentration of chlorophyll in water	
+ERROR	duplicate_label	PMO:00000026	rdfs:label	concentration of chlorophyll in water	
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en	
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
 ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en	
@@ -299,6 +308,8 @@ WARN	duplicate_exact_synonym	OBI:0002206	IAO:0000118	G1
 WARN	duplicate_exact_synonym	OBI:0002220	IAO:0000118	G1	
 WARN	duplicate_exact_synonym	ENVO:01001052	IAO:0000118	Aerosol (saline)	
 WARN	duplicate_exact_synonym	ENVO:01001053	IAO:0000118	Aerosol (saline)	
+WARN	equivalent_pair	PMO:00000050	owl:equivalentClass	PMO:00000051	
+WARN	equivalent_pair	PMO:00000158	owl:equivalentClass	PMO:00000162	
 WARN	multiple_asserted_superclasses	CARO:0000006	rdfs:subClassOf	BFO:0000040	
 WARN	multiple_asserted_superclasses	CARO:0000006	rdfs:subClassOf	CARO:0000000	
 WARN	multiple_asserted_superclasses	CARO:0001010	rdfs:subClassOf	BFO:0000040	
@@ -326,12 +337,19 @@ WARN	multiple_asserted_superclasses	CHEBI:17632	rdfs:subClassOf	CHEBI:79389
 WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:138675	
 WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:25362	
 WARN	multiple_asserted_superclasses	CHEBI:17997	rdfs:subClassOf	CHEBI:33266	
+WARN	multiple_asserted_superclasses	CHEBI:18230	rdfs:subClassOf	CHEBI:25248	
+WARN	multiple_asserted_superclasses	CHEBI:18230	rdfs:subClassOf	CHEBI:28966	
 WARN	multiple_asserted_superclasses	CHEBI:23014	rdfs:subClassOf	CHEBI:25701	
 WARN	multiple_asserted_superclasses	CHEBI:23014	rdfs:subClassOf	CHEBI:36963	
+WARN	multiple_asserted_superclasses	CHEBI:23043	rdfs:subClassOf	CHEBI:27325	
+WARN	multiple_asserted_superclasses	CHEBI:23043	rdfs:subClassOf	CHEBI:32955	
 WARN	multiple_asserted_superclasses	CHEBI:23114	rdfs:subClassOf	CHEBI:23117	
 WARN	multiple_asserted_superclasses	CHEBI:23114	rdfs:subClassOf	CHEBI:33958	
 WARN	multiple_asserted_superclasses	CHEBI:23367	rdfs:subClassOf	BFO:0000040	
 WARN	multiple_asserted_superclasses	CHEBI:23367	rdfs:subClassOf	CHEBI:24431	
+WARN	multiple_asserted_superclasses	CHEBI:24532	rdfs:subClassOf	CHEBI:33285	
+WARN	multiple_asserted_superclasses	CHEBI:24532	rdfs:subClassOf	CHEBI:33832	
+WARN	multiple_asserted_superclasses	CHEBI:24532	rdfs:subClassOf	CHEBI:5686	
 WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:25806	
 WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:33608	
 WARN	multiple_asserted_superclasses	CHEBI:24651	rdfs:subClassOf	CHEBI:37577	
@@ -339,6 +357,13 @@ WARN	multiple_asserted_superclasses	CHEBI:24834	rdfs:subClassOf	CHEBI:22563
 WARN	multiple_asserted_superclasses	CHEBI:24834	rdfs:subClassOf	CHEBI:36914	
 WARN	multiple_asserted_superclasses	CHEBI:24839	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:24839	rdfs:subClassOf	CHEBI:24866	
+WARN	multiple_asserted_superclasses	CHEBI:24913	rdfs:subClassOf	CHEBI:18059	
+WARN	multiple_asserted_superclasses	CHEBI:24913	rdfs:subClassOf	CHEBI:50860	
+WARN	multiple_asserted_superclasses	CHEBI:25111	rdfs:subClassOf	CHEBI:25216	
+WARN	multiple_asserted_superclasses	CHEBI:25111	rdfs:subClassOf	CHEBI:38251	
+WARN	multiple_asserted_superclasses	CHEBI:25216	rdfs:subClassOf	CHEBI:26214	
+WARN	multiple_asserted_superclasses	CHEBI:25216	rdfs:subClassOf	CHEBI:33240	
+WARN	multiple_asserted_superclasses	CHEBI:25216	rdfs:subClassOf	CHEBI:33909	
 WARN	multiple_asserted_superclasses	CHEBI:25362	rdfs:subClassOf	CHEBI:25367	
 WARN	multiple_asserted_superclasses	CHEBI:25362	rdfs:subClassOf	CHEBI:33259	
 WARN	multiple_asserted_superclasses	CHEBI:25701	rdfs:subClassOf	CHEBI:25741	
@@ -350,10 +375,14 @@ WARN	multiple_asserted_superclasses	CHEBI:26710	rdfs:subClassOf	CHEBI:36093
 WARN	multiple_asserted_superclasses	CHEBI:26710	rdfs:subClassOf	CHEBI:38702	
 WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:26712	
 WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:35479	
+WARN	multiple_asserted_superclasses	CHEBI:26932	rdfs:subClassOf	CHEBI:33833	
+WARN	multiple_asserted_superclasses	CHEBI:26932	rdfs:subClassOf	CHEBI:38077	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:35106	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:35274	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:50313	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:60242	
+WARN	multiple_asserted_superclasses	CHEBI:30879	rdfs:subClassOf	CHEBI:33822	
+WARN	multiple_asserted_superclasses	CHEBI:30879	rdfs:subClassOf	FOODON:00002123	
 WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:33692	
 WARN	multiple_asserted_superclasses	CHEBI:33250	rdfs:subClassOf	BFO:0000040	
@@ -366,6 +395,8 @@ WARN	multiple_asserted_superclasses	CHEBI:33267	rdfs:subClassOf	CHEBI:33465
 WARN	multiple_asserted_superclasses	CHEBI:33267	rdfs:subClassOf	CHEBI:51143	
 WARN	multiple_asserted_superclasses	CHEBI:33273	rdfs:subClassOf	CHEBI:22563	
 WARN	multiple_asserted_superclasses	CHEBI:33273	rdfs:subClassOf	CHEBI:36358	
+WARN	multiple_asserted_superclasses	CHEBI:33308	rdfs:subClassOf	CHEBI:35701	
+WARN	multiple_asserted_superclasses	CHEBI:33308	rdfs:subClassOf	CHEBI:36586	
 WARN	multiple_asserted_superclasses	CHEBI:33328	rdfs:subClassOf	CHEBI:24833	
 WARN	multiple_asserted_superclasses	CHEBI:33328	rdfs:subClassOf	CHEBI:46890	
 WARN	multiple_asserted_superclasses	CHEBI:33458	rdfs:subClassOf	CHEBI:33459	
@@ -375,6 +406,8 @@ WARN	multiple_asserted_superclasses	CHEBI:33459	rdfs:subClassOf	CHEBI:35406
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33259	
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33302	
+WARN	multiple_asserted_superclasses	CHEBI:33659	rdfs:subClassOf	CHEBI:33655	
+WARN	multiple_asserted_superclasses	CHEBI:33659	rdfs:subClassOf	CHEBI:33832	
 WARN	multiple_asserted_superclasses	CHEBI:33679	rdfs:subClassOf	CHEBI:33583	
 WARN	multiple_asserted_superclasses	CHEBI:33679	rdfs:subClassOf	CHEBI:33674	
 WARN	multiple_asserted_superclasses	CHEBI:33692	rdfs:subClassOf	CHEBI:33608	
@@ -383,14 +416,26 @@ WARN	multiple_asserted_superclasses	CHEBI:33694	rdfs:subClassOf	CHEBI:33839
 WARN	multiple_asserted_superclasses	CHEBI:33694	rdfs:subClassOf	CHEBI:50860	
 WARN	multiple_asserted_superclasses	CHEBI:33702	rdfs:subClassOf	CHEBI:36358	
 WARN	multiple_asserted_superclasses	CHEBI:33702	rdfs:subClassOf	CHEBI:36916	
+WARN	multiple_asserted_superclasses	CHEBI:33822	rdfs:subClassOf	CHEBI:24651	
+WARN	multiple_asserted_superclasses	CHEBI:33822	rdfs:subClassOf	CHEBI:50860	
+WARN	multiple_asserted_superclasses	CHEBI:33832	rdfs:subClassOf	CHEBI:33595	
+WARN	multiple_asserted_superclasses	CHEBI:33832	rdfs:subClassOf	CHEBI:72695	
+WARN	multiple_asserted_superclasses	CHEBI:33833	rdfs:subClassOf	CHEBI:24532	
+WARN	multiple_asserted_superclasses	CHEBI:33833	rdfs:subClassOf	CHEBI:33659	
 WARN	multiple_asserted_superclasses	CHEBI:33839	rdfs:subClassOf	CHEBI:23367	
 WARN	multiple_asserted_superclasses	CHEBI:33839	rdfs:subClassOf	CHEBI:36357	
 WARN	multiple_asserted_superclasses	CHEBI:33958	rdfs:subClassOf	CHEBI:24866	
 WARN	multiple_asserted_superclasses	CHEBI:33958	rdfs:subClassOf	CHEBI:37578	
+WARN	multiple_asserted_superclasses	CHEBI:33976	rdfs:subClassOf	CHEBI:25108	
+WARN	multiple_asserted_superclasses	CHEBI:33976	rdfs:subClassOf	CHEBI:35217	
 WARN	multiple_asserted_superclasses	CHEBI:35106	rdfs:subClassOf	CHEBI:35881	
 WARN	multiple_asserted_superclasses	CHEBI:35106	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:35217	rdfs:subClassOf	CHEBI:33299	
+WARN	multiple_asserted_superclasses	CHEBI:35217	rdfs:subClassOf	CHEBI:36562	
 WARN	multiple_asserted_superclasses	CHEBI:35274	rdfs:subClassOf	CHEBI:33702	
 WARN	multiple_asserted_superclasses	CHEBI:35274	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:35307	rdfs:subClassOf	CHEBI:23043	
+WARN	multiple_asserted_superclasses	CHEBI:35307	rdfs:subClassOf	CHEBI:23045	
 WARN	multiple_asserted_superclasses	CHEBI:35352	rdfs:subClassOf	CHEBI:33285	
 WARN	multiple_asserted_superclasses	CHEBI:35352	rdfs:subClassOf	CHEBI:51143	
 WARN	multiple_asserted_superclasses	CHEBI:35406	rdfs:subClassOf	CHEBI:25741	
@@ -401,12 +446,16 @@ WARN	multiple_asserted_superclasses	CHEBI:35881	rdfs:subClassOf	CHEBI:33242
 WARN	multiple_asserted_superclasses	CHEBI:35881	rdfs:subClassOf	CHEBI:33302	
 WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:23114	
 WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:24839	
+WARN	multiple_asserted_superclasses	CHEBI:36309	rdfs:subClassOf	CHEBI:26932	
+WARN	multiple_asserted_superclasses	CHEBI:36309	rdfs:subClassOf	CHEBI:47882	
 WARN	multiple_asserted_superclasses	CHEBI:36358	rdfs:subClassOf	CHEBI:24870	
 WARN	multiple_asserted_superclasses	CHEBI:36358	rdfs:subClassOf	CHEBI:36357	
 WARN	multiple_asserted_superclasses	CHEBI:36359	rdfs:subClassOf	CHEBI:33241	
 WARN	multiple_asserted_superclasses	CHEBI:36359	rdfs:subClassOf	CHEBI:36360	
 WARN	multiple_asserted_superclasses	CHEBI:36562	rdfs:subClassOf	CHEBI:33240	
 WARN	multiple_asserted_superclasses	CHEBI:36562	rdfs:subClassOf	CHEBI:33579	
+WARN	multiple_asserted_superclasses	CHEBI:36586	rdfs:subClassOf	CHEBI:36587	
+WARN	multiple_asserted_superclasses	CHEBI:36586	rdfs:subClassOf	CHEBI:36963	
 WARN	multiple_asserted_superclasses	CHEBI:36902	rdfs:subClassOf	CHEBI:33242	
 WARN	multiple_asserted_superclasses	CHEBI:36902	rdfs:subClassOf	CHEBI:33304	
 WARN	multiple_asserted_superclasses	CHEBI:36908	rdfs:subClassOf	CHEBI:33583	
@@ -424,17 +473,30 @@ WARN	multiple_asserted_superclasses	CHEBI:37190	rdfs:subClassOf	CHEBI:36562
 WARN	multiple_asserted_superclasses	CHEBI:37191	rdfs:subClassOf	CHEBI:24834	
 WARN	multiple_asserted_superclasses	CHEBI:37191	rdfs:subClassOf	CHEBI:35406	
 WARN	multiple_asserted_superclasses	CHEBI:37191	rdfs:subClassOf	CHEBI:37190	
+WARN	multiple_asserted_superclasses	CHEBI:37407	rdfs:subClassOf	CHEBI:25698	
+WARN	multiple_asserted_superclasses	CHEBI:37407	rdfs:subClassOf	CHEBI:38104	
 WARN	multiple_asserted_superclasses	CHEBI:37578	rdfs:subClassOf	CHEBI:24471	
 WARN	multiple_asserted_superclasses	CHEBI:37578	rdfs:subClassOf	CHEBI:37577	
 WARN	multiple_asserted_superclasses	CHEBI:37622	rdfs:subClassOf	CHEBI:33256	
 WARN	multiple_asserted_superclasses	CHEBI:37622	rdfs:subClassOf	CHEBI:35352	
 WARN	multiple_asserted_superclasses	CHEBI:37622	rdfs:subClassOf	CHEBI:36963	
+WARN	multiple_asserted_superclasses	CHEBI:38101	rdfs:subClassOf	CHEBI:24532	
+WARN	multiple_asserted_superclasses	CHEBI:38101	rdfs:subClassOf	CHEBI:35352	
+WARN	multiple_asserted_superclasses	CHEBI:38104	rdfs:subClassOf	CHEBI:24532	
+WARN	multiple_asserted_superclasses	CHEBI:38104	rdfs:subClassOf	CHEBI:36963	
+WARN	multiple_asserted_superclasses	CHEBI:38251	rdfs:subClassOf	CHEBI:33909	
+WARN	multiple_asserted_superclasses	CHEBI:38251	rdfs:subClassOf	CHEBI:33976	
 WARN	multiple_asserted_superclasses	CHEBI:38702	rdfs:subClassOf	CHEBI:24839	
 WARN	multiple_asserted_superclasses	CHEBI:38702	rdfs:subClassOf	CHEBI:26714	
 WARN	multiple_asserted_superclasses	CHEBI:50047	rdfs:subClassOf	CHEBI:35352	
 WARN	multiple_asserted_superclasses	CHEBI:50047	rdfs:subClassOf	CHEBI:50860	
 WARN	multiple_asserted_superclasses	CHEBI:51143	rdfs:subClassOf	CHEBI:33302	
 WARN	multiple_asserted_superclasses	CHEBI:51143	rdfs:subClassOf	FOODON:03412972	
+WARN	multiple_asserted_superclasses	CHEBI:5186	rdfs:subClassOf	CHEBI:26878	
+WARN	multiple_asserted_superclasses	CHEBI:5186	rdfs:subClassOf	CHEBI:35307	
+WARN	multiple_asserted_superclasses	CHEBI:5186	rdfs:subClassOf	CHEBI:35681	
+WARN	multiple_asserted_superclasses	CHEBI:5186	rdfs:subClassOf	CHEBI:37602	
+WARN	multiple_asserted_superclasses	CHEBI:5186	rdfs:subClassOf	CHEBI:47622	
 WARN	multiple_asserted_superclasses	CHEBI:52625	rdfs:subClassOf	CHEBI:24651	
 WARN	multiple_asserted_superclasses	CHEBI:52625	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:72695	rdfs:subClassOf	CHEBI:25367	
@@ -528,6 +590,31 @@ WARN	multiple_asserted_superclasses	ENVO:09200004	rdfs:subClassOf	ENVO:09200009
 WARN	multiple_asserted_superclasses	ENVO:09200004	rdfs:subClassOf	PATO:0000973	
 WARN	multiple_asserted_superclasses	ENVO:09200008	rdfs:subClassOf	ENVO:09200009	
 WARN	multiple_asserted_superclasses	ENVO:09200008	rdfs:subClassOf	PATO:0000025	
+WARN	multiple_asserted_superclasses	ENVO:3100014	rdfs:subClassOf	FOODON:00002470	
+WARN	multiple_asserted_superclasses	ENVO:3100014	rdfs:subClassOf	PATO:0000033	
+WARN	multiple_asserted_superclasses	FOODON:00001015	rdfs:subClassOf	FOODON:00002381	
+WARN	multiple_asserted_superclasses	FOODON:00001015	rdfs:subClassOf	FOODON:00002403	
+WARN	multiple_asserted_superclasses	FOODON:00001094	rdfs:subClassOf	FOODON:00001180	
+WARN	multiple_asserted_superclasses	FOODON:00001094	rdfs:subClassOf	FOODON:00001258	
+WARN	multiple_asserted_superclasses	FOODON:00001253	rdfs:subClassOf	FOODON:00001015	
+WARN	multiple_asserted_superclasses	FOODON:00001253	rdfs:subClassOf	FOODON:03301977	
+WARN	multiple_asserted_superclasses	FOODON:00001254	rdfs:subClassOf	ENVO:01000815	
+WARN	multiple_asserted_superclasses	FOODON:00001254	rdfs:subClassOf	FOODON:00001094	
+WARN	multiple_asserted_superclasses	FOODON:00001254	rdfs:subClassOf	FOODON:00001253	
+WARN	multiple_asserted_superclasses	FOODON:00001258	rdfs:subClassOf	FOODON:00001306	
+WARN	multiple_asserted_superclasses	FOODON:00001258	rdfs:subClassOf	FOODON:00002158	
+WARN	multiple_asserted_superclasses	FOODON:00001304	rdfs:subClassOf	FOODON:03460119	
+WARN	multiple_asserted_superclasses	FOODON:00001304	rdfs:subClassOf	FOODON:03470107	
+WARN	multiple_asserted_superclasses	FOODON:00001931	rdfs:subClassOf	FOODON:00001181	
+WARN	multiple_asserted_superclasses	FOODON:00001931	rdfs:subClassOf	FOODON:00001714	
+WARN	multiple_asserted_superclasses	FOODON:00002333	rdfs:subClassOf	FOODON:00001079	
+WARN	multiple_asserted_superclasses	FOODON:00002333	rdfs:subClassOf	FOODON:00001261	
+WARN	multiple_asserted_superclasses	FOODON:03301444	rdfs:subClassOf	FOODON:00001253	
+WARN	multiple_asserted_superclasses	FOODON:03301444	rdfs:subClassOf	FOODON:00001261	
+WARN	multiple_asserted_superclasses	FOODON:03311146	rdfs:subClassOf	FOODON:00001931	
+WARN	multiple_asserted_superclasses	FOODON:03311146	rdfs:subClassOf	FOODON:03430130	
+WARN	multiple_asserted_superclasses	FOODON:03411300	rdfs:subClassOf	FOODON:03411018	
+WARN	multiple_asserted_superclasses	FOODON:03411300	rdfs:subClassOf	FOODON:03414302	
 WARN	multiple_asserted_superclasses	GO:0048018	rdfs:subClassOf	GO:0005102	
 WARN	multiple_asserted_superclasses	GO:0048018	rdfs:subClassOf	GO:0030545	
 WARN	multiple_asserted_superclasses	NCBITaxon:10239	rdfs:subClassOf	NCBITaxon:1	
@@ -559,6 +646,7 @@ WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:952
 WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:9605	
 WARN	multiple_asserted_superclasses	OBI:0000671	rdfs:subClassOf	OBI:0000747	
 WARN	multiple_asserted_superclasses	OBI:0000671	rdfs:subClassOf	OBI:0001479	
+WARN	multiple_asserted_superclasses	OBI:0000671	rdfs:subClassOf	PMO:00000166	
 WARN	multiple_asserted_superclasses	OBI:0000727	rdfs:subClassOf	OBI:0200171	
 WARN	multiple_asserted_superclasses	OBI:0000727	rdfs:subClassOf	OBI:0200175	
 WARN	multiple_asserted_superclasses	OBI:0000737	rdfs:subClassOf	OBI:0000047	
@@ -693,6 +781,12 @@ WARN	multiple_asserted_superclasses	PCO:0000001	rdfs:subClassOf	CARO:0001010
 WARN	multiple_asserted_superclasses	PCO:0000001	rdfs:subClassOf	PCO:0000018	
 WARN	multiple_asserted_superclasses	PCO:0000002	rdfs:subClassOf	PCO:0000028	
 WARN	multiple_asserted_superclasses	PCO:0000002	rdfs:subClassOf	PCO:0000029	
+WARN	multiple_asserted_superclasses	PMO:00000159	rdfs:subClassOf	PMO:00000158	
+WARN	multiple_asserted_superclasses	PMO:00000159	rdfs:subClassOf	PMO:00000162	
+WARN	multiple_asserted_superclasses	PMO:00000160	rdfs:subClassOf	PMO:00000158	
+WARN	multiple_asserted_superclasses	PMO:00000160	rdfs:subClassOf	PMO:00000162	
+WARN	multiple_asserted_superclasses	PMO:00000161	rdfs:subClassOf	PMO:00000158	
+WARN	multiple_asserted_superclasses	PMO:00000161	rdfs:subClassOf	PMO:00000162	
 WARN	multiple_asserted_superclasses	PO:0009011	rdfs:subClassOf	BFO:0000040	
 WARN	multiple_asserted_superclasses	PO:0009011	rdfs:subClassOf	PO:0025131	
 WARN	multiple_asserted_superclasses	UBERON:0000465	rdfs:subClassOf	BFO:0000040	
@@ -736,308 +830,1622 @@ WARN	multiple_asserted_superclasses	UO:0000270	rdfs:subClassOf	UO:0000000
 WARN	multiple_asserted_superclasses	UO:0000280	rdfs:subClassOf	IAO:0000003	
 WARN	multiple_asserted_superclasses	UO:0000280	rdfs:subClassOf	UO:0000000	
 WARN	missing_definition	BFO:0000001	IAO:0000115		
+WARN	missing_definition	BFO:0000004	IAO:0000600		
 WARN	missing_definition	BFO:0000006	IAO:0000115		
 WARN	missing_definition	BFO:0000008	IAO:0000115		
 WARN	missing_definition	BFO:0000009	IAO:0000115		
 WARN	missing_definition	BFO:0000011	IAO:0000115		
+WARN	missing_definition	BFO:0000015	IAO:0000600		
 WARN	missing_definition	BFO:0000016	IAO:0000115		
 WARN	missing_definition	BFO:0000019	IAO:0000115		
+WARN	missing_definition	BFO:0000020	IAO:0000600		
 WARN	missing_definition	BFO:0000024	IAO:0000115		
 WARN	missing_definition	BFO:0000027	IAO:0000115		
 WARN	missing_definition	BFO:0000029	IAO:0000115		
 WARN	missing_definition	BFO:0000030	IAO:0000115		
+WARN	missing_definition	BFO:0000031	IAO:0000600		
 WARN	missing_definition	BFO:0000034	IAO:0000115		
+WARN	missing_definition	BFO:0000035	IAO:0000600		
+WARN	missing_definition	BFO:0000050	IAO:0000600		
+WARN	missing_definition	BFO:0000051	IAO:0000600		
 WARN	missing_definition	BFO:0000054	IAO:0000115		
 WARN	missing_definition	BFO:0000055	IAO:0000115		
+WARN	missing_definition	BFO:0000062	IAO:0000600		
+WARN	missing_definition	BFO:0000063	IAO:0000600		
+WARN	missing_definition	BFO:0000066	IAO:0000600		
+WARN	missing_definition	BFO:0000067	IAO:0000600		
+WARN	missing_definition	BFO:0000140	IAO:0000600		
 WARN	missing_definition	BFO:0000141	IAO:0000115		
+WARN	missing_definition	BFO:0000141	IAO:0000600		
+WARN	missing_definition	BFO:0000179	IAO:0000600		
+WARN	missing_definition	BFO:0000180	IAO:0000600		
 WARN	missing_definition	CARO:0000000	IAO:0000115		
+WARN	missing_definition	CARO:0000000	IAO:0000600		
 WARN	missing_definition	CARO:0000003	IAO:0000115		
+WARN	missing_definition	CARO:0000003	IAO:0000600		
 WARN	missing_definition	CARO:0000006	IAO:0000115		
+WARN	missing_definition	CARO:0000006	IAO:0000600		
+WARN	missing_definition	CARO:0001010	IAO:0000600		
 WARN	missing_definition	CARO:0030000	IAO:0000115		
+WARN	missing_definition	CARO:0030000	IAO:0000600		
 WARN	missing_definition	CHEBI:138675	IAO:0000115		
+WARN	missing_definition	CHEBI:138675	IAO:0000600		
 WARN	missing_definition	CHEBI:15022	IAO:0000115		
+WARN	missing_definition	CHEBI:15022	IAO:0000600		
+WARN	missing_definition	CHEBI:15377	IAO:0000600		
 WARN	missing_definition	CHEBI:15379	IAO:0000115		
+WARN	missing_definition	CHEBI:15379	IAO:0000600		
 WARN	missing_definition	CHEBI:16301	IAO:0000115		
+WARN	missing_definition	CHEBI:16301	IAO:0000600		
+WARN	missing_definition	CHEBI:16526	IAO:0000600		
+WARN	missing_definition	CHEBI:16670	IAO:0000600		
+WARN	missing_definition	CHEBI:16991	IAO:0000600		
 WARN	missing_definition	CHEBI:17632	IAO:0000115		
+WARN	missing_definition	CHEBI:17632	IAO:0000600		
 WARN	missing_definition	CHEBI:17891	IAO:0000115		
+WARN	missing_definition	CHEBI:17891	IAO:0000600		
 WARN	missing_definition	CHEBI:17997	IAO:0000115		
+WARN	missing_definition	CHEBI:17997	IAO:0000600		
+WARN	missing_definition	CHEBI:18059	IAO:0000600		
+WARN	missing_definition	CHEBI:18230	IAO:0000115		
+WARN	missing_definition	CHEBI:18230	IAO:0000600		
+WARN	missing_definition	CHEBI:22563	IAO:0000600		
 WARN	missing_definition	CHEBI:23014	IAO:0000115		
+WARN	missing_definition	CHEBI:23014	IAO:0000600		
+WARN	missing_definition	CHEBI:23043	IAO:0000115		
+WARN	missing_definition	CHEBI:23043	IAO:0000600		
+WARN	missing_definition	CHEBI:23044	IAO:0000600		
+WARN	missing_definition	CHEBI:23045	IAO:0000115		
+WARN	missing_definition	CHEBI:23045	IAO:0000600		
 WARN	missing_definition	CHEBI:23114	IAO:0000115		
+WARN	missing_definition	CHEBI:23114	IAO:0000600		
+WARN	missing_definition	CHEBI:23117	IAO:0000600		
+WARN	missing_definition	CHEBI:23367	IAO:0000600		
+WARN	missing_definition	CHEBI:24431	IAO:0000600		
+WARN	missing_definition	CHEBI:24432	IAO:0000600		
 WARN	missing_definition	CHEBI:24471	IAO:0000115		
+WARN	missing_definition	CHEBI:24471	IAO:0000600		
+WARN	missing_definition	CHEBI:24532	IAO:0000600		
+WARN	missing_definition	CHEBI:24651	IAO:0000600		
+WARN	missing_definition	CHEBI:24833	IAO:0000600		
 WARN	missing_definition	CHEBI:24834	IAO:0000115		
+WARN	missing_definition	CHEBI:24834	IAO:0000600		
+WARN	missing_definition	CHEBI:24835	IAO:0000600		
 WARN	missing_definition	CHEBI:24839	IAO:0000115		
+WARN	missing_definition	CHEBI:24839	IAO:0000600		
+WARN	missing_definition	CHEBI:24866	IAO:0000600		
+WARN	missing_definition	CHEBI:24870	IAO:0000600		
+WARN	missing_definition	CHEBI:24913	IAO:0000600		
+WARN	missing_definition	CHEBI:25108	IAO:0000115		
+WARN	missing_definition	CHEBI:25108	IAO:0000600		
+WARN	missing_definition	CHEBI:25111	IAO:0000115		
+WARN	missing_definition	CHEBI:25111	IAO:0000600		
+WARN	missing_definition	CHEBI:25216	IAO:0000115		
+WARN	missing_definition	CHEBI:25216	IAO:0000600		
+WARN	missing_definition	CHEBI:25248	IAO:0000600		
 WARN	missing_definition	CHEBI:25362	IAO:0000115		
+WARN	missing_definition	CHEBI:25362	IAO:0000600		
+WARN	missing_definition	CHEBI:25367	IAO:0000600		
+WARN	missing_definition	CHEBI:25698	IAO:0000600		
+WARN	missing_definition	CHEBI:25701	IAO:0000600		
+WARN	missing_definition	CHEBI:25741	IAO:0000600		
 WARN	missing_definition	CHEBI:25806	IAO:0000115		
+WARN	missing_definition	CHEBI:25806	IAO:0000600		
+WARN	missing_definition	CHEBI:26020	IAO:0000600		
 WARN	missing_definition	CHEBI:26079	IAO:0000115		
+WARN	missing_definition	CHEBI:26079	IAO:0000600		
 WARN	missing_definition	CHEBI:26082	IAO:0000115		
+WARN	missing_definition	CHEBI:26082	IAO:0000600		
+WARN	missing_definition	CHEBI:26214	IAO:0000600		
 WARN	missing_definition	CHEBI:26675	IAO:0000115		
+WARN	missing_definition	CHEBI:26675	IAO:0000600		
 WARN	missing_definition	CHEBI:26677	IAO:0000115		
+WARN	missing_definition	CHEBI:26677	IAO:0000600		
+WARN	missing_definition	CHEBI:26710	IAO:0000600		
 WARN	missing_definition	CHEBI:26712	IAO:0000115		
+WARN	missing_definition	CHEBI:26712	IAO:0000600		
+WARN	missing_definition	CHEBI:26714	IAO:0000600		
+WARN	missing_definition	CHEBI:26873	IAO:0000600		
+WARN	missing_definition	CHEBI:26878	IAO:0000115		
+WARN	missing_definition	CHEBI:26878	IAO:0000600		
+WARN	missing_definition	CHEBI:26932	IAO:0000600		
+WARN	missing_definition	CHEBI:26935	IAO:0000600		
+WARN	missing_definition	CHEBI:27325	IAO:0000600		
+WARN	missing_definition	CHEBI:27547	IAO:0000115		
+WARN	missing_definition	CHEBI:27547	IAO:0000600		
+WARN	missing_definition	CHEBI:27888	IAO:0000115		
+WARN	missing_definition	CHEBI:27888	IAO:0000600		
 WARN	missing_definition	CHEBI:28938	IAO:0000115		
+WARN	missing_definition	CHEBI:28938	IAO:0000600		
+WARN	missing_definition	CHEBI:28966	IAO:0000115		
+WARN	missing_definition	CHEBI:28966	IAO:0000600		
 WARN	missing_definition	CHEBI:29241	IAO:0000115		
+WARN	missing_definition	CHEBI:29241	IAO:0000600		
+WARN	missing_definition	CHEBI:30879	IAO:0000600		
+WARN	missing_definition	CHEBI:32955	IAO:0000115		
+WARN	missing_definition	CHEBI:32955	IAO:0000600		
+WARN	missing_definition	CHEBI:32988	IAO:0000600		
+WARN	missing_definition	CHEBI:33240	IAO:0000600		
 WARN	missing_definition	CHEBI:33241	IAO:0000115		
+WARN	missing_definition	CHEBI:33241	IAO:0000600		
 WARN	missing_definition	CHEBI:33242	IAO:0000115		
+WARN	missing_definition	CHEBI:33242	IAO:0000600		
+WARN	missing_definition	CHEBI:33250	IAO:0000600		
+WARN	missing_definition	CHEBI:33256	IAO:0000600		
+WARN	missing_definition	CHEBI:33259	IAO:0000600		
 WARN	missing_definition	CHEBI:33262	IAO:0000115		
+WARN	missing_definition	CHEBI:33262	IAO:0000600		
 WARN	missing_definition	CHEBI:33263	IAO:0000115		
+WARN	missing_definition	CHEBI:33263	IAO:0000600		
 WARN	missing_definition	CHEBI:33266	IAO:0000115		
+WARN	missing_definition	CHEBI:33266	IAO:0000600		
 WARN	missing_definition	CHEBI:33267	IAO:0000115		
+WARN	missing_definition	CHEBI:33267	IAO:0000600		
+WARN	missing_definition	CHEBI:33273	IAO:0000600		
+WARN	missing_definition	CHEBI:33284	IAO:0000600		
+WARN	missing_definition	CHEBI:33285	IAO:0000600		
+WARN	missing_definition	CHEBI:33290	IAO:0000600		
+WARN	missing_definition	CHEBI:33296	IAO:0000600		
+WARN	missing_definition	CHEBI:33299	IAO:0000600		
+WARN	missing_definition	CHEBI:33302	IAO:0000600		
+WARN	missing_definition	CHEBI:33304	IAO:0000600		
+WARN	missing_definition	CHEBI:33308	IAO:0000600		
 WARN	missing_definition	CHEBI:33328	IAO:0000115		
+WARN	missing_definition	CHEBI:33328	IAO:0000600		
 WARN	missing_definition	CHEBI:33458	IAO:0000115		
+WARN	missing_definition	CHEBI:33458	IAO:0000600		
 WARN	missing_definition	CHEBI:33459	IAO:0000115		
+WARN	missing_definition	CHEBI:33459	IAO:0000600		
 WARN	missing_definition	CHEBI:33465	IAO:0000115		
+WARN	missing_definition	CHEBI:33465	IAO:0000600		
 WARN	missing_definition	CHEBI:33521	IAO:0000115		
+WARN	missing_definition	CHEBI:33521	IAO:0000600		
+WARN	missing_definition	CHEBI:33579	IAO:0000600		
 WARN	missing_definition	CHEBI:33582	IAO:0000115		
+WARN	missing_definition	CHEBI:33582	IAO:0000600		
+WARN	missing_definition	CHEBI:33583	IAO:0000600		
+WARN	missing_definition	CHEBI:33595	IAO:0000600		
 WARN	missing_definition	CHEBI:33608	IAO:0000115		
+WARN	missing_definition	CHEBI:33608	IAO:0000600		
+WARN	missing_definition	CHEBI:33655	IAO:0000600		
+WARN	missing_definition	CHEBI:33659	IAO:0000115		
+WARN	missing_definition	CHEBI:33659	IAO:0000600		
+WARN	missing_definition	CHEBI:33674	IAO:0000600		
+WARN	missing_definition	CHEBI:33675	IAO:0000600		
 WARN	missing_definition	CHEBI:33679	IAO:0000115		
+WARN	missing_definition	CHEBI:33679	IAO:0000600		
+WARN	missing_definition	CHEBI:33692	IAO:0000600		
 WARN	missing_definition	CHEBI:33693	IAO:0000115		
+WARN	missing_definition	CHEBI:33693	IAO:0000600		
+WARN	missing_definition	CHEBI:33694	IAO:0000600		
+WARN	missing_definition	CHEBI:33696	IAO:0000600		
+WARN	missing_definition	CHEBI:33697	IAO:0000600		
 WARN	missing_definition	CHEBI:33702	IAO:0000115		
+WARN	missing_definition	CHEBI:33702	IAO:0000600		
+WARN	missing_definition	CHEBI:33822	IAO:0000600		
+WARN	missing_definition	CHEBI:33832	IAO:0000600		
+WARN	missing_definition	CHEBI:33833	IAO:0000600		
+WARN	missing_definition	CHEBI:33839	IAO:0000600		
+WARN	missing_definition	CHEBI:33909	IAO:0000115		
+WARN	missing_definition	CHEBI:33909	IAO:0000600		
 WARN	missing_definition	CHEBI:33958	IAO:0000115		
+WARN	missing_definition	CHEBI:33958	IAO:0000600		
+WARN	missing_definition	CHEBI:33976	IAO:0000115		
+WARN	missing_definition	CHEBI:33976	IAO:0000600		
 WARN	missing_definition	CHEBI:35106	IAO:0000115		
+WARN	missing_definition	CHEBI:35106	IAO:0000600		
+WARN	missing_definition	CHEBI:35217	IAO:0000115		
+WARN	missing_definition	CHEBI:35217	IAO:0000600		
 WARN	missing_definition	CHEBI:35274	IAO:0000115		
+WARN	missing_definition	CHEBI:35274	IAO:0000600		
+WARN	missing_definition	CHEBI:35307	IAO:0000115		
+WARN	missing_definition	CHEBI:35307	IAO:0000600		
+WARN	missing_definition	CHEBI:35352	IAO:0000600		
+WARN	missing_definition	CHEBI:35406	IAO:0000600		
 WARN	missing_definition	CHEBI:35479	IAO:0000115		
+WARN	missing_definition	CHEBI:35479	IAO:0000600		
+WARN	missing_definition	CHEBI:35681	IAO:0000600		
+WARN	missing_definition	CHEBI:35701	IAO:0000600		
 WARN	missing_definition	CHEBI:35881	IAO:0000115		
+WARN	missing_definition	CHEBI:35881	IAO:0000600		
 WARN	missing_definition	CHEBI:36093	IAO:0000115		
+WARN	missing_definition	CHEBI:36093	IAO:0000600		
+WARN	missing_definition	CHEBI:36309	IAO:0000115		
+WARN	missing_definition	CHEBI:36309	IAO:0000600		
 WARN	missing_definition	CHEBI:36342	IAO:0000115		
+WARN	missing_definition	CHEBI:36342	IAO:0000600		
+WARN	missing_definition	CHEBI:36357	IAO:0000600		
+WARN	missing_definition	CHEBI:36358	IAO:0000600		
 WARN	missing_definition	CHEBI:36359	IAO:0000115		
+WARN	missing_definition	CHEBI:36359	IAO:0000600		
 WARN	missing_definition	CHEBI:36360	IAO:0000115		
+WARN	missing_definition	CHEBI:36360	IAO:0000600		
+WARN	missing_definition	CHEBI:36562	IAO:0000600		
+WARN	missing_definition	CHEBI:36586	IAO:0000600		
+WARN	missing_definition	CHEBI:36587	IAO:0000600		
 WARN	missing_definition	CHEBI:36902	IAO:0000115		
+WARN	missing_definition	CHEBI:36902	IAO:0000600		
 WARN	missing_definition	CHEBI:36908	IAO:0000115		
+WARN	missing_definition	CHEBI:36908	IAO:0000600		
 WARN	missing_definition	CHEBI:36914	IAO:0000115		
+WARN	missing_definition	CHEBI:36914	IAO:0000600		
 WARN	missing_definition	CHEBI:36915	IAO:0000115		
+WARN	missing_definition	CHEBI:36915	IAO:0000600		
+WARN	missing_definition	CHEBI:36916	IAO:0000600		
+WARN	missing_definition	CHEBI:36962	IAO:0000600		
+WARN	missing_definition	CHEBI:36963	IAO:0000600		
 WARN	missing_definition	CHEBI:37176	IAO:0000115		
+WARN	missing_definition	CHEBI:37176	IAO:0000600		
 WARN	missing_definition	CHEBI:37190	IAO:0000115		
+WARN	missing_definition	CHEBI:37190	IAO:0000600		
 WARN	missing_definition	CHEBI:37191	IAO:0000115		
+WARN	missing_definition	CHEBI:37191	IAO:0000600		
+WARN	missing_definition	CHEBI:37407	IAO:0000115		
+WARN	missing_definition	CHEBI:37407	IAO:0000600		
+WARN	missing_definition	CHEBI:37577	IAO:0000600		
+WARN	missing_definition	CHEBI:37578	IAO:0000600		
+WARN	missing_definition	CHEBI:37602	IAO:0000115		
+WARN	missing_definition	CHEBI:37602	IAO:0000600		
+WARN	missing_definition	CHEBI:37622	IAO:0000600		
+WARN	missing_definition	CHEBI:38077	IAO:0000600		
+WARN	missing_definition	CHEBI:38101	IAO:0000600		
+WARN	missing_definition	CHEBI:38104	IAO:0000600		
+WARN	missing_definition	CHEBI:38251	IAO:0000115		
+WARN	missing_definition	CHEBI:38251	IAO:0000600		
 WARN	missing_definition	CHEBI:38702	IAO:0000115		
+WARN	missing_definition	CHEBI:38702	IAO:0000600		
+WARN	missing_definition	CHEBI:46662	IAO:0000600		
 WARN	missing_definition	CHEBI:46890	IAO:0000115		
+WARN	missing_definition	CHEBI:46890	IAO:0000600		
 WARN	missing_definition	CHEBI:4705	IAO:0000115		
+WARN	missing_definition	CHEBI:4705	IAO:0000600		
+WARN	missing_definition	CHEBI:47622	IAO:0000600		
+WARN	missing_definition	CHEBI:47882	IAO:0000115		
+WARN	missing_definition	CHEBI:47882	IAO:0000600		
 WARN	missing_definition	CHEBI:48123	IAO:0000115		
+WARN	missing_definition	CHEBI:48123	IAO:0000600		
+WARN	missing_definition	CHEBI:50047	IAO:0000600		
 WARN	missing_definition	CHEBI:50312	IAO:0000115		
+WARN	missing_definition	CHEBI:50312	IAO:0000600		
 WARN	missing_definition	CHEBI:50313	IAO:0000115		
+WARN	missing_definition	CHEBI:50313	IAO:0000600		
+WARN	missing_definition	CHEBI:50860	IAO:0000600		
+WARN	missing_definition	CHEBI:50906	IAO:0000600		
+WARN	missing_definition	CHEBI:51086	IAO:0000600		
 WARN	missing_definition	CHEBI:51143	IAO:0000115		
+WARN	missing_definition	CHEBI:51143	IAO:0000600		
+WARN	missing_definition	CHEBI:5186	IAO:0000115		
+WARN	missing_definition	CHEBI:5186	IAO:0000600		
 WARN	missing_definition	CHEBI:52211	IAO:0000115		
+WARN	missing_definition	CHEBI:52211	IAO:0000600		
 WARN	missing_definition	CHEBI:52625	IAO:0000115		
+WARN	missing_definition	CHEBI:52625	IAO:0000600		
+WARN	missing_definition	CHEBI:5686	IAO:0000600		
+WARN	missing_definition	CHEBI:59999	IAO:0000600		
 WARN	missing_definition	CHEBI:60242	IAO:0000115		
+WARN	missing_definition	CHEBI:60242	IAO:0000600		
 WARN	missing_definition	CHEBI:62764	IAO:0000115		
+WARN	missing_definition	CHEBI:62764	IAO:0000600		
+WARN	missing_definition	CHEBI:64708	IAO:0000600		
+WARN	missing_definition	CHEBI:72695	IAO:0000600		
 WARN	missing_definition	CHEBI:76413	IAO:0000115		
+WARN	missing_definition	CHEBI:76413	IAO:0000600		
+WARN	missing_definition	CHEBI:78295	IAO:0000600		
 WARN	missing_definition	CHEBI:79389	IAO:0000115		
+WARN	missing_definition	CHEBI:79389	IAO:0000600		
+WARN	missing_definition	CL:0000000	IAO:0000600		
+WARN	missing_definition	CL:0000010	IAO:0000600		
+WARN	missing_definition	CL:0000236	IAO:0000600		
+WARN	missing_definition	CL:0000542	IAO:0000600		
+WARN	missing_definition	CL:0000578	IAO:0000600		
+WARN	missing_definition	CL:0000842	IAO:0000600		
 WARN	missing_definition	ENVO:00000000	IAO:0000115		
+WARN	missing_definition	ENVO:00000000	IAO:0000600		
+WARN	missing_definition	ENVO:00000002	IAO:0000600		
+WARN	missing_definition	ENVO:00000012	IAO:0000600		
+WARN	missing_definition	ENVO:00000015	IAO:0000600		
+WARN	missing_definition	ENVO:00000016	IAO:0000600		
+WARN	missing_definition	ENVO:00000017	IAO:0000600		
+WARN	missing_definition	ENVO:00000019	IAO:0000600		
+WARN	missing_definition	ENVO:00000020	IAO:0000600		
+WARN	missing_definition	ENVO:00000043	IAO:0000600		
+WARN	missing_definition	ENVO:00000063	IAO:0000600		
+WARN	missing_definition	ENVO:00000100	IAO:0000600		
+WARN	missing_definition	ENVO:00000128	IAO:0000600		
+WARN	missing_definition	ENVO:00000131	IAO:0000600		
+WARN	missing_definition	ENVO:00000134	IAO:0000600		
+WARN	missing_definition	ENVO:00000176	IAO:0000600		
+WARN	missing_definition	ENVO:00000191	IAO:0000600		
 WARN	missing_definition	ENVO:00000240	IAO:0000115		
+WARN	missing_definition	ENVO:00000240	IAO:0000600		
+WARN	missing_definition	ENVO:00000248	IAO:0000600		
+WARN	missing_definition	ENVO:00000304	IAO:0000600		
+WARN	missing_definition	ENVO:00000309	IAO:0000600		
+WARN	missing_definition	ENVO:00000428	IAO:0000600		
+WARN	missing_definition	ENVO:00000446	IAO:0000600		
+WARN	missing_definition	ENVO:00000447	IAO:0000600		
+WARN	missing_definition	ENVO:00001995	IAO:0000600		
+WARN	missing_definition	ENVO:00001998	IAO:0000600		
+WARN	missing_definition	ENVO:00001999	IAO:0000600		
+WARN	missing_definition	ENVO:00002000	IAO:0000600		
+WARN	missing_definition	ENVO:00002005	IAO:0000600		
+WARN	missing_definition	ENVO:00002006	IAO:0000600		
+WARN	missing_definition	ENVO:00002007	IAO:0000600		
+WARN	missing_definition	ENVO:00002010	IAO:0000600		
 WARN	missing_definition	ENVO:00002030	IAO:0000115		
+WARN	missing_definition	ENVO:00002030	IAO:0000600		
+WARN	missing_definition	ENVO:00002121	IAO:0000115		
+WARN	missing_definition	ENVO:00002121	IAO:0000600		
+WARN	missing_definition	ENVO:00002149	IAO:0000600		
+WARN	missing_definition	ENVO:00002297	IAO:0000600		
+WARN	missing_definition	ENVO:00002982	IAO:0000600		
+WARN	missing_definition	ENVO:00003082	IAO:0000600		
+WARN	missing_definition	ENVO:00005748	IAO:0000600		
+WARN	missing_definition	ENVO:00010483	IAO:0000600		
+WARN	missing_definition	ENVO:00010504	IAO:0000600		
+WARN	missing_definition	ENVO:00010505	IAO:0000600		
+WARN	missing_definition	ENVO:01000016	IAO:0000600		
+WARN	missing_definition	ENVO:01000017	IAO:0000600		
+WARN	missing_definition	ENVO:01000023	IAO:0000600		
+WARN	missing_definition	ENVO:01000032	IAO:0000600		
+WARN	missing_definition	ENVO:01000033	IAO:0000600		
+WARN	missing_definition	ENVO:01000034	IAO:0000600		
+WARN	missing_definition	ENVO:01000041	IAO:0000600		
+WARN	missing_definition	ENVO:01000044	IAO:0000600		
+WARN	missing_definition	ENVO:01000060	IAO:0000600		
+WARN	missing_definition	ENVO:01000063	IAO:0000600		
+WARN	missing_definition	ENVO:01000155	IAO:0000600		
+WARN	missing_definition	ENVO:01000176	IAO:0000600		
+WARN	missing_definition	ENVO:01000203	IAO:0000600		
+WARN	missing_definition	ENVO:01000216	IAO:0000600		
+WARN	missing_definition	ENVO:01000254	IAO:0000600		
+WARN	missing_definition	ENVO:01000256	IAO:0000600		
+WARN	missing_definition	ENVO:01000266	IAO:0000600		
+WARN	missing_definition	ENVO:01000267	IAO:0000600		
+WARN	missing_definition	ENVO:01000268	IAO:0000600		
+WARN	missing_definition	ENVO:01000276	IAO:0000600		
+WARN	missing_definition	ENVO:01000277	IAO:0000600		
+WARN	missing_definition	ENVO:01000280	IAO:0000600		
+WARN	missing_definition	ENVO:01000281	IAO:0000600		
+WARN	missing_definition	ENVO:01000283	IAO:0000600		
+WARN	missing_definition	ENVO:01000293	IAO:0000600		
+WARN	missing_definition	ENVO:01000295	IAO:0000600		
+WARN	missing_definition	ENVO:01000303	IAO:0000600		
+WARN	missing_definition	ENVO:01000304	IAO:0000600		
+WARN	missing_definition	ENVO:01000305	IAO:0000600		
+WARN	missing_definition	ENVO:01000307	IAO:0000600		
+WARN	missing_definition	ENVO:01000309	IAO:0000600		
+WARN	missing_definition	ENVO:01000313	IAO:0000600		
+WARN	missing_definition	ENVO:01000314	IAO:0000600		
+WARN	missing_definition	ENVO:01000316	IAO:0000600		
+WARN	missing_definition	ENVO:01000317	IAO:0000600		
+WARN	missing_definition	ENVO:01000319	IAO:0000600		
+WARN	missing_definition	ENVO:01000320	IAO:0000600		
+WARN	missing_definition	ENVO:01000321	IAO:0000600		
+WARN	missing_definition	ENVO:01000324	IAO:0000600		
+WARN	missing_definition	ENVO:01000325	IAO:0000600		
+WARN	missing_definition	ENVO:01000342	IAO:0000600		
+WARN	missing_definition	ENVO:01000343	IAO:0000600		
+WARN	missing_definition	ENVO:01000357	IAO:0000600		
+WARN	missing_definition	ENVO:01000406	IAO:0000600		
+WARN	missing_definition	ENVO:01000408	IAO:0000600		
+WARN	missing_definition	ENVO:01000617	IAO:0000600		
+WARN	missing_definition	ENVO:01000624	IAO:0000600		
+WARN	missing_definition	ENVO:01000635	IAO:0000600		
+WARN	missing_definition	ENVO:01000637	IAO:0000600		
+WARN	missing_definition	ENVO:01000638	IAO:0000600		
+WARN	missing_definition	ENVO:01000639	IAO:0000600		
+WARN	missing_definition	ENVO:01000685	IAO:0000600		
+WARN	missing_definition	ENVO:01000687	IAO:0000600		
+WARN	missing_definition	ENVO:01000703	IAO:0000600		
+WARN	missing_definition	ENVO:01000724	IAO:0000600		
+WARN	missing_definition	ENVO:01000739	IAO:0000600		
+WARN	missing_definition	ENVO:01000755	IAO:0000600		
+WARN	missing_definition	ENVO:01000797	IAO:0000600		
+WARN	missing_definition	ENVO:01000799	IAO:0000600		
+WARN	missing_definition	ENVO:01000800	IAO:0000600		
+WARN	missing_definition	ENVO:01000804	IAO:0000600		
+WARN	missing_definition	ENVO:01000813	IAO:0000600		
+WARN	missing_definition	ENVO:01000814	IAO:0000600		
+WARN	missing_definition	ENVO:01000815	IAO:0000600		
+WARN	missing_definition	ENVO:01000817	IAO:0000600		
+WARN	missing_definition	ENVO:01000818	IAO:0000600		
+WARN	missing_definition	ENVO:01000819	IAO:0000600		
+WARN	missing_definition	ENVO:01000875	IAO:0000600		
+WARN	missing_definition	ENVO:01000895	IAO:0000600		
+WARN	missing_definition	ENVO:01000951	IAO:0000600		
+WARN	missing_definition	ENVO:01000952	IAO:0000600		
+WARN	missing_definition	ENVO:01000958	IAO:0000600		
+WARN	missing_definition	ENVO:01000981	IAO:0000600		
+WARN	missing_definition	ENVO:01000982	IAO:0000600		
+WARN	missing_definition	ENVO:01000997	IAO:0000600		
+WARN	missing_definition	ENVO:01000998	IAO:0000600		
+WARN	missing_definition	ENVO:01001000	IAO:0000600		
+WARN	missing_definition	ENVO:01001002	IAO:0000600		
+WARN	missing_definition	ENVO:01001008	IAO:0000600		
+WARN	missing_definition	ENVO:01001010	IAO:0000600		
+WARN	missing_definition	ENVO:01001012	IAO:0000600		
+WARN	missing_definition	ENVO:01001022	IAO:0000600		
+WARN	missing_definition	ENVO:01001023	IAO:0000600		
+WARN	missing_definition	ENVO:01001026	IAO:0000600		
+WARN	missing_definition	ENVO:01001040	IAO:0000600		
+WARN	missing_definition	ENVO:01001044	IAO:0000600		
+WARN	missing_definition	ENVO:01001048	IAO:0000600		
+WARN	missing_definition	ENVO:01001052	IAO:0000600		
+WARN	missing_definition	ENVO:01001053	IAO:0000600		
+WARN	missing_definition	ENVO:01001054	IAO:0000600		
+WARN	missing_definition	ENVO:01001055	IAO:0000600		
+WARN	missing_definition	ENVO:01001057	IAO:0000600		
+WARN	missing_definition	ENVO:01001068	IAO:0000600		
+WARN	missing_definition	ENVO:01001069	IAO:0000600		
+WARN	missing_definition	ENVO:01001088	IAO:0000600		
+WARN	missing_definition	ENVO:01001089	IAO:0000600		
+WARN	missing_definition	ENVO:01001110	IAO:0000600		
+WARN	missing_definition	ENVO:01001122	IAO:0000600		
+WARN	missing_definition	ENVO:01001125	IAO:0000600		
+WARN	missing_definition	ENVO:01001136	IAO:0000600		
+WARN	missing_definition	ENVO:01001137	IAO:0000600		
+WARN	missing_definition	ENVO:01001147	IAO:0000600		
+WARN	missing_definition	ENVO:01001154	IAO:0000600		
+WARN	missing_definition	ENVO:01001155	IAO:0000600		
+WARN	missing_definition	ENVO:01001164	IAO:0000600		
+WARN	missing_definition	ENVO:01001176	IAO:0000600		
+WARN	missing_definition	ENVO:01001191	IAO:0000600		
+WARN	missing_definition	ENVO:01001192	IAO:0000600		
+WARN	missing_definition	ENVO:01001199	IAO:0000600		
+WARN	missing_definition	ENVO:01001201	IAO:0000600		
+WARN	missing_definition	ENVO:01001209	IAO:0000600		
+WARN	missing_definition	ENVO:01001226	IAO:0000600		
+WARN	missing_definition	ENVO:01001227	IAO:0000600		
+WARN	missing_definition	ENVO:01001273	IAO:0000600		
+WARN	missing_definition	ENVO:01001275	IAO:0000600		
+WARN	missing_definition	ENVO:01001276	IAO:0000600		
+WARN	missing_definition	ENVO:01001299	IAO:0000600		
+WARN	missing_definition	ENVO:01001305	IAO:0000600		
+WARN	missing_definition	ENVO:01001307	IAO:0000600		
+WARN	missing_definition	ENVO:01001308	IAO:0000600		
+WARN	missing_definition	ENVO:01001309	IAO:0000600		
+WARN	missing_definition	ENVO:01001310	IAO:0000600		
+WARN	missing_definition	ENVO:01001311	IAO:0000600		
+WARN	missing_definition	ENVO:01001319	IAO:0000600		
+WARN	missing_definition	ENVO:01001334	IAO:0000600		
+WARN	missing_definition	ENVO:01001346	IAO:0000600		
+WARN	missing_definition	ENVO:01001363	IAO:0000600		
+WARN	missing_definition	ENVO:01001367	IAO:0000600		
+WARN	missing_definition	ENVO:01001434	IAO:0000600		
 WARN	missing_definition	ENVO:01001476	IAO:0000115		
+WARN	missing_definition	ENVO:01001476	IAO:0000600		
+WARN	missing_definition	ENVO:01001477	IAO:0000600		
+WARN	missing_definition	ENVO:01001478	IAO:0000600		
+WARN	missing_definition	ENVO:01001479	IAO:0000600		
+WARN	missing_definition	ENVO:01001483	IAO:0000600		
+WARN	missing_definition	ENVO:01001510	IAO:0000600		
+WARN	missing_definition	ENVO:01001524	IAO:0000600		
+WARN	missing_definition	ENVO:01001526	IAO:0000600		
+WARN	missing_definition	ENVO:01001554	IAO:0000600		
+WARN	missing_definition	ENVO:01001570	IAO:0000600		
+WARN	missing_definition	ENVO:01001581	IAO:0000600		
+WARN	missing_definition	ENVO:02500000	IAO:0000600		
+WARN	missing_definition	ENVO:02500003	IAO:0000600		
+WARN	missing_definition	ENVO:02500026	IAO:0000600		
+WARN	missing_definition	ENVO:02500027	IAO:0000600		
+WARN	missing_definition	ENVO:02500028	IAO:0000600		
+WARN	missing_definition	ENVO:02500031	IAO:0000600		
+WARN	missing_definition	ENVO:03000009	IAO:0000600		
+WARN	missing_definition	ENVO:03000010	IAO:0000600		
+WARN	missing_definition	ENVO:03000015	IAO:0000600		
+WARN	missing_definition	ENVO:03000033	IAO:0000600		
+WARN	missing_definition	ENVO:03000036	IAO:0000600		
+WARN	missing_definition	ENVO:03000043	IAO:0000600		
+WARN	missing_definition	ENVO:03000110	IAO:0000600		
+WARN	missing_definition	ENVO:03000111	IAO:0000600		
+WARN	missing_definition	ENVO:09200000	IAO:0000600		
+WARN	missing_definition	ENVO:09200001	IAO:0000600		
+WARN	missing_definition	ENVO:09200002	IAO:0000600		
+WARN	missing_definition	ENVO:09200004	IAO:0000600		
+WARN	missing_definition	ENVO:09200005	IAO:0000600		
+WARN	missing_definition	ENVO:09200006	IAO:0000600		
+WARN	missing_definition	ENVO:09200007	IAO:0000600		
+WARN	missing_definition	ENVO:09200008	IAO:0000600		
+WARN	missing_definition	ENVO:09200009	IAO:0000600		
+WARN	missing_definition	ENVO:09200010	IAO:0000600		
+WARN	missing_definition	ENVO:09200011	IAO:0000600		
+WARN	missing_definition	ENVO:09200012	IAO:0000600		
+WARN	missing_definition	ENVO:09200013	IAO:0000600		
+WARN	missing_definition	ENVO:09200014	IAO:0000600		
+WARN	missing_definition	ENVO:09200016	IAO:0000600		
+WARN	missing_definition	ENVO:09200017	IAO:0000600		
+WARN	missing_definition	ENVO:09200018	IAO:0000600		
+WARN	missing_definition	ENVO:09200021	IAO:0000600		
+WARN	missing_definition	ENVO:2100000	IAO:0000600		
+WARN	missing_definition	ENVO:3100004	IAO:0000600		
+WARN	missing_definition	ENVO:3100008	IAO:0000600		
+WARN	missing_definition	ENVO:3100009	IAO:0000600		
+WARN	missing_definition	ENVO:3100011	IAO:0000600		
+WARN	missing_definition	ENVO:3100014	IAO:0000600		
+WARN	missing_definition	ENVO:3100022	IAO:0000600		
+WARN	missing_definition	ENVO:3100023	IAO:0000600		
+WARN	missing_definition	ENVO:3100026	IAO:0000600		
+WARN	missing_definition	ENVO:3100027	IAO:0000600		
+WARN	missing_definition	ENVO:3100029	IAO:0000600		
+WARN	missing_definition	ENVO:3100030	IAO:0000600		
+WARN	missing_definition	ENVO:3100031	IAO:0000600		
+WARN	missing_definition	ENVO:3100032	IAO:0000600		
+WARN	missing_definition	ENVO:3100033	IAO:0000600		
+WARN	missing_definition	ENVO:3100034	IAO:0000600		
+WARN	missing_definition	ENVO:3100036	IAO:0000600		
+WARN	missing_definition	FOODON:00001002	IAO:0000600		
+WARN	missing_definition	FOODON:00001015	IAO:0000600		
+WARN	missing_definition	FOODON:00001079	IAO:0000600		
+WARN	missing_definition	FOODON:00001094	IAO:0000115		
+WARN	missing_definition	FOODON:00001094	IAO:0000600		
+WARN	missing_definition	FOODON:00001180	IAO:0000600		
+WARN	missing_definition	FOODON:00001181	IAO:0000115		
+WARN	missing_definition	FOODON:00001181	IAO:0000600		
+WARN	missing_definition	FOODON:00001253	IAO:0000115		
+WARN	missing_definition	FOODON:00001253	IAO:0000600		
+WARN	missing_definition	FOODON:00001254	IAO:0000115		
+WARN	missing_definition	FOODON:00001254	IAO:0000600		
+WARN	missing_definition	FOODON:00001258	IAO:0000115		
+WARN	missing_definition	FOODON:00001258	IAO:0000600		
+WARN	missing_definition	FOODON:00001261	IAO:0000600		
+WARN	missing_definition	FOODON:00001304	IAO:0000115		
+WARN	missing_definition	FOODON:00001304	IAO:0000600		
+WARN	missing_definition	FOODON:00001306	IAO:0000600		
+WARN	missing_definition	FOODON:00001579	IAO:0000115		
+WARN	missing_definition	FOODON:00001579	IAO:0000600		
 WARN	missing_definition	FOODON:00001714	IAO:0000115		
+WARN	missing_definition	FOODON:00001714	IAO:0000600		
+WARN	missing_definition	FOODON:00001931	IAO:0000115		
+WARN	missing_definition	FOODON:00001931	IAO:0000600		
+WARN	missing_definition	FOODON:00002123	IAO:0000115		
+WARN	missing_definition	FOODON:00002123	IAO:0000600		
+WARN	missing_definition	FOODON:00002158	IAO:0000115		
+WARN	missing_definition	FOODON:00002158	IAO:0000600		
+WARN	missing_definition	FOODON:00002333	IAO:0000115		
+WARN	missing_definition	FOODON:00002333	IAO:0000600		
+WARN	missing_definition	FOODON:00002373	IAO:0000115		
+WARN	missing_definition	FOODON:00002373	IAO:0000600		
+WARN	missing_definition	FOODON:00002381	IAO:0000115		
+WARN	missing_definition	FOODON:00002381	IAO:0000600		
+WARN	missing_definition	FOODON:00002403	IAO:0000115		
+WARN	missing_definition	FOODON:00002403	IAO:0000600		
+WARN	missing_definition	FOODON:00002451	IAO:0000600		
+WARN	missing_definition	FOODON:00002454	IAO:0000115		
+WARN	missing_definition	FOODON:00002454	IAO:0000600		
+WARN	missing_definition	FOODON:00002470	IAO:0000115		
+WARN	missing_definition	FOODON:00002470	IAO:0000600		
+WARN	missing_definition	FOODON:03301444	IAO:0000115		
+WARN	missing_definition	FOODON:03301444	IAO:0000600		
+WARN	missing_definition	FOODON:03301977	IAO:0000115		
+WARN	missing_definition	FOODON:03301977	IAO:0000600		
+WARN	missing_definition	FOODON:03311146	IAO:0000115		
+WARN	missing_definition	FOODON:03311146	IAO:0000600		
+WARN	missing_definition	FOODON:03317197	IAO:0000115		
+WARN	missing_definition	FOODON:03317197	IAO:0000600		
+WARN	missing_definition	FOODON:03400105	IAO:0000600		
+WARN	missing_definition	FOODON:03400152	IAO:0000600		
+WARN	missing_definition	FOODON:03400229	IAO:0000600		
+WARN	missing_definition	FOODON:03400257	IAO:0000600		
+WARN	missing_definition	FOODON:03400264	IAO:0000600		
+WARN	missing_definition	FOODON:03400286	IAO:0000600		
+WARN	missing_definition	FOODON:03400289	IAO:0000600		
+WARN	missing_definition	FOODON:03400361	IAO:0000600		
+WARN	missing_definition	FOODON:03401270	IAO:0000600		
+WARN	missing_definition	FOODON:03411018	IAO:0000115		
+WARN	missing_definition	FOODON:03411018	IAO:0000600		
 WARN	missing_definition	FOODON:03411041	IAO:0000115		
+WARN	missing_definition	FOODON:03411041	IAO:0000600		
+WARN	missing_definition	FOODON:03411300	IAO:0000600		
+WARN	missing_definition	FOODON:03411347	IAO:0000600		
+WARN	missing_definition	FOODON:03411564	IAO:0000600		
+WARN	missing_definition	FOODON:03411579	IAO:0000115		
+WARN	missing_definition	FOODON:03411579	IAO:0000600		
 WARN	missing_definition	FOODON:03412972	IAO:0000115		
+WARN	missing_definition	FOODON:03412972	IAO:0000600		
+WARN	missing_definition	FOODON:03413357	IAO:0000115		
+WARN	missing_definition	FOODON:03413357	IAO:0000600		
+WARN	missing_definition	FOODON:03414302	IAO:0000600		
+WARN	missing_definition	FOODON:03430102	IAO:0000600		
+WARN	missing_definition	FOODON:03430109	IAO:0000600		
+WARN	missing_definition	FOODON:03430130	IAO:0000600		
+WARN	missing_definition	FOODON:03430151	IAO:0000600		
+WARN	missing_definition	FOODON:03460111	IAO:0000600		
+WARN	missing_definition	FOODON:03460119	IAO:0000600		
+WARN	missing_definition	FOODON:03460141	IAO:0000115		
+WARN	missing_definition	FOODON:03460141	IAO:0000600		
+WARN	missing_definition	FOODON:03460190	IAO:0000600		
+WARN	missing_definition	FOODON:03470107	IAO:0000600		
+WARN	missing_definition	GO:0003674	IAO:0000600		
+WARN	missing_definition	GO:0003824	IAO:0000600		
+WARN	missing_definition	GO:0003964	IAO:0000600		
 WARN	missing_definition	GO:0004872	IAO:0000115		
+WARN	missing_definition	GO:0004872	IAO:0000600		
 WARN	missing_definition	GO:0005102	IAO:0000115		
+WARN	missing_definition	GO:0005102	IAO:0000600		
 WARN	missing_definition	GO:0005488	IAO:0000115		
+WARN	missing_definition	GO:0005488	IAO:0000600		
 WARN	missing_definition	GO:0005515	IAO:0000115		
+WARN	missing_definition	GO:0005515	IAO:0000600		
+WARN	missing_definition	GO:0008150	IAO:0000600		
 WARN	missing_definition	GO:0016301	IAO:0000115		
+WARN	missing_definition	GO:0016301	IAO:0000600		
 WARN	missing_definition	GO:0016740	IAO:0000115		
+WARN	missing_definition	GO:0016740	IAO:0000600		
 WARN	missing_definition	GO:0016772	IAO:0000115		
+WARN	missing_definition	GO:0016772	IAO:0000600		
 WARN	missing_definition	GO:0030545	IAO:0000115		
+WARN	missing_definition	GO:0030545	IAO:0000600		
+WARN	missing_definition	GO:0043234	IAO:0000600		
 WARN	missing_definition	GO:0048018	IAO:0000115		
+WARN	missing_definition	GO:0048018	IAO:0000600		
 WARN	missing_definition	GO:0060089	IAO:0000115		
+WARN	missing_definition	GO:0060089	IAO:0000600		
 WARN	missing_definition	GO:0098772	IAO:0000115		
+WARN	missing_definition	GO:0098772	IAO:0000600		
+WARN	missing_definition	IAO:0000003	IAO:0000600		
 WARN	missing_definition	IAO:0000004	IAO:0000115		
+WARN	missing_definition	IAO:0000004	IAO:0000600		
+WARN	missing_definition	IAO:0000005	IAO:0000600		
+WARN	missing_definition	IAO:0000007	IAO:0000600		
+WARN	missing_definition	IAO:0000009	IAO:0000600		
+WARN	missing_definition	IAO:0000010	IAO:0000600		
+WARN	missing_definition	IAO:0000015	IAO:0000600		
+WARN	missing_definition	IAO:0000027	IAO:0000600		
+WARN	missing_definition	IAO:0000028	IAO:0000600		
+WARN	missing_definition	IAO:0000030	IAO:0000600		
+WARN	missing_definition	IAO:0000032	IAO:0000600		
+WARN	missing_definition	IAO:0000033	IAO:0000600		
+WARN	missing_definition	IAO:0000037	IAO:0000600		
+WARN	missing_definition	IAO:0000038	IAO:0000600		
 WARN	missing_definition	IAO:0000039	IAO:0000115		
+WARN	missing_definition	IAO:0000039	IAO:0000600		
+WARN	missing_definition	IAO:0000064	IAO:0000600		
+WARN	missing_definition	IAO:0000078	IAO:0000600		
+WARN	missing_definition	IAO:0000098	IAO:0000600		
+WARN	missing_definition	IAO:0000100	IAO:0000600		
+WARN	missing_definition	IAO:0000101	IAO:0000600		
+WARN	missing_definition	IAO:0000102	IAO:0000600		
+WARN	missing_definition	IAO:0000104	IAO:0000600		
+WARN	missing_definition	IAO:0000109	IAO:0000600		
+WARN	missing_definition	IAO:0000111	IAO:0000600		
+WARN	missing_definition	IAO:0000112	IAO:0000600		
 WARN	missing_definition	IAO:0000114	IAO:0000115		
+WARN	missing_definition	IAO:0000114	IAO:0000600		
+WARN	missing_definition	IAO:0000115	IAO:0000600		
+WARN	missing_definition	IAO:0000116	IAO:0000600		
+WARN	missing_definition	IAO:0000117	IAO:0000600		
+WARN	missing_definition	IAO:0000118	IAO:0000600		
+WARN	missing_definition	IAO:0000119	IAO:0000600		
+WARN	missing_definition	IAO:0000136	IAO:0000600		
+WARN	missing_definition	IAO:0000178	IAO:0000600		
+WARN	missing_definition	IAO:0000179	IAO:0000600		
+WARN	missing_definition	IAO:0000180	IAO:0000600		
+WARN	missing_definition	IAO:0000183	IAO:0000600		
+WARN	missing_definition	IAO:0000184	IAO:0000600		
+WARN	missing_definition	IAO:0000219	IAO:0000600		
+WARN	missing_definition	IAO:0000225	IAO:0000600		
+WARN	missing_definition	IAO:0000231	IAO:0000600		
+WARN	missing_definition	IAO:0000232	IAO:0000600		
+WARN	missing_definition	IAO:0000234	IAO:0000600		
+WARN	missing_definition	IAO:0000300	IAO:0000600		
+WARN	missing_definition	IAO:0000305	IAO:0000600		
+WARN	missing_definition	IAO:0000308	IAO:0000600		
+WARN	missing_definition	IAO:0000309	IAO:0000600		
+WARN	missing_definition	IAO:0000310	IAO:0000600		
+WARN	missing_definition	IAO:0000409	IAO:0000600		
+WARN	missing_definition	IAO:0000412	IAO:0000600		
+WARN	missing_definition	IAO:0000413	IAO:0000600		
+WARN	missing_definition	IAO:0000416	IAO:0000600		
+WARN	missing_definition	IAO:0000424	IAO:0000600		
+WARN	missing_definition	IAO:0000572	IAO:0000600		
+WARN	missing_definition	IAO:0000574	IAO:0000600		
+WARN	missing_definition	IAO:0000577	IAO:0000600		
+WARN	missing_definition	IAO:0000578	IAO:0000600		
+WARN	missing_definition	IAO:0000579	IAO:0000600		
+WARN	missing_definition	IAO:0000589	IAO:0000600		
+WARN	missing_definition	IAO:0000590	IAO:0000600		
 WARN	missing_definition	IAO:0000600	IAO:0000115		
 WARN	missing_definition	IAO:0000601	IAO:0000115		
 WARN	missing_definition	IAO:0000602	IAO:0000115		
 WARN	missing_definition	IAO:0010000	IAO:0000115		
+WARN	missing_definition	IAO:0100001	IAO:0000600		
 WARN	missing_definition	NCBITaxon:1	IAO:0000115		
+WARN	missing_definition	NCBITaxon:1	IAO:0000600		
 WARN	missing_definition	NCBITaxon:10239	IAO:0000115		
+WARN	missing_definition	NCBITaxon:10239	IAO:0000600		
 WARN	missing_definition	NCBITaxon:117570	IAO:0000115		
+WARN	missing_definition	NCBITaxon:117570	IAO:0000600		
 WARN	missing_definition	NCBITaxon:117571	IAO:0000115		
+WARN	missing_definition	NCBITaxon:117571	IAO:0000600		
 WARN	missing_definition	NCBITaxon:131567	IAO:0000115		
+WARN	missing_definition	NCBITaxon:131567	IAO:0000600		
 WARN	missing_definition	NCBITaxon:1338369	IAO:0000115		
+WARN	missing_definition	NCBITaxon:1338369	IAO:0000600		
 WARN	missing_definition	NCBITaxon:1437010	IAO:0000115		
+WARN	missing_definition	NCBITaxon:1437010	IAO:0000600		
 WARN	missing_definition	NCBITaxon:2	IAO:0000115		
+WARN	missing_definition	NCBITaxon:2	IAO:0000600		
 WARN	missing_definition	NCBITaxon:207598	IAO:0000115		
+WARN	missing_definition	NCBITaxon:207598	IAO:0000600		
 WARN	missing_definition	NCBITaxon:2157	IAO:0000115		
+WARN	missing_definition	NCBITaxon:2157	IAO:0000600		
 WARN	missing_definition	NCBITaxon:2759	IAO:0000115		
+WARN	missing_definition	NCBITaxon:2759	IAO:0000600		
 WARN	missing_definition	NCBITaxon:314146	IAO:0000115		
+WARN	missing_definition	NCBITaxon:314146	IAO:0000600		
 WARN	missing_definition	NCBITaxon:314293	IAO:0000115		
+WARN	missing_definition	NCBITaxon:314293	IAO:0000600		
 WARN	missing_definition	NCBITaxon:314295	IAO:0000115		
+WARN	missing_definition	NCBITaxon:314295	IAO:0000600		
 WARN	missing_definition	NCBITaxon:32523	IAO:0000115		
+WARN	missing_definition	NCBITaxon:32523	IAO:0000600		
 WARN	missing_definition	NCBITaxon:32524	IAO:0000115		
+WARN	missing_definition	NCBITaxon:32524	IAO:0000600		
 WARN	missing_definition	NCBITaxon:32525	IAO:0000115		
+WARN	missing_definition	NCBITaxon:32525	IAO:0000600		
 WARN	missing_definition	NCBITaxon:33154	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33154	IAO:0000600		
 WARN	missing_definition	NCBITaxon:33208	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33208	IAO:0000600		
 WARN	missing_definition	NCBITaxon:33213	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33213	IAO:0000600		
 WARN	missing_definition	NCBITaxon:33511	IAO:0000115		
+WARN	missing_definition	NCBITaxon:33511	IAO:0000600		
 WARN	missing_definition	NCBITaxon:376913	IAO:0000115		
+WARN	missing_definition	NCBITaxon:376913	IAO:0000600		
 WARN	missing_definition	NCBITaxon:40674	IAO:0000115		
+WARN	missing_definition	NCBITaxon:40674	IAO:0000600		
 WARN	missing_definition	NCBITaxon:6072	IAO:0000115		
+WARN	missing_definition	NCBITaxon:6072	IAO:0000600		
 WARN	missing_definition	NCBITaxon:7711	IAO:0000115		
+WARN	missing_definition	NCBITaxon:7711	IAO:0000600		
 WARN	missing_definition	NCBITaxon:7742	IAO:0000115		
+WARN	missing_definition	NCBITaxon:7742	IAO:0000600		
 WARN	missing_definition	NCBITaxon:7776	IAO:0000115		
+WARN	missing_definition	NCBITaxon:7776	IAO:0000600		
 WARN	missing_definition	NCBITaxon:8287	IAO:0000115		
+WARN	missing_definition	NCBITaxon:8287	IAO:0000600		
 WARN	missing_definition	NCBITaxon:89593	IAO:0000115		
+WARN	missing_definition	NCBITaxon:89593	IAO:0000600		
 WARN	missing_definition	NCBITaxon:9347	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9347	IAO:0000600		
 WARN	missing_definition	NCBITaxon:9443	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9443	IAO:0000600		
 WARN	missing_definition	NCBITaxon:9526	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9526	IAO:0000600		
 WARN	missing_definition	NCBITaxon:9604	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9604	IAO:0000600		
 WARN	missing_definition	NCBITaxon:9605	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9605	IAO:0000600		
 WARN	missing_definition	NCBITaxon:9606	IAO:0000115		
+WARN	missing_definition	NCBITaxon:9606	IAO:0000600		
+WARN	missing_definition	OBI:0000011	IAO:0000600		
+WARN	missing_definition	OBI:0000014	IAO:0000600		
+WARN	missing_definition	OBI:0000017	IAO:0000600		
+WARN	missing_definition	OBI:0000018	IAO:0000600		
+WARN	missing_definition	OBI:0000023	IAO:0000600		
+WARN	missing_definition	OBI:0000047	IAO:0000600		
+WARN	missing_definition	OBI:0000066	IAO:0000600		
+WARN	missing_definition	OBI:0000067	IAO:0000600		
+WARN	missing_definition	OBI:0000070	IAO:0000600		
+WARN	missing_definition	OBI:0000073	IAO:0000600		
+WARN	missing_definition	OBI:0000079	IAO:0000600		
+WARN	missing_definition	OBI:0000094	IAO:0000600		
+WARN	missing_definition	OBI:0000107	IAO:0000600		
+WARN	missing_definition	OBI:0000112	IAO:0000600		
+WARN	missing_definition	OBI:0000124	IAO:0000600		
+WARN	missing_definition	OBI:0000151	IAO:0000600		
+WARN	missing_definition	OBI:0000164	IAO:0000600		
+WARN	missing_definition	OBI:0000202	IAO:0000600		
+WARN	missing_definition	OBI:0000245	IAO:0000600		
+WARN	missing_definition	OBI:0000257	IAO:0000600		
+WARN	missing_definition	OBI:0000272	IAO:0000600		
+WARN	missing_definition	OBI:0000293	IAO:0000600		
+WARN	missing_definition	OBI:0000295	IAO:0000600		
+WARN	missing_definition	OBI:0000299	IAO:0000600		
+WARN	missing_definition	OBI:0000312	IAO:0000600		
+WARN	missing_definition	OBI:0000319	IAO:0000600		
+WARN	missing_definition	OBI:0000338	IAO:0000600		
+WARN	missing_definition	OBI:0000339	IAO:0000600		
+WARN	missing_definition	OBI:0000372	IAO:0000600		
+WARN	missing_definition	OBI:0000378	IAO:0000600		
+WARN	missing_definition	OBI:0000411	IAO:0000600		
+WARN	missing_definition	OBI:0000416	IAO:0000600		
+WARN	missing_definition	OBI:0000417	IAO:0000600		
+WARN	missing_definition	OBI:0000419	IAO:0000600		
+WARN	missing_definition	OBI:0000423	IAO:0000600		
+WARN	missing_definition	OBI:0000427	IAO:0000600		
+WARN	missing_definition	OBI:0000441	IAO:0000600		
+WARN	missing_definition	OBI:0000450	IAO:0000600		
+WARN	missing_definition	OBI:0000453	IAO:0000600		
+WARN	missing_definition	OBI:0000456	IAO:0000600		
+WARN	missing_definition	OBI:0000457	IAO:0000600		
+WARN	missing_definition	OBI:0000458	IAO:0000600		
+WARN	missing_definition	OBI:0000471	IAO:0000600		
+WARN	missing_definition	OBI:0000571	IAO:0000600		
+WARN	missing_definition	OBI:0000626	IAO:0000600		
+WARN	missing_definition	OBI:0000639	IAO:0000600		
+WARN	missing_definition	OBI:0000643	IAO:0000600		
+WARN	missing_definition	OBI:0000648	IAO:0000600		
+WARN	missing_definition	OBI:0000659	IAO:0000600		
+WARN	missing_definition	OBI:0000663	IAO:0000600		
+WARN	missing_definition	OBI:0000671	IAO:0000600		
+WARN	missing_definition	OBI:0000678	IAO:0000600		
+WARN	missing_definition	OBI:0000681	IAO:0000600		
+WARN	missing_definition	OBI:0000684	IAO:0000600		
+WARN	missing_definition	OBI:0000700	IAO:0000600		
+WARN	missing_definition	OBI:0000704	IAO:0000600		
+WARN	missing_definition	OBI:0000707	IAO:0000600		
+WARN	missing_definition	OBI:0000711	IAO:0000600		
+WARN	missing_definition	OBI:0000713	IAO:0000600		
+WARN	missing_definition	OBI:0000722	IAO:0000600		
+WARN	missing_definition	OBI:0000726	IAO:0000600		
+WARN	missing_definition	OBI:0000727	IAO:0000600		
+WARN	missing_definition	OBI:0000731	IAO:0000600		
+WARN	missing_definition	OBI:0000736	IAO:0000600		
+WARN	missing_definition	OBI:0000737	IAO:0000600		
+WARN	missing_definition	OBI:0000740	IAO:0000600		
+WARN	missing_definition	OBI:0000744	IAO:0000600		
+WARN	missing_definition	OBI:0000747	IAO:0000600		
+WARN	missing_definition	OBI:0000749	IAO:0000600		
+WARN	missing_definition	OBI:0000792	IAO:0000600		
+WARN	missing_definition	OBI:0000806	IAO:0000600		
+WARN	missing_definition	OBI:0000811	IAO:0000600		
+WARN	missing_definition	OBI:0000832	IAO:0000600		
+WARN	missing_definition	OBI:0000833	IAO:0000600		
+WARN	missing_definition	OBI:0000835	IAO:0000600		
+WARN	missing_definition	OBI:0000838	IAO:0000600		
+WARN	missing_definition	OBI:0000845	IAO:0000600		
+WARN	missing_definition	OBI:0000932	IAO:0000600		
+WARN	missing_definition	OBI:0000941	IAO:0000600		
+WARN	missing_definition	OBI:0000947	IAO:0000600		
+WARN	missing_definition	OBI:0000953	IAO:0000600		
+WARN	missing_definition	OBI:0000963	IAO:0000600		
+WARN	missing_definition	OBI:0000968	IAO:0000600		
+WARN	missing_definition	OBI:0000971	IAO:0000600		
+WARN	missing_definition	OBI:0000973	IAO:0000600		
+WARN	missing_definition	OBI:0000992	IAO:0000600		
+WARN	missing_definition	OBI:0001000	IAO:0000600		
+WARN	missing_definition	OBI:0001010	IAO:0000600		
+WARN	missing_definition	OBI:0001051	IAO:0000600		
+WARN	missing_definition	OBI:0001108	IAO:0000600		
+WARN	missing_definition	OBI:0001137	IAO:0000600		
+WARN	missing_definition	OBI:0001173	IAO:0000600		
+WARN	missing_definition	OBI:0001472	IAO:0000600		
+WARN	missing_definition	OBI:0001479	IAO:0000600		
+WARN	missing_definition	OBI:0001501	IAO:0000600		
+WARN	missing_definition	OBI:0001515	IAO:0000600		
+WARN	missing_definition	OBI:0001528	IAO:0000600		
+WARN	missing_definition	OBI:0001547	IAO:0000600		
+WARN	missing_definition	OBI:0001557	IAO:0000600		
+WARN	missing_definition	OBI:0001573	IAO:0000600		
+WARN	missing_definition	OBI:0001615	IAO:0000600		
+WARN	missing_definition	OBI:0001616	IAO:0000600		
+WARN	missing_definition	OBI:0001619	IAO:0000600		
+WARN	missing_definition	OBI:0001620	IAO:0000600		
+WARN	missing_definition	OBI:0001621	IAO:0000600		
+WARN	missing_definition	OBI:0001628	IAO:0000600		
+WARN	missing_definition	OBI:0001755	IAO:0000600		
+WARN	missing_definition	OBI:0001847	IAO:0000600		
+WARN	missing_definition	OBI:0001852	IAO:0000600		
+WARN	missing_definition	OBI:0001885	IAO:0000600		
+WARN	missing_definition	OBI:0001886	IAO:0000600		
+WARN	missing_definition	OBI:0001891	IAO:0000600		
+WARN	missing_definition	OBI:0001900	IAO:0000600		
+WARN	missing_definition	OBI:0001901	IAO:0000600		
+WARN	missing_definition	OBI:0001902	IAO:0000600		
+WARN	missing_definition	OBI:0001904	IAO:0000600		
+WARN	missing_definition	OBI:0001909	IAO:0000600		
+WARN	missing_definition	OBI:0001912	IAO:0000600		
+WARN	missing_definition	OBI:0001928	IAO:0000600		
+WARN	missing_definition	OBI:0001930	IAO:0000600		
+WARN	missing_definition	OBI:0001931	IAO:0000600		
+WARN	missing_definition	OBI:0001933	IAO:0000600		
+WARN	missing_definition	OBI:0001937	IAO:0000600		
+WARN	missing_definition	OBI:0001938	IAO:0000600		
+WARN	missing_definition	OBI:0001948	IAO:0000600		
+WARN	missing_definition	OBI:0001977	IAO:0000600		
+WARN	missing_definition	OBI:0002076	IAO:0000600		
+WARN	missing_definition	OBI:0002135	IAO:0000600		
+WARN	missing_definition	OBI:0002198	IAO:0000600		
+WARN	missing_definition	OBI:0002205	IAO:0000600		
+WARN	missing_definition	OBI:0002210	IAO:0000600		
+WARN	missing_definition	OBI:0002215	IAO:0000600		
+WARN	missing_definition	OBI:0002216	IAO:0000600		
+WARN	missing_definition	OBI:0002219	IAO:0000600		
+WARN	missing_definition	OBI:0002224	IAO:0000600		
+WARN	missing_definition	OBI:0002232	IAO:0000600		
+WARN	missing_definition	OBI:0002243	IAO:0000600		
+WARN	missing_definition	OBI:0002256	IAO:0000600		
+WARN	missing_definition	OBI:0002270	IAO:0000600		
+WARN	missing_definition	OBI:0002279	IAO:0000600		
+WARN	missing_definition	OBI:0002284	IAO:0000600		
+WARN	missing_definition	OBI:0002287	IAO:0000600		
+WARN	missing_definition	OBI:0002290	IAO:0000600		
+WARN	missing_definition	OBI:0002298	IAO:0000600		
+WARN	missing_definition	OBI:0002306	IAO:0000600		
+WARN	missing_definition	OBI:0002310	IAO:0000600		
+WARN	missing_definition	OBI:0002314	IAO:0000600		
+WARN	missing_definition	OBI:0002326	IAO:0000600		
+WARN	missing_definition	OBI:0002341	IAO:0000600		
+WARN	missing_definition	OBI:0002356	IAO:0000600		
+WARN	missing_definition	OBI:0002357	IAO:0000600		
+WARN	missing_definition	OBI:0002363	IAO:0000600		
+WARN	missing_definition	OBI:0100010	IAO:0000600		
+WARN	missing_definition	OBI:0100026	IAO:0000600		
+WARN	missing_definition	OBI:0100051	IAO:0000600		
+WARN	missing_definition	OBI:0100060	IAO:0000600		
+WARN	missing_definition	OBI:0200000	IAO:0000600		
+WARN	missing_definition	OBI:0200033	IAO:0000600		
+WARN	missing_definition	OBI:0200041	IAO:0000600		
+WARN	missing_definition	OBI:0200042	IAO:0000600		
+WARN	missing_definition	OBI:0200050	IAO:0000600		
+WARN	missing_definition	OBI:0200051	IAO:0000600		
+WARN	missing_definition	OBI:0200111	IAO:0000600		
+WARN	missing_definition	OBI:0200166	IAO:0000600		
+WARN	missing_definition	OBI:0200171	IAO:0000600		
+WARN	missing_definition	OBI:0200172	IAO:0000600		
+WARN	missing_definition	OBI:0200175	IAO:0000600		
+WARN	missing_definition	OBI:0200178	IAO:0000600		
+WARN	missing_definition	OBI:0200179	IAO:0000600		
+WARN	missing_definition	OBI:0200188	IAO:0000600		
+WARN	missing_definition	OBI:0200190	IAO:0000600		
+WARN	missing_definition	OBI:0302884	IAO:0000600		
+WARN	missing_definition	OBI:0302893	IAO:0000600		
+WARN	missing_definition	OBI:0400103	IAO:0000600		
+WARN	missing_definition	OBI:0500000	IAO:0000600		
+WARN	missing_definition	OBI:0600005	IAO:0000600		
+WARN	missing_definition	OBI:0600014	IAO:0000600		
+WARN	missing_definition	OBI:0600024	IAO:0000600		
+WARN	missing_definition	OBI:0600036	IAO:0000600		
+WARN	missing_definition	OBI:0600047	IAO:0000600		
+WARN	missing_definition	OBI:0600064	IAO:0000600		
+WARN	missing_definition	OBI:0666667	IAO:0000600		
+WARN	missing_definition	OBI:1000029	IAO:0000600		
+WARN	missing_definition	OBI:1110108	IAO:0000600		
+WARN	missing_definition	OBI:9991118	IAO:0000600		
+WARN	missing_definition	PATO:0000001	IAO:0000600		
+WARN	missing_definition	PATO:0000018	IAO:0000600		
+WARN	missing_definition	PATO:0000025	IAO:0000600		
+WARN	missing_definition	PATO:0000033	IAO:0000600		
+WARN	missing_definition	PATO:0000040	IAO:0000600		
+WARN	missing_definition	PATO:0000044	IAO:0000600		
+WARN	missing_definition	PATO:0000048	IAO:0000600		
+WARN	missing_definition	PATO:0000051	IAO:0000600		
+WARN	missing_definition	PATO:0000052	IAO:0000600		
 WARN	missing_definition	PATO:0000068	IAO:0000115		
+WARN	missing_definition	PATO:0000068	IAO:0000600		
+WARN	missing_definition	PATO:0000069	IAO:0000600		
+WARN	missing_definition	PATO:0000117	IAO:0000600		
+WARN	missing_definition	PATO:0000122	IAO:0000600		
+WARN	missing_definition	PATO:0000125	IAO:0000600		
+WARN	missing_definition	PATO:0000128	IAO:0000600		
+WARN	missing_definition	PATO:0000133	IAO:0000600		
+WARN	missing_definition	PATO:0000140	IAO:0000600		
+WARN	missing_definition	PATO:0000141	IAO:0000600		
+WARN	missing_definition	PATO:0000146	IAO:0000600		
+WARN	missing_definition	PATO:0000161	IAO:0000600		
+WARN	missing_definition	PATO:0000165	IAO:0000600		
+WARN	missing_definition	PATO:0000186	IAO:0000600		
+WARN	missing_definition	PATO:0000374	IAO:0000600		
+WARN	missing_definition	PATO:0000375	IAO:0000600		
+WARN	missing_definition	PATO:0000380	IAO:0000600		
+WARN	missing_definition	PATO:0000381	IAO:0000600		
+WARN	missing_definition	PATO:0000386	IAO:0000600		
+WARN	missing_definition	PATO:0000387	IAO:0000600		
+WARN	missing_definition	PATO:0000460	IAO:0000600		
+WARN	missing_definition	PATO:0000461	IAO:0000600		
+WARN	missing_definition	PATO:0000498	IAO:0000600		
+WARN	missing_definition	PATO:0000499	IAO:0000600		
+WARN	missing_definition	PATO:0000573	IAO:0000600		
+WARN	missing_definition	PATO:0000574	IAO:0000600		
+WARN	missing_definition	PATO:0000582	IAO:0000600		
+WARN	missing_definition	PATO:0000583	IAO:0000600		
+WARN	missing_definition	PATO:0000586	IAO:0000600		
+WARN	missing_definition	PATO:0000587	IAO:0000600		
+WARN	missing_definition	PATO:0000595	IAO:0000600		
+WARN	missing_definition	PATO:0000596	IAO:0000600		
+WARN	missing_definition	PATO:0000911	IAO:0000600		
+WARN	missing_definition	PATO:0000912	IAO:0000600		
+WARN	missing_definition	PATO:0000918	IAO:0000600		
+WARN	missing_definition	PATO:0000957	IAO:0000600		
+WARN	missing_definition	PATO:0000963	IAO:0000600		
+WARN	missing_definition	PATO:0000964	IAO:0000600		
+WARN	missing_definition	PATO:0000970	IAO:0000600		
+WARN	missing_definition	PATO:0000973	IAO:0000600		
+WARN	missing_definition	PATO:0000984	IAO:0000600		
+WARN	missing_definition	PATO:0000985	IAO:0000600		
+WARN	missing_definition	PATO:0000992	IAO:0000600		
+WARN	missing_definition	PATO:0000998	IAO:0000600		
+WARN	missing_definition	PATO:0001018	IAO:0000600		
+WARN	missing_definition	PATO:0001019	IAO:0000600		
+WARN	missing_definition	PATO:0001025	IAO:0000600		
+WARN	missing_definition	PATO:0001035	IAO:0000600		
+WARN	missing_definition	PATO:0001154	IAO:0000600		
+WARN	missing_definition	PATO:0001236	IAO:0000600		
+WARN	missing_definition	PATO:0001241	IAO:0000600		
+WARN	missing_definition	PATO:0001291	IAO:0000600		
+WARN	missing_definition	PATO:0001296	IAO:0000600		
+WARN	missing_definition	PATO:0001300	IAO:0000600		
+WARN	missing_definition	PATO:0001305	IAO:0000600		
+WARN	missing_definition	PATO:0001306	IAO:0000600		
+WARN	missing_definition	PATO:0001309	IAO:0000600		
+WARN	missing_definition	PATO:0001332	IAO:0000600		
+WARN	missing_definition	PATO:0001353	IAO:0000600		
+WARN	missing_definition	PATO:0001428	IAO:0000600		
+WARN	missing_definition	PATO:0001430	IAO:0000600		
+WARN	missing_definition	PATO:0001464	IAO:0000600		
+WARN	missing_definition	PATO:0001472	IAO:0000600		
+WARN	missing_definition	PATO:0001475	IAO:0000600		
+WARN	missing_definition	PATO:0001476	IAO:0000600		
+WARN	missing_definition	PATO:0001481	IAO:0000600		
+WARN	missing_definition	PATO:0001546	IAO:0000600		
+WARN	missing_definition	PATO:0001547	IAO:0000600		
+WARN	missing_definition	PATO:0001548	IAO:0000600		
+WARN	missing_definition	PATO:0001562	IAO:0000600		
+WARN	missing_definition	PATO:0001563	IAO:0000600		
+WARN	missing_definition	PATO:0001574	IAO:0000600		
+WARN	missing_definition	PATO:0001575	IAO:0000600		
+WARN	missing_definition	PATO:0001576	IAO:0000600		
+WARN	missing_definition	PATO:0001585	IAO:0000600		
+WARN	missing_definition	PATO:0001595	IAO:0000600		
+WARN	missing_definition	PATO:0001596	IAO:0000600		
+WARN	missing_definition	PATO:0001655	IAO:0000600		
+WARN	missing_definition	PATO:0001656	IAO:0000600		
+WARN	missing_definition	PATO:0001657	IAO:0000600		
+WARN	missing_definition	PATO:0001687	IAO:0000600		
+WARN	missing_definition	PATO:0001688	IAO:0000600		
+WARN	missing_definition	PATO:0001689	IAO:0000600		
+WARN	missing_definition	PATO:0001693	IAO:0000600		
+WARN	missing_definition	PATO:0001694	IAO:0000600		
+WARN	missing_definition	PATO:0001708	IAO:0000600		
+WARN	missing_definition	PATO:0001710	IAO:0000600		
+WARN	missing_definition	PATO:0001739	IAO:0000600		
+WARN	missing_definition	PATO:0001757	IAO:0000600		
+WARN	missing_definition	PATO:0001759	IAO:0000600		
+WARN	missing_definition	PATO:0001822	IAO:0000600		
+WARN	missing_definition	PATO:0001823	IAO:0000600		
+WARN	missing_definition	PATO:0001824	IAO:0000600		
+WARN	missing_definition	PATO:0001825	IAO:0000600		
+WARN	missing_definition	PATO:0001826	IAO:0000600		
+WARN	missing_definition	PATO:0001842	IAO:0000600		
+WARN	missing_definition	PATO:0001843	IAO:0000600		
+WARN	missing_definition	PATO:0001844	IAO:0000600		
+WARN	missing_definition	PATO:0001906	IAO:0000600		
+WARN	missing_definition	PATO:0001985	IAO:0000600		
+WARN	missing_definition	PATO:0001995	IAO:0000600		
 WARN	missing_definition	PATO:0002062	IAO:0000115		
+WARN	missing_definition	PATO:0002062	IAO:0000600		
+WARN	missing_definition	PATO:0002124	IAO:0000600		
 WARN	missing_definition	PATO:0002143	IAO:0000115		
+WARN	missing_definition	PATO:0002143	IAO:0000600		
+WARN	missing_definition	PATO:0002181	IAO:0000600		
+WARN	missing_definition	PATO:0002182	IAO:0000600		
+WARN	missing_definition	PATO:0002198	IAO:0000600		
+WARN	missing_definition	PATO:0002201	IAO:0000600		
+WARN	missing_definition	PATO:0002202	IAO:0000600		
+WARN	missing_definition	PATO:0002203	IAO:0000600		
+WARN	missing_definition	PATO:0002204	IAO:0000600		
+WARN	missing_definition	PATO:0002245	IAO:0000600		
+WARN	missing_definition	PATO:0002246	IAO:0000600		
+WARN	missing_definition	PATO:0002300	IAO:0000600		
+WARN	missing_definition	PATO:0002301	IAO:0000600		
+WARN	missing_definition	PATO:0002302	IAO:0000600		
+WARN	missing_definition	PATO:0002303	IAO:0000600		
+WARN	missing_definition	PATO:0002304	IAO:0000600		
+WARN	missing_definition	PATO:0002305	IAO:0000600		
+WARN	missing_definition	PATO:0002364	IAO:0000600		
+WARN	missing_definition	PATO:0015024	IAO:0000600		
+WARN	missing_definition	PATO:0015025	IAO:0000600		
+WARN	missing_definition	PCO:0000000	IAO:0000600		
+WARN	missing_definition	PCO:0000001	IAO:0000600		
+WARN	missing_definition	PCO:0000002	IAO:0000600		
+WARN	missing_definition	PCO:0000018	IAO:0000600		
+WARN	missing_definition	PCO:0000028	IAO:0000600		
+WARN	missing_definition	PCO:0000029	IAO:0000600		
+WARN	missing_definition	PCO:0000031	IAO:0000600		
 WARN	missing_definition	PMO:00000000	IAO:0000115		
+WARN	missing_definition	PMO:00000000	IAO:0000600		
 WARN	missing_definition	PMO:00000003	IAO:0000115		
+WARN	missing_definition	PMO:00000003	IAO:0000600		
 WARN	missing_definition	PMO:00000004	IAO:0000115		
-WARN	missing_definition	PMO:00000005	IAO:0000115		
+WARN	missing_definition	PMO:00000004	IAO:0000600		
+WARN	missing_definition	PMO:00000005	IAO:0000600		
 WARN	missing_definition	PMO:00000006	IAO:0000115		
-WARN	missing_definition	PMO:00000007	IAO:0000115		
-WARN	missing_definition	PMO:00000008	IAO:0000115		
-WARN	missing_definition	PMO:00000009	IAO:0000115		
-WARN	missing_definition	PMO:00000010	IAO:0000115		
-WARN	missing_definition	PMO:00000011	IAO:0000115		
-WARN	missing_definition	PMO:00000014	IAO:0000115		
-WARN	missing_definition	PMO:00000015	IAO:0000115		
+WARN	missing_definition	PMO:00000006	IAO:0000600		
+WARN	missing_definition	PMO:00000007	IAO:0000600		
+WARN	missing_definition	PMO:00000008	IAO:0000600		
+WARN	missing_definition	PMO:00000009	IAO:0000600		
+WARN	missing_definition	PMO:00000010	IAO:0000600		
+WARN	missing_definition	PMO:00000011	IAO:0000600		
+WARN	missing_definition	PMO:00000012	IAO:0000600		
+WARN	missing_definition	PMO:00000013	IAO:0000600		
+WARN	missing_definition	PMO:00000014	IAO:0000600		
+WARN	missing_definition	PMO:00000015	IAO:0000600		
 WARN	missing_definition	PMO:00000016	IAO:0000115		
+WARN	missing_definition	PMO:00000016	IAO:0000600		
 WARN	missing_definition	PMO:00000017	IAO:0000115		
-WARN	missing_definition	PMO:00000018	IAO:0000115		
+WARN	missing_definition	PMO:00000017	IAO:0000600		
+WARN	missing_definition	PMO:00000018	IAO:0000600		
+WARN	missing_definition	PMO:00000019	IAO:0000600		
+WARN	missing_definition	PMO:00000020	IAO:0000600		
+WARN	missing_definition	PMO:00000021	IAO:0000600		
 WARN	missing_definition	PMO:00000022	IAO:0000115		
-WARN	missing_definition	PMO:00000023	IAO:0000115		
-WARN	missing_definition	PMO:00000024	IAO:0000115		
-WARN	missing_definition	PMO:00000025	IAO:0000115		
-WARN	missing_definition	PMO:00000026	IAO:0000115		
-WARN	missing_definition	PMO:00000027	IAO:0000115		
-WARN	missing_definition	PMO:00000028	IAO:0000115		
-WARN	missing_definition	PMO:00000029	IAO:0000115		
-WARN	missing_definition	PMO:00000030	IAO:0000115		
-WARN	missing_definition	PMO:00000031	IAO:0000115		
-WARN	missing_definition	PMO:00000032	IAO:0000115		
+WARN	missing_definition	PMO:00000022	IAO:0000600		
+WARN	missing_definition	PMO:00000023	IAO:0000600		
+WARN	missing_definition	PMO:00000024	IAO:0000600		
+WARN	missing_definition	PMO:00000025	IAO:0000600		
+WARN	missing_definition	PMO:00000033	IAO:0000600		
+WARN	missing_definition	PMO:00000034	IAO:0000600		
+WARN	missing_definition	PMO:00000035	IAO:0000600		
+WARN	missing_definition	PMO:00000036	IAO:0000600		
 WARN	missing_definition	PMO:00000037	IAO:0000115		
+WARN	missing_definition	PMO:00000037	IAO:0000600		
 WARN	missing_definition	PMO:00000038	IAO:0000115		
+WARN	missing_definition	PMO:00000038	IAO:0000600		
 WARN	missing_definition	PMO:00000044	IAO:0000115		
+WARN	missing_definition	PMO:00000044	IAO:0000600		
 WARN	missing_definition	PMO:00000045	IAO:0000115		
+WARN	missing_definition	PMO:00000045	IAO:0000600		
 WARN	missing_definition	PMO:00000046	IAO:0000115		
+WARN	missing_definition	PMO:00000046	IAO:0000600		
 WARN	missing_definition	PMO:00000047	IAO:0000115		
+WARN	missing_definition	PMO:00000047	IAO:0000600		
+WARN	missing_definition	PMO:00000048	IAO:0000600		
+WARN	missing_definition	PMO:00000049	IAO:0000600		
 WARN	missing_definition	PMO:00000050	IAO:0000115		
+WARN	missing_definition	PMO:00000050	IAO:0000600		
 WARN	missing_definition	PMO:00000051	IAO:0000115		
+WARN	missing_definition	PMO:00000051	IAO:0000600		
 WARN	missing_definition	PMO:00000052	IAO:0000115		
+WARN	missing_definition	PMO:00000052	IAO:0000600		
 WARN	missing_definition	PMO:00000053	IAO:0000115		
+WARN	missing_definition	PMO:00000053	IAO:0000600		
 WARN	missing_definition	PMO:00000054	IAO:0000115		
+WARN	missing_definition	PMO:00000054	IAO:0000600		
 WARN	missing_definition	PMO:00000056	IAO:0000115		
+WARN	missing_definition	PMO:00000056	IAO:0000600		
 WARN	missing_definition	PMO:00000057	IAO:0000115		
+WARN	missing_definition	PMO:00000057	IAO:0000600		
 WARN	missing_definition	PMO:00000058	IAO:0000115		
+WARN	missing_definition	PMO:00000058	IAO:0000600		
 WARN	missing_definition	PMO:00000059	IAO:0000115		
+WARN	missing_definition	PMO:00000059	IAO:0000600		
 WARN	missing_definition	PMO:00000060	IAO:0000115		
+WARN	missing_definition	PMO:00000060	IAO:0000600		
 WARN	missing_definition	PMO:00000061	IAO:0000115		
+WARN	missing_definition	PMO:00000061	IAO:0000600		
 WARN	missing_definition	PMO:00000062	IAO:0000115		
+WARN	missing_definition	PMO:00000062	IAO:0000600		
 WARN	missing_definition	PMO:00000063	IAO:0000115		
+WARN	missing_definition	PMO:00000063	IAO:0000600		
 WARN	missing_definition	PMO:00000065	IAO:0000115		
+WARN	missing_definition	PMO:00000065	IAO:0000600		
 WARN	missing_definition	PMO:00000066	IAO:0000115		
+WARN	missing_definition	PMO:00000066	IAO:0000600		
 WARN	missing_definition	PMO:00000067	IAO:0000115		
+WARN	missing_definition	PMO:00000067	IAO:0000600		
 WARN	missing_definition	PMO:00000068	IAO:0000115		
-WARN	missing_definition	PMO:00000069	IAO:0000115		
-WARN	missing_definition	PMO:00000070	IAO:0000115		
-WARN	missing_definition	PMO:00000071	IAO:0000115		
+WARN	missing_definition	PMO:00000068	IAO:0000600		
+WARN	missing_definition	PMO:00000069	IAO:0000600		
+WARN	missing_definition	PMO:00000070	IAO:0000600		
+WARN	missing_definition	PMO:00000071	IAO:0000600		
 WARN	missing_definition	PMO:00000072	IAO:0000115		
-WARN	missing_definition	PMO:00000073	IAO:0000115		
+WARN	missing_definition	PMO:00000072	IAO:0000600		
+WARN	missing_definition	PMO:00000073	IAO:0000600		
+WARN	missing_definition	PMO:00000074	IAO:0000600		
 WARN	missing_definition	PMO:00000075	IAO:0000115		
-WARN	missing_definition	PMO:00000076	IAO:0000115		
-WARN	missing_definition	PMO:00000077	IAO:0000115		
-WARN	missing_definition	PMO:00000078	IAO:0000115		
-WARN	missing_definition	PMO:00000079	IAO:0000115		
+WARN	missing_definition	PMO:00000075	IAO:0000600		
+WARN	missing_definition	PMO:00000076	IAO:0000600		
+WARN	missing_definition	PMO:00000077	IAO:0000600		
+WARN	missing_definition	PMO:00000078	IAO:0000600		
+WARN	missing_definition	PMO:00000079	IAO:0000600		
 WARN	missing_definition	PMO:00000080	IAO:0000115		
+WARN	missing_definition	PMO:00000080	IAO:0000600		
 WARN	missing_definition	PMO:00000081	IAO:0000115		
+WARN	missing_definition	PMO:00000081	IAO:0000600		
 WARN	missing_definition	PMO:00000082	IAO:0000115		
+WARN	missing_definition	PMO:00000082	IAO:0000600		
+WARN	missing_definition	PMO:00000083	IAO:0000600		
 WARN	missing_definition	PMO:00000084	IAO:0000115		
+WARN	missing_definition	PMO:00000084	IAO:0000600		
 WARN	missing_definition	PMO:00000085	IAO:0000115		
+WARN	missing_definition	PMO:00000085	IAO:0000600		
 WARN	missing_definition	PMO:00000086	IAO:0000115		
+WARN	missing_definition	PMO:00000086	IAO:0000600		
 WARN	missing_definition	PMO:00000087	IAO:0000115		
+WARN	missing_definition	PMO:00000087	IAO:0000600		
 WARN	missing_definition	PMO:00000088	IAO:0000115		
+WARN	missing_definition	PMO:00000088	IAO:0000600		
 WARN	missing_definition	PMO:00000089	IAO:0000115		
+WARN	missing_definition	PMO:00000089	IAO:0000600		
 WARN	missing_definition	PMO:00000090	IAO:0000115		
+WARN	missing_definition	PMO:00000090	IAO:0000600		
 WARN	missing_definition	PMO:00000091	IAO:0000115		
+WARN	missing_definition	PMO:00000091	IAO:0000600		
 WARN	missing_definition	PMO:00000092	IAO:0000115		
-WARN	missing_definition	PMO:00000093	IAO:0000115		
-WARN	missing_definition	PMO:00000100	IAO:0000115		
-WARN	missing_definition	PMO:00000101	IAO:0000115		
-WARN	missing_definition	PMO:00000105	IAO:0000115		
-WARN	missing_definition	PMO:00000106	IAO:0000115		
-WARN	missing_definition	PMO:00000108	IAO:0000115		
-WARN	missing_definition	PMO:00000109	IAO:0000115		
-WARN	missing_definition	PMO:00000110	IAO:0000115		
-WARN	missing_definition	PMO:00000113	IAO:0000115		
-WARN	missing_definition	PMO:00000114	IAO:0000115		
-WARN	missing_definition	PMO:00000115	IAO:0000115		
-WARN	missing_definition	PMO:00000117	IAO:0000115		
-WARN	missing_definition	PMO:00000118	IAO:0000115		
-WARN	missing_definition	PMO:00000122	IAO:0000115		
+WARN	missing_definition	PMO:00000092	IAO:0000600		
+WARN	missing_definition	PMO:00000093	IAO:0000600		
+WARN	missing_definition	PMO:00000100	IAO:0000600		
+WARN	missing_definition	PMO:00000101	IAO:0000600		
+WARN	missing_definition	PMO:00000102	IAO:0000600		
+WARN	missing_definition	PMO:00000103	IAO:0000600		
+WARN	missing_definition	PMO:00000105	IAO:0000600		
+WARN	missing_definition	PMO:00000106	IAO:0000600		
+WARN	missing_definition	PMO:00000107	IAO:0000600		
+WARN	missing_definition	PMO:00000108	IAO:0000600		
+WARN	missing_definition	PMO:00000109	IAO:0000600		
+WARN	missing_definition	PMO:00000110	IAO:0000600		
+WARN	missing_definition	PMO:00000111	IAO:0000600		
+WARN	missing_definition	PMO:00000112	IAO:0000600		
+WARN	missing_definition	PMO:00000113	IAO:0000600		
+WARN	missing_definition	PMO:00000114	IAO:0000600		
+WARN	missing_definition	PMO:00000115	IAO:0000600		
+WARN	missing_definition	PMO:00000116	IAO:0000600		
+WARN	missing_definition	PMO:00000117	IAO:0000600		
+WARN	missing_definition	PMO:00000118	IAO:0000600		
+WARN	missing_definition	PMO:00000120	IAO:0000600		
+WARN	missing_definition	PMO:00000121	IAO:0000600		
+WARN	missing_definition	PMO:00000122	IAO:0000600		
 WARN	missing_definition	PMO:00000123	IAO:0000115		
+WARN	missing_definition	PMO:00000123	IAO:0000600		
 WARN	missing_definition	PMO:00000124	IAO:0000115		
-WARN	missing_definition	PMO:00000125	IAO:0000115		
-WARN	missing_definition	PMO:00000126	IAO:0000115		
-WARN	missing_definition	PMO:00000128	IAO:0000115		
-WARN	missing_definition	PMO:00000129	IAO:0000115		
-WARN	missing_definition	PMO:00000130	IAO:0000115		
-WARN	missing_definition	PMO:00000131	IAO:0000115		
+WARN	missing_definition	PMO:00000124	IAO:0000600		
+WARN	missing_definition	PMO:00000125	IAO:0000600		
+WARN	missing_definition	PMO:00000126	IAO:0000600		
+WARN	missing_definition	PMO:00000127	IAO:0000600		
+WARN	missing_definition	PMO:00000128	IAO:0000600		
+WARN	missing_definition	PMO:00000129	IAO:0000600		
+WARN	missing_definition	PMO:00000130	IAO:0000600		
+WARN	missing_definition	PMO:00000131	IAO:0000600		
 WARN	missing_definition	PMO:00000132	IAO:0000115		
+WARN	missing_definition	PMO:00000132	IAO:0000600		
+WARN	missing_definition	PMO:00000150	IAO:0000600		
+WARN	missing_definition	PMO:00000151	IAO:0000600		
+WARN	missing_definition	PMO:00000152	IAO:0000600		
+WARN	missing_definition	PMO:00000153	IAO:0000600		
+WARN	missing_definition	PMO:00000154	IAO:0000600		
+WARN	missing_definition	PMO:00000155	IAO:0000600		
+WARN	missing_definition	PMO:00000156	IAO:0000600		
+WARN	missing_definition	PMO:00000157	IAO:0000600		
+WARN	missing_definition	PMO:00000158	IAO:0000600		
+WARN	missing_definition	PMO:00000159	IAO:0000600		
+WARN	missing_definition	PMO:00000160	IAO:0000600		
+WARN	missing_definition	PMO:00000161	IAO:0000600		
+WARN	missing_definition	PMO:00000162	IAO:0000600		
+WARN	missing_definition	PMO:00000163	IAO:0000600		
+WARN	missing_definition	PMO:00000164	IAO:0000600		
+WARN	missing_definition	PMO:00000165	IAO:0000600		
+WARN	missing_definition	PMO:00000166	IAO:0000600		
+WARN	missing_definition	PMO:00000167	IAO:0000600		
+WARN	missing_definition	PMO:00000168	IAO:0000600		
+WARN	missing_definition	PMO:00000169	IAO:0000600		
+WARN	missing_definition	PMO:00000170	IAO:0000600		
+WARN	missing_definition	PMO:00000171	IAO:0000600		
+WARN	missing_definition	PO:0000003	IAO:0000600		
+WARN	missing_definition	PO:0009011	IAO:0000600		
+WARN	missing_definition	PO:0025131	IAO:0000600		
+WARN	missing_definition	PR:000000001	IAO:0000600		
+WARN	missing_definition	RO:0000052	IAO:0000600		
+WARN	missing_definition	RO:0000053	IAO:0000600		
+WARN	missing_definition	RO:0000056	IAO:0000600		
+WARN	missing_definition	RO:0000057	IAO:0000600		
+WARN	missing_definition	RO:0000058	IAO:0000600		
+WARN	missing_definition	RO:0000059	IAO:0000600		
+WARN	missing_definition	RO:0000079	IAO:0000600		
+WARN	missing_definition	RO:0000080	IAO:0000600		
+WARN	missing_definition	RO:0000081	IAO:0000600		
+WARN	missing_definition	RO:0000085	IAO:0000600		
+WARN	missing_definition	RO:0000086	IAO:0000600		
+WARN	missing_definition	RO:0000087	IAO:0000600		
+WARN	missing_definition	RO:0001000	IAO:0000600		
+WARN	missing_definition	RO:0001001	IAO:0000600		
+WARN	missing_definition	RO:0001015	IAO:0000600		
 WARN	missing_definition	RO:0001018	IAO:0000115		
+WARN	missing_definition	RO:0001018	IAO:0000600		
 WARN	missing_definition	RO:0001019	IAO:0000115		
+WARN	missing_definition	RO:0001019	IAO:0000600		
+WARN	missing_definition	RO:0001025	IAO:0000600		
+WARN	missing_definition	RO:0001900	IAO:0000600		
+WARN	missing_definition	RO:0002013	IAO:0000600		
+WARN	missing_definition	RO:0002014	IAO:0000600		
+WARN	missing_definition	RO:0002015	IAO:0000600		
 WARN	missing_definition	RO:0002017	IAO:0000115		
+WARN	missing_definition	RO:0002017	IAO:0000600		
+WARN	missing_definition	RO:0002018	IAO:0000600		
+WARN	missing_definition	RO:0002019	IAO:0000600		
 WARN	missing_definition	RO:0002022	IAO:0000115		
+WARN	missing_definition	RO:0002022	IAO:0000600		
+WARN	missing_definition	RO:0002023	IAO:0000600		
+WARN	missing_definition	RO:0002024	IAO:0000600		
+WARN	missing_definition	RO:0002025	IAO:0000600		
 WARN	missing_definition	RO:0002084	IAO:0000115		
+WARN	missing_definition	RO:0002084	IAO:0000600		
 WARN	missing_definition	RO:0002086	IAO:0000115		
+WARN	missing_definition	RO:0002086	IAO:0000600		
 WARN	missing_definition	RO:0002087	IAO:0000115		
+WARN	missing_definition	RO:0002087	IAO:0000600		
 WARN	missing_definition	RO:0002090	IAO:0000115		
+WARN	missing_definition	RO:0002090	IAO:0000600		
 WARN	missing_definition	RO:0002093	IAO:0000115		
+WARN	missing_definition	RO:0002093	IAO:0000600		
+WARN	missing_definition	RO:0002131	IAO:0000600		
+WARN	missing_definition	RO:0002163	IAO:0000600		
+WARN	missing_definition	RO:0002180	IAO:0000600		
+WARN	missing_definition	RO:0002202	IAO:0000600		
+WARN	missing_definition	RO:0002203	IAO:0000600		
+WARN	missing_definition	RO:0002212	IAO:0000600		
+WARN	missing_definition	RO:0002213	IAO:0000600		
+WARN	missing_definition	RO:0002215	IAO:0000600		
+WARN	missing_definition	RO:0002216	IAO:0000600		
+WARN	missing_definition	RO:0002217	IAO:0000600		
+WARN	missing_definition	RO:0002219	IAO:0000600		
+WARN	missing_definition	RO:0002220	IAO:0000600		
+WARN	missing_definition	RO:0002221	IAO:0000600		
 WARN	missing_definition	RO:0002222	IAO:0000115		
+WARN	missing_definition	RO:0002222	IAO:0000600		
+WARN	missing_definition	RO:0002223	IAO:0000600		
+WARN	missing_definition	RO:0002224	IAO:0000600		
+WARN	missing_definition	RO:0002229	IAO:0000600		
+WARN	missing_definition	RO:0002230	IAO:0000600		
+WARN	missing_definition	RO:0002231	IAO:0000600		
+WARN	missing_definition	RO:0002232	IAO:0000600		
+WARN	missing_definition	RO:0002233	IAO:0000600		
+WARN	missing_definition	RO:0002234	IAO:0000600		
+WARN	missing_definition	RO:0002254	IAO:0000600		
+WARN	missing_definition	RO:0002255	IAO:0000600		
+WARN	missing_definition	RO:0002258	IAO:0000600		
 WARN	missing_definition	RO:0002259	IAO:0000115		
+WARN	missing_definition	RO:0002259	IAO:0000600		
+WARN	missing_definition	RO:0002263	IAO:0000600		
+WARN	missing_definition	RO:0002264	IAO:0000600		
+WARN	missing_definition	RO:0002286	IAO:0000600		
+WARN	missing_definition	RO:0002295	IAO:0000600		
 WARN	missing_definition	RO:0002297	IAO:0000115		
+WARN	missing_definition	RO:0002297	IAO:0000600		
+WARN	missing_definition	RO:0002303	IAO:0000600		
 WARN	missing_definition	RO:0002304	IAO:0000115		
+WARN	missing_definition	RO:0002304	IAO:0000600		
 WARN	missing_definition	RO:0002305	IAO:0000115		
+WARN	missing_definition	RO:0002305	IAO:0000600		
+WARN	missing_definition	RO:0002314	IAO:0000600		
+WARN	missing_definition	RO:0002321	IAO:0000600		
+WARN	missing_definition	RO:0002323	IAO:0000600		
+WARN	missing_definition	RO:0002324	IAO:0000600		
 WARN	missing_definition	RO:0002326	IAO:0000115		
+WARN	missing_definition	RO:0002326	IAO:0000600		
 WARN	missing_definition	RO:0002327	IAO:0000115		
+WARN	missing_definition	RO:0002327	IAO:0000600		
+WARN	missing_definition	RO:0002328	IAO:0000600		
+WARN	missing_definition	RO:0002329	IAO:0000600		
+WARN	missing_definition	RO:0002331	IAO:0000600		
+WARN	missing_definition	RO:0002333	IAO:0000600		
+WARN	missing_definition	RO:0002334	IAO:0000600		
+WARN	missing_definition	RO:0002335	IAO:0000600		
+WARN	missing_definition	RO:0002336	IAO:0000600		
+WARN	missing_definition	RO:0002350	IAO:0000600		
+WARN	missing_definition	RO:0002351	IAO:0000600		
+WARN	missing_definition	RO:0002352	IAO:0000600		
+WARN	missing_definition	RO:0002353	IAO:0000600		
 WARN	missing_definition	RO:0002354	IAO:0000115		
+WARN	missing_definition	RO:0002354	IAO:0000600		
+WARN	missing_definition	RO:0002379	IAO:0000600		
+WARN	missing_definition	RO:0002384	IAO:0000600		
+WARN	missing_definition	RO:0002385	IAO:0000600		
+WARN	missing_definition	RO:0002387	IAO:0000600		
+WARN	missing_definition	RO:0002388	IAO:0000600		
+WARN	missing_definition	RO:0002404	IAO:0000600		
 WARN	missing_definition	RO:0002405	IAO:0000115		
+WARN	missing_definition	RO:0002405	IAO:0000600		
+WARN	missing_definition	RO:0002410	IAO:0000600		
+WARN	missing_definition	RO:0002411	IAO:0000600		
+WARN	missing_definition	RO:0002412	IAO:0000600		
+WARN	missing_definition	RO:0002418	IAO:0000600		
 WARN	missing_definition	RO:0002423	IAO:0000115		
+WARN	missing_definition	RO:0002423	IAO:0000600		
+WARN	missing_definition	RO:0002427	IAO:0000600		
+WARN	missing_definition	RO:0002428	IAO:0000600		
+WARN	missing_definition	RO:0002429	IAO:0000600		
+WARN	missing_definition	RO:0002430	IAO:0000600		
+WARN	missing_definition	RO:0002431	IAO:0000600		
+WARN	missing_definition	RO:0002432	IAO:0000600		
+WARN	missing_definition	RO:0002434	IAO:0000600		
+WARN	missing_definition	RO:0002436	IAO:0000600		
 WARN	missing_definition	RO:0002447	IAO:0000115		
+WARN	missing_definition	RO:0002447	IAO:0000600		
+WARN	missing_definition	RO:0002448	IAO:0000600		
+WARN	missing_definition	RO:0002449	IAO:0000600		
+WARN	missing_definition	RO:0002450	IAO:0000600		
 WARN	missing_definition	RO:0002464	IAO:0000115		
+WARN	missing_definition	RO:0002464	IAO:0000600		
+WARN	missing_definition	RO:0002473	IAO:0000600		
+WARN	missing_definition	RO:0002479	IAO:0000600		
 WARN	missing_definition	RO:0002481	IAO:0000115		
+WARN	missing_definition	RO:0002481	IAO:0000600		
+WARN	missing_definition	RO:0002500	IAO:0000600		
+WARN	missing_definition	RO:0002501	IAO:0000600		
 WARN	missing_definition	RO:0002502	IAO:0000115		
+WARN	missing_definition	RO:0002502	IAO:0000600		
 WARN	missing_definition	RO:0002506	IAO:0000115		
+WARN	missing_definition	RO:0002506	IAO:0000600		
+WARN	missing_definition	RO:0002507	IAO:0000600		
+WARN	missing_definition	RO:0002508	IAO:0000600		
+WARN	missing_definition	RO:0002509	IAO:0000600		
 WARN	missing_definition	RO:0002559	IAO:0000115		
+WARN	missing_definition	RO:0002559	IAO:0000600		
 WARN	missing_definition	RO:0002563	IAO:0000115		
+WARN	missing_definition	RO:0002563	IAO:0000600		
 WARN	missing_definition	RO:0002564	IAO:0000115		
+WARN	missing_definition	RO:0002564	IAO:0000600		
+WARN	missing_definition	RO:0002566	IAO:0000600		
+WARN	missing_definition	RO:0002575	IAO:0000600		
+WARN	missing_definition	RO:0002577	IAO:0000600		
+WARN	missing_definition	RO:0002578	IAO:0000600		
+WARN	missing_definition	RO:0002581	IAO:0000600		
+WARN	missing_definition	RO:0002582	IAO:0000600		
+WARN	missing_definition	RO:0002584	IAO:0000600		
+WARN	missing_definition	RO:0002595	IAO:0000600		
+WARN	missing_definition	RO:0002596	IAO:0000600		
+WARN	missing_definition	RO:0002597	IAO:0000600		
+WARN	missing_definition	RO:0002598	IAO:0000600		
+WARN	missing_definition	RO:0002604	IAO:0000600		
+WARN	missing_definition	RO:0002608	IAO:0000600		
+WARN	missing_definition	RO:0002629	IAO:0000600		
+WARN	missing_definition	RO:0002630	IAO:0000600		
+WARN	missing_definition	RO:0003000	IAO:0000600		
+WARN	missing_definition	RO:0003001	IAO:0000600		
+WARN	missing_definition	RO:0004028	IAO:0000600		
+WARN	missing_definition	RO:0004031	IAO:0000600		
 WARN	missing_definition	RO:0004032	IAO:0000115		
+WARN	missing_definition	RO:0004032	IAO:0000600		
 WARN	missing_definition	RO:0004033	IAO:0000115		
+WARN	missing_definition	RO:0004033	IAO:0000600		
+WARN	missing_definition	RO:0004034	IAO:0000600		
+WARN	missing_definition	RO:0004035	IAO:0000600		
 WARN	missing_definition	RO:0004046	IAO:0000115		
+WARN	missing_definition	RO:0004046	IAO:0000600		
 WARN	missing_definition	RO:0004047	IAO:0000115		
+WARN	missing_definition	RO:0004047	IAO:0000600		
 WARN	missing_definition	RO:0004049	IAO:0000115		
+WARN	missing_definition	RO:0004049	IAO:0000600		
 WARN	missing_definition	RO:0004050	IAO:0000115		
+WARN	missing_definition	RO:0004050	IAO:0000600		
+WARN	missing_definition	RO:0009501	IAO:0000600		
+WARN	missing_definition	RO:0010001	IAO:0000600		
+WARN	missing_definition	RO:0010002	IAO:0000600		
+WARN	missing_definition	RO:0040042	IAO:0000600		
+WARN	missing_definition	SO:0000001	IAO:0000600		
+WARN	missing_definition	SO:0000353	IAO:0000600		
+WARN	missing_definition	SO:0001248	IAO:0000600		
+WARN	missing_definition	UBERON:0000465	IAO:0000600		
+WARN	missing_definition	UBERON:0000477	IAO:0000600		
+WARN	missing_definition	UBERON:0001062	IAO:0000600		
+WARN	missing_definition	UO:0000000	IAO:0000600		
+WARN	missing_definition	UO:0000001	IAO:0000600		
+WARN	missing_definition	UO:0000002	IAO:0000600		
+WARN	missing_definition	UO:0000003	IAO:0000600		
+WARN	missing_definition	UO:0000005	IAO:0000600		
+WARN	missing_definition	UO:0000006	IAO:0000600		
+WARN	missing_definition	UO:0000045	IAO:0000600		
+WARN	missing_definition	UO:0000051	IAO:0000600		
+WARN	missing_definition	UO:0000052	IAO:0000600		
+WARN	missing_definition	UO:0000060	IAO:0000600		
+WARN	missing_definition	UO:0000061	IAO:0000600		
+WARN	missing_definition	UO:0000067	IAO:0000600		
+WARN	missing_definition	UO:0000083	IAO:0000600		
+WARN	missing_definition	UO:0000094	IAO:0000600		
+WARN	missing_definition	UO:0000095	IAO:0000600		
+WARN	missing_definition	UO:0000105	IAO:0000600		
+WARN	missing_definition	UO:0000109	IAO:0000600		
+WARN	missing_definition	UO:0000121	IAO:0000600		
+WARN	missing_definition	UO:0000122	IAO:0000600		
+WARN	missing_definition	UO:0000154	IAO:0000600		
+WARN	missing_definition	UO:0000155	IAO:0000600		
+WARN	missing_definition	UO:0000157	IAO:0000600		
+WARN	missing_definition	UO:0000177	IAO:0000600		
+WARN	missing_definition	UO:0000182	IAO:0000600		
+WARN	missing_definition	UO:0000185	IAO:0000600		
+WARN	missing_definition	UO:0000186	IAO:0000600		
+WARN	missing_definition	UO:0000187	IAO:0000600		
+WARN	missing_definition	UO:0000189	IAO:0000600		
+WARN	missing_definition	UO:0000190	IAO:0000600		
+WARN	missing_definition	UO:0000200	IAO:0000600		
+WARN	missing_definition	UO:0000201	IAO:0000600		
+WARN	missing_definition	UO:0000205	IAO:0000600		
+WARN	missing_definition	UO:0000217	IAO:0000600		
+WARN	missing_definition	UO:0000218	IAO:0000600		
+WARN	missing_definition	UO:0000231	IAO:0000600		
+WARN	missing_definition	UO:0000244	IAO:0000600		
+WARN	missing_definition	UO:0000247	IAO:0000600		
+WARN	missing_definition	UO:0000261	IAO:0000600		
+WARN	missing_definition	UO:0000262	IAO:0000600		
+WARN	missing_definition	UO:0000264	IAO:0000600		
+WARN	missing_definition	UO:0000270	IAO:0000600		
+WARN	missing_definition	UO:0000273	IAO:0000600		
+WARN	missing_definition	UO:0000280	IAO:0000600		
+WARN	missing_definition	UO:0000315	IAO:0000600		
+WARN	missing_definition	UO:0000330	IAO:0000600		
+WARN	missing_definition	UO:0000331	IAO:0000600		
+WARN	missing_definition	UO:0010003	IAO:0000600		
+WARN	missing_definition	UO:0010004	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#attribute_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#attribute_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#cell_quality	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#cell_quality	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#disposition_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#disposition_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#hpo_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#hpo_slim	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#mpath_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#mpath_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#relational_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#relational_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#scalar_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#scalar_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#value_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#value_slim	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/ro/subsets#ro-eco	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/ro/subsets#ro-eco	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uo#unit_group_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/uo#unit_group_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uo#unit_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/uo#unit_slim	IAO:0000600		
 WARN	missing_definition	dc11:contributor	IAO:0000115		
+WARN	missing_definition	dc11:contributor	IAO:0000600		
 WARN	missing_definition	dc11:creator	IAO:0000115		
+WARN	missing_definition	dc11:creator	IAO:0000600		
 WARN	missing_definition	dc11:description	IAO:0000115		
+WARN	missing_definition	dc11:description	IAO:0000600		
 WARN	missing_definition	dc11:source	IAO:0000115		
+WARN	missing_definition	dc11:source	IAO:0000600		
 WARN	missing_definition	oboInOwl:Subset	IAO:0000115		
+WARN	missing_definition	oboInOwl:Subset	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasSynonymType	IAO:0000115		
+WARN	missing_definition	oboInOwl:hasSynonymType	IAO:0000600		
 WARN	missing_definition	oboInOwl:inSubset	IAO:0000115		
+WARN	missing_definition	oboInOwl:inSubset	IAO:0000600		
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
+WARN	missing_definition	oboInOwl:shorthand	IAO:0000600		
 WARN	duplicate_scoped_synonym	NCBITaxon:117571	IAO:0000118	bony vertebrates	
 WARN	duplicate_scoped_synonym	NCBITaxon:117571	oboInOwl:hasExactSynonym	bony vertebrates	
 WARN	duplicate_scoped_synonym	NCBITaxon:2	IAO:0000118	eubacteria	
@@ -1137,22 +2545,40 @@ WARN	duplicate_scoped_synonym	UO:0000301	IAO:0000118	ug/L
 WARN	duplicate_scoped_synonym	UO:0000301	oboInOwl:hasExactSynonym	ug/L	
 WARN	missing_obsolete_label	IAO:0000230	rdfs:label	other@en	
 WARN	missing_obsolete_label	PATO:0001237	rdfs:label	quality of a single physical entity@en	
+WARN	missing_obsolete_label	PMO:00000026	rdfs:label	concentration of chlorophyll in water	
+WARN	missing_obsolete_label	PMO:00000027	rdfs:label	concentration of nitrate in water	
+WARN	missing_obsolete_label	PMO:00000028	rdfs:label	pressure of water	
+WARN	missing_obsolete_label	PMO:00000029	rdfs:label	depth of water	
+WARN	missing_obsolete_label	PMO:00000030	rdfs:label	fluorescence of water	
+WARN	missing_obsolete_label	PMO:00000031	rdfs:label	concentration of phosphate in water	
+WARN	missing_obsolete_label	PMO:00000032	rdfs:label	concentration of silicate(4-) in water	
 WARN	missing_obsolete_label	RO:0002218	rdfs:label	has active participant@en	
 WARN	missing_obsolete_label	RO:0002609	rdfs:label	related via dependence to	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
+INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en	
+INFO	lowercase_definition	BFO:0000019	IAO:0000600	a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])@en	
 INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en	
 INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
+INFO	lowercase_definition	BFO:0000023	IAO:0000600	b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])@en	
+INFO	lowercase_definition	BFO:0000024	IAO:0000600	b is a fiat object part = Def. b is a material entity which is such that for all times t, if b exists at t then there is some object c such that b proper continuant_part of  c at t and c is demarcated from the remainder of c by a two-dimensional continuant fiat boundary. (axiom label in BFO2 Reference: [027-004])@en	
+INFO	lowercase_definition	BFO:0000027	IAO:0000600	b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])@en	
+INFO	lowercase_definition	BFO:0000029	IAO:0000600	b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])@en	
+INFO	lowercase_definition	BFO:0000030	IAO:0000600	b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above & is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])@en	
 INFO	lowercase_definition	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
 INFO	lowercase_definition	BFO:0000035	IAO:0000115	p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])@en	
 INFO	lowercase_definition	BFO:0000050	IAO:0000115	a core relation that holds between a part and its whole@en	
 INFO	lowercase_definition	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
+INFO	lowercase_definition	BFO:0000054	IAO:0000600	[copied from inverse property 'realizes'] to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])@en	
+INFO	lowercase_definition	BFO:0000055	IAO:0000600	to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])@en	
 INFO	lowercase_definition	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
 INFO	lowercase_definition	BFO:0000063	IAO:0000115	x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
 INFO	lowercase_definition	BFO:0000066	IAO:0000115	b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en	
 INFO	lowercase_definition	BFO:0000067	IAO:0000115	[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en	
 INFO	lowercase_definition	BFO:0000140	IAO:0000115	b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])@en	
+INFO	lowercase_definition	CHEBI:18059	IAO:0000115	'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.	
 INFO	lowercase_definition	ENVO:01001307	IAO:0000115	x partially_surrounded_by y if and only if (1) x is adjacent to y and for the region r that is adjacent to x, r partially overlaps y (2) the shared boundary between x and y occupies  a non-trivial proportion of the outermost boundary of x	
+INFO	lowercase_definition	FOODON:03414302	IAO:0000115	*Allium* is a genus of monocotyledonous flowering plants that includes hundreds of species, including the cultivated onion, garlic, scallion, shallot, leek, and chives. [https://en.wikipedia.org/wiki/Allium]@en	
 INFO	lowercase_definition	IAO:0000005	IAO:0000115	a directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.@en	
 INFO	lowercase_definition	IAO:0000007	IAO:0000115	a directive information entity that describes an action the bearer will take@en	
 INFO	lowercase_definition	IAO:0000027	IAO:0000115	a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en	
@@ -1300,6 +2726,7 @@ INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#increased_in_magni
 INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2	IAO:0000115	third planet from the Sun in the Solar System	
 INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2306597	IAO:0000115	\"Suni, or Jalca, is one of the eight Natural Regions of Peru. It is located in the Andes at an altitude between 3,500 and 4,000 metres above sea level. Suni has a dry and cold weather and there are many glacial valleys. The flora includes gramineous plants and shrubs such as the taya-taya (Caesalpinia spinosa), the quishuar (Buddleja coriacea), and the cantuta (Cantua buxifolia) which was considered sacred by the Incas. Even though it is hard for plants to grow because of the weather, people are able to cultivate such crops as quinoa, qañiwa, broad beans and ulluku (Ullucus tuberosus). The main fauna is the guinea pig and, among numerous other highland birds, the Chiguanco thrush.\"	
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf		
+INFO	missing_superclass	PATO:0000008	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000000	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000044	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000088	rdfs:subClassOf		

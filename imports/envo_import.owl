@@ -16,7 +16,7 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/imports/envo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/envo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-06-07/imports/envo_import.owl"/>
     </owl:Ontology>
     
 
@@ -3038,6 +3038,26 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Lipids&apos; is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25248"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28966"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorophyll a</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22563">
@@ -3054,6 +3074,35 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25701"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon oxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32955"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epoxycarotenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26935"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of a class of tetraterpenoids (C40), formally derived from the acyclic parent, psi,psi-carotene by hydrogenation, dehydrogenation, cyclization, oxidation, or combination of these processes. This class includes carotenes, xanthophylls and certain compounds that arise from rearrangement of the skeleton of psi,psi-carotene or by loss of part of this structure. Retinoids are excluded.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carotenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carotenol</rdfs:label>
     </owl:Class>
     
 
@@ -3114,6 +3163,18 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24471">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">halogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of carbon and at least of one other element.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compound</rdfs:label>
     </owl:Class>
     
 
@@ -3190,6 +3251,57 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any lipid formally derived from isoprene (2-methylbuta-1,3-diene), the skeleton of which can generally be discerned in repeated occurrence in the molecule. The skeleton of isoprenoids may differ from strict additivity of isoprene units by loss or shift of a fragment, commonly a methyl group. The class includes both hydrocarbons and oxygenated derivatives.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isoprenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33299"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnesium molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38251"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnesium porphyrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33240"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33909"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metalloporphyrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33308"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any carboxylic ester resulting from the formal condensation of a carboxy group with methanol.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methyl ester</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25362">
@@ -3206,6 +3318,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any polyatomic entity that is an electrically neutral entity consisting of more than one atom.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organooxygen compound with formula ROR, where R is not hydrogen.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ether</rdfs:label>
     </owl:Class>
     
 
@@ -3269,6 +3391,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36309"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural pigments containing a fundamental skeleton of four pyrrole nuclei united through the alpha-positions by four methine groups to form a macrocyclic structure.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porphyrins</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26675 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26675">
@@ -3319,6 +3451,74 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24913"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any isoprenoid that is a natural product or related compound formally derived from isoprene units. Terpenoids may contain oxygen in various functional groups. This class is subdivided according to the number of carbon atoms in the parent terpene. The skeleton of terpenoids may differ from strict additivity of isoprene units by the loss or shift of a fragment, generally a methyl group.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26878">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tertiary alcohol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38077"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A natural pigment containing four pyrrole rings joined by one-carbon units linking position 2 of one pyrrole ring to position 5 of the next.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetrapyrrole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any terpenoid derived from a tetraterpene. The term includes compounds in which the C40 skeleton of the parent tetraterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetraterpenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subclass of carotenoids consisting of the oxygenated carotenes.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xanthophyll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23045"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeaxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27888">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28966"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorophyll b</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_28938 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28938">
@@ -3331,11 +3531,40 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25111"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorophyll</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_29241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30879">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33822"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002123"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound in which a hydroxy group, -OH, is attached to a saturated carbon atom.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37407"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epoxide</rdfs:label>
     </owl:Class>
     
 
@@ -3481,12 +3710,32 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52211"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any material that can be ingested by an organism.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular entity containing one or more atoms of an alkali metal.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkali metal molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alkaline earth molecular entity is a molecular entity containing one or more atoms of an alkaline earth metal.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline earth molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -3507,6 +3756,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any p-block molecular entity containing a chalcogen.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35701"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36586"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ester of a carboxylic acid, R(1)C(=O)OR(2), where R(1) = H or organyl and R(2) = organyl.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxylic ester</rdfs:label>
     </owl:Class>
     
 
@@ -3590,11 +3850,41 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any molecule that consists of a series of atoms joined together to form a ring.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33608">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic aromatic compound</rdfs:label>
     </owl:Class>
     
 
@@ -3670,6 +3960,39 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33822">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic compound having at least one hydroxy group attached to a carbon atom.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic hydroxy compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any organic molecule that consists of atoms connected in the form of a ring.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33833">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroarene</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33839 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33839">
@@ -3677,6 +4000,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36309"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metallotetrapyrrole</rdfs:label>
     </owl:Class>
     
 
@@ -3691,6 +4023,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33976">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35217"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnesium coordination entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35106">
@@ -3701,12 +4043,32 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33299"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36562"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline earth coordination entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35274">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33702"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23045"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epoxycarotenol</rdfs:label>
     </owl:Class>
     
 
@@ -3743,6 +4105,26 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A secondary alcohol is a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom which has two other carbon atoms attached to it.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary alcohol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound formally derived from an oxoacid RkE(=O)l(OH)m (l &gt; 0) and an alcohol, phenol, heteroarenol, or enol by linking with formal loss of water from an acidic hydroxy group of the former and a hydroxy group of the latter.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ester</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35881 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35881">
@@ -3759,6 +4141,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23114"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24839"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic chloride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26932"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47882"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic tetrapyrrole</rdfs:label>
     </owl:Class>
     
 
@@ -3819,6 +4211,27 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coordination entity in which the central atom to which the ligands are attached comes from groups 1, 2, 13, 14, 15, 16, 17, or 18 of the periodic table.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main-group coordination entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any compound containing the carbonyl group, C=O. The term is commonly used in the restricted sense of aldehydes and ketones, although it actually includes carboxylic acids and derivatives.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonyl compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic compounds containing an oxygen atom, =O, doubly bonded to carbon or another element.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic oxo compound</rdfs:label>
     </owl:Class>
     
 
@@ -3925,6 +4338,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25698"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38104"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic ether</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37577">
@@ -3946,6 +4369,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allenes</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37622">
@@ -3954,6 +4386,48 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound composed of two or more pyrrole units.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypyrrole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any organonitrogen compound containing a cyclic component with nitrogen and at least one other element as ring member atoms.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any organic heterocyclic compound containing at least one ring oxygen atom.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxacycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33909"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33976"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnesium tetrapyrrole</rdfs:label>
     </owl:Class>
     
 
@@ -3983,6 +4457,25 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46890">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26677"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicon hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33308"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any carboxylic ester where the carboxylic acid component is acetic acid.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetate ester</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47882">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38077"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic polypyrrole</rdfs:label>
     </owl:Class>
     
 
@@ -4065,6 +4558,19 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26878"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35307"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35681"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47622"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fucoxanthin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_52211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52211">
@@ -4080,6 +4586,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic hydroxy compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of at least two different elements.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compound</rdfs:label>
     </owl:Class>
     
 
@@ -5974,6 +6490,35 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002121">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000019"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soda lake</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00002121</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline salt lake</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002149 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002149">
@@ -7242,6 +7787,33 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000316">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000997"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000997"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An alkaline environment is an environment in which entities are exposed to high pH, typically greater than a pH of 9.</obo:IAO_0000115>
+        <rdfs:label>alkaline environment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000317">
@@ -7468,6 +8040,34 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An altitudinal condition is an environmental condition in which ranges of factors such as temperature, humidity, soil composition, solar irradiation, and tree density vary with ranges in altitude.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000357">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of alkaline water is a portion of water with a pH greater than 7.</obo:IAO_0000115>
+        <rdfs:comment>Here, we commit to a threshold of pH as this is almost universally accepted.</rdfs:comment>
+        <rdfs:label>alkaline water</rdfs:label>
+    </owl:Class>
     
 
 
@@ -8748,6 +9348,26 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A process during which energy is emitted or transmitted in the form of waves or particles through space or a material medium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Radiation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001023"/>
+        <obo:IAO_0000115>A radiation process during which waves (or their quanta, photons) of the electromagnetic field propagate (radiate) through space carrying electromagnetic energy.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>EM radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:comment>Note that this class is concerned only with active radiative processes: static electric and magnetic fields are not inlcuded. All electromagnetic radiation carries radiant energy.</rdfs:comment>
+        <rdfs:label xml:lang="en">electromagnetic radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which waves (or their quanta, photons) of the electromagnetic field propagate (radiate) through space carrying electromagnetic energy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Electromagnetic_radiation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12496,6 +13116,102 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_3100008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18230"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_3100036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18230"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of chlorophyll a when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water chlorophyll a concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of chlorophyll a in water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_3100009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27888"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_3100036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27888"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of chlorophyll b when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water chlorophyll b concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of chlorophyll b in water</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_3100011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100011">
@@ -12540,6 +13256,55 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of dioxygen when measured in water.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water dioxygen concentration</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of dioxygen in water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_3100014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100014">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_5186"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002470"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_5186"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of fucoxanthin when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water fucoxanthin concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of fucoxanthin in water</rdfs:label>
     </owl:Class>
     
 
@@ -12736,6 +13501,54 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_3100029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100029">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27547"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27547"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of zeaxanthin when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water zeaxanthin concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of zeaxanthin in water</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_3100030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100030">
@@ -12896,6 +13709,54 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_3100036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100036">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28966"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28966"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of chlorophyll when measured in water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water chlorophyll concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of chlorophyll in water</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
@@ -12906,11 +13767,524 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002381"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411347"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002381"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411347"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">This food product type includes food products which are derived from or produced by a plant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">plant food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002373"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460190"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A food preserved by soaking and storing it in vinegar or brine.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pickled food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001094">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001180"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001258"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001180"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001258"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcoholic beverage</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">fermented beverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <obo:IAO_0000115 xml:lang="en">Food product that is 1) ready or nearly ready for consumption; 2) usually a composite of several foods or ingredients that often belong to distinct product types; 3) usually formulated, mixed and partially or fully cooked.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">prepared food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002454"/>
+        <rdfs:label xml:lang="en">food (cooked)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301977"/>
+        <rdfs:label xml:lang="en">plant derived beverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001254">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001094"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001253"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000815"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001253"/>
+        <rdfs:label xml:lang="en">fermented plant derived beverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001306"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001304"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">food (fermented)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001261">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any plant food product which, typically, is constituted by intact parts from one or more annual plants cultivated as field and garden crops in the open and under glass, and used almost exclusively for food.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vegetable food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470107"/>
+        <rdfs:label xml:lang="en">fermentation/modification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001306">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001258"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001079"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411300"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001304"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03460190"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03317197"/>
+        <obo:IAO_0000115 xml:lang="en">Fermented onions or pickled onion</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Hom dong</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001254"/>
+        <rdfs:label xml:lang="en">alcoholic beverage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001714 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001714">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
         <rdfs:label xml:lang="en">food component product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001931">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001181"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001714"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001714"/>
+        <rdfs:label xml:lang="en">gravy or sauce food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001579"/>
+        <rdfs:label xml:lang="en">plant based alcoholic beverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:label xml:lang="en">food product by preservation method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002333">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001079"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">vegetable pickle food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:label xml:lang="en">food product by culinary role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:label xml:lang="en">food product by organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002403">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33290"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">food material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002451">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process involving the physical transformation of a food source or food product into some derived organic material or food product</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food transformation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002454">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:label xml:lang="en">food product by quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002470">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">food object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301444">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001253"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001253"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">vegetable juice food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002373"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">beverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03311146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03311146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001931"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sauce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03317197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03317197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03311146"/>
+        <rdfs:label xml:lang="en">fish sauce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03401270"/>
+        <obo:IAO_0000115 xml:lang="en">Seasoned product that contains multiple ingredients and that is used in limited amounts to accompany other foods; excludes flavors, spices and herbs.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dressing, condiment, gravy or sauce (us cfr)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400257"/>
+        <obo:IAO_0000115 xml:lang="en">Vegetables in all forms except where a use-related product type descriptior (such as *PREPARED FOOD PRODUCT* or *SNACK FOOD*) takes precedence.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vegetable or vegetable product (us cfr)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03401270"/>
+        <obo:IAO_0000115 xml:lang="en">Alcoholic or nonalcoholic beverage; excludes milk and milk-based beverages, fruit juices and fruit juice drinks, and vegetable juices. [FDA CFSAN 1995]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">beverage (us cfr)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03401270"/>
+        <obo:IAO_0000115 xml:lang="en">Fruits and vegetables in all forms. [FDA CFSAN 1995]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fruit or vegetable product (us cfr)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400152"/>
+        <obo:IAO_0000115 xml:lang="en">The liquid extracted or expressed from mature vegetables with or without optional ingredients such as seasoning or salt.  Products prepared from vegetable juice by thickening with gelatin or pectin are indexed under the broader term *VEGETABLE OR VEGETABLE PRODUCT*. For part or portion, index the part or the plant from which the juice was extracted, rather than *PLANT EXTRACT, CONCENTRATE, OR ISOLATE*.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vegetable juice (us cfr)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400105"/>
+        <obo:IAO_0000115 xml:lang="en">Nonstandardized food product used as a meal accompaniment and consisting of a mixture of fats or oils, starch, liquid and other optional ingredients specified by the recipe; excludes condiment sauce (q.v.) and tomato or spaghetti sauce, which are vegetable products.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">gravy or sauce (us cfr)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400361"/>
+        <obo:IAO_0000115 xml:lang="en">Food group having common consumption, functional or manufacturing characteristics, e.g. *FRUIT OR VEGETABLE PRODUCT*, *DAIRY PRODUCT*, *CONFECTIONARY*, *PREPARED FOOD PRODUCT*, etc. [FDA CFSAN 1995]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">product type, usa</rdfs:label>
     </owl:Class>
     
 
@@ -12925,6 +14299,25 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03401270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03401270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400289"/>
+        <obo:IAO_0000115 xml:lang="en">Food and Drugs, title 21, Code of Federal Regulations. Original  food classification in LanguaL.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">product type,  u.s. code of federal regulations, title 21</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+        <rdfs:label xml:lang="en">vegetable-producing plant, root, tuber or bulb (food source)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03411041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411041">
@@ -12934,11 +14327,232 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03414302"/>
+        <obo:IAO_0000115 xml:lang="en">The onion (*Allium cepa *L), also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus *Allium*. Its close relatives include the garlic, shallot, leek, chive,[2] and Chinese onion. 
+ This genus also contains several other species variously referred to as onions and cultivated for food, such as the Japanese bunching onion (*Allium fistulosum*), the tree onion (*A. ×proliferum*), and the Canada onion (*Allium canadense*). The name &quot;wild onion&quot; is applied to a number of *Allium* species, but *A. cepa* is exclusively known from cultivation. [https://en.wikipedia.org/wiki/Onion]</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>Allium</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Allium L.</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Allium sp.</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">onion plant (food source)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411564"/>
+        <obo:IAO_0000115 xml:lang="en">Multicellular plants.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">plant (food source)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <obo:IAO_0000115 xml:lang="en">Individual plant or animal from which the food product or its major ingredient is derived; also a chemical food source [FDA CFSAN 1995].</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411347"/>
+        <rdfs:label xml:lang="en">vegetable-producing plant (food source)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03412972 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412972">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411041"/>
         <rdfs:label xml:lang="en">food additive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03413357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03413357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411347"/>
+        <rdfs:label xml:lang="en">plant according to family (food source)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03414302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03414302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413357"/>
+        <obo:IAO_0000115 xml:lang="en">*Allium* is a genus of monocotyledonous flowering plants that includes hundreds of species, including the cultivated onion, garlic, scallion, shallot, leek, and chives. [https://en.wikipedia.org/wiki/Allium]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">allium species (food source)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03430102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430102">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03430130"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001693"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001693"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430109"/>
+        <obo:IAO_0000115 xml:lang="en">A liquid that flows slowly at room temperature. Examples are: some heavy liqueurs, evaporated milk, vegetable oil, molasses and honey. The range of high viscosity liquids spans sucrose solutions between 45 and 70% solids (viscosity range from 10 to 500 centipoise). Prefer &apos;solid pieces&apos; factor term to &apos;small particles&apos; if both appear in the food.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food (liquid, high viscosity)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03430109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430109">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03430130"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03430130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001694"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A liquid that flows very easily at room temperature. Examples are: water, apple juice, sherry, acidophilus milk, whipping cream and some heavy liqueurs. The range of low viscosity liquid spans sucrose solutions between 0 and 45% solids (viscosity range from 1 to 10 centipoise). Prefer &apos;solid pieces&apos; factor term to &apos;small particles&apos; if both appear in the food.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food (liquid, low viscosity)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03430130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430130">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002454"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002454"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A state of matter between a solid and a gas, in which a substance has the capacity to flow and conforms to the shape of the container. Liquids range from water to honey, corresponding to a range in viscosity (or apparent viscosity) from 1 to 500 centipoise (viscosity is a measure of a liquid&apos;s resistance to flow). Products that are pourable but have a higher viscosity are *SEMILIQUID*.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food (liquid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03430151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430151">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002454"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001546"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002454"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A solid product is a hard or soft product capable of retaining its own shape at room temperature (20 degrees C.). A soft product that is spreadable or formable is considered semisolid.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food (solid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002451"/>
+        <obo:IAO_0000115 xml:lang="en">Used to specifically characterize a food product based on the treatment or processes applied to the product or any indexed ingredient. The processes include adding, substituting or removing components or modifying the food or component, e.g., through fermentation. Multiple values can be assigned.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food treatment process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460141"/>
+        <obo:IAO_0000115 xml:lang="en">Modified by microbial or enzymatic action resulting in molecular changes in any food component. If salt, sugar or other food additive is used to aid in the modification process, index it by the appropriate term under *INGREDIENT ADDED*.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">microbial/enzymatic modification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460111"/>
+        <rdfs:label xml:lang="en">food modification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03460190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03460190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460119"/>
+        <obo:IAO_0000115 xml:lang="en">Treated with acid that may be produced by fermentation or added and/or with salt brine, often in the presence of spices or herbs, producing changes in flavor and texture.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pickling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03470107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002451"/>
+        <obo:IAO_0000115 xml:lang="en">The methods contributing to the prevention or retardation of microbial, enzymatic or oxidative spoilage and thus to the extension of shelf life. Index all methods for which information is available, even if a corresponding descriptor has already been used in *H. TREATMENT APPLIED*. Preservation descriptors refer to the finished food as a whole with these exceptions: (1) if the components of a multi-component food, such as cream pie, are preservation by different methods, index all methods; (2)  if chemical preservatives are declared on the label, always index them even if it is known that the preservative was introduced through or is only present in a component or ingredient of the food; and (3) if the preservation method for an ingredient is declared on the label (such as brie cheese made from pasteurized milk) index it. Also use *INGREDIENT preservation by THERMAL PROCESSING* or *INGREDIENT preservation by IRRADIATION* when ingredients have been pasteurized, ultrapasteurized, sterilized or irradiated.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">food preservation process</rdfs:label>
     </owl:Class>
     
 
@@ -15806,6 +17420,16 @@ class labels for these objects. The resulting predictor can be used to attach cl
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration quality inhering in a medium by virtue of the bearer&apos;s tendency to hydronate a specific reference base.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium acidity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001430">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001428"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An medium acidity quality inhering in a solution by virtue of the bearer&apos;s a low concentration of H+ ions.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline</rdfs:label>
     </owl:Class>
     
 

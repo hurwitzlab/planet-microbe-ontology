@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-03-21/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-06-07/imports/pato_import.owl"/>
     </owl:Ontology>
     
 
@@ -2105,6 +2105,25 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001428"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A concentration quality inhering in a medium by virtue of the bearer&apos;s tendency to hydronate a specific reference base.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemicool:chemicool</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001430">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001428"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An medium acidity quality inhering in a solution by virtue of the bearer&apos;s a low concentration of H+ ions.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001430</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An medium acidity quality inhering in a solution by virtue of the bearer&apos;s a low concentration of H+ ions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemicool:chemicool</oboInOwl:hasDbXref>
     </owl:Axiom>
     

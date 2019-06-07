@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2019-03-21
+data-version: releases/2019-06-07
 remark: Planet Microbe Ontology
 ontology: pmo
 
@@ -585,6 +585,18 @@ is_a: CHEBI:25362 ! elemental molecule
 is_a: CHEBI:33266 ! diatomic nitrogen
 
 [Term]
+id: CHEBI:18059
+name: lipid
+def: "'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids." []
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:18230
+name: chlorophyll a
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:28966 ! chlorophyll
+
+[Term]
 id: CHEBI:22563
 name: anion
 def: "A monoatomic or polyatomic species having one or more elementary charges of the electron." []
@@ -595,6 +607,23 @@ id: CHEBI:23014
 name: carbon oxide
 is_a: CHEBI:25701 ! organic oxide
 is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
+id: CHEBI:23043
+name: epoxycarotenoid
+is_a: CHEBI:27325 ! xanthophyll
+is_a: CHEBI:32955 ! epoxide
+
+[Term]
+id: CHEBI:23044
+name: carotenoid
+def: "One of a class of tetraterpenoids (C40), formally derived from the acyclic parent, psi,psi-carotene by hydrogenation, dehydrogenation, cyclization, oxidation, or combination of these processes. This class includes carotenes, xanthophylls and certain compounds that arise from rearrangement of the skeleton of psi,psi-carotene or by loss of part of this structure. Retinoids are excluded." []
+is_a: CHEBI:26935 ! tetraterpenoid
+
+[Term]
+id: CHEBI:23045
+name: carotenol
+is_a: CHEBI:27325 ! xanthophyll
 
 [Term]
 id: CHEBI:23114
@@ -634,6 +663,14 @@ is_a: CHEBI:50906 ! role
 id: CHEBI:24471
 name: halogen molecular entity
 is_a: CHEBI:33675 ! p-block molecular entity
+
+[Term]
+id: CHEBI:24532
+name: organic heterocyclic compound
+def: "A cyclic compound having as ring members atoms of carbon and at least of one other element." []
+is_a: CHEBI:33285 ! heteroorganic entity
+is_a: CHEBI:33832 ! organic cyclic compound
+is_a: CHEBI:5686 ! heterocyclic compound
 
 [Term]
 id: CHEBI:24651
@@ -680,6 +717,37 @@ def: "A molecular entity having a net electric charge." []
 is_a: CHEBI:23367 ! molecular entity
 
 [Term]
+id: CHEBI:24913
+name: isoprenoid
+def: "Any lipid formally derived from isoprene (2-methylbuta-1,3-diene), the skeleton of which can generally be discerned in repeated occurrence in the molecule. The skeleton of isoprenoids may differ from strict additivity of isoprene units by loss or shift of a fragment, commonly a methyl group. The class includes both hydrocarbons and oxygenated derivatives." []
+is_a: CHEBI:18059 ! lipid
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:25108
+name: magnesium molecular entity
+is_a: CHEBI:33299 ! alkaline earth molecular entity
+
+[Term]
+id: CHEBI:25111
+name: magnesium porphyrin
+is_a: CHEBI:25216 ! metalloporphyrin
+is_a: CHEBI:38251 ! magnesium tetrapyrrole
+
+[Term]
+id: CHEBI:25216
+name: metalloporphyrin
+is_a: CHEBI:26214 ! porphyrins
+is_a: CHEBI:33240 ! coordination entity
+is_a: CHEBI:33909 ! metallotetrapyrrole
+
+[Term]
+id: CHEBI:25248
+name: methyl ester
+def: "Any carboxylic ester resulting from the formal condensation of a carboxy group with methanol." []
+is_a: CHEBI:33308 ! carboxylic ester
+
+[Term]
 id: CHEBI:25362
 name: elemental molecule
 is_a: CHEBI:25367 ! molecule
@@ -690,6 +758,12 @@ id: CHEBI:25367
 name: molecule
 def: "Any polyatomic entity that is an electrically neutral entity consisting of more than one atom." []
 is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:25698
+name: ether
+def: "An organooxygen compound with formula ROR, where R is not hydrogen." []
+is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
 id: CHEBI:25701
@@ -727,6 +801,12 @@ name: phosphorus molecular entity
 is_a: CHEBI:33302 ! pnictogen molecular entity
 
 [Term]
+id: CHEBI:26214
+name: porphyrins
+def: "Natural pigments containing a fundamental skeleton of four pyrrole nuclei united through the alpha-positions by four methine groups to form a macrocyclic structure." []
+is_a: CHEBI:36309 ! cyclic tetrapyrrole
+
+[Term]
 id: CHEBI:26675
 name: silicic acid
 is_a: CHEBI:33328 ! silicon oxoacid
@@ -759,6 +839,46 @@ is_a: CHEBI:26712 ! sodium molecular entity
 is_a: CHEBI:35479 ! alkali metal salt
 
 [Term]
+id: CHEBI:26873
+name: terpenoid
+def: "Any isoprenoid that is a natural product or related compound formally derived from isoprene units. Terpenoids may contain oxygen in various functional groups. This class is subdivided according to the number of carbon atoms in the parent terpene. The skeleton of terpenoids may differ from strict additivity of isoprene units by the loss or shift of a fragment, generally a methyl group." []
+is_a: CHEBI:24913 ! isoprenoid
+
+[Term]
+id: CHEBI:26878
+name: tertiary alcohol
+is_a: CHEBI:30879 ! alcohol
+
+[Term]
+id: CHEBI:26932
+name: tetrapyrrole
+def: "A natural pigment containing four pyrrole rings joined by one-carbon units linking position 2 of one pyrrole ring to position 5 of the next." []
+is_a: CHEBI:33833 ! heteroarene
+is_a: CHEBI:38077 ! polypyrrole
+
+[Term]
+id: CHEBI:26935
+name: tetraterpenoid
+def: "Any terpenoid derived from a tetraterpene. The term includes compounds in which the C40 skeleton of the parent tetraterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups)." []
+is_a: CHEBI:26873 ! terpenoid
+
+[Term]
+id: CHEBI:27325
+name: xanthophyll
+def: "A subclass of carotenoids consisting of the oxygenated carotenes." []
+is_a: CHEBI:23044 ! carotenoid
+
+[Term]
+id: CHEBI:27547
+name: zeaxanthin
+is_a: CHEBI:23045 ! carotenol
+
+[Term]
+id: CHEBI:27888
+name: chlorophyll b
+is_a: CHEBI:28966 ! chlorophyll
+
+[Term]
 id: CHEBI:28938
 name: ammonium
 is_a: CHEBI:35106 ! nitrogen hydride
@@ -767,9 +887,26 @@ is_a: CHEBI:50313 ! onium cation
 is_a: CHEBI:60242 ! monovalent inorganic cation
 
 [Term]
+id: CHEBI:28966
+name: chlorophyll
+is_a: CHEBI:25111 ! magnesium porphyrin
+
+[Term]
 id: CHEBI:29241
 name: silicate(4-)
 is_a: CHEBI:48123 ! silicate ion
+
+[Term]
+id: CHEBI:30879
+name: alcohol
+def: "A compound in which a hydroxy group, -OH, is attached to a saturated carbon atom." []
+is_a: CHEBI:33822 ! organic hydroxy compound
+is_a: FOODON:00002123 ! plant based alcoholic beverage
+
+[Term]
+id: CHEBI:32955
+name: epoxide
+is_a: CHEBI:37407 ! cyclic ether
 
 [Term]
 id: CHEBI:32988
@@ -859,9 +996,21 @@ def: "A heteroorganic entity is an organic molecular entity in which carbon atom
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
+id: CHEBI:33290
+name: food
+def: "Any material that can be ingested by an organism." []
+is_a: CHEBI:52211 ! physiological role
+
+[Term]
 id: CHEBI:33296
 name: alkali metal molecular entity
 def: "A molecular entity containing one or more atoms of an alkali metal." []
+is_a: CHEBI:33674 ! s-block molecular entity
+
+[Term]
+id: CHEBI:33299
+name: alkaline earth molecular entity
+def: "An alkaline earth molecular entity is a molecular entity containing one or more atoms of an alkaline earth metal." []
 is_a: CHEBI:33674 ! s-block molecular entity
 
 [Term]
@@ -875,6 +1024,13 @@ id: CHEBI:33304
 name: chalcogen molecular entity
 def: "Any p-block molecular entity containing a chalcogen." []
 is_a: CHEBI:33675 ! p-block molecular entity
+
+[Term]
+id: CHEBI:33308
+name: carboxylic ester
+def: "An ester of a carboxylic acid, R(1)C(=O)OR(2), where R(1) = H or organyl and R(2) = organyl." []
+is_a: CHEBI:35701 ! ester
+is_a: CHEBI:36586 ! carbonyl compound
 
 [Term]
 id: CHEBI:33328
@@ -924,9 +1080,27 @@ def: "A main group molecular entity containing one or more atoms of any noble ga
 is_a: CHEBI:33579 ! main group molecular entity
 
 [Term]
+id: CHEBI:33595
+name: cyclic compound
+def: "Any molecule that consists of a series of atoms joined together to form a ring." []
+is_a: CHEBI:25367 ! molecule
+
+[Term]
 id: CHEBI:33608
 name: hydrogen molecular entity
 is_a: CHEBI:33674 ! s-block molecular entity
+
+[Term]
+id: CHEBI:33655
+name: aromatic compound
+def: "A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character." []
+is_a: CHEBI:33595 ! cyclic compound
+
+[Term]
+id: CHEBI:33659
+name: organic aromatic compound
+is_a: CHEBI:33655 ! aromatic compound
+is_a: CHEBI:33832 ! organic cyclic compound
 
 [Term]
 id: CHEBI:33674
@@ -988,6 +1162,27 @@ is_a: CHEBI:36358 ! polyatomic ion
 is_a: CHEBI:36916 ! cation
 
 [Term]
+id: CHEBI:33822
+name: organic hydroxy compound
+def: "An organic compound having at least one hydroxy group attached to a carbon atom." []
+is_a: CHEBI:24651 ! hydroxides
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:33832
+name: organic cyclic compound
+def: "Any organic molecule that consists of atoms connected in the form of a ring." []
+is_a: CHEBI:33595 ! cyclic compound
+is_a: CHEBI:72695 ! organic molecule
+
+[Term]
+id: CHEBI:33833
+name: heteroarene
+def: "A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2)." []
+is_a: CHEBI:24532 ! organic heterocyclic compound
+is_a: CHEBI:33659 ! organic aromatic compound
+
+[Term]
 id: CHEBI:33839
 name: macromolecule
 def: "A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." []
@@ -998,10 +1193,21 @@ property_value: IAO:0000118 "polymer" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:33909
+name: metallotetrapyrrole
+is_a: CHEBI:36309 ! cyclic tetrapyrrole
+
+[Term]
 id: CHEBI:33958
 name: halide salt
 is_a: CHEBI:24866 ! salt
 is_a: CHEBI:37578 ! halide
+
+[Term]
+id: CHEBI:33976
+name: magnesium coordination entity
+is_a: CHEBI:25108 ! magnesium molecular entity
+is_a: CHEBI:35217 ! alkaline earth coordination entity
 
 [Term]
 id: CHEBI:35106
@@ -1010,10 +1216,22 @@ is_a: CHEBI:35881 ! pnictogen hydride
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
+id: CHEBI:35217
+name: alkaline earth coordination entity
+is_a: CHEBI:33299 ! alkaline earth molecular entity
+is_a: CHEBI:36562 ! main-group coordination entity
+
+[Term]
 id: CHEBI:35274
 name: ammonium ion
 is_a: CHEBI:33702 ! polyatomic cation
 is_a: CHEBI:51143 ! nitrogen molecular entity
+
+[Term]
+id: CHEBI:35307
+name: epoxycarotenol
+is_a: CHEBI:23043 ! epoxycarotenoid
+is_a: CHEBI:23045 ! carotenol
 
 [Term]
 id: CHEBI:35352
@@ -1036,6 +1254,18 @@ is_a: CHEBI:24866 ! salt
 is_a: CHEBI:33296 ! alkali metal molecular entity
 
 [Term]
+id: CHEBI:35681
+name: secondary alcohol
+def: "A secondary alcohol is a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom which has two other carbon atoms attached to it." []
+is_a: CHEBI:30879 ! alcohol
+
+[Term]
+id: CHEBI:35701
+name: ester
+def: "A compound formally derived from an oxoacid RkE(=O)l(OH)m (l > 0) and an alcohol, phenol, heteroarenol, or enol by linking with formal loss of water from an acidic hydroxy group of the former and a hydroxy group of the latter." []
+is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
 id: CHEBI:35881
 name: pnictogen hydride
 is_a: CHEBI:33242 ! inorganic hydride
@@ -1046,6 +1276,12 @@ id: CHEBI:36093
 name: inorganic chloride
 is_a: CHEBI:23114 ! chloride salt
 is_a: CHEBI:24839 ! inorganic salt
+
+[Term]
+id: CHEBI:36309
+name: cyclic tetrapyrrole
+is_a: CHEBI:26932 ! tetrapyrrole
+is_a: CHEBI:47882 ! cyclic polypyrrole
 
 [Term]
 id: CHEBI:36342
@@ -1082,6 +1318,19 @@ name: main-group coordination entity
 def: "A coordination entity in which the central atom to which the ligands are attached comes from groups 1, 2, 13, 14, 15, 16, 17, or 18 of the periodic table." []
 is_a: CHEBI:33240 ! coordination entity
 is_a: CHEBI:33579 ! main group molecular entity
+
+[Term]
+id: CHEBI:36586
+name: carbonyl compound
+def: "Any compound containing the carbonyl group, C=O. The term is commonly used in the restricted sense of aldehydes and ketones, although it actually includes carboxylic acids and derivatives." []
+is_a: CHEBI:36587 ! organic oxo compound
+is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
+id: CHEBI:36587
+name: organic oxo compound
+def: "Organic compounds containing an oxygen atom, =O, doubly bonded to carbon or another element." []
+is_a: CHEBI:72695 ! organic molecule
 
 [Term]
 id: CHEBI:36902
@@ -1146,6 +1395,12 @@ is_a: CHEBI:35406 ! oxoanion
 is_a: CHEBI:37190 ! silicon coordination entity
 
 [Term]
+id: CHEBI:37407
+name: cyclic ether
+is_a: CHEBI:25698 ! ether
+is_a: CHEBI:38104 ! oxacycle
+
+[Term]
 id: CHEBI:37577
 name: heteroatomic molecular entity
 def: "A molecular entity consisting of two or more chemical elements." []
@@ -1159,12 +1414,43 @@ is_a: CHEBI:24471 ! halogen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
+id: CHEBI:37602
+name: allenes
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
 id: CHEBI:37622
 name: carboxamide
 def: "An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom." []
 is_a: CHEBI:33256 ! primary amide
 is_a: CHEBI:35352 ! organonitrogen compound
 is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
+id: CHEBI:38077
+name: polypyrrole
+def: "A compound composed of two or more pyrrole units." []
+is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
+
+[Term]
+id: CHEBI:38101
+name: organonitrogen heterocyclic compound
+def: "Any organonitrogen compound containing a cyclic component with nitrogen and at least one other element as ring member atoms." []
+is_a: CHEBI:24532 ! organic heterocyclic compound
+is_a: CHEBI:35352 ! organonitrogen compound
+
+[Term]
+id: CHEBI:38104
+name: oxacycle
+def: "Any organic heterocyclic compound containing at least one ring oxygen atom." []
+is_a: CHEBI:24532 ! organic heterocyclic compound
+is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
+id: CHEBI:38251
+name: magnesium tetrapyrrole
+is_a: CHEBI:33909 ! metallotetrapyrrole
+is_a: CHEBI:33976 ! magnesium coordination entity
 
 [Term]
 id: CHEBI:38702
@@ -1189,6 +1475,17 @@ name: double-stranded DNA
 is_a: CHEBI:16991 ! deoxyribonucleic acid
 property_value: IAO:0000111 "double-stranded DNA" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
+
+[Term]
+id: CHEBI:47622
+name: acetate ester
+def: "Any carboxylic ester where the carboxylic acid component is acetic acid." []
+is_a: CHEBI:33308 ! carboxylic ester
+
+[Term]
+id: CHEBI:47882
+name: cyclic polypyrrole
+is_a: CHEBI:38077 ! polypyrrole
 
 [Term]
 id: CHEBI:48123
@@ -1237,6 +1534,15 @@ is_a: CHEBI:33302 ! pnictogen molecular entity
 is_a: FOODON:03412972 ! food additive
 
 [Term]
+id: CHEBI:5186
+name: fucoxanthin
+is_a: CHEBI:26878 ! tertiary alcohol
+is_a: CHEBI:35307 ! epoxycarotenol
+is_a: CHEBI:35681 ! secondary alcohol
+is_a: CHEBI:37602 ! allenes
+is_a: CHEBI:47622 ! acetate ester
+
+[Term]
 id: CHEBI:52211
 name: physiological role
 is_a: CHEBI:24432 ! biological role
@@ -1246,6 +1552,12 @@ id: CHEBI:52625
 name: inorganic hydroxy compound
 is_a: CHEBI:24651 ! hydroxides
 is_a: CHEBI:24835 ! inorganic molecular entity
+
+[Term]
+id: CHEBI:5686
+name: heterocyclic compound
+def: "A cyclic compound having as ring members atoms of at least two different elements." []
+is_a: CHEBI:33595 ! cyclic compound
 
 [Term]
 id: CHEBI:59999
@@ -1891,6 +2203,16 @@ relationship: RO:0002507 ENVO:00000063 ! determined by water body
 property_value: IAO:0000118 "A biome which has its properties and composition determined by a water body and within which most members of resident ecological communities have adapted to life in or on water." xsd:string
 
 [Term]
+id: ENVO:00002121
+name: alkaline salt lake
+namespace: ENVO
+synonym: "soda lake" RELATED []
+is_a: ENVO:00000019 ! saline lake
+intersection_of: ENVO:00000019 ! saline lake
+intersection_of: RO:0000086 PATO:0001430 ! has quality alkaline
+relationship: RO:0000086 PATO:0001430 ! has quality alkaline
+
+[Term]
 id: ENVO:00002149
 name: sea water
 def: "Water which has physicochemical properties that have been determined by the processes occuring in a sea or ocean." []
@@ -2341,6 +2663,15 @@ intersection_of: RO:0000086 PATO:0001657 ! has quality increased osmolarity
 relationship: RO:0000086 PATO:0001657 ! has quality increased osmolarity
 
 [Term]
+id: ENVO:01000316
+name: alkaline environment
+def: "An alkaline environment is an environment in which entities are exposed to high pH, typically greater than a pH of 9." []
+is_a: ENVO:01000997 ! environmental system determined by a quality
+intersection_of: ENVO:01000997 ! environmental system determined by a quality
+intersection_of: RO:0000086 PATO:0001430 ! has quality alkaline
+relationship: RO:0000086 PATO:0001430 ! has quality alkaline
+
+[Term]
 id: ENVO:01000317
 name: aquatic environment
 def: "An environment whose dynamics are strongly influenced by water." []
@@ -2414,6 +2745,16 @@ comment: Depending on the latitude (and, to a lesser extent, other factors), the
 subset: envoPolar
 is_a: ENVO:01000203 ! environmental condition
 created_by: ORCID:0000-0002-4366-3088
+
+[Term]
+id: ENVO:01000357
+name: alkaline water
+def: "A portion of alkaline water is a portion of water with a pH greater than 7." []
+comment: Here, we commit to a threshold of pH as this is almost universally accepted.
+is_a: ENVO:00002006 ! liquid water
+intersection_of: ENVO:00002006 ! liquid water
+intersection_of: RO:0000086 PATO:0001430 ! has quality alkaline
+relationship: RO:0000086 PATO:0001430 ! has quality alkaline
 
 [Term]
 id: ENVO:01000406
@@ -2806,6 +3147,16 @@ is_a: ENVO:02500000 ! environmental system process
 relationship: RO:0000057 CHEBI:36342 ! has participant subatomic particle
 relationship: RO:0000057 ENVO:00010483 ! has participant environmental material
 property_value: IAO:0000116 "Requires addition of waves for full axiomatisation. This should be linked to \"subatomic particle\" with an \"or\". Note that ENVO represents space as an environmental material (a hard vacuum with sparse material inclusions)." xsd:string
+
+[Term]
+id: ENVO:01001026
+name: electromagnetic radiation
+def: "A radiation process during which waves (or their quanta, photons) of the electromagnetic field propagate (radiate) through space carrying electromagnetic energy." [https://en.wikipedia.org/wiki/Electromagnetic_radiation]
+comment: Note that this class is concerned only with active radiative processes: static electric and magnetic fields are not inlcuded. All electromagnetic radiation carries radiant energy.
+subset: environmental_hazards
+subset: envoAstro
+synonym: "EM radiation" EXACT []
+is_a: ENVO:01001023 ! radiation
 
 [Term]
 id: ENVO:01001040
@@ -3759,10 +4110,32 @@ synonym: "water ammonium concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
+id: ENVO:3100008
+name: concentration of chlorophyll a in water
+def: "The concentration of chlorophyll a when measured in water." []
+synonym: "water chlorophyll a concentration" EXACT []
+is_a: ENVO:3100036 ! concentration of chlorophyll in water
+
+[Term]
+id: ENVO:3100009
+name: concentration of chlorophyll b in water
+def: "The concentration of chlorophyll b when measured in water." []
+synonym: "water chlorophyll b concentration" EXACT []
+is_a: ENVO:3100036 ! concentration of chlorophyll in water
+
+[Term]
 id: ENVO:3100011
 name: concentration of dioxygen in water
 def: "The concentration of dioxygen when measured in water." []
 synonym: "water dioxygen concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100014
+name: concentration of fucoxanthin in water
+def: "The concentration of fucoxanthin when measured in water." []
+synonym: "water fucoxanthin concentration" EXACT []
+is_a: FOODON:00002470 ! food object quality
 is_a: PATO:0000033 ! concentration of
 
 [Term]
@@ -3791,6 +4164,13 @@ id: ENVO:3100027
 name: concentration of silicate(4-) in water
 def: "The concentration of silicate(4-) when measured in water." []
 synonym: "water silicate(4-) concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100029
+name: concentration of zeaxanthin in water
+def: "The concentration of zeaxanthin when measured in water." []
+synonym: "water zeaxanthin concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
@@ -3841,15 +4221,242 @@ synonym: "water silicic acid concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
+id: ENVO:3100036
+name: concentration of chlorophyll in water
+def: "The concentration of chlorophyll when measured in water." []
+synonym: "water chlorophyll concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
 id: FOODON:00001002
 name: foodon product type
 def: "A substance, usually composed primarily of carbohydrates, fats, water and/or proteins, that can be eaten or drunk by an animal or human being for nutrition or pleasure." []
 is_a: FOODON:03400361 ! food product type
 
 [Term]
+id: FOODON:00001015
+name: plant food product
+def: "This food product type includes food products which are derived from or produced by a plant." []
+is_a: FOODON:00002381 ! food product by organism
+is_a: FOODON:00002403 ! food material
+intersection_of: FOODON:00002381 ! food product by organism
+intersection_of: FOODON:00002403 ! food material
+intersection_of: RO:0001000 FOODON:03411347 ! derives from plant (food source)
+relationship: RO:0001000 FOODON:03411347 ! derives from plant (food source)
+
+[Term]
+id: FOODON:00001079
+name: pickled food product
+def: "A food preserved by soaking and storing it in vinegar or brine." []
+is_a: FOODON:00002373 ! food product by culinary role
+relationship: RO:0002353 FOODON:03460190 ! output of pickling process
+
+[Term]
+id: FOODON:00001094
+name: fermented beverage
+synonym: "alcoholic beverage" EXACT []
+is_a: FOODON:00001180 ! prepared food product
+is_a: FOODON:00001258 ! food (fermented)
+intersection_of: FOODON:00001180 ! prepared food product
+intersection_of: FOODON:00001258 ! food (fermented)
+
+[Term]
+id: FOODON:00001180
+name: prepared food product
+def: "Food product that is 1) ready or nearly ready for consumption; 2) usually a composite of several foods or ingredients that often belong to distinct product types; 3) usually formulated, mixed and partially or fully cooked." []
+is_a: FOODON:00001002 ! foodon product type
+
+[Term]
+id: FOODON:00001181
+name: food (cooked)
+is_a: FOODON:00002454 ! food product by quality
+
+[Term]
+id: FOODON:00001253
+name: plant derived beverage
+is_a: FOODON:00001015 ! plant food product
+is_a: FOODON:03301977 ! beverage
+
+[Term]
+id: FOODON:00001254
+name: fermented plant derived beverage
+is_a: ENVO:01000815 ! liquid environmental material
+is_a: FOODON:00001094 ! fermented beverage
+is_a: FOODON:00001253 ! plant derived beverage
+intersection_of: FOODON:00001094 ! fermented beverage
+intersection_of: FOODON:00001253 ! plant derived beverage
+
+[Term]
+id: FOODON:00001258
+name: food (fermented)
+is_a: FOODON:00001306 ! Hom dong
+is_a: FOODON:00002158 ! food product by preservation method
+relationship: RO:0002353 FOODON:00001304 ! output of fermentation/modification process
+
+[Term]
+id: FOODON:00001261
+name: vegetable food product
+def: "Any plant food product which, typically, is constituted by intact parts from one or more annual plants cultivated as field and garden crops in the open and under glass, and used almost exclusively for food." []
+is_a: FOODON:00001015 ! plant food product
+intersection_of: FOODON:00001015 ! plant food product
+intersection_of: RO:0001000 FOODON:03411579 ! derives from vegetable-producing plant (food source)
+relationship: RO:0001000 FOODON:03411579 ! derives from vegetable-producing plant (food source)
+relationship: RO:0002350 FOODON:03400152 ! member of vegetable or vegetable product (us cfr)
+
+[Term]
+id: FOODON:00001304
+name: fermentation/modification process
+is_a: FOODON:03460119 ! microbial/enzymatic modification process
+is_a: FOODON:03470107 ! food preservation process
+
+[Term]
+id: FOODON:00001306
+name: Hom dong
+def: "Fermented onions or pickled onion" []
+is_a: FOODON:03317197 ! fish sauce
+
+[Term]
+id: FOODON:00001579
+name: alcoholic beverage
+is_a: FOODON:00001254 ! fermented plant derived beverage
+
+[Term]
 id: FOODON:00001714
 name: food component product
 is_a: FOODON:00001002 ! foodon product type
+
+[Term]
+id: FOODON:00001931
+name: gravy or sauce food product
+is_a: FOODON:00001181 ! food (cooked)
+is_a: FOODON:00001714 ! food component product
+intersection_of: FOODON:00001181 ! food (cooked)
+intersection_of: FOODON:00001714 ! food component product
+
+[Term]
+id: FOODON:00002123
+name: plant based alcoholic beverage
+is_a: FOODON:00001579 ! alcoholic beverage
+
+[Term]
+id: FOODON:00002158
+name: food product by preservation method
+is_a: FOODON:00001002 ! foodon product type
+
+[Term]
+id: FOODON:00002333
+name: vegetable pickle food product
+is_a: FOODON:00001079 ! pickled food product
+is_a: FOODON:00001261 ! vegetable food product
+intersection_of: FOODON:00001079 ! pickled food product
+intersection_of: RO:0001000 FOODON:00001261 ! derives from vegetable food product
+relationship: RO:0001000 FOODON:00001261 ! derives from vegetable food product
+
+[Term]
+id: FOODON:00002373
+name: food product by culinary role
+is_a: FOODON:00001002 ! foodon product type
+
+[Term]
+id: FOODON:00002381
+name: food product by organism
+is_a: FOODON:00001002 ! foodon product type
+
+[Term]
+id: FOODON:00002403
+name: food material
+is_a: ENVO:00010483 ! environmental material
+intersection_of: ENVO:00010483 ! environmental material
+intersection_of: RO:0000087 CHEBI:33290 ! has role food
+relationship: RO:0000087 CHEBI:33290 ! has role food
+
+[Term]
+id: FOODON:00002451
+name: food transformation process
+def: "A process involving the physical transformation of a food source or food product into some derived organic material or food product" []
+is_a: ENVO:02500000 ! environmental system process
+relationship: RO:0002233 FOODON:00002403 ! has input food material
+
+[Term]
+id: FOODON:00002454
+name: food product by quality
+is_a: FOODON:00001002 ! foodon product type
+
+[Term]
+id: FOODON:00002470
+name: food object quality
+is_a: PATO:0001241 ! physical object quality
+relationship: RO:0000052 FOODON:00002403 ! inheres in food material
+
+[Term]
+id: FOODON:03301444
+name: vegetable juice food product
+is_a: FOODON:00001253 ! plant derived beverage
+is_a: FOODON:00001261 ! vegetable food product
+intersection_of: FOODON:00001253 ! plant derived beverage
+intersection_of: RO:0001000 FOODON:03411579 ! derives from vegetable-producing plant (food source)
+relationship: RO:0001000 FOODON:03411579 ! derives from vegetable-producing plant (food source)
+relationship: RO:0002350 FOODON:03400264 ! member of vegetable juice (us cfr)
+
+[Term]
+id: FOODON:03301977
+name: beverage
+is_a: FOODON:00002373 ! food product by culinary role
+relationship: RO:0002350 FOODON:03400229 ! member of beverage (us cfr)
+
+[Term]
+id: FOODON:03311146
+name: sauce
+is_a: FOODON:00001931 ! gravy or sauce food product
+is_a: FOODON:03430130 ! food (liquid)
+relationship: RO:0002350 FOODON:03400286 ! member of gravy or sauce (us cfr)
+
+[Term]
+id: FOODON:03317197
+name: fish sauce
+is_a: FOODON:03311146 ! sauce
+
+[Term]
+id: FOODON:03400105
+name: dressing, condiment, gravy or sauce (us cfr)
+def: "Seasoned product that contains multiple ingredients and that is used in limited amounts to accompany other foods; excludes flavors, spices and herbs." []
+is_a: FOODON:03401270 ! product type,  u.s. code of federal regulations, title 21
+
+[Term]
+id: FOODON:03400152
+name: vegetable or vegetable product (us cfr)
+def: "Vegetables in all forms except where a use-related product type descriptior (such as *PREPARED FOOD PRODUCT* or *SNACK FOOD*) takes precedence." []
+is_a: FOODON:03400257 ! fruit or vegetable product (us cfr)
+
+[Term]
+id: FOODON:03400229
+name: beverage (us cfr)
+def: "Alcoholic or nonalcoholic beverage; excludes milk and milk-based beverages, fruit juices and fruit juice drinks, and vegetable juices. [FDA CFSAN 1995]" []
+is_a: FOODON:03401270 ! product type,  u.s. code of federal regulations, title 21
+
+[Term]
+id: FOODON:03400257
+name: fruit or vegetable product (us cfr)
+def: "Fruits and vegetables in all forms. [FDA CFSAN 1995]" []
+is_a: FOODON:03401270 ! product type,  u.s. code of federal regulations, title 21
+
+[Term]
+id: FOODON:03400264
+name: vegetable juice (us cfr)
+def: "The liquid extracted or expressed from mature vegetables with or without optional ingredients such as seasoning or salt.  Products prepared from vegetable juice by thickening with gelatin or pectin are indexed under the broader term *VEGETABLE OR VEGETABLE PRODUCT*. For part or portion, index the part or the plant from which the juice was extracted, rather than *PLANT EXTRACT, CONCENTRATE, OR ISOLATE*." []
+is_a: FOODON:03400152 ! vegetable or vegetable product (us cfr)
+
+[Term]
+id: FOODON:03400286
+name: gravy or sauce (us cfr)
+def: "Nonstandardized food product used as a meal accompaniment and consisting of a mixture of fats or oils, starch, liquid and other optional ingredients specified by the recipe; excludes condiment sauce (q.v.) and tomato or spaghetti sauce, which are vegetable products." []
+is_a: FOODON:03400105 ! dressing, condiment, gravy or sauce (us cfr)
+
+[Term]
+id: FOODON:03400289
+name: product type, usa
+def: "Food group having common consumption, functional or manufacturing characteristics, e.g. *FRUIT OR VEGETABLE PRODUCT*, *DAIRY PRODUCT*, *CONFECTIONARY*, *PREPARED FOOD PRODUCT*, etc. [FDA CFSAN 1995]" []
+is_a: FOODON:03400361 ! food product type
 
 [Term]
 id: FOODON:03400361
@@ -3858,14 +4465,129 @@ def: "A food product type is a class of food products that is differentiated by 
 is_a: BFO:0000040 ! material entity
 
 [Term]
+id: FOODON:03401270
+name: product type,  u.s. code of federal regulations, title 21
+def: "Food and Drugs, title 21, Code of Federal Regulations. Original  food classification in LanguaL." []
+is_a: FOODON:03400289 ! product type, usa
+
+[Term]
+id: FOODON:03411018
+name: vegetable-producing plant, root, tuber or bulb (food source)
+is_a: FOODON:03411579 ! vegetable-producing plant (food source)
+
+[Term]
 id: FOODON:03411041
 name: chemical food product
 is_a: FOODON:00001714 ! food component product
 
 [Term]
+id: FOODON:03411300
+name: onion plant (food source)
+def: "The onion (*Allium cepa *L), also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus *Allium*. Its close relatives include the garlic, shallot, leek, chive,[2] and Chinese onion. \n This genus also contains several other species variously referred to as onions and cultivated for food, such as the Japanese bunching onion (*Allium fistulosum*), the tree onion (*A. ×proliferum*), and the Canada onion (*Allium canadense*). The name \"wild onion\" is applied to a number of *Allium* species, but *A. cepa* is exclusively known from cultivation. [https://en.wikipedia.org/wiki/Onion]" []
+synonym: "Allium" NARROW []
+synonym: "Allium L." NARROW []
+synonym: "Allium sp." NARROW []
+is_a: FOODON:03411018 ! vegetable-producing plant, root, tuber or bulb (food source)
+is_a: FOODON:03414302 ! allium species (food source)
+
+[Term]
+id: FOODON:03411347
+name: plant (food source)
+def: "Multicellular plants." []
+is_a: FOODON:03411564 ! food source
+
+[Term]
+id: FOODON:03411564
+name: food source
+def: "Individual plant or animal from which the food product or its major ingredient is derived; also a chemical food source [FDA CFSAN 1995]." []
+is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: FOODON:03411579
+name: vegetable-producing plant (food source)
+is_a: FOODON:03411347 ! plant (food source)
+
+[Term]
 id: FOODON:03412972
 name: food additive
 is_a: FOODON:03411041 ! chemical food product
+
+[Term]
+id: FOODON:03413357
+name: plant according to family (food source)
+is_a: FOODON:03411347 ! plant (food source)
+
+[Term]
+id: FOODON:03414302
+name: allium species (food source)
+def: "*Allium* is a genus of monocotyledonous flowering plants that includes hundreds of species, including the cultivated onion, garlic, scallion, shallot, leek, and chives. [https://en.wikipedia.org/wiki/Allium]" []
+is_a: FOODON:03413357 ! plant according to family (food source)
+
+[Term]
+id: FOODON:03430102
+name: food (liquid, high viscosity)
+def: "A liquid that flows slowly at room temperature. Examples are: some heavy liqueurs, evaporated milk, vegetable oil, molasses and honey. The range of high viscosity liquids spans sucrose solutions between 45 and 70% solids (viscosity range from 10 to 500 centipoise). Prefer 'solid pieces' factor term to 'small particles' if both appear in the food." []
+is_a: FOODON:03430130 ! food (liquid)
+intersection_of: FOODON:03430130 ! food (liquid)
+intersection_of: RO:0000086 PATO:0001693 ! has quality increased viscosity
+disjoint_from: FOODON:03430109 ! food (liquid, low viscosity)
+relationship: RO:0000086 PATO:0001693 ! has quality increased viscosity
+
+[Term]
+id: FOODON:03430109
+name: food (liquid, low viscosity)
+def: "A liquid that flows very easily at room temperature. Examples are: water, apple juice, sherry, acidophilus milk, whipping cream and some heavy liqueurs. The range of low viscosity liquid spans sucrose solutions between 0 and 45% solids (viscosity range from 1 to 10 centipoise). Prefer 'solid pieces' factor term to 'small particles' if both appear in the food." []
+is_a: FOODON:03430130 ! food (liquid)
+intersection_of: FOODON:03430130 ! food (liquid)
+intersection_of: RO:0000086 PATO:0001694 ! has quality decreased viscosity
+relationship: RO:0000086 PATO:0001694 ! has quality decreased viscosity
+
+[Term]
+id: FOODON:03430130
+name: food (liquid)
+def: "A state of matter between a solid and a gas, in which a substance has the capacity to flow and conforms to the shape of the container. Liquids range from water to honey, corresponding to a range in viscosity (or apparent viscosity) from 1 to 500 centipoise (viscosity is a measure of a liquid's resistance to flow). Products that are pourable but have a higher viscosity are *SEMILIQUID*." []
+is_a: FOODON:00002454 ! food product by quality
+intersection_of: FOODON:00002454 ! food product by quality
+intersection_of: RO:0000086 PATO:0001548 ! has quality quality of a liquid
+relationship: RO:0000086 PATO:0001548 ! has quality quality of a liquid
+
+[Term]
+id: FOODON:03430151
+name: food (solid)
+def: "A solid product is a hard or soft product capable of retaining its own shape at room temperature (20 degrees C.). A soft product that is spreadable or formable is considered semisolid." []
+is_a: FOODON:00002454 ! food product by quality
+intersection_of: FOODON:00002454 ! food product by quality
+intersection_of: RO:0000086 PATO:0001546 ! has quality quality of a solid
+relationship: RO:0000086 PATO:0001546 ! has quality quality of a solid
+
+[Term]
+id: FOODON:03460111
+name: food treatment process
+def: "Used to specifically characterize a food product based on the treatment or processes applied to the product or any indexed ingredient. The processes include adding, substituting or removing components or modifying the food or component, e.g., through fermentation. Multiple values can be assigned." []
+is_a: FOODON:00002451 ! food transformation process
+
+[Term]
+id: FOODON:03460119
+name: microbial/enzymatic modification process
+def: "Modified by microbial or enzymatic action resulting in molecular changes in any food component. If salt, sugar or other food additive is used to aid in the modification process, index it by the appropriate term under *INGREDIENT ADDED*." []
+is_a: FOODON:03460141 ! food modification process
+
+[Term]
+id: FOODON:03460141
+name: food modification process
+is_a: FOODON:03460111 ! food treatment process
+
+[Term]
+id: FOODON:03460190
+name: pickling process
+def: "Treated with acid that may be produced by fermentation or added and/or with salt brine, often in the presence of spices or herbs, producing changes in flavor and texture." []
+is_a: FOODON:03460119 ! microbial/enzymatic modification process
+
+[Term]
+id: FOODON:03470107
+name: food preservation process
+def: "The methods contributing to the prevention or retardation of microbial, enzymatic or oxidative spoilage and thus to the extension of shelf life. Index all methods for which information is available, even if a corresponding descriptor has already been used in *H. TREATMENT APPLIED*. Preservation descriptors refer to the finished food as a whole with these exceptions: (1) if the components of a multi-component food, such as cream pie, are preservation by different methods, index all methods; (2)  if chemical preservatives are declared on the label, always index them even if it is known that the preservative was introduced through or is only present in a component or ingredient of the food; and (3) if the preservation method for an ingredient is declared on the label (such as brie cheese made from pasteurized milk) index it. Also use *INGREDIENT preservation by THERMAL PROCESSING* or *INGREDIENT preservation by IRRADIATION* when ingredients have been pasteurized, ultrapasteurized, sterilized or irradiated." []
+is_a: FOODON:00002451 ! food transformation process
 
 [Term]
 id: GO:0003674
@@ -5382,6 +6104,7 @@ name: sample from organism
 def: "a material obtained from an organism in order to be a representative of the whole" []
 is_a: OBI:0000747 ! material sample
 is_a: OBI:0001479 ! specimen from organism
+is_a: PMO:00000166 ! sample from environment
 intersection_of: OBI:0000312 OBI:0600005 ! is_specified_output_of collecting specimen from organism
 intersection_of: RO:0000087 OBI:0000740 ! has role material sample role
 relationship: RO:0001000 UBERON:0000465 ! derives from material anatomical entity
@@ -7797,6 +8520,14 @@ subset: scalar_slim
 is_a: PATO:0001842 ! acidity
 
 [Term]
+id: PATO:0001430
+name: alkaline
+namespace: quality
+def: "An medium acidity quality inhering in a solution by virtue of the bearer's a low concentration of H+ ions." [chemicool:chemicool]
+subset: value_slim
+is_a: PATO:0001428 ! medium acidity
+
+[Term]
 id: PATO:0001464
 name: electric potential
 namespace: quality
@@ -8579,36 +9310,44 @@ property_value: IAO:0000118 http://purl.obolibrary.org/obo/NCBITaxon_408169 xsd:
 [Term]
 id: PMO:00000005
 name: site label
+def: "A datum lable which serves to lable a site of investigation." []
 is_a: IAO:0000009 ! datum label
 
 [Term]
 id: PMO:00000006
 name: bottle label
 is_a: IAO:0000009 ! datum label
+property_value: IAO:0000116 "May depricate this term." xsd:string
 
 [Term]
 id: PMO:00000007
 name: project investigation identifier
+def: "An investigation identifier which represents a sampling project." []
 is_a: OBI:0001628 ! investigation identifier
+property_value: IAO:0000116 "Ex: TARA, OSD, HOT" xsd:string
 
 [Term]
 id: PMO:00000008
 name: specimen collection time measurement datum start
+def: "A time measurement datum that is the measure of the start time when the specimens are collected." []
 is_a: OBI:0001619 ! specimen collection time measurement datum
 
 [Term]
 id: PMO:00000009
 name: specimen collection time measurement datum stop
+def: "A time measurement datum that is the measure of the time when the specimens are finished being collected." []
 is_a: OBI:0001619 ! specimen collection time measurement datum
 
 [Term]
 id: PMO:00000010
 name: conductivity temperature pressure instrument
+def: "A measurement device which measures temperature and pressure." []
 is_a: OBI:0000832 ! measurement device
 
 [Term]
 id: PMO:00000011
 name: rosette sampling device
+def: "A specimen collection device which is comprised of an assemblage of bottles used to sample water from a water body." [https://en.wikipedia.org/wiki/Rosette_sampler]
 is_a: PMO:00000074 ! specimen collection device
 
 [Term]
@@ -8616,43 +9355,54 @@ id: PMO:00000012
 name: rosette sampling device niskin position
 def: "A part of a rosette sampling device in which a niskin bottle is positioned for deployment." []
 is_a: BFO:0000024 ! fiat object part
+property_value: IAO:0000116 "Perhaps depricate this term." xsd:string
 
 [Term]
 id: PMO:00000013
 name: salinity
-def: "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per liter of solution." []
+def: "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per volume of solution." []
 is_a: PATO:0001655 ! osmolarity
+property_value: IAO:0000116 "To add to PATO or ENVO." xsd:string
 
 [Term]
 id: PMO:00000014
-name: water salinity
+name: liquid water salinity
+def: "A salinity quality which inheres in liquid water." []
 is_a: PMO:00000013 ! salinity
+property_value: IAO:0000116 "To add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000015
-name: visible spectrum stellar electromagnetic radiation opacity of water
+name: visible spectrum stellar electromagnetic radiation opacity of liquid water
+def: "An opacity quality in which visible spectrum stellar electromagnetic radiation inheres in liquid water." []
 is_a: PATO:0000957 ! opacity
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000016
 name: number of observations averaged to produce device measurment datum
 is_a: IAO:0000109 ! measurement datum
+property_value: IAO:0000116 "Perhaps depricate." xsd:string
 
 [Term]
 id: PMO:00000017
 name: number of observations averaged at pressure level to produce CTD measurment datum
 is_a: PMO:00000016 ! number of observations averaged to produce device measurment datum
+property_value: IAO:0000116 "Perhaps depricate." xsd:string
 
 [Term]
 id: PMO:00000018
 name: concentration of nitrate and nitrite in water
+def: "The concentration of nitrate and nitrite when measured in water." []
 is_a: PATO:0000033 ! concentration of
+property_value: IAO:0000116 "Add to envo, see ENVO issue #663 https://github.com/EnvironmentOntology/envo/issues/663" xsd:string
 
 [Term]
 id: PMO:00000019
 name: replicate
 def: "A role played by a biological sample in the context of an experiment where the  intent is that biological or technical variation is measured." []
 is_a: BFO:0000023 ! role
+property_value: IAO:0000116 "Find a way to import EFO or use an equivalent class from OBI. Or perhaps depricate." xsd:string
 property_value: IAO:0000118 http://www.ebi.ac.uk/efo/EFO_0000683 xsd:string
 
 [Term]
@@ -8662,6 +9412,7 @@ def: "A temperature which would inhere in a bearer if such bearer were adiabatic
 comment: Standard pressure is typically one atmosphere.
 synonym: "theta" RELATED []
 is_a: PATO:0000146 ! temperature
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 
 [Term]
 id: PMO:00000021
@@ -8669,92 +9420,119 @@ name: potential density
 def: "A density which would inhere in a bearer if such bearer were adiabatically \nbrought to a standard reference pressure." [https://en.wikipedia.org/wiki/Potential_density]
 synonym: "sigma" RELATED []
 is_a: PATO:0001019 ! mass density
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 
 [Term]
 id: PMO:00000022
-name: lower size threshold filter paper
-is_a: OBI:0000747 ! material sample
+name: aquatic sample minimum filter fractionation size threshold
+is_a: PMO:00000168 ! aquatic environmental material sample filter fractionation size
+property_value: IAO:0000116 "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process." xsd:string
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000023
-name: upper size threshold filter paper
-is_a: OBI:0000747 ! material sample
+name: aquatic sample maximum filter fractionation size threshold
+def: "A size quality which inheres in an aquatic environmental material sample by virtue of being the maximum particle size obtained when such bearer is subject to a size fractionating filtration process." []
+is_a: PMO:00000168 ! aquatic environmental material sample filter fractionation size
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000024
 name: specimen volume
+def: "A volume quality which inheres in a specimen." []
 is_a: PATO:0000918 ! volume
+property_value: IAO:0000116 "Add to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000025
 name: water sample volume
+def: "A specimen volume quality which inheres in a specimen which consists of liquid water." []
 is_a: PMO:00000024 ! specimen volume
+property_value: IAO:0000116 "Fix and add to BCO or OBI." xsd:string
 
 [Term]
 id: PMO:00000026
 name: concentration of chlorophyll in water
 is_a: PATO:0000033 ! concentration of
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100036 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100036
 
 [Term]
 id: PMO:00000027
 name: concentration of nitrate in water
 is_a: PATO:0000033 ! concentration of
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100022 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100022
 
 [Term]
 id: PMO:00000028
 name: pressure of water
 is_a: PATO:0001025 ! pressure
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100033 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100033
 
 [Term]
 id: PMO:00000029
 name: depth of water
 is_a: PATO:0001595 ! depth
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100031 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100031
 
 [Term]
 id: PMO:00000030
 name: fluorescence of water
 is_a: PATO:0000018 ! fluorescence
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100032 xsd:string
+is_obsolete: true
+replaced_by: ENVO_3100032
 
 [Term]
 id: PMO:00000031
 name: concentration of phosphate in water
 is_a: PATO:0000033 ! concentration of
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100026 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100026
 
 [Term]
 id: PMO:00000032
 name: concentration of silicate(4-) in water
 is_a: PATO:0000033 ! concentration of
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/ENVO_3100027 xsd:string
+is_obsolete: true
+replaced_by: ENVO:3100027
 
 [Term]
 id: PMO:00000033
 name: bar
 def: "A pressure unit which is equal to 100,000 pascal." [https://en.wikipedia.org/wiki/Bar_(unit)]
 is_a: UO:0000109 ! pressure unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000034
 name: decibar
 def: "A pressure unit which is equal to one tenth of a bar." []
 is_a: UO:0000109 ! pressure unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000035
 name: atmosphere unit
 def: "A pressure unit which is equal to 101325 pascal." [https://en.wikipedia.org/wiki/Atmosphere_(unit)]
 is_a: UO:0000109 ! pressure unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000036
 name: salinity unit
 def: "A unit which is a standard measure of salinity." []
 is_a: UO:0000000 ! unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000037
@@ -8762,6 +9540,7 @@ name: practical salinity unit
 synonym: "PSS-78" EXACT []
 synonym: "PSU" EXACT []
 is_a: PMO:00000036 ! salinity unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000038
@@ -8769,16 +9548,19 @@ name: international temperature scale of 1990 unit
 synonym: "ITS-90" EXACT []
 xref: https://www.omega.com/temperature/Z/pdf/z186-193.pdf
 is_a: UO:0000005 ! temperature unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000044
 name: Data
+property_value: IAO:0000116 "Figure out how to import EDAM." xsd:string
 property_value: IAO:0000118 http://edamontology.org/data_0006 xsd:string
 
 [Term]
 id: PMO:00000045
 name: Identifier
 is_a: PMO:00000044 ! Data
+property_value: IAO:0000116 "Figure out how to import EDAM." xsd:string
 property_value: IAO:0000118 http://edamontology.org/data_0842 xsd:string
 
 [Term]
@@ -8798,62 +9580,75 @@ id: PMO:00000048
 name: data submission date
 def: "A data item that is the date in which a data item was submitted to a central registry." []
 is_a: IAO:0000027 ! data item
+property_value: IAO:0000116 "Clean and add to IAO." xsd:string
 
 [Term]
 id: PMO:00000049
 name: data submission update date
 def: "A data item that is the date in which a data item previously submitted to a central registry was updated." []
 is_a: PMO:00000048 ! data submission date
+property_value: IAO:0000116 "Add to IAO." xsd:string
 
 [Term]
 id: PMO:00000050
 name: number of specimen collection devices employed
-is_a: IAO:0000109 ! measurement datum
+is_a: PMO:00000051 ! number of niskin bottles deployed during speciment collection process event
+equivalent_to: PMO:00000051 ! number of niskin bottles deployed during speciment collection process event
+property_value: IAO:0000116 "consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000051
 name: number of niskin bottles deployed during speciment collection process event
 is_a: PMO:00000050 ! number of specimen collection devices employed
+property_value: IAO:0000116 "Consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000052
 name: maximum depth of water collected during specimen collection process
-is_a: PMO:00000029 ! depth of water
+is_a: ENVO:3100031 ! depth of water
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: depth of water." xsd:string
 
 [Term]
 id: PMO:00000053
 name: maximum pressure of water collected during specimen collection process
-is_a: PMO:00000028 ! pressure of water
+is_a: ENVO:3100033 ! pressure of water
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: pressure of water." xsd:string
 
 [Term]
 id: PMO:00000054
 name: number designating study site
 is_a: IAO:0000109 ! measurement datum
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" xsd:string
 
 [Term]
 id: PMO:00000056
 name: centrally registered sampling event identifier
 is_a: IAO:0000578 ! centrally registered identifier
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" xsd:string
 
 [Term]
 id: PMO:00000057
 name: ctd cast number
 is_a: PMO:00000056 ! centrally registered sampling event identifier
+property_value: IAO:0000116 "Perhaps useful perhaps consider for deprication?" xsd:string
 
 [Term]
 id: PMO:00000058
 name: sampling expedition
 is_a: OBI:0000011 ! planned process
+property_value: IAO:0000116 "sampling campaign, perhaps useful perhaps depricate." xsd:string
 
 [Term]
 id: PMO:00000059
 name: sampling expedition leg
 is_a: PMO:00000058 ! sampling expedition
+property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000060
 name: sampling expedition identifier
 is_a: OBI:0001628 ! investigation identifier
+property_value: IAO:0000116 "sampling campaign Ex: TARA ocean, Tara arctic OSD 2014, HOT194 etc. Perhaps push to BCO?" xsd:string
 
 [Term]
 id: PMO:00000061
@@ -8876,36 +9671,46 @@ is_a: PMO:00000062 ! File Name
 id: PMO:00000065
 name: sampling expedition project investigation and leg identifier
 is_a: PMO:00000060 ! sampling expedition identifier
+property_value: IAO:0000116 "Consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000066
 name: repeated expedition location identifier
 is_a: PMO:00000060 ! sampling expedition identifier
+property_value: IAO:0000116 "Perhaps consider for deprication. Maybe same as superclass samplping expedition identifier." xsd:string
 
 [Term]
 id: PMO:00000067
 name: navigation device
 is_a: OBI:0000968 ! device
+property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000068
 name: global positioning system device
 is_a: PMO:00000067 ! navigation device
+property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000069
 name: genomic library preparation device
+def: "A device which is used to prepare a genomic library." []
 is_a: OBI:0000968 ! device
+property_value: IAO:0000116 "Could be useful semantic to push to OBI." xsd:string
 
 [Term]
 id: PMO:00000070
 name: data publication date
+def: "A data item which indicates the publication date of a dataset." []
 is_a: IAO:0000027 ! data item
+property_value: IAO:0000116 "Perhaps could make more general just \"publication date\" and not have it be specific to a dataset." xsd:string
 
 [Term]
 id: PMO:00000071
 name: length of DNA sequence data
+def: "A length which inheres in a DNA sequence datum namely the number of basepairs in the sequence." []
 is_a: PATO:0000122 ! length
+property_value: IAO:0000116 "Perhaps useful semantic to push to OBI?" xsd:string
 
 [Term]
 id: PMO:00000072
@@ -8915,13 +9720,16 @@ is_a: PATO:0000117 ! size
 [Term]
 id: PMO:00000073
 name: number of locations sequenced within a DNA sequence
+def: "A measurment datum which describes the number of locations sequenced witin a DNA sequence." []
 is_a: IAO:0000109 ! measurement datum
+property_value: IAO:0000116 "Unsure if this is worth pushing to IAO or BCO." xsd:string
 
 [Term]
 id: PMO:00000074
 name: specimen collection device
 def: "A device which is used to collect a specimen during a specimen collection process." []
 is_a: OBI:0000968 ! device
+property_value: IAO:0000116 "Definately should push to OBI or BCO." xsd:string
 
 [Term]
 id: PMO:00000075
@@ -8933,63 +9741,75 @@ property_value: IAO:0000118 http://purl.obolibrary.org/obo/OBI_0001898 xsd:strin
 [Term]
 id: PMO:00000076
 name: latitude coordinate measurement datum start
+def: "A measurement datum that is the measure of the starting latitude coordinate of a site during a specimen collection process." []
 is_a: OBI:0001620 ! latitude coordinate measurement datum
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000077
 name: longitude coordinate measurement datum start
+def: "A measurement datum that is the measure of the starting longitude coordinate of a site during a specimen collection process." []
 is_a: OBI:0001621 ! longitude coordinate measurement datum
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000078
 name: longitude coordinate measurement datum stop
+def: "A measurement datum that is the measure of the longitude coordinate of a site at the end of a specimen collection process." []
 is_a: OBI:0001621 ! longitude coordinate measurement datum
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000079
 name: latitude coordinate measurement datum stop
+def: "A measurement datum that is the measure of the latitude coordinate of a site at the end of a specimen collection process." []
 is_a: OBI:0001620 ! latitude coordinate measurement datum
+property_value: IAO:0000116 "Add to BCO." xsd:string
 
 [Term]
 id: PMO:00000080
 name: time zone
 is_a: IAO:0000416 ! time measurement datum
-property_value: IAO:0000116 "e.g. UTC+00 from OSD" xsd:string
+property_value: IAO:0000116 "e.g. UTC+00 from OSD. Consider for deprication." xsd:string
 
 [Term]
 id: PMO:00000081
 name: specimen collection time measurement datum in localized time zone
 is_a: OBI:0001619 ! specimen collection time measurement datum
+property_value: IAO:0000116 "Probably deprecate this term." xsd:string
 
 [Term]
 id: PMO:00000083
 name: distance between site and country border
 def: "A distance which seperates a site from the nearest boarder of a country." []
 is_a: PATO:0000040 ! distance
+property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 
 [Term]
 id: PMO:00000084
 name: geographic region
 is_a: BFO:0000009 ! two-dimensional spatial region
-property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there?" xsd:string
+property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there? Check where this term is being used and perhaps deprecate if un-needed." xsd:string
 
 [Term]
 id: PMO:00000085
 name: biogeochemical province
 synonym: "Longhurst Province" EXACT []
 is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "Perhaps add to ENVO or GAZ. Depending on status of integration of marineregions.org into GAZ. See https://github.com/EnvironmentOntology/gaz/issues/29" xsd:string
 property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22538 xsd:string
 
 [Term]
 id: PMO:00000086
 name: biogeochemical province label
 is_a: IAO:0000009 ! datum label
-property_value: IAO:0000116 "link to biogeochemical province" xsd:string
+property_value: IAO:0000116 "link to biogeochemical province. Consider for deprecation." xsd:string
 
 [Term]
 id: PMO:00000087
 name: distance between site and biogeochemical province
 is_a: PATO:0000040 ! distance
+property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 
 [Term]
 id: PMO:00000088
@@ -9001,6 +9821,7 @@ property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000448 xsd:stri
 id: PMO:00000089
 name: Oceans and Seas
 is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "Figure out how to import from GAZ." xsd:string
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/GAZ_00000590 xsd:string
 
 [Term]
@@ -9008,6 +9829,7 @@ id: PMO:00000090
 name: distance between a site and a geographic location
 is_a: PATO:0000040 ! distance
 property_value: IAO:0000116 "add link to http://purl.obolibrary.org/obo/GAZ_00000448" xsd:string
+property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 
 [Term]
 id: PMO:00000091
@@ -9020,48 +9842,60 @@ property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=
 id: PMO:00000092
 name: International Hydrographic Organization Sea Area
 is_a: PMO:00000088 ! geographic location
+property_value: IAO:0000116 "From http://www.marineregions.org/sources.php. Figure out how to integrate with GAZ and or ENVO." xsd:string
 
 [Term]
 id: PMO:00000093
 name: specimen collection process data doccument
+def: "A doccument which comprises raw data collected during a specimen collection process." []
 is_a: IAO:0000310 ! document
+property_value: IAO:0000116 "Add to BCO." xsd:string
 property_value: IAO:0000116 "Original sampling handbook or checklist from a sampling experiment or specimen collection process." xsd:string
 
 [Term]
 id: PMO:00000100
 name: plankton aggregate
+def: "A multi-species collection of planktonic organisms which have been aggregrated as a result of a specimen collection process." []
 is_a: PCO:0000029 ! multi-species collection of organisms
+property_value: IAO:0000116 "Clean and add to PCO or BCO." xsd:string
 
 [Term]
 id: PMO:00000101
 name: nanoplankton and microplankton aggregate
+def: "A plankton aggregate which comprises aggregated nanoplankton and microplankton." []
 is_a: PMO:00000100 ! plankton aggregate
 property_value: IAO:0000116 "add axioms to link to http://purl.obolibrary.org/obo/PMO_00000106 and http://purl.obolibrary.org/obo/PMO_00000105" xsd:string
 
 [Term]
 id: PMO:00000102
 name: dissolved organic carbon
-def: "An aggregate of carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+def: "An aggregate of organic carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
 is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Clean and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000103
 name: particulate organic carbon
-def: "An aggregate of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
+def: "An aggregate of organic carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Total_organic_carbon"}
 synonym: "suspended organic carbon" EXACT []
 is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Clean and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000105
 name: microplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 20 and 200 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Microplankton" NARROW []
 is_a: ENVO:01000063 ! planktonic material
-property_value: IAO:0000116 "20 to 200 micrometers" xsd:string
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000106
 name: nanophytoplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 2 and 20 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Nanoplankton" NARROW []
 is_a: ENVO:01000063 ! planktonic material
-property_value: IAO:0000116 "2 to 20 micrometers" xsd:string
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Plankton#Size_groups xsd:string
 
 [Term]
@@ -9070,109 +9904,137 @@ name: autotrophic biomass formation process
 def: "A process during which an organism produces biomass from abiotic components using an autotrophic growth process." []
 synonym: "primary productivity" BROAD []
 is_a: PMO:00000117 ! biomass formation process
-property_value: IAO:0000116 "link to" xsd:string
+property_value: IAO:0000116 "link to PMO_00000108, and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000108
 name: primary productivity carbon
+def: "An aggregation of carbon molecules which constitute biomass accumulated during an autotrophic biomass formation process." []
 is_a: PMO:00000109 ! aggregation of carbon molecules
-property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000107" xsd:string
+property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000107, clean and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000109
 name: aggregation of carbon molecules
+def: "An object aggregate which is composed primarily of carbon molecules." []
 is_a: BFO:0000027 ! object aggregate
+property_value: IAO:0000116 "Link to CHEBI carbon molecule" xsd:string
 
 [Term]
 id: PMO:00000110
 name: aggregation of nitrogen molecules
+def: "An object aggregate which is composed primarily of nitrogen molecules." []
 is_a: BFO:0000027 ! object aggregate
+property_value: IAO:0000116 "Clean and add to ENVO." xsd:string
+property_value: IAO:0000116 "Link to CHEBI nitrogen molecule." xsd:string
 
 [Term]
 id: PMO:00000111
 name: dissolved organic nitrogen
 def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/dissolved-organic-nitrogen]
 is_a: PMO:00000110 ! aggregation of nitrogen molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000112
 name: particulate organic nitrogen
-def: "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen]
+def: "An aggregate of organic nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen]
 is_a: PMO:00000110 ! aggregation of nitrogen molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000113
 name: mesoplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 0.2 and 20 milimeters." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Mesoplankton" NARROW []
 is_a: ENVO:01000063 ! planktonic material
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000114
 name: mesoplankton and macroplankton aggregate
+def: "A plankton aggregate which comprises aggregated mesoplankton and macroplankton." []
 is_a: PMO:00000100 ! plankton aggregate
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 property_value: IAO:0000116 "link to http://purl.obolibrary.org/obo/PMO_00000115 and http://purl.obolibrary.org/obo/PMO_00000113" xsd:string
 
 [Term]
 id: PMO:00000115
 name: macroplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 2 and 20 centimeters." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Macroplankton" NARROW []
 is_a: ENVO:01000063 ! planktonic material
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000116
 name: prokaryote derived carbon
 def: "An aggregate of carbon-containing molecules which were derived from a prokaryotic biomass formation process." []
 is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000117
 name: biomass formation process
+def: "An environmental system process during which growing organsims produce new biomass." []
 is_a: ENVO:02500000 ! environmental system process
+property_value: IAO:0000116 "Clean definition, add axioms and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000118
 name: prokaryotic biomass formation process
+def: "A biomass formation process during which prokaryotic organisms create novel biomass." []
 is_a: PMO:00000117 ! biomass formation process
+property_value: IAO:0000116 "Clean definition, add axioms and add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000120
 name: turbidity
-def: "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer." [https://en.wikipedia.org/wiki/Turbidity]
-xref: https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf
+def: "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer." [https://en.wikipedia.org/wiki/Turbidity, https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf]
 is_a: PATO:0001018 ! physical quality
+property_value: IAO:0000116 "Add to PATO." xsd:string
 
 [Term]
 id: PMO:00000121
 name: turbidity of water
 def: "A turbidity quality which inheres in a water bearer." []
 is_a: PMO:00000120 ! turbidity
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 
 [Term]
 id: PMO:00000122
 name: Biosample identifier assigned by the National Center for Biotechnology Information
+def: "A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information." []
 is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
-property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646" xsd:string
+property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it." xsd:string
 
 [Term]
 id: PMO:00000123
 name: secondary sample accession identifier assigned by the European Nucleotide Archive
 is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
+property_value: IAO:0000116 "Consider for deprication?" xsd:string
 property_value: IAO:0000116 "example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668" xsd:string
 
 [Term]
 id: PMO:00000124
 name: INSDC bioarchive accession number
 is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
-property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission." xsd:string
+property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission. Consider for deprecation?" xsd:string
 
 [Term]
 id: PMO:00000125
 name: material flux unit
+def: "A unit which is a measure of flux which is typically expressed as volume per area per unit of time." []
 is_a: UO:0000000 ! unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 property_value: IAO:0000116 "similar to the example from http://reverseosmosischemicals.com/reverse-osmosis-guides/reverse-osmosis-glossary-terms/flux-water-flux-reverse-osmosis-systems" xsd:string
 
 [Term]
 id: PMO:00000126
 name: micromole per square meter per second
+def: "A material flux unit which is equal to one micromole per square meter per second." []
 is_a: PMO:00000125 ! material flux unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000127
@@ -9183,27 +10045,314 @@ is_a: UO:0000000 ! unit
 [Term]
 id: PMO:00000128
 name: miligram per cubic meter per day
+def: "A mass density rate unit which is equal to one miligram per cubic meter per day." []
 is_a: PMO:00000127 ! mass density rate unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000129
 name: unit per cubic meter
+def: "A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one cubic meter." []
 is_a: UO:0000177 ! unit per volume unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000130
 name: milisiemens per centimeter
+def: "An electrical conduction unit which is equal to one milisiemens per centimeter." []
 is_a: UO:0000262 ! electrical conduction unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PMO:00000131
 name: formazin turbidity unit
+def: "A turbidity unit in which a suspension of 1.25 mg/L hydrazine sulfate and 12.5 mg/L hexamethylenetetramine in liquid water has a turbidity of one." [https://en.wikipedia.org/wiki/Formazine]
 is_a: UO:0000315 ! turbidity unit
+property_value: IAO:0000116 "Clean and add to UO." xsd:string
 
 [Term]
 id: PMO:00000132
 name: miligram per cubic meter
 is_a: UO:0000052 ! mass density unit
+property_value: http://purl.org/dc/elements/1.1/description "A mass unit density which is equal to mass of an object in miligrams divided by the volume in cubic meters." xsd:string
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000133
+name: project url
+is_a: PMO:00000047 ! URL
+property_value: IAO:0000116 "Consider for deprecation." xsd:string
+property_value: IAO:0000116 "links to the same idea of a project as 'project investigation identifier'" xsd:string
+
+[Term]
+id: PMO:00000134
+name: centrally registered identifier url
+is_a: PMO:00000047 ! URL
+property_value: IAO:0000116 "a link to a centrally registered identifier. Consider for deprecation." xsd:string
+
+[Term]
+id: PMO:00000136
+name: sampling expedition time measurement datum
+def: "A time measurement datum that is the measure of the time when a sampling expedition is conducted." []
+is_a: IAO:0000416 ! time measurement datum
+property_value: IAO:0000116 "Perhaps add to BCO." xsd:string
+
+[Term]
+id: PMO:00000137
+name: sampling expedition time measurement datum start
+def: "A time measurement datum that is the measure of the starting time when a sampling expedition is conducted." []
+is_a: PMO:00000136 ! sampling expedition time measurement datum
+property_value: IAO:0000116 "Perhaps add to BCO." xsd:string
+
+[Term]
+id: PMO:00000138
+name: sampling expedition time measurement datum stop
+def: "A time measurement datum that is the measure of the time when a sampling expedition is concluded." []
+is_a: PMO:00000136 ! sampling expedition time measurement datum
+property_value: IAO:0000116 "Perhaps add to BCO." xsd:string
+
+[Term]
+id: PMO:00000139
+name: alkalinity of water
+def: "The alkalinity of some liquid water." []
+is_a: PATO:0001430 ! alkaline
+property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
+
+[Term]
+id: PMO:00000140
+name: equivalent unit
+def: "A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction." [https://en.wikipedia.org/wiki/Equivalent_(chemistry)]
+is_a: UO:0000000 ! unit
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000141
+name: microequivalent per kilogram
+def: "An equivalent unit which is equal to one microequivalent per kilogram." []
+is_a: PMO:00000140 ! equivalent unit
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000142
+name: dissolved inorganic carbon
+def: "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate." [https://en.wikipedia.org/wiki/Total_inorganic_carbon]
+synonym: "total inorganic carbon" EXACT []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+property_value: IAO:0000116 "CT = [CO2*] + [HCO3−] + [CO32−]" xsd:string
+
+[Term]
+id: PMO:00000143
+name: sampling expedition site
+def: "A site in which a sampling expidition process occurs." []
+is_a: BFO:0000029 ! site
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000144
+name: sampling expedition start location
+def: "A site in which a sampling expidition process begins." []
+is_a: PMO:00000143 ! sampling expedition site
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000145
+name: sampling expedition end location
+def: "A site in which a sampling expidition process terminates." []
+is_a: PMO:00000143 ! sampling expedition site
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000146
+name: conductivity temperature pressure sampling process
+def: "A material sampling process during which a conductivity temperature and pressure sampling device is employed." []
+is_a: OBI:0000744 ! material sampling process
+property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO." xsd:string
+property_value: IAO:0000116 "To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process." xsd:string
+
+[Term]
+id: PMO:00000147
+name: net tow sampling process
+def: "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in." []
+is_a: OBI:0000744 ! material sampling process
+property_value: IAO:0000116 "Clean and add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000148
+name: remote observation sampling process
+def: "A material sampling process during which observations and measurments are taken by a remote measrument device which is not in physical contact with the site under observation." []
+comment: For example a satellite measurement.
+is_a: OBI:0000744 ! material sampling process
+property_value: IAO:0000116 "Clean and add axiom and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000149
+name: specimen collection process site
+def: "A site where a specimen collection process occurs." []
+is_a: BFO:0000029 ! site
+property_value: IAO:0000116 "Clean and add to BCO." xsd:string
+
+[Term]
+id: PMO:00000150
+name: particulate carbon
+def: "An aggregation of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#]
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000151
+name: particulate nitrogen
+def: "An aggregation of nitrogen-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#]
+is_a: PMO:00000110 ! aggregation of nitrogen molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000152
+name: aggregation of phosphorus molecules
+def: "An object aggregate which is composed primarily of phosphorus molecules." []
+is_a: BFO:0000027 ! object aggregate
+property_value: IAO:0000116 "Link to CHEBI clean and add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000153
+name: particulate phosphorus
+def: "An aggregate of phosphorus-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." [http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#]
+is_a: PMO:00000152 ! aggregation of phosphorus molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000154
+name: nanomole per kilogram
+def: "A specific concentration unit which is equal to 1 nanomole of a given substance per kilogram of solvent." []
+is_a: UO:0000067 ! unit of molality
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000155
+name: nanogram per liter
+def: "A mass unit density which is equal to mass of an object in nanograms divided by the volume in liters." []
+is_a: UO:0000052 ! mass density unit
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000156
+name: concentration of 19'-butanoyloxyfucoxanthin in liquid water
+def: "The concentration of 19'-butanoyloxyfucoxanthin when measured in liquid water." [https://epic.awi.de/id/eprint/28819/]
+is_a: PATO:0000033 ! concentration of
+property_value: IAO:0000116 "Need to request 19'-butanoyloxyfucoxanthin in CHEBI, then can add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000157
+name: concentration of 19'-hexanoyloxyfucoxanthin in liquid water
+def: "The concentration of 19'-hexanoyloxyfucoxanthin when measured in liquid water." [https://pubchem.ncbi.nlm.nih.gov/compound/6443044]
+is_a: PATO:0000033 ! concentration of
+property_value: IAO:0000116 "Need to request 19'-hexanoyloxyfucoxanthin in CHEBI, then can add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000158
+name: measure relating to enumeration of aggregation of organisms
+def: "A measure, which refers to an aggregation of organisms." []
+is_a: PMO:00000162 ! enumeration of heterotrophic prokaryote aggregation
+equivalent_to: PMO:00000162 ! enumeration of heterotrophic prokaryote aggregation
+property_value: IAO:0000116 "Add axiom for organisms, and push to PATO or ECOCORE." xsd:string
+property_value: IAO:0000116 "Pattern similar to http://purl.obolibrary.org/obo/IDOMAL_0000428" xsd:string
+
+[Term]
+id: PMO:00000159
+name: enumeration of Prochlorococcus aggregation
+def: "A measure which describes the enumeration of aggregated Prochlorococcus." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+is_a: PMO:00000162 ! enumeration of heterotrophic prokaryote aggregation
+property_value: IAO:0000116 "Add axiom for Procholorococcus, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000160
+name: enumeration of Synechococcus aggregation
+def: "A measure which describes the enumeration of aggregated Synechococcus." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+is_a: PMO:00000162 ! enumeration of heterotrophic prokaryote aggregation
+property_value: IAO:0000116 "Add axiom for Synechococcus, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000161
+name: enumeration of picoeukaryote aggregation
+def: "A measure which describes the enumeration of aggregated picoeukaryotes." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+is_a: PMO:00000162 ! enumeration of heterotrophic prokaryote aggregation
+property_value: IAO:0000116 "Add axiom for picoeukaryotes, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000162
+name: enumeration of heterotrophic prokaryote aggregation
+def: "A measure which describes the enumeration of aggregated heterotrophic prokaryotes." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+property_value: IAO:0000116 "Add axiom for heterotrophs, and push to PATO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000163
+name: autotrophic organism biomass carbon aggregation
+def: "An aggregate of carbon-containing molecules which were derived from an autotrophic biomass formation process." []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000164
+name: aggregation of silicon molecules
+def: "An object aggregate which is composed primarily of silicon molecules." []
+is_a: BFO:0000027 ! object aggregate
+property_value: IAO:0000116 "Link to CHEBI clean and add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000165
+name: particulate silica
+def: "An aggregate of silica-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process." []
+is_a: PMO:00000164 ! aggregation of silicon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000166
+name: sample from environment
+def: "A material sample which is obtained from an environment in order to be a representative of such environment." []
+is_a: OBI:0000747 ! material sample
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
+
+[Term]
+id: PMO:00000167
+name: sample from aquatic environment
+def: "A sample from environment which is obtained from an aquatic environment in order to be a representative of such aquatic environment." []
+is_a: PMO:00000166 ! sample from environment
+property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
+
+[Term]
+id: PMO:00000168
+name: aquatic environmental material sample filter fractionation size
+def: "A size quality which inheres in an aquatic environmental material sample by virtue of such bearer being size fractioned via a filtration process." []
+is_a: PATO:0000117 ! size
+property_value: IAO:0000116 "Perhaps find and or create filtration process for OBI, and try to add to OBI." xsd:string
+
+[Term]
+id: PMO:00000169
+name: megaplankton material
+def: "A portion of planktonic material which is comprised of plankton which are of sizes greater than 20 centimeters." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Megaplankton" NARROW []
+is_a: ENVO:01000063 ! planktonic material
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000170
+name: picoplankton material
+def: "A portion of planktonic material which is comprised of plankton which range in size between 0.2 and 2 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Picoplankton" NARROW []
+is_a: ENVO:01000063 ! planktonic material
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000171
+name: femtoplankton material
+def: "A portion of planktonic material which is comprised of plankton which are of sizes less than 0.22 micrometers." [https://en.wikipedia.org/wiki/Plankton#Size_groups]
+synonym: "Femtoplankton" NARROW []
+is_a: ENVO:01000063 ! planktonic material
+property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
 id: PO:0000003
@@ -9737,6 +10886,16 @@ relationship: is_unit_of PATO:0001353 ! volumetric density
 created_by: george gkoutos
 
 [Term]
+id: UO:0000060
+name: speed/velocity unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+relationship: is_unit_of PATO:0000008
+created_by: george gkoutos
+
+[Term]
 id: UO:0000061
 name: unit of molarity
 namespace: unit.ontology
@@ -9828,6 +10987,17 @@ subset: unit_slim
 synonym: "kg/m^[3]" EXACT []
 synonym: "kilogram per cubic metre" EXACT []
 is_a: UO:0000052 ! mass density unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000094
+name: meter per second
+namespace: unit.ontology
+def: "A speed/velocity unit which is equal to the speed of an object traveling 1 meter distance in one second." [NIST:NIST]
+subset: unit_slim
+synonym: "m/s" EXACT []
+synonym: "metre per second" EXACT []
+is_a: UO:0000060 ! speed/velocity unit
 created_by: george gkoutos
 
 [Term]
@@ -10001,6 +11171,35 @@ is_a: UO:0000121 ! angle unit
 created_by: george gkoutos
 
 [Term]
+id: UO:0000154
+name: irradiance unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the power of electromagnetic radiation at a surface, per unit area." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000157 ! light unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000155
+name: watt per square meter
+namespace: unit.ontology
+def: "An irradiance unit which is equal to 1 watt of radiant power incident per one square meter surface area." [NIST:NIST]
+subset: unit_slim
+synonym: "W/m^[2]" EXACT []
+synonym: "watt per square metre" EXACT []
+is_a: UO:0000154 ! irradiance unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000157
+name: light unit
+namespace: unit.ontology
+def: "A unit which is a standard measure of the intensity of light." [NIST:NIST]
+subset: unit_group_slim
+is_a: UO:0000000 ! unit
+created_by: george gkoutos
+
+[Term]
 id: UO:0000163
 name: mass percentage
 namespace: unit.ontology
@@ -10167,6 +11366,26 @@ is_a: UO:0000186 ! dimensionless unit
 relationship: is_unit_of PATO:0001428 ! medium acidity
 property_value: IAO:0000111 "pH" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/uo.owl
+created_by: george gkoutos
+
+[Term]
+id: UO:0000200
+name: cell concentration unit
+namespace: unit.ontology
+def: "A concentration unit which denotes the average cell number in a given volume." [Bioedonline:Bioedonline]
+subset: unit_group_slim
+is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000201
+name: cells per milliliter
+namespace: unit.ontology
+def: "A unit of cell concentration which is equal to one cell in a volume of 1 milliliter." [Bioedonline:Bioedonline]
+subset: unit_slim
+synonym: "cells per millilitre" EXACT []
+synonym: "cells per ml" EXACT []
+is_a: UO:0000200 ! cell concentration unit
 created_by: george gkoutos
 
 [Term]
