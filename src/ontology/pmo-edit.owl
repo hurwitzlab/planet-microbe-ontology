@@ -147,6 +147,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000165>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000166>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000169>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000171>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -201,82 +207,100 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000004> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000005> (site label)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000005> "A datum lable which serves to lable a site of investigation.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000005> "site label")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000005> <http://purl.obolibrary.org/obo/IAO_0000009>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000006> (bottle label)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000006> "May depricate this term.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000006> "bottle label")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000006> <http://purl.obolibrary.org/obo/IAO_0000009>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000007> (project investigation identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000007> "An investigation identifier which represents a sampling project.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000007> "Ex: TARA, OSD, HOT")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000007> "project investigation identifier")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000007> <http://purl.obolibrary.org/obo/OBI_0001628>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000008> (specimen collection time measurement datum start)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000008> "A time measurement datum that is the measure of the start time when the specimens are collected.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000008> "specimen collection time measurement datum start")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000008> <http://purl.obolibrary.org/obo/OBI_0001619>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000009> (specimen collection time measurement datum stop)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000009> "A time measurement datum that is the measure of the time when the specimens are finished being collected.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000009> "specimen collection time measurement datum stop")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000009> <http://purl.obolibrary.org/obo/OBI_0001619>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000010> (conductivity temperature pressure instrument)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000010> "A measurement device which measures temperature and pressure.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000010> "conductivity temperature pressure instrument")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000010> <http://purl.obolibrary.org/obo/OBI_0000832>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000011> (rosette sampling device)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Rosette_sampler") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000011> "A specimen collection device which is comprised of an assemblage of bottles used to sample water from a water body.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000011> "rosette sampling device")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000011> <http://purl.obolibrary.org/obo/PMO_00000074>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000012> (rosette sampling device niskin position)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000012> "A part of a rosette sampling device in which a niskin bottle is positioned for deployment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000012> "Perhaps depricate this term.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000012> "rosette sampling device niskin position")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000012> <http://purl.obolibrary.org/obo/BFO_0000024>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000013> (salinity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000013> "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per liter of solution.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000013> "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per volume of solution.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000013> "To add to PATO or ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000013> "salinity")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000013> <http://purl.obolibrary.org/obo/PATO_0001655>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000014> (water salinity)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000014> (liquid water salinity)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000014> "water salinity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000014> "A salinity quality which inheres in liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000014> "To add to ENVO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000014> "liquid water salinity")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PMO_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000014> <http://purl.obolibrary.org/obo/PMO_00000013>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000015> (visible spectrum stellar electromagnetic radiation opacity of water)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000015> (visible spectrum stellar electromagnetic radiation opacity of liquid water)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000015> "visible spectrum stellar electromagnetic radiation opacity of water")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000015> "An opacity quality in which visible spectrum stellar electromagnetic radiation inheres in liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000015> "Add to ENVO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000015> "visible spectrum stellar electromagnetic radiation opacity of liquid water")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000957> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000015> <http://purl.obolibrary.org/obo/PATO_0000957>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000016> (number of observations averaged to produce device measurment datum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000016> "Perhaps depricate.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000016> "number of observations averaged to produce device measurment datum")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000016> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000017> (number of observations averaged at pressure level to produce CTD measurment datum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000017> "Perhaps depricate.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000017> "number of observations averaged at pressure level to produce CTD measurment datum")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000017> <http://purl.obolibrary.org/obo/PMO_00000016>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000018> (concentration of nitrate and nitrite in water)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000018> "The concentration of nitrate and nitrite when measured in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000018> "Add to envo, see ENVO issue #663 https://github.com/EnvironmentOntology/envo/issues/663")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000018> "concentration of nitrate and nitrite in water")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000018> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000019> (replicate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000019> "A role played by a biological sample in the context of an experiment where the  intent is that biological or technical variation is measured.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000019> "Find a way to import EFO or use an equivalent class from OBI. Or perhaps depricate.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000019> "http://www.ebi.ac.uk/efo/EFO_0000683")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000019> "replicate")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000019> <http://purl.obolibrary.org/obo/BFO_0000023>)
@@ -284,6 +308,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000019> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PMO_00000020> (potential temperature)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://paoc.mit.edu/synoptic/courses/12.310/assign3/A3_potential%20temperature.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000020> "A temperature which would inhere in a bearer if such bearer were adiabatically compressed from it's existing temperature and pressure to a standard presure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000020> "Add to ENVO or PATO.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PMO_00000020> "theta")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PMO_00000020> "Standard pressure is typically one atmosphere.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000020> "potential temperature")
@@ -293,30 +318,37 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000020> <http://purl.obolibrary
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Potential_density") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000021> "A density which would inhere in a bearer if such bearer were adiabatically 
 brought to a standard reference pressure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000021> "Add to ENVO or PATO.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PMO_00000021> "sigma")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000021> "potential density")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000021> <http://purl.obolibrary.org/obo/PATO_0001019>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000022> (lower size threshold filter paper)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000022> (aquatic sample minimum filter fractionation size threshold)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000022> "lower size threshold filter paper")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000022> <http://purl.obolibrary.org/obo/OBI_0000747>)
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000151>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000022> "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000022> "Imporve and add to OBI or BCO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000022> "aquatic sample minimum filter fractionation size threshold")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000022> <http://purl.obolibrary.org/obo/PMO_00000168>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000023> (upper size threshold filter paper)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000023> (aquatic sample maximum filter fractionation size threshold)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000023> "upper size threshold filter paper")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000023> <http://purl.obolibrary.org/obo/OBI_0000747>)
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/OBI_0000151>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000023> "A size quality which inheres in an aquatic environmental material sample by virtue of being the maximum particle size obtained when such bearer is subject to a size fractionating filtration process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000023> "Imporve and add to OBI or BCO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000023> "aquatic sample maximum filter fractionation size threshold")
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000023> <http://purl.obolibrary.org/obo/PMO_00000168>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000024> (specimen volume)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000024> "A volume quality which inheres in a specimen.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000024> "Add to OBI or BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000024> "specimen volume")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000024> <http://purl.obolibrary.org/obo/PATO_0000918>)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/OBI_0100051>))
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000025> (water sample volume)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000025> "A specimen volume quality which inheres in a specimen which consists of liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000025> "Fix and add to BCO or OBI.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000025> "water sample volume")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000025> <http://purl.obolibrary.org/obo/PMO_00000024>)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>))
@@ -324,71 +356,90 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000025> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/PMO_00000026> (concentration of chlorophyll in water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000026> "http://purl.obolibrary.org/obo/ENVO_3100036")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PMO_00000026> "ENVO:3100036"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000026> "concentration of chlorophyll in water")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000026> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000026> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000027> (concentration of nitrate in water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000027> "http://purl.obolibrary.org/obo/ENVO_3100022")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PMO_00000027> "ENVO:3100022"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000027> "concentration of nitrate in water")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000027> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000027> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000028> (pressure of water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000028> "http://purl.obolibrary.org/obo/ENVO_3100033")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PMO_00000028> "ENVO:3100033"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000028> "pressure of water")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000028> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000028> <http://purl.obolibrary.org/obo/PATO_0001025>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000029> (depth of water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000029> "http://purl.obolibrary.org/obo/ENVO_3100031")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PMO_00000029> "ENVO:3100031"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000029> "depth of water")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000029> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000029> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000030> (fluorescence of water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000030> "http://purl.obolibrary.org/obo/ENVO_3100032")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PMO_00000030> "ENVO_3100032"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000030> "fluorescence of water")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000030> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000030> <http://purl.obolibrary.org/obo/PATO_0000018>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000031> (concentration of phosphate in water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000031> "http://purl.obolibrary.org/obo/ENVO_3100026")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PMO_00000031> "ENVO:3100026"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000031> "concentration of phosphate in water")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000031> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000031> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000032> (concentration of silicate(4-) in water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000032> "http://purl.obolibrary.org/obo/ENVO_3100027")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PMO_00000032> "ENVO:3100027"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000032> "concentration of silicate(4-) in water")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000032> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000032> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000033> (bar)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Bar_(unit)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000033> "A pressure unit which is equal to 100,000 pascal.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000033> "Add to UO."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000033> "bar")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000033> <http://purl.obolibrary.org/obo/UO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000034> (decibar)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000034> "A pressure unit which is equal to one tenth of a bar.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000034> "Add to UO."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000034> "decibar")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000034> <http://purl.obolibrary.org/obo/UO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000035> (atmosphere unit)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Atmosphere_(unit)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000035> "A pressure unit which is equal to 101325 pascal.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000035> "Add to UO."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000035> "atmosphere unit")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000035> <http://purl.obolibrary.org/obo/UO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000036> (salinity unit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000036> "A unit which is a standard measure of salinity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000036> "Add to UO."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000036> "salinity unit")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000036> <http://purl.obolibrary.org/obo/UO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000037> (practical salinity unit)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000037> "Add to UO."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000037> "PSS-78")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000037> "PSU")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000037> "practical salinity unit")
@@ -396,6 +447,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000037> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000038> (international temperature scale of 1990 unit)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000038> "Add to UO."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000038> "https://www.omega.com/temperature/Z/pdf/z186-193.pdf")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000038> "ITS-90")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000038> "international temperature scale of 1990 unit")
@@ -403,11 +455,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000038> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000044> (Data)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000044> "Figure out how to import EDAM.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000044> "http://edamontology.org/data_0006")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000044> "Data")
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000045> (Identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000045> "Figure out how to import EDAM.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000045> "http://edamontology.org/data_0842")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000045> "Identifier")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000045> <http://purl.obolibrary.org/obo/PMO_00000044>)
@@ -427,64 +481,74 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000047> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PMO_00000048> (data submission date)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000048> "A data item that is the date in which a data item was submitted to a central registry.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000048> "Clean and add to IAO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000048> "data submission date")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000048> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000049> (data submission update date)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000049> "A data item that is the date in which a data item previously submitted to a central registry was updated.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000049> "Add to IAO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000049> "data submission update date")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000049> <http://purl.obolibrary.org/obo/PMO_00000048>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000050> (number of specimen collection devices employed)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000050> "consider for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000050> "number of specimen collection devices employed")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000050> <http://purl.obolibrary.org/obo/PMO_00000051>)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000050> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000051> (number of niskin bottles deployed during speciment collection process event)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000051> "Consider for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000051> "number of niskin bottles deployed during speciment collection process event")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000051> <http://purl.obolibrary.org/obo/PMO_00000050>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000052> (maximum depth of water collected during specimen collection process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000052> "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: depth of water.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000052> "maximum depth of water collected during specimen collection process")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000052> <http://purl.obolibrary.org/obo/PMO_00000029>)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000052> <http://purl.obolibrary.org/obo/ENVO_3100031>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000053> (maximum pressure of water collected during specimen collection process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000053> "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: pressure of water.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000053> "maximum pressure of water collected during specimen collection process")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000053> <http://purl.obolibrary.org/obo/PMO_00000028>)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000053> <http://purl.obolibrary.org/obo/ENVO_3100033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000054> (number designating study site)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000054> "Perhaps this term should be pushed to BCO or OBI?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000054> "number designating study site")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000054> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000056> (centrally registered sampling event identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000056> "Perhaps this term should be pushed to BCO or OBI?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000056> "centrally registered sampling event identifier")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000056> <http://purl.obolibrary.org/obo/IAO_0000578>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000057> (ctd cast number)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000057> "Perhaps useful perhaps consider for deprication?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000057> "ctd cast number")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000057> <http://purl.obolibrary.org/obo/PMO_00000056>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000058> (sampling expedition)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000058> "sampling campaign")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000058> "sampling campaign, perhaps useful perhaps depricate.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000058> "sampling expedition")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000058> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000059> (sampling expedition leg)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000059> "Perhaps consider for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000059> "sampling expedition leg")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000059> <http://purl.obolibrary.org/obo/PMO_00000058>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000060> (sampling expedition identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000060> "sampling campaign Ex: TARA ocean, Tara arctic OSD 2014, HOT194 etc")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000060> "sampling campaign Ex: TARA ocean, Tara arctic OSD 2014, HOT194 etc. Perhaps push to BCO?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000060> "sampling expedition identifier")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000060> <http://purl.obolibrary.org/obo/OBI_0001628>)
 
@@ -507,36 +571,46 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000063> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000065> (sampling expedition project investigation and leg identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000065> "Consider for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000065> "sampling expedition project investigation and leg identifier")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000065> <http://purl.obolibrary.org/obo/PMO_00000060>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000066> (repeated expedition location identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000066> "Perhaps consider for deprication. Maybe same as superclass samplping expedition identifier.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000066> "repeated expedition location identifier")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000066> <http://purl.obolibrary.org/obo/PMO_00000060>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000067> (navigation device)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000067> "Perhaps consider for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000067> "navigation device")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000067> <http://purl.obolibrary.org/obo/OBI_0000968>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000068> (global positioning system device)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000068> "Perhaps consider for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000068> "global positioning system device")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000068> <http://purl.obolibrary.org/obo/PMO_00000067>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000069> (genomic library preparation device)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000069> "A device which is used to prepare a genomic library.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000069> "Could be useful semantic to push to OBI.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000069> "genomic library preparation device")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000069> <http://purl.obolibrary.org/obo/OBI_0000968>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000070> (data publication date)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000070> "A data item which indicates the publication date of a dataset.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000070> "Perhaps could make more general just \"publication date\" and not have it be specific to a dataset.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000070> "data publication date")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000070> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000071> (length of DNA sequence data)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000071> "A length which inheres in a DNA sequence datum namely the number of basepairs in the sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000071> "Perhaps useful semantic to push to OBI?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000071> "length of DNA sequence data")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000071> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
@@ -547,12 +621,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000072> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000073> (number of locations sequenced within a DNA sequence)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000073> "A measurment datum which describes the number of locations sequenced witin a DNA sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000073> "Unsure if this is worth pushing to IAO or BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000073> "number of locations sequenced within a DNA sequence")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000073> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000074> (specimen collection device)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000074> "A device which is used to collect a specimen during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000074> "Definately should push to OBI or BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000074> "specimen collection device")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000074> <http://purl.obolibrary.org/obo/OBI_0000968>)
 
@@ -565,49 +642,60 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000075> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000076> (latitude coordinate measurement datum start)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000076> "A measurement datum that is the measure of the starting latitude coordinate of a site during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000076> "Add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000076> "latitude coordinate measurement datum start")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000076> <http://purl.obolibrary.org/obo/OBI_0001620>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000077> (longitude coordinate measurement datum start)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000077> "A measurement datum that is the measure of the starting longitude coordinate of a site during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000077> "Add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000077> "longitude coordinate measurement datum start")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000077> <http://purl.obolibrary.org/obo/OBI_0001621>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000078> (longitude coordinate measurement datum stop)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000078> "A measurement datum that is the measure of the longitude coordinate of a site at the end of a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000078> "Add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000078> "longitude coordinate measurement datum stop")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000078> <http://purl.obolibrary.org/obo/OBI_0001621>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000079> (latitude coordinate measurement datum stop)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000079> "A measurement datum that is the measure of the latitude coordinate of a site at the end of a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000079> "Add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000079> "latitude coordinate measurement datum stop")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000079> <http://purl.obolibrary.org/obo/OBI_0001620>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000080> (time zone)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000080> "e.g. UTC+00 from OSD")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000080> "e.g. UTC+00 from OSD. Consider for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000080> "time zone")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000080> <http://purl.obolibrary.org/obo/IAO_0000416>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000081> (specimen collection time measurement datum in localized time zone)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000081> "Probably deprecate this term.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000081> "specimen collection time measurement datum in localized time zone")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000081> <http://purl.obolibrary.org/obo/OBI_0001619>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000083> (distance between site and country border)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000083> "A distance which seperates a site from the nearest boarder of a country.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000083> "Add to BCO or depricate.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000083> "distance between site and country border")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000083> <http://purl.obolibrary.org/obo/PATO_0000040>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000084> (geographic region)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000084> "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there?")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000084> "Perhaps in the future the 'geographic location' hierarchy from GAZ should be rooted there? Check where this term is being used and perhaps deprecate if un-needed.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000084> "geographic region")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000084> <http://purl.obolibrary.org/obo/BFO_0000009>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000085> (biogeochemical province)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000085> "Perhaps add to ENVO or GAZ. Depending on status of integration of marineregions.org into GAZ. See https://github.com/EnvironmentOntology/gaz/issues/29")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000085> "http://marineregions.org/gazetteer.php?p=details&id=22538")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000085> "Longhurst Province")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000085> "biogeochemical province")
@@ -615,12 +703,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000085> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000086> (biogeochemical province label)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000086> "link to biogeochemical province")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000086> "link to biogeochemical province. Consider for deprecation.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000086> "biogeochemical province label")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000086> <http://purl.obolibrary.org/obo/IAO_0000009>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000087> (distance between site and biogeochemical province)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000087> "Add to BCO or depricate.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000087> "distance between site and biogeochemical province")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000087> <http://purl.obolibrary.org/obo/PATO_0000040>)
 
@@ -632,12 +721,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000088> "ge
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000089> (Oceans and Seas)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000089> "Figure out how to import from GAZ.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000089> "http://purl.obolibrary.org/obo/GAZ_00000590")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000089> "Oceans and Seas")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000089> <http://purl.obolibrary.org/obo/PMO_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000090> (distance between a site and a geographic location)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000090> "Add to BCO or depricate.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000090> "add link to http://purl.obolibrary.org/obo/GAZ_00000448")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000090> "distance between a site and a geographic location")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000090> <http://purl.obolibrary.org/obo/PATO_0000040>)
@@ -651,22 +742,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000091> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000092> (International Hydrographic Organization Sea Area)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000092> "From http://www.marineregions.org/sources.php. Figure out how to integrate with GAZ and or ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000092> "International Hydrographic Organization Sea Area")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000092> <http://purl.obolibrary.org/obo/PMO_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000093> (specimen collection process data doccument)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000093> "A doccument which comprises raw data collected during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000093> "Add to BCO.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000093> "Original sampling handbook or checklist from a sampling experiment or specimen collection process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000093> "specimen collection process data doccument")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000093> <http://purl.obolibrary.org/obo/IAO_0000310>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000100> (plankton aggregate)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000100> "A multi-species collection of planktonic organisms which have been aggregrated as a result of a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000100> "Clean and add to PCO or BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000100> "plankton aggregate")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000100> <http://purl.obolibrary.org/obo/PCO_0000029>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000101> (nanoplankton and microplankton aggregate)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000101> "A plankton aggregate which comprises aggregated nanoplankton and microplankton.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000101> "add axioms to link to http://purl.obolibrary.org/obo/PMO_00000106 and http://purl.obolibrary.org/obo/PMO_00000105")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000101> "nanoplankton and microplankton aggregate")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000101> <http://purl.obolibrary.org/obo/PMO_00000100>)
@@ -674,118 +771,148 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000101> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PMO_00000102> (dissolved organic carbon)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Total_organic_carbon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000102> "An aggregate of organic carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000102> "Clean and add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000102> "dissolved organic carbon")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000102> <http://purl.obolibrary.org/obo/PMO_00000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000103> (particulate organic carbon)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Total_organic_carbon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000103> "An aggregate of organic carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000103> "Clean and add to ENVO.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000103> "suspended organic carbon")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000103> "particulate organic carbon")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000103> <http://purl.obolibrary.org/obo/PMO_00000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000105> (microplankton material)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000105> "20 to 200 micrometers")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Plankton#Size_groups") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000105> "A portion of planktonic material which is comprised of plankton which range in size between 20 and 200 micrometers.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000105> "Add to ENVO.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000105> "Microplankton")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000105> "microplankton material")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000105> <http://purl.obolibrary.org/obo/ENVO_01000063>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000106> (nanophytoplankton material)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000106> "2 to 20 micrometers")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Plankton#Size_groups") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000106> "A portion of planktonic material which is comprised of plankton which range in size between 2 and 20 micrometers.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000106> "Add to ENVO.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/PMO_00000106> "https://en.wikipedia.org/wiki/Plankton#Size_groups")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000106> "Nanoplankton")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000106> "nanophytoplankton material")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000106> <http://purl.obolibrary.org/obo/ENVO_01000063>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000107> (autotrophic biomass formation process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000107> "A process during which an organism produces biomass from abiotic components using an autotrophic growth process.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000107> "link to")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000107> "link to PMO_00000108, and add to ENVO.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PMO_00000107> "primary productivity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000107> "autotrophic biomass formation process")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000107> <http://purl.obolibrary.org/obo/PMO_00000117>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000108> (primary productivity carbon)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000108> "link to http://purl.obolibrary.org/obo/PMO_00000107")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000108> "An aggregation of carbon molecules which constitute biomass accumulated during an autotrophic biomass formation process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000108> "link to http://purl.obolibrary.org/obo/PMO_00000107, clean and add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000108> "primary productivity carbon")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000108> <http://purl.obolibrary.org/obo/PMO_00000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000109> (aggregation of carbon molecules)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000109> "An object aggregate which is composed primarily of carbon molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000109> "Link to CHEBI carbon molecule")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000109> "aggregation of carbon molecules")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000109> <http://purl.obolibrary.org/obo/BFO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000110> (aggregation of nitrogen molecules)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000110> "An object aggregate which is composed primarily of nitrogen molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000110> "Clean and add to ENVO.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000110> "Link to CHEBI nitrogen molecule.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000110> "aggregation of nitrogen molecules")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000110> <http://purl.obolibrary.org/obo/BFO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000111> (dissolved organic nitrogen)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/dissolved-organic-nitrogen") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000111> "An aggregate of nitrogen and carbon-containing molecules derived from an environmental material which pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000111> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000111> "dissolved organic nitrogen")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000111> <http://purl.obolibrary.org/obo/PMO_00000110>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000112> (particulate organic nitrogen)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/particulate-organic-nitrogen") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000112> "An aggregate of organic nitrogen and carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000112> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000112> "particulate organic nitrogen")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000112> <http://purl.obolibrary.org/obo/PMO_00000110>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000113> (mesoplankton material)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Plankton#Size_groups") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000113> "A portion of planktonic material which is comprised of plankton which range in size between 0.2 and 20 milimeters.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000113> "Add to ENVO.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000113> "Mesoplankton")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000113> "mesoplankton material")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000113> <http://purl.obolibrary.org/obo/ENVO_01000063>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000114> (mesoplankton and macroplankton aggregate)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000114> "A plankton aggregate which comprises aggregated mesoplankton and macroplankton.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000114> "Add to ENVO.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000114> "link to http://purl.obolibrary.org/obo/PMO_00000115 and http://purl.obolibrary.org/obo/PMO_00000113")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000114> "mesoplankton and macroplankton aggregate")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000114> <http://purl.obolibrary.org/obo/PMO_00000100>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000115> (macroplankton material)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Plankton#Size_groups") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000115> "A portion of planktonic material which is comprised of plankton which range in size between 2 and 20 centimeters.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000115> "Add to ENVO.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000115> "Macroplankton")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000115> "macroplankton material")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000115> <http://purl.obolibrary.org/obo/ENVO_01000063>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000116> (prokaryote derived carbon)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000116> "An aggregate of carbon-containing molecules which were derived from a prokaryotic biomass formation process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000116> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000116> "prokaryote derived carbon")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000116> <http://purl.obolibrary.org/obo/PMO_00000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000117> (biomass formation process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000117> "An environmental system process during which growing organsims produce new biomass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000117> "Clean definition, add axioms and add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000117> "biomass formation process")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000117> <http://purl.obolibrary.org/obo/ENVO_02500000>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000118> (prokaryotic biomass formation process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000118> "A biomass formation process during which prokaryotic organisms create novel biomass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000118> "Clean definition, add axioms and add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000118> "prokaryotic biomass formation process")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000118> <http://purl.obolibrary.org/obo/PMO_00000117>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000120> (turbidity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Turbidity") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000120> "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000120> "https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Turbidity") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.isanorcal.org/download/tech2007_presentations/turbidity.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000120> "A physical quality which inheres in a fluid bearer by virtue of the bearer being cloudy or hazy due to a large numbers of individual particles within such bearer.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000120> "Add to PATO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000120> "turbidity")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000120> <http://purl.obolibrary.org/obo/PATO_0001018>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000121> (turbidity of water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000121> "A turbidity quality which inheres in a water bearer.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000121> "Add to ENVO or PATO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000121> "turbidity of water")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000121> <http://purl.obolibrary.org/obo/PMO_00000120>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000122> (Biosample identifier assigned by the National Center for Biotechnology Information)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000122> "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000122> "A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000122> "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000122> "Biosample identifier assigned by the National Center for Biotechnology Information")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000122> <http://purl.obolibrary.org/obo/OBI_0001901>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000123> (secondary sample accession identifier assigned by the European Nucleotide Archive)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000123> "Consider for deprication?")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000123> "example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000123> "secondary sample accession identifier assigned by the European Nucleotide Archive")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000123> <http://purl.obolibrary.org/obo/OBI_0001901>)
@@ -793,18 +920,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000123> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PMO_00000124> (INSDC bioarchive accession number)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000124> "Perhaps OSD accession numbers (which this represents) are for DDBJ
-see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission.")
+see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission. Consider for deprecation?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000124> "INSDC bioarchive accession number")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000124> <http://purl.obolibrary.org/obo/OBI_0001901>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000125> (material flux unit)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000125> "A unit which is a measure of flux which is typically expressed as volume per area per unit of time.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000125> "Add to UO.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000125> "similar to the example from http://reverseosmosischemicals.com/reverse-osmosis-guides/reverse-osmosis-glossary-terms/flux-water-flux-reverse-osmosis-systems")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000125> "material flux unit")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000125> <http://purl.obolibrary.org/obo/UO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000126> (micromole per square meter per second)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000126> "A material flux unit which is equal to one micromole per square meter per second.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000126> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000126> "micromole per square meter per second")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000126> <http://purl.obolibrary.org/obo/PMO_00000125>)
 
@@ -816,167 +947,258 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000127> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000128> (miligram per cubic meter per day)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000128> "A mass density rate unit which is equal to one miligram per cubic meter per day.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000128> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000128> "miligram per cubic meter per day")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000128> <http://purl.obolibrary.org/obo/PMO_00000127>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000129> (unit per cubic meter)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000129> "A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one cubic meter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000129> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000129> "unit per cubic meter")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000129> <http://purl.obolibrary.org/obo/UO_0000177>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000130> (milisiemens per centimeter)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000130> "An electrical conduction unit which is equal to one milisiemens per centimeter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000130> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000130> "milisiemens per centimeter")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000130> <http://purl.obolibrary.org/obo/UO_0000262>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000131> (formazin turbidity unit)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Formazine") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000131> "A turbidity unit in which a suspension of 1.25 mg/L hydrazine sulfate and 12.5 mg/L hexamethylenetetramine in liquid water has a turbidity of one.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000131> "Clean and add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000131> "formazin turbidity unit")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000131> <http://purl.obolibrary.org/obo/UO_0000315>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000132> (miligram per cubic meter)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000132> "Add to UO.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/PMO_00000132> "A mass unit density which is equal to mass of an object in miligrams divided by the volume in cubic meters.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000132> "miligram per cubic meter")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000132> <http://purl.obolibrary.org/obo/UO_0000052>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000150> (particulate carbon)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000150> "An aggregation of carbon-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000150> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000150> "particulate carbon"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000150> <http://purl.obolibrary.org/obo/PMO_00000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000151> (particulate nitrogen)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000151> "An aggregation of nitrogen-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000151> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000151> "particulate nitrogen"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000151> <http://purl.obolibrary.org/obo/PMO_00000110>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000152> (aggregation of phosphorus molecules)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000152> "An object aggregate which is composed primarily of phosphorus molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000152> "Link to CHEBI clean and add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000152> "aggregation of phosphorus molecules"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000152> <http://purl.obolibrary.org/obo/BFO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000153> (particulate phosphorus)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://hahana.soest.hawaii.edu/hot/protocols/protocols.html#") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000153> "An aggregate of phosphorus-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000153> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000153> "particulate phosphorus"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000153> <http://purl.obolibrary.org/obo/PMO_00000152>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000154> (nanomole per kilogram)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000154> "A specific concentration unit which is equal to 1 nanomole of a given substance per kilogram of solvent.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000154> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000154> "nanomole per kilogram"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000154> <http://purl.obolibrary.org/obo/UO_0000067>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000155> (nanogram per liter)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000155> "A mass unit density which is equal to mass of an object in nanograms divided by the volume in liters.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000155> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000155> "nanogram per liter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000155> <http://purl.obolibrary.org/obo/UO_0000052>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000156> (concentration of 19'-butanoyloxyfucoxanthin in liquid water)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://epic.awi.de/id/eprint/28819/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000156> "The concentration of 19'-butanoyloxyfucoxanthin when measured in liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000156> "Need to request 19'-butanoyloxyfucoxanthin in CHEBI, then can add to ENVO."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000156> "concentration of 19'-butanoyloxyfucoxanthin in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000156> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000157> (concentration of 19'-hexanoyloxyfucoxanthin in liquid water)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pubchem.ncbi.nlm.nih.gov/compound/6443044") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000157> "The concentration of 19'-hexanoyloxyfucoxanthin when measured in liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000157> "Need to request 19'-hexanoyloxyfucoxanthin in CHEBI, then can add to ENVO."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000157> "concentration of 19'-hexanoyloxyfucoxanthin in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000157> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000158> (measure relating to enumeration of aggregation of organisms)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000158> "A measure, which refers to an aggregation of organisms."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000158> "Add axiom for organisms, and push to PATO or ECOCORE."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000158> "Pattern similar to http://purl.obolibrary.org/obo/IDOMAL_0000428")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000158> "measure relating to enumeration of aggregation of organisms"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000158> <http://purl.obolibrary.org/obo/PMO_00000162>)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000158> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000159> (enumeration of Prochlorococcus aggregation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000159> "A measure which describes the enumeration of aggregated Prochlorococcus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000159> "Add axiom for Procholorococcus, and push to PATO or ECOCORE."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000159> "enumeration of Prochlorococcus aggregation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000159> <http://purl.obolibrary.org/obo/PMO_00000158>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000160> (enumeration of Synechococcus aggregation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000160> "A measure which describes the enumeration of aggregated Synechococcus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000160> "Add axiom for Synechococcus, and push to PATO or ECOCORE."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000160> "enumeration of Synechococcus aggregation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000160> <http://purl.obolibrary.org/obo/PMO_00000158>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000161> (enumeration of picoeukaryote aggregation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000161> "A measure which describes the enumeration of aggregated picoeukaryotes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000161> "Add axiom for picoeukaryotes, and push to PATO or ECOCORE."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000161> "enumeration of picoeukaryote aggregation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000161> <http://purl.obolibrary.org/obo/PMO_00000158>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000162> (enumeration of heterotrophic prokaryote aggregation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000162> "A measure which describes the enumeration of aggregated heterotrophic prokaryotes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000162> "Add axiom for heterotrophs, and push to PATO or ECOCORE."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000162> "enumeration of heterotrophic prokaryote aggregation"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000162> <http://purl.obolibrary.org/obo/PMO_00000158>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000163> (autotrophic organism biomass carbon aggregation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000163> "An aggregate of carbon-containing molecules which were derived from an autotrophic biomass formation process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000163> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000163> "autotrophic organism biomass carbon aggregation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000163> <http://purl.obolibrary.org/obo/PMO_00000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000164> (aggregation of silicon molecules)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000164> "An object aggregate which is composed primarily of silicon molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000164> "Link to CHEBI clean and add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000164> "aggregation of silicon molecules"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000164> <http://purl.obolibrary.org/obo/BFO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000165> (particulate silica)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000165> "An aggregate of silica-containing molecules derived from an environmental material which are too large to pass through a filter during a specimen collection process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000165> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000165> "particulate silica"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000165> <http://purl.obolibrary.org/obo/PMO_00000164>)
 
+# Class: <http://purl.obolibrary.org/obo/PMO_00000166> (sample from environment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000166> "A material sample which is obtained from an environment in order to be a representative of such environment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000166> "Imporve and add to OBI or BCO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000166> "sample from environment"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000166> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000740>)))
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000166> <http://purl.obolibrary.org/obo/OBI_0000747>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000167> (sample from aquatic environment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000167> "A sample from environment which is obtained from an aquatic environment in order to be a representative of such aquatic environment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000167> "Imporve and add to OBI or BCO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000167> "sample from aquatic environment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000167> <http://purl.obolibrary.org/obo/PMO_00000166>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000168> (aquatic environmental material sample filter fractionation size)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000168> "A size quality which inheres in an aquatic environmental material sample by virtue of such bearer being size fractioned via a filtration process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000168> "Perhaps find and or create filtration process for OBI, and try to add to OBI.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000168> "aquatic environmental material sample filter fractionation size"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000168> <http://purl.obolibrary.org/obo/PATO_0000117>)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000168> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PMO_00000167>))
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000169> (megaplankton material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Plankton#Size_groups") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000169> "A portion of planktonic material which is comprised of plankton which are of sizes greater than 20 centimeters.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000169> "Add to ENVO.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000169> "Megaplankton")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000169> "megaplankton material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000169> <http://purl.obolibrary.org/obo/ENVO_01000063>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000170> (picoplankton material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Plankton#Size_groups") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000170> "A portion of planktonic material which is comprised of plankton which range in size between 0.2 and 2 micrometers.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000170> "Add to ENVO.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000170> "Picoplankton")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000170> "picoplankton material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000170> <http://purl.obolibrary.org/obo/ENVO_01000063>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000171> (femtoplankton material)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Plankton#Size_groups") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000171> "A portion of planktonic material which is comprised of plankton which are of sizes less than 0.22 micrometers.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000171> "Add to ENVO.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000171> "Femtoplankton")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000171> "femtoplankton material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000171> <http://purl.obolibrary.org/obo/ENVO_01000063>)
+
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> "Consider for deprecation.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> "links to the same idea of a project as 'project investigation identifier'")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> "project url"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> <http://purl.obolibrary.org/obo/PMO_00000047>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134> (centrally registered identifier url)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134> "a link to a centrally registered identifier")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134> "a link to a centrally registered identifier. Consider for deprecation.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134> "centrally registered identifier url"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134> <http://purl.obolibrary.org/obo/PMO_00000047>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136> (sampling expedition time measurement datum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136> "A time measurement datum that is the measure of the time when a sampling expedition is conducted.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136> "Perhaps add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136> "sampling expedition time measurement datum"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136> <http://purl.obolibrary.org/obo/IAO_0000416>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137> (sampling expedition time measurement datum start)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137> "A time measurement datum that is the measure of the starting time when a sampling expedition is conducted.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137> "Perhaps add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137> "sampling expedition time measurement datum start"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138> (sampling expedition time measurement datum stop)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138> "A time measurement datum that is the measure of the time when a sampling expedition is concluded.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138> "Perhaps add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138> "sampling expedition time measurement datum stop"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139> (alkalinity of water)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139> "The alkalinity of some liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139> "Add to ENVO or PATO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139> "alkalinity of water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139> <http://purl.obolibrary.org/obo/PATO_0001430>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140> (equivalent unit)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Equivalent_(chemistry)") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140> "A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140> "equivalent unit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140> <http://purl.obolibrary.org/obo/UO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141> (microequivalent per kilogram)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141> "An equivalent unit which is equal to one microequivalent per kilogram.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141> "microequivalent per kilogram"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142> (dissolved inorganic carbon)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Total_inorganic_carbon") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142> "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142> "Add to ENVO.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142> "CT = [CO2*] + [HCO3−] + [CO32−]")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142> "total inorganic carbon")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142> "dissolved inorganic carbon"@en)
@@ -984,39 +1206,52 @@ SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142> <http://purl.ob
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143> (sampling expedition site)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143> "A site in which a sampling expidition process occurs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143> "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143> "sampling expedition site"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143> <http://purl.obolibrary.org/obo/BFO_0000029>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144> (sampling expedition start location)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144> "A site in which a sampling expidition process begins.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144> "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144> "sampling expedition start location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145> (sampling expedition end location)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145> "A site in which a sampling expidition process terminates.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145> "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145> "sampling expedition end location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> (conductivity temperature pressure sampling process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "A material sampling process during which a conductivity temperature and pressure sampling device is employed.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "conductivity temperature pressure sampling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> <http://purl.obolibrary.org/obo/OBI_0000744>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> (net tow sampling process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> "Clean and add axiom and add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> "net tow sampling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> <http://purl.obolibrary.org/obo/OBI_0000744>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148> (remote observation sampling process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148> "For example a satellite measurment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148> "A material sampling process during which observations and measurments are taken by a remote measrument device which is not in physical contact with the site under observation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148> "Clean and add axiom and add to BCO.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148> "For example a satellite measurement.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148> "remote observation sampling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148> <http://purl.obolibrary.org/obo/OBI_0000744>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149> (specimen collection process site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149> "A site where a specimen collection process occurs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149> "A site where a specimen collection process occurs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149> "Clean and add to BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149> "specimen collection process site"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149> <http://purl.obolibrary.org/obo/BFO_0000029>)
 
@@ -1027,6 +1262,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149> <http://purl.ob
 
 # Individual: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135> (Rolling Deck to Repository url)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135> "Consider for deprecation.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135> "https://scripps.ucsd.edu/research/proposals/rolling-deck-repository-r2r")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135> "Rolling Deck to Repository url"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135>)
