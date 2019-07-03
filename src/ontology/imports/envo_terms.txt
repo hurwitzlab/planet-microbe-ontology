@@ -25,4 +25,5 @@ ENVO:3100014 #concentration of fucoxanthin in water
 ENVO:3100029 #concentration of zeaxanthin in water
 ENVO:3100009 #concentration of chlorophyll b in water
 ENVO:3100036 #concentration of chlorophyll in water
-
+ENVO:01001215 #visible spectrum stellar radiation
+ENVO:3200059 #concentration of urea in liquid water
