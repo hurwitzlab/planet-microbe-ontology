@@ -179,6 +179,7 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135
 
 # Data Property: <http://purl.obolibrary.org/obo/PMO_00000082> (Country Code)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000082> "The standard code for the country in which the Location occurs.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000082> "From the Biological Collections Ontology, which references the tdwg purl. Figure out how to import the real term, either from BCO or tdwg.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000082> "http://rs.tdwg.org/dwc/terms/countryCode")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000082> "Country Code")
@@ -325,7 +326,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000021> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000022> (aquatic sample minimum filter fractionation size threshold)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000022> "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000022> "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000022> "Imporve and add to OBI or BCO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000022> "aquatic sample minimum filter fractionation size threshold")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000022> <http://purl.obolibrary.org/obo/PMO_00000168>)
@@ -551,6 +552,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000059> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000060> (sampling expedition identifier)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000060> "An investigation identifier which represents a sampling expedition campaign.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000060> "sampling campaign Ex: TARA ocean, Tara arctic OSD 2014, HOT194 etc. Perhaps push to BCO?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000060> "sampling expedition identifier")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000060> <http://purl.obolibrary.org/obo/OBI_0001628>)
@@ -638,6 +640,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000074> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000075> (comment on investigation)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000075> "A textual entity that is about any of the aspects of an investigation worth noting.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000075> "Reimport the OBI term after the axiom has been fixed, as it's currently failing when run with the ELK reasoner.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000075> "http://purl.obolibrary.org/obo/OBI_0001898")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000075> "comment on investigation")
@@ -698,8 +701,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000084> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000085> (biogeochemical province)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000085> "A geographic location which represents a division of the world oceans into provinces as defined by Longhurst (1995; 1998; 2006).")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000085> "Perhaps add to ENVO or GAZ. Depending on status of integration of marineregions.org into GAZ. See https://github.com/EnvironmentOntology/gaz/issues/29")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000085> "http://marineregions.org/gazetteer.php?p=details&id=22538")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000085> "http://marineregions.org/sources.php")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000085> "Longhurst Province")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000085> "biogeochemical province")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000085> <http://purl.obolibrary.org/obo/PMO_00000088>)
@@ -738,14 +743,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000090> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000091> (Large Marine Ecosystem)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000091> "A geograpphic location which comprises a natural region of ocean space encompassing coastal waters from river basins and estuaries to the seaward boundary of continental shelves and the outer margins of coastal currents.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000091> "Perhaps in the future we could map or at least create GAZ classes for the top levels the Marineregions.org gazetteer.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PMO_00000091> "http://marineregions.org/gazetteer.php?p=details&id=22539")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000091> "http://marineregions.org/sources.php")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000091> "Large Marine Ecosystem")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000091> <http://purl.obolibrary.org/obo/PMO_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000092> (International Hydrographic Organization Sea Area)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000092> "A geographic location which has been registered in the International Hydrographic Organization Sea Area database.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000092> "From http://www.marineregions.org/sources.php. Figure out how to integrate with GAZ and or ENVO.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000092> "http://marineregions.org/sources.php")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000092> "International Hydrographic Organization Sea Area")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000092> <http://purl.obolibrary.org/obo/PMO_00000088>)
 
@@ -923,6 +932,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000123> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000124> (INSDC bioarchive accession number)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000124> "A specimen identifier assigned by sequencing facility which identifies an International Nucleotide Sequence Database Collaboration (INSDC) bioarchive accession number.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000124> "Perhaps OSD accession numbers (which this represents) are for DDBJ
 see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission. Consider for deprecation?")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000124> "INSDC bioarchive accession number")
