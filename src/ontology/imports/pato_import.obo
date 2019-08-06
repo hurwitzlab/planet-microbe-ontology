@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-06-07/imports/pato_import.owl
+data-version: pmo/releases/2019-07-09/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]
@@ -9,6 +9,16 @@ namespace: quality
 alt_id: PATO:0000072
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
 synonym: "trait" EXACT []
+
+[Term]
+id: PATO:0000008
+name: speed
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's scalar absolute value of the rate of change of the bearer's position." [Wikipedia:http\://en.wikipedia.org/wiki/Velocity]
+subset: attribute_slim
+subset: scalar_slim
+synonym: "velocity" RELATED []
+is_a: PATO:0001906 ! movement quality
 
 [Term]
 id: PATO:0000018
@@ -220,6 +230,34 @@ alt_id: PATO:0001722
 def: "An organismal quality inhering in a bearer by virtue of the bearer's behavior aggregate of the responses or reactions or movements in a given situation." [PATOC:GVG]
 synonym: "behavioural quality" EXACT []
 is_a: PATO:0001995 ! organismal quality
+
+[Term]
+id: PATO:0000303
+name: increased speed
+namespace: quality
+def: "A speed which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "fast speed" RELATED []
+synonym: "high speed" EXACT []
+is_a: PATO:0000008 ! speed
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000008 ! speed
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000304 ! decreased speed
+
+[Term]
+id: PATO:0000304
+name: decreased speed
+namespace: quality
+def: "A speed which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "slow" EXACT []
+synonym: "slow speed" EXACT []
+is_a: PATO:0000008 ! speed
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000008 ! speed
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000303 ! increased speed
 
 [Term]
 id: PATO:0000374

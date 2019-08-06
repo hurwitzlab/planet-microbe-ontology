@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-06-07/imports/uo_import.owl
+data-version: pmo/releases/2019-07-09/imports/uo_import.owl
 ontology: pmo/imports/uo_import
 
 [Term]
@@ -630,6 +630,26 @@ subset: unit_slim
 synonym: "% (v/v)" EXACT []
 is_a: UO:0000187 ! percent
 is_a: UO:0000205 ! volume per unit volume
+created_by: george gkoutos
+
+[Term]
+id: UO:0000166
+name: parts per notation unit
+namespace: unit.ontology
+def: "A dimensionless concentration notation which describes the amount of one substance in another. It is the ratio of the amount of the substance of interest to the amount of that substance plus the amount of the substance." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000186 ! dimensionless unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000168
+name: parts per thousand
+namespace: unit.ontology
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1000 regardless of the units of measure as long as they are the same." [UOC:GVG]
+subset: unit_slim
+synonym: "10^[-3]" EXACT []
+synonym: "ppth" EXACT []
+is_a: UO:0000166 ! parts per notation unit
 created_by: george gkoutos
 
 [Term]
