@@ -27,3 +27,13 @@ ENVO:3100009 #concentration of chlorophyll b in water
 ENVO:3100036 #concentration of chlorophyll in water
 ENVO:01001215 #visible spectrum stellar radiation
 ENVO:3200059 #concentration of urea in liquid water
+ENVO:3100007 #concentration of carotene in water
+ENVO:3100012 #concentration of divinyl chlorophyll a in water
+ENVO:3100013 #concentration of divinyl chlorophyll b in water
+ENVO:3100005 #concentration of bacteriochlorophyll a in water
+ENVO:3100019 #concentration of lutein in water
+ENVO:3100002 #concentration of alloxanthine in water
+ENVO:3100028 #concentration of violaxanthin in water
+ENVO:3100021 #concentration of neoxanthin in water
+ENVO:3100025 #concentration of peridinin in water
+ENVO:3100010 #concentration of chlorophyllide a in water
