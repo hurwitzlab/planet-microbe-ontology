@@ -18,7 +18,6 @@ ENVO:3100004 #concentration of ammonium in water
 ENVO:3100034 #concentration of silicic acid in water
 ENVO:01000063 #planktonic material
 ENVO:09200018 #conductivity of water
-ENVO:3100032 #fluorescence of water
 ENVO:01001026 #electromagnetic radiation
 ENVO:3100008 #concentration of chlorophyll a in water
 ENVO:3100014 #concentration of fucoxanthin in water
