@@ -918,7 +918,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000121> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/PMO_00000122> (Biosample identifier assigned by the National Center for Biotechnology Information)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000122> "A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000122> "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000122> "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it.
+
+Use the OBI superclass as primary key for PM, condsider this class for deprication.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000122> "Biosample identifier assigned by the National Center for Biotechnology Information")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000122> <http://purl.obolibrary.org/obo/OBI_0001901>)
 
