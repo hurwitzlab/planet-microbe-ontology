@@ -153,6 +153,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000169>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1155,6 +1156,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PMO_00000171> "Femtoplankton")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000171> "femtoplankton material"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000171> <http://purl.obolibrary.org/obo/ENVO_01000063>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000172> (minimum depth of water collected during specimen collection process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000172> "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a minimum quality and ENVO: depth of water.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000172> "minimum depth of water collected during specimen collection process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000172> <http://purl.obolibrary.org/obo/ENVO_3100031>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
