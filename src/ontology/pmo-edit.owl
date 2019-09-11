@@ -508,6 +508,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000051> "nu
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000052> (maximum depth of water collected during specimen collection process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000052> "A depth of water quality which inheres in a bearer by virtue of such bearer being the maximum depth of water collected during a specimen collection process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000052> "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: depth of water.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000052> "maximum depth of water collected during specimen collection process")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000052> <http://purl.obolibrary.org/obo/ENVO_3100031>)
@@ -1159,6 +1160,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000171> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000172> (minimum depth of water collected during specimen collection process)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000172> "A depth of water quality which inheres in a bearer by virtue of such bearer being the minimum depth of water collected during a specimen collection process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000172> "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a minimum quality and ENVO: depth of water.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000172> "minimum depth of water collected during specimen collection process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000172> <http://purl.obolibrary.org/obo/ENVO_3100031>)
