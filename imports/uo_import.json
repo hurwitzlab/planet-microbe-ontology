@@ -1591,6 +1591,24 @@
       "type" : "CLASS",
       "lbl" : "base unit"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000166",
+      "meta" : {
+        "definition" : {
+          "val" : "A dimensionless concentration notation which describes the amount of one substance in another. It is the ratio of the amount of the substance of interest to the amount of that substance plus the amount of the substance.",
+          "xrefs" : [ "Wikipedia:Wikipedia" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_group_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "parts per notation unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000200",
       "meta" : {
         "definition" : {
@@ -1608,6 +1626,33 @@
       },
       "type" : "CLASS",
       "lbl" : "cell concentration unit"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000168",
+      "meta" : {
+        "definition" : {
+          "val" : "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1000 regardless of the units of measure as long as they are the same.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ppth",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "10^[-3]",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "parts per thousand"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000201",
       "meta" : {
@@ -2350,13 +2395,13 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001309"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000109",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000103",
       "pred" : "is_a",
@@ -2369,6 +2414,14 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000168",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000166"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000166",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000186"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000177",
       "pred" : "is_a",
@@ -2406,13 +2459,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000273",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000273",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000175",
       "pred" : "is_a",
@@ -2582,13 +2635,13 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000008"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000066",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000002",
       "pred" : "is_a",
@@ -2766,13 +2819,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000200",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000042",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000200",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000100",
       "pred" : "is_a",
@@ -2807,7 +2860,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-06-07/imports/uo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-09-12/imports/uo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
