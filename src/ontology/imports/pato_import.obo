@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-08-29/imports/pato_import.owl
+data-version: pmo/releases/2019-09-12/imports/pato_import.owl
 ontology: pmo/imports/pato_import
 
 [Term]
@@ -8,7 +8,6 @@ name: quality
 namespace: quality
 alt_id: PATO:0000072
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
-synonym: "trait" EXACT []
 
 [Term]
 id: PATO:0000008
@@ -71,7 +70,7 @@ namespace: quality
 def: "A physical quality which inheres in a bearer by virtue of the number of the bearer's repetitive actions in a particular time." [Wikipedia:http\://en.wikipedia.org/wiki/frequency]
 subset: attribute_slim
 subset: scalar_slim
-is_a: PATO:0000161 ! rate
+is_a: PATO:0050000 ! rate of occurence
 
 [Term]
 id: PATO:0000048
@@ -372,7 +371,7 @@ subset: abnormal_slim
 subset: mpath_slim
 subset: value_slim
 synonym: "average" RELATED []
-is_a: PATO:0000069 ! deviation(from_normal)
+is_a: PATO:0000068 ! qualitative
 relationship: is_opposite_of PATO:0000460 ! abnormal
 
 [Term]
@@ -601,6 +600,7 @@ def: "A optical quality inhering in a bearer by virtue of the bearer's lacking o
 subset: mpath_slim
 subset: value_slim
 synonym: "clear" EXACT []
+synonym: "hyaline" EXACT []
 is_a: PATO:0000957 ! opacity
 relationship: is_opposite_of PATO:0000963 ! opaque
 
@@ -1517,6 +1517,40 @@ created_by: gkoutos
 creation_date: 2012-04-18T06:31:29Z
 
 [Term]
+id: PATO:0015021
+name: combustibility
+namespace: quality
+def: "The propensity of a material to undergo combustion. Combustion encompasses smouldering and flaming combustion. Combustibility is usually applied to solids." [https://en.wikipedia.org/wiki/Combustibility, https://github.com/EnvironmentOntology/envo/issues/384]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0015022
+name: increased combustibility
+namespace: quality
+def: "An increase in combustibility." []
+subset: value_slim
+synonym: "combustible" EXACT []
+is_a: PATO:0002305 ! increased object quality
+is_a: PATO:0015021 ! combustibility
+intersection_of: PATO:0015021 ! combustibility
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0015023 ! decreased combustibility
+
+[Term]
+id: PATO:0015023
+name: decreased combustibility
+namespace: quality
+def: "An decrease in combustibility." []
+subset: value_slim
+synonym: "noncombustible" RELATED []
+is_a: PATO:0002303 ! decreased object quality
+is_a: PATO:0015021 ! combustibility
+intersection_of: PATO:0015021 ! combustibility
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0015022 ! increased combustibility
+
+[Term]
 id: PATO:0015024
 name: increased porosity
 namespace: quality
@@ -1538,6 +1572,13 @@ is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000973 ! porosity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0015024 ! increased porosity
+
+[Term]
+id: PATO:0050000
+name: rate of occurence
+namespace: quality
+def: "The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)" [https://orcid.org/0000-0002-9943-9018]
+is_a: PATO:0000161 ! rate
 
 [Typedef]
 id: decreased_in_magnitude_relative_to
