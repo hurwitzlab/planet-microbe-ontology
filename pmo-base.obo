@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-06-07/pmo-base.owl
+data-version: pmo/releases/2019-09-12/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -141,8 +141,8 @@ property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 [Term]
 id: PMO:00000022
 name: aquatic sample minimum filter fractionation size threshold
+def: "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process." []
 is_a: PMO:00000168 ! aquatic environmental material sample filter fractionation size
-property_value: IAO:0000116 "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process." xsd:string
 property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
 
 [Term]
@@ -322,6 +322,7 @@ property_value: IAO:0000116 "Consider for deprication." xsd:string
 [Term]
 id: PMO:00000052
 name: maximum depth of water collected during specimen collection process
+def: "A depth of water quality which inheres in a bearer by virtue of such bearer being the maximum depth of water collected during a specimen collection process." []
 is_a: ENVO:3100031
 property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: depth of water." xsd:string
 
@@ -339,14 +340,15 @@ property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" 
 
 [Term]
 id: PMO:00000056
-name: centrally registered sampling event identifier
+name: centrally registered specimen collection event identifier
+def: "A centrally registered event identifier which designates a specimen collection process event." []
 is_a: IAO:0000578
-property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" xsd:string
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?\n\nAdd axiom linking to specimen collection process http://purl.obolibrary.org/obo/OBI_0000659" xsd:string
 
 [Term]
 id: PMO:00000057
 name: ctd cast number
-is_a: PMO:00000056 ! centrally registered sampling event identifier
+is_a: PMO:00000056 ! centrally registered specimen collection event identifier
 property_value: IAO:0000116 "Perhaps useful perhaps consider for deprication?" xsd:string
 
 [Term]
@@ -364,6 +366,7 @@ property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 [Term]
 id: PMO:00000060
 name: sampling expedition identifier
+def: "An investigation identifier which represents a sampling expedition campaign." []
 is_a: OBI:0001628
 property_value: IAO:0000116 "sampling campaign Ex: TARA ocean, Tara arctic OSD 2014, HOT194 etc. Perhaps push to BCO?" xsd:string
 
@@ -451,6 +454,7 @@ property_value: IAO:0000116 "Definately should push to OBI or BCO." xsd:string
 [Term]
 id: PMO:00000075
 name: comment on investigation
+def: "A textual entity that is about any of the aspects of an investigation worth noting." []
 is_a: IAO:0000300
 property_value: IAO:0000116 "Reimport the OBI term after the axiom has been fixed, as it's currently failing when run with the ELK reasoner." xsd:string
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/OBI_0001898 xsd:string
@@ -511,7 +515,9 @@ property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hie
 [Term]
 id: PMO:00000085
 name: biogeochemical province
+def: "A geographic location which represents a division of the world oceans into provinces as defined by Longhurst (1995; 1998; 2006)." []
 synonym: "Longhurst Province" EXACT []
+xref: http://marineregions.org/sources.php
 is_a: PMO:00000088 ! geographic location
 property_value: IAO:0000116 "Perhaps add to ENVO or GAZ. Depending on status of integration of marineregions.org into GAZ. See https://github.com/EnvironmentOntology/gaz/issues/29" xsd:string
 property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22538 xsd:string
@@ -551,6 +557,8 @@ property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 [Term]
 id: PMO:00000091
 name: Large Marine Ecosystem
+def: "A geograpphic location which comprises a natural region of ocean space encompassing coastal waters from river basins and estuaries to the seaward boundary of continental shelves and the outer margins of coastal currents." []
+xref: http://marineregions.org/sources.php
 is_a: PMO:00000088 ! geographic location
 property_value: IAO:0000116 "Perhaps in the future we could map or at least create GAZ classes for the top levels the Marineregions.org gazetteer." xsd:string
 property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22539 xsd:string
@@ -558,6 +566,8 @@ property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=
 [Term]
 id: PMO:00000092
 name: International Hydrographic Organization Sea Area
+def: "A geographic location which has been registered in the International Hydrographic Organization Sea Area database." []
+xref: http://marineregions.org/sources.php
 is_a: PMO:00000088 ! geographic location
 property_value: IAO:0000116 "From http://www.marineregions.org/sources.php. Figure out how to integrate with GAZ and or ENVO." xsd:string
 
@@ -723,18 +733,20 @@ id: PMO:00000122
 name: Biosample identifier assigned by the National Center for Biotechnology Information
 def: "A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information." []
 is_a: OBI:0001901
-property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it." xsd:string
+property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it.\n\nUse the OBI superclass as primary key for PM, condsider this class for deprication." xsd:string
 
 [Term]
 id: PMO:00000123
-name: secondary sample accession identifier assigned by the European Nucleotide Archive
+name: SRA accession number
+def: "A specimen identifier assigned by sequencing facility which identifies a Sequence Read Archive (SRA) acession number." []
+synonym: "Secondary sample accession" EXACT []
 is_a: OBI:0001901
-property_value: IAO:0000116 "Consider for deprication?" xsd:string
 property_value: IAO:0000116 "example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668" xsd:string
 
 [Term]
 id: PMO:00000124
 name: INSDC bioarchive accession number
+def: "A specimen identifier assigned by sequencing facility which identifies an International Nucleotide Sequence Database Collaboration (INSDC) bioarchive accession number." []
 is_a: OBI:0001901
 property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission. Consider for deprecation?" xsd:string
 
@@ -1069,4 +1081,11 @@ def: "A portion of planktonic material which is comprised of plankton which are 
 synonym: "Femtoplankton" NARROW []
 is_a: ENVO:01000063
 property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000172
+name: minimum depth of water collected during specimen collection process
+def: "A depth of water quality which inheres in a bearer by virtue of such bearer being the minimum depth of water collected during a specimen collection process." []
+is_a: ENVO:3100031
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a minimum quality and ENVO: depth of water." xsd:string
 

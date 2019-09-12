@@ -29,14 +29,14 @@ ERROR	duplicate_definition	ENVO:01001309	IAO:0000115	A liquid surface layer whic
 ERROR	duplicate_definition	ENVO:01001310	IAO:0000115	A liquid surface layer which is in contact with air.	
 ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
 ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	35c3999f095b779624dfd3253700e1aa	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	a145255a20bd0a16f62a79e911a5565c	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	22129f22c8889b50e2112a8052fcea34	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	5eb9461891e2a53cc076cc6fb00b6e9c	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	531c12e00c2567ff0694cc30e46d7b0b	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	97d51836c5b53b2634da48617718954c	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	0c1c42a880fc6cb0b458083e10d2499f	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	4225f7b646cbb946fc84710f09684d9e	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	5e7ab29b5c7c532877268ddf8fb61b09	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	84efedea03df3a7fa75495e604bc7fbb	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	1d7aa589a0f57775b4af11b87a6fc08f	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	fd98b70b7c8cf3139be34a963403e025	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	5b560c6528d3aa5f54a82c1678b7ae04	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	d24aa3b570f30018944d937a51d44060	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	0bb83ebf83295b2fcabc1e0893a250c5	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	b43bfaa3e8d8ab72383530aae8af0653	
 ERROR	missing_label	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#abnormal_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#attribute_slim	rdfs:label		
@@ -145,6 +145,10 @@ ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure@en
 ERROR	multiple_labels	CARO:0000003	rdfs:label	connected anatomical structure@en	
 ERROR	multiple_labels	CL:0000000	rdfs:label	cell	
 ERROR	multiple_labels	CL:0000000	rdfs:label	cell@en	
+ERROR	multiple_labels	ENVO:01001211	rdfs:label	stellar radiation	
+ERROR	multiple_labels	ENVO:01001211	rdfs:label	stellar radiation@en	
+ERROR	multiple_labels	ENVO:01001215	rdfs:label	visible spectrum stellar radiation	
+ERROR	multiple_labels	ENVO:01001215	rdfs:label	visible spectrum stellar radiation@en	
 ERROR	multiple_labels	GO:0003674	rdfs:label	GO:molecular_function	
 ERROR	multiple_labels	GO:0003674	rdfs:label	molecular_function	
 ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label	
@@ -331,6 +335,9 @@ WARN	multiple_asserted_superclasses	CHEBI:16526	rdfs:subClassOf	FOODON:03412972
 WARN	multiple_asserted_superclasses	CHEBI:16670	rdfs:subClassOf	CHEBI:33839	
 WARN	multiple_asserted_superclasses	CHEBI:16670	rdfs:subClassOf	CHEBI:37622	
 WARN	multiple_asserted_superclasses	CHEBI:16670	rdfs:subClassOf	CHEBI:50047	
+WARN	multiple_asserted_superclasses	CHEBI:16900	rdfs:subClassOf	CHEBI:25248	
+WARN	multiple_asserted_superclasses	CHEBI:16900	rdfs:subClassOf	CHEBI:36244	
+WARN	multiple_asserted_superclasses	CHEBI:16900	rdfs:subClassOf	CHEBI:38206	
 WARN	multiple_asserted_superclasses	CHEBI:17632	rdfs:subClassOf	CHEBI:33458	
 WARN	multiple_asserted_superclasses	CHEBI:17632	rdfs:subClassOf	CHEBI:62764	
 WARN	multiple_asserted_superclasses	CHEBI:17632	rdfs:subClassOf	CHEBI:79389	
@@ -341,6 +348,8 @@ WARN	multiple_asserted_superclasses	CHEBI:18230	rdfs:subClassOf	CHEBI:25248
 WARN	multiple_asserted_superclasses	CHEBI:18230	rdfs:subClassOf	CHEBI:28966	
 WARN	multiple_asserted_superclasses	CHEBI:23014	rdfs:subClassOf	CHEBI:25701	
 WARN	multiple_asserted_superclasses	CHEBI:23014	rdfs:subClassOf	CHEBI:36963	
+WARN	multiple_asserted_superclasses	CHEBI:23042	rdfs:subClassOf	CHEBI:35193	
+WARN	multiple_asserted_superclasses	CHEBI:23042	rdfs:subClassOf	FOODON:03412972	
 WARN	multiple_asserted_superclasses	CHEBI:23043	rdfs:subClassOf	CHEBI:27325	
 WARN	multiple_asserted_superclasses	CHEBI:23043	rdfs:subClassOf	CHEBI:32955	
 WARN	multiple_asserted_superclasses	CHEBI:23114	rdfs:subClassOf	CHEBI:23117	
@@ -366,6 +375,8 @@ WARN	multiple_asserted_superclasses	CHEBI:25216	rdfs:subClassOf	CHEBI:33240
 WARN	multiple_asserted_superclasses	CHEBI:25216	rdfs:subClassOf	CHEBI:33909	
 WARN	multiple_asserted_superclasses	CHEBI:25362	rdfs:subClassOf	CHEBI:25367	
 WARN	multiple_asserted_superclasses	CHEBI:25362	rdfs:subClassOf	CHEBI:33259	
+WARN	multiple_asserted_superclasses	CHEBI:25501	rdfs:subClassOf	CHEBI:35307	
+WARN	multiple_asserted_superclasses	CHEBI:25501	rdfs:subClassOf	CHEBI:37602	
 WARN	multiple_asserted_superclasses	CHEBI:25701	rdfs:subClassOf	CHEBI:25741	
 WARN	multiple_asserted_superclasses	CHEBI:25701	rdfs:subClassOf	CHEBI:72695	
 WARN	multiple_asserted_superclasses	CHEBI:25741	rdfs:subClassOf	CHEBI:25806	
@@ -377,14 +388,22 @@ WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:26712
 WARN	multiple_asserted_superclasses	CHEBI:26714	rdfs:subClassOf	CHEBI:35479	
 WARN	multiple_asserted_superclasses	CHEBI:26932	rdfs:subClassOf	CHEBI:33833	
 WARN	multiple_asserted_superclasses	CHEBI:26932	rdfs:subClassOf	CHEBI:38077	
+WARN	multiple_asserted_superclasses	CHEBI:27171	rdfs:subClassOf	CHEBI:33672	
+WARN	multiple_asserted_superclasses	CHEBI:27171	rdfs:subClassOf	CHEBI:38166	
+WARN	multiple_asserted_superclasses	CHEBI:28838	rdfs:subClassOf	CHEBI:23045	
+WARN	multiple_asserted_superclasses	CHEBI:28838	rdfs:subClassOf	FOODON:03412972	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:35106	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:35274	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:50313	
 WARN	multiple_asserted_superclasses	CHEBI:28938	rdfs:subClassOf	CHEBI:60242	
+WARN	multiple_asserted_superclasses	CHEBI:30033	rdfs:subClassOf	CHEBI:25248	
+WARN	multiple_asserted_superclasses	CHEBI:30033	rdfs:subClassOf	CHEBI:38201	
 WARN	multiple_asserted_superclasses	CHEBI:30879	rdfs:subClassOf	CHEBI:33822	
 WARN	multiple_asserted_superclasses	CHEBI:30879	rdfs:subClassOf	FOODON:00002123	
 WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:33242	rdfs:subClassOf	CHEBI:33692	
+WARN	multiple_asserted_superclasses	CHEBI:33245	rdfs:subClassOf	CHEBI:37175	
+WARN	multiple_asserted_superclasses	CHEBI:33245	rdfs:subClassOf	CHEBI:50860	
 WARN	multiple_asserted_superclasses	CHEBI:33250	rdfs:subClassOf	BFO:0000040	
 WARN	multiple_asserted_superclasses	CHEBI:33250	rdfs:subClassOf	CHEBI:24431	
 WARN	multiple_asserted_superclasses	CHEBI:33262	rdfs:subClassOf	CHEBI:24835	
@@ -406,8 +425,15 @@ WARN	multiple_asserted_superclasses	CHEBI:33459	rdfs:subClassOf	CHEBI:35406
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33259	
 WARN	multiple_asserted_superclasses	CHEBI:33465	rdfs:subClassOf	CHEBI:33302	
+WARN	multiple_asserted_superclasses	CHEBI:33575	rdfs:subClassOf	CHEBI:35605	
+WARN	multiple_asserted_superclasses	CHEBI:33575	rdfs:subClassOf	CHEBI:36586	
+WARN	multiple_asserted_superclasses	CHEBI:33575	rdfs:subClassOf	CHEBI:64709	
 WARN	multiple_asserted_superclasses	CHEBI:33659	rdfs:subClassOf	CHEBI:33655	
 WARN	multiple_asserted_superclasses	CHEBI:33659	rdfs:subClassOf	CHEBI:33832	
+WARN	multiple_asserted_superclasses	CHEBI:33671	rdfs:subClassOf	CHEBI:33635	
+WARN	multiple_asserted_superclasses	CHEBI:33671	rdfs:subClassOf	CHEBI:5686	
+WARN	multiple_asserted_superclasses	CHEBI:33672	rdfs:subClassOf	CHEBI:33636	
+WARN	multiple_asserted_superclasses	CHEBI:33672	rdfs:subClassOf	CHEBI:5686	
 WARN	multiple_asserted_superclasses	CHEBI:33679	rdfs:subClassOf	CHEBI:33583	
 WARN	multiple_asserted_superclasses	CHEBI:33679	rdfs:subClassOf	CHEBI:33674	
 WARN	multiple_asserted_superclasses	CHEBI:33692	rdfs:subClassOf	CHEBI:33608	
@@ -430,6 +456,8 @@ WARN	multiple_asserted_superclasses	CHEBI:33976	rdfs:subClassOf	CHEBI:25108
 WARN	multiple_asserted_superclasses	CHEBI:33976	rdfs:subClassOf	CHEBI:35217	
 WARN	multiple_asserted_superclasses	CHEBI:35106	rdfs:subClassOf	CHEBI:35881	
 WARN	multiple_asserted_superclasses	CHEBI:35106	rdfs:subClassOf	CHEBI:51143	
+WARN	multiple_asserted_superclasses	CHEBI:35186	rdfs:subClassOf	CHEBI:24632	
+WARN	multiple_asserted_superclasses	CHEBI:35186	rdfs:subClassOf	CHEBI:24913	
 WARN	multiple_asserted_superclasses	CHEBI:35217	rdfs:subClassOf	CHEBI:33299	
 WARN	multiple_asserted_superclasses	CHEBI:35217	rdfs:subClassOf	CHEBI:36562	
 WARN	multiple_asserted_superclasses	CHEBI:35274	rdfs:subClassOf	CHEBI:33702	
@@ -442,10 +470,15 @@ WARN	multiple_asserted_superclasses	CHEBI:35406	rdfs:subClassOf	CHEBI:25741
 WARN	multiple_asserted_superclasses	CHEBI:35406	rdfs:subClassOf	CHEBI:33273	
 WARN	multiple_asserted_superclasses	CHEBI:35479	rdfs:subClassOf	CHEBI:24866	
 WARN	multiple_asserted_superclasses	CHEBI:35479	rdfs:subClassOf	CHEBI:33296	
+WARN	multiple_asserted_superclasses	CHEBI:35605	rdfs:subClassOf	CHEBI:24833	
+WARN	multiple_asserted_superclasses	CHEBI:35605	rdfs:subClassOf	CHEBI:36963	
 WARN	multiple_asserted_superclasses	CHEBI:35881	rdfs:subClassOf	CHEBI:33242	
 WARN	multiple_asserted_superclasses	CHEBI:35881	rdfs:subClassOf	CHEBI:33302	
 WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:23114	
 WARN	multiple_asserted_superclasses	CHEBI:36093	rdfs:subClassOf	CHEBI:24839	
+WARN	multiple_asserted_superclasses	CHEBI:36244	rdfs:subClassOf	CHEBI:131927	
+WARN	multiple_asserted_superclasses	CHEBI:36244	rdfs:subClassOf	CHEBI:33308	
+WARN	multiple_asserted_superclasses	CHEBI:36244	rdfs:subClassOf	CHEBI:33575	
 WARN	multiple_asserted_superclasses	CHEBI:36309	rdfs:subClassOf	CHEBI:26932	
 WARN	multiple_asserted_superclasses	CHEBI:36309	rdfs:subClassOf	CHEBI:47882	
 WARN	multiple_asserted_superclasses	CHEBI:36358	rdfs:subClassOf	CHEBI:24870	
@@ -484,8 +517,12 @@ WARN	multiple_asserted_superclasses	CHEBI:38101	rdfs:subClassOf	CHEBI:24532
 WARN	multiple_asserted_superclasses	CHEBI:38101	rdfs:subClassOf	CHEBI:35352	
 WARN	multiple_asserted_superclasses	CHEBI:38104	rdfs:subClassOf	CHEBI:24532	
 WARN	multiple_asserted_superclasses	CHEBI:38104	rdfs:subClassOf	CHEBI:36963	
+WARN	multiple_asserted_superclasses	CHEBI:38166	rdfs:subClassOf	CHEBI:24532	
+WARN	multiple_asserted_superclasses	CHEBI:38166	rdfs:subClassOf	CHEBI:33671	
 WARN	multiple_asserted_superclasses	CHEBI:38251	rdfs:subClassOf	CHEBI:33909	
 WARN	multiple_asserted_superclasses	CHEBI:38251	rdfs:subClassOf	CHEBI:33976	
+WARN	multiple_asserted_superclasses	CHEBI:38669	rdfs:subClassOf	CHEBI:27171	
+WARN	multiple_asserted_superclasses	CHEBI:38669	rdfs:subClassOf	CHEBI:38101	
 WARN	multiple_asserted_superclasses	CHEBI:38702	rdfs:subClassOf	CHEBI:24839	
 WARN	multiple_asserted_superclasses	CHEBI:38702	rdfs:subClassOf	CHEBI:26714	
 WARN	multiple_asserted_superclasses	CHEBI:50047	rdfs:subClassOf	CHEBI:35352	
@@ -501,6 +538,10 @@ WARN	multiple_asserted_superclasses	CHEBI:52625	rdfs:subClassOf	CHEBI:24651
 WARN	multiple_asserted_superclasses	CHEBI:52625	rdfs:subClassOf	CHEBI:24835	
 WARN	multiple_asserted_superclasses	CHEBI:72695	rdfs:subClassOf	CHEBI:25367	
 WARN	multiple_asserted_superclasses	CHEBI:72695	rdfs:subClassOf	CHEBI:50860	
+WARN	multiple_asserted_superclasses	CHEBI:73113	rdfs:subClassOf	CHEBI:25248	
+WARN	multiple_asserted_superclasses	CHEBI:73113	rdfs:subClassOf	CHEBI:28966	
+WARN	multiple_asserted_superclasses	CHEBI:73115	rdfs:subClassOf	CHEBI:25248	
+WARN	multiple_asserted_superclasses	CHEBI:73115	rdfs:subClassOf	CHEBI:28966	
 WARN	multiple_asserted_superclasses	CL:0000000	rdfs:subClassOf	BFO:0000040	
 WARN	multiple_asserted_superclasses	CL:0000000	rdfs:subClassOf	CARO:0000003	
 WARN	multiple_asserted_superclasses	CL:0000578	rdfs:subClassOf	CL:0000000	
@@ -533,6 +574,8 @@ WARN	multiple_asserted_superclasses	ENVO:01000307	rdfs:subClassOf	ENVO:01000317
 WARN	multiple_asserted_superclasses	ENVO:01000307	rdfs:subClassOf	ENVO:01001040	
 WARN	multiple_asserted_superclasses	ENVO:01000317	rdfs:subClassOf	ENVO:01000997	
 WARN	multiple_asserted_superclasses	ENVO:01000317	rdfs:subClassOf	ENVO:01000998	
+WARN	multiple_asserted_superclasses	ENVO:01000554	rdfs:subClassOf	ENVO:01000797	
+WARN	multiple_asserted_superclasses	ENVO:01000554	rdfs:subClassOf	ENVO:2000045	
 WARN	multiple_asserted_superclasses	ENVO:01000624	rdfs:subClassOf	ENVO:01000724	
 WARN	multiple_asserted_superclasses	ENVO:01000624	rdfs:subClassOf	ENVO:02500031	
 WARN	multiple_asserted_superclasses	ENVO:01000635	rdfs:subClassOf	ENVO:01000324	
@@ -567,6 +610,8 @@ WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01000254
 WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01001110	
 WARN	multiple_asserted_superclasses	ENVO:01001191	rdfs:subClassOf	ENVO:01000325	
 WARN	multiple_asserted_superclasses	ENVO:01001191	rdfs:subClassOf	ENVO:01001310	
+WARN	multiple_asserted_superclasses	ENVO:01001215	rdfs:subClassOf	ENVO:01001211	
+WARN	multiple_asserted_superclasses	ENVO:01001215	rdfs:subClassOf	ENVO:21001215	
 WARN	multiple_asserted_superclasses	ENVO:01001273	rdfs:subClassOf	ENVO:01000281	
 WARN	multiple_asserted_superclasses	ENVO:01001273	rdfs:subClassOf	ENVO:01001477	
 WARN	multiple_asserted_superclasses	ENVO:01001275	rdfs:subClassOf	ENVO:00000191	
@@ -657,8 +702,8 @@ WARN	multiple_asserted_superclasses	OBI:0001010	rdfs:subClassOf	OBI:0000423
 WARN	multiple_asserted_superclasses	OBI:0001010	rdfs:subClassOf	OBI:0000953	
 WARN	multiple_asserted_superclasses	OBI:0200041	rdfs:subClassOf	OBI:0200171	
 WARN	multiple_asserted_superclasses	OBI:0200041	rdfs:subClassOf	OBI:0200175	
-WARN	multiple_asserted_superclasses	PATO:0000018	rdfs:subClassOf	BFO:0000016	
-WARN	multiple_asserted_superclasses	PATO:0000018	rdfs:subClassOf	PATO:0001296	
+WARN	multiple_asserted_superclasses	PATO:0000044	rdfs:subClassOf	PATO:0000161	
+WARN	multiple_asserted_superclasses	PATO:0000044	rdfs:subClassOf	PATO:0050000	
 WARN	multiple_asserted_superclasses	PATO:0000051	rdfs:subClassOf	BFO:0000019	
 WARN	multiple_asserted_superclasses	PATO:0000051	rdfs:subClassOf	PATO:0001241	
 WARN	multiple_asserted_superclasses	PATO:0000122	rdfs:subClassOf	BFO:0000019	
@@ -669,6 +714,10 @@ WARN	multiple_asserted_superclasses	PATO:0000146	rdfs:subClassOf	PATO:0001018
 WARN	multiple_asserted_superclasses	PATO:0000146	rdfs:subClassOf	PATO:0001237	
 WARN	multiple_asserted_superclasses	PATO:0000186	rdfs:subClassOf	PATO:0001237	
 WARN	multiple_asserted_superclasses	PATO:0000186	rdfs:subClassOf	PATO:0001995	
+WARN	multiple_asserted_superclasses	PATO:0000303	rdfs:subClassOf	PATO:0000008	
+WARN	multiple_asserted_superclasses	PATO:0000303	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0000304	rdfs:subClassOf	PATO:0000008	
+WARN	multiple_asserted_superclasses	PATO:0000304	rdfs:subClassOf	PATO:0002303	
 WARN	multiple_asserted_superclasses	PATO:0000374	rdfs:subClassOf	PATO:0000040	
 WARN	multiple_asserted_superclasses	PATO:0000374	rdfs:subClassOf	PATO:0002305	
 WARN	multiple_asserted_superclasses	PATO:0000375	rdfs:subClassOf	PATO:0000040	
@@ -681,6 +730,8 @@ WARN	multiple_asserted_superclasses	PATO:0000386	rdfs:subClassOf	PATO:0000048
 WARN	multiple_asserted_superclasses	PATO:0000386	rdfs:subClassOf	PATO:0002305	
 WARN	multiple_asserted_superclasses	PATO:0000387	rdfs:subClassOf	PATO:0000048	
 WARN	multiple_asserted_superclasses	PATO:0000387	rdfs:subClassOf	PATO:0002303	
+WARN	multiple_asserted_superclasses	PATO:0000461	rdfs:subClassOf	PATO:0000068	
+WARN	multiple_asserted_superclasses	PATO:0000461	rdfs:subClassOf	PATO:0000069	
 WARN	multiple_asserted_superclasses	PATO:0000498	rdfs:subClassOf	PATO:0001309	
 WARN	multiple_asserted_superclasses	PATO:0000498	rdfs:subClassOf	PATO:0002304	
 WARN	multiple_asserted_superclasses	PATO:0000499	rdfs:subClassOf	PATO:0001309	
@@ -709,6 +760,8 @@ WARN	multiple_asserted_superclasses	PATO:0000918	rdfs:subClassOf	PATO:0001237
 WARN	multiple_asserted_superclasses	PATO:0000918	rdfs:subClassOf	PATO:0001710	
 WARN	multiple_asserted_superclasses	PATO:0001025	rdfs:subClassOf	PATO:0001018	
 WARN	multiple_asserted_superclasses	PATO:0001025	rdfs:subClassOf	PATO:0001237	
+WARN	multiple_asserted_superclasses	PATO:0001241	rdfs:subClassOf	BFO:0000019	
+WARN	multiple_asserted_superclasses	PATO:0001241	rdfs:subClassOf	PATO:0000001	
 WARN	multiple_asserted_superclasses	PATO:0001305	rdfs:subClassOf	PATO:0000146	
 WARN	multiple_asserted_superclasses	PATO:0001305	rdfs:subClassOf	PATO:0002305	
 WARN	multiple_asserted_superclasses	PATO:0001306	rdfs:subClassOf	PATO:0000146	
@@ -771,6 +824,10 @@ WARN	multiple_asserted_superclasses	PATO:0002304	rdfs:subClassOf	PATO:0001236
 WARN	multiple_asserted_superclasses	PATO:0002304	rdfs:subClassOf	PATO:0002300	
 WARN	multiple_asserted_superclasses	PATO:0002305	rdfs:subClassOf	PATO:0001241	
 WARN	multiple_asserted_superclasses	PATO:0002305	rdfs:subClassOf	PATO:0002300	
+WARN	multiple_asserted_superclasses	PATO:0015022	rdfs:subClassOf	PATO:0002305	
+WARN	multiple_asserted_superclasses	PATO:0015022	rdfs:subClassOf	PATO:0015021	
+WARN	multiple_asserted_superclasses	PATO:0015023	rdfs:subClassOf	PATO:0002303	
+WARN	multiple_asserted_superclasses	PATO:0015023	rdfs:subClassOf	PATO:0015021	
 WARN	multiple_asserted_superclasses	PATO:0015024	rdfs:subClassOf	PATO:0000973	
 WARN	multiple_asserted_superclasses	PATO:0015024	rdfs:subClassOf	PATO:0002305	
 WARN	multiple_asserted_superclasses	PATO:0015025	rdfs:subClassOf	PATO:0000973	
@@ -868,6 +925,7 @@ WARN	missing_definition	CARO:0000006	IAO:0000600
 WARN	missing_definition	CARO:0001010	IAO:0000600		
 WARN	missing_definition	CARO:0030000	IAO:0000115		
 WARN	missing_definition	CARO:0030000	IAO:0000600		
+WARN	missing_definition	CHEBI:131927	IAO:0000600		
 WARN	missing_definition	CHEBI:138675	IAO:0000115		
 WARN	missing_definition	CHEBI:138675	IAO:0000600		
 WARN	missing_definition	CHEBI:15022	IAO:0000115		
@@ -879,6 +937,8 @@ WARN	missing_definition	CHEBI:16301	IAO:0000115
 WARN	missing_definition	CHEBI:16301	IAO:0000600		
 WARN	missing_definition	CHEBI:16526	IAO:0000600		
 WARN	missing_definition	CHEBI:16670	IAO:0000600		
+WARN	missing_definition	CHEBI:16900	IAO:0000115		
+WARN	missing_definition	CHEBI:16900	IAO:0000600		
 WARN	missing_definition	CHEBI:16991	IAO:0000600		
 WARN	missing_definition	CHEBI:17632	IAO:0000115		
 WARN	missing_definition	CHEBI:17632	IAO:0000600		
@@ -892,6 +952,7 @@ WARN	missing_definition	CHEBI:18230	IAO:0000600
 WARN	missing_definition	CHEBI:22563	IAO:0000600		
 WARN	missing_definition	CHEBI:23014	IAO:0000115		
 WARN	missing_definition	CHEBI:23014	IAO:0000600		
+WARN	missing_definition	CHEBI:23042	IAO:0000600		
 WARN	missing_definition	CHEBI:23043	IAO:0000115		
 WARN	missing_definition	CHEBI:23043	IAO:0000600		
 WARN	missing_definition	CHEBI:23044	IAO:0000600		
@@ -906,6 +967,7 @@ WARN	missing_definition	CHEBI:24432	IAO:0000600
 WARN	missing_definition	CHEBI:24471	IAO:0000115		
 WARN	missing_definition	CHEBI:24471	IAO:0000600		
 WARN	missing_definition	CHEBI:24532	IAO:0000600		
+WARN	missing_definition	CHEBI:24632	IAO:0000600		
 WARN	missing_definition	CHEBI:24651	IAO:0000600		
 WARN	missing_definition	CHEBI:24833	IAO:0000600		
 WARN	missing_definition	CHEBI:24834	IAO:0000115		
@@ -926,6 +988,8 @@ WARN	missing_definition	CHEBI:25248	IAO:0000600
 WARN	missing_definition	CHEBI:25362	IAO:0000115		
 WARN	missing_definition	CHEBI:25362	IAO:0000600		
 WARN	missing_definition	CHEBI:25367	IAO:0000600		
+WARN	missing_definition	CHEBI:25501	IAO:0000115		
+WARN	missing_definition	CHEBI:25501	IAO:0000600		
 WARN	missing_definition	CHEBI:25698	IAO:0000600		
 WARN	missing_definition	CHEBI:25701	IAO:0000600		
 WARN	missing_definition	CHEBI:25741	IAO:0000600		
@@ -950,26 +1014,38 @@ WARN	missing_definition	CHEBI:26878	IAO:0000115
 WARN	missing_definition	CHEBI:26878	IAO:0000600		
 WARN	missing_definition	CHEBI:26932	IAO:0000600		
 WARN	missing_definition	CHEBI:26935	IAO:0000600		
+WARN	missing_definition	CHEBI:27171	IAO:0000115		
+WARN	missing_definition	CHEBI:27171	IAO:0000600		
+WARN	missing_definition	CHEBI:27295	IAO:0000115		
+WARN	missing_definition	CHEBI:27295	IAO:0000600		
 WARN	missing_definition	CHEBI:27325	IAO:0000600		
 WARN	missing_definition	CHEBI:27547	IAO:0000115		
 WARN	missing_definition	CHEBI:27547	IAO:0000600		
 WARN	missing_definition	CHEBI:27888	IAO:0000115		
 WARN	missing_definition	CHEBI:27888	IAO:0000600		
+WARN	missing_definition	CHEBI:28315	IAO:0000115		
+WARN	missing_definition	CHEBI:28315	IAO:0000600		
+WARN	missing_definition	CHEBI:28838	IAO:0000115		
+WARN	missing_definition	CHEBI:28838	IAO:0000600		
 WARN	missing_definition	CHEBI:28938	IAO:0000115		
 WARN	missing_definition	CHEBI:28938	IAO:0000600		
 WARN	missing_definition	CHEBI:28966	IAO:0000115		
 WARN	missing_definition	CHEBI:28966	IAO:0000600		
 WARN	missing_definition	CHEBI:29241	IAO:0000115		
 WARN	missing_definition	CHEBI:29241	IAO:0000600		
+WARN	missing_definition	CHEBI:30033	IAO:0000115		
+WARN	missing_definition	CHEBI:30033	IAO:0000600		
 WARN	missing_definition	CHEBI:30879	IAO:0000600		
 WARN	missing_definition	CHEBI:32955	IAO:0000115		
 WARN	missing_definition	CHEBI:32955	IAO:0000600		
 WARN	missing_definition	CHEBI:32988	IAO:0000600		
+WARN	missing_definition	CHEBI:33232	IAO:0000600		
 WARN	missing_definition	CHEBI:33240	IAO:0000600		
 WARN	missing_definition	CHEBI:33241	IAO:0000115		
 WARN	missing_definition	CHEBI:33241	IAO:0000600		
 WARN	missing_definition	CHEBI:33242	IAO:0000115		
 WARN	missing_definition	CHEBI:33242	IAO:0000600		
+WARN	missing_definition	CHEBI:33245	IAO:0000600		
 WARN	missing_definition	CHEBI:33250	IAO:0000600		
 WARN	missing_definition	CHEBI:33256	IAO:0000600		
 WARN	missing_definition	CHEBI:33259	IAO:0000600		
@@ -985,6 +1061,8 @@ WARN	missing_definition	CHEBI:33273	IAO:0000600
 WARN	missing_definition	CHEBI:33284	IAO:0000600		
 WARN	missing_definition	CHEBI:33285	IAO:0000600		
 WARN	missing_definition	CHEBI:33290	IAO:0000600		
+WARN	missing_definition	CHEBI:33292	IAO:0000115		
+WARN	missing_definition	CHEBI:33292	IAO:0000600		
 WARN	missing_definition	CHEBI:33296	IAO:0000600		
 WARN	missing_definition	CHEBI:33299	IAO:0000600		
 WARN	missing_definition	CHEBI:33302	IAO:0000600		
@@ -1000,6 +1078,7 @@ WARN	missing_definition	CHEBI:33465	IAO:0000115
 WARN	missing_definition	CHEBI:33465	IAO:0000600		
 WARN	missing_definition	CHEBI:33521	IAO:0000115		
 WARN	missing_definition	CHEBI:33521	IAO:0000600		
+WARN	missing_definition	CHEBI:33575	IAO:0000600		
 WARN	missing_definition	CHEBI:33579	IAO:0000600		
 WARN	missing_definition	CHEBI:33582	IAO:0000115		
 WARN	missing_definition	CHEBI:33582	IAO:0000600		
@@ -1007,9 +1086,15 @@ WARN	missing_definition	CHEBI:33583	IAO:0000600
 WARN	missing_definition	CHEBI:33595	IAO:0000600		
 WARN	missing_definition	CHEBI:33608	IAO:0000115		
 WARN	missing_definition	CHEBI:33608	IAO:0000600		
+WARN	missing_definition	CHEBI:33635	IAO:0000115		
+WARN	missing_definition	CHEBI:33635	IAO:0000600		
+WARN	missing_definition	CHEBI:33636	IAO:0000600		
 WARN	missing_definition	CHEBI:33655	IAO:0000600		
 WARN	missing_definition	CHEBI:33659	IAO:0000115		
 WARN	missing_definition	CHEBI:33659	IAO:0000600		
+WARN	missing_definition	CHEBI:33671	IAO:0000115		
+WARN	missing_definition	CHEBI:33671	IAO:0000600		
+WARN	missing_definition	CHEBI:33672	IAO:0000600		
 WARN	missing_definition	CHEBI:33674	IAO:0000600		
 WARN	missing_definition	CHEBI:33675	IAO:0000600		
 WARN	missing_definition	CHEBI:33679	IAO:0000115		
@@ -1034,6 +1119,8 @@ WARN	missing_definition	CHEBI:33976	IAO:0000115
 WARN	missing_definition	CHEBI:33976	IAO:0000600		
 WARN	missing_definition	CHEBI:35106	IAO:0000115		
 WARN	missing_definition	CHEBI:35106	IAO:0000600		
+WARN	missing_definition	CHEBI:35186	IAO:0000600		
+WARN	missing_definition	CHEBI:35193	IAO:0000600		
 WARN	missing_definition	CHEBI:35217	IAO:0000115		
 WARN	missing_definition	CHEBI:35217	IAO:0000600		
 WARN	missing_definition	CHEBI:35274	IAO:0000115		
@@ -1044,12 +1131,15 @@ WARN	missing_definition	CHEBI:35352	IAO:0000600
 WARN	missing_definition	CHEBI:35406	IAO:0000600		
 WARN	missing_definition	CHEBI:35479	IAO:0000115		
 WARN	missing_definition	CHEBI:35479	IAO:0000600		
+WARN	missing_definition	CHEBI:35605	IAO:0000115		
+WARN	missing_definition	CHEBI:35605	IAO:0000600		
 WARN	missing_definition	CHEBI:35681	IAO:0000600		
 WARN	missing_definition	CHEBI:35701	IAO:0000600		
 WARN	missing_definition	CHEBI:35881	IAO:0000115		
 WARN	missing_definition	CHEBI:35881	IAO:0000600		
 WARN	missing_definition	CHEBI:36093	IAO:0000115		
 WARN	missing_definition	CHEBI:36093	IAO:0000600		
+WARN	missing_definition	CHEBI:36244	IAO:0000600		
 WARN	missing_definition	CHEBI:36309	IAO:0000115		
 WARN	missing_definition	CHEBI:36309	IAO:0000600		
 WARN	missing_definition	CHEBI:36342	IAO:0000115		
@@ -1074,6 +1164,8 @@ WARN	missing_definition	CHEBI:36915	IAO:0000600
 WARN	missing_definition	CHEBI:36916	IAO:0000600		
 WARN	missing_definition	CHEBI:36962	IAO:0000600		
 WARN	missing_definition	CHEBI:36963	IAO:0000600		
+WARN	missing_definition	CHEBI:37175	IAO:0000115		
+WARN	missing_definition	CHEBI:37175	IAO:0000600		
 WARN	missing_definition	CHEBI:37176	IAO:0000115		
 WARN	missing_definition	CHEBI:37176	IAO:0000600		
 WARN	missing_definition	CHEBI:37190	IAO:0000115		
@@ -1090,10 +1182,20 @@ WARN	missing_definition	CHEBI:37622	IAO:0000600
 WARN	missing_definition	CHEBI:38077	IAO:0000600		
 WARN	missing_definition	CHEBI:38101	IAO:0000600		
 WARN	missing_definition	CHEBI:38104	IAO:0000600		
+WARN	missing_definition	CHEBI:38166	IAO:0000115		
+WARN	missing_definition	CHEBI:38166	IAO:0000600		
+WARN	missing_definition	CHEBI:38201	IAO:0000115		
+WARN	missing_definition	CHEBI:38201	IAO:0000600		
+WARN	missing_definition	CHEBI:38206	IAO:0000115		
+WARN	missing_definition	CHEBI:38206	IAO:0000600		
 WARN	missing_definition	CHEBI:38251	IAO:0000115		
 WARN	missing_definition	CHEBI:38251	IAO:0000600		
+WARN	missing_definition	CHEBI:38669	IAO:0000115		
+WARN	missing_definition	CHEBI:38669	IAO:0000600		
 WARN	missing_definition	CHEBI:38702	IAO:0000115		
 WARN	missing_definition	CHEBI:38702	IAO:0000600		
+WARN	missing_definition	CHEBI:44882	IAO:0000115		
+WARN	missing_definition	CHEBI:44882	IAO:0000600		
 WARN	missing_definition	CHEBI:46662	IAO:0000600		
 WARN	missing_definition	CHEBI:46890	IAO:0000115		
 WARN	missing_definition	CHEBI:46890	IAO:0000600		
@@ -1127,7 +1229,12 @@ WARN	missing_definition	CHEBI:60242	IAO:0000600
 WARN	missing_definition	CHEBI:62764	IAO:0000115		
 WARN	missing_definition	CHEBI:62764	IAO:0000600		
 WARN	missing_definition	CHEBI:64708	IAO:0000600		
+WARN	missing_definition	CHEBI:64709	IAO:0000600		
 WARN	missing_definition	CHEBI:72695	IAO:0000600		
+WARN	missing_definition	CHEBI:73113	IAO:0000115		
+WARN	missing_definition	CHEBI:73113	IAO:0000600		
+WARN	missing_definition	CHEBI:73115	IAO:0000115		
+WARN	missing_definition	CHEBI:73115	IAO:0000600		
 WARN	missing_definition	CHEBI:76413	IAO:0000115		
 WARN	missing_definition	CHEBI:76413	IAO:0000600		
 WARN	missing_definition	CHEBI:78295	IAO:0000600		
@@ -1229,6 +1336,7 @@ WARN	missing_definition	ENVO:01000343	IAO:0000600
 WARN	missing_definition	ENVO:01000357	IAO:0000600		
 WARN	missing_definition	ENVO:01000406	IAO:0000600		
 WARN	missing_definition	ENVO:01000408	IAO:0000600		
+WARN	missing_definition	ENVO:01000554	IAO:0000600		
 WARN	missing_definition	ENVO:01000617	IAO:0000600		
 WARN	missing_definition	ENVO:01000624	IAO:0000600		
 WARN	missing_definition	ENVO:01000635	IAO:0000600		
@@ -1242,8 +1350,10 @@ WARN	missing_definition	ENVO:01000724	IAO:0000600
 WARN	missing_definition	ENVO:01000739	IAO:0000600		
 WARN	missing_definition	ENVO:01000755	IAO:0000600		
 WARN	missing_definition	ENVO:01000797	IAO:0000600		
+WARN	missing_definition	ENVO:01000798	IAO:0000600		
 WARN	missing_definition	ENVO:01000799	IAO:0000600		
 WARN	missing_definition	ENVO:01000800	IAO:0000600		
+WARN	missing_definition	ENVO:01000801	IAO:0000600		
 WARN	missing_definition	ENVO:01000804	IAO:0000600		
 WARN	missing_definition	ENVO:01000813	IAO:0000600		
 WARN	missing_definition	ENVO:01000814	IAO:0000600		
@@ -1295,6 +1405,8 @@ WARN	missing_definition	ENVO:01001192	IAO:0000600
 WARN	missing_definition	ENVO:01001199	IAO:0000600		
 WARN	missing_definition	ENVO:01001201	IAO:0000600		
 WARN	missing_definition	ENVO:01001209	IAO:0000600		
+WARN	missing_definition	ENVO:01001211	IAO:0000600		
+WARN	missing_definition	ENVO:01001215	IAO:0000600		
 WARN	missing_definition	ENVO:01001226	IAO:0000600		
 WARN	missing_definition	ENVO:01001227	IAO:0000600		
 WARN	missing_definition	ENVO:01001273	IAO:0000600		
@@ -1357,16 +1469,29 @@ WARN	missing_definition	ENVO:09200016	IAO:0000600
 WARN	missing_definition	ENVO:09200017	IAO:0000600		
 WARN	missing_definition	ENVO:09200018	IAO:0000600		
 WARN	missing_definition	ENVO:09200021	IAO:0000600		
+WARN	missing_definition	ENVO:2000045	IAO:0000115		
+WARN	missing_definition	ENVO:2000045	IAO:0000600		
 WARN	missing_definition	ENVO:2100000	IAO:0000600		
+WARN	missing_definition	ENVO:21001215	IAO:0000600		
+WARN	missing_definition	ENVO:3100002	IAO:0000600		
 WARN	missing_definition	ENVO:3100004	IAO:0000600		
+WARN	missing_definition	ENVO:3100005	IAO:0000600		
+WARN	missing_definition	ENVO:3100007	IAO:0000600		
 WARN	missing_definition	ENVO:3100008	IAO:0000600		
 WARN	missing_definition	ENVO:3100009	IAO:0000600		
+WARN	missing_definition	ENVO:3100010	IAO:0000600		
 WARN	missing_definition	ENVO:3100011	IAO:0000600		
+WARN	missing_definition	ENVO:3100012	IAO:0000600		
+WARN	missing_definition	ENVO:3100013	IAO:0000600		
 WARN	missing_definition	ENVO:3100014	IAO:0000600		
+WARN	missing_definition	ENVO:3100019	IAO:0000600		
+WARN	missing_definition	ENVO:3100021	IAO:0000600		
 WARN	missing_definition	ENVO:3100022	IAO:0000600		
 WARN	missing_definition	ENVO:3100023	IAO:0000600		
+WARN	missing_definition	ENVO:3100025	IAO:0000600		
 WARN	missing_definition	ENVO:3100026	IAO:0000600		
 WARN	missing_definition	ENVO:3100027	IAO:0000600		
+WARN	missing_definition	ENVO:3100028	IAO:0000600		
 WARN	missing_definition	ENVO:3100029	IAO:0000600		
 WARN	missing_definition	ENVO:3100030	IAO:0000600		
 WARN	missing_definition	ENVO:3100031	IAO:0000600		
@@ -1527,7 +1652,9 @@ WARN	missing_definition	IAO:0000219	IAO:0000600
 WARN	missing_definition	IAO:0000225	IAO:0000600		
 WARN	missing_definition	IAO:0000231	IAO:0000600		
 WARN	missing_definition	IAO:0000232	IAO:0000600		
+WARN	missing_definition	IAO:0000233	IAO:0000600		
 WARN	missing_definition	IAO:0000234	IAO:0000600		
+WARN	missing_definition	IAO:0000235	IAO:0000600		
 WARN	missing_definition	IAO:0000300	IAO:0000600		
 WARN	missing_definition	IAO:0000305	IAO:0000600		
 WARN	missing_definition	IAO:0000308	IAO:0000600		
@@ -1668,6 +1795,7 @@ WARN	missing_definition	OBI:0000626	IAO:0000600
 WARN	missing_definition	OBI:0000639	IAO:0000600		
 WARN	missing_definition	OBI:0000643	IAO:0000600		
 WARN	missing_definition	OBI:0000648	IAO:0000600		
+WARN	missing_definition	OBI:0000650	IAO:0000600		
 WARN	missing_definition	OBI:0000659	IAO:0000600		
 WARN	missing_definition	OBI:0000663	IAO:0000600		
 WARN	missing_definition	OBI:0000671	IAO:0000600		
@@ -1732,6 +1860,7 @@ WARN	missing_definition	OBI:0001852	IAO:0000600
 WARN	missing_definition	OBI:0001885	IAO:0000600		
 WARN	missing_definition	OBI:0001886	IAO:0000600		
 WARN	missing_definition	OBI:0001891	IAO:0000600		
+WARN	missing_definition	OBI:0001898	IAO:0000600		
 WARN	missing_definition	OBI:0001900	IAO:0000600		
 WARN	missing_definition	OBI:0001901	IAO:0000600		
 WARN	missing_definition	OBI:0001902	IAO:0000600		
@@ -1777,6 +1906,7 @@ WARN	missing_definition	OBI:0100026	IAO:0000600
 WARN	missing_definition	OBI:0100051	IAO:0000600		
 WARN	missing_definition	OBI:0100060	IAO:0000600		
 WARN	missing_definition	OBI:0200000	IAO:0000600		
+WARN	missing_definition	OBI:0200031	IAO:0000600		
 WARN	missing_definition	OBI:0200033	IAO:0000600		
 WARN	missing_definition	OBI:0200041	IAO:0000600		
 WARN	missing_definition	OBI:0200042	IAO:0000600		
@@ -1806,6 +1936,7 @@ WARN	missing_definition	OBI:1000029	IAO:0000600
 WARN	missing_definition	OBI:1110108	IAO:0000600		
 WARN	missing_definition	OBI:9991118	IAO:0000600		
 WARN	missing_definition	PATO:0000001	IAO:0000600		
+WARN	missing_definition	PATO:0000008	IAO:0000600		
 WARN	missing_definition	PATO:0000018	IAO:0000600		
 WARN	missing_definition	PATO:0000025	IAO:0000600		
 WARN	missing_definition	PATO:0000033	IAO:0000600		
@@ -1828,6 +1959,8 @@ WARN	missing_definition	PATO:0000146	IAO:0000600
 WARN	missing_definition	PATO:0000161	IAO:0000600		
 WARN	missing_definition	PATO:0000165	IAO:0000600		
 WARN	missing_definition	PATO:0000186	IAO:0000600		
+WARN	missing_definition	PATO:0000303	IAO:0000600		
+WARN	missing_definition	PATO:0000304	IAO:0000600		
 WARN	missing_definition	PATO:0000374	IAO:0000600		
 WARN	missing_definition	PATO:0000375	IAO:0000600		
 WARN	missing_definition	PATO:0000380	IAO:0000600		
@@ -1936,8 +2069,12 @@ WARN	missing_definition	PATO:0002303	IAO:0000600
 WARN	missing_definition	PATO:0002304	IAO:0000600		
 WARN	missing_definition	PATO:0002305	IAO:0000600		
 WARN	missing_definition	PATO:0002364	IAO:0000600		
+WARN	missing_definition	PATO:0015021	IAO:0000600		
+WARN	missing_definition	PATO:0015022	IAO:0000600		
+WARN	missing_definition	PATO:0015023	IAO:0000600		
 WARN	missing_definition	PATO:0015024	IAO:0000600		
 WARN	missing_definition	PATO:0015025	IAO:0000600		
+WARN	missing_definition	PATO:0050000	IAO:0000600		
 WARN	missing_definition	PCO:0000000	IAO:0000600		
 WARN	missing_definition	PCO:0000001	IAO:0000600		
 WARN	missing_definition	PCO:0000002	IAO:0000600		
@@ -1971,7 +2108,6 @@ WARN	missing_definition	PMO:00000018	IAO:0000600
 WARN	missing_definition	PMO:00000019	IAO:0000600		
 WARN	missing_definition	PMO:00000020	IAO:0000600		
 WARN	missing_definition	PMO:00000021	IAO:0000600		
-WARN	missing_definition	PMO:00000022	IAO:0000115		
 WARN	missing_definition	PMO:00000022	IAO:0000600		
 WARN	missing_definition	PMO:00000023	IAO:0000600		
 WARN	missing_definition	PMO:00000024	IAO:0000600		
@@ -1998,13 +2134,11 @@ WARN	missing_definition	PMO:00000050	IAO:0000115
 WARN	missing_definition	PMO:00000050	IAO:0000600		
 WARN	missing_definition	PMO:00000051	IAO:0000115		
 WARN	missing_definition	PMO:00000051	IAO:0000600		
-WARN	missing_definition	PMO:00000052	IAO:0000115		
 WARN	missing_definition	PMO:00000052	IAO:0000600		
 WARN	missing_definition	PMO:00000053	IAO:0000115		
 WARN	missing_definition	PMO:00000053	IAO:0000600		
 WARN	missing_definition	PMO:00000054	IAO:0000115		
 WARN	missing_definition	PMO:00000054	IAO:0000600		
-WARN	missing_definition	PMO:00000056	IAO:0000115		
 WARN	missing_definition	PMO:00000056	IAO:0000600		
 WARN	missing_definition	PMO:00000057	IAO:0000115		
 WARN	missing_definition	PMO:00000057	IAO:0000600		
@@ -2012,7 +2146,6 @@ WARN	missing_definition	PMO:00000058	IAO:0000115
 WARN	missing_definition	PMO:00000058	IAO:0000600		
 WARN	missing_definition	PMO:00000059	IAO:0000115		
 WARN	missing_definition	PMO:00000059	IAO:0000600		
-WARN	missing_definition	PMO:00000060	IAO:0000115		
 WARN	missing_definition	PMO:00000060	IAO:0000600		
 WARN	missing_definition	PMO:00000061	IAO:0000115		
 WARN	missing_definition	PMO:00000061	IAO:0000600		
@@ -2035,7 +2168,6 @@ WARN	missing_definition	PMO:00000072	IAO:0000115
 WARN	missing_definition	PMO:00000072	IAO:0000600		
 WARN	missing_definition	PMO:00000073	IAO:0000600		
 WARN	missing_definition	PMO:00000074	IAO:0000600		
-WARN	missing_definition	PMO:00000075	IAO:0000115		
 WARN	missing_definition	PMO:00000075	IAO:0000600		
 WARN	missing_definition	PMO:00000076	IAO:0000600		
 WARN	missing_definition	PMO:00000077	IAO:0000600		
@@ -2045,12 +2177,10 @@ WARN	missing_definition	PMO:00000080	IAO:0000115
 WARN	missing_definition	PMO:00000080	IAO:0000600		
 WARN	missing_definition	PMO:00000081	IAO:0000115		
 WARN	missing_definition	PMO:00000081	IAO:0000600		
-WARN	missing_definition	PMO:00000082	IAO:0000115		
 WARN	missing_definition	PMO:00000082	IAO:0000600		
 WARN	missing_definition	PMO:00000083	IAO:0000600		
 WARN	missing_definition	PMO:00000084	IAO:0000115		
 WARN	missing_definition	PMO:00000084	IAO:0000600		
-WARN	missing_definition	PMO:00000085	IAO:0000115		
 WARN	missing_definition	PMO:00000085	IAO:0000600		
 WARN	missing_definition	PMO:00000086	IAO:0000115		
 WARN	missing_definition	PMO:00000086	IAO:0000600		
@@ -2062,9 +2192,7 @@ WARN	missing_definition	PMO:00000089	IAO:0000115
 WARN	missing_definition	PMO:00000089	IAO:0000600		
 WARN	missing_definition	PMO:00000090	IAO:0000115		
 WARN	missing_definition	PMO:00000090	IAO:0000600		
-WARN	missing_definition	PMO:00000091	IAO:0000115		
 WARN	missing_definition	PMO:00000091	IAO:0000600		
-WARN	missing_definition	PMO:00000092	IAO:0000115		
 WARN	missing_definition	PMO:00000092	IAO:0000600		
 WARN	missing_definition	PMO:00000093	IAO:0000600		
 WARN	missing_definition	PMO:00000100	IAO:0000600		
@@ -2088,9 +2216,7 @@ WARN	missing_definition	PMO:00000118	IAO:0000600
 WARN	missing_definition	PMO:00000120	IAO:0000600		
 WARN	missing_definition	PMO:00000121	IAO:0000600		
 WARN	missing_definition	PMO:00000122	IAO:0000600		
-WARN	missing_definition	PMO:00000123	IAO:0000115		
 WARN	missing_definition	PMO:00000123	IAO:0000600		
-WARN	missing_definition	PMO:00000124	IAO:0000115		
 WARN	missing_definition	PMO:00000124	IAO:0000600		
 WARN	missing_definition	PMO:00000125	IAO:0000600		
 WARN	missing_definition	PMO:00000126	IAO:0000600		
@@ -2123,6 +2249,7 @@ WARN	missing_definition	PMO:00000168	IAO:0000600
 WARN	missing_definition	PMO:00000169	IAO:0000600		
 WARN	missing_definition	PMO:00000170	IAO:0000600		
 WARN	missing_definition	PMO:00000171	IAO:0000600		
+WARN	missing_definition	PMO:00000172	IAO:0000600		
 WARN	missing_definition	PO:0000003	IAO:0000600		
 WARN	missing_definition	PO:0009011	IAO:0000600		
 WARN	missing_definition	PO:0025131	IAO:0000600		
@@ -2318,6 +2445,7 @@ WARN	missing_definition	RO:0040042	IAO:0000600
 WARN	missing_definition	SO:0000001	IAO:0000600		
 WARN	missing_definition	SO:0000353	IAO:0000600		
 WARN	missing_definition	SO:0001248	IAO:0000600		
+WARN	missing_definition	SO:0001410	IAO:0000600		
 WARN	missing_definition	UBERON:0000465	IAO:0000600		
 WARN	missing_definition	UBERON:0000477	IAO:0000600		
 WARN	missing_definition	UBERON:0001062	IAO:0000600		
@@ -2343,6 +2471,8 @@ WARN	missing_definition	UO:0000122	IAO:0000600
 WARN	missing_definition	UO:0000154	IAO:0000600		
 WARN	missing_definition	UO:0000155	IAO:0000600		
 WARN	missing_definition	UO:0000157	IAO:0000600		
+WARN	missing_definition	UO:0000166	IAO:0000600		
+WARN	missing_definition	UO:0000168	IAO:0000600		
 WARN	missing_definition	UO:0000177	IAO:0000600		
 WARN	missing_definition	UO:0000182	IAO:0000600		
 WARN	missing_definition	UO:0000185	IAO:0000600		
@@ -2588,6 +2718,7 @@ INFO	lowercase_definition	IAO:0000119	IAO:0000115	formal citation, e.g. identifi
 INFO	lowercase_definition	IAO:0000121	IAO:0000115	term created to ease viewing/sort terms for development purpose, and will not be included in a release@en	
 INFO	lowercase_definition	IAO:0000136	IAO:0000115	is_about is a (currently) primitive relation that relates an information artifact to an entity.@en	
 INFO	lowercase_definition	IAO:0000219	IAO:0000115	denotes is a primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically@en	
+INFO	lowercase_definition	IAO:0000235	IAO:0000115	inverse of the relation 'denotes'@en	
 INFO	lowercase_definition	IAO:0000413	IAO:0000115	relates a process to a time-measurement-datum that represents the duration of the process@en	
 INFO	lowercase_definition	IAO:0000572	IAO:0000115	a planned process in which a document is created or added to by including the specified input in it.@en	
 INFO	lowercase_definition	IAO:0000574	IAO:0000115	a planned process in which a new CRID is created, associated with an entity, and stored in the CRID registry thereby registering it as being associated with some entity@en	
@@ -2726,7 +2857,6 @@ INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#increased_in_magni
 INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2	IAO:0000115	third planet from the Sun in the Solar System	
 INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2306597	IAO:0000115	\"Suni, or Jalca, is one of the eight Natural Regions of Peru. It is located in the Andes at an altitude between 3,500 and 4,000 metres above sea level. Suni has a dry and cold weather and there are many glacial valleys. The flora includes gramineous plants and shrubs such as the taya-taya (Caesalpinia spinosa), the quishuar (Buddleja coriacea), and the cantuta (Cantua buxifolia) which was considered sacred by the Incas. Even though it is hard for plants to grow because of the weather, people are able to cultivate such crops as quinoa, qañiwa, broad beans and ulluku (Ullucus tuberosus). The main fauna is the guinea pig and, among numerous other highland birds, the Chiguanco thrush.\"	
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf		
-INFO	missing_superclass	PATO:0000008	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000000	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000044	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000088	rdfs:subClassOf		

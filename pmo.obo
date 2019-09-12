@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2019-06-07
+data-version: releases/2019-09-12
 remark: Planet Microbe Ontology
 ontology: pmo
 
@@ -504,6 +504,12 @@ name: biological entity
 is_a: BFO:0000004 ! independent continuant
 
 [Term]
+id: CHEBI:131927
+name: dicarboxylic acids and O-substituted derivatives
+def: "A class of carbonyl compound encompassing dicarboxylic acids and any derivatives obtained by substitution of either one or both of the carboxy hydrogens." []
+is_a: CHEBI:36586 ! carbonyl compound
+
+[Term]
 id: CHEBI:138675
 name: gas molecular entity
 is_a: CHEBI:33579 ! main group molecular entity
@@ -558,6 +564,13 @@ property_value: IAO:0000111 "peptide" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:16900
+name: chlorophyllide a
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:36244 ! dicarboxylic acid monoester
+is_a: CHEBI:38206 ! chlorophyllide
+
+[Term]
 id: CHEBI:16991
 name: deoxyribonucleic acid
 def: "High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms." []
@@ -607,6 +620,13 @@ id: CHEBI:23014
 name: carbon oxide
 is_a: CHEBI:25701 ! organic oxide
 is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
+id: CHEBI:23042
+name: carotene
+def: "Hydrocarbon carotenoids." []
+is_a: CHEBI:35193 ! tetraterpene
+is_a: FOODON:03412972 ! food additive
 
 [Term]
 id: CHEBI:23043
@@ -671,6 +691,12 @@ def: "A cyclic compound having as ring members atoms of carbon and at least of o
 is_a: CHEBI:33285 ! heteroorganic entity
 is_a: CHEBI:33832 ! organic cyclic compound
 is_a: CHEBI:5686 ! heterocyclic compound
+
+[Term]
+id: CHEBI:24632
+name: hydrocarbon
+def: "A compound consisting of carbon and hydrogen only." []
+is_a: CHEBI:33245 ! organic fundamental parent
 
 [Term]
 id: CHEBI:24651
@@ -758,6 +784,12 @@ id: CHEBI:25367
 name: molecule
 def: "Any polyatomic entity that is an electrically neutral entity consisting of more than one atom." []
 is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:25501
+name: neoxanthin
+is_a: CHEBI:35307 ! epoxycarotenol
+is_a: CHEBI:37602 ! allenes
 
 [Term]
 id: CHEBI:25698
@@ -863,6 +895,17 @@ def: "Any terpenoid derived from a tetraterpene. The term includes compounds in 
 is_a: CHEBI:26873 ! terpenoid
 
 [Term]
+id: CHEBI:27171
+name: organic heterobicyclic compound
+is_a: CHEBI:33672 ! heterobicyclic compound
+is_a: CHEBI:38166 ! organic heteropolycyclic compound
+
+[Term]
+id: CHEBI:27295
+name: violaxanthin
+is_a: CHEBI:35307 ! epoxycarotenol
+
+[Term]
 id: CHEBI:27325
 name: xanthophyll
 def: "A subclass of carotenoids consisting of the oxygenated carotenes." []
@@ -879,10 +922,21 @@ name: chlorophyll b
 is_a: CHEBI:28966 ! chlorophyll
 
 [Term]
+id: CHEBI:28315
+name: alloxanthine
+is_a: CHEBI:38669 ! pyrazolopyrimidine
+
+[Term]
+id: CHEBI:28838
+name: lutein
+is_a: CHEBI:23045 ! carotenol
+is_a: FOODON:03412972 ! food additive
+
+[Term]
 id: CHEBI:28938
 name: ammonium
 is_a: CHEBI:35106 ! nitrogen hydride
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 is_a: CHEBI:50313 ! onium cation
 is_a: CHEBI:60242 ! monovalent inorganic cation
 
@@ -895,6 +949,12 @@ is_a: CHEBI:25111 ! magnesium porphyrin
 id: CHEBI:29241
 name: silicate(4-)
 is_a: CHEBI:48123 ! silicate ion
+
+[Term]
+id: CHEBI:30033
+name: bacteriochlorophyll a
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:38201 ! bacteriochlorophyll
 
 [Term]
 id: CHEBI:30879
@@ -915,6 +975,12 @@ def: "An amide is a derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
+id: CHEBI:33232
+name: application
+def: "Intended use of the molecular entity or part thereof by humans." []
+is_a: CHEBI:50906 ! role
+
+[Term]
 id: CHEBI:33240
 name: coordination entity
 def: "An assembly consisting of a central atom (usually metallic) to which is attached a surrounding array of other groups of atoms (ligands)." []
@@ -930,6 +996,13 @@ id: CHEBI:33242
 name: inorganic hydride
 is_a: CHEBI:24835 ! inorganic molecular entity
 is_a: CHEBI:33692 ! hydrides
+
+[Term]
+id: CHEBI:33245
+name: organic fundamental parent
+def: "An organic fundamental parent is a structure used as a basis for substitutive names in organic nomenclature, containing, in addition to one or more hydrogen atoms, a single atom of an element, a number of atoms (alike or different) linked together to form an unbranched chain, a monocyclic or polycyclic ring system, or a ring assembly or ring/chain system." []
+is_a: CHEBI:37175 ! organic hydride
+is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:33250
@@ -1002,6 +1075,11 @@ def: "Any material that can be ingested by an organism." []
 is_a: CHEBI:52211 ! physiological role
 
 [Term]
+id: CHEBI:33292
+name: fuel
+is_a: CHEBI:33232 ! application
+
+[Term]
 id: CHEBI:33296
 name: alkali metal molecular entity
 def: "A molecular entity containing one or more atoms of an alkali metal." []
@@ -1063,6 +1141,14 @@ name: metal atom
 is_a: CHEBI:33250 ! atom
 
 [Term]
+id: CHEBI:33575
+name: carboxylic acid
+def: "A carbon oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid." []
+is_a: CHEBI:35605 ! carbon oxoacid
+is_a: CHEBI:36586 ! carbonyl compound
+is_a: CHEBI:64709 ! organic acid
+
+[Term]
 id: CHEBI:33579
 name: main group molecular entity
 def: "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table." []
@@ -1091,6 +1177,17 @@ name: hydrogen molecular entity
 is_a: CHEBI:33674 ! s-block molecular entity
 
 [Term]
+id: CHEBI:33635
+name: polycyclic compound
+is_a: CHEBI:33595 ! cyclic compound
+
+[Term]
+id: CHEBI:33636
+name: bicyclic compound
+def: "A molecule that features two fused rings." []
+is_a: CHEBI:33595 ! cyclic compound
+
+[Term]
 id: CHEBI:33655
 name: aromatic compound
 def: "A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character." []
@@ -1101,6 +1198,19 @@ id: CHEBI:33659
 name: organic aromatic compound
 is_a: CHEBI:33655 ! aromatic compound
 is_a: CHEBI:33832 ! organic cyclic compound
+
+[Term]
+id: CHEBI:33671
+name: heteropolycyclic compound
+is_a: CHEBI:33635 ! polycyclic compound
+is_a: CHEBI:5686 ! heterocyclic compound
+
+[Term]
+id: CHEBI:33672
+name: heterobicyclic compound
+def: "A bicyclic compound in which at least one of the rings contains at least one skeletal heteroatom." []
+is_a: CHEBI:33636 ! bicyclic compound
+is_a: CHEBI:5686 ! heterocyclic compound
 
 [Term]
 id: CHEBI:33674
@@ -1216,6 +1326,19 @@ is_a: CHEBI:35881 ! pnictogen hydride
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
+id: CHEBI:35186
+name: terpene
+def: "A hydrocarbon of biological origin having carbon skeleton formally derived from isoprene [CH2=C(CH3)CH=CH2]." []
+is_a: CHEBI:24632 ! hydrocarbon
+is_a: CHEBI:24913 ! isoprenoid
+
+[Term]
+id: CHEBI:35193
+name: tetraterpene
+def: "A C40 terpene." []
+is_a: CHEBI:35186 ! terpene
+
+[Term]
 id: CHEBI:35217
 name: alkaline earth coordination entity
 is_a: CHEBI:33299 ! alkaline earth molecular entity
@@ -1223,7 +1346,7 @@ is_a: CHEBI:36562 ! main-group coordination entity
 
 [Term]
 id: CHEBI:35274
-name: ammonium ion
+name: ammonium ion derivative
 is_a: CHEBI:33702 ! polyatomic cation
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
@@ -1254,6 +1377,12 @@ is_a: CHEBI:24866 ! salt
 is_a: CHEBI:33296 ! alkali metal molecular entity
 
 [Term]
+id: CHEBI:35605
+name: carbon oxoacid
+is_a: CHEBI:24833 ! oxoacid
+is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
 id: CHEBI:35681
 name: secondary alcohol
 def: "A secondary alcohol is a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom which has two other carbon atoms attached to it." []
@@ -1276,6 +1405,14 @@ id: CHEBI:36093
 name: inorganic chloride
 is_a: CHEBI:23114 ! chloride salt
 is_a: CHEBI:24839 ! inorganic salt
+
+[Term]
+id: CHEBI:36244
+name: dicarboxylic acid monoester
+def: "A monoester of a dicarboxylic acid." []
+is_a: CHEBI:131927 ! dicarboxylic acids and O-substituted derivatives
+is_a: CHEBI:33308 ! carboxylic ester
+is_a: CHEBI:33575 ! carboxylic acid
 
 [Term]
 id: CHEBI:36309
@@ -1377,6 +1514,11 @@ is_a: CHEBI:25806 ! oxygen molecular entity
 is_a: CHEBI:36962 ! organochalcogen compound
 
 [Term]
+id: CHEBI:37175
+name: organic hydride
+is_a: CHEBI:33692 ! hydrides
+
+[Term]
 id: CHEBI:37176
 name: mononuclear parent hydride
 is_a: CHEBI:33692 ! hydrides
@@ -1447,16 +1589,43 @@ is_a: CHEBI:24532 ! organic heterocyclic compound
 is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
+id: CHEBI:38166
+name: organic heteropolycyclic compound
+is_a: CHEBI:24532 ! organic heterocyclic compound
+is_a: CHEBI:33671 ! heteropolycyclic compound
+
+[Term]
+id: CHEBI:38201
+name: bacteriochlorophyll
+is_a: CHEBI:28966 ! chlorophyll
+
+[Term]
+id: CHEBI:38206
+name: chlorophyllide
+is_a: CHEBI:28966 ! chlorophyll
+
+[Term]
 id: CHEBI:38251
 name: magnesium tetrapyrrole
 is_a: CHEBI:33909 ! metallotetrapyrrole
 is_a: CHEBI:33976 ! magnesium coordination entity
 
 [Term]
+id: CHEBI:38669
+name: pyrazolopyrimidine
+is_a: CHEBI:27171 ! organic heterobicyclic compound
+is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
+
+[Term]
 id: CHEBI:38702
 name: inorganic sodium salt
 is_a: CHEBI:24839 ! inorganic salt
 is_a: CHEBI:26714 ! sodium salt
+
+[Term]
+id: CHEBI:44882
+name: peridinin
+is_a: CHEBI:35307 ! epoxycarotenol
 
 [Term]
 id: CHEBI:46662
@@ -1582,11 +1751,29 @@ def: "An organic molecular entity containing a single carbon atom (C1)." []
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
+id: CHEBI:64709
+name: organic acid
+def: "Any organic molecular entity that is acidic and contains carbon in covalent linkage." []
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
 id: CHEBI:72695
 name: organic molecule
 def: "Any molecule that consists of at least one carbon atom as part of the electrically neutral entity." []
 is_a: CHEBI:25367 ! molecule
 is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:73113
+name: divinyl chlorophyll a
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:28966 ! chlorophyll
+
+[Term]
+id: CHEBI:73115
+name: divinyl chlorophyll b
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:28966 ! chlorophyll
 
 [Term]
 id: CHEBI:76413
@@ -2777,6 +2964,17 @@ is_a: BFO:0000029 ! site
 relationship: part_of ENVO:01000254 ! environmental system
 
 [Term]
+id: ENVO:01000554
+name: hydrocarbon gas
+def: "A gas that is primarily composed of hydrocarbon molecules." []
+subset: envoPolar
+is_a: ENVO:01000797 ! gaseous environmental material
+is_a: ENVO:2000045 ! hydrocarbon-based environmental material
+intersection_of: ENVO:00010483 ! environmental material
+intersection_of: RO:0000086 PATO:0001547 ! has quality quality of a gas
+intersection_of: RO:0002473 CHEBI:24632 ! composed primarily of hydrocarbon
+
+[Term]
 id: ENVO:01000617
 name: lentic water body
 def: "A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow." []
@@ -2893,6 +3091,13 @@ relationship: RO:0000086 PATO:0001547 ! has quality quality of a gas
 property_value: IAO:0000116 "This class is to be populated by inference." xsd:string
 
 [Term]
+id: ENVO:01000798
+name: plasma
+def: "A material entity which is composed of a volume of unbound positive and negative particles in roughly equal numbers, conducts electricity, and possesses internal magnetic fields." [http://www.merriam-webster.com/dictionary/plasma, https://en.wikipedia.org/wiki/Plasma_%28physics%29]
+is_a: ENVO:00010483 ! environmental material
+property_value: IAO:0000116 "An NTR for `quality of a plasma` has been posted on the PATO tracker: https://github.com/pato-ontology/pato/issues/88" xsd:string
+
+[Term]
 id: ENVO:01000799
 name: astronomical body
 def: "An object which is naturally occuring, bound together by gravitational or electromagnetic forces, and surrounded by space." [https://en.wikipedia.org/wiki/Astronomical_object]
@@ -2909,6 +3114,16 @@ comment: Considerable debate on the definition of planet exists.
 subset: envoAstro
 subset: envoPolar
 is_a: ENVO:01000799 ! astronomical body
+
+[Term]
+id: ENVO:01000801
+name: star
+def: "An astronomical object which is composed primarily of luminous plasma held in a spherical form by gravitational forces." [https://en.wikipedia.org/wiki/Star]
+subset: envoAstro
+subset: envoPolar
+is_a: ENVO:01000799 ! astronomical body
+relationship: RO:0002473 ENVO:01000798 ! composed primarily of plasma
+property_value: IAO:0000116 "Add qualities such as spherical. Request NTRs if not available in PATO." xsd:string
 
 [Term]
 id: ENVO:01000804
@@ -3502,6 +3717,34 @@ xref: TGN:21305
 is_a: ENVO:01001110 ! ecosystem
 
 [Term]
+id: ENVO:01001211
+name: stellar radiation
+namespace: ENVO
+def: "An electromagnetic radiation process during which electromagnetic waves or their quanta are emitted from a star." [https://en.wikipedia.org/wiki/Electromagnetic_radiation, https://en.wikipedia.org/wiki/Solar_irradiance]
+subset: environmental_hazards
+subset: envoAstro
+synonym: "solar radiation" NARROW [NCIT:C44445]
+xref: NCIT:C44445
+is_a: ENVO:01001026 ! electromagnetic radiation
+intersection_of: ENVO:01001026 ! electromagnetic radiation
+intersection_of: RO:0002608 ENVO:01000801 ! has causal agent star
+relationship: RO:0002608 ENVO:01000801 ! has causal agent star
+
+[Term]
+id: ENVO:01001215
+name: visible spectrum stellar radiation
+namespace: ENVO
+def: "A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths between 380 nm and 760 nm." [ISO_21348]
+def: "A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths between 380 nm and 760 nm." [ISO 21348]
+subset: envoAstro
+synonym: "optical stellar radiation" EXACT []
+synonym: "visible spectrum solar radiation" NARROW []
+is_a: ENVO:01001211 ! stellar radiation
+is_a: ENVO:21001215 ! visible spectrum radiation
+intersection_of: ENVO:21001215 ! visible spectrum radiation
+intersection_of: RO:0002608 ENVO:01000801 ! has causal agent star
+
+[Term]
 id: ENVO:01001226
 name: terrestrial natural environment
 def: "A natural environment which is located on a land mass." []
@@ -4093,6 +4336,18 @@ synonym: "water oxygen concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
+id: ENVO:2000045
+name: hydrocarbon-based environmental material
+is_a: ENVO:00010483 ! environmental material
+intersection_of: ENVO:00010483 ! environmental material
+intersection_of: RO:0002473 CHEBI:24632 ! composed primarily of hydrocarbon
+relationship: RO:0000053 PATO:0015021 ! bearer of combustibility
+relationship: RO:0000087 CHEBI:33292 ! has role fuel
+relationship: RO:0002473 CHEBI:24632 ! composed primarily of hydrocarbon
+created_by: cjm
+creation_date: 2018-11-03T21:35:24Z
+
+[Term]
 id: ENVO:2100000
 name: anatomical entity environment
 def: "An environment which is determined by an anatomical entity." []
@@ -4103,10 +4358,41 @@ relationship: part_of ENVO:01001000 ! environmental system determined by an orga
 relationship: RO:0002509 UBERON:0001062 ! determined by part of anatomical entity
 
 [Term]
+id: ENVO:21001215
+name: visible spectrum radiation
+namespace: ENVO
+def: "A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 380 nm and 760 nm." [ISO_21348]
+synonym: "optical radiation" EXACT []
+synonym: "visible light" RELATED [NCIT:C17732]
+xref: NCIT:C17732
+is_a: ENVO:01001026 ! electromagnetic radiation
+
+[Term]
+id: ENVO:3100002
+name: concentration of alloxanthine in water
+def: "The concentration of alloxanthine when measured in water." []
+synonym: "water alloxanthine concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
 id: ENVO:3100004
 name: concentration of ammonium in water
 def: "The concentration of ammonium when measured in water." []
 synonym: "water ammonium concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100005
+name: concentration of bacteriochlorophyll a in water
+def: "The concentration of bacteriochlorophyll a when measured in water." []
+synonym: "water bacteriochlorophyll a concentration" EXACT []
+is_a: ENVO:3100036 ! concentration of chlorophyll in water
+
+[Term]
+id: ENVO:3100007
+name: concentration of carotene in water
+def: "The concentration of carotene when measured in water." []
+synonym: "water carotene concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
@@ -4124,6 +4410,13 @@ synonym: "water chlorophyll b concentration" EXACT []
 is_a: ENVO:3100036 ! concentration of chlorophyll in water
 
 [Term]
+id: ENVO:3100010
+name: concentration of chlorophyllide a in water
+def: "The concentration of chlorophyllide a when measured in water." []
+synonym: "water chlorophyllide a concentration" EXACT []
+is_a: ENVO:3100036 ! concentration of chlorophyll in water
+
+[Term]
 id: ENVO:3100011
 name: concentration of dioxygen in water
 def: "The concentration of dioxygen when measured in water." []
@@ -4131,11 +4424,39 @@ synonym: "water dioxygen concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
+id: ENVO:3100012
+name: concentration of divinyl chlorophyll a in water
+def: "The concentration of divinyl chlorophyll a when measured in water." []
+synonym: "water divinyl chlorophyll a concentration" EXACT []
+is_a: ENVO:3100036 ! concentration of chlorophyll in water
+
+[Term]
+id: ENVO:3100013
+name: concentration of divinyl chlorophyll b in water
+def: "The concentration of divinyl chlorophyll b when measured in water." []
+synonym: "water divinyl chlorophyll b concentration" EXACT []
+is_a: ENVO:3100036 ! concentration of chlorophyll in water
+
+[Term]
 id: ENVO:3100014
 name: concentration of fucoxanthin in water
 def: "The concentration of fucoxanthin when measured in water." []
 synonym: "water fucoxanthin concentration" EXACT []
 is_a: FOODON:00002470 ! food object quality
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100019
+name: concentration of lutein in water
+def: "The concentration of lutein when measured in water." []
+synonym: "water lutein concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100021
+name: concentration of neoxanthin in water
+def: "The concentration of neoxanthin when measured in water." []
+synonym: "water neoxanthin concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
@@ -4153,6 +4474,13 @@ synonym: "water nitrite concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
+id: ENVO:3100025
+name: concentration of peridinin in water
+def: "The concentration of peridinin when measured in water." []
+synonym: "water peridinin concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
 id: ENVO:3100026
 name: concentration of phosphate in water
 def: "The concentration of phosphate when measured in water." []
@@ -4164,6 +4492,13 @@ id: ENVO:3100027
 name: concentration of silicate(4-) in water
 def: "The concentration of silicate(4-) when measured in water." []
 synonym: "water silicate(4-) concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100028
+name: concentration of violaxanthin in water
+def: "The concentration of violaxanthin when measured in water." []
+synonym: "water violaxanthin concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]
@@ -5688,8 +6023,6 @@ name: material processing
 def: "A planned process which results in physical changes in a specified input material" []
 is_a: OBI:0000011 ! planned process
 relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
-relationship: OBI:0000293 BFO:0000040 ! has_specified_input material entity
-relationship: OBI:0000299 BFO:0000040 ! has_specified_output material entity
 relationship: OBI:0000299 OBI:0000047 ! has_specified_output processed material
 property_value: IAO:0000111 "material processing" xsd:string
 property_value: IAO:0000112 "A cell lysis, production of a cloning vector, creating a buffer." xsd:string
@@ -6067,6 +6400,19 @@ property_value: IAO:0000118 "data set with assigned discovered class labels" xsd
 property_value: IAO:0000232 "AR thinks could be a data item instead" xsd:string
 
 [Term]
+id: OBI:0000650
+name: differential expression analysis data transformation
+def: "A differential expression analysis data transformation is a data transformation that has an objective of differential expression analysis.  Frequently this data transformation involves summarizing or otherwise aggregating signals from various samples categorized into groups, and calculating measures of group differences from these aggregated signals." []
+is_a: OBI:0200000 ! data transformation
+property_value: IAO:0000111 "differential expression analysis data transformation" xsd:string
+property_value: IAO:0000114 IAO:0000122
+property_value: IAO:0000117 "Dan Berrios" xsd:string
+property_value: IAO:0000117 "James Malone" xsd:string
+property_value: IAO:0000117 "Melanie Courtot" xsd:string
+property_value: IAO:0000117 "Monnie McGee" xsd:string
+property_value: IAO:0000119 WEB: xsd:string
+
+[Term]
 id: OBI:0000659
 name: specimen collection process
 def: "A planned process with the objective of collecting a specimen." []
@@ -6290,6 +6636,9 @@ intersection_of: OBI:0000293 BFO:0000040 ! has_specified_input material entity
 intersection_of: OBI:0000299 OBI:0000747 ! has_specified_output material sample
 property_value: IAO:0000111 "material sampling process" xsd:string
 property_value: IAO:0000114 IAO:0000123
+property_value: IAO:0000118 "sample collection" xsd:string
+property_value: IAO:0000118 "sampling" xsd:string
+property_value: IAO:0000233 https://github.com/obi-ontology/obi/issues/1002 xsd:string
 
 [Term]
 id: OBI:0000747
@@ -6797,6 +7146,18 @@ property_value: IAO:0000114 IAO:0000120
 property_value: IAO:0000117 "PERSON: Chris Stoeckert, Jie Zheng" xsd:string
 property_value: IAO:0000119 "NIAID GSCID-BRC metadata working group" xsd:string
 property_value: OBI:0001886 "Sequencing Facility" xsd:string
+
+[Term]
+id: OBI:0001898
+name: comment on investigation
+def: "A textual entity that is about any of the aspects of an investigation worth noting" []
+is_a: IAO:0000300 ! textual entity
+property_value: http://purl.org/dc/elements/1.1/source "NIAID GSCID-BRC" xsd:string
+property_value: IAO:0000111 "comment on investigation" xsd:string
+property_value: IAO:0000114 IAO:0000120
+property_value: IAO:0000117 "PERSON: Chris Stoeckert, Jie Zheng" xsd:string
+property_value: IAO:0000119 "NIAID GSCID-BRC metadata working group" xsd:string
+property_value: OBI:0001886 "Comments" xsd:string
 
 [Term]
 id: OBI:0001900
@@ -7308,9 +7669,6 @@ name: data transformation
 def: "A planned process that produces output data from input data." []
 is_a: OBI:0000011 ! planned process
 relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
-relationship: OBI:0000293 IAO:0000027 ! has_specified_input data item
-relationship: OBI:0000299 IAO:0000027 ! has_specified_output data item
-relationship: OBI:0000299 IAO:0000027 ! has_specified_output data item
 property_value: IAO:0000111 "data transformation" xsd:string
 property_value: IAO:0000112 "The application of a clustering protocol to microarray data or the application of a statistical testing method on a primary data set to determine a p-value." xsd:string
 property_value: IAO:0000114 IAO:0000122
@@ -7325,6 +7683,17 @@ property_value: IAO:0000117 "Tina Hernandez-Boussard" xsd:string
 property_value: IAO:0000118 "data analysis" xsd:string
 property_value: IAO:0000118 "data processing" xsd:string
 property_value: IAO:0000119 "Branch editors" xsd:string
+
+[Term]
+id: OBI:0200031
+name: differential expression analysis objective
+def: "A differential expression analysis objective is a data transformation objective whose input consists of expression levels of entities (such as transcripts or proteins), or of sets of such expression levels, under two or more conditions and whose output reflects which of these are likely to have different expression across such conditions." []
+is_a: OBI:0200166 ! data transformation objective
+property_value: IAO:0000111 "differential expression analysis objective" xsd:string
+property_value: IAO:0000112 "Analyses implemented by the SAM (http://www-stat.stanford.edu/~tibs/SAM), PaGE (www.cbil.upenn.edu/PaGE) or GSEA (www.broad.mit.edu/gsea/) algorithms and software" xsd:string
+property_value: IAO:0000114 IAO:0000122
+property_value: IAO:0000117 "Elisabetta Manduchi" xsd:string
+property_value: IAO:0000119 "PERSON: Elisabetta Manduchi" xsd:string
 
 [Term]
 id: OBI:0200033
@@ -7703,12 +8072,21 @@ is_a: BFO:0000020 ! specifically dependent continuant
 property_value: IAO:0000589 "quality (PATO)" xsd:string
 
 [Term]
+id: PATO:0000008
+name: speed
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's scalar absolute value of the rate of change of the bearer's position." [Wikipedia:http\://en.wikipedia.org/wiki/Velocity]
+subset: attribute_slim
+subset: scalar_slim
+synonym: "velocity" RELATED []
+is_a: PATO:0001906 ! movement quality
+
+[Term]
 id: PATO:0000018
 name: fluorescence
 namespace: quality
 def: "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together." [PATOC:GVG]
 subset: attribute_slim
-is_a: BFO:0000016 ! disposition
 is_a: PATO:0001296 ! luminous flux
 property_value: IAO:0000111 "fluorescence" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
@@ -7727,6 +8105,8 @@ synonym: "compositionality" EXACT []
 synonym: "content" EXACT []
 synonym: "structure, composition" EXACT []
 is_a: PATO:0000141 ! structure
+property_value: IAO:0000111 "composition" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0000033
@@ -7738,6 +8118,8 @@ subset: relational_slim
 subset: scalar_slim
 synonym: "concentration" EXACT []
 is_a: PATO:0002182 ! molecular quality
+property_value: IAO:0000111 "concentration of" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0000040
@@ -7757,6 +8139,7 @@ def: "A physical quality which inheres in a bearer by virtue of the number of th
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0000161 ! rate
+is_a: PATO:0050000 ! rate of occurence
 
 [Term]
 id: PATO:0000048
@@ -7777,6 +8160,8 @@ def: "A quality of a single physical entity inhering in the bearer by virtue of 
 subset: attribute_slim
 is_a: BFO:0000019 ! quality
 is_a: PATO:0001241 ! physical object quality
+property_value: IAO:0000111 "morphology" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0000052
@@ -7812,6 +8197,8 @@ def: "A morphology quality inhering in a bearer by virtue of the bearer's physic
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0000051 ! morphology
+property_value: IAO:0000111 "size" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0000122
@@ -7875,6 +8262,8 @@ synonym: "location" EXACT []
 synonym: "placement" EXACT []
 synonym: "relational spatial quality" EXACT []
 is_a: PATO:0001018 ! physical quality
+property_value: IAO:0000111 "position" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0000141
@@ -7886,6 +8275,8 @@ subset: attribute_slim
 synonym: "conformation" BROAD [VT:1000738]
 synonym: "relational structural quality" EXACT []
 is_a: PATO:0000051 ! morphology
+property_value: IAO:0000111 "structure" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0000146
@@ -7916,6 +8307,8 @@ def: "A quality in which events occur in sequence." [PATOC:GVG]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
+property_value: IAO:0000111 "time" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0000186
@@ -7928,6 +8321,34 @@ is_a: PATO:0001237
 is_a: PATO:0001995 ! organismal quality
 property_value: IAO:0000111 "behavioral quality" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
+
+[Term]
+id: PATO:0000303
+name: increased speed
+namespace: quality
+def: "A speed which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "fast speed" RELATED []
+synonym: "high speed" EXACT []
+is_a: PATO:0000008 ! speed
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000008 ! speed
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000304 ! decreased speed
+
+[Term]
+id: PATO:0000304
+name: decreased speed
+namespace: quality
+def: "A speed which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "slow" EXACT []
+synonym: "slow speed" EXACT []
+is_a: PATO:0000008 ! speed
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000008 ! speed
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000303 ! increased speed
 
 [Term]
 id: PATO:0000374
@@ -8042,6 +8463,7 @@ subset: abnormal_slim
 subset: mpath_slim
 subset: value_slim
 synonym: "average" RELATED []
+is_a: PATO:0000068 ! qualitative
 is_a: PATO:0000069 ! deviation(from_normal)
 relationship: is_opposite_of PATO:0000460 ! abnormal
 
@@ -8274,6 +8696,7 @@ def: "A optical quality inhering in a bearer by virtue of the bearer's lacking o
 subset: mpath_slim
 subset: value_slim
 synonym: "clear" EXACT []
+synonym: "hyaline" EXACT []
 is_a: PATO:0000957 ! opacity
 relationship: is_opposite_of PATO:0000963 ! opaque
 
@@ -8347,6 +8770,8 @@ subset: attribute_slim
 synonym: "relational physical quality" EXACT []
 xref: Wikipedia:Physical_property
 is_a: PATO:0001241 ! physical object quality
+property_value: IAO:0000111 "physical quality" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001019
@@ -8423,7 +8848,10 @@ synonym: "quality of a single physical entity" EXACT []
 synonym: "quality of an object" EXACT []
 synonym: "quality of continuant" EXACT []
 xref: snap:Quality
+is_a: BFO:0000019 ! quality
 is_a: PATO:0000001 ! quality
+property_value: IAO:0000111 "physical object quality" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001291
@@ -8432,6 +8860,8 @@ namespace: quality
 def: "A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_radiation]
 subset: attribute_slim
 is_a: PATO:0001739 ! radiation quality
+property_value: IAO:0000111 "electromagnetic (EM) radiation quality" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001296
@@ -8440,6 +8870,8 @@ namespace: quality
 def: "A scalar optical quality which obtains by the magnitude of the light emitted by the bearer." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0001300 ! optical quality
+property_value: IAO:0000111 "luminous flux" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001300
@@ -8448,6 +8880,8 @@ namespace: quality
 def: "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
+property_value: IAO:0000111 "optical quality" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001305
@@ -8659,6 +9093,8 @@ def: "A physical quality inhering in a bearer by virtue of the bearer's motion c
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
+property_value: IAO:0000111 "flow rate" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001575
@@ -8829,6 +9265,8 @@ def: "A size quality inhering in an bearer by virtue of the bearer's extension i
 subset: attribute_slim
 synonym: "1-D size" EXACT []
 is_a: PATO:0000117 ! size
+property_value: IAO:0000111 "1-D extent" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001710
@@ -8838,6 +9276,8 @@ def: "A size quality inhering in an bearer by virtue of the bearer's extension i
 subset: attribute_slim
 synonym: "3D size" EXACT []
 is_a: PATO:0000117 ! size
+property_value: IAO:0000111 "3-D extent" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001739
@@ -8846,6 +9286,8 @@ namespace: quality
 def: "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
+property_value: IAO:0000111 "radiation quality" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001757
@@ -8965,6 +9407,8 @@ namespace: quality
 def: "A physical quality inhering in a bearer by virtue of the bearer's participation in movement." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
+property_value: IAO:0000111 "movement quality" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 
 [Term]
 id: PATO:0001985
@@ -9034,6 +9478,8 @@ alt_id: PATO:0002061
 def: "A quality which inheres in a molecular entity, a single molecule, atom, ion, radical etc." [PATOC:GVG]
 synonym: "relational molecular quality" EXACT []
 is_a: PATO:0001241 ! physical object quality
+property_value: IAO:0000111 "molecular quality" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 created_by: George Gkoutos
 creation_date: 2010-03-10T03:18:15Z
 
@@ -9044,6 +9490,8 @@ namespace: quality
 def: "A quality inhering in a bearer by virtue of its constitution." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
+property_value: IAO:0000111 "quality of a substance" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/pato.owl
 created_by: George Gkoutos
 creation_date: 2010-03-15T04:35:27Z
 
@@ -9220,6 +9668,40 @@ created_by: gkoutos
 creation_date: 2012-04-18T06:31:29Z
 
 [Term]
+id: PATO:0015021
+name: combustibility
+namespace: quality
+def: "The propensity of a material to undergo combustion. Combustion encompasses smouldering and flaming combustion. Combustibility is usually applied to solids." [https://en.wikipedia.org/wiki/Combustibility, https://github.com/EnvironmentOntology/envo/issues/384]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0015022
+name: increased combustibility
+namespace: quality
+def: "An increase in combustibility." []
+subset: value_slim
+synonym: "combustible" EXACT []
+is_a: PATO:0002305 ! increased object quality
+is_a: PATO:0015021 ! combustibility
+intersection_of: PATO:0015021 ! combustibility
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0015023 ! decreased combustibility
+
+[Term]
+id: PATO:0015023
+name: decreased combustibility
+namespace: quality
+def: "An decrease in combustibility." []
+subset: value_slim
+synonym: "noncombustible" RELATED []
+is_a: PATO:0002303 ! decreased object quality
+is_a: PATO:0015021 ! combustibility
+intersection_of: PATO:0015021 ! combustibility
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0015022 ! increased combustibility
+
+[Term]
 id: PATO:0015024
 name: increased porosity
 namespace: quality
@@ -9241,6 +9723,13 @@ is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000973 ! porosity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0015024 ! increased porosity
+
+[Term]
+id: PATO:0050000
+name: rate of occurence
+namespace: quality
+def: "The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)" [https://orcid.org/0000-0002-9943-9018]
+is_a: PATO:0000161 ! rate
 
 [Term]
 id: PCO:0000000
@@ -9425,8 +9914,8 @@ property_value: IAO:0000116 "Add to ENVO or PATO." xsd:string
 [Term]
 id: PMO:00000022
 name: aquatic sample minimum filter fractionation size threshold
+def: "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process." []
 is_a: PMO:00000168 ! aquatic environmental material sample filter fractionation size
-property_value: IAO:0000116 "A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process." xsd:string
 property_value: IAO:0000116 "Imporve and add to OBI or BCO." xsd:string
 
 [Term]
@@ -9605,6 +10094,7 @@ property_value: IAO:0000116 "Consider for deprication." xsd:string
 [Term]
 id: PMO:00000052
 name: maximum depth of water collected during specimen collection process
+def: "A depth of water quality which inheres in a bearer by virtue of such bearer being the maximum depth of water collected during a specimen collection process." []
 is_a: ENVO:3100031 ! depth of water
 property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: depth of water." xsd:string
 
@@ -9622,14 +10112,15 @@ property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" 
 
 [Term]
 id: PMO:00000056
-name: centrally registered sampling event identifier
+name: centrally registered specimen collection event identifier
+def: "A centrally registered event identifier which designates a specimen collection process event." []
 is_a: IAO:0000578 ! centrally registered identifier
-property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?" xsd:string
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI?\n\nAdd axiom linking to specimen collection process http://purl.obolibrary.org/obo/OBI_0000659" xsd:string
 
 [Term]
 id: PMO:00000057
 name: ctd cast number
-is_a: PMO:00000056 ! centrally registered sampling event identifier
+is_a: PMO:00000056 ! centrally registered specimen collection event identifier
 property_value: IAO:0000116 "Perhaps useful perhaps consider for deprication?" xsd:string
 
 [Term]
@@ -9647,6 +10138,7 @@ property_value: IAO:0000116 "Perhaps consider for deprication." xsd:string
 [Term]
 id: PMO:00000060
 name: sampling expedition identifier
+def: "An investigation identifier which represents a sampling expedition campaign." []
 is_a: OBI:0001628 ! investigation identifier
 property_value: IAO:0000116 "sampling campaign Ex: TARA ocean, Tara arctic OSD 2014, HOT194 etc. Perhaps push to BCO?" xsd:string
 
@@ -9734,6 +10226,7 @@ property_value: IAO:0000116 "Definately should push to OBI or BCO." xsd:string
 [Term]
 id: PMO:00000075
 name: comment on investigation
+def: "A textual entity that is about any of the aspects of an investigation worth noting." []
 is_a: IAO:0000300 ! textual entity
 property_value: IAO:0000116 "Reimport the OBI term after the axiom has been fixed, as it's currently failing when run with the ELK reasoner." xsd:string
 property_value: IAO:0000118 http://purl.obolibrary.org/obo/OBI_0001898 xsd:string
@@ -9794,7 +10287,9 @@ property_value: IAO:0000116 "Perhaps in the future the 'geographic location' hie
 [Term]
 id: PMO:00000085
 name: biogeochemical province
+def: "A geographic location which represents a division of the world oceans into provinces as defined by Longhurst (1995; 1998; 2006)." []
 synonym: "Longhurst Province" EXACT []
+xref: http://marineregions.org/sources.php
 is_a: PMO:00000088 ! geographic location
 property_value: IAO:0000116 "Perhaps add to ENVO or GAZ. Depending on status of integration of marineregions.org into GAZ. See https://github.com/EnvironmentOntology/gaz/issues/29" xsd:string
 property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22538 xsd:string
@@ -9834,6 +10329,8 @@ property_value: IAO:0000116 "Add to BCO or depricate." xsd:string
 [Term]
 id: PMO:00000091
 name: Large Marine Ecosystem
+def: "A geograpphic location which comprises a natural region of ocean space encompassing coastal waters from river basins and estuaries to the seaward boundary of continental shelves and the outer margins of coastal currents." []
+xref: http://marineregions.org/sources.php
 is_a: PMO:00000088 ! geographic location
 property_value: IAO:0000116 "Perhaps in the future we could map or at least create GAZ classes for the top levels the Marineregions.org gazetteer." xsd:string
 property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=22539 xsd:string
@@ -9841,6 +10338,8 @@ property_value: IAO:0000118 http://marineregions.org/gazetteer.php?p=details&id=
 [Term]
 id: PMO:00000092
 name: International Hydrographic Organization Sea Area
+def: "A geographic location which has been registered in the International Hydrographic Organization Sea Area database." []
+xref: http://marineregions.org/sources.php
 is_a: PMO:00000088 ! geographic location
 property_value: IAO:0000116 "From http://www.marineregions.org/sources.php. Figure out how to integrate with GAZ and or ENVO." xsd:string
 
@@ -10006,18 +10505,20 @@ id: PMO:00000122
 name: Biosample identifier assigned by the National Center for Biotechnology Information
 def: "A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information." []
 is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
-property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it." xsd:string
+property_value: IAO:0000116 "example SAMEA3275646 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMEA3275646. I wonder if this should perhaps be an instance of a specimen identifier assigned by sequencing facility class rather then a subclass of it.\n\nUse the OBI superclass as primary key for PM, condsider this class for deprication." xsd:string
 
 [Term]
 id: PMO:00000123
-name: secondary sample accession identifier assigned by the European Nucleotide Archive
+name: SRA accession number
+def: "A specimen identifier assigned by sequencing facility which identifies a Sequence Read Archive (SRA) acession number." []
+synonym: "Secondary sample accession" EXACT []
 is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
-property_value: IAO:0000116 "Consider for deprication?" xsd:string
 property_value: IAO:0000116 "example ERS667668 https://www.ebi.ac.uk/ena/data/view/ERS667668" xsd:string
 
 [Term]
 id: PMO:00000124
 name: INSDC bioarchive accession number
+def: "A specimen identifier assigned by sequencing facility which identifies an International Nucleotide Sequence Database Collaboration (INSDC) bioarchive accession number." []
 is_a: OBI:0001901 ! specimen identifier assigned by sequencing facility
 property_value: IAO:0000116 "Perhaps OSD accession numbers (which this represents) are for DDBJ\nsee https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code for a DDBJ direction submission. Consider for deprecation?" xsd:string
 
@@ -10355,6 +10856,13 @@ is_a: ENVO:01000063 ! planktonic material
 property_value: IAO:0000116 "Add to ENVO." xsd:string
 
 [Term]
+id: PMO:00000172
+name: minimum depth of water collected during specimen collection process
+def: "A depth of water quality which inheres in a bearer by virtue of such bearer being the minimum depth of water collected during a specimen collection process." []
+is_a: ENVO:3100031 ! depth of water
+property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a minimum quality and ENVO: depth of water." xsd:string
+
+[Term]
 id: PO:0000003
 name: whole plant
 def: "A plant structure (PO:0005679) which is a whole organism." []
@@ -10440,8 +10948,16 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 id: SO:0001248
 name: assembly
 def: "A region of the genome of known length that is composed by ordering and aligning two or more different regions." []
-is_a: SO:0000001 ! region
+is_a: SO:0001410 ! experimental_feature
 property_value: IAO:0000111 "assembly" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
+
+[Term]
+id: SO:0001410
+name: experimental_feature
+def: "A region which is the result of some arbitrary experimental procedure. The procedure may be carried out with biological material or inside a computer." []
+is_a: SO:0000001 ! region
+property_value: IAO:0000111 "experimental_feature" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
 [Term]
@@ -10892,7 +11408,7 @@ namespace: unit.ontology
 def: "A unit which is a standard measure of the rate of movement. Speed is measured in the same physical units of measurement as velocity, but does not contain the element of direction that velocity has. Speed is thus the magnitude component of velocity." [Wikipedia:Wikipedia]
 subset: unit_group_slim
 is_a: UO:0000000 ! unit
-relationship: is_unit_of PATO:0000008
+relationship: is_unit_of PATO:0000008 ! speed
 created_by: george gkoutos
 
 [Term]
@@ -11244,6 +11760,26 @@ property_value: IAO:0000111 "volume percentage" xsd:string
 property_value: IAO:0000118 "% v/v" xsd:string
 property_value: IAO:0000118 "percent vol per vol" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/uo.owl
+created_by: george gkoutos
+
+[Term]
+id: UO:0000166
+name: parts per notation unit
+namespace: unit.ontology
+def: "A dimensionless concentration notation which describes the amount of one substance in another. It is the ratio of the amount of the substance of interest to the amount of that substance plus the amount of the substance." [Wikipedia:Wikipedia]
+subset: unit_group_slim
+is_a: UO:0000186 ! dimensionless unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000168
+name: parts per thousand
+namespace: unit.ontology
+def: "A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1000 regardless of the units of measure as long as they are the same." [UOC:GVG]
+subset: unit_slim
+synonym: "10^[-3]" EXACT []
+synonym: "ppth" EXACT []
+is_a: UO:0000166 ! parts per notation unit
 created_by: george gkoutos
 
 [Term]
@@ -11803,7 +12339,19 @@ property_value: IAO:0000112 "A person's name denotes the person. A variable name
 property_value: IAO:0000116 "2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have 'specifically denotes', which would have been primitive, so make this relation primitive.\ng denotes r =def \nr is a portion of reality\nthere is some c that is a concretization of g \nevery c that is a concretization of g specifically denotes r" xsd:string
 property_value: IAO:0000117 "person:Alan Ruttenberg" xsd:string
 property_value: IAO:0000119 "Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan" xsd:string
+domain: IAO:0000030 ! information content entity
+range: BFO:0000001 ! entity
 is_a: IAO:0000136 ! is about
+inverse_of: IAO:0000235 ! denoted by
+
+[Typedef]
+id: IAO:0000235
+name: denoted by
+def: "inverse of the relation 'denotes'" []
+property_value: IAO:0000117 "Person: Jie Zheng, Chris Stoeckert, Mike Conlon" xsd:string
+property_value: IAO:0000233 https://github.com/information-artifact-ontology/IAO/issues/206
+domain: BFO:0000001 ! entity
+range: IAO:0000030 ! information content entity
 
 [Typedef]
 id: IAO:0000413
@@ -11925,7 +12473,7 @@ is_a: has_part ! has part
 [Typedef]
 id: OBI:0000833
 name: objective_achieved_by
-def: "This relation obtains between a a objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process." []
+def: "This relation obtains between an objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process." []
 property_value: IAO:0000111 "objective_achieved_by" xsd:string
 property_value: IAO:0000114 IAO:0000122
 property_value: IAO:0000117 "OBI" xsd:string
