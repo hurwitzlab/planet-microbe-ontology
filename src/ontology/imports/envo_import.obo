@@ -5493,7 +5493,6 @@ is_a: PATO:0001906 ! movement quality
 id: PATO:0000018
 name: fluorescence
 def: "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together." []
-is_a: BFO:0000016 ! disposition
 is_a: PATO:0001296 ! luminous flux
 
 [Term]

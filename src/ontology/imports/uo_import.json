@@ -2691,13 +2691,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000187"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000024",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000262",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000261"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000095",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
