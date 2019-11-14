@@ -685,6 +685,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000080> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000081> (specimen collection time measurement datum in localized time zone)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000081> "A specimen collection time measurement datum which is measured in a localized time zone.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000081> "Don't depricate, could be a useful semantic for future systems, check with Ramona Walls")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000081> "specimen collection time measurement datum in localized time zone")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000081> <http://purl.obolibrary.org/obo/OBI_0001619>)
