@@ -1256,6 +1256,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145> <http://purl.ob
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "A material sampling process during which a conductivity temperature and pressure sampling device is employed.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "Should be observing process")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> "conductivity temperature pressure sampling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> <http://purl.obolibrary.org/obo/OBI_0000744>)
@@ -1263,7 +1264,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146> <http://purl.ob
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> (net tow sampling process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> "Clean and add axiom and add to BCO.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> "Clean and add axiom and add to BCO. Ramona wants this.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> "net tow sampling process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147> <http://purl.obolibrary.org/obo/OBI_0000744>)
 
