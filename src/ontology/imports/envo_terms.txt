@@ -36,3 +36,6 @@ ENVO:3100028 #concentration of violaxanthin in water
 ENVO:3100021 #concentration of neoxanthin in water
 ENVO:3100025 #concentration of peridinin in water
 ENVO:3100010 #concentration of chlorophyllide a in water
+ENVO:04000013 #particulate organic carbon
+ENVO:04000014 #particulate organic nitrogen
+ENVO:03000123 #concentration of nitrate and nitrite in liquid water
