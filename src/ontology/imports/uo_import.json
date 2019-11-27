@@ -2635,13 +2635,13 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000008"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000066",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000002",
       "pred" : "is_a",
@@ -2860,7 +2860,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-09-12/imports/uo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-11-27/imports/uo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

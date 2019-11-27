@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-09-12/pmo-base.owl
+data-version: pmo/releases/2019-11-18/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -329,6 +329,7 @@ property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? O
 [Term]
 id: PMO:00000053
 name: maximum pressure of water collected during specimen collection process
+def: "A pressure of water quality which inheres in a bearer by virtue of such bearer being the maximum pressure of water collected during a specimen collection process." []
 is_a: ENVO:3100033
 property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: pressure of water." xsd:string
 
@@ -496,8 +497,9 @@ property_value: IAO:0000116 "e.g. UTC+00 from OSD. Consider for deprication." xs
 [Term]
 id: PMO:00000081
 name: specimen collection time measurement datum in localized time zone
+def: "A specimen collection time measurement datum which is measured in a localized time zone." []
 is_a: OBI:0001619
-property_value: IAO:0000116 "Probably deprecate this term." xsd:string
+property_value: IAO:0000116 "Don't depricate, could be a useful semantic for future systems, check with Ramona Walls" xsd:string
 
 [Term]
 id: PMO:00000083
@@ -897,6 +899,7 @@ name: conductivity temperature pressure sampling process
 def: "A material sampling process during which a conductivity temperature and pressure sampling device is employed." []
 is_a: OBI:0000744
 property_value: IAO:0000116 "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO." xsd:string
+property_value: IAO:0000116 "Should be observing process" xsd:string
 property_value: IAO:0000116 "To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process." xsd:string
 
 [Term]
@@ -904,7 +907,7 @@ id: PMO:00000147
 name: net tow sampling process
 def: "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in." []
 is_a: OBI:0000744
-property_value: IAO:0000116 "Clean and add axiom and add to BCO." xsd:string
+property_value: IAO:0000116 "Clean and add axiom and add to BCO. Ramona wants this." xsd:string
 
 [Term]
 id: PMO:00000148

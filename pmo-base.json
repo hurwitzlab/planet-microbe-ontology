@@ -719,6 +719,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000053",
       "meta" : {
+        "definition" : {
+          "val" : "A pressure of water quality which inheres in a bearer by virtue of such bearer being the maximum pressure of water collected during a specimen collection process.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: pressure of water."
@@ -1329,9 +1333,13 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000081",
       "meta" : {
+        "definition" : {
+          "val" : "A specimen collection time measurement datum which is measured in a localized time zone.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Probably deprecate this term."
+          "val" : "Don't depricate, could be a useful semantic for future systems, check with Ramona Walls"
         } ]
       },
       "type" : "CLASS",
@@ -1747,20 +1755,6 @@
       "type" : "CLASS",
       "lbl" : "specimen collection process data doccument"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147",
-      "meta" : {
-        "definition" : {
-          "val" : "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean and add axiom and add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "net tow sampling process"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000090",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1773,6 +1767,20 @@
       },
       "type" : "CLASS",
       "lbl" : "distance between a site and a geographic location"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147",
+      "meta" : {
+        "definition" : {
+          "val" : "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean and add axiom and add to BCO. Ramona wants this."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "net tow sampling process"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000091",
       "meta" : {
@@ -1832,6 +1840,9 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Should be observing process"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO."
         }, {
@@ -2223,13 +2234,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000127"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000108",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000069",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000968"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000108",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000010",
       "pred" : "is_a",
@@ -2275,13 +2286,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000036"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000059",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000058"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000163",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000058"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000109",
       "pred" : "is_a",
@@ -2563,13 +2574,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000009"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000019",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000004",
       "pred" : "is_a",
@@ -2727,13 +2738,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCO_0000029"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000021",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001019"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001019"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000168",
       "pred" : "is_a",
@@ -2787,7 +2798,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "Planet Microbe Ontology"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-09-12/pmo-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-11-18/pmo-base.owl"
     },
     "equivalentNodesSets" : [ {
       "nodeIds" : [ "http://purl.obolibrary.org/obo/PMO_00000158", "http://purl.obolibrary.org/obo/PMO_00000162" ]

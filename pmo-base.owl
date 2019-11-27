@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/pmo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-09-12/pmo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-11-18/pmo-base.owl"/>
         <rdfs:comment>Planet Microbe Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -1002,6 +1002,7 @@ brought to a standard reference pressure.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_3100033"/>
+        <obo:IAO_0000115>A pressure of water quality which inheres in a bearer by virtue of such bearer being the maximum pressure of water collected during a specimen collection process.</obo:IAO_0000115>
         <obo:IAO_0000116>Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a maximum quality and ENVO: pressure of water.</obo:IAO_0000116>
         <rdfs:label>maximum pressure of water collected during specimen collection process</rdfs:label>
     </owl:Class>
@@ -1275,7 +1276,8 @@ Add axiom linking to specimen collection process http://purl.obolibrary.org/obo/
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
-        <obo:IAO_0000116>Probably deprecate this term.</obo:IAO_0000116>
+        <obo:IAO_0000115>A specimen collection time measurement datum which is measured in a localized time zone.</obo:IAO_0000115>
+        <obo:IAO_0000116>Don&apos;t depricate, could be a useful semantic for future systems, check with Ramona Walls</obo:IAO_0000116>
         <rdfs:label>specimen collection time measurement datum in localized time zone</rdfs:label>
     </owl:Class>
     
@@ -2344,6 +2346,7 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
         <obo:IAO_0000115>A material sampling process during which a conductivity temperature and pressure sampling device is employed.</obo:IAO_0000115>
         <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO.</obo:IAO_0000116>
+        <obo:IAO_0000116>Should be observing process</obo:IAO_0000116>
         <obo:IAO_0000116>To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">conductivity temperature pressure sampling process</rdfs:label>
     </owl:Class>
@@ -2355,7 +2358,7 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
         <obo:IAO_0000115>A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean and add axiom and add to BCO.</obo:IAO_0000116>
+        <obo:IAO_0000116>Clean and add axiom and add to BCO. Ramona wants this.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">net tow sampling process</rdfs:label>
     </owl:Class>
     
