@@ -38,6 +38,7 @@ ENVO:3100010 #concentration of chlorophyllide a in water
 ENVO:04000013 #particulate organic carbon
 ENVO:04000014 #particulate organic nitrogen
 ENVO:03000123 #concentration of nitrate and nitrite in liquid water
+ENVO:01001362 #atmospheric wind speed
 #################### Imports from Datapackages
 ENVO:01000048
 ENVO:01000252
