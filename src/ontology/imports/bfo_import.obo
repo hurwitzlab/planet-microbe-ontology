@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-11-27/imports/bfo_import.owl
+data-version: pmo/releases/2019-12-04/imports/bfo_import.owl
 ontology: pmo/imports/bfo_import
 
 [Term]
