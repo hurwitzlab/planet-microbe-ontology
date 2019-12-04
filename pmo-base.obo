@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-11-18/pmo-base.owl
+data-version: pmo/releases/2019-12-04/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -1091,4 +1091,11 @@ name: minimum depth of water collected during specimen collection process
 def: "A depth of water quality which inheres in a bearer by virtue of such bearer being the minimum depth of water collected during a specimen collection process." []
 is_a: ENVO:3100031
 property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? Or handled with two semantics a minimum quality and ENVO: depth of water." xsd:string
+
+[Term]
+id: PMO:00000173
+name: concentration of urea in liquid water
+def: "The concentration of urea when measured in liquid water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 "Replace by ENVO:3200059 after next envo release." xsd:string
 

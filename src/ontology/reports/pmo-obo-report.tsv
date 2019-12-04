@@ -29,15 +29,35 @@ ERROR	duplicate_definition	ENVO:01001309	IAO:0000115	A liquid surface layer whic
 ERROR	duplicate_definition	ENVO:01001310	IAO:0000115	A liquid surface layer which is in contact with air.	
 ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
 ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	47a32e86fede8057491e421184362fd1	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	5d5cb08e0183d35e829172187ed94a0b	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	96b393ce32013d04b17b2d6558cb36f9	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	e5be31c906304ce32c5124ae60b9219c	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	ca630f8c5382daad27424312379553aa	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	fa4480938c070c5147b1873ffc6cf0b9	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	40bd670ea3aaa38cf704dd68905def82	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	80d646a579f5aa1bbe0527a5a5e16ba3	
+ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	9461f41f4533b9d6bc87c35dda7a6f7f	
+ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	df4df159659c6a272d03f3ef3442731f	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	65b4f7cf12e00e4571dea785c9ed7246	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	874c9c013e76faa3c44d1a96833e9216	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	d804ce0d0b4da5d86c3b9fe4ce4070e7	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	f9c89e09a7bf72d2a32035e1c1f915ec	
+ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	ab85112cd785d702ee23577ae8e1d32d	
+ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	dfd59427344834f1caf2c17760d46292	
+ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	0e874433d849792a831474d9e61daa38	
+ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	66d24718ea2d7dda5424efaec31b76d2	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	4a8feb5cb6a7ca432a2a3529b653e7dc	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	e4a24afad5ee69f742459fdf3f5e7f45	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	61a7a4ad7146f523e148099d1778dfef	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	99cd4114f99faee073a95eeb4be1c0b6	
 ERROR	missing_label	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_agr	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_aspergillus	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_candida	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_chembl	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_generic	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_metagenomics	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_mouse	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_pir	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_plant	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_pombe	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_yeast	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#abnormal_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#attribute_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#cell_quality	rdfs:label		
@@ -50,6 +70,7 @@ ERROR	missing_label	http://purl.obolibrary.org/obo/pato#value_slim	rdfs:label
 ERROR	missing_label	http://purl.obolibrary.org/obo/uo#unit_group_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/uo#unit_slim	rdfs:label		
 ERROR	missing_label	oboInOwl:Subset	rdfs:label		
+ERROR	deprecated_class_reference	ENVO:00000024	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	ENVO:2100001	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	ENVO:2100007	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	GO:0004872	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
@@ -104,26 +125,24 @@ ERROR	multiple_definitions	BFO:0000031	IAO:0000115	A continuant that is dependen
 ERROR	multiple_definitions	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
-ERROR	multiple_definitions	BFO:0000062	IAO:0000115	X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)	
-ERROR	multiple_definitions	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
 ERROR	multiple_definitions	ENVO:00000002	IAO:0000115	An anthropogenic geographic feature is a geographic feature    resulting from the influence of human beings on nature.	
 ERROR	multiple_definitions	ENVO:00000002	IAO:0000115	An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.	
+ERROR	multiple_definitions	ENVO:00002004	IAO:0000115	An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.	
+ERROR	multiple_definitions	ENVO:00002004	IAO:0000115	An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance.	
 ERROR	multiple_definitions	ENVO:00010483	IAO:0000115	A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system.	
 ERROR	multiple_definitions	ENVO:00010483	IAO:0000115	A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.	
 ERROR	multiple_definitions	ENVO:01000817	IAO:0000115	A biosphere is a part of an astronomical body which includes, as parts, all the living entities within the gravitational sphere of influence of that body, as well as the non-living and dead entities with which they interact.	
 ERROR	multiple_definitions	ENVO:01000817	IAO:0000115	A biosphere is an environmental system which includes, as parts, all the living entities within the gravitational sphere of influence of an astronomical body, and the non-living and dead entities which they interact with.	
+ERROR	multiple_definitions	ENVO:01000983	IAO:0000115	A part of an astronomical body which includes, as parts, all the entities which have been constructed or manufactured by humans or their technology and which are within the gravitational sphere of influence of that body.	
+ERROR	multiple_definitions	ENVO:01000983	IAO:0000115	An environmental system which includes, as parts, all the entities which have been constructed or manufactured by humans or their technology within the gravitational sphere of influence of an astronomical body.	
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.	
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.	
-ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en	
-ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en	
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en	
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en	
 ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Add as annotation triples in the granting ontology@en	
 ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Use on obsolete terms, relating the term to another term that can be used as a substitute@en	
 ERROR	multiple_definitions	PCO:0000000	IAO:0000115	A material entity that consists of two or more organisms, viruses, or viroids.	
 ERROR	multiple_definitions	PCO:0000000	IAO:0000115	A material entity that consists of two or more organisms, viruses, or viroids.@en	
-ERROR	multiple_definitions	RO:0002131	IAO:0000115	A overlaps B if they share some part in common.	
-ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
 ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x	
 ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y if and only if x is adjacent to y and for every region r that is adjacent to x, r overlaps y	
 ERROR	multiple_definitions	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
@@ -132,12 +151,6 @@ ERROR	multiple_definitions	RO:0002263	IAO:0000115	c acts upstream of p if and on
 ERROR	multiple_definitions	RO:0002263	IAO:0000115	c involved in regulation of p if c enables  'p' and p' causally upstream of p	
 ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p	
 ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
-ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y	
-ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
-ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y	
-ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
-ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y	
-ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
 ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some 'p' and p' regulates some p	
 ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' regulates some p	
 ERROR	multiple_definitions	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
@@ -146,18 +159,8 @@ ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in
 ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other.	
 ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.	
 ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities a and b when the execution of a activates or inhibits the activity of b	
-ERROR	multiple_definitions	RO:0002449	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.	
-ERROR	multiple_definitions	RO:0002449	IAO:0000115	Holds between molecules a and b if and only if a executes a process that directly diminishes a process executed by b.	
-ERROR	multiple_definitions	RO:0002450	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B.	
-ERROR	multiple_definitions	RO:0002450	IAO:0000115	Holds between molecules a and b if and only if a executes a process that directly activates a process executed by b.	
-ERROR	multiple_definitions	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
-ERROR	multiple_definitions	RO:0002473	IAO:0000115	x composed_primarily_of y iff: more than half of the mass of x is made from parts of y	
 ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in process'	
 ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in'	
-ERROR	multiple_definitions	RO:0002629	IAO:0000115	Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2.	
-ERROR	multiple_definitions	RO:0002629	IAO:0000115	Process(P1) directly regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2.	
-ERROR	multiple_definitions	RO:0002630	IAO:0000115	Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.	
-ERROR	multiple_definitions	RO:0002630	IAO:0000115	Process(P1) directly regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.	
 ERROR	multiple_definitions	UO:0000036	IAO:0000115	A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days.	
 ERROR	multiple_definitions	UO:0000036	IAO:0000115	A time unit which is equal to 12 months which is science is taken to be equal to 365.25 days.	
 ERROR	missing_ontology_license	pmo.owl	dc:license		
@@ -170,18 +173,14 @@ ERROR	multiple_labels	BFO:0000050	rdfs:label	part_of
 ERROR	multiple_labels	BFO:0000051	rdfs:label	has part	
 ERROR	multiple_labels	BFO:0000051	rdfs:label	has part@en	
 ERROR	multiple_labels	BFO:0000051	rdfs:label	has_part	
-ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded by@en	
-ERROR	multiple_labels	BFO:0000062	rdfs:label	preceded_by	
-ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes	
-ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes@en	
 ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in	
 ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in@en	
-ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process	
-ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process@en	
 ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure@en	
 ERROR	multiple_labels	CARO:0000003	rdfs:label	connected anatomical structure@en	
 ERROR	multiple_labels	CL:0000000	rdfs:label	cell	
 ERROR	multiple_labels	CL:0000000	rdfs:label	cell@en	
+ERROR	multiple_labels	ENVO:00002004	rdfs:label	mesoscopic physical object	
+ERROR	multiple_labels	ENVO:00002004	rdfs:label	physical object of mesoscopic geological size	
 ERROR	multiple_labels	ENVO:01001211	rdfs:label	stellar radiation	
 ERROR	multiple_labels	ENVO:01001211	rdfs:label	stellar radiation@en	
 ERROR	multiple_labels	ENVO:01001215	rdfs:label	visible spectrum stellar radiation	
@@ -214,7 +213,6 @@ ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source
 ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source@en	
 ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note	
 ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note@en	
-ERROR	multiple_labels	IAO:0000232	rdfs:label	curator notes	
 ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from	
 ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from@en	
 ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to	
@@ -223,28 +221,10 @@ ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by
 ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by@en	
 ERROR	multiple_labels	PCO:0000000	rdfs:label	collection of organisms	
 ERROR	multiple_labels	PCO:0000000	rdfs:label	collection of organisms@en	
-ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of	
-ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of@en	
-ERROR	multiple_labels	RO:0000086	rdfs:label	has quality	
-ERROR	multiple_labels	RO:0000086	rdfs:label	has quality@en	
-ERROR	multiple_labels	RO:0001015	rdfs:label	location of@en	
-ERROR	multiple_labels	RO:0001015	rdfs:label	location_of	
-ERROR	multiple_labels	RO:0001019	rdfs:label	contains	
-ERROR	multiple_labels	RO:0001019	rdfs:label	contains@en	
-ERROR	multiple_labels	RO:0001025	rdfs:label	located in@en	
-ERROR	multiple_labels	RO:0001025	rdfs:label	located_in	
 ERROR	multiple_labels	RO:0001900	rdfs:label	temporal interpretation	
 ERROR	multiple_labels	RO:0001900	rdfs:label	temporal interpretation@en	
-ERROR	multiple_labels	RO:0002087	rdfs:label	immediately preceded by@en	
-ERROR	multiple_labels	RO:0002087	rdfs:label	immediately_preceded_by	
-ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps	
-ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps@en	
-ERROR	multiple_labels	RO:0002180	rdfs:label	has component	
-ERROR	multiple_labels	RO:0002180	rdfs:label	has component@en	
-ERROR	multiple_labels	RO:0002202	rdfs:label	develops from@en	
-ERROR	multiple_labels	RO:0002202	rdfs:label	develops_from	
-ERROR	multiple_labels	RO:0002203	rdfs:label	develops into@en	
-ERROR	multiple_labels	RO:0002203	rdfs:label	develops_into	
+ERROR	multiple_labels	RO:0002176	rdfs:label	connects	
+ERROR	multiple_labels	RO:0002176	rdfs:label	connects@en	
 ERROR	multiple_labels	RO:0002211	rdfs:label	regulates	
 ERROR	multiple_labels	RO:0002211	rdfs:label	regulates@en	
 ERROR	multiple_labels	RO:0002211	rdfs:label	regulates (processual)	
@@ -252,72 +232,32 @@ ERROR	multiple_labels	RO:0002212	rdfs:label	negatively regulates
 ERROR	multiple_labels	RO:0002212	rdfs:label	negatively regulates@en	
 ERROR	multiple_labels	RO:0002213	rdfs:label	positively regulates	
 ERROR	multiple_labels	RO:0002213	rdfs:label	positively regulates@en	
-ERROR	multiple_labels	RO:0002215	rdfs:label	capable of	
-ERROR	multiple_labels	RO:0002215	rdfs:label	capable of@en	
-ERROR	multiple_labels	RO:0002216	rdfs:label	capable of part of	
-ERROR	multiple_labels	RO:0002216	rdfs:label	capable of part of@en	
 ERROR	multiple_labels	RO:0002219	rdfs:label	surrounded by	
 ERROR	multiple_labels	RO:0002219	rdfs:label	surrounded by@en	
 ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent to	
 ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent to@en	
 ERROR	multiple_labels	RO:0002222	rdfs:label	temporal relation@en	
 ERROR	multiple_labels	RO:0002222	rdfs:label	temporally related to@en	
-ERROR	multiple_labels	RO:0002254	rdfs:label	has developmental contribution from	
-ERROR	multiple_labels	RO:0002254	rdfs:label	has developmental contribution from@en	
-ERROR	multiple_labels	RO:0002255	rdfs:label	developmentally contributes to@en	
-ERROR	multiple_labels	RO:0002255	rdfs:label	developmentally_contributes_to	
-ERROR	multiple_labels	RO:0002258	rdfs:label	developmentally preceded by	
-ERROR	multiple_labels	RO:0002258	rdfs:label	developmentally preceded by@en	
 ERROR	multiple_labels	RO:0002303	rdfs:label	has habitat	
 ERROR	multiple_labels	RO:0002303	rdfs:label	has habitat@en	
-ERROR	multiple_labels	RO:0002328	rdfs:label	functionally related to	
-ERROR	multiple_labels	RO:0002328	rdfs:label	functionally related to@en	
-ERROR	multiple_labels	RO:0002329	rdfs:label	part of structure that is capable of	
-ERROR	multiple_labels	RO:0002329	rdfs:label	part of structure that is capable of@en	
-ERROR	multiple_labels	RO:0002350	rdfs:label	member of	
-ERROR	multiple_labels	RO:0002350	rdfs:label	member of@en	
-ERROR	multiple_labels	RO:0002351	rdfs:label	has member	
-ERROR	multiple_labels	RO:0002351	rdfs:label	has member@en	
-ERROR	multiple_labels	RO:0002352	rdfs:label	input of	
-ERROR	multiple_labels	RO:0002352	rdfs:label	input of@en	
-ERROR	multiple_labels	RO:0002353	rdfs:label	output of	
-ERROR	multiple_labels	RO:0002353	rdfs:label	output of@en	
-ERROR	multiple_labels	RO:0002385	rdfs:label	has potential to developmentally contribute to	
-ERROR	multiple_labels	RO:0002385	rdfs:label	has potential to developmentally contribute to@en	
-ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into	
-ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into@en	
-ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into	
-ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into@en	
 ERROR	multiple_labels	RO:0002432	rdfs:label	enables activity in	
 ERROR	multiple_labels	RO:0002432	rdfs:label	is active in	
 ERROR	multiple_labels	RO:0002448	rdfs:label	activity directly regulates activity of	
 ERROR	multiple_labels	RO:0002448	rdfs:label	molecularly controls	
-ERROR	multiple_labels	RO:0002449	rdfs:label	activity directly negatively regulates activity of	
-ERROR	multiple_labels	RO:0002449	rdfs:label	molecularly decreases activity of	
-ERROR	multiple_labels	RO:0002450	rdfs:label	activity directly positively regulates activity of	
-ERROR	multiple_labels	RO:0002450	rdfs:label	molecularly increases activity of	
-ERROR	multiple_labels	RO:0002464	rdfs:label	helper property	
-ERROR	multiple_labels	RO:0002464	rdfs:label	helper property (not for use in curation)	
 ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in	
 ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in process	
 ERROR	multiple_labels	RO:0002604	rdfs:label	is opposite of	
 ERROR	multiple_labels	RO:0002604	rdfs:label	is_opposite_of	
 ERROR	multiple_labels	RO:0002608	rdfs:label	has causal agent	
 ERROR	multiple_labels	RO:0002608	rdfs:label	process has causal agent	
-ERROR	multiple_labels	RO:0003000	rdfs:label	produces	
-ERROR	multiple_labels	RO:0003000	rdfs:label	produces@en	
-ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en	
-ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
 ERROR	multiple_labels	dc11:contributor	rdfs:label	Contributor	
 ERROR	multiple_labels	dc11:contributor	rdfs:label	Contributor@en-us	
 ERROR	multiple_labels	dc11:creator	rdfs:label	Creator	
 ERROR	multiple_labels	dc11:creator	rdfs:label	Creator@en-us	
-ERROR	multiple_labels	dc11:creator	rdfs:label	creator	
 ERROR	multiple_labels	dc11:description	rdfs:label	Description	
 ERROR	multiple_labels	dc11:description	rdfs:label	Description@en-us	
 ERROR	multiple_labels	dc11:source	rdfs:label	Source	
 ERROR	multiple_labels	dc11:source	rdfs:label	Source@en-us	
-ERROR	multiple_labels	dc11:source	rdfs:label	derived from resource	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	
@@ -361,6 +301,7 @@ WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity 
 WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 	
 WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] 	
 WARN	annotation_whitespace	ENVO:01000303	IAO:0000115	An endolithic environment is an environment that exists within solid rock. 	
+WARN	annotation_whitespace	ENVO:01000339	rdfs:comment	This class is primarily for inference and, in general, should not be used directly by annotators. If you're an annotator, please consider using a more informative term such as 'tundra biome'.  	
 WARN	annotation_whitespace	IAO:0000115	IAO:0000116	2012-04-05:     Barry Smith        The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.        Can you fix to something like:        A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.        Alan Ruttenberg        Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.         On the specifics of the proposed definition:        We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.         Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.         We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en	
 WARN	annotation_whitespace	IAO:0000579	IAO:0000112	PubMed is a CRID registry. It has a dataset of PubMed identifiers associated with journal articles. @en	
 WARN	annotation_whitespace	OBI:0000070	IAO:0000116	12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. 	
@@ -661,17 +602,40 @@ WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:00001999
 WARN	multiple_asserted_superclasses	ENVO:00000016	rdfs:subClassOf	ENVO:01001319	
 WARN	multiple_asserted_superclasses	ENVO:00000019	rdfs:subClassOf	ENVO:00000020	
 WARN	multiple_asserted_superclasses	ENVO:00000019	rdfs:subClassOf	ENVO:01001319	
+WARN	multiple_asserted_superclasses	ENVO:00000021	rdfs:subClassOf	ENVO:00000020	
+WARN	multiple_asserted_superclasses	ENVO:00000021	rdfs:subClassOf	ENVO:01001320	
 WARN	multiple_asserted_superclasses	ENVO:00000304	rdfs:subClassOf	ENVO:00000012	
 WARN	multiple_asserted_superclasses	ENVO:00000304	rdfs:subClassOf	ENVO:01000635	
+WARN	multiple_asserted_superclasses	ENVO:00000377	rdfs:subClassOf	ENVO:00000020	
+WARN	multiple_asserted_superclasses	ENVO:00000377	rdfs:subClassOf	ENVO:00000070	
+WARN	multiple_asserted_superclasses	ENVO:00000385	rdfs:subClassOf	ENVO:00000479	
+WARN	multiple_asserted_superclasses	ENVO:00000385	rdfs:subClassOf	ENVO:01001308	
+WARN	multiple_asserted_superclasses	ENVO:00000426	rdfs:subClassOf	ENVO:00000017	
+WARN	multiple_asserted_superclasses	ENVO:00000426	rdfs:subClassOf	ENVO:01001378	
 WARN	multiple_asserted_superclasses	ENVO:00000428	rdfs:subClassOf	ENVO:01000254	
 WARN	multiple_asserted_superclasses	ENVO:00000428	rdfs:subClassOf	ENVO:01001110	
 WARN	multiple_asserted_superclasses	ENVO:00000447	rdfs:subClassOf	ENVO:00002030	
 WARN	multiple_asserted_superclasses	ENVO:00000447	rdfs:subClassOf	ENVO:01000320	
+WARN	multiple_asserted_superclasses	ENVO:00000482	rdfs:subClassOf	ENVO:00000017	
+WARN	multiple_asserted_superclasses	ENVO:00000482	rdfs:subClassOf	ENVO:01001378	
+WARN	multiple_asserted_superclasses	ENVO:00000501	rdfs:subClassOf	ENVO:00000012	
+WARN	multiple_asserted_superclasses	ENVO:00000501	rdfs:subClassOf	ENVO:01001311	
 WARN	multiple_asserted_superclasses	ENVO:00001999	rdfs:subClassOf	ENVO:01000044	
 WARN	multiple_asserted_superclasses	ENVO:00001999	rdfs:subClassOf	ENVO:01000617	
 WARN	multiple_asserted_superclasses	ENVO:00001999	rdfs:subClassOf	ENVO:01001308	
+WARN	multiple_asserted_superclasses	ENVO:00002004	rdfs:subClassOf	BFO:0000030	
+WARN	multiple_asserted_superclasses	ENVO:00002004	rdfs:subClassOf	ENVO:00002297	
+WARN	multiple_asserted_superclasses	ENVO:00002134	rdfs:subClassOf	ENVO:00002045	
+WARN	multiple_asserted_superclasses	ENVO:00002134	rdfs:subClassOf	ENVO:00002127	
+WARN	multiple_asserted_superclasses	ENVO:00002450	rdfs:subClassOf	ENVO:00000017	
+WARN	multiple_asserted_superclasses	ENVO:00002450	rdfs:subClassOf	ENVO:01000275	
 WARN	multiple_asserted_superclasses	ENVO:00010483	rdfs:subClassOf	BFO:0000024	
 WARN	multiple_asserted_superclasses	ENVO:00010483	rdfs:subClassOf	BFO:0000040	
+WARN	multiple_asserted_superclasses	ENVO:01000065	rdfs:subClassOf	ENVO:01000686	
+WARN	multiple_asserted_superclasses	ENVO:01000065	rdfs:subClassOf	ENVO:01001308	
+WARN	multiple_asserted_superclasses	ENVO:01000080	rdfs:subClassOf	ENVO:01000325	
+WARN	multiple_asserted_superclasses	ENVO:01000080	rdfs:subClassOf	ENVO:01001274	
+WARN	multiple_asserted_superclasses	ENVO:01000080	rdfs:subClassOf	ENVO:01001308	
 WARN	multiple_asserted_superclasses	ENVO:01000267	rdfs:subClassOf	ENVO:01000281	
 WARN	multiple_asserted_superclasses	ENVO:01000267	rdfs:subClassOf	ENVO:01001478	
 WARN	multiple_asserted_superclasses	ENVO:01000283	rdfs:subClassOf	ENVO:01000325	
@@ -691,6 +655,10 @@ WARN	multiple_asserted_superclasses	ENVO:01000635	rdfs:subClassOf	ENVO:01000324
 WARN	multiple_asserted_superclasses	ENVO:01000635	rdfs:subClassOf	ENVO:01001311	
 WARN	multiple_asserted_superclasses	ENVO:01000637	rdfs:subClassOf	ENVO:00002297	
 WARN	multiple_asserted_superclasses	ENVO:01000637	rdfs:subClassOf	ENVO:00010483	
+WARN	multiple_asserted_superclasses	ENVO:01000686	rdfs:subClassOf	ENVO:01000044	
+WARN	multiple_asserted_superclasses	ENVO:01000686	rdfs:subClassOf	ENVO:01000685	
+WARN	multiple_asserted_superclasses	ENVO:01000785	rdfs:subClassOf	ENVO:02500000	
+WARN	multiple_asserted_superclasses	ENVO:01000785	rdfs:subClassOf	OBI:0000011	
 WARN	multiple_asserted_superclasses	ENVO:01000804	rdfs:subClassOf	BFO:0000030	
 WARN	multiple_asserted_superclasses	ENVO:01000804	rdfs:subClassOf	ENVO:00002297	
 WARN	multiple_asserted_superclasses	ENVO:01000813	rdfs:subClassOf	BFO:0000024	
@@ -704,6 +672,10 @@ WARN	multiple_asserted_superclasses	ENVO:01000952	rdfs:subClassOf	ENVO:01001434
 WARN	multiple_asserted_superclasses	ENVO:01000952	rdfs:subClassOf	ENVO:02500027	
 WARN	multiple_asserted_superclasses	ENVO:01000982	rdfs:subClassOf	ENVO:01000981	
 WARN	multiple_asserted_superclasses	ENVO:01000982	rdfs:subClassOf	ENVO:02500031	
+WARN	multiple_asserted_superclasses	ENVO:01000993	rdfs:subClassOf	ENVO:01000952	
+WARN	multiple_asserted_superclasses	ENVO:01000993	rdfs:subClassOf	OBI:0000011	
+WARN	multiple_asserted_superclasses	ENVO:01000996	rdfs:subClassOf	ENVO:01000952	
+WARN	multiple_asserted_superclasses	ENVO:01000996	rdfs:subClassOf	OBI:0000011	
 WARN	multiple_asserted_superclasses	ENVO:01001040	rdfs:subClassOf	ENVO:01000314	
 WARN	multiple_asserted_superclasses	ENVO:01001040	rdfs:subClassOf	ENVO:01000998	
 WARN	multiple_asserted_superclasses	ENVO:01001044	rdfs:subClassOf	ENVO:01000997	
@@ -718,6 +690,10 @@ WARN	multiple_asserted_superclasses	ENVO:01001055	rdfs:subClassOf	ENVO:01000254
 WARN	multiple_asserted_superclasses	ENVO:01001055	rdfs:subClassOf	ENVO:01001110	
 WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01000254	
 WARN	multiple_asserted_superclasses	ENVO:01001057	rdfs:subClassOf	ENVO:01001110	
+WARN	multiple_asserted_superclasses	ENVO:01001168	rdfs:subClassOf	ENVO:02500000	
+WARN	multiple_asserted_superclasses	ENVO:01001168	rdfs:subClassOf	GO:0008150	
+WARN	multiple_asserted_superclasses	ENVO:01001170	rdfs:subClassOf	ENVO:02500026	
+WARN	multiple_asserted_superclasses	ENVO:01001170	rdfs:subClassOf	ENVO:02500027	
 WARN	multiple_asserted_superclasses	ENVO:01001191	rdfs:subClassOf	ENVO:01000325	
 WARN	multiple_asserted_superclasses	ENVO:01001191	rdfs:subClassOf	ENVO:01001310	
 WARN	multiple_asserted_superclasses	ENVO:01001215	rdfs:subClassOf	ENVO:01001211	
@@ -729,10 +705,16 @@ WARN	multiple_asserted_superclasses	ENVO:01001275	rdfs:subClassOf	ENVO:01000281
 WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:00000131	
 WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:01001275	
 WARN	multiple_asserted_superclasses	ENVO:01001276	rdfs:subClassOf	ENVO:03000110	
+WARN	multiple_asserted_superclasses	ENVO:01001301	rdfs:subClassOf	ENVO:01000325	
+WARN	multiple_asserted_superclasses	ENVO:01001301	rdfs:subClassOf	ENVO:01001308	
 WARN	multiple_asserted_superclasses	ENVO:01001310	rdfs:subClassOf	ENVO:01001273	
 WARN	multiple_asserted_superclasses	ENVO:01001310	rdfs:subClassOf	ENVO:01001483	
 WARN	multiple_asserted_superclasses	ENVO:01001311	rdfs:subClassOf	ENVO:01001275	
 WARN	multiple_asserted_superclasses	ENVO:01001311	rdfs:subClassOf	ENVO:01001483	
+WARN	multiple_asserted_superclasses	ENVO:01001433	rdfs:subClassOf	ENVO:01001431	
+WARN	multiple_asserted_superclasses	ENVO:01001433	rdfs:subClassOf	ENVO:01001437	
+WARN	multiple_asserted_superclasses	ENVO:01001436	rdfs:subClassOf	ENVO:02500027	
+WARN	multiple_asserted_superclasses	ENVO:01001436	rdfs:subClassOf	OBI:0000011	
 WARN	multiple_asserted_superclasses	ENVO:01001483	rdfs:subClassOf	ENVO:00010504	
 WARN	multiple_asserted_superclasses	ENVO:01001483	rdfs:subClassOf	ENVO:01000281	
 WARN	multiple_asserted_superclasses	ENVO:01001526	rdfs:subClassOf	ENVO:00001998	
@@ -789,6 +771,8 @@ WARN	multiple_asserted_superclasses	GO:0009968	rdfs:subClassOf	GO:0009966
 WARN	multiple_asserted_superclasses	GO:0009968	rdfs:subClassOf	GO:0010648	
 WARN	multiple_asserted_superclasses	GO:0009968	rdfs:subClassOf	GO:0023057	
 WARN	multiple_asserted_superclasses	GO:0009968	rdfs:subClassOf	GO:0048585	
+WARN	multiple_asserted_superclasses	GO:0010469	rdfs:subClassOf	GO:0009966	
+WARN	multiple_asserted_superclasses	GO:0010469	rdfs:subClassOf	GO:0065009	
 WARN	multiple_asserted_superclasses	GO:0010562	rdfs:subClassOf	GO:0031325	
 WARN	multiple_asserted_superclasses	GO:0010562	rdfs:subClassOf	GO:0051174	
 WARN	multiple_asserted_superclasses	GO:0010563	rdfs:subClassOf	GO:0031324	
@@ -813,6 +797,8 @@ WARN	multiple_asserted_superclasses	GO:0032091	rdfs:subClassOf	GO:0043393
 WARN	multiple_asserted_superclasses	GO:0032091	rdfs:subClassOf	GO:0051100	
 WARN	multiple_asserted_superclasses	GO:0032092	rdfs:subClassOf	GO:0043393	
 WARN	multiple_asserted_superclasses	GO:0032092	rdfs:subClassOf	GO:0051099	
+WARN	multiple_asserted_superclasses	GO:0032991	rdfs:subClassOf	BFO:0000040	
+WARN	multiple_asserted_superclasses	GO:0032991	rdfs:subClassOf	GO:0005575	
 WARN	multiple_asserted_superclasses	GO:0033673	rdfs:subClassOf	GO:0042326	
 WARN	multiple_asserted_superclasses	GO:0033673	rdfs:subClassOf	GO:0043549	
 WARN	multiple_asserted_superclasses	GO:0033673	rdfs:subClassOf	GO:0051348	
@@ -827,6 +813,8 @@ WARN	multiple_asserted_superclasses	GO:0043085	rdfs:subClassOf	GO:0044093
 WARN	multiple_asserted_superclasses	GO:0043085	rdfs:subClassOf	GO:0050790	
 WARN	multiple_asserted_superclasses	GO:0043086	rdfs:subClassOf	GO:0044092	
 WARN	multiple_asserted_superclasses	GO:0043086	rdfs:subClassOf	GO:0050790	
+WARN	multiple_asserted_superclasses	GO:0043227	rdfs:subClassOf	GO:0005575	
+WARN	multiple_asserted_superclasses	GO:0043227	rdfs:subClassOf	GO:0043226	
 WARN	multiple_asserted_superclasses	GO:0043231	rdfs:subClassOf	GO:0043227	
 WARN	multiple_asserted_superclasses	GO:0043231	rdfs:subClassOf	GO:0043229	
 WARN	multiple_asserted_superclasses	GO:0043549	rdfs:subClassOf	GO:0042325	
@@ -866,6 +854,10 @@ WARN	multiple_asserted_superclasses	GO:1902532	rdfs:subClassOf	GO:0009968
 WARN	multiple_asserted_superclasses	GO:1902532	rdfs:subClassOf	GO:1902531	
 WARN	multiple_asserted_superclasses	GO:1902533	rdfs:subClassOf	GO:0009967	
 WARN	multiple_asserted_superclasses	GO:1902533	rdfs:subClassOf	GO:1902531	
+WARN	multiple_asserted_superclasses	GO:2000272	rdfs:subClassOf	GO:0010469	
+WARN	multiple_asserted_superclasses	GO:2000272	rdfs:subClassOf	GO:0044092	
+WARN	multiple_asserted_superclasses	GO:2000273	rdfs:subClassOf	GO:0010469	
+WARN	multiple_asserted_superclasses	GO:2000273	rdfs:subClassOf	GO:0044093	
 WARN	multiple_asserted_superclasses	NCBITaxon:10239	rdfs:subClassOf	NCBITaxon:1	
 WARN	multiple_asserted_superclasses	NCBITaxon:10239	rdfs:subClassOf	OBI:0100026	
 WARN	multiple_asserted_superclasses	NCBITaxon:117571	rdfs:subClassOf	NCBITaxon:117570	
@@ -1040,7 +1032,6 @@ WARN	multiple_asserted_superclasses	PCO:0000000	rdfs:subClassOf	BFO:0000027
 WARN	multiple_asserted_superclasses	PCO:0000000	rdfs:subClassOf	PCO:0000031	
 WARN	multiple_asserted_superclasses	PCO:0000001	rdfs:subClassOf	CARO:0001010	
 WARN	multiple_asserted_superclasses	PCO:0000001	rdfs:subClassOf	PCO:0000018	
-WARN	multiple_asserted_superclasses	PCO:0000002	rdfs:subClassOf	ENVO:01001110	
 WARN	multiple_asserted_superclasses	PCO:0000002	rdfs:subClassOf	PCO:0000028	
 WARN	multiple_asserted_superclasses	PCO:0000002	rdfs:subClassOf	PCO:0000029	
 WARN	multiple_asserted_superclasses	PMO:00000159	rdfs:subClassOf	PMO:00000158	
@@ -1462,61 +1453,178 @@ WARN	missing_definition	ENVO:00000016	IAO:0000600
 WARN	missing_definition	ENVO:00000017	IAO:0000600		
 WARN	missing_definition	ENVO:00000019	IAO:0000600		
 WARN	missing_definition	ENVO:00000020	IAO:0000600		
+WARN	missing_definition	ENVO:00000021	IAO:0000600		
+WARN	missing_definition	ENVO:00000022	IAO:0000600		
+WARN	missing_definition	ENVO:00000023	IAO:0000600		
+WARN	missing_definition	ENVO:00000025	IAO:0000600		
+WARN	missing_definition	ENVO:00000026	IAO:0000600		
+WARN	missing_definition	ENVO:00000027	IAO:0000600		
+WARN	missing_definition	ENVO:00000028	IAO:0000600		
+WARN	missing_definition	ENVO:00000029	IAO:0000600		
+WARN	missing_definition	ENVO:00000032	IAO:0000600		
+WARN	missing_definition	ENVO:00000038	IAO:0000600		
+WARN	missing_definition	ENVO:00000039	IAO:0000600		
 WARN	missing_definition	ENVO:00000043	IAO:0000600		
+WARN	missing_definition	ENVO:00000045	IAO:0000600		
 WARN	missing_definition	ENVO:00000063	IAO:0000600		
+WARN	missing_definition	ENVO:00000070	IAO:0000600		
+WARN	missing_definition	ENVO:00000076	IAO:0000600		
+WARN	missing_definition	ENVO:00000086	IAO:0000600		
+WARN	missing_definition	ENVO:00000090	IAO:0000600		
 WARN	missing_definition	ENVO:00000100	IAO:0000600		
+WARN	missing_definition	ENVO:00000104	IAO:0000115		
+WARN	missing_definition	ENVO:00000104	IAO:0000600		
 WARN	missing_definition	ENVO:00000128	IAO:0000600		
+WARN	missing_definition	ENVO:00000129	IAO:0000600		
+WARN	missing_definition	ENVO:00000130	IAO:0000600		
 WARN	missing_definition	ENVO:00000131	IAO:0000600		
+WARN	missing_definition	ENVO:00000133	IAO:0000600		
 WARN	missing_definition	ENVO:00000134	IAO:0000600		
+WARN	missing_definition	ENVO:00000137	IAO:0000600		
+WARN	missing_definition	ENVO:00000141	IAO:0000600		
+WARN	missing_definition	ENVO:00000142	IAO:0000600		
+WARN	missing_definition	ENVO:00000143	IAO:0000600		
 WARN	missing_definition	ENVO:00000176	IAO:0000600		
 WARN	missing_definition	ENVO:00000191	IAO:0000600		
+WARN	missing_definition	ENVO:00000199	IAO:0000600		
+WARN	missing_definition	ENVO:00000209	IAO:0000600		
+WARN	missing_definition	ENVO:00000210	IAO:0000600		
+WARN	missing_definition	ENVO:00000212	IAO:0000600		
+WARN	missing_definition	ENVO:00000213	IAO:0000600		
+WARN	missing_definition	ENVO:00000219	IAO:0000600		
+WARN	missing_definition	ENVO:00000223	IAO:0000600		
+WARN	missing_definition	ENVO:00000230	IAO:0000600		
 WARN	missing_definition	ENVO:00000240	IAO:0000115		
 WARN	missing_definition	ENVO:00000240	IAO:0000600		
+WARN	missing_definition	ENVO:00000243	IAO:0000600		
+WARN	missing_definition	ENVO:00000244	IAO:0000600		
 WARN	missing_definition	ENVO:00000248	IAO:0000600		
+WARN	missing_definition	ENVO:00000273	IAO:0000600		
+WARN	missing_definition	ENVO:00000274	IAO:0000600		
+WARN	missing_definition	ENVO:00000278	IAO:0000600		
+WARN	missing_definition	ENVO:00000284	IAO:0000600		
+WARN	missing_definition	ENVO:00000303	IAO:0000600		
 WARN	missing_definition	ENVO:00000304	IAO:0000600		
 WARN	missing_definition	ENVO:00000309	IAO:0000600		
+WARN	missing_definition	ENVO:00000377	IAO:0000600		
+WARN	missing_definition	ENVO:00000385	IAO:0000600		
+WARN	missing_definition	ENVO:00000386	IAO:0000600		
+WARN	missing_definition	ENVO:00000394	IAO:0000600		
+WARN	missing_definition	ENVO:00000395	IAO:0000600		
+WARN	missing_definition	ENVO:00000396	IAO:0000115		
+WARN	missing_definition	ENVO:00000396	IAO:0000600		
+WARN	missing_definition	ENVO:00000397	IAO:0000115		
+WARN	missing_definition	ENVO:00000397	IAO:0000600		
+WARN	missing_definition	ENVO:00000426	IAO:0000600		
 WARN	missing_definition	ENVO:00000428	IAO:0000600		
 WARN	missing_definition	ENVO:00000446	IAO:0000600		
 WARN	missing_definition	ENVO:00000447	IAO:0000600		
+WARN	missing_definition	ENVO:00000463	IAO:0000600		
+WARN	missing_definition	ENVO:00000465	IAO:0000600		
+WARN	missing_definition	ENVO:00000475	IAO:0000600		
+WARN	missing_definition	ENVO:00000476	IAO:0000600		
+WARN	missing_definition	ENVO:00000479	IAO:0000600		
+WARN	missing_definition	ENVO:00000482	IAO:0000600		
+WARN	missing_definition	ENVO:00000485	IAO:0000600		
+WARN	missing_definition	ENVO:00000501	IAO:0000600		
+WARN	missing_definition	ENVO:00000873	IAO:0000600		
+WARN	missing_definition	ENVO:00000887	IAO:0000115		
+WARN	missing_definition	ENVO:00000887	IAO:0000600		
+WARN	missing_definition	ENVO:00000889	IAO:0000115		
+WARN	missing_definition	ENVO:00000889	IAO:0000600		
+WARN	missing_definition	ENVO:00000891	IAO:0000115		
+WARN	missing_definition	ENVO:00000891	IAO:0000600		
 WARN	missing_definition	ENVO:00001995	IAO:0000600		
 WARN	missing_definition	ENVO:00001998	IAO:0000600		
 WARN	missing_definition	ENVO:00001999	IAO:0000600		
 WARN	missing_definition	ENVO:00002000	IAO:0000600		
+WARN	missing_definition	ENVO:00002004	IAO:0000600		
 WARN	missing_definition	ENVO:00002005	IAO:0000600		
 WARN	missing_definition	ENVO:00002006	IAO:0000600		
 WARN	missing_definition	ENVO:00002007	IAO:0000600		
 WARN	missing_definition	ENVO:00002010	IAO:0000600		
+WARN	missing_definition	ENVO:00002011	IAO:0000600		
+WARN	missing_definition	ENVO:00002019	IAO:0000600		
 WARN	missing_definition	ENVO:00002030	IAO:0000115		
 WARN	missing_definition	ENVO:00002030	IAO:0000600		
+WARN	missing_definition	ENVO:00002042	IAO:0000600		
+WARN	missing_definition	ENVO:00002045	IAO:0000600		
+WARN	missing_definition	ENVO:00002113	IAO:0000600		
 WARN	missing_definition	ENVO:00002121	IAO:0000115		
 WARN	missing_definition	ENVO:00002121	IAO:0000600		
+WARN	missing_definition	ENVO:00002127	IAO:0000115		
+WARN	missing_definition	ENVO:00002127	IAO:0000600		
+WARN	missing_definition	ENVO:00002134	IAO:0000115		
+WARN	missing_definition	ENVO:00002134	IAO:0000600		
+WARN	missing_definition	ENVO:00002137	IAO:0000600		
 WARN	missing_definition	ENVO:00002149	IAO:0000600		
+WARN	missing_definition	ENVO:00002150	IAO:0000600		
+WARN	missing_definition	ENVO:00002223	IAO:0000600		
+WARN	missing_definition	ENVO:00002225	IAO:0000600		
 WARN	missing_definition	ENVO:00002297	IAO:0000600		
+WARN	missing_definition	ENVO:00002450	IAO:0000600		
 WARN	missing_definition	ENVO:00002982	IAO:0000600		
+WARN	missing_definition	ENVO:00003074	IAO:0000600		
+WARN	missing_definition	ENVO:00003075	IAO:0000115		
+WARN	missing_definition	ENVO:00003075	IAO:0000600		
 WARN	missing_definition	ENVO:00003082	IAO:0000600		
 WARN	missing_definition	ENVO:00005748	IAO:0000600		
 WARN	missing_definition	ENVO:00010483	IAO:0000600		
 WARN	missing_definition	ENVO:00010504	IAO:0000600		
 WARN	missing_definition	ENVO:00010505	IAO:0000600		
+WARN	missing_definition	ENVO:0010162	IAO:0000115		
+WARN	missing_definition	ENVO:0010162	IAO:0000600		
+WARN	missing_definition	ENVO:0010163	IAO:0000115		
+WARN	missing_definition	ENVO:0010163	IAO:0000600		
+WARN	missing_definition	ENVO:01000010	IAO:0000115		
+WARN	missing_definition	ENVO:01000010	IAO:0000600		
 WARN	missing_definition	ENVO:01000016	IAO:0000600		
 WARN	missing_definition	ENVO:01000017	IAO:0000600		
+WARN	missing_definition	ENVO:01000020	IAO:0000600		
 WARN	missing_definition	ENVO:01000023	IAO:0000600		
+WARN	missing_definition	ENVO:01000024	IAO:0000600		
+WARN	missing_definition	ENVO:01000026	IAO:0000600		
+WARN	missing_definition	ENVO:01000027	IAO:0000600		
+WARN	missing_definition	ENVO:01000028	IAO:0000600		
+WARN	missing_definition	ENVO:01000029	IAO:0000600		
 WARN	missing_definition	ENVO:01000032	IAO:0000600		
 WARN	missing_definition	ENVO:01000033	IAO:0000600		
 WARN	missing_definition	ENVO:01000034	IAO:0000600		
+WARN	missing_definition	ENVO:01000035	IAO:0000600		
+WARN	missing_definition	ENVO:01000036	IAO:0000600		
 WARN	missing_definition	ENVO:01000041	IAO:0000600		
+WARN	missing_definition	ENVO:01000042	IAO:0000600		
+WARN	missing_definition	ENVO:01000043	IAO:0000600		
 WARN	missing_definition	ENVO:01000044	IAO:0000600		
+WARN	missing_definition	ENVO:01000047	IAO:0000600		
+WARN	missing_definition	ENVO:01000048	IAO:0000600		
+WARN	missing_definition	ENVO:01000057	IAO:0000600		
 WARN	missing_definition	ENVO:01000060	IAO:0000600		
+WARN	missing_definition	ENVO:01000061	IAO:0000600		
 WARN	missing_definition	ENVO:01000063	IAO:0000600		
+WARN	missing_definition	ENVO:01000065	IAO:0000115		
+WARN	missing_definition	ENVO:01000065	IAO:0000600		
+WARN	missing_definition	ENVO:01000080	IAO:0000600		
+WARN	missing_definition	ENVO:01000105	IAO:0000600		
+WARN	missing_definition	ENVO:01000143	IAO:0000115		
+WARN	missing_definition	ENVO:01000143	IAO:0000600		
 WARN	missing_definition	ENVO:01000155	IAO:0000600		
 WARN	missing_definition	ENVO:01000176	IAO:0000600		
 WARN	missing_definition	ENVO:01000203	IAO:0000600		
+WARN	missing_definition	ENVO:01000205	IAO:0000600		
+WARN	missing_definition	ENVO:01000207	IAO:0000600		
 WARN	missing_definition	ENVO:01000216	IAO:0000600		
+WARN	missing_definition	ENVO:01000238	IAO:0000600		
+WARN	missing_definition	ENVO:01000252	IAO:0000115		
+WARN	missing_definition	ENVO:01000252	IAO:0000600		
+WARN	missing_definition	ENVO:01000253	IAO:0000115		
+WARN	missing_definition	ENVO:01000253	IAO:0000600		
 WARN	missing_definition	ENVO:01000254	IAO:0000600		
 WARN	missing_definition	ENVO:01000256	IAO:0000600		
 WARN	missing_definition	ENVO:01000266	IAO:0000600		
 WARN	missing_definition	ENVO:01000267	IAO:0000600		
 WARN	missing_definition	ENVO:01000268	IAO:0000600		
+WARN	missing_definition	ENVO:01000275	IAO:0000600		
 WARN	missing_definition	ENVO:01000276	IAO:0000600		
 WARN	missing_definition	ENVO:01000277	IAO:0000600		
 WARN	missing_definition	ENVO:01000280	IAO:0000600		
@@ -1524,9 +1632,13 @@ WARN	missing_definition	ENVO:01000281	IAO:0000600
 WARN	missing_definition	ENVO:01000283	IAO:0000600		
 WARN	missing_definition	ENVO:01000293	IAO:0000600		
 WARN	missing_definition	ENVO:01000295	IAO:0000600		
+WARN	missing_definition	ENVO:01000297	IAO:0000600		
+WARN	missing_definition	ENVO:01000298	IAO:0000600		
+WARN	missing_definition	ENVO:01000301	IAO:0000600		
 WARN	missing_definition	ENVO:01000303	IAO:0000600		
 WARN	missing_definition	ENVO:01000304	IAO:0000600		
 WARN	missing_definition	ENVO:01000305	IAO:0000600		
+WARN	missing_definition	ENVO:01000306	IAO:0000600		
 WARN	missing_definition	ENVO:01000307	IAO:0000600		
 WARN	missing_definition	ENVO:01000309	IAO:0000600		
 WARN	missing_definition	ENVO:01000313	IAO:0000600		
@@ -1536,26 +1648,41 @@ WARN	missing_definition	ENVO:01000317	IAO:0000600
 WARN	missing_definition	ENVO:01000319	IAO:0000600		
 WARN	missing_definition	ENVO:01000320	IAO:0000600		
 WARN	missing_definition	ENVO:01000321	IAO:0000600		
+WARN	missing_definition	ENVO:01000322	IAO:0000600		
 WARN	missing_definition	ENVO:01000324	IAO:0000600		
 WARN	missing_definition	ENVO:01000325	IAO:0000600		
+WARN	missing_definition	ENVO:01000326	IAO:0000600		
+WARN	missing_definition	ENVO:01000339	IAO:0000600		
 WARN	missing_definition	ENVO:01000342	IAO:0000600		
 WARN	missing_definition	ENVO:01000343	IAO:0000600		
 WARN	missing_definition	ENVO:01000357	IAO:0000600		
 WARN	missing_definition	ENVO:01000406	IAO:0000600		
 WARN	missing_definition	ENVO:01000408	IAO:0000600		
 WARN	missing_definition	ENVO:01000554	IAO:0000600		
+WARN	missing_definition	ENVO:01000599	IAO:0000115		
+WARN	missing_definition	ENVO:01000599	IAO:0000600		
 WARN	missing_definition	ENVO:01000617	IAO:0000600		
+WARN	missing_definition	ENVO:01000618	IAO:0000600		
 WARN	missing_definition	ENVO:01000624	IAO:0000600		
 WARN	missing_definition	ENVO:01000635	IAO:0000600		
 WARN	missing_definition	ENVO:01000637	IAO:0000600		
 WARN	missing_definition	ENVO:01000638	IAO:0000600		
 WARN	missing_definition	ENVO:01000639	IAO:0000600		
+WARN	missing_definition	ENVO:01000650	IAO:0000115		
+WARN	missing_definition	ENVO:01000650	IAO:0000600		
+WARN	missing_definition	ENVO:01000652	IAO:0000115		
+WARN	missing_definition	ENVO:01000652	IAO:0000600		
 WARN	missing_definition	ENVO:01000685	IAO:0000600		
+WARN	missing_definition	ENVO:01000686	IAO:0000600		
 WARN	missing_definition	ENVO:01000687	IAO:0000600		
 WARN	missing_definition	ENVO:01000703	IAO:0000600		
 WARN	missing_definition	ENVO:01000724	IAO:0000600		
 WARN	missing_definition	ENVO:01000739	IAO:0000600		
+WARN	missing_definition	ENVO:01000743	IAO:0000600		
+WARN	missing_definition	ENVO:01000748	IAO:0000600		
+WARN	missing_definition	ENVO:01000749	IAO:0000600		
 WARN	missing_definition	ENVO:01000755	IAO:0000600		
+WARN	missing_definition	ENVO:01000785	IAO:0000600		
 WARN	missing_definition	ENVO:01000797	IAO:0000600		
 WARN	missing_definition	ENVO:01000798	IAO:0000600		
 WARN	missing_definition	ENVO:01000799	IAO:0000600		
@@ -1568,6 +1695,7 @@ WARN	missing_definition	ENVO:01000815	IAO:0000600
 WARN	missing_definition	ENVO:01000817	IAO:0000600		
 WARN	missing_definition	ENVO:01000818	IAO:0000600		
 WARN	missing_definition	ENVO:01000819	IAO:0000600		
+WARN	missing_definition	ENVO:01000822	IAO:0000600		
 WARN	missing_definition	ENVO:01000875	IAO:0000600		
 WARN	missing_definition	ENVO:01000895	IAO:0000600		
 WARN	missing_definition	ENVO:01000951	IAO:0000600		
@@ -1575,6 +1703,10 @@ WARN	missing_definition	ENVO:01000952	IAO:0000600
 WARN	missing_definition	ENVO:01000958	IAO:0000600		
 WARN	missing_definition	ENVO:01000981	IAO:0000600		
 WARN	missing_definition	ENVO:01000982	IAO:0000600		
+WARN	missing_definition	ENVO:01000983	IAO:0000600		
+WARN	missing_definition	ENVO:01000993	IAO:0000600		
+WARN	missing_definition	ENVO:01000995	IAO:0000600		
+WARN	missing_definition	ENVO:01000996	IAO:0000600		
 WARN	missing_definition	ENVO:01000997	IAO:0000600		
 WARN	missing_definition	ENVO:01000998	IAO:0000600		
 WARN	missing_definition	ENVO:01001000	IAO:0000600		
@@ -1606,6 +1738,10 @@ WARN	missing_definition	ENVO:01001147	IAO:0000600
 WARN	missing_definition	ENVO:01001154	IAO:0000600		
 WARN	missing_definition	ENVO:01001155	IAO:0000600		
 WARN	missing_definition	ENVO:01001164	IAO:0000600		
+WARN	missing_definition	ENVO:01001167	IAO:0000600		
+WARN	missing_definition	ENVO:01001168	IAO:0000600		
+WARN	missing_definition	ENVO:01001170	IAO:0000600		
+WARN	missing_definition	ENVO:01001174	IAO:0000600		
 WARN	missing_definition	ENVO:01001176	IAO:0000600		
 WARN	missing_definition	ENVO:01001191	IAO:0000600		
 WARN	missing_definition	ENVO:01001192	IAO:0000600		
@@ -1617,9 +1753,11 @@ WARN	missing_definition	ENVO:01001215	IAO:0000600
 WARN	missing_definition	ENVO:01001226	IAO:0000600		
 WARN	missing_definition	ENVO:01001227	IAO:0000600		
 WARN	missing_definition	ENVO:01001273	IAO:0000600		
+WARN	missing_definition	ENVO:01001274	IAO:0000600		
 WARN	missing_definition	ENVO:01001275	IAO:0000600		
 WARN	missing_definition	ENVO:01001276	IAO:0000600		
 WARN	missing_definition	ENVO:01001299	IAO:0000600		
+WARN	missing_definition	ENVO:01001301	IAO:0000600		
 WARN	missing_definition	ENVO:01001305	IAO:0000600		
 WARN	missing_definition	ENVO:01001307	IAO:0000600		
 WARN	missing_definition	ENVO:01001308	IAO:0000600		
@@ -1627,31 +1765,51 @@ WARN	missing_definition	ENVO:01001309	IAO:0000600
 WARN	missing_definition	ENVO:01001310	IAO:0000600		
 WARN	missing_definition	ENVO:01001311	IAO:0000600		
 WARN	missing_definition	ENVO:01001319	IAO:0000600		
+WARN	missing_definition	ENVO:01001320	IAO:0000600		
+WARN	missing_definition	ENVO:01001321	IAO:0000600		
 WARN	missing_definition	ENVO:01001334	IAO:0000600		
 WARN	missing_definition	ENVO:01001346	IAO:0000600		
+WARN	missing_definition	ENVO:01001362	IAO:0000600		
 WARN	missing_definition	ENVO:01001363	IAO:0000600		
 WARN	missing_definition	ENVO:01001367	IAO:0000600		
+WARN	missing_definition	ENVO:01001378	IAO:0000600		
+WARN	missing_definition	ENVO:01001416	IAO:0000600		
+WARN	missing_definition	ENVO:01001420	IAO:0000600		
+WARN	missing_definition	ENVO:01001429	IAO:0000600		
+WARN	missing_definition	ENVO:01001431	IAO:0000600		
+WARN	missing_definition	ENVO:01001433	IAO:0000600		
 WARN	missing_definition	ENVO:01001434	IAO:0000600		
+WARN	missing_definition	ENVO:01001436	IAO:0000600		
+WARN	missing_definition	ENVO:01001437	IAO:0000600		
+WARN	missing_definition	ENVO:01001439	IAO:0000600		
 WARN	missing_definition	ENVO:01001476	IAO:0000115		
 WARN	missing_definition	ENVO:01001476	IAO:0000600		
 WARN	missing_definition	ENVO:01001477	IAO:0000600		
 WARN	missing_definition	ENVO:01001478	IAO:0000600		
 WARN	missing_definition	ENVO:01001479	IAO:0000600		
 WARN	missing_definition	ENVO:01001483	IAO:0000600		
+WARN	missing_definition	ENVO:01001501	IAO:0000600		
 WARN	missing_definition	ENVO:01001510	IAO:0000600		
 WARN	missing_definition	ENVO:01001524	IAO:0000600		
 WARN	missing_definition	ENVO:01001526	IAO:0000600		
+WARN	missing_definition	ENVO:01001533	IAO:0000600		
 WARN	missing_definition	ENVO:01001554	IAO:0000600		
 WARN	missing_definition	ENVO:01001570	IAO:0000600		
 WARN	missing_definition	ENVO:01001581	IAO:0000600		
+WARN	missing_definition	ENVO:02000049	IAO:0000600		
+WARN	missing_definition	ENVO:02000110	IAO:0000600		
 WARN	missing_definition	ENVO:02500000	IAO:0000600		
 WARN	missing_definition	ENVO:02500003	IAO:0000600		
+WARN	missing_definition	ENVO:02500005	IAO:0000600		
 WARN	missing_definition	ENVO:02500026	IAO:0000600		
 WARN	missing_definition	ENVO:02500027	IAO:0000600		
 WARN	missing_definition	ENVO:02500028	IAO:0000600		
 WARN	missing_definition	ENVO:02500031	IAO:0000600		
+WARN	missing_definition	ENVO:03000004	IAO:0000600		
+WARN	missing_definition	ENVO:03000006	IAO:0000600		
 WARN	missing_definition	ENVO:03000009	IAO:0000600		
 WARN	missing_definition	ENVO:03000010	IAO:0000600		
+WARN	missing_definition	ENVO:03000012	IAO:0000600		
 WARN	missing_definition	ENVO:03000015	IAO:0000600		
 WARN	missing_definition	ENVO:03000033	IAO:0000600		
 WARN	missing_definition	ENVO:03000036	IAO:0000600		
@@ -1676,6 +1834,8 @@ WARN	missing_definition	ENVO:09200016	IAO:0000600
 WARN	missing_definition	ENVO:09200017	IAO:0000600		
 WARN	missing_definition	ENVO:09200018	IAO:0000600		
 WARN	missing_definition	ENVO:09200021	IAO:0000600		
+WARN	missing_definition	ENVO:2000004	IAO:0000600		
+WARN	missing_definition	ENVO:2000005	IAO:0000600		
 WARN	missing_definition	ENVO:2000045	IAO:0000115		
 WARN	missing_definition	ENVO:2000045	IAO:0000600		
 WARN	missing_definition	ENVO:2100000	IAO:0000600		
@@ -1809,6 +1969,7 @@ WARN	missing_definition	GO:0009966	IAO:0000600
 WARN	missing_definition	GO:0009967	IAO:0000600		
 WARN	missing_definition	GO:0009968	IAO:0000600		
 WARN	missing_definition	GO:0009987	IAO:0000600		
+WARN	missing_definition	GO:0010469	IAO:0000600		
 WARN	missing_definition	GO:0010562	IAO:0000600		
 WARN	missing_definition	GO:0010563	IAO:0000600		
 WARN	missing_definition	GO:0010646	IAO:0000600		
@@ -1831,9 +1992,11 @@ WARN	missing_definition	GO:0031324	IAO:0000600
 WARN	missing_definition	GO:0031325	IAO:0000600		
 WARN	missing_definition	GO:0032091	IAO:0000600		
 WARN	missing_definition	GO:0032092	IAO:0000600		
+WARN	missing_definition	GO:0032991	IAO:0000600		
 WARN	missing_definition	GO:0033673	IAO:0000600		
 WARN	missing_definition	GO:0033674	IAO:0000600		
 WARN	missing_definition	GO:0035556	IAO:0000600		
+WARN	missing_definition	GO:0038023	IAO:0000600		
 WARN	missing_definition	GO:0042325	IAO:0000600		
 WARN	missing_definition	GO:0042326	IAO:0000600		
 WARN	missing_definition	GO:0042327	IAO:0000600		
@@ -1843,7 +2006,6 @@ WARN	missing_definition	GO:0043226	IAO:0000600
 WARN	missing_definition	GO:0043227	IAO:0000600		
 WARN	missing_definition	GO:0043229	IAO:0000600		
 WARN	missing_definition	GO:0043231	IAO:0000600		
-WARN	missing_definition	GO:0043234	IAO:0000600		
 WARN	missing_definition	GO:0043393	IAO:0000600		
 WARN	missing_definition	GO:0043549	IAO:0000600		
 WARN	missing_definition	GO:0044092	IAO:0000600		
@@ -1882,6 +2044,8 @@ WARN	missing_definition	GO:1900122	IAO:0000600
 WARN	missing_definition	GO:1902531	IAO:0000600		
 WARN	missing_definition	GO:1902532	IAO:0000600		
 WARN	missing_definition	GO:1902533	IAO:0000600		
+WARN	missing_definition	GO:2000272	IAO:0000600		
+WARN	missing_definition	GO:2000273	IAO:0000600		
 WARN	missing_definition	IAO:0000003	IAO:0000600		
 WARN	missing_definition	IAO:0000004	IAO:0000115		
 WARN	missing_definition	IAO:0000004	IAO:0000600		
@@ -1939,6 +2103,7 @@ WARN	missing_definition	IAO:0000412	IAO:0000600
 WARN	missing_definition	IAO:0000413	IAO:0000600		
 WARN	missing_definition	IAO:0000416	IAO:0000600		
 WARN	missing_definition	IAO:0000424	IAO:0000600		
+WARN	missing_definition	IAO:0000426	IAO:0000600		
 WARN	missing_definition	IAO:0000572	IAO:0000600		
 WARN	missing_definition	IAO:0000574	IAO:0000600		
 WARN	missing_definition	IAO:0000577	IAO:0000600		
@@ -2222,6 +2387,7 @@ WARN	missing_definition	PATO:0000052	IAO:0000600
 WARN	missing_definition	PATO:0000068	IAO:0000115		
 WARN	missing_definition	PATO:0000068	IAO:0000600		
 WARN	missing_definition	PATO:0000069	IAO:0000600		
+WARN	missing_definition	PATO:0000085	IAO:0000600		
 WARN	missing_definition	PATO:0000117	IAO:0000600		
 WARN	missing_definition	PATO:0000122	IAO:0000600		
 WARN	missing_definition	PATO:0000125	IAO:0000600		
@@ -2241,6 +2407,7 @@ WARN	missing_definition	PATO:0000380	IAO:0000600
 WARN	missing_definition	PATO:0000381	IAO:0000600		
 WARN	missing_definition	PATO:0000386	IAO:0000600		
 WARN	missing_definition	PATO:0000387	IAO:0000600		
+WARN	missing_definition	PATO:0000407	IAO:0000600		
 WARN	missing_definition	PATO:0000460	IAO:0000600		
 WARN	missing_definition	PATO:0000461	IAO:0000600		
 WARN	missing_definition	PATO:0000498	IAO:0000600		
@@ -2270,6 +2437,7 @@ WARN	missing_definition	PATO:0001019	IAO:0000600
 WARN	missing_definition	PATO:0001025	IAO:0000600		
 WARN	missing_definition	PATO:0001035	IAO:0000600		
 WARN	missing_definition	PATO:0001154	IAO:0000600		
+WARN	missing_definition	PATO:0001199	IAO:0000600		
 WARN	missing_definition	PATO:0001236	IAO:0000600		
 WARN	missing_definition	PATO:0001241	IAO:0000600		
 WARN	missing_definition	PATO:0001291	IAO:0000600		
@@ -2287,6 +2455,8 @@ WARN	missing_definition	PATO:0001406	IAO:0000600
 WARN	missing_definition	PATO:0001407	IAO:0000600		
 WARN	missing_definition	PATO:0001428	IAO:0000600		
 WARN	missing_definition	PATO:0001430	IAO:0000600		
+WARN	missing_definition	PATO:0001454	IAO:0000600		
+WARN	missing_definition	PATO:0001456	IAO:0000600		
 WARN	missing_definition	PATO:0001464	IAO:0000600		
 WARN	missing_definition	PATO:0001472	IAO:0000600		
 WARN	missing_definition	PATO:0001475	IAO:0000600		
@@ -2301,6 +2471,7 @@ WARN	missing_definition	PATO:0001574	IAO:0000600
 WARN	missing_definition	PATO:0001575	IAO:0000600		
 WARN	missing_definition	PATO:0001576	IAO:0000600		
 WARN	missing_definition	PATO:0001585	IAO:0000600		
+WARN	missing_definition	PATO:0001591	IAO:0000600		
 WARN	missing_definition	PATO:0001595	IAO:0000600		
 WARN	missing_definition	PATO:0001596	IAO:0000600		
 WARN	missing_definition	PATO:0001655	IAO:0000600		
@@ -2342,6 +2513,7 @@ WARN	missing_definition	PATO:0002203	IAO:0000600
 WARN	missing_definition	PATO:0002204	IAO:0000600		
 WARN	missing_definition	PATO:0002245	IAO:0000600		
 WARN	missing_definition	PATO:0002246	IAO:0000600		
+WARN	missing_definition	PATO:0002254	IAO:0000600		
 WARN	missing_definition	PATO:0002300	IAO:0000600		
 WARN	missing_definition	PATO:0002301	IAO:0000600		
 WARN	missing_definition	PATO:0002302	IAO:0000600		
@@ -2362,9 +2534,7 @@ WARN	missing_definition	PATO:0050000	IAO:0000600
 WARN	missing_definition	PCO:0000000	IAO:0000600		
 WARN	missing_definition	PCO:0000001	IAO:0000600		
 WARN	missing_definition	PCO:0000002	IAO:0000600		
-WARN	missing_definition	PCO:0000017	IAO:0000600		
 WARN	missing_definition	PCO:0000018	IAO:0000600		
-WARN	missing_definition	PCO:0000027	IAO:0000600		
 WARN	missing_definition	PCO:0000028	IAO:0000600		
 WARN	missing_definition	PCO:0000029	IAO:0000600		
 WARN	missing_definition	PCO:0000031	IAO:0000600		
@@ -2534,6 +2704,7 @@ WARN	missing_definition	PMO:00000169	IAO:0000600
 WARN	missing_definition	PMO:00000170	IAO:0000600		
 WARN	missing_definition	PMO:00000171	IAO:0000600		
 WARN	missing_definition	PMO:00000172	IAO:0000600		
+WARN	missing_definition	PMO:00000173	IAO:0000600		
 WARN	missing_definition	PO:0000003	IAO:0000600		
 WARN	missing_definition	PO:0009011	IAO:0000600		
 WARN	missing_definition	PO:0025131	IAO:0000600		
@@ -2575,13 +2746,18 @@ WARN	missing_definition	RO:0002084	IAO:0000115
 WARN	missing_definition	RO:0002084	IAO:0000600		
 WARN	missing_definition	RO:0002086	IAO:0000115		
 WARN	missing_definition	RO:0002086	IAO:0000600		
+WARN	missing_definition	RO:0002087	IAO:0000115		
 WARN	missing_definition	RO:0002087	IAO:0000600		
 WARN	missing_definition	RO:0002090	IAO:0000115		
 WARN	missing_definition	RO:0002090	IAO:0000600		
 WARN	missing_definition	RO:0002093	IAO:0000115		
 WARN	missing_definition	RO:0002093	IAO:0000600		
 WARN	missing_definition	RO:0002131	IAO:0000600		
+WARN	missing_definition	RO:0002150	IAO:0000600		
+WARN	missing_definition	RO:0002151	IAO:0000600		
 WARN	missing_definition	RO:0002163	IAO:0000600		
+WARN	missing_definition	RO:0002170	IAO:0000600		
+WARN	missing_definition	RO:0002176	IAO:0000600		
 WARN	missing_definition	RO:0002180	IAO:0000600		
 WARN	missing_definition	RO:0002202	IAO:0000600		
 WARN	missing_definition	RO:0002203	IAO:0000600		
@@ -2784,6 +2960,35 @@ WARN	missing_definition	UO:0010003	IAO:0000600
 WARN	missing_definition	UO:0010004	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/envo#disconnected_from	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_agr	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_agr	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_aspergillus	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_aspergillus	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_candida	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_candida	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_chembl	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_chembl	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_generic	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_generic	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_metagenomics	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_metagenomics	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_mouse	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_mouse	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_pir	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_pir	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_plant	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_plant	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_pombe	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_pombe	IAO:0000600		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_yeast	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_yeast	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000600		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#attribute_slim	IAO:0000115		
@@ -2839,6 +3044,8 @@ WARN	missing_definition	dc11:source	IAO:0000115
 WARN	missing_definition	dc11:source	IAO:0000600		
 WARN	missing_definition	oboInOwl:Subset	IAO:0000115		
 WARN	missing_definition	oboInOwl:Subset	IAO:0000600		
+WARN	missing_definition	oboInOwl:consider	IAO:0000115		
+WARN	missing_definition	oboInOwl:consider	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000600		
 WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
@@ -2859,8 +3066,10 @@ WARN	missing_definition	oboInOwl:inSubset	IAO:0000115
 WARN	missing_definition	oboInOwl:inSubset	IAO:0000600		
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000600		
-WARN	missing_definition	foaf:page	IAO:0000115		
-WARN	missing_definition	foaf:page	IAO:0000600		
+WARN	duplicate_scoped_synonym	ENVO:00000029	oboInOwl:hasNarrowSynonym	narrows	
+WARN	duplicate_scoped_synonym	ENVO:00000029	oboInOwl:hasRelatedSynonym	narrows	
+WARN	duplicate_scoped_synonym	GO:0032991	IAO:0000118	protein complex	
+WARN	duplicate_scoped_synonym	GO:0032991	oboInOwl:hasNarrowSynonym	protein complex	
 WARN	duplicate_scoped_synonym	NCBITaxon:117571	IAO:0000118	bony vertebrates	
 WARN	duplicate_scoped_synonym	NCBITaxon:117571	oboInOwl:hasExactSynonym	bony vertebrates	
 WARN	duplicate_scoped_synonym	NCBITaxon:2	IAO:0000118	eubacteria	
@@ -2890,8 +3099,6 @@ WARN	duplicate_scoped_synonym	NCBITaxon:9606	IAO:0000118	human
 WARN	duplicate_scoped_synonym	NCBITaxon:9606	IAO:0000118	man	
 WARN	duplicate_scoped_synonym	NCBITaxon:9606	oboInOwl:hasExactSynonym	human	
 WARN	duplicate_scoped_synonym	NCBITaxon:9606	oboInOwl:hasExactSynonym	man	
-WARN	duplicate_scoped_synonym	RO:0002087	IAO:0000118	starts_at_end_of	
-WARN	duplicate_scoped_synonym	RO:0002087	oboInOwl:hasExactSynonym	starts_at_end_of	
 WARN	duplicate_scoped_synonym	UO:0000008	IAO:0000118	m	
 WARN	duplicate_scoped_synonym	UO:0000008	oboInOwl:hasExactSynonym	m	
 WARN	duplicate_scoped_synonym	UO:0000009	IAO:0000118	kg	
@@ -3069,6 +3276,9 @@ INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independ
 INFO	lowercase_definition	RO:0001901	IAO:0000115	        ## Elucidation        This is used when the statement/axiom is assumed to hold true 'eternally'        ## How to interpret (informal)        First the \"atemporal\" FOL is derived from the OWL using the standard    interpretation. This axiom is temporalized by embedding the axiom    within a for-all-times quantified sentence. The t argument is added to    all instantiation predicates and predicates that use this relation.        ## Example            Class: nucleus        SubClassOf: part_of some cell            forall t :          forall n :            instance_of(n,Nucleus,t)             implies            exists c :              instance_of(c,Cell,t)              part_of(n,c,t)        ## Notes        This interpretation is *not* the same as an at-all-times relation        	
 INFO	lowercase_definition	RO:0002018	IAO:0000115	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
 INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
+INFO	lowercase_definition	RO:0002151	IAO:0000115	x partially overlaps y iff there exists some z such that z is part of x and z is part of y, and it is also the case that neither x is part of y or y is part of x	
+INFO	lowercase_definition	RO:0002170	IAO:0000115	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b	
+INFO	lowercase_definition	RO:0002176	IAO:0000115	c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.	
 INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
 INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y	
 INFO	lowercase_definition	RO:0002203	IAO:0000115	inverse of develops from	
@@ -3110,11 +3320,8 @@ INFO	lowercase_definition	RO:0002352	IAO:0000115	inverse of has input
 INFO	lowercase_definition	RO:0002353	IAO:0000115	inverse of has output	
 INFO	lowercase_definition	RO:0002379	IAO:0000115	x spatially_coextensive_with y if and inly if x and y have the same location	
 INFO	lowercase_definition	RO:0002384	IAO:0000115	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en	
-INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y	
 INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
-INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y	
 INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
-INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y	
 INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
 INFO	lowercase_definition	RO:0002404	IAO:0000115	inverse of upstream of	
 INFO	lowercase_definition	RO:0002411	IAO:0000115	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain	
@@ -3129,7 +3336,6 @@ INFO	lowercase_definition	RO:0002431	IAO:0000115	c involved in or regulates p if
 INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
 INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
 INFO	lowercase_definition	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
-INFO	lowercase_definition	RO:0002473	IAO:0000115	x composed_primarily_of y iff: more than half of the mass of x is made from parts of y	
 INFO	lowercase_definition	RO:0002479	IAO:0000115	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.	
 INFO	lowercase_definition	RO:0002501	IAO:0000115	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.	
 INFO	lowercase_definition	RO:0002507	IAO:0000115	s determined by f if and only if s is a type of system, and f is a material entity that is part of s, such that f exerts a strong causal influence on the functioning of s, and the removal of f would cause the collapse of s.	
@@ -3151,7 +3357,6 @@ INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2	IAO:0000115	third pla
 INFO	lowercase_definition	https://www.wikidata.org/wiki/Q2306597	IAO:0000115	\"Suni, or Jalca, is one of the eight Natural Regions of Peru. It is located in the Andes at an altitude between 3,500 and 4,000 metres above sea level. Suni has a dry and cold weather and there are many glacial valleys. The flora includes gramineous plants and shrubs such as the taya-taya (Caesalpinia spinosa), the quishuar (Buddleja coriacea), and the cantuta (Cantua buxifolia) which was considered sacred by the Incas. Even though it is hard for plants to grow because of the weather, people are able to cultivate such crops as quinoa, qañiwa, broad beans and ulluku (Ullucus tuberosus). The main fauna is the guinea pig and, among numerous other highland birds, the Chiguanco thrush.\"	
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf		
 INFO	missing_superclass	ENVO:01001784	rdfs:subClassOf		
-INFO	missing_superclass	GO:0005575	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000000	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000044	rdfs:subClassOf		
 INFO	missing_superclass	PMO:00000088	rdfs:subClassOf		
