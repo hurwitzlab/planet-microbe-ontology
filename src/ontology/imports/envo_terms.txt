@@ -105,3 +105,4 @@ ENVO:00000199
 ENVO:00000026 #well
 ENVO:00000027 #spring
 ENVO:00000028 #sand pit quarry
+ENVO:01000995 #dry river
