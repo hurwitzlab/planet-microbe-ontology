@@ -1,7 +1,7 @@
-Purl	Label
+#Purl	Label
 http://purl.obolibrary.org/obo/ENVO_3100030	acidity of water
-http://purl.obolibrary.org/obo/PMO_00000023	"aquatic sample maximum filter fractionation size threshold	"
-http://purl.obolibrary.org/obo/PMO_00000022	"aquatic sample minimum filter fractionation size threshold	"
+http://purl.obolibrary.org/obo/PMO_00000023	aquatic sample maximum filter fractionation size threshold
+http://purl.obolibrary.org/obo/PMO_00000022	aquatic sample minimum filter fractionation size threshold
 http://purl.obolibrary.org/obo/ENVO_01001362	atmospheric wind speed
 http://purl.obolibrary.org/obo/ENVO_00000428	biome
 http://purl.obolibrary.org/obo/PMO_00000156	concentration of 19'-butanoyloxyfucoxanthin in liquid water
