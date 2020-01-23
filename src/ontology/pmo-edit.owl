@@ -156,6 +156,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000171>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1183,6 +1184,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000174> "concentration of carbon dioxide in liquid water"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000174> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_16526> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/ENVO_00002006>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000174> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000175> (concentration of carbonate in liquid water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000175> "The concentration of carbonate when measured in liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000175> "Add to ENVO via design pattern. Use CHEBI carbonate http://purl.obolibrary.org/obo/CHEBI_41609")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000175> "concentration of carbonate in liquid water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000175> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
