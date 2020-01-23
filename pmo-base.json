@@ -745,6 +745,20 @@
       "type" : "CLASS",
       "lbl" : "maximum pressure of water collected during specimen collection process"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000174",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of carbon dioxide when measured in liquid water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO via design pattern."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of carbon dioxide in liquid water"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000050",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -822,6 +836,20 @@
       "type" : "CLASS",
       "lbl" : "ctd cast number"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000175",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of carbonate when measured in liquid water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO via design pattern. Use CHEBI carbonate http://purl.obolibrary.org/obo/CHEBI_41609"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of carbonate in liquid water"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000054",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -831,6 +859,20 @@
       },
       "type" : "CLASS",
       "lbl" : "number designating study site"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000176",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of hydrogencarbonate when measured in liquid water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO via design pattern. Use CHEBI hydrogencarbonate http://purl.obolibrary.org/obo/CHEBI_17544"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of hydrogencarbonate in liquid water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000049",
       "meta" : {
@@ -2304,13 +2346,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000036"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000163",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000059",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000163",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000109",
       "pred" : "is_a",
@@ -2460,6 +2502,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000175",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"
@@ -2592,13 +2638,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000009"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000019",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000004",
       "pred" : "is_a",
@@ -2728,13 +2774,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000168"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000052",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_3100031"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_3100031"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000106",
       "pred" : "is_a",
@@ -2756,17 +2802,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCO_0000029"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000021",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001019"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000168",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000117"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000174",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000102",
       "pred" : "is_a",
@@ -2792,6 +2842,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000968"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000176",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000155",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
@@ -2816,7 +2870,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "Planet Microbe Ontology"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2019-12-04/pmo-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-01-23/pmo-base.owl"
     },
     "equivalentNodesSets" : [ {
       "nodeIds" : [ "http://purl.obolibrary.org/obo/PMO_00000158", "http://purl.obolibrary.org/obo/PMO_00000162" ]
@@ -2830,6 +2884,10 @@
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0000052",
         "fillerId" : "http://purl.obolibrary.org/obo/ENVO_00002006"
       } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PMO_00000174",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000033" ],
+      "restrictions" : [ null ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PMO_00000015",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000957" ],

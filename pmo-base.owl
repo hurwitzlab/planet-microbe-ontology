@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/pmo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2019-12-04/pmo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2020-01-23/pmo-base.owl"/>
         <rdfs:comment>Planet Microbe Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -104,6 +104,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312"/>
@@ -182,6 +188,12 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16526"/>
     
 
 
@@ -2154,6 +2166,60 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
         <obo:IAO_0000115>The concentration of urea when measured in liquid water.</obo:IAO_0000115>
         <obo:IAO_0000116>Replace by ENVO:3200059 after next envo release.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">concentration of urea in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000174">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of carbon dioxide when measured in liquid water.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO via design pattern.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of carbon dioxide in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of carbonate when measured in liquid water.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO via design pattern. Use CHEBI carbonate http://purl.obolibrary.org/obo/CHEBI_41609</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of carbonate in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of hydrogencarbonate when measured in liquid water.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO via design pattern. Use CHEBI hydrogencarbonate http://purl.obolibrary.org/obo/CHEBI_17544</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of hydrogencarbonate in liquid water</rdfs:label>
     </owl:Class>
     
 

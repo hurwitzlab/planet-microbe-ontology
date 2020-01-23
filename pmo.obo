@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2019-12-04
+data-version: releases/2020-01-23
 remark: Planet Microbe Ontology
 ontology: pmo
 
@@ -12570,6 +12570,17 @@ subset: scalar_slim
 is_a: PATO:0000085 ! sensitivity toward
 
 [Term]
+id: PATO:0001455
+name: aerobic
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's dependence on oxygen." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0001454 ! sensitivity to oxygen
+disjoint_from: PATO:0001456 ! anaerobic
+relationship: is_opposite_of PATO:0001456 ! anaerobic
+
+[Term]
 id: PATO:0001456
 name: anaerobic
 namespace: quality
@@ -12577,7 +12588,7 @@ def: "A quality inhering in a bearer by virtue of the bearer's independence on o
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001454 ! sensitivity to oxygen
-relationship: is_opposite_of PATO:0001455
+relationship: is_opposite_of PATO:0001455 ! aerobic
 
 [Term]
 id: PATO:0001464
@@ -14559,6 +14570,27 @@ name: concentration of urea in liquid water
 def: "The concentration of urea when measured in liquid water." []
 is_a: PATO:0000033 ! concentration of
 property_value: IAO:0000116 "Replace by ENVO:3200059 after next envo release." xsd:string
+
+[Term]
+id: PMO:00000174
+name: concentration of carbon dioxide in liquid water
+def: "The concentration of carbon dioxide when measured in liquid water." []
+is_a: PATO:0000033 ! concentration of
+property_value: IAO:0000116 "Add to ENVO via design pattern." xsd:string
+
+[Term]
+id: PMO:00000175
+name: concentration of carbonate in liquid water
+def: "The concentration of carbonate when measured in liquid water." []
+is_a: PATO:0000033 ! concentration of
+property_value: IAO:0000116 "Add to ENVO via design pattern. Use CHEBI carbonate http://purl.obolibrary.org/obo/CHEBI_41609" xsd:string
+
+[Term]
+id: PMO:00000176
+name: concentration of hydrogencarbonate in liquid water
+def: "The concentration of hydrogencarbonate when measured in liquid water." []
+is_a: PATO:0000033 ! concentration of
+property_value: IAO:0000116 "Add to ENVO via design pattern. Use CHEBI hydrogencarbonate http://purl.obolibrary.org/obo/CHEBI_17544" xsd:string
 
 [Term]
 id: PO:0000003

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2019-12-04/pmo-base.owl
+data-version: pmo/releases/2020-01-23/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -1098,4 +1098,25 @@ name: concentration of urea in liquid water
 def: "The concentration of urea when measured in liquid water." []
 is_a: PATO:0000033
 property_value: IAO:0000116 "Replace by ENVO:3200059 after next envo release." xsd:string
+
+[Term]
+id: PMO:00000174
+name: concentration of carbon dioxide in liquid water
+def: "The concentration of carbon dioxide when measured in liquid water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 "Add to ENVO via design pattern." xsd:string
+
+[Term]
+id: PMO:00000175
+name: concentration of carbonate in liquid water
+def: "The concentration of carbonate when measured in liquid water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 "Add to ENVO via design pattern. Use CHEBI carbonate http://purl.obolibrary.org/obo/CHEBI_41609" xsd:string
+
+[Term]
+id: PMO:00000176
+name: concentration of hydrogencarbonate in liquid water
+def: "The concentration of hydrogencarbonate when measured in liquid water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 "Add to ENVO via design pattern. Use CHEBI hydrogencarbonate http://purl.obolibrary.org/obo/CHEBI_17544" xsd:string
 

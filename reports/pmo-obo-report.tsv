@@ -29,20 +29,20 @@ ERROR	duplicate_definition	ENVO:01001309	IAO:0000115	A liquid surface layer whic
 ERROR	duplicate_definition	ENVO:01001310	IAO:0000115	A liquid surface layer which is in contact with air.	
 ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
 ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
-ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	9461f41f4533b9d6bc87c35dda7a6f7f	
-ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	df4df159659c6a272d03f3ef3442731f	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	65b4f7cf12e00e4571dea785c9ed7246	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	874c9c013e76faa3c44d1a96833e9216	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	d804ce0d0b4da5d86c3b9fe4ce4070e7	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	f9c89e09a7bf72d2a32035e1c1f915ec	
-ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	ab85112cd785d702ee23577ae8e1d32d	
-ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	dfd59427344834f1caf2c17760d46292	
-ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	0e874433d849792a831474d9e61daa38	
-ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	66d24718ea2d7dda5424efaec31b76d2	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	4a8feb5cb6a7ca432a2a3529b653e7dc	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	e4a24afad5ee69f742459fdf3f5e7f45	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	61a7a4ad7146f523e148099d1778dfef	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	99cd4114f99faee073a95eeb4be1c0b6	
+ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	1f48ef8af083106ce438b9ae5662688d	
+ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	b04e665dc7c4fbeedd69ccfd95580be7	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	53c67e4d8007733f199855377ba27a18	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	bc928324bc4d99a53661e3add2a854de	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	9a99c07fbdef11964d762e0af3b5f8bb	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	fab6d2446f2316f739be9dfa39cd65b2	
+ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	6ed2f3ab349ae366e7fd38c0b8a0a597	
+ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	ff1ac6ac4868ab8bcc043925c9fca83a	
+ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	0a4b17ccd4eb6a91020ac0fd450c0ddf	
+ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	5409efa748a90012eda210c0ac58c29f	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	8ba01bbcf2352aeadf0b4b73712954b1	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	ce7ac595360d9d385eecffc4b7416b2d	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	502b508eb5acf0651f9847d72718ec77	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	ed70be113fd7990ca0dae1b1df390fba	
 ERROR	missing_label	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	rdfs:label		
@@ -217,6 +217,8 @@ ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from
 ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from@en	
 ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to	
 ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to@en	
+ERROR	multiple_labels	IAO:0000425	rdfs:label	expand assertion to	
+ERROR	multiple_labels	IAO:0000425	rdfs:label	expand assertion to@en	
 ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by	
 ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by@en	
 ERROR	multiple_labels	PCO:0000000	rdfs:label	collection of organisms	
@@ -2103,6 +2105,7 @@ WARN	missing_definition	IAO:0000412	IAO:0000600
 WARN	missing_definition	IAO:0000413	IAO:0000600		
 WARN	missing_definition	IAO:0000416	IAO:0000600		
 WARN	missing_definition	IAO:0000424	IAO:0000600		
+WARN	missing_definition	IAO:0000425	IAO:0000600		
 WARN	missing_definition	IAO:0000426	IAO:0000600		
 WARN	missing_definition	IAO:0000572	IAO:0000600		
 WARN	missing_definition	IAO:0000574	IAO:0000600		
@@ -2456,6 +2459,7 @@ WARN	missing_definition	PATO:0001407	IAO:0000600
 WARN	missing_definition	PATO:0001428	IAO:0000600		
 WARN	missing_definition	PATO:0001430	IAO:0000600		
 WARN	missing_definition	PATO:0001454	IAO:0000600		
+WARN	missing_definition	PATO:0001455	IAO:0000600		
 WARN	missing_definition	PATO:0001456	IAO:0000600		
 WARN	missing_definition	PATO:0001464	IAO:0000600		
 WARN	missing_definition	PATO:0001472	IAO:0000600		
@@ -2705,6 +2709,9 @@ WARN	missing_definition	PMO:00000170	IAO:0000600
 WARN	missing_definition	PMO:00000171	IAO:0000600		
 WARN	missing_definition	PMO:00000172	IAO:0000600		
 WARN	missing_definition	PMO:00000173	IAO:0000600		
+WARN	missing_definition	PMO:00000174	IAO:0000600		
+WARN	missing_definition	PMO:00000175	IAO:0000600		
+WARN	missing_definition	PMO:00000176	IAO:0000600		
 WARN	missing_definition	PO:0000003	IAO:0000600		
 WARN	missing_definition	PO:0009011	IAO:0000600		
 WARN	missing_definition	PO:0025131	IAO:0000600		
