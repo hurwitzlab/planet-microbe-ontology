@@ -7,10 +7,13 @@ http://purl.obolibrary.org/obo/ENVO_00000428	biome
 http://purl.obolibrary.org/obo/PMO_00000156	concentration of 19'-butanoyloxyfucoxanthin in liquid water
 http://purl.obolibrary.org/obo/PMO_00000157	concentration of 19'-hexanoyloxyfucoxanthin in liquid water
 http://purl.obolibrary.org/obo/ENVO_3100004	concentration of ammonium in water
+http://purl.obolibrary.org/obo/PMO_00000174	concentration of carbon dioxide in liquid water
+http://purl.obolibrary.org/obo/PMO_00000175	concentration of carbonate in liquid water
 http://purl.obolibrary.org/obo/ENVO_3100008	concentration of chlorophyll a in water
 http://purl.obolibrary.org/obo/ENVO_3100009	concentration of chlorophyll b in water
 http://purl.obolibrary.org/obo/ENVO_3100036	concentration of chlorophyll in water
 http://purl.obolibrary.org/obo/ENVO_3100014	concentration of fucoxanthin in water
+http://purl.obolibrary.org/obo/PMO_00000176	concentration of hydrogencarbonate in liquid water
 http://purl.obolibrary.org/obo/PMO_00000018	concentration of nitrate and nitrite in water
 http://purl.obolibrary.org/obo/ENVO_3100022	concentration of nitrate in water
 http://purl.obolibrary.org/obo/ENVO_3100023	concentration of nitrite in water
