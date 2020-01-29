@@ -278,7 +278,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000014> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000015> (photosynthetically active electromagnetic radiation of liquid water)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000015> "A electromagnetic radiation quality which photosynthetically active radiation inheres in liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000015> "A electromagnetic radiation quality in which photosynthetically active radiation inheres in liquid water.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000015> "Add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000015> "photosynthetically active electromagnetic radiation of liquid water")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>)))
