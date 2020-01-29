@@ -1,8 +1,8 @@
 #PURL	PURL LABEL	MIXS WATER 4.0 STRUCTURED COMMENT NAME	STANDARD UNIT PURL	UNIT LABEL	MIXS SPECIFIED UNIT	NOTES
 http://purl.obolibrary.org/obo/ENVO_3100030	acidity of water	ph	http://purl.obolibrary.org/obo/UO_0000196	pH	no	
 http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139	alkalinity of water	alkalinity		milliequivalent per liter	yes	Need to create milliequivalent per liter pmo term
-http://purl.obolibrary.org/obo/PMO_00000023	aquatic sample maximum filter fractionation size threshold				no	
-http://purl.obolibrary.org/obo/PMO_00000022	aquatic sample minimum filter fractionation size threshold				no	
+http://purl.obolibrary.org/obo/PMO_00000023	aquatic sample maximum filter fractionation size threshold		http://purl.obolibrary.org/obo/UO_0000017	micrometer	no	
+http://purl.obolibrary.org/obo/PMO_00000022	aquatic sample minimum filter fractionation size threshold		http://purl.obolibrary.org/obo/UO_0000017	micrometer	no	
 http://purl.obolibrary.org/obo/ENVO_01001362	atmospheric wind speed		http://purl.obolibrary.org/obo/UO_0000094	meter per second	no	
 http://purl.obolibrary.org/obo/ENVO_00000428	biome	biome			no	
 http://purl.obolibrary.org/obo/PMO_00000156	concentration of 19'-butanoyloxyfucoxanthin in liquid water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
