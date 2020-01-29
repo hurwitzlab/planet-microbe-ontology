@@ -51,8 +51,8 @@ http://purl.obolibrary.org/obo/PMO_00000103	particulate organic carbon	part_org_
 http://purl.obolibrary.org/obo/PMO_00000112	particulate organic nitrogen	part_org_nitro	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	
 http://purl.obolibrary.org/obo/PMO_00000153	particulate phosphorus				?	TODO: Check if it's total phosphorus
 http://purl.obolibrary.org/obo/PMO_00000015	photosynthetically active electromagnetic radiation of liquid water	down_par	http://purl.obolibrary.org/obo/PMO_00000126	micromole per square meter per second	yes	MIxS standard reports microEinstein per meter per second which is a micromole of photons per meter per second. 
-http://purl.obolibrary.org/obo/PMO_00000021	potential density				no	
-http://purl.obolibrary.org/obo/PMO_00000020	potential temperature				no	
+http://purl.obolibrary.org/obo/PMO_00000021	potential density		http://purl.obolibrary.org/obo/UO_0000083	kilogram per cubic meter	no	
+http://purl.obolibrary.org/obo/PMO_00000020	potential temperature		http://purl.obolibrary.org/obo/PMO_00000038	international temperature scale of 1990 unit	no	
 http://purl.obolibrary.org/obo/ENVO_3100033	pressure of water	pressure	http://purl.obolibrary.org/obo/PMO_00000035	atmosphere unit	yes	
 http://purl.obolibrary.org/obo/PMO_00000108	primary productivity carbon	??? bacteria_carb_prod ???		nanogram per hour	?	TOD: DOUBLE CHECK THIS
 http://purl.obolibrary.org/obo/PMO_00000116	prokaryote derived carbon	??? bac_prod ???		milligram per cubic meter per day	?	TOD: DOUBLE CHECK THIS
