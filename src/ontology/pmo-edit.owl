@@ -158,6 +158,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000176>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1200,6 +1201,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000176> "Add to ENVO via design pattern. Use CHEBI hydrogencarbonate http://purl.obolibrary.org/obo/CHEBI_17544")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000176> "concentration of hydrogencarbonate in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000176> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000177> (milliequivalent per liter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000177> "An equivalent unit which is equal to one milliequivalent per liter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000177> "Add to UO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000177> "milliequivalent per liter"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000177> <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
