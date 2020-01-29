@@ -445,7 +445,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000036> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000037> (practical salinity unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000037> "Add to UO.
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000037> "Perhaps don't add to UO. 
 
 According to http://www.salinityremotesensing.ifremer.fr/sea-surface-salinity/definition-and-units it is equivalent to per thousand."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000037> "PSS-78")
