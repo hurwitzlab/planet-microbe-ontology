@@ -20,8 +20,7 @@ http://purl.obolibrary.org/obo/ENVO_3100022	concentration of nitrate in water	ni
 http://purl.obolibrary.org/obo/ENVO_3100023	concentration of nitrite in water	nitrite	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
 http://purl.obolibrary.org/obo/ENVO_09200021	concentration of oxygen in water	diss_oxygen	http://purl.obolibrary.org/obo/UO_0010004	micromole per kilogram	yes	
 http://purl.obolibrary.org/obo/ENVO_3100026	concentration of phosphate in water	phosphate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
-http://purl.obolibrary.org/obo/ENVO_3100027	concentration of silicate(4-) in water	silicate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	**REMOVE ONE!**
-http://purl.obolibrary.org/obo/ENVO_3100034	concentration of silicic acid in water	silicate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	**REMOVE ONE!**
+http://purl.obolibrary.org/obo/ENVO_3100034	concentration of silicic acid in water	silicate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
 http://purl.obolibrary.org/obo/PMO_00000173	concentration of urea in liquid water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
 http://purl.obolibrary.org/obo/ENVO_3100029	concentration of zeaxanthin in water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
 http://purl.obolibrary.org/obo/ENVO_09200018	conductivity of water	conduc	http://purl.obolibrary.org/obo/PMO_00000130	milisiemens per centimeter	yes	
