@@ -1,65 +1,66 @@
-#PURL	PURL LABEL
-http://purl.obolibrary.org/obo/ENVO_3100030	acidity of water
-http://purl.obolibrary.org/obo/PMO_00000023	aquatic sample maximum filter fractionation size threshold
-http://purl.obolibrary.org/obo/PMO_00000022	aquatic sample minimum filter fractionation size threshold
-http://purl.obolibrary.org/obo/ENVO_01001362	atmospheric wind speed
-http://purl.obolibrary.org/obo/ENVO_00000428	biome
-http://purl.obolibrary.org/obo/PMO_00000156	concentration of 19'-butanoyloxyfucoxanthin in liquid water
-http://purl.obolibrary.org/obo/PMO_00000157	concentration of 19'-hexanoyloxyfucoxanthin in liquid water
-http://purl.obolibrary.org/obo/ENVO_3100004	concentration of ammonium in water
-http://purl.obolibrary.org/obo/PMO_00000174	concentration of carbon dioxide in liquid water
-http://purl.obolibrary.org/obo/PMO_00000175	concentration of carbonate in liquid water
-http://purl.obolibrary.org/obo/ENVO_3100008	concentration of chlorophyll a in water
-http://purl.obolibrary.org/obo/ENVO_3100009	concentration of chlorophyll b in water
-http://purl.obolibrary.org/obo/ENVO_3100036	concentration of chlorophyll in water
-http://purl.obolibrary.org/obo/ENVO_3100014	concentration of fucoxanthin in water
-http://purl.obolibrary.org/obo/PMO_00000176	concentration of hydrogencarbonate in liquid water
-http://purl.obolibrary.org/obo/PMO_00000018	concentration of nitrate and nitrite in water
-http://purl.obolibrary.org/obo/ENVO_3100022	concentration of nitrate in water
-http://purl.obolibrary.org/obo/ENVO_3100023	concentration of nitrite in water
-http://purl.obolibrary.org/obo/ENVO_09200021	concentration of oxygen in water
-http://purl.obolibrary.org/obo/ENVO_3100026	concentration of phosphate in water
-http://purl.obolibrary.org/obo/ENVO_3100027	concentration of silicate(4-) in water
-http://purl.obolibrary.org/obo/ENVO_3100034	concentration of silicic acid in water
-http://purl.obolibrary.org/obo/PMO_00000173	concentration of urea in liquid water
-http://purl.obolibrary.org/obo/ENVO_3100029	concentration of zeaxanthin in water
-http://purl.obolibrary.org/obo/ENVO_09200018	conductivity of water
-http://purl.obolibrary.org/obo/ENVO_3100031	depth of water
-http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142	dissolved inorganic carbon
-http://purl.obolibrary.org/obo/PMO_00000102	dissolved organic carbon
-http://purl.obolibrary.org/obo/PMO_00000111	dissolved organic nitrogen
-http://purl.obolibrary.org/obo/ENVO_01001026	electromagnetic radiation
-http://purl.obolibrary.org/obo/PMO_00000162	enumeration of heterotrophic prokaryote aggregation
-http://purl.obolibrary.org/obo/PMO_00000161	enumeration of picoeukaryote aggregation
-http://purl.obolibrary.org/obo/PMO_00000159	enumeration of Prochlorococcus aggregation
-http://purl.obolibrary.org/obo/PMO_00000160	enumeration of Synechococcus aggregation
-http://purl.obolibrary.org/obo/ENVO_00002297	environmental feature
-http://purl.obolibrary.org/obo/ENVO_00010483	environmental material
-http://purl.obolibrary.org/obo/ENVO_3100032	fluorescence of water
-http://purl.obolibrary.org/obo/OBI_0001620	latitude coordinate measurement datum
-http://purl.obolibrary.org/obo/PMO_00000076	latitude coordinate measurement datum start
-http://purl.obolibrary.org/obo/PMO_00000079	latitude coordinate measurement datum stop
-http://purl.obolibrary.org/obo/PMO_00000014	liquid water salinity
-http://purl.obolibrary.org/obo/OBI_0001621	longitude coordinate measurement datum
-http://purl.obolibrary.org/obo/PMO_00000077	longitude coordinate measurement datum start
-http://purl.obolibrary.org/obo/PMO_00000078 	longitude coordinate measurement datum stop
-http://purl.obolibrary.org/obo/PMO_00000114	mesoplankton and macroplankton aggregate
-http://purl.obolibrary.org/obo/PMO_00000101	nanoplankton and microplankton aggregate
-http://purl.obolibrary.org/obo/PMO_00000150	particulate carbon
-http://purl.obolibrary.org/obo/PMO_00000151	particulate nitrogen
-http://purl.obolibrary.org/obo/PMO_00000103	particulate organic carbon
-http://purl.obolibrary.org/obo/PMO_00000112	particulate organic nitrogen
-http://purl.obolibrary.org/obo/PMO_00000153	particulate phosphorus
-http://purl.obolibrary.org/obo/PMO_00000021	potential density
-http://purl.obolibrary.org/obo/PMO_00000020	potential temperature
-http://purl.obolibrary.org/obo/ENVO_3100033	pressure of water
-http://purl.obolibrary.org/obo/PMO_00000108	primary productivity carbon
-http://purl.obolibrary.org/obo/PMO_00000116	prokaryote derived carbon
-http://purl.obolibrary.org/obo/OBI_0001619	specimen collection time measurement datum
-http://purl.obolibrary.org/obo/PMO_00000008	specimen collection time measurement datum start
-http://purl.obolibrary.org/obo/PMO_00000009 	specimen collection time measurement datum stop
-http://purl.obolibrary.org/obo/OBI_0001901	specimen identifier assigned by sequencing facility
-http://purl.obolibrary.org/obo/OBI_0001900	specimen identifier assigned by specimen repository
-http://purl.obolibrary.org/obo/ENVO_09200014	temperature of water
-http://purl.obolibrary.org/obo/PMO_00000121	turbidity of water
-http://purl.obolibrary.org/obo/ENVO_01001215	visible spectrum stellar radiation
+#PURL	PURL LABEL	MIXS WATER 4.0 STRUCTURED COMMENT NAME	STANDARD UNIT PURL	UNIT LABEL	MIXS SPECIFIED UNIT	NOTES
+http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139	alkalinity of water	alkalinity		milliequivalent per liter	yes	Need to create milliequivalent per liter pmo term
+http://purl.obolibrary.org/obo/ENVO_3100030	acidity of water	ph	http://purl.obolibrary.org/obo/UO_0000196	pH	no	
+http://purl.obolibrary.org/obo/PMO_00000023	aquatic sample maximum filter fractionation size threshold				no	
+http://purl.obolibrary.org/obo/PMO_00000022	aquatic sample minimum filter fractionation size threshold				no	
+http://purl.obolibrary.org/obo/ENVO_01001362	atmospheric wind speed		http://purl.obolibrary.org/obo/UO_0000094	meter per second	no	
+http://purl.obolibrary.org/obo/ENVO_00000428	biome	biome			no	
+http://purl.obolibrary.org/obo/PMO_00000156	concentration of 19'-butanoyloxyfucoxanthin in liquid water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/PMO_00000157	concentration of 19'-hexanoyloxyfucoxanthin in liquid water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/ENVO_3100004	concentration of ammonium in water	ammonium	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
+http://purl.obolibrary.org/obo/PMO_00000174	concentration of carbon dioxide in liquid water	diss_carb_dioxide	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
+http://purl.obolibrary.org/obo/PMO_00000175	concentration of carbonate in liquid water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/ENVO_3100008	concentration of chlorophyll a in water		http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	no	"Chlorophyll had both milligram per cubic meter, microgram per liter, perhaps just settle on one. Choose microgram per liter as rest are in liters. "
+http://purl.obolibrary.org/obo/ENVO_3100009	concentration of chlorophyll b in water		http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	no	"Chlorophyll had both milligram per cubic meter, microgram per liter, perhaps just settle on one. Choose microgram per liter as rest are in liters. "
+http://purl.obolibrary.org/obo/ENVO_3100036	concentration of chlorophyll in water	chlorophyll	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	"Has both milligram per cubic meter, microgram per liter, perhaps just settle on one. Choose microgram per liter as rest are in liters. "
+http://purl.obolibrary.org/obo/ENVO_3100014	concentration of fucoxanthin in water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/PMO_00000176	concentration of hydrogencarbonate in liquid water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/PMO_00000018	concentration of nitrate and nitrite in water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/ENVO_3100022	concentration of nitrate in water	nitrate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
+http://purl.obolibrary.org/obo/ENVO_3100023	concentration of nitrite in water	nitrite	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
+http://purl.obolibrary.org/obo/ENVO_09200021	concentration of oxygen in water	diss_oxygen	http://purl.obolibrary.org/obo/UO_0010004	micromole per kilogram	yes	
+http://purl.obolibrary.org/obo/ENVO_3100026	concentration of phosphate in water	phosphate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	
+http://purl.obolibrary.org/obo/ENVO_3100027	concentration of silicate(4-) in water	silicate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	**REMOVE ONE!**
+http://purl.obolibrary.org/obo/ENVO_3100034	concentration of silicic acid in water	silicate	http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	yes	**REMOVE ONE!**
+http://purl.obolibrary.org/obo/PMO_00000173	concentration of urea in liquid water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/ENVO_3100029	concentration of zeaxanthin in water		http://purl.obolibrary.org/obo/UO_0010003	micromole per litre	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
+http://purl.obolibrary.org/obo/ENVO_09200018	conductivity of water	conduc	http://purl.obolibrary.org/obo/PMO_00000130	milisiemens per centimeter	yes	
+http://purl.obolibrary.org/obo/ENVO_3100031	depth of water	depth	http://purl.obolibrary.org/obo/UO_0000008	meter	no	
+http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142	dissolved inorganic carbon	diss_inorg_carb	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	"Missing a couple of dissolved terms inorganic nit, phosp etc"
+http://purl.obolibrary.org/obo/PMO_00000102	dissolved organic carbon	diss_org_carb	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	
+http://purl.obolibrary.org/obo/PMO_00000111	dissolved organic nitrogen	diss_org_nitro	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	"HAS BOTH microgram per liter, milligram per liter. Decided to go with microgram per liter."
+http://purl.obolibrary.org/obo/ENVO_01001026	electromagnetic radiation			watt per square meter		TODO: CHECK IF THIS ISN'T ALSO PAR (visible specturum stellar radiation) 
+http://purl.obolibrary.org/obo/PMO_00000162	enumeration of heterotrophic prokaryote aggregation	organism_count	http://purl.obolibrary.org/obo/UO_0000201	cells per milliliter	yes	"These counts almost fit in with the mixs organism_cout tem with def: total count of any organism per gram or volume of sample, should include name of organism followed by count; can include multiple organism counts. MIxS field has it in number of organism per cubic meter, but we decided to change it to cells per milliliter."
+http://purl.obolibrary.org/obo/PMO_00000161	enumeration of picoeukaryote aggregation	organism_count	http://purl.obolibrary.org/obo/UO_0000201	cells per milliliter	yes	"These counts almost fit in with the mixs organism_cout tem with def: total count of any organism per gram or volume of sample, should include name of organism followed by count; can include multiple organism counts. MIxS field has it in number of organism per cubic meter, but we decided to change it to cells per milliliter."
+http://purl.obolibrary.org/obo/PMO_00000159	enumeration of Prochlorococcus aggregation	organism_count	http://purl.obolibrary.org/obo/UO_0000201	cells per milliliter	yes	"These counts almost fit in with the mixs organism_cout tem with def: total count of any organism per gram or volume of sample, should include name of organism followed by count; can include multiple organism counts. MIxS field has it in number of organism per cubic meter, but we decided to change it to cells per milliliter."
+http://purl.obolibrary.org/obo/PMO_00000160	enumeration of Synechococcus aggregation	organism_count	http://purl.obolibrary.org/obo/UO_0000201	cells per milliliter	yes	"These counts almost fit in with the mixs organism_cout tem with def: total count of any organism per gram or volume of sample, should include name of organism followed by count; can include multiple organism counts. MIxS field has it in number of organism per cubic meter, but we decided to change it to cells per milliliter."
+http://purl.obolibrary.org/obo/ENVO_00002297	environmental feature	env_feature			no	
+http://purl.obolibrary.org/obo/ENVO_00010483	environmental material	env_material			no	
+http://purl.obolibrary.org/obo/ENVO_3100032	fluorescence of water	fluor		milligram chlorophyll a per cubic meter	yes	TODO: This is suppose to be chl a check in datapackages and mabye this is redundant with concentration of chl a
+http://purl.obolibrary.org/obo/OBI_0001620	latitude coordinate measurement datum	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
+http://purl.obolibrary.org/obo/PMO_00000076	latitude coordinate measurement datum start	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
+http://purl.obolibrary.org/obo/PMO_00000079	latitude coordinate measurement datum stop	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
+http://purl.obolibrary.org/obo/PMO_00000014	liquid water salinity		http://purl.obolibrary.org/obo/UO_0000168	parts per thousand	yes	According to http://www.salinityremotesensing.ifremer.fr/sea-surface-salinity/definition-and-units practical salinity unit (PSU) the MIxS specified termis equivalent to parts per thousand. MIxS specifies practical salinity unit or percentage.
+http://purl.obolibrary.org/obo/OBI_0001621	longitude coordinate measurement datum	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
+http://purl.obolibrary.org/obo/PMO_00000077	longitude coordinate measurement datum start	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
+http://purl.obolibrary.org/obo/PMO_00000078 	longitude coordinate measurement datum stop	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
+http://purl.obolibrary.org/obo/PMO_00000114	mesoplankton and macroplankton aggregate				no	
+http://purl.obolibrary.org/obo/PMO_00000101	nanoplankton and microplankton aggregate				no	
+http://purl.obolibrary.org/obo/PMO_00000150	particulate carbon				?	TODO: Check if these examples in the data don’t actually refer to particulate organic or inorganic carbon. Maybe is concentration of suspended particulate matter or maybe total particulate carbon or something else? CHECK TODO
+http://purl.obolibrary.org/obo/PMO_00000151	particulate nitrogen				?	TODO: Check if these examples in the data don’t actually refer to particulate organic or inorganic nitrogen. Maybe is concentration of suspended particulate matter or maybe total nitrogen?  CHECK TODO
+http://purl.obolibrary.org/obo/PMO_00000103	particulate organic carbon	part_org_carb	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	
+http://purl.obolibrary.org/obo/PMO_00000112	particulate organic nitrogen	part_org_nitro	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	
+http://purl.obolibrary.org/obo/PMO_00000153	particulate phosphorus				?	TODO: Check if it's total phosphorus
+http://purl.obolibrary.org/obo/PMO_00000021	potential density				no	
+http://purl.obolibrary.org/obo/PMO_00000020	potential temperature				no	
+http://purl.obolibrary.org/obo/ENVO_3100033	pressure of water	pressure	http://purl.obolibrary.org/obo/PMO_00000035	atmosphere unit	yes	
+http://purl.obolibrary.org/obo/PMO_00000108	primary productivity carbon	??? bacteria_carb_prod ???		nanogram per hour	?	TOD: DOUBLE CHECK THIS
+http://purl.obolibrary.org/obo/PMO_00000116	prokaryote derived carbon	??? bac_prod ???		milligram per cubic meter per day	?	TOD: DOUBLE CHECK THIS
+http://purl.obolibrary.org/obo/OBI_0001619	specimen collection time measurement datum	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
+http://purl.obolibrary.org/obo/PMO_00000008	specimen collection time measurement datum start	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
+http://purl.obolibrary.org/obo/PMO_00000009 	specimen collection time measurement datum stop	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
+http://purl.obolibrary.org/obo/OBI_0001901	specimen identifier assigned by sequencing facility				no	BioSample example: SAMEA3275622. Close to submitted_to_insdc but not quite
+http://purl.obolibrary.org/obo/OBI_0001900	specimen identifier assigned by specimen repository				no	TODO CHECK NOT SURE IF WE WANT THIS SEARCHABLE not in the datapackages ATM. 
+http://purl.obolibrary.org/obo/ENVO_09200014	temperature of water	temp	http://purl.obolibrary.org/obo/UO_0000027	degree Celsius	yes	
+http://purl.obolibrary.org/obo/PMO_00000121	turbidity of water		http://purl.obolibrary.org/obo/PMO_00000131	formazin turbidity unit	no	No MIxS unit hence we decided to use formazin turbidity unit.
+http://purl.obolibrary.org/obo/ENVO_01001215	visible spectrum stellar radiation	down_par	http://purl.obolibrary.org/obo/PMO_00000126	micromole per square meter per second	yes	MIxS standard reports microEinstein per meter per second which is a micromole of photons per meter per second. 
