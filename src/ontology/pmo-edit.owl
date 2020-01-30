@@ -456,10 +456,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000037> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000038> (international temperature scale of 1990 unit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000038> "Add to UO. Or depricate."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000038> "Depricate this is not actually a unit, just a scale to convert between Kelvin and Celcius at various pressures."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PMO_00000038> "https://www.omega.com/temperature/Z/pdf/z186-193.pdf")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PMO_00000038> "ITS-90")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000038> "international temperature scale of 1990 unit")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000038> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000038> <http://purl.obolibrary.org/obo/UO_0000005>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000044> (Data)
