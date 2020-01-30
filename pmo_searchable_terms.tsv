@@ -52,8 +52,8 @@ http://purl.obolibrary.org/obo/PMO_00000014	liquid water salinity	salinity	http:
 http://purl.obolibrary.org/obo/OBI_0001621	longitude coordinate measurement datum	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
 http://purl.obolibrary.org/obo/PMO_00000077	longitude coordinate measurement datum start	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
 http://purl.obolibrary.org/obo/PMO_00000078 	longitude coordinate measurement datum stop	lat_lon	http://purl.obolibrary.org/obo/UO_0000185	degree	no	has lat long as one field in MIXS not seperated with expected value of decimal degrees
-http://purl.obolibrary.org/obo/PMO_00000114	mesoplankton and macroplankton aggregate				no	
-http://purl.obolibrary.org/obo/PMO_00000101	nanoplankton and microplankton aggregate				no	
+http://purl.obolibrary.org/obo/PMO_00000114	mesoplankton and macroplankton aggregate		http://purl.obolibrary.org/obo/PMO_00000129	unit per cubic meter	no	
+http://purl.obolibrary.org/obo/PMO_00000101	nanoplankton and microplankton aggregate		http://purl.obolibrary.org/obo/PMO_00000129	unit per cubic meter	no	
 http://purl.obolibrary.org/obo/PMO_00000150	particulate carbon				?	TODO: Check if these examples in the data don’t actually refer to particulate organic or inorganic carbon. Maybe is concentration of suspended particulate matter or maybe total particulate carbon or something else? CHECK TODO
 http://purl.obolibrary.org/obo/PMO_00000151	particulate nitrogen				?	TODO: Check if these examples in the data don’t actually refer to particulate organic or inorganic nitrogen. Maybe is concentration of suspended particulate matter or maybe total nitrogen?  CHECK TODO
 http://purl.obolibrary.org/obo/PMO_00000103	particulate organic carbon	part_org_carb	http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	yes	
@@ -69,6 +69,6 @@ http://purl.obolibrary.org/obo/OBI_0001619	specimen collection time measurement 
 http://purl.obolibrary.org/obo/PMO_00000008	specimen collection time measurement datum start	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
 http://purl.obolibrary.org/obo/PMO_00000009 	specimen collection time measurement datum stop	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
 http://purl.obolibrary.org/obo/OBI_0001901	specimen identifier assigned by sequencing facility				no	BioSample example: SAMEA3275622. Close to submitted_to_insdc but not quite
-http://purl.obolibrary.org/obo/ENVO_01001211	stellar radiation			watt per square meter		Superset to PAR thus all stellar radiation is applicable. 
+http://purl.obolibrary.org/obo/ENVO_01001211	stellar radiation		http://purl.obolibrary.org/obo/UO_0000155	watt per square meter	no	Superset to PAR thus all stellar radiation is applicable. 
 http://purl.obolibrary.org/obo/ENVO_09200014	temperature of water	temp	http://purl.obolibrary.org/obo/UO_0000027	degree Celsius	yes	
 http://purl.obolibrary.org/obo/ENVO_09200014	turbidity of water		http://purl.obolibrary.org/obo/PMO_00000131	formazin turbidity unit	no	No MIxS unit hence we decided to use formazin turbidity unit.
