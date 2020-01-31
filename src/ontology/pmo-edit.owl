@@ -167,6 +167,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000182>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000183>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000184>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000185>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000186>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1273,6 +1274,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000185> "Add axiom for prokaryote, and push to ENVO, PATO, BCO or ECOCORE.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000185> "enumeration of prokaryote aggregation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000185> <http://purl.obolibrary.org/obo/PMO_00000158>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000186> (concentration of bromide in liquid water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000186> "The concentration of bromide when measured in liquid water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000186> "http://purl.obolibrary.org/obo/CHEBI_15858")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000186> "concentration of bromide in liquid water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000186> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
