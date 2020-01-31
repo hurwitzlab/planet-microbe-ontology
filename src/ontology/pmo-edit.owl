@@ -166,6 +166,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000182>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000183>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000184>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1076,7 +1077,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000158> "Add axiom for organisms, and push to PATO or ECOCORE."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000158> "Pattern similar to http://purl.obolibrary.org/obo/IDOMAL_0000428")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000158> "measure relating to enumeration of aggregation of organisms"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000158> <http://purl.obolibrary.org/obo/PMO_00000162>)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000158> <http://purl.obolibrary.org/obo/IAO_0000109>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000159> (enumeration of Prochlorococcus aggregation)
@@ -1105,6 +1105,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000161> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000162> "A measure which describes the enumeration of aggregated heterotrophic prokaryotes.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000162> "Add axiom for heterotrophs, and push to PATO or ECOCORE."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000162> "enumeration of heterotrophic prokaryote aggregation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000162> <http://purl.obolibrary.org/obo/PMO_00000185>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000163> (autotrophic organism biomass carbon aggregation)
 
@@ -1265,6 +1266,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000184> "http://purl.obolibrary.org/obo/CHEBI_29035")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000184> "concentration of manganese(2+) in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000184> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000185> (enumeration of prokaryote aggregation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000185> "A measure which describes the enumeration of aggregated prokaryotes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000185> "Add axiom for prokaryote, and push to ENVO, PATO, BCO or ECOCORE.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000185> "enumeration of prokaryote aggregation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000185> <http://purl.obolibrary.org/obo/PMO_00000158>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
