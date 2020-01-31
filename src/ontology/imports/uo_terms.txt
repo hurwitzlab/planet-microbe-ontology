@@ -21,3 +21,4 @@ UO:0000094 #meter per second
 UO:0000155 #watt per square meter
 UO:0000201 #cells per milliliter
 UO:0000168 #parts per thousand
+UO:0000069 #millimolal
