@@ -164,6 +164,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000183>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1249,6 +1250,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000182> "http://purl.obolibrary.org/obo/CHEBI_29101")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000182> "concentration of sodium(1+) in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000182> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000183> (concentration of sulfate in liquid water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000183> "The concentration of sulfate when measured in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000183> "http://purl.obolibrary.org/obo/CHEBI_16189")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000183> "concentration of sulfate in liquid water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000183> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
