@@ -3,8 +3,8 @@ http://purl.obolibrary.org/obo/ENVO_3100030	acidity of water	ph	http://purl.obol
 http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139	alkalinity of water	alkalinity	http://purl.obolibrary.org/obo/PMO_00000177	milliequivalent per liter	yes	
 http://purl.obolibrary.org/obo/PMO_00000023	aquatic sample maximum filter fractionation size threshold		http://purl.obolibrary.org/obo/UO_0000017	micrometer	no	
 http://purl.obolibrary.org/obo/PMO_00000022	aquatic sample minimum filter fractionation size threshold		http://purl.obolibrary.org/obo/UO_0000017	micrometer	no	
-http://purl.obolibrary.org/obo/PMO_00000163	autotrophic organism biomass carbon aggregation		http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	no	Similar to MIxS biomass but more specific for autotrophs
 http://purl.obolibrary.org/obo/ENVO_01001362	atmospheric wind speed		http://purl.obolibrary.org/obo/UO_0000094	meter per second	no	
+http://purl.obolibrary.org/obo/PMO_00000163	autotrophic organism biomass carbon aggregation		http://purl.obolibrary.org/obo/UO_0000301	microgram per liter	no	Similar to MIxS biomass but more specific for autotrophs
 http://purl.obolibrary.org/obo/ENVO_00000428	biome	biome			no	
 http://purl.obolibrary.org/obo/PMO_00000156	concentration of 19'-butanoyloxyfucoxanthin in liquid water		http://purl.obolibrary.org/obo/UO_0000064	micromolar	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
 http://purl.obolibrary.org/obo/PMO_00000157	concentration of 19'-hexanoyloxyfucoxanthin in liquid water		http://purl.obolibrary.org/obo/UO_0000064	micromolar	no	Decided to use micromole per litre as default concentration of unit for non MIxS specified terms
