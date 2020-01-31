@@ -162,6 +162,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000180>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000181>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000182>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1227,12 +1229,26 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000179> "concentration of calcium(2+) in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000179> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000180> (concentration of magnesium in liquid water)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000180> (concentration of magnesium(2+) in liquid water)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000180> "The concentration of magnesium(2+) when measured in water.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000180> "http://purl.obolibrary.org/obo/CHEBI_18420")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000180> "concentration of magnesium in liquid water"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000180> "concentration of magnesium(2+) in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000180> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000181> (concentration of potassium(1+) in liquid water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000181> "The concentration of potassium(1+) when measured in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000181> "http://purl.obolibrary.org/obo/CHEBI_29103")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000181> "concentration of potassium(1+) in liquid water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000181> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000182> (concentration of sodium(1+) in liquid water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000182> "The concentration of sodium(1+) when measured in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000182> "http://purl.obolibrary.org/obo/CHEBI_29101")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000182> "concentration of sodium(1+) in liquid water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000182> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
