@@ -160,6 +160,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1217,6 +1218,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000178> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000178> "nanogram per kilogram"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000178> <http://purl.obolibrary.org/obo/UO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000179> (concentration of calcium(2+) in liquid water)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000179> "The concentration of calcium(2+) when measured in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000179> "use CHEBI calcium(2+) http://purl.obolibrary.org/obo/CHEBI_29108")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000179> "concentration of calcium(2+) in liquid water"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000179> <http://purl.obolibrary.org/obo/PATO_0000033>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
