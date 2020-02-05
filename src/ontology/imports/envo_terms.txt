@@ -44,6 +44,7 @@ ENVO:03000123 #concentration of nitrate and nitrite in liquid water
 ENVO:01001362 #atmospheric wind speed
 ENVO:01001795 #ecosystem process
 ENVO:00000207 #oceanic zone
+ENVO:02500023 #algal production
 #################### Imports from Datapackages
 ENVO:01000048
 ENVO:01000252
