@@ -168,6 +168,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000183>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000184>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000186>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -997,7 +998,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000129> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000130> (milisiemens per centimeter)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000130> "An electrical conduction unit which is equal to one milisiemens per centimeter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000130> "An electrical conduction unit which is equal to one milisiemen per centimeter.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000130> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000130> "milisiemens per centimeter")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000130> <http://purl.obolibrary.org/obo/UO_0000262>)
@@ -1281,6 +1282,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000186> "http://purl.obolibrary.org/obo/CHEBI_15858")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000186> "concentration of bromide in liquid water"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000186> <http://purl.obolibrary.org/obo/PATO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000187> (microsiemens per centimeter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000187> "Add to UO.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PMO_00000187> "An electrical conduction unit which is equal to one microsiemen per centimeter.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000187> "microsiemens per centimeter"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000187> <http://purl.obolibrary.org/obo/UO_0000262>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
