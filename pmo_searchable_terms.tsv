@@ -76,7 +76,8 @@ http://purl.obolibrary.org/obo/PMO_00000021	potential density		http://purl.oboli
 http://purl.obolibrary.org/obo/PMO_00000020	potential temperature		http://purl.obolibrary.org/obo/UO_0000027	degree Celsius	no	
 http://purl.obolibrary.org/obo/ENVO_3100033	pressure of water	pressure	http://purl.obolibrary.org/obo/PMO_00000035	atmosphere unit	yes	
 http://purl.obolibrary.org/obo/PMO_00000108	primary productivity carbon		http://purl.obolibrary.org/obo/PMO_00000128	miligram per cubic meter per day	no	Doesn't exist in MIxS they only have the bacterial fraction
-http://purl.obolibrary.org/obo/PMO_00000116	prokaryote derived carbon	bac_prod	http://purl.obolibrary.org/obo/PMO_00000128	milligram per cubic meter per day	yes	In MIxS as bacterial production
+http://purl.obolibrary.org/obo/PMO_00000116	prokaryote derived carbon	bacteria_carb_prod	http://purl.obolibrary.org/obo/PMO_00000128	miligram per cubic meter per day	yes	In MIxS as bacterial carbon production
+http://purl.obolibrary.org/obo/PMO_00000189	prokaryotic leucine production 	bac_prod	http://purl.obolibrary.org/obo/PMO_00000128	miligram per cubic meter per day	yes	MIxS specifies milligram per cubic meter per day
 http://purl.obolibrary.org/obo/OBI_0001619	specimen collection time measurement datum	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
 http://purl.obolibrary.org/obo/PMO_00000008	specimen collection time measurement datum start	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
 http://purl.obolibrary.org/obo/PMO_00000009 	specimen collection time measurement datum stop	collection_date	http://purl.obolibrary.org/obo/UO_0000003	time unit	no	Expected date and time
