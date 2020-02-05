@@ -1,6 +1,34 @@
 {
   "graphs" : [ {
     "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000180",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of magnesium(2+) when measured in water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_18420"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of magnesium(2+) in liquid water"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000181",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of potassium(1+) when measured in water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_29103"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of potassium(1+) in liquid water"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000060",
       "meta" : {
         "definition" : {
@@ -15,9 +43,51 @@
       "type" : "CLASS",
       "lbl" : "sampling expedition identifier"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000184",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of manganese(2+) when measured in water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_29035"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of manganese(2+) in liquid water"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000063",
       "type" : "CLASS",
       "lbl" : "Summary File Name"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000185",
+      "meta" : {
+        "definition" : {
+          "val" : "A measure which describes the enumeration of aggregated prokaryotes.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add axiom for prokaryote, and push to ENVO, PATO, BCO or ECOCORE."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "enumeration of prokaryote aggregation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000182",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of sodium(1+) when measured in water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_29101"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of sodium(1+) in liquid water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000061",
       "meta" : {
@@ -28,6 +98,20 @@
       },
       "type" : "CLASS",
       "lbl" : "Name"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000183",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of sulfate when measured in water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_16189"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of sulfate in liquid water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000062",
       "meta" : {
@@ -87,6 +171,20 @@
       "type" : "CLASS",
       "lbl" : "nanoplankton and microplankton aggregate"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000186",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of bromide when measured in liquid water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_15858"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of bromide in liquid water"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000065",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -106,6 +204,19 @@
       },
       "type" : "CLASS",
       "lbl" : "repeated expedition location identifier"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000179",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "The concentration of calcium(2+) when measured in water."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "use CHEBI calcium(2+) http://purl.obolibrary.org/obo/CHEBI_29108"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of calcium(2+) in liquid water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000058",
       "meta" : {
@@ -599,8 +710,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "true"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Add to UO."
+          "val" : "Depricate this is not actually a unit, just a scale to convert between Kelvin and Celcius at various pressures."
         } ]
       },
       "type" : "CLASS",
@@ -678,7 +792,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Add to UO."
+          "val" : "Perhaps don't add to UO. \n\nAccording to http://www.salinityremotesensing.ifremer.fr/sea-surface-salinity/definition-and-units it is equivalent to per thousand."
         } ]
       },
       "type" : "CLASS",
@@ -812,6 +926,20 @@
       "type" : "CLASS",
       "lbl" : "minimum depth of water collected during specimen collection process"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000177",
+      "meta" : {
+        "definition" : {
+          "val" : "An equivalent unit which is equal to one milliequivalent per liter.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to UO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "milliequivalent per liter"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000056",
       "meta" : {
         "definition" : {
@@ -825,6 +953,20 @@
       },
       "type" : "CLASS",
       "lbl" : "centrally registered specimen collection event identifier"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000178",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit density which is equal to mass of an object in nanograms divided by the volume in kilograms.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to UO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nanogram per kilogram"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000057",
       "meta" : {
@@ -1065,7 +1207,7 @@
       "id" : "http://purl.obolibrary.org/obo/PMO_00000015",
       "meta" : {
         "definition" : {
-          "val" : "An opacity quality in which visible spectrum stellar electromagnetic radiation inheres in liquid water.",
+          "val" : "A electromagnetic radiation quality in which photosynthetically active radiation inheres in liquid water.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -1074,7 +1216,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "visible spectrum stellar electromagnetic radiation opacity of liquid water"
+      "lbl" : "photosynthetically active electromagnetic radiation of liquid water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000018",
       "meta" : {
@@ -2234,6 +2376,10 @@
       "lbl" : "unit per cubic meter"
     } ],
     "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000182",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000117",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_02500000"
@@ -2249,6 +2395,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000169",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000184",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000067",
       "pred" : "is_a",
@@ -2346,13 +2496,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000036"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000163",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000059",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000058"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000163",
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000180",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000109",
       "pred" : "is_a",
@@ -2389,6 +2543,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000118",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000117"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000179",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000023",
       "pred" : "is_a",
@@ -2514,6 +2672,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000178",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000120",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
@@ -2533,6 +2695,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000020",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000186",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135",
       "pred" : "type",
@@ -2586,6 +2752,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000067"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000181",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000061",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000045"
@@ -2605,6 +2775,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000093",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000183",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000058",
       "pred" : "is_a",
@@ -2638,13 +2812,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000009"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000019",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000004",
       "pred" : "is_a",
@@ -2653,10 +2827,6 @@
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000015",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000957"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000066",
       "pred" : "is_a",
@@ -2717,6 +2887,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000057",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000162",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000185"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000080",
       "pred" : "is_a",
@@ -2794,6 +2968,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000177",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000085",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000088"
@@ -2802,13 +2980,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCO_0000029"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000021",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001019"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148",
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000185",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000158"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000168",
       "pred" : "is_a",
@@ -2870,11 +3052,9 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "Planet Microbe Ontology"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-01-23/pmo-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-02-05/pmo-base.owl"
     },
     "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/PMO_00000158", "http://purl.obolibrary.org/obo/PMO_00000162" ]
-    }, {
       "nodeIds" : [ "http://purl.obolibrary.org/obo/PMO_00000050", "http://purl.obolibrary.org/obo/PMO_00000051" ]
     } ],
     "logicalDefinitionAxioms" : [ {
@@ -2890,7 +3070,7 @@
       "restrictions" : [ null ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PMO_00000015",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000957" ],
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0001291" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0000052",
         "fillerId" : "http://purl.obolibrary.org/obo/ENVO_00002006"

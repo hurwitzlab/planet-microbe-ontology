@@ -956,6 +956,29 @@
       "type" : "CLASS",
       "lbl" : "nanoliter"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UO_0000069",
+      "meta" : {
+        "definition" : {
+          "val" : "A molality unit which is equal to one thousandth of a molal or 10^[-3] m.",
+          "xrefs" : [ "UOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uo#unit_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mm",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "unit.ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "millimolal"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000103",
       "meta" : {
         "definition" : {
@@ -2395,13 +2418,13 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001309"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000109",
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001025"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000103",
       "pred" : "is_a",
@@ -2422,6 +2445,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UO_0000166",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000067"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000177",
       "pred" : "is_a",
@@ -2635,13 +2662,13 @@
       "pred" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000008"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000066",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000051"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000002",
       "pred" : "is_a",
@@ -2860,7 +2887,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-01-23/imports/uo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-02-05/imports/uo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

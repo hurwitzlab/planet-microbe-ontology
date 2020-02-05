@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2020-01-23/imports/uo_import.owl
+data-version: pmo/releases/2020-02-05/imports/uo_import.owl
 ontology: pmo/imports/uo_import
 
 [Term]
@@ -405,6 +405,16 @@ namespace: unit.ontology
 def: "A concentration unit which is a standard measure of the number of moles of a given substance per kilogram of solvent." [UOC:GVG]
 subset: unit_group_slim
 is_a: UO:0000051 ! concentration unit
+created_by: george gkoutos
+
+[Term]
+id: UO:0000069
+name: millimolal
+namespace: unit.ontology
+def: "A molality unit which is equal to one thousandth of a molal or 10^[-3] m." [UOC:GVG]
+subset: unit_slim
+synonym: "mm" EXACT []
+is_a: UO:0000067 ! unit of molality
 created_by: george gkoutos
 
 [Term]

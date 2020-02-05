@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/pmo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2020-01-23/pmo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2020-02-05/pmo-base.owl"/>
         <rdfs:comment>Planet Microbe Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -395,12 +395,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0000957 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000957"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018"/>
@@ -416,6 +410,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001291"/>
     
 
 
@@ -598,7 +598,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000957"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001291"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
@@ -606,10 +606,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000957"/>
-        <obo:IAO_0000115>An opacity quality in which visible spectrum stellar electromagnetic radiation inheres in liquid water.</obo:IAO_0000115>
+        <obo:IAO_0000115>A electromagnetic radiation quality in which photosynthetically active radiation inheres in liquid water.</obo:IAO_0000115>
         <obo:IAO_0000116>Add to ENVO.</obo:IAO_0000116>
-        <rdfs:label>visible spectrum stellar electromagnetic radiation opacity of liquid water</rdfs:label>
+        <rdfs:label>photosynthetically active electromagnetic radiation of liquid water</rdfs:label>
     </owl:Class>
     
 
@@ -896,7 +895,9 @@ brought to a standard reference pressure.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000036"/>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Add to UO.</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perhaps don&apos;t add to UO. 
+
+According to http://www.salinityremotesensing.ifremer.fr/sea-surface-salinity/definition-and-units it is equivalent to per thousand.</obo:IAO_0000116>
         <oboInOwl:hasExactSynonym>PSS-78</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PSU</oboInOwl:hasExactSynonym>
         <rdfs:label>practical salinity unit</rdfs:label>
@@ -908,10 +909,11 @@ brought to a standard reference pressure.</owl:annotatedTarget>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Add to UO.</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depricate this is not actually a unit, just a scale to convert between Kelvin and Celcius at various pressures.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>https://www.omega.com/temperature/Z/pdf/z186-193.pdf</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ITS-90</oboInOwl:hasExactSynonym>
         <rdfs:label>international temperature scale of 1990 unit</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1955,7 +1957,6 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     <!-- http://purl.obolibrary.org/obo/PMO_00000158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000158">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/PMO_00000162"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measure, which refers to an aggregation of organisms.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Add axiom for organisms, and push to PATO or ECOCORE.</obo:IAO_0000116>
@@ -2001,6 +2002,7 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     <!-- http://purl.obolibrary.org/obo/PMO_00000162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000185"/>
         <obo:IAO_0000115>A measure which describes the enumeration of aggregated heterotrophic prokaryotes.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Add axiom for heterotrophs, and push to PATO or ECOCORE.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">enumeration of heterotrophic prokaryote aggregation</rdfs:label>
@@ -2220,6 +2222,116 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
         <obo:IAO_0000115>The concentration of hydrogencarbonate when measured in liquid water.</obo:IAO_0000115>
         <obo:IAO_0000116>Add to ENVO via design pattern. Use CHEBI hydrogencarbonate http://purl.obolibrary.org/obo/CHEBI_17544</obo:IAO_0000116>
         <rdfs:label xml:lang="en">concentration of hydrogencarbonate in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"/>
+        <obo:IAO_0000115>An equivalent unit which is equal to one milliequivalent per liter.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">milliequivalent per liter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <obo:IAO_0000115>A mass unit density which is equal to mass of an object in nanograms divided by the volume in kilograms.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">nanogram per kilogram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000116>The concentration of calcium(2+) when measured in water.</obo:IAO_0000116>
+        <obo:IAO_0000116>use CHEBI calcium(2+) http://purl.obolibrary.org/obo/CHEBI_29108</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of calcium(2+) in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of magnesium(2+) when measured in water.</obo:IAO_0000115>
+        <obo:IAO_0000116>http://purl.obolibrary.org/obo/CHEBI_18420</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of magnesium(2+) in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of potassium(1+) when measured in water.</obo:IAO_0000115>
+        <obo:IAO_0000116>http://purl.obolibrary.org/obo/CHEBI_29103</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of potassium(1+) in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of sodium(1+) when measured in water.</obo:IAO_0000115>
+        <obo:IAO_0000116>http://purl.obolibrary.org/obo/CHEBI_29101</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of sodium(1+) in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of sulfate when measured in water.</obo:IAO_0000115>
+        <obo:IAO_0000116>http://purl.obolibrary.org/obo/CHEBI_16189</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of sulfate in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of manganese(2+) when measured in water.</obo:IAO_0000115>
+        <obo:IAO_0000116>http://purl.obolibrary.org/obo/CHEBI_29035</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of manganese(2+) in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000158"/>
+        <obo:IAO_0000115>A measure which describes the enumeration of aggregated prokaryotes.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add axiom for prokaryote, and push to ENVO, PATO, BCO or ECOCORE.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">enumeration of prokaryote aggregation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <obo:IAO_0000115>The concentration of bromide when measured in liquid water.</obo:IAO_0000115>
+        <obo:IAO_0000116>http://purl.obolibrary.org/obo/CHEBI_15858</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">concentration of bromide in liquid water</rdfs:label>
     </owl:Class>
     
 

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2020-01-23/pmo-base.owl
+data-version: pmo/releases/2020-02-05/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -87,10 +87,9 @@ property_value: IAO:0000116 "To add to ENVO." xsd:string
 
 [Term]
 id: PMO:00000015
-name: visible spectrum stellar electromagnetic radiation opacity of liquid water
-def: "An opacity quality in which visible spectrum stellar electromagnetic radiation inheres in liquid water." []
-is_a: PATO:0000957
-intersection_of: PATO:0000957
+name: photosynthetically active electromagnetic radiation of liquid water
+def: "A electromagnetic radiation quality in which photosynthetically active radiation inheres in liquid water." []
+intersection_of: PATO:0001291
 intersection_of: RO:0000052 ENVO:00002006
 property_value: IAO:0000116 "Add to ENVO." xsd:string
 
@@ -258,7 +257,7 @@ name: practical salinity unit
 synonym: "PSS-78" EXACT []
 synonym: "PSU" EXACT []
 is_a: PMO:00000036 ! salinity unit
-property_value: IAO:0000116 "Add to UO." xsd:string
+property_value: IAO:0000116 "Perhaps don't add to UO. \n\nAccording to http://www.salinityremotesensing.ifremer.fr/sea-surface-salinity/definition-and-units it is equivalent to per thousand." xsd:string
 
 [Term]
 id: PMO:00000038
@@ -266,7 +265,8 @@ name: international temperature scale of 1990 unit
 synonym: "ITS-90" EXACT []
 xref: https://www.omega.com/temperature/Z/pdf/z186-193.pdf
 is_a: UO:0000005
-property_value: IAO:0000116 "Add to UO." xsd:string
+property_value: IAO:0000116 "Depricate this is not actually a unit, just a scale to convert between Kelvin and Celcius at various pressures." xsd:string
+is_obsolete: true
 
 [Term]
 id: PMO:00000044
@@ -985,7 +985,6 @@ id: PMO:00000158
 name: measure relating to enumeration of aggregation of organisms
 def: "A measure, which refers to an aggregation of organisms." []
 is_a: IAO:0000109
-equivalent_to: PMO:00000162 ! enumeration of heterotrophic prokaryote aggregation
 property_value: IAO:0000116 "Add axiom for organisms, and push to PATO or ECOCORE." xsd:string
 property_value: IAO:0000116 "Pattern similar to http://purl.obolibrary.org/obo/IDOMAL_0000428" xsd:string
 
@@ -1014,6 +1013,7 @@ property_value: IAO:0000116 "Add axiom for picoeukaryotes, and push to PATO or E
 id: PMO:00000162
 name: enumeration of heterotrophic prokaryote aggregation
 def: "A measure which describes the enumeration of aggregated heterotrophic prokaryotes." []
+is_a: PMO:00000185 ! enumeration of prokaryote aggregation
 property_value: IAO:0000116 "Add axiom for heterotrophs, and push to PATO or ECOCORE." xsd:string
 
 [Term]
@@ -1119,4 +1119,74 @@ name: concentration of hydrogencarbonate in liquid water
 def: "The concentration of hydrogencarbonate when measured in liquid water." []
 is_a: PATO:0000033
 property_value: IAO:0000116 "Add to ENVO via design pattern. Use CHEBI hydrogencarbonate http://purl.obolibrary.org/obo/CHEBI_17544" xsd:string
+
+[Term]
+id: PMO:00000177
+name: milliequivalent per liter
+def: "An equivalent unit which is equal to one milliequivalent per liter." []
+is_a: PMO:00000140 ! equivalent unit
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000178
+name: nanogram per kilogram
+def: "A mass unit density which is equal to mass of an object in nanograms divided by the volume in kilograms." []
+is_a: UO:0000052
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000179
+name: concentration of calcium(2+) in liquid water
+is_a: PATO:0000033
+property_value: IAO:0000116 "The concentration of calcium(2+) when measured in water." xsd:string
+property_value: IAO:0000116 "use CHEBI calcium(2+) http://purl.obolibrary.org/obo/CHEBI_29108" xsd:string
+
+[Term]
+id: PMO:00000180
+name: concentration of magnesium(2+) in liquid water
+def: "The concentration of magnesium(2+) when measured in water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_18420 xsd:string
+
+[Term]
+id: PMO:00000181
+name: concentration of potassium(1+) in liquid water
+def: "The concentration of potassium(1+) when measured in water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_29103 xsd:string
+
+[Term]
+id: PMO:00000182
+name: concentration of sodium(1+) in liquid water
+def: "The concentration of sodium(1+) when measured in water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_29101 xsd:string
+
+[Term]
+id: PMO:00000183
+name: concentration of sulfate in liquid water
+def: "The concentration of sulfate when measured in water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_16189 xsd:string
+
+[Term]
+id: PMO:00000184
+name: concentration of manganese(2+) in liquid water
+def: "The concentration of manganese(2+) when measured in water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_29035 xsd:string
+
+[Term]
+id: PMO:00000185
+name: enumeration of prokaryote aggregation
+def: "A measure which describes the enumeration of aggregated prokaryotes." []
+is_a: PMO:00000158 ! measure relating to enumeration of aggregation of organisms
+property_value: IAO:0000116 "Add axiom for prokaryote, and push to ENVO, PATO, BCO or ECOCORE." xsd:string
+
+[Term]
+id: PMO:00000186
+name: concentration of bromide in liquid water
+def: "The concentration of bromide when measured in liquid water." []
+is_a: PATO:0000033
+property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_15858 xsd:string
 
