@@ -133,6 +133,20 @@
       "type" : "CLASS",
       "lbl" : "navigation device"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000188",
+      "meta" : {
+        "definition" : {
+          "val" : "A process during which prokaryotic cells produce biomass.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prokaryotic production"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000100",
       "meta" : {
         "definition" : {
@@ -146,6 +160,20 @@
       },
       "type" : "CLASS",
       "lbl" : "plankton aggregate"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000189",
+      "meta" : {
+        "definition" : {
+          "val" : "A prokaryotic production process during which cells produce leucine containing biomass.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prokaryotic leucine production"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000068",
       "meta" : {
@@ -205,6 +233,19 @@
       "type" : "CLASS",
       "lbl" : "repeated expedition location identifier"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000187",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "An electrical conduction unit which is equal to one microsiemen per centimeter."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to UO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microsiemens per centimeter"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000179",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -238,6 +279,20 @@
       "type" : "CLASS",
       "lbl" : "sampling expedition leg"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000191",
+      "meta" : {
+        "definition" : {
+          "val" : "The mass density of some liquid water.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO using E-A pattern."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mass density of liquid water"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000070",
       "meta" : {
         "definition" : {
@@ -265,6 +320,34 @@
       },
       "type" : "CLASS",
       "lbl" : "length of DNA sequence data"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000192",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass unit density which is equal to mass of an object in grams divided by the volume in cubic meters.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to UO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gram per cubic meter"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000190",
+      "meta" : {
+        "definition" : {
+          "val" : "A mass density rate unit which is equal to one picomol per litre per hour.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "picomolar per hour"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000074",
       "meta" : {
@@ -300,6 +383,20 @@
       "id" : "http://purl.obolibrary.org/obo/PMO_00000072",
       "type" : "CLASS",
       "lbl" : "file size"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000193",
+      "meta" : {
+        "definition" : {
+          "val" : "A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light.",
+          "xrefs" : [ "https://en.wikipedia.org/wiki/Turbidity", "https://support.hach.com/app/answers/answer_view/a_id/1000336/~/what-is-the-difference-between-the-turbidity-units-ntu%2C-fnu%2C-ftu%2C-and-fau%3F-what" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to UO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nephelometric turbidity unit"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000073",
       "meta" : {
@@ -2054,7 +2151,7 @@
       "id" : "http://purl.obolibrary.org/obo/PMO_00000130",
       "meta" : {
         "definition" : {
-          "val" : "An electrical conduction unit which is equal to one milisiemens per centimeter.",
+          "val" : "An electrical conduction unit which is equal to one milisiemen per centimeter.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -2444,13 +2541,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000127"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000108",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000069",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000968"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000108",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000010",
       "pred" : "is_a",
@@ -2467,6 +2564,10 @@
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000192",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139",
       "pred" : "is_a",
@@ -2496,13 +2597,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000036"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000163",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000059",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000163",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000180",
       "pred" : "is_a",
@@ -2620,6 +2721,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000189",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000188"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000025",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000052",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00002006"
@@ -2736,6 +2841,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000088"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000187",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000262"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000086",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000009"
@@ -2767,6 +2876,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000030",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000193",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000315"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000161",
       "pred" : "is_a",
@@ -2819,6 +2932,10 @@
       "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_02500000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000004",
       "pred" : "is_a",
@@ -2888,13 +3005,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000056"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000162",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000185"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000080",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000416"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000162",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000185"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000025",
       "pred" : "is_a",
@@ -2928,9 +3045,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0001619"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000191",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001019"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000172",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_3100031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000190",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000127"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000072",
       "pred" : "is_a",
@@ -3052,7 +3177,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "Planet Microbe Ontology"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-02-05/pmo-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-02-06/pmo-base.owl"
     },
     "equivalentNodesSets" : [ {
       "nodeIds" : [ "http://purl.obolibrary.org/obo/PMO_00000050", "http://purl.obolibrary.org/obo/PMO_00000051" ]

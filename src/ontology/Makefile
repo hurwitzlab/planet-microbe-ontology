@@ -178,10 +178,10 @@ imports/%_terms_combined.txt: seed.txt imports/%_terms.txt
 # -- Generate Import Modules --
 #
 # This pattern uses ROBOT to generate an import module
-imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT \
-		 annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@
-.PRECIOUS: imports/%_import.owl
+# imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
+# 	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT \
+# 		 annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@
+# .PRECIOUS: imports/%_import.owl
 
 # convert imports to obo.
 # this can be useful for spot-checks and diffs.

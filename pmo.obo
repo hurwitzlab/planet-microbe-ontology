@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2020-02-05
+data-version: releases/2020-02-06
 remark: Planet Microbe Ontology
 ontology: pmo
 
@@ -551,6 +551,8 @@ def: "An adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate grou
 is_a: CHEBI:23367 ! molecular entity
 is_a: CHEBI:37045 ! purine ribonucleoside 5'-triphosphate
 is_a: CHEBI:37096 ! adenosine 5'-phosphate
+property_value: IAO:0000111 "ATP" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
 id: CHEBI:16042
@@ -3107,6 +3109,17 @@ namespace: ENVO
 def: "A lake which has layers of water which do not intermix. The deepest layer of water in such a lake does not contain any dissolved oxygen. The layers of sediment at the bottom of a meromictic lake remain relatively undisturbed because there are no living organisms to stir them up." [https://en.wikipedia.org/wiki/Lake#Types_of_lakes]
 xref: EcoLexicon:meromictic_lake_
 is_a: ENVO:00000020 ! lake
+
+[Term]
+id: ENVO:00000207
+name: oceanic zone
+def: "The water mass of an ocean that is not above a continental shelf." [https://en.wikipedia.org/wiki/Ocean]
+subset: envoMarine
+subset: envoPolar
+synonym: "OceanLayer" EXACT [NASA:earthrealm]
+xref: EcoLexicon:oceanic_zone
+is_a: ENVO:01000295 ! marine layer
+relationship: part_of ENVO:00000015 ! ocean
 
 [Term]
 id: ENVO:00000209
@@ -6306,6 +6319,38 @@ relationship: RO:0000057 ENVO:01000635 ! has participant land
 property_value: IAO:0000116 "An SDGIO request. Likely to be refined and revised." xsd:string
 
 [Term]
+id: ENVO:02500018
+name: algal bloom process
+def: "A process during which the populations in a community of algae in a marine or freshwater ecosystem undergo rapid growth, resulting in high concentrations of algal cells that occur only periodically and briefly in that ecosystem, relative to their concentrations through the majority of the planetary orbital period." [https://en.wikipedia.org/wiki/Algal_bloom]
+comment: This class is under development. Note that cyanobacterial blooms are often confused with algal blooms. There is no globally recognised threshold beyond which community density enters a bloom state. {xref="https://en.wikipedia.org/wiki/Algal_bloom"}
+subset: envoPolar
+is_a: ENVO:02500000 ! environmental system process
+relationship: ENVO:02500020 ENVO:02500019 ! results in proliferation of alga
+relationship: occurs_in ENVO:01000317 ! aquatic environment
+relationship: RO:0000057 ENVO:2000004 ! has participant algal bloom
+
+[Term]
+id: ENVO:02500019
+name: alga
+comment: To be ceded to external ontology (e.g. pco)
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: ENVO:02500022
+name: algal bloom process phase
+is_a: ENVO:02500000 ! environmental system process
+intersection_of: ENVO:02500000 ! environmental system process
+intersection_of: part_of ENVO:02500018 ! algal bloom process
+relationship: part_of ENVO:02500018 ! algal bloom process
+
+[Term]
+id: ENVO:02500023
+name: algal production
+def: "A process during which the algal cells constituting an algal bloom produce biomass from abiotic components during photosynthesis." []
+is_a: ENVO:02500022 ! algal bloom process phase
+relationship: has_part GO:0015979 ! photosynthesis
+
+[Term]
 id: ENVO:02500026
 name: anthropogenic modulatory intervention process
 def: "A process during which humans apply technology to alter the magnitude, duration, rate, or impact of an environmental process." []
@@ -7735,6 +7780,14 @@ is_a: GO:0048523 ! negative regulation of cellular process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0007154 ! cell communication
 relationship: negatively_regulates GO:0007154 ! cell communication
+
+[Term]
+id: GO:0015979
+name: photosynthesis
+def: "The synthesis by organisms of organic chemical compounds, especially carbohydrates, from carbon dioxide (CO2) using energy obtained from light rather than from the oxidation of chemical compounds." []
+subset: envoPolar
+is_a: BFO:0000015 ! process
+is_a: GO:0044237 ! cellular metabolic process
 
 [Term]
 id: GO:0016301
@@ -14586,7 +14639,7 @@ property_value: IAO:0000116 "Add to UO." xsd:string
 [Term]
 id: PMO:00000130
 name: milisiemens per centimeter
-def: "An electrical conduction unit which is equal to one milisiemens per centimeter." []
+def: "An electrical conduction unit which is equal to one milisiemen per centimeter." []
 is_a: UO:0000262 ! electrical conduction unit
 property_value: IAO:0000116 "Add to UO." xsd:string
 
@@ -14982,6 +15035,55 @@ name: concentration of bromide in liquid water
 def: "The concentration of bromide when measured in liquid water." []
 is_a: PATO:0000033 ! concentration of
 property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_15858 xsd:string
+
+[Term]
+id: PMO:00000187
+name: microsiemens per centimeter
+comment: An electrical conduction unit which is equal to one microsiemen per centimeter.
+is_a: UO:0000262 ! electrical conduction unit
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000188
+name: prokaryotic production
+def: "A process during which prokaryotic cells produce biomass." []
+is_a: ENVO:02500000 ! environmental system process
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000189
+name: prokaryotic leucine production
+def: "A prokaryotic production process during which cells produce leucine containing biomass." []
+is_a: PMO:00000188 ! prokaryotic production
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000190
+name: picomolar per hour
+def: "A mass density rate unit which is equal to one picomol per litre per hour." []
+is_a: PMO:00000127 ! mass density rate unit
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000191
+name: mass density of liquid water
+def: "The mass density of some liquid water." []
+is_a: PATO:0001019 ! mass density
+property_value: IAO:0000116 "Add to ENVO using E-A pattern." xsd:string
+
+[Term]
+id: PMO:00000192
+name: gram per cubic meter
+def: "A mass unit density which is equal to mass of an object in grams divided by the volume in cubic meters." []
+is_a: UO:0000052 ! mass density unit
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000193
+name: nephelometric turbidity unit
+def: "A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light." [https://en.wikipedia.org/wiki/Turbidity, https://support.hach.com/app/answers/answer_view/a_id/1000336/~/what-is-the-difference-between-the-turbidity-units-ntu%2C-fnu%2C-ftu%2C-and-fau%3F-what]
+is_a: UO:0000315 ! turbidity unit
+property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
 id: PO:0000003
@@ -16417,6 +16519,11 @@ name: partially_surrounded_by
 def: "x partially_surrounded_by y if and only if (1) x is adjacent to y and for the region r that is adjacent to x, r partially overlaps y (2) the shared boundary between x and y occupies  a non-trivial proportion of the outermost boundary of x" []
 comment: Definition modified from 'surrounded by'.
 property_value: IAO:0000112 "A duck swimming in a pond is partially surrounded by air and partially surrounded by water." xsd:string
+
+[Typedef]
+id: ENVO:02500020
+name: results in proliferation of
+comment: To be ceded to RO
 
 [Typedef]
 id: ENVO:2100001

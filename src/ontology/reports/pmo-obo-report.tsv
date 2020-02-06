@@ -29,20 +29,20 @@ ERROR	duplicate_definition	ENVO:01001309	IAO:0000115	A liquid surface layer whic
 ERROR	duplicate_definition	ENVO:01001310	IAO:0000115	A liquid surface layer which is in contact with air.	
 ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
 ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
-ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	27fee9882bdf446a4732cb8a6ca9e0a1	
-ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	5aa939fce95f2d761293cc8ba8c27f34	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	67471e4996aa7f8fa581288b93ff0793	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	aded410273121973f7d1f0ae0715110c	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	4e9ea0c670b540755d8b37bfa13207c6	
-ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	73405914f0988384623842b1cebafbfb	
-ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	d53324a4218fc8b45cdba305c5021321	
-ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	e127a7a3ebf1d6586619faf08046fc1b	
-ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	0d0644eef9a66c30ae9978206224bd94	
-ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	1083ef7d39897130d97bb0f1886b22bd	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	2673ba621908ec4b2c930103985647a6	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	bbf04a2752ce0920ffdbe58554835dc7	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	6072388d9ec6127a89fb87191b76156e	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	691f24d2a275062359dcf4367009ade0	
+ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	2259b98de16075910077e4b6ac463feb	
+ERROR	multiple_equivalent_classes	ENVO:00000070	owl:equivalentClass	f7453eddd60366c28ce41e116120c2e2	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	34f1e7353b2577e688374a0b3872e63a	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	a43de9584a98b430d20ff0d0e3cdcded	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	228197cd14eda138112d4b471d2f7518	
+ERROR	multiple_equivalent_classes	ENVO:01000952	owl:equivalentClass	dbaa4ad553d4149a57261b30cff14511	
+ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	b4edfb919efc72a6c774dd9ce036a3d2	
+ERROR	multiple_equivalent_classes	ENVO:01000993	owl:equivalentClass	c879b95a86faed93aec28336f9b8f0cd	
+ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	3bf2c6331c975c84838ef38a6e23d8fa	
+ERROR	multiple_equivalent_classes	ENVO:01000996	owl:equivalentClass	feee14a60ef957f8997dff21bdcfaa0f	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	47361121251b7f1ea94fdbb57a2637b8	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	e60f5e24001fe7711c9dfe692698739a	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	9338dfcc28a6ed5d1df3c54e25800190	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	a02bb8de481e5c521d40f4bed8a37368	
 ERROR	missing_label	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate	rdfs:label		
@@ -851,6 +851,8 @@ WARN	multiple_asserted_superclasses	GO:0010647	rdfs:subClassOf	GO:0010646
 WARN	multiple_asserted_superclasses	GO:0010647	rdfs:subClassOf	GO:0048522	
 WARN	multiple_asserted_superclasses	GO:0010648	rdfs:subClassOf	GO:0010646	
 WARN	multiple_asserted_superclasses	GO:0010648	rdfs:subClassOf	GO:0048523	
+WARN	multiple_asserted_superclasses	GO:0015979	rdfs:subClassOf	BFO:0000015	
+WARN	multiple_asserted_superclasses	GO:0015979	rdfs:subClassOf	GO:0044237	
 WARN	multiple_asserted_superclasses	GO:0023056	rdfs:subClassOf	GO:0023051	
 WARN	multiple_asserted_superclasses	GO:0023056	rdfs:subClassOf	GO:0048518	
 WARN	multiple_asserted_superclasses	GO:0023057	rdfs:subClassOf	GO:0023051	
@@ -1635,6 +1637,7 @@ WARN	missing_definition	ENVO:00000143	IAO:0000600
 WARN	missing_definition	ENVO:00000176	IAO:0000600		
 WARN	missing_definition	ENVO:00000191	IAO:0000600		
 WARN	missing_definition	ENVO:00000199	IAO:0000600		
+WARN	missing_definition	ENVO:00000207	IAO:0000600		
 WARN	missing_definition	ENVO:00000209	IAO:0000600		
 WARN	missing_definition	ENVO:00000210	IAO:0000600		
 WARN	missing_definition	ENVO:00000212	IAO:0000600		
@@ -1949,6 +1952,14 @@ WARN	missing_definition	ENVO:02000110	IAO:0000600
 WARN	missing_definition	ENVO:02500000	IAO:0000600		
 WARN	missing_definition	ENVO:02500003	IAO:0000600		
 WARN	missing_definition	ENVO:02500005	IAO:0000600		
+WARN	missing_definition	ENVO:02500018	IAO:0000600		
+WARN	missing_definition	ENVO:02500019	IAO:0000115		
+WARN	missing_definition	ENVO:02500019	IAO:0000600		
+WARN	missing_definition	ENVO:02500020	IAO:0000115		
+WARN	missing_definition	ENVO:02500020	IAO:0000600		
+WARN	missing_definition	ENVO:02500022	IAO:0000115		
+WARN	missing_definition	ENVO:02500022	IAO:0000600		
+WARN	missing_definition	ENVO:02500023	IAO:0000600		
 WARN	missing_definition	ENVO:02500026	IAO:0000600		
 WARN	missing_definition	ENVO:02500027	IAO:0000600		
 WARN	missing_definition	ENVO:02500028	IAO:0000600		
@@ -2126,6 +2137,7 @@ WARN	missing_definition	GO:0010563	IAO:0000600
 WARN	missing_definition	GO:0010646	IAO:0000600		
 WARN	missing_definition	GO:0010647	IAO:0000600		
 WARN	missing_definition	GO:0010648	IAO:0000600		
+WARN	missing_definition	GO:0015979	IAO:0000600		
 WARN	missing_definition	GO:0016301	IAO:0000600		
 WARN	missing_definition	GO:0016310	IAO:0000600		
 WARN	missing_definition	GO:0016740	IAO:0000600		
@@ -2870,6 +2882,14 @@ WARN	missing_definition	PMO:00000183	IAO:0000600
 WARN	missing_definition	PMO:00000184	IAO:0000600		
 WARN	missing_definition	PMO:00000185	IAO:0000600		
 WARN	missing_definition	PMO:00000186	IAO:0000600		
+WARN	missing_definition	PMO:00000187	IAO:0000115		
+WARN	missing_definition	PMO:00000187	IAO:0000600		
+WARN	missing_definition	PMO:00000188	IAO:0000600		
+WARN	missing_definition	PMO:00000189	IAO:0000600		
+WARN	missing_definition	PMO:00000190	IAO:0000600		
+WARN	missing_definition	PMO:00000191	IAO:0000600		
+WARN	missing_definition	PMO:00000192	IAO:0000600		
+WARN	missing_definition	PMO:00000193	IAO:0000600		
 WARN	missing_definition	PO:0000003	IAO:0000600		
 WARN	missing_definition	PO:0009011	IAO:0000600		
 WARN	missing_definition	PO:0025131	IAO:0000600		

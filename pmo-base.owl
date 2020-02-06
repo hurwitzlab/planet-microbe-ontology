@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/pmo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2020-02-05/pmo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2020-02-06/pmo-base.owl"/>
         <rdfs:comment>Planet Microbe Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -1801,7 +1801,7 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
-        <obo:IAO_0000115>An electrical conduction unit which is equal to one milisiemens per centimeter.</obo:IAO_0000115>
+        <obo:IAO_0000115>An electrical conduction unit which is equal to one milisiemen per centimeter.</obo:IAO_0000115>
         <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
         <rdfs:label>milisiemens per centimeter</rdfs:label>
     </owl:Class>
@@ -2333,6 +2333,90 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
         <obo:IAO_0000116>http://purl.obolibrary.org/obo/CHEBI_15858</obo:IAO_0000116>
         <rdfs:label xml:lang="en">concentration of bromide in liquid water</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000262"/>
+        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
+        <rdfs:comment>An electrical conduction unit which is equal to one microsiemen per centimeter.</rdfs:comment>
+        <rdfs:label xml:lang="en">microsiemens per centimeter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
+        <obo:IAO_0000115>A process during which prokaryotic cells produce biomass.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">prokaryotic production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000188"/>
+        <obo:IAO_0000115>A prokaryotic production process during which cells produce leucine containing biomass.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">prokaryotic leucine production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000127"/>
+        <obo:IAO_0000115>A mass density rate unit which is equal to one picomol per litre per hour.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">picomolar per hour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001019"/>
+        <obo:IAO_0000115>The mass density of some liquid water.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO using E-A pattern.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">mass density of liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000052"/>
+        <obo:IAO_0000115>A mass unit density which is equal to mass of an object in grams divided by the volume in cubic meters.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">gram per cubic meter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000315"/>
+        <obo:IAO_0000115>A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">nephelometric turbidity unit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_00000193"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Turbidity</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://support.hach.com/app/answers/answer_view/a_id/1000336/~/what-is-the-difference-between-the-turbidity-units-ntu%2C-fnu%2C-ftu%2C-and-fau%3F-what</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2020-02-05/pmo-base.owl
+data-version: pmo/releases/2020-02-06/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -790,7 +790,7 @@ property_value: IAO:0000116 "Add to UO." xsd:string
 [Term]
 id: PMO:00000130
 name: milisiemens per centimeter
-def: "An electrical conduction unit which is equal to one milisiemens per centimeter." []
+def: "An electrical conduction unit which is equal to one milisiemen per centimeter." []
 is_a: UO:0000262
 property_value: IAO:0000116 "Add to UO." xsd:string
 
@@ -1189,4 +1189,53 @@ name: concentration of bromide in liquid water
 def: "The concentration of bromide when measured in liquid water." []
 is_a: PATO:0000033
 property_value: IAO:0000116 http://purl.obolibrary.org/obo/CHEBI_15858 xsd:string
+
+[Term]
+id: PMO:00000187
+name: microsiemens per centimeter
+comment: An electrical conduction unit which is equal to one microsiemen per centimeter.
+is_a: UO:0000262
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000188
+name: prokaryotic production
+def: "A process during which prokaryotic cells produce biomass." []
+is_a: ENVO:02500000
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000189
+name: prokaryotic leucine production
+def: "A prokaryotic production process during which cells produce leucine containing biomass." []
+is_a: PMO:00000188 ! prokaryotic production
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000190
+name: picomolar per hour
+def: "A mass density rate unit which is equal to one picomol per litre per hour." []
+is_a: PMO:00000127 ! mass density rate unit
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+
+[Term]
+id: PMO:00000191
+name: mass density of liquid water
+def: "The mass density of some liquid water." []
+is_a: PATO:0001019
+property_value: IAO:0000116 "Add to ENVO using E-A pattern." xsd:string
+
+[Term]
+id: PMO:00000192
+name: gram per cubic meter
+def: "A mass unit density which is equal to mass of an object in grams divided by the volume in cubic meters." []
+is_a: UO:0000052
+property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO:00000193
+name: nephelometric turbidity unit
+def: "A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light." [https://en.wikipedia.org/wiki/Turbidity, https://support.hach.com/app/answers/answer_view/a_id/1000336/~/what-is-the-difference-between-the-turbidity-units-ntu%2C-fnu%2C-ftu%2C-and-fau%3F-what]
+is_a: UO:0000315
+property_value: IAO:0000116 "Add to UO." xsd:string
 
