@@ -174,6 +174,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000189>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000190>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000191>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000192>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PMO_00000193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136>))
@@ -1329,6 +1330,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000192> "Add to UO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000192> "gram per cubic meter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000192> <http://purl.obolibrary.org/obo/UO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/PMO_00000193> (nephelometric turbidity unit)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Turbidity") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://support.hach.com/app/answers/answer_view/a_id/1000336/~/what-is-the-difference-between-the-turbidity-units-ntu%2C-fnu%2C-ftu%2C-and-fau%3F-what") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000193> "A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000193> "Add to UO.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000193> "nephelometric turbidity unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000193> <http://purl.obolibrary.org/obo/UO_0000315>)
 
 # Class: <http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133> (project url)
 
