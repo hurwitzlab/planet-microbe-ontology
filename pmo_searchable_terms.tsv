@@ -86,4 +86,3 @@ http://purl.obolibrary.org/obo/OBI_0001901	specimen identifier assigned by seque
 http://purl.obolibrary.org/obo/ENVO_01001211	stellar radiation		http://purl.obolibrary.org/obo/UO_0000155	watt per square meter	no	Superset to PAR thus all stellar radiation is applicable. 
 http://purl.obolibrary.org/obo/ENVO_09200014	temperature of water	temp	http://purl.obolibrary.org/obo/UO_0000027	degree Celsius	yes	
 http://purl.obolibrary.org/obo/PMO_00000121	turbidity of water		http://purl.obolibrary.org/obo/PMO_00000131	formazin turbidity unit	no	No MIxS unit hence we decided to use formazin turbidity unit.
-http://purl.obolibrary.org/obo/PMO_00000025	water sample volume	samp_size	http://purl.obolibrary.org/obo/UO_0000099	liter	yes	"MIxS specifies millliter, gram, milligram, for marine system appropriate units should be liter"
