@@ -11,3 +11,22 @@ OBI:0001902 #sample preparation for sequencing assay
 OBI:0000711 #library preparation
 OBI:0001928 #selection
 OBI:0000626 #DNA sequencing assay
+
+
+# Annotations for measurement types
+OBI:0001620 #latitude coordinate measurement datum
+OBI:0001621 #longitude coordinate measurement datum
+OBI:0001901 #specimen identifier assigned by sequencing facility
+OBI:0001619 #specimen collection time measurement datum
+OBI:0000272 #protocol
+OBI:0000073 #sample preparation for assay
+OBI:0302893 #storage
+OBI:0001898 #comment on investigation
+OBI:0000740 #material sample role
+
+# Annotations for measurement devices
+OBI:0400044 #flow cytometer
+OBI:0400143 #fluorometer
+OBI:0400115 #spectrophotometer
+OBI:0001057 #high performance liquid chromatography instrument
+OBI:0400169 #microscope
