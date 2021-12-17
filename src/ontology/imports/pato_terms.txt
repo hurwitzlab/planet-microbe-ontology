@@ -6,3 +6,4 @@ PATO:0001025 #pressure
 PATO:0000122 #length
 PATO:0000040 #distance
 PATO:0001430 #alkaline
+PATO:0085001 #salinity
