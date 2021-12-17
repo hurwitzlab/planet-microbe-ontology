@@ -864,6 +864,15 @@ is_a: PMO:00000140 ! equivalent unit
 property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
+id: PMO:00000142
+name: dissolved inorganic carbon
+def: "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate." [https://en.wikipedia.org/wiki/Total_inorganic_carbon]
+synonym: "total inorganic carbon" EXACT []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+property_value: IAO:0000116 "CT = [CO2*] + [HCO3−] + [CO32−]" xsd:string
+
+[Term]
 id: PMO:00000143
 name: sampling expedition site
 def: "A site in which a sampling expidition process occurs." []
@@ -1229,13 +1238,4 @@ name: nephelometric turbidity unit
 def: "A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light." [https://en.wikipedia.org/wiki/Turbidity, https://support.hach.com/app/answers/answer_view/a_id/1000336/~/what-is-the-difference-between-the-turbidity-units-ntu%2C-fnu%2C-ftu%2C-and-fau%3F-what]
 is_a: UO:0000315
 property_value: IAO:0000116 "Add to UO." xsd:string
-
-[Term]
-id: PMO_PMO:00000142
-name: dissolved inorganic carbon
-def: "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate." [https://en.wikipedia.org/wiki/Total_inorganic_carbon]
-synonym: "total inorganic carbon" EXACT []
-is_a: PMO:00000109 ! aggregation of carbon molecules
-property_value: IAO:0000116 "Add to ENVO." xsd:string
-property_value: IAO:0000116 "CT = [CO2*] + [HCO3−] + [CO32−]" xsd:string
 
