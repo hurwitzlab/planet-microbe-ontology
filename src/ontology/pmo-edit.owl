@@ -278,20 +278,20 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000012> "rosette sampling device niskin position")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000012> <http://purl.obolibrary.org/obo/BFO_0000024>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000013> (salinity)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000013> (DEPRECATED salinity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000013> "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per volume of solution.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000013> "To add to PATO or ENVO.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000013> "salinity")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000013> <http://purl.obolibrary.org/obo/PATO_0001655>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PMO_00000013> "Term Replaced by PATO:0085001"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000013> "DEPRECATED salinity")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/PMO_00000013> <http://purl.obolibrary.org/obo/PATO_0085001>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000013> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000014> (liquid water salinity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000014> "A salinity quality which inheres in liquid water.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000014> "To add to ENVO.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000014> "liquid water salinity")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PMO_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>)))
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000014> <http://purl.obolibrary.org/obo/PMO_00000013>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PMO_00000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0085001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/ENVO_00002006>)))
+SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000014> <http://purl.obolibrary.org/obo/PATO_0085001>)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000015> (photosynthetically active electromagnetic radiation of liquid water)
 
