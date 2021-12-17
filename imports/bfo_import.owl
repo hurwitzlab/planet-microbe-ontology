@@ -9,7 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/imports/bfo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2020-02-05/imports/bfo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2021-12-17/imports/bfo_import.owl"/>
     </owl:Ontology>
     
 
@@ -166,6 +166,12 @@
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     
 
 
