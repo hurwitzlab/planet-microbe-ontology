@@ -10022,6 +10022,14 @@ def: "A concentration quality inhering in a bearer by virtue of the bearer's exh
 is_a: PATO:0000033 ! concentration of
 
 [Term]
+id: PATO:0001162
+name: increased concentration
+def: "A concentration which is higher relative to the normal or average." []
+synonym: "high concentration" EXACT []
+is_a: PATO:0001159 ! concentrated
+is_a: PATO:0002305 ! increased object quality
+
+[Term]
 id: PATO:0001163
 name: decreased concentration
 def: "A concentration which is lower relative to the normal or average." []
@@ -10213,6 +10221,13 @@ id: PATO:0001543
 name: flexibility
 def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking." []
 is_a: PATO:0001546 ! quality of a solid
+
+[Term]
+id: PATO:0001544
+name: flexible
+def: "A physical quality inhering in a bearer by virtue of the bearer's ability of being turned, bowed, or twisted without breaking." []
+synonym: "bendy" EXACT []
+is_a: PATO:0001543 ! flexibility
 
 [Term]
 id: PATO:0001545
@@ -16225,6 +16240,12 @@ is_a: UBERON:0005291 ! embryonic tissue
 is_a: UBERON:0007524 ! dense mesenchyme tissue
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: BFO:0000050 UBERON:0008814 ! part of pharyngeal arch system
+
+[Term]
+id: UBERON:0010064
+name: open anatomical space
+def: "An anatomical space with at least one opening to another space or the exterior." []
+is_a: UBERON:0000464 ! anatomical space
 
 [Term]
 id: UBERON:0010077
