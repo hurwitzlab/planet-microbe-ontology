@@ -235,10 +235,8 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000187",
       "meta" : {
+        "comments" : [ "An electrical conduction unit which is equal to one microsiemen per centimeter." ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "An electrical conduction unit which is equal to one microsiemen per centimeter."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "Add to UO."
         } ]
@@ -648,6 +646,28 @@
       "type" : "CLASS",
       "lbl" : "autotrophic biomass formation process"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_PMO_00000142",
+      "meta" : {
+        "definition" : {
+          "val" : "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate.",
+          "xrefs" : [ "https://en.wikipedia.org/wiki/Total_inorganic_carbon" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "total inorganic carbon",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "CT = [CO2*] + [HCO3−] + [CO32−]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to ENVO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dissolved inorganic carbon"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000162",
       "meta" : {
         "definition" : {
@@ -807,12 +827,10 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "Depricate this is not actually a unit, just a scale to convert between Kelvin and Celcius at various pressures."
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "international temperature scale of 1990 unit"
@@ -916,17 +934,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000173",
       "meta" : {
-        "definition" : {
-          "val" : "The concentration of urea when measured in liquid water.",
-          "xrefs" : [ ]
-        },
+        "comments" : [ "Term replaced by ENVO:3200059" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Replace by ENVO:3200059 after next envo release."
-        } ]
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/ENVO_3200059"
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
-      "lbl" : "concentration of urea in liquid water"
+      "lbl" : "DEPRECATED concentration of urea in liquid water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000052",
       "meta" : {
@@ -1184,27 +1200,67 @@
       "type" : "CLASS",
       "lbl" : "data submission date"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000140",
+      "meta" : {
+        "definition" : {
+          "val" : "A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction.",
+          "xrefs" : [ "https://en.wikipedia.org/wiki/Equivalent_(chemistry)" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to UO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "equivalent unit"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000020",
       "meta" : {
         "definition" : {
           "val" : "A temperature which would inhere in a bearer if such bearer were adiabatically compressed from it's existing temperature and pressure to a standard presure.",
           "xrefs" : [ "http://paoc.mit.edu/synoptic/courses/12.310/assign3/A3_potential%20temperature.pdf" ]
         },
+        "comments" : [ "Standard pressure is typically one atmosphere." ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "theta",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Standard pressure is typically one atmosphere."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "Add to ENVO or PATO."
         } ]
       },
       "type" : "CLASS",
       "lbl" : "potential temperature"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000141",
+      "meta" : {
+        "definition" : {
+          "val" : "An equivalent unit which is equal to one microequivalent per kilogram.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Add to UO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microequivalent per kilogram"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000144",
+      "meta" : {
+        "definition" : {
+          "val" : "A site in which a sampling expidition process begins.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sampling expedition start location"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000023",
       "meta" : {
@@ -1233,6 +1289,20 @@
       },
       "type" : "CLASS",
       "lbl" : "specimen volume"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000145",
+      "meta" : {
+        "definition" : {
+          "val" : "A site in which a sampling expidition process terminates.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sampling expedition end location"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000021",
       "meta" : {
@@ -1267,6 +1337,20 @@
       "type" : "CLASS",
       "lbl" : "aquatic sample minimum filter fractionation size threshold"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000143",
+      "meta" : {
+        "definition" : {
+          "val" : "A site in which a sampling expidition process occurs.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sampling expedition site"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000016",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1276,6 +1360,34 @@
       },
       "type" : "CLASS",
       "lbl" : "number of observations averaged to produce device measurment datum"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000137",
+      "meta" : {
+        "definition" : {
+          "val" : "A time measurement datum that is the measure of the starting time when a sampling expedition is conducted.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Perhaps add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sampling expedition time measurement datum start"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000138",
+      "meta" : {
+        "definition" : {
+          "val" : "A time measurement datum that is the measure of the time when a sampling expedition is concluded.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Perhaps add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sampling expedition time measurement datum stop"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000017",
       "meta" : {
@@ -1301,6 +1413,33 @@
       "type" : "CLASS",
       "lbl" : "liquid water salinity"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000135",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "https://scripps.ucsd.edu/research/proposals/rolling-deck-repository-r2r"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Consider for deprecation."
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "Rolling Deck to Repository url"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000136",
+      "meta" : {
+        "definition" : {
+          "val" : "A time measurement datum that is the measure of the time when a sampling expedition is conducted.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Perhaps add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sampling expedition time measurement datum"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000015",
       "meta" : {
         "definition" : {
@@ -1315,19 +1454,31 @@
       "type" : "CLASS",
       "lbl" : "photosynthetically active electromagnetic radiation of liquid water"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PMO_00000018",
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000139",
       "meta" : {
         "definition" : {
-          "val" : "The concentration of nitrate and nitrite when measured in water.",
+          "val" : "The alkalinity of some liquid water.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Add to envo, see ENVO issue #663 https://github.com/EnvironmentOntology/envo/issues/663"
+          "val" : "Add to ENVO or PATO."
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "concentration of nitrate and nitrite in water"
+      "lbl" : "alkalinity of water"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000018",
+      "meta" : {
+        "comments" : [ "Term replaced by ENVO:03000123" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/ENVO_03000123"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS",
+      "lbl" : "DEPRECATED concentration of nitrate and nitrite in water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000019",
       "meta" : {
@@ -1349,15 +1500,13 @@
       "id" : "http://purl.obolibrary.org/obo/PMO_00000030",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
           "val" : "ENVO_3100032"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "http://purl.obolibrary.org/obo/ENVO_3100032"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "fluorescence of water"
@@ -1384,10 +1533,8 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "http://purl.obolibrary.org/obo/ENVO_3100026"
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "concentration of phosphate in water"
@@ -1476,22 +1623,6 @@
       "type" : "CLASS",
       "lbl" : "atmosphere unit"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PMO_00000032",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "ENVO:3100027"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "http://purl.obolibrary.org/obo/ENVO_3100027"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "concentration of silicate(4-) in water"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000153",
       "meta" : {
         "definition" : {
@@ -1505,6 +1636,20 @@
       },
       "type" : "CLASS",
       "lbl" : "particulate phosphorus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000032",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "ENVO:3100027"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "http://purl.obolibrary.org/obo/ENVO_3100027"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of silicate(4-) in water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000033",
       "meta" : {
@@ -1534,21 +1679,48 @@
       "type" : "CLASS",
       "lbl" : "nanomole per kilogram"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000148",
+      "meta" : {
+        "definition" : {
+          "val" : "A material sampling process during which observations and measurments are taken by a remote measrument device which is not in physical contact with the site under observation.",
+          "xrefs" : [ ]
+        },
+        "comments" : [ "For example a satellite measurement." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean and add axiom and add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "remote observation sampling process"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000027",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "http://purl.obolibrary.org/obo/ENVO_3100022"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
           "val" : "ENVO:3100022"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "concentration of nitrate in water"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000149",
+      "meta" : {
+        "definition" : {
+          "val" : "A site where a specimen collection process occurs.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean and add to BCO."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "specimen collection process site"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000028",
       "meta" : {
@@ -1558,13 +1730,31 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
           "val" : "ENVO:3100033"
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "pressure of water"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000146",
+      "meta" : {
+        "definition" : {
+          "val" : "A material sampling process during which a conductivity temperature and pressure sampling device is employed.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Should be observing process"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "conductivity temperature pressure sampling process"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000025",
       "meta" : {
@@ -1588,13 +1778,25 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "http://purl.obolibrary.org/obo/ENVO_3100036"
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "concentration of chlorophyll in water"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000147",
+      "meta" : {
+        "definition" : {
+          "val" : "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Clean and add axiom and add to BCO. Ramona wants this."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "net tow sampling process"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000029",
       "meta" : {
@@ -1602,29 +1804,13 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
           "val" : "ENVO:3100031"
         }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "http://purl.obolibrary.org/obo/ENVO_3100031"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
       "lbl" : "depth of water"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138",
-      "meta" : {
-        "definition" : {
-          "val" : "A time measurement datum that is the measure of the time when a sampling expedition is concluded.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Perhaps add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "sampling expedition time measurement datum stop"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000081",
       "meta" : {
@@ -1657,34 +1843,6 @@
       "type" : "PROPERTY",
       "lbl" : "Country Code"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139",
-      "meta" : {
-        "definition" : {
-          "val" : "The alkalinity of some liquid water.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Add to ENVO or PATO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "alkalinity of water"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136",
-      "meta" : {
-        "definition" : {
-          "val" : "A time measurement datum that is the measure of the time when a sampling expedition is conducted.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Perhaps add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "sampling expedition time measurement datum"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000080",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1694,20 +1852,6 @@
       },
       "type" : "CLASS",
       "lbl" : "time zone"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137",
-      "meta" : {
-        "definition" : {
-          "val" : "A time measurement datum that is the measure of the starting time when a sampling expedition is conducted.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Perhaps add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "sampling expedition time measurement datum start"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000085",
       "meta" : {
@@ -1734,16 +1878,6 @@
       "type" : "CLASS",
       "lbl" : "biogeochemical province"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "a link to a centrally registered identifier. Consider for deprecation."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "centrally registered identifier url"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000086",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1753,19 +1887,6 @@
       },
       "type" : "CLASS",
       "lbl" : "biogeochemical province label"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Consider for deprecation."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "https://scripps.ucsd.edu/research/proposals/rolling-deck-repository-r2r"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "Rolling Deck to Repository url"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000083",
       "meta" : {
@@ -1780,19 +1901,6 @@
       },
       "type" : "CLASS",
       "lbl" : "distance between site and country border"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "links to the same idea of a project as 'project investigation identifier'"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Consider for deprecation."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "project url"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000084",
       "meta" : {
@@ -2019,20 +2127,6 @@
       "type" : "CLASS",
       "lbl" : "International Hydrographic Organization Sea Area"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149",
-      "meta" : {
-        "definition" : {
-          "val" : "A site where a specimen collection process occurs.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean and add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "specimen collection process site"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000093",
       "meta" : {
         "definition" : {
@@ -2063,20 +2157,6 @@
       "type" : "CLASS",
       "lbl" : "distance between a site and a geographic location"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147",
-      "meta" : {
-        "definition" : {
-          "val" : "A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean and add axiom and add to BCO. Ramona wants this."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "net tow sampling process"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000091",
       "meta" : {
         "definition" : {
@@ -2097,57 +2177,6 @@
       "type" : "CLASS",
       "lbl" : "Large Marine Ecosystem"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148",
-      "meta" : {
-        "definition" : {
-          "val" : "A material sampling process during which observations and measurments are taken by a remote measrument device which is not in physical contact with the site under observation.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "For example a satellite measurement."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean and add axiom and add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "remote observation sampling process"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145",
-      "meta" : {
-        "definition" : {
-          "val" : "A site in which a sampling expidition process terminates.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "sampling expedition end location"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146",
-      "meta" : {
-        "definition" : {
-          "val" : "A material sampling process during which a conductivity temperature and pressure sampling device is employed.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Should be observing process"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "conductivity temperature pressure sampling process"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000130",
       "meta" : {
         "definition" : {
@@ -2161,34 +2190,6 @@
       },
       "type" : "CLASS",
       "lbl" : "milisiemens per centimeter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143",
-      "meta" : {
-        "definition" : {
-          "val" : "A site in which a sampling expidition process occurs.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "sampling expedition site"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144",
-      "meta" : {
-        "definition" : {
-          "val" : "A site in which a sampling expidition process begins.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "sampling expedition start location"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000012",
       "meta" : {
@@ -2204,55 +2205,40 @@
       "type" : "CLASS",
       "lbl" : "rosette sampling device niskin position"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141",
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000133",
       "meta" : {
-        "definition" : {
-          "val" : "An equivalent unit which is equal to one microequivalent per kilogram.",
-          "xrefs" : [ ]
-        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Add to UO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "microequivalent per kilogram"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142",
-      "meta" : {
-        "definition" : {
-          "val" : "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate.",
-          "xrefs" : [ "https://en.wikipedia.org/wiki/Total_inorganic_carbon" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "total inorganic carbon",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "CT = [CO2*] + [HCO3−] + [CO32−]"
+          "val" : "Consider for deprecation."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Add to ENVO."
+          "val" : "links to the same idea of a project as 'project investigation identifier'"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "dissolved inorganic carbon"
+      "lbl" : "project url"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000013",
       "meta" : {
-        "definition" : {
-          "val" : "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per volume of solution.",
-          "xrefs" : [ ]
-        },
+        "comments" : [ "Term Replaced by PATO:0085001" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0085001"
+        } ],
+        "deprecated" : true
+      },
+      "type" : "CLASS",
+      "lbl" : "DEPRECATED salinity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PMO_00000134",
+      "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "To add to PATO or ENVO."
+          "val" : "a link to a centrally registered identifier. Consider for deprecation."
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "salinity"
+      "lbl" : "centrally registered identifier url"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000131",
       "meta" : {
@@ -2290,20 +2276,6 @@
       },
       "type" : "CLASS",
       "lbl" : "miligram per cubic meter"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140",
-      "meta" : {
-        "definition" : {
-          "val" : "A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction.",
-          "xrefs" : [ "https://en.wikipedia.org/wiki/Equivalent_(chemistry)" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Add to UO."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "equivalent unit"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PMO_00000011",
       "meta" : {
@@ -2501,10 +2473,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000968"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000173",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000168",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000052",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000167"
@@ -2516,10 +2484,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000160",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000158"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000073",
       "pred" : "is_a",
@@ -2537,6 +2501,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000074"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000140",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000128",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000127"
@@ -2548,6 +2516,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000108",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000138",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000136"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000010",
       "pred" : "is_a",
@@ -2561,17 +2533,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000009"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000029"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000192",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001430"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000126",
       "pred" : "is_a",
@@ -2617,10 +2581,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000048"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000018",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000017",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000016"
@@ -2657,10 +2617,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000152"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000171",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000063"
@@ -2668,6 +2624,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000033",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000109"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000141",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000140"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000103",
       "pred" : "is_a",
@@ -2685,10 +2645,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0001621"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000014",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000013"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000084",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000009"
@@ -2701,6 +2657,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000061"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000145",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000143"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000026",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
@@ -2708,6 +2668,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000105",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000167",
       "pred" : "is_a",
@@ -2717,13 +2681,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000100"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000189",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000188"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000133",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000025",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000052",
@@ -2753,6 +2717,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0001620"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000135",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000134"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000165",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000164"
@@ -2768,14 +2736,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000175",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000178",
       "pred" : "is_a",
@@ -2805,13 +2765,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000013",
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000014",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001655"
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0085001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000009",
       "pred" : "is_a",
@@ -2821,17 +2777,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000300"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149",
+      "sub" : "http://purl.obolibrary.org/obo/PMO_PMO_00000142",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000109"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000149",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000029"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000132",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000052"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000087",
       "pred" : "is_a",
@@ -2881,6 +2837,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000315"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000143",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000029"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000161",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000158"
@@ -2913,6 +2873,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000137",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000136"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000159",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000158"
@@ -2929,9 +2893,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134",
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000139",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001430"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000188",
       "pred" : "is_a",
@@ -2940,10 +2904,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000004",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000003"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000066",
       "pred" : "is_a",
@@ -2993,10 +2953,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000044"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000416"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000124",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0001901"
@@ -3005,13 +2961,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000056"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000080",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000416"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000162",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000185"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000416"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000025",
       "pred" : "is_a",
@@ -3020,10 +2976,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000065",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000060"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000047",
       "pred" : "is_a",
@@ -3036,6 +2988,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000127",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000047"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000112",
       "pred" : "is_a",
@@ -3073,13 +3029,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PMO_00000168"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146",
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000144",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000177",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PMO_00000140"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000052",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_3100031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000136",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000416"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000106",
       "pred" : "is_a",
@@ -3089,13 +3053,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000063"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000146",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000125",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UO_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/PMO_00000177",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000085",
       "pred" : "is_a",
@@ -3104,10 +3068,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000100",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCO_0000029"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000021",
       "pred" : "is_a",
@@ -3120,6 +3080,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000168",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000117"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PMO_00000148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000744"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000174",
       "pred" : "is_a",
@@ -3140,10 +3104,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000007",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0001628"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PMO_00000074",
       "pred" : "is_a",
@@ -3177,25 +3137,25 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "Planet Microbe Ontology"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2020-02-06/pmo-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/pmo/releases/2021-12-17/pmo-base.owl"
     },
     "equivalentNodesSets" : [ {
       "nodeIds" : [ "http://purl.obolibrary.org/obo/PMO_00000050", "http://purl.obolibrary.org/obo/PMO_00000051" ]
     } ],
     "logicalDefinitionAxioms" : [ {
-      "definedClassId" : "http://purl.obolibrary.org/obo/PMO_00000014",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/PMO_00000013" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000052",
-        "fillerId" : "http://purl.obolibrary.org/obo/ENVO_00002006"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PMO_00000174",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000033" ],
       "restrictions" : [ null ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PMO_00000015",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0001291" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000052",
+        "fillerId" : "http://purl.obolibrary.org/obo/ENVO_00002006"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PMO_00000014",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0085001" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0000052",
         "fillerId" : "http://purl.obolibrary.org/obo/ENVO_00002006"

@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pmo/pmo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2020-02-06/pmo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pmo/releases/2021-12-17/pmo-base.owl"/>
         <rdfs:comment>Planet Microbe Ontology</rdfs:comment>
     </owl:Ontology>
     
@@ -431,9 +431,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0001655 -->
+    <!-- http://purl.obolibrary.org/obo/PATO_0085001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001655"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0085001"/>
     
 
 
@@ -562,10 +562,10 @@
     <!-- http://purl.obolibrary.org/obo/PMO_00000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001655"/>
-        <obo:IAO_0000115>An osmolarity quality inhering in a bearer by virtue of the bearer&apos;s amount of solute, composed primarily of dissolved ionic compounds, per volume of solution.</obo:IAO_0000115>
-        <obo:IAO_0000116>To add to PATO or ENVO.</obo:IAO_0000116>
-        <rdfs:label>salinity</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Term Replaced by PATO:0085001</rdfs:comment>
+        <rdfs:label>DEPRECATED salinity</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0085001"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -576,7 +576,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PMO_00000013"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0085001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
@@ -584,7 +584,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000013"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0085001"/>
         <obo:IAO_0000115>A salinity quality which inheres in liquid water.</obo:IAO_0000115>
         <obo:IAO_0000116>To add to ENVO.</obo:IAO_0000116>
         <rdfs:label>liquid water salinity</rdfs:label>
@@ -636,10 +636,10 @@
     <!-- http://purl.obolibrary.org/obo/PMO_00000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
-        <obo:IAO_0000115>The concentration of nitrate and nitrite when measured in water.</obo:IAO_0000115>
-        <obo:IAO_0000116>Add to envo, see ENVO issue #663 https://github.com/EnvironmentOntology/envo/issues/663</obo:IAO_0000116>
-        <rdfs:label>concentration of nitrate and nitrite in water</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Term replaced by ENVO:03000123</rdfs:comment>
+        <rdfs:label>DEPRECATED concentration of nitrate and nitrite in water</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000123"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1836,6 +1836,179 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PMO_00000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000047"/>
+        <obo:IAO_0000116>Consider for deprecation.</obo:IAO_0000116>
+        <obo:IAO_0000116>links to the same idea of a project as &apos;project investigation identifier&apos;</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">project url</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000047"/>
+        <obo:IAO_0000116>a link to a centrally registered identifier. Consider for deprecation.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">centrally registered identifier url</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>A time measurement datum that is the measure of the time when a sampling expedition is conducted.</obo:IAO_0000115>
+        <obo:IAO_0000116>Perhaps add to BCO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sampling expedition time measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000136"/>
+        <obo:IAO_0000115>A time measurement datum that is the measure of the starting time when a sampling expedition is conducted.</obo:IAO_0000115>
+        <obo:IAO_0000116>Perhaps add to BCO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sampling expedition time measurement datum start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000136"/>
+        <obo:IAO_0000115>A time measurement datum that is the measure of the time when a sampling expedition is concluded.</obo:IAO_0000115>
+        <obo:IAO_0000116>Perhaps add to BCO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sampling expedition time measurement datum stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+        <obo:IAO_0000115>The alkalinity of some liquid water.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO or PATO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">alkalinity of water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <obo:IAO_0000115>A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">equivalent unit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_00000140"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Equivalent_(chemistry)</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000140"/>
+        <obo:IAO_0000115>An equivalent unit which is equal to one microequivalent per kilogram.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">microequivalent per kilogram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115>A site in which a sampling expidition process occurs.</obo:IAO_0000115>
+        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sampling expedition site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000143"/>
+        <obo:IAO_0000115>A site in which a sampling expidition process begins.</obo:IAO_0000115>
+        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sampling expedition start location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000143"/>
+        <obo:IAO_0000115>A site in which a sampling expidition process terminates.</obo:IAO_0000115>
+        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">sampling expedition end location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
+        <obo:IAO_0000115>A material sampling process during which a conductivity temperature and pressure sampling device is employed.</obo:IAO_0000115>
+        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO.</obo:IAO_0000116>
+        <obo:IAO_0000116>Should be observing process</obo:IAO_0000116>
+        <obo:IAO_0000116>To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">conductivity temperature pressure sampling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
+        <obo:IAO_0000115>A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.</obo:IAO_0000115>
+        <obo:IAO_0000116>Clean and add axiom and add to BCO. Ramona wants this.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">net tow sampling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
+        <obo:IAO_0000115>A material sampling process during which observations and measurments are taken by a remote measrument device which is not in physical contact with the site under observation.</obo:IAO_0000115>
+        <obo:IAO_0000116>Clean and add axiom and add to BCO.</obo:IAO_0000116>
+        <rdfs:comment>For example a satellite measurement.</rdfs:comment>
+        <rdfs:label xml:lang="en">remote observation sampling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PMO_00000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115>A site where a specimen collection process occurs.</obo:IAO_0000115>
+        <obo:IAO_0000116>Clean and add to BCO.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">specimen collection process site</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PMO_00000150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000150">
@@ -2164,10 +2337,10 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     <!-- http://purl.obolibrary.org/obo/PMO_00000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
-        <obo:IAO_0000115>The concentration of urea when measured in liquid water.</obo:IAO_0000115>
-        <obo:IAO_0000116>Replace by ENVO:3200059 after next envo release.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">concentration of urea in liquid water</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Term replaced by ENVO:3200059</rdfs:comment>
+        <rdfs:label xml:lang="en">DEPRECATED concentration of urea in liquid water</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ENVO_3200059"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2229,7 +2402,7 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     <!-- http://purl.obolibrary.org/obo/PMO_00000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_00000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000140"/>
         <obo:IAO_0000115>An equivalent unit which is equal to one milliequivalent per liter.</obo:IAO_0000115>
         <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
         <rdfs:label xml:lang="en">milliequivalent per liter</rdfs:label>
@@ -2420,6 +2593,25 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PMO_PMO_00000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PMO_PMO_00000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000109"/>
+        <obo:IAO_0000115>An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate.</obo:IAO_0000115>
+        <obo:IAO_0000116>Add to ENVO.</obo:IAO_0000116>
+        <obo:IAO_0000116>CT = [CO2*] + [HCO3−] + [CO32−]</obo:IAO_0000116>
+        <oboInOwl:hasExactSynonym>total inorganic carbon</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">dissolved inorganic carbon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PMO_PMO_00000142"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Total_inorganic_carbon</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000000"/>
@@ -2468,198 +2660,6 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000047"/>
-        <obo:IAO_0000116>Consider for deprecation.</obo:IAO_0000116>
-        <obo:IAO_0000116>links to the same idea of a project as &apos;project investigation identifier&apos;</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">project url</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000047"/>
-        <obo:IAO_0000116>a link to a centrally registered identifier. Consider for deprecation.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">centrally registered identifier url</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum that is the measure of the time when a sampling expedition is conducted.</obo:IAO_0000115>
-        <obo:IAO_0000116>Perhaps add to BCO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">sampling expedition time measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000137">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136"/>
-        <obo:IAO_0000115>A time measurement datum that is the measure of the starting time when a sampling expedition is conducted.</obo:IAO_0000115>
-        <obo:IAO_0000116>Perhaps add to BCO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">sampling expedition time measurement datum start</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000136"/>
-        <obo:IAO_0000115>A time measurement datum that is the measure of the time when a sampling expedition is concluded.</obo:IAO_0000115>
-        <obo:IAO_0000116>Perhaps add to BCO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">sampling expedition time measurement datum stop</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000139">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
-        <obo:IAO_0000115>The alkalinity of some liquid water.</obo:IAO_0000115>
-        <obo:IAO_0000116>Add to ENVO or PATO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">alkalinity of water</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <obo:IAO_0000115>A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction.</obo:IAO_0000115>
-        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">equivalent unit</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A unit which represents a standard measurment of the amount of a substance that reacts with an arbitrary amount of another substance in a given chemical reaction.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Equivalent_(chemistry)</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000140"/>
-        <obo:IAO_0000115>An equivalent unit which is equal to one microequivalent per kilogram.</obo:IAO_0000115>
-        <obo:IAO_0000116>Add to UO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">microequivalent per kilogram</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PMO_00000109"/>
-        <obo:IAO_0000115>An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate.</obo:IAO_0000115>
-        <obo:IAO_0000116>Add to ENVO.</obo:IAO_0000116>
-        <obo:IAO_0000116>CT = [CO2*] + [HCO3−] + [CO32−]</obo:IAO_0000116>
-        <oboInOwl:hasExactSynonym>total inorganic carbon</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">dissolved inorganic carbon</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000142"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Total_inorganic_carbon</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
-        <obo:IAO_0000115>A site in which a sampling expidition process occurs.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">sampling expedition site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143"/>
-        <obo:IAO_0000115>A site in which a sampling expidition process begins.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">sampling expedition start location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000143"/>
-        <obo:IAO_0000115>A site in which a sampling expidition process terminates.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling expedition? Add axiom and add to BCO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">sampling expedition end location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
-        <obo:IAO_0000115>A material sampling process during which a conductivity temperature and pressure sampling device is employed.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean maybe change to specimen collection instead of sampling collection? Add axiom and add to BCO.</obo:IAO_0000116>
-        <obo:IAO_0000116>Should be observing process</obo:IAO_0000116>
-        <obo:IAO_0000116>To conduct a material sampling process using a CTD to gather information about the water column. May need another subclass between this and material sampling process.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">conductivity temperature pressure sampling process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
-        <obo:IAO_0000115>A material sampling process during which a net is towed through an aquatic water body in order to collect a sample of organisms residing there in.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean and add axiom and add to BCO. Ramona wants this.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">net tow sampling process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000744"/>
-        <obo:IAO_0000115>A material sampling process during which observations and measurments are taken by a remote measrument device which is not in physical contact with the site under observation.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean and add axiom and add to BCO.</obo:IAO_0000116>
-        <rdfs:comment>For example a satellite measurement.</rdfs:comment>
-        <rdfs:label xml:lang="en">remote observation sampling process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
-        <obo:IAO_0000115>A site where a specimen collection process occurs.</obo:IAO_0000115>
-        <obo:IAO_0000116>Clean and add to BCO.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">specimen collection process site</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2671,10 +2671,10 @@ see https://www.ncbi.nlm.nih.gov/Sequin/acc.html where the prefix AB is a code f
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135 -->
+    <!-- http://purl.obolibrary.org/obo/PMO_00000135 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000135">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/pmo.owl/PMO_00000134"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PMO_00000135">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PMO_00000134"/>
         <obo:IAO_0000116>Consider for deprecation.</obo:IAO_0000116>
         <obo:IAO_0000116>https://scripps.ucsd.edu/research/proposals/rolling-deck-repository-r2r</obo:IAO_0000116>
         <rdfs:label xml:lang="en">Rolling Deck to Repository url</rdfs:label>
