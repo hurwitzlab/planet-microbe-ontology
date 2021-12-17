@@ -1297,12 +1297,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000172> "minimum depth of water collected during specimen collection process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000172> <http://purl.obolibrary.org/obo/ENVO_3100031>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000173> (concentration of urea in liquid water)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000173> (DEPRECATED concentration of urea in liquid water)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000173> "The concentration of urea when measured in liquid water.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000173> "Replace by ENVO:3200059 after next envo release.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000173> "concentration of urea in liquid water"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000173> <http://purl.obolibrary.org/obo/PATO_0000033>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PMO_00000173> "Term replaced by ENVO:3200059"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000173> "DEPRECATED concentration of urea in liquid water"@en)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/PMO_00000173> <http://purl.obolibrary.org/obo/ENVO_3200059>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000173> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000174> (concentration of carbon dioxide in liquid water)
 
