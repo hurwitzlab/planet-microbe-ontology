@@ -312,12 +312,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000017> "number of observations averaged at pressure level to produce CTD measurment datum")
 SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000017> <http://purl.obolibrary.org/obo/PMO_00000016>)
 
-# Class: <http://purl.obolibrary.org/obo/PMO_00000018> (concentration of nitrate and nitrite in water)
+# Class: <http://purl.obolibrary.org/obo/PMO_00000018> (DEPRECATED concentration of nitrate and nitrite in water)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PMO_00000018> "The concentration of nitrate and nitrite when measured in water.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/PMO_00000018> "Add to envo, see ENVO issue #663 https://github.com/EnvironmentOntology/envo/issues/663")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000018> "concentration of nitrate and nitrite in water")
-SubClassOf(<http://purl.obolibrary.org/obo/PMO_00000018> <http://purl.obolibrary.org/obo/PATO_0000033>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PMO_00000018> "Term replaced by ENVO:03000123"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PMO_00000018> "DEPRECATED concentration of nitrate and nitrite in water")
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/PMO_00000018> <http://purl.obolibrary.org/obo/ENVO_03000123>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PMO_00000018> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/PMO_00000019> (replicate)
 
