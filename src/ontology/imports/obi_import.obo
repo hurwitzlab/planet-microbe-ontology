@@ -1376,6 +1376,16 @@ property_value: IAO:0000114 IAO:0000120
 property_value: IAO:0000117 "PERSON: Lawrence Hunter" xsd:string
 
 [Term]
+id: IAO:0000311
+name: publication
+def: "A document that has been accepted by a publisher" []
+is_a: IAO:0000310 ! document
+property_value: IAO:0000111 "publication" xsd:string
+property_value: IAO:0000112 "A journal article or book" xsd:string
+property_value: IAO:0000114 IAO:0000120
+property_value: IAO:0000117 "PERSON: Lawrence Hunter" xsd:string
+
+[Term]
 id: IAO:0000409
 name: denotator type
 def: "A denotator type indicates how a term should be interpreted from an ontological perspective." []
@@ -1484,6 +1494,14 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "PERSON: Bill Hogan" xsd:string
 property_value: IAO:0000119 https://github.com/information-artifact-ontology/IAO/issues/114 xsd:string
 property_value: IAO:0000232 "The qualifier \"written\" is to set it apart from spoken names.  Also, note the restrictions to particulars.  We are not naming universals.   We could however, be naming, attributive collections which are particulars, so \"All people located in the boundaries of the city of Little Rock, AR on June 18, 2011 at 9:50a CDT\" would be a name." xsd:string
+
+[Term]
+id: IAO:0020000
+name: identifier
+def: "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity." []
+is_a: IAO:0000030 ! information content entity
+property_value: IAO:0000111 "identifier" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao/pno.owl
 
 [Term]
 id: NCBITaxon:10090
