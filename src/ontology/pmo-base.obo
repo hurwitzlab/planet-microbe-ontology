@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pmo/releases/2020-02-06/pmo-base.owl
+data-version: pmo/releases/2021-12-17/pmo-base.owl
 remark: Planet Microbe Ontology
 ontology: pmo/pmo-base
 
@@ -71,17 +71,17 @@ property_value: IAO:0000116 "Perhaps depricate this term." xsd:string
 
 [Term]
 id: PMO:00000013
-name: salinity
-def: "An osmolarity quality inhering in a bearer by virtue of the bearer's amount of solute, composed primarily of dissolved ionic compounds, per volume of solution." []
-is_a: PATO:0001655
-property_value: IAO:0000116 "To add to PATO or ENVO." xsd:string
+name: DEPRECATED salinity
+comment: Term Replaced by PATO:0085001
+property_value: seeAlso PATO:0085001
+is_obsolete: true
 
 [Term]
 id: PMO:00000014
 name: liquid water salinity
 def: "A salinity quality which inheres in liquid water." []
-is_a: PMO:00000013 ! salinity
-intersection_of: PMO:00000013 ! salinity
+is_a: PATO:0085001
+intersection_of: PATO:0085001
 intersection_of: RO:0000052 ENVO:00002006
 property_value: IAO:0000116 "To add to ENVO." xsd:string
 
@@ -107,10 +107,10 @@ property_value: IAO:0000116 "Perhaps depricate." xsd:string
 
 [Term]
 id: PMO:00000018
-name: concentration of nitrate and nitrite in water
-def: "The concentration of nitrate and nitrite when measured in water." []
-is_a: PATO:0000033
-property_value: IAO:0000116 "Add to envo, see ENVO issue #663 https://github.com/EnvironmentOntology/envo/issues/663" xsd:string
+name: DEPRECATED concentration of nitrate and nitrite in water
+comment: Term replaced by ENVO:03000123
+property_value: seeAlso ENVO:03000123
+is_obsolete: true
 
 [Term]
 id: PMO:00000019
@@ -864,15 +864,6 @@ is_a: PMO:00000140 ! equivalent unit
 property_value: IAO:0000116 "Add to UO." xsd:string
 
 [Term]
-id: PMO:00000142
-name: dissolved inorganic carbon
-def: "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate." [https://en.wikipedia.org/wiki/Total_inorganic_carbon]
-synonym: "total inorganic carbon" EXACT []
-is_a: PMO:00000109 ! aggregation of carbon molecules
-property_value: IAO:0000116 "Add to ENVO." xsd:string
-property_value: IAO:0000116 "CT = [CO2*] + [HCO3−] + [CO32−]" xsd:string
-
-[Term]
 id: PMO:00000143
 name: sampling expedition site
 def: "A site in which a sampling expidition process occurs." []
@@ -1094,10 +1085,10 @@ property_value: IAO:0000116 "Perhaps this term should be pushed to BCO or OBI? O
 
 [Term]
 id: PMO:00000173
-name: concentration of urea in liquid water
-def: "The concentration of urea when measured in liquid water." []
-is_a: PATO:0000033
-property_value: IAO:0000116 "Replace by ENVO:3200059 after next envo release." xsd:string
+name: DEPRECATED concentration of urea in liquid water
+comment: Term replaced by ENVO:3200059
+property_value: seeAlso ENVO:3200059
+is_obsolete: true
 
 [Term]
 id: PMO:00000174
@@ -1238,4 +1229,13 @@ name: nephelometric turbidity unit
 def: "A turbidity unit in which a nephelometer is used to measure scattered light from a liquid water sample at a 90-degree angle from the incident light." [https://en.wikipedia.org/wiki/Turbidity, https://support.hach.com/app/answers/answer_view/a_id/1000336/~/what-is-the-difference-between-the-turbidity-units-ntu%2C-fnu%2C-ftu%2C-and-fau%3F-what]
 is_a: UO:0000315
 property_value: IAO:0000116 "Add to UO." xsd:string
+
+[Term]
+id: PMO_PMO:00000142
+name: dissolved inorganic carbon
+def: "An aggregation of carbon molecules which comprises the sum of inorganic carbon species in a solution including  carbon dioxide, carbonic acid, bicarbonate anion, and carbonate." [https://en.wikipedia.org/wiki/Total_inorganic_carbon]
+synonym: "total inorganic carbon" EXACT []
+is_a: PMO:00000109 ! aggregation of carbon molecules
+property_value: IAO:0000116 "Add to ENVO." xsd:string
+property_value: IAO:0000116 "CT = [CO2*] + [HCO3−] + [CO32−]" xsd:string
 
